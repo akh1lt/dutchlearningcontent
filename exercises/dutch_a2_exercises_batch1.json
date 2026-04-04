@@ -1,0 +1,1013 @@
+{
+  "metadata": {
+    "batch": 1,
+    "exercises_in_batch": 100,
+    "total_planned": 300,
+    "themes_covered": ["healthcare", "housing", "daily_life", "appointments", "weather", "shopping"],
+    "exercise_types": ["contextual_usage", "article_recognition", "vocabulary_translation", "confusing_pairs", "sentence_completion"],
+    "difficulty": "A2 - Inburgering focused",
+    "notes": "Batch 1 focuses on high-frequency exam-critical vocabulary with article testing and confusing pairs"
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "contextual_usage",
+      "theme": "healthcare",
+      "question": "You have a toothache. Where do you go? Ik ga naar de ______.",
+      "options": { "A": "apotheek", "B": "ziekenhuis", "C": "tandarts", "D": "dokter" },
+      "correct_answer": "C",
+      "explanation": "Tandarts = dentist. Apotheek = pharmacy (for medicine). Ziekenhuis = hospital (emergencies). Dokter = general doctor (GP).",
+      "grammar_focus": "healthcare vocabulary – destinations"
+    },
+    {
+      "id": 2,
+      "type": "contextual_usage",
+      "theme": "healthcare",
+      "question": "You need a prescription picked up. Where do you go? Ik ga naar de ______.",
+      "options": { "A": "tandarts", "B": "apotheek", "C": "sportschool", "D": "bakkerij" },
+      "correct_answer": "B",
+      "explanation": "Apotheek = pharmacy, where you collect prescriptions and medicine. Don't confuse with dokter (who writes the prescription).",
+      "grammar_focus": "healthcare vocabulary"
+    },
+    {
+      "id": 3,
+      "type": "confusing_pairs",
+      "theme": "housing",
+      "question": "You want to live in a house as a tenant. Ik wil een huis ______.",
+      "options": { "A": "verhuren", "B": "huren", "C": "verkopen", "D": "kopen" },
+      "correct_answer": "B",
+      "explanation": "Huren = to rent (as tenant). Verhuren = to rent OUT (as landlord). This is a critical pair for housing applications and the inburgering exam.",
+      "grammar_focus": "verb pair confusion: huren vs verhuren"
+    },
+    {
+      "id": 4,
+      "type": "confusing_pairs",
+      "theme": "housing",
+      "question": "You own an apartment and want to earn money from it. Ik ga mijn appartement ______.",
+      "options": { "A": "huren", "B": "kopen", "C": "verhuren", "D": "verbouwen" },
+      "correct_answer": "C",
+      "explanation": "Verhuren = to rent out (landlord perspective). Huren = to rent (tenant perspective). Verbouwen = to renovate.",
+      "grammar_focus": "verb pair confusion: huren vs verhuren"
+    },
+    {
+      "id": 5,
+      "type": "article_recognition",
+      "theme": "healthcare",
+      "question": "What is the correct article for 'ziekenhuis' (hospital)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het ziekenhuis. Rule of thumb: most compound words ending in -huis are 'het' (het huis, het stadhuis, het ziekenhuis).",
+      "grammar_focus": "de vs het – compound nouns with -huis"
+    },
+    {
+      "id": 6,
+      "type": "article_recognition",
+      "theme": "healthcare",
+      "question": "What is the correct article for 'dokter' (doctor)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De dokter. People and professional roles are almost always 'de' in Dutch.",
+      "grammar_focus": "de vs het – professions/people"
+    },
+    {
+      "id": 7,
+      "type": "article_recognition",
+      "theme": "healthcare",
+      "question": "What is the correct article for 'apotheek' (pharmacy)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De apotheek. Most shops and services use 'de'. Also: de bakkerij, de slager, de supermarkt.",
+      "grammar_focus": "de vs het – shops and services"
+    },
+    {
+      "id": 8,
+      "type": "article_recognition",
+      "theme": "housing",
+      "question": "What is the correct article for 'appartement' (apartment)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het appartement. Words ending in -ment are almost always 'het' in Dutch (het moment, het document, het appartement).",
+      "grammar_focus": "de vs het – suffix rule -ment"
+    },
+    {
+      "id": 9,
+      "type": "article_recognition",
+      "theme": "housing",
+      "question": "What is the correct article for 'woonkamer' (living room)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De woonkamer. Most rooms in a house use 'de': de keuken, de slaapkamer, de badkamer, de woonkamer.",
+      "grammar_focus": "de vs het – rooms"
+    },
+    {
+      "id": 10,
+      "type": "article_recognition",
+      "theme": "housing",
+      "question": "What is the correct article for 'huis' (house)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het huis. This is a key word to memorize. Note: het huis, but de woning (another word for house/dwelling).",
+      "grammar_focus": "de vs het – het huis exception"
+    },
+    {
+      "id": 11,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'afspreken' mean?",
+      "options": { "A": "to cancel", "B": "to agree / make an appointment", "C": "to call", "D": "to forget" },
+      "correct_answer": "B",
+      "explanation": "Afspreken = to make an appointment or agree to meet. De afspraak = the appointment. Very common in daily Dutch: 'Zullen we afspreken?' (Shall we meet up?)",
+      "grammar_focus": "separable verbs: af-spreken"
+    },
+    {
+      "id": 12,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'bereiken' mean?",
+      "options": { "A": "to travel", "B": "to call back", "C": "to reach / contact", "D": "to understand" },
+      "correct_answer": "C",
+      "explanation": "Bereiken = to reach (someone). From the sentences: 'Hoe kan ik je bereiken?' (How can I reach you?). Used for contact, not physical reaching.",
+      "grammar_focus": "verb: bereiken – communication context"
+    },
+    {
+      "id": 13,
+      "type": "sentence_completion",
+      "theme": "appointments",
+      "question": "Complete: Zullen we volgende week ______?",
+      "options": { "A": "bellen", "B": "werken", "C": "afspreken", "D": "studeren" },
+      "correct_answer": "C",
+      "explanation": "Afspreken = to arrange to meet. This is a very common appointment phrase in Dutch: 'Zullen we afspreken?' = 'Shall we meet up?'",
+      "grammar_focus": "making appointments vocabulary"
+    },
+    {
+      "id": 14,
+      "type": "sentence_completion",
+      "theme": "appointments",
+      "question": "Complete: Hoe laat zullen we ______?",
+      "options": { "A": "praten", "B": "afspreken", "C": "telefoneren", "D": "werken" },
+      "correct_answer": "B",
+      "explanation": "Afspreken = to arrange to meet. 'Hoe laat zullen we afspreken?' = 'What time shall we meet?' — a very common Dutch conversational phrase.",
+      "grammar_focus": "making appointments + time questions"
+    },
+    {
+      "id": 15,
+      "type": "contextual_usage",
+      "theme": "daily_life",
+      "question": "Someone asks 'Heb je morgen tijd?' and you want to say you're free. What do you say?",
+      "options": { "A": "Ik moet werken.", "B": "Ik heb geen tijd.", "C": "Ja, ik ben vrij!", "D": "Misschien later." },
+      "correct_answer": "C",
+      "explanation": "Vrij = free (available). Ik ben vrij = I am free. This is distinct from vrijheid (freedom) or vrijdag (Friday).",
+      "grammar_focus": "vrij – free/available vs busy"
+    },
+    {
+      "id": 16,
+      "type": "vocabulary_translation",
+      "theme": "transport",
+      "question": "What does 'openbaar vervoer' mean?",
+      "options": { "A": "private transport", "B": "public transport", "C": "car sharing", "D": "air travel" },
+      "correct_answer": "B",
+      "explanation": "Openbaar vervoer = public transport. From sentences: 'Met het openbaar vervoer. Dat is goedkoper.' This includes bus, tram, metro, train.",
+      "grammar_focus": "transport vocabulary"
+    },
+    {
+      "id": 17,
+      "type": "vocabulary_translation",
+      "theme": "transport",
+      "question": "What does 'rijbewijs' mean?",
+      "options": { "A": "bus pass", "B": "travel card", "C": "driver's licence", "D": "passport" },
+      "correct_answer": "C",
+      "explanation": "Rijbewijs = driver's licence. From sentences: 'Nee, ik heb geen rijbewijs.' Important vocabulary for official documents.",
+      "grammar_focus": "official documents vocabulary"
+    },
+    {
+      "id": 18,
+      "type": "article_recognition",
+      "theme": "transport",
+      "question": "What is the correct article for 'rijbewijs' (driver's licence)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het rijbewijs. Compound words ending in -wijs tend to be 'het'. Also het bewijs (proof/evidence).",
+      "grammar_focus": "de vs het – official documents"
+    },
+    {
+      "id": 19,
+      "type": "article_recognition",
+      "theme": "transport",
+      "question": "What is the correct article for 'trein' (train)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De trein. Most transport vehicles use 'de': de trein, de bus, de tram, de metro, de auto.",
+      "grammar_focus": "de vs het – vehicles"
+    },
+    {
+      "id": 20,
+      "type": "article_recognition",
+      "theme": "transport",
+      "question": "What is the correct article for 'fiets' (bicycle)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De fiets. Like most vehicles, fiets takes 'de'. Very important Dutch vocabulary — the Netherlands is famous for cycling!",
+      "grammar_focus": "de vs het – vehicles"
+    },
+    {
+      "id": 21,
+      "type": "sentence_completion",
+      "theme": "transport",
+      "question": "Complete: Ik ga met de ______ naar mijn werk. Het duurt 20 minuten.",
+      "options": { "A": "vliegtuig", "B": "boot", "C": "trein", "D": "metro" },
+      "correct_answer": "C",
+      "explanation": "From the corpus: 'Ik ga met de trein. Dat duurt 20 minuten.' Trein = train. This phrase pattern (met de + transport) is very common.",
+      "grammar_focus": "transport preposition: met de..."
+    },
+    {
+      "id": 22,
+      "type": "vocabulary_translation",
+      "theme": "weather",
+      "question": "What does 'het vriest' mean?",
+      "options": { "A": "it is raining", "B": "it is snowing", "C": "it is freezing", "D": "it is windy" },
+      "correct_answer": "C",
+      "explanation": "Vriezen = to freeze. Het vriest = it is freezing. From the corpus: 'Ja, het vriest. Maar morgen wordt het warmer.'",
+      "grammar_focus": "weather impersonal verbs: het vriest, het regent, het sneeuwt"
+    },
+    {
+      "id": 23,
+      "type": "vocabulary_translation",
+      "theme": "weather",
+      "question": "What does 'de zon schijnt' mean?",
+      "options": { "A": "the sun is setting", "B": "the sun is shining", "C": "it is cloudy", "D": "the sun is rising" },
+      "correct_answer": "B",
+      "explanation": "Schijnen = to shine. De zon schijnt = the sun is shining. From the corpus: 'Ja, de zon schijnt en het is warm.'",
+      "grammar_focus": "weather vocabulary – de zon schijnt"
+    },
+    {
+      "id": 24,
+      "type": "sentence_completion",
+      "theme": "weather",
+      "question": "Complete: Het regent hard. Neem een ______ mee!",
+      "options": { "A": "jas", "B": "paraplu", "C": "sjaal", "D": "tas" },
+      "correct_answer": "B",
+      "explanation": "Paraplu = umbrella. From the corpus: 'Ja, neem een paraplu mee.' A core practical vocabulary item.",
+      "grammar_focus": "weather advice – imperative + meenemen"
+    },
+    {
+      "id": 25,
+      "type": "contextual_usage",
+      "theme": "weather",
+      "question": "Someone says 'Wat is het koud vandaag!' What are they expressing?",
+      "options": { "A": "A question about temperature", "B": "An exclamation of surprise about the cold", "C": "A complaint about winter", "D": "A request for a coat" },
+      "correct_answer": "B",
+      "explanation": "'Wat is het...!' is an exclamation structure in Dutch (What a...!). 'Wat is het koud!' = How cold it is! / It's so cold! Also: 'Wat een mooi weer!'",
+      "grammar_focus": "exclamation structure: Wat is het + adjective!"
+    },
+    {
+      "id": 26,
+      "type": "vocabulary_translation",
+      "theme": "food_shopping",
+      "question": "What does 'in de aanbieding' mean?",
+      "options": { "A": "sold out", "B": "on offer / on sale", "C": "new arrival", "D": "very expensive" },
+      "correct_answer": "B",
+      "explanation": "In de aanbieding = on sale/on offer. From the corpus: '89 euro. Hij is in de aanbieding.' Very useful for shopping situations.",
+      "grammar_focus": "shopping vocabulary"
+    },
+    {
+      "id": 27,
+      "type": "vocabulary_translation",
+      "theme": "food_shopping",
+      "question": "What does 'de slager' mean?",
+      "options": { "A": "baker", "B": "greengrocer", "C": "butcher", "D": "fishmonger" },
+      "correct_answer": "C",
+      "explanation": "De slager = the butcher. From the corpus: 'Die is om de hoek, naast de slager.' Also know: de bakker (baker), de groenteman (greengrocer).",
+      "grammar_focus": "food shop vocabulary"
+    },
+    {
+      "id": 28,
+      "type": "sentence_completion",
+      "theme": "shopping",
+      "question": "Complete: Mag ik deze jas ______?",
+      "options": { "A": "kopen", "B": "passen", "C": "proberen", "D": "betalen" },
+      "correct_answer": "B",
+      "explanation": "Passen = to try on (clothing). From the corpus: 'Mag ik hem passen?' De paskamer = fitting room. Essential shopping vocabulary.",
+      "grammar_focus": "shopping verb: passen = to try on"
+    },
+    {
+      "id": 29,
+      "type": "vocabulary_translation",
+      "theme": "shopping",
+      "question": "What is 'de paskamer'?",
+      "options": { "A": "checkout", "B": "fitting room", "C": "storage room", "D": "changing room for swimming" },
+      "correct_answer": "B",
+      "explanation": "De paskamer = fitting room/changing room in a shop. From the corpus: 'Natuurlijk! De paskamer is daar.' From passen (to try on) + kamer (room).",
+      "grammar_focus": "compound nouns: passen + kamer"
+    },
+    {
+      "id": 30,
+      "type": "article_recognition",
+      "theme": "food",
+      "question": "What is the correct article for 'groente' (vegetable)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De groente. Most food categories use 'de': de groente, de vrucht. Note: het fruit (fruit as a category) is an exception.",
+      "grammar_focus": "de vs het – food vocabulary"
+    },
+    {
+      "id": 31,
+      "type": "confusing_pairs",
+      "theme": "time",
+      "question": "You want to say something happened in the past, like 'when I was young'. Which word do you use? ______ ik jong was, woonde ik in Marokko.",
+      "options": { "A": "Wanneer", "B": "Als", "C": "Toen", "D": "Als of Wanneer" },
+      "correct_answer": "C",
+      "explanation": "Toen = when (past, one specific time). Als = when (present/future or habitual). Wanneer = when (question OR repeated/future). 'Toen ik jong was' = When I was young (specific past moment).",
+      "grammar_focus": "confusing trio: toen / als / wanneer"
+    },
+    {
+      "id": 32,
+      "type": "confusing_pairs",
+      "theme": "time",
+      "question": "You want to say 'when it rains, I take the bus' (habitual). Which word fits? ______ het regent, neem ik de bus.",
+      "options": { "A": "Toen", "B": "Als", "C": "Dat", "D": "Want" },
+      "correct_answer": "B",
+      "explanation": "Als = when (habitual/conditional – it happens regularly). Toen = specific past moment. Als is used for repeated situations and future conditions.",
+      "grammar_focus": "confusing trio: toen / als – habitual vs past"
+    },
+    {
+      "id": 33,
+      "type": "vocabulary_translation",
+      "theme": "work",
+      "question": "What does 'vakgebied' mean?",
+      "options": { "A": "holiday destination", "B": "field of expertise / professional area", "C": "workplace", "D": "subject at school" },
+      "correct_answer": "B",
+      "explanation": "Vakgebied = field of expertise. From the corpus: 'Ik zoek een baan in mijn vakgebied.' Vak = subject/profession, gebied = area/field.",
+      "grammar_focus": "work vocabulary – compound nouns"
+    },
+    {
+      "id": 34,
+      "type": "vocabulary_translation",
+      "theme": "work",
+      "question": "What does 'opleiding' mean?",
+      "options": { "A": "experience", "B": "training/education programme", "C": "salary", "D": "contract" },
+      "correct_answer": "B",
+      "explanation": "Opleiding = education, training programme, qualification. From corpus: 'Nee, ik ben klaar met mijn opleiding.' Different from studie (university study) or cursus (short course).",
+      "grammar_focus": "education vocabulary: opleiding vs studie vs cursus"
+    },
+    {
+      "id": 35,
+      "type": "article_recognition",
+      "theme": "work",
+      "question": "What is the correct article for 'baan' (job)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De baan = the job. Also de werk, but het werk is more common (het werk = the work/job in abstract). De baan refers to a specific job position.",
+      "grammar_focus": "de vs het – work vocabulary"
+    },
+    {
+      "id": 36,
+      "type": "article_recognition",
+      "theme": "work",
+      "question": "What is the correct article for 'werk' (work)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het werk. Abstract concepts and processes often take 'het'. Compare: de baan (a specific job) vs het werk (work in general).",
+      "grammar_focus": "de vs het – het werk vs de baan"
+    },
+    {
+      "id": 37,
+      "type": "sentence_completion",
+      "theme": "work",
+      "question": "Complete: Ben je tevreden met je ______?",
+      "options": { "A": "werk", "B": "baan", "C": "Both A and B are correct", "D": "vakgebied" },
+      "correct_answer": "C",
+      "explanation": "Both 'Ben je tevreden met je werk?' and 'Ben je tevreden met je baan?' are correct and natural. Baan refers to the specific position, werk to the activity/job in general.",
+      "grammar_focus": "baan vs werk – usage in context"
+    },
+    {
+      "id": 38,
+      "type": "vocabulary_translation",
+      "theme": "health",
+      "question": "What does 'keelpijn' mean?",
+      "options": { "A": "headache", "B": "stomachache", "C": "sore throat", "D": "backache" },
+      "correct_answer": "C",
+      "explanation": "Keelpijn = sore throat. Keel = throat, pijn = pain. From the corpus: 'Ik heb hoofdpijn en keelpijn.' Know the pattern: lichaamsdeel + pijn.",
+      "grammar_focus": "body + pijn compounds: hoofdpijn, keelpijn, buikpijn, rugpijn"
+    },
+    {
+      "id": 39,
+      "type": "vocabulary_translation",
+      "theme": "health",
+      "question": "What does 'hoofdpijn' mean?",
+      "options": { "A": "sore throat", "B": "headache", "C": "dizziness", "D": "toothache" },
+      "correct_answer": "B",
+      "explanation": "Hoofdpijn = headache. Hoofd = head, pijn = pain. From the corpus: 'Ik heb hoofdpijn en keelpijn.' Tandpijn = toothache (tand = tooth).",
+      "grammar_focus": "body + pijn compounds"
+    },
+    {
+      "id": 40,
+      "type": "sentence_completion",
+      "theme": "health",
+      "question": "Complete: Ik voel me niet ______.",
+      "options": { "A": "goed", "B": "lekker", "C": "Either A or B is correct", "D": "ziek" },
+      "correct_answer": "C",
+      "explanation": "Both 'Ik voel me niet goed' and 'Ik voel me niet lekker' mean 'I don't feel well'. From the corpus: 'Ik voel me niet lekker.' Lekker is very commonly used for general wellbeing in Dutch.",
+      "grammar_focus": "reflexive verb: zich voelen + adjective"
+    },
+    {
+      "id": 41,
+      "type": "vocabulary_translation",
+      "theme": "health",
+      "question": "What does 'verzekering' mean?",
+      "options": { "A": "prescription", "B": "insurance", "C": "hospital bill", "D": "appointment" },
+      "correct_answer": "B",
+      "explanation": "Verzekering = insurance. Zorgverzekering = health insurance (zorgen = care + verzekering). From the corpus: 'Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen.'",
+      "grammar_focus": "healthcare administration vocabulary"
+    },
+    {
+      "id": 42,
+      "type": "vocabulary_translation",
+      "theme": "health",
+      "question": "What does 'overstappen' mean in the context of insurance?",
+      "options": { "A": "to pay more", "B": "to cancel", "C": "to switch (provider)", "D": "to apply for" },
+      "correct_answer": "C",
+      "explanation": "Overstappen = to switch (to a different option). From the corpus: 'Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen.' Also used for switching trains (overstappen in Amsterdam Centraal).",
+      "grammar_focus": "separable verb: over-stappen"
+    },
+    {
+      "id": 43,
+      "type": "article_recognition",
+      "theme": "health",
+      "question": "What is the correct article for 'verzekering' (insurance)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De verzekering. Words ending in -ing are almost always 'de' in Dutch. This is a very reliable rule! De verzekering, de opleiding, de woning, de vergadering.",
+      "grammar_focus": "de vs het – suffix rule: -ing words are always 'de'"
+    },
+    {
+      "id": 44,
+      "type": "article_recognition",
+      "theme": "education",
+      "question": "What is the correct article for 'opleiding' (training/education)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De opleiding. The -ing suffix rule: ALL Dutch nouns ending in -ing are 'de'. This is one of the most reliable rules in Dutch grammar.",
+      "grammar_focus": "de vs het – suffix rule: -ing words"
+    },
+    {
+      "id": 45,
+      "type": "article_recognition",
+      "theme": "housing",
+      "question": "What is the correct article for 'woning' (dwelling/home)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De woning. -ing rule again. De woning is a more formal word for a home/dwelling, used in official contexts like housing applications.",
+      "grammar_focus": "de vs het – suffix rule: -ing words; de woning (formal) vs het huis"
+    },
+    {
+      "id": 46,
+      "type": "confusing_pairs",
+      "theme": "language",
+      "question": "Choose the correct conjunction: Ik leer Nederlands ______ ik in Nederland woon.",
+      "options": { "A": "omdat", "B": "want", "C": "Either is correct", "D": "doordat" },
+      "correct_answer": "C",
+      "explanation": "Both omdat and want mean 'because'. Key difference: 'omdat' causes verb-final word order (subordinate clause), 'want' keeps normal word order (coordinating conjunction). Both are grammatically correct here.",
+      "grammar_focus": "omdat vs want – both mean 'because', different word order"
+    },
+    {
+      "id": 47,
+      "type": "sentence_completion",
+      "theme": "daily_life",
+      "question": "Complete: Ik ga morgen niet werken, ______ ik ziek ben.",
+      "options": { "A": "want", "B": "maar", "C": "dus", "D": "of" },
+      "correct_answer": "A",
+      "explanation": "Want = because (coordinating). 'Ik ga niet werken, want ik ben ziek.' = I'm not going to work because I'm sick. After 'want', normal subject-verb order continues.",
+      "grammar_focus": "coordinating conjunction: want (because)"
+    },
+    {
+      "id": 48,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'verhuizen' mean?",
+      "options": { "A": "to renovate", "B": "to move house", "C": "to rent out", "D": "to clean" },
+      "correct_answer": "B",
+      "explanation": "Verhuizen = to move (house). From the corpus: 'Wil je verhuizen?' Don't confuse with verhuren (to rent out) — they look similar but mean different things.",
+      "grammar_focus": "verb confusion: verhuizen vs verhuren"
+    },
+    {
+      "id": 49,
+      "type": "vocabulary_translation",
+      "theme": "family",
+      "question": "What does 'neef/nicht' mean?",
+      "options": { "A": "brother/sister", "B": "uncle/aunt", "C": "nephew-niece / cousin", "D": "son/daughter" },
+      "correct_answer": "C",
+      "explanation": "Neef = nephew OR male cousin. Nicht = niece OR female cousin. From corpus: 'Best groot. Ik heb vijf neven en drie nichten.' Context determines meaning.",
+      "grammar_focus": "family vocabulary – dual meanings: neef/nicht"
+    },
+    {
+      "id": 50,
+      "type": "vocabulary_translation",
+      "theme": "family",
+      "question": "What does 'kleinkind' mean?",
+      "options": { "A": "small child", "B": "grandchild", "C": "stepchild", "D": "only child" },
+      "correct_answer": "B",
+      "explanation": "Kleinkind = grandchild. Klein = small, but in this compound it means 'grand-'. Kleinkinderen (plural). Compare: kleindochter (granddaughter), kleinzoon (grandson).",
+      "grammar_focus": "family vocabulary – compound: klein + kind"
+    },
+    {
+      "id": 51,
+      "type": "article_recognition",
+      "theme": "family",
+      "question": "What is the correct article for 'kind' (child)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het kind. Diminutives and many words for young beings use 'het': het kind, het baby, het meisje. Plural: de kinderen.",
+      "grammar_focus": "de vs het – het kind (exception to learn)"
+    },
+    {
+      "id": 52,
+      "type": "article_recognition",
+      "theme": "family",
+      "question": "What is the correct article for 'gezin' (family / household)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het gezin = nuclear family/household. De familie = extended family. Important distinction: het gezin (parents + children living together) vs de familie (all relatives).",
+      "grammar_focus": "de vs het – het gezin vs de familie"
+    },
+    {
+      "id": 53,
+      "type": "confusing_pairs",
+      "theme": "family",
+      "question": "What is the difference between 'het gezin' and 'de familie'?",
+      "options": { "A": "No difference – they are synonyms", "B": "Gezin = nuclear family; familie = extended family", "C": "Gezin = all relatives; familie = just parents and children", "D": "Gezin is formal; familie is informal" },
+      "correct_answer": "B",
+      "explanation": "Het gezin = the nuclear family (parents + children at home). De familie = the broader/extended family including relatives. This distinction matters for official forms (gezinssamenstelling = household composition).",
+      "grammar_focus": "vocabulary distinction: gezin vs familie"
+    },
+    {
+      "id": 54,
+      "type": "vocabulary_translation",
+      "theme": "social",
+      "question": "What does 'trouwen' mean?",
+      "options": { "A": "to date", "B": "to get engaged", "C": "to get married", "D": "to divorce" },
+      "correct_answer": "C",
+      "explanation": "Trouwen = to get married. From corpus: 'Willen jullie trouwen?' Note: trouwen met = to marry (someone). Je trouwt met iemand (you marry someone).",
+      "grammar_focus": "verb: trouwen + met"
+    },
+    {
+      "id": 55,
+      "type": "vocabulary_translation",
+      "theme": "time",
+      "question": "What does 'halverwege' mean?",
+      "options": { "A": "at the end", "B": "halfway through", "C": "at the beginning", "D": "sometimes" },
+      "correct_answer": "B",
+      "explanation": "Halverwege = halfway (through). From the corpus: 'Halverwege het jaar kunt u dus niet op een andere verzekering overstappen.' Halve = half, weg = way.",
+      "grammar_focus": "time expression: halverwege"
+    },
+    {
+      "id": 56,
+      "type": "vocabulary_translation",
+      "theme": "time",
+      "question": "What does 'weleens' mean?",
+      "options": { "A": "never", "B": "always", "C": "sometimes / ever", "D": "rarely" },
+      "correct_answer": "C",
+      "explanation": "Weleens = sometimes / ever. 'Ik hoor weleens dat...' = I sometimes hear that... Also used in questions: 'Heb je weleens...?' (Have you ever...?)",
+      "grammar_focus": "frequency adverb: weleens"
+    },
+    {
+      "id": 57,
+      "type": "sentence_completion",
+      "theme": "opinions",
+      "question": "Complete: Ik ben ______ met mijn huis. Het is klein maar fijn.",
+      "options": { "A": "blij", "B": "tevreden", "C": "Either A or B", "D": "gelukkig" },
+      "correct_answer": "B",
+      "explanation": "Tevreden (met) = satisfied (with). This is the standard collocation. Blij = happy, gelukkig = happy/lucky — but 'tevreden met' specifically means satisfied with something. From corpus: 'Ben je tevreden met je baan?'",
+      "grammar_focus": "adjective collocation: tevreden met"
+    },
+    {
+      "id": 58,
+      "type": "vocabulary_translation",
+      "theme": "opinions",
+      "question": "What does 'het valt me op' mean?",
+      "options": { "A": "I forgot it", "B": "I noticed it / it struck me", "C": "I dropped it", "D": "It fell on me" },
+      "correct_answer": "B",
+      "explanation": "Opvallen = to stand out / to notice. 'Het valt me op dat...' = I notice that... From corpus: 'Wat viel je op?' (What did you notice?). Common in discussions and opinions.",
+      "grammar_focus": "separable verb: op-vallen (impersonal usage)"
+    },
+    {
+      "id": 59,
+      "type": "sentence_completion",
+      "theme": "opinions",
+      "question": "Complete: ______ ik het niet leuk vind, doe ik het toch.",
+      "options": { "A": "Hoewel", "B": "Omdat", "C": "Dus", "D": "Want" },
+      "correct_answer": "A",
+      "explanation": "Hoewel = although/even though. 'Hoewel ik het niet leuk vind, doe ik het toch.' = Although I don't like it, I do it anyway. Hoewel introduces a contrast (subordinate clause → verb goes to end).",
+      "grammar_focus": "subordinating conjunction: hoewel (although)"
+    },
+    {
+      "id": 60,
+      "type": "vocabulary_translation",
+      "theme": "opinions",
+      "question": "What does 'bovendien' mean?",
+      "options": { "A": "however", "B": "therefore", "C": "moreover / besides", "D": "although" },
+      "correct_answer": "C",
+      "explanation": "Bovendien = moreover / besides / in addition. From the vocabulary list: '*Bovendien...' = Moreover... Used to add a further point or argument.",
+      "grammar_focus": "discourse markers: bovendien (moreover)"
+    },
+    {
+      "id": 61,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'logeren' mean?",
+      "options": { "A": "to travel", "B": "to stay overnight (at someone's place)", "C": "to book a hotel", "D": "to camp" },
+      "correct_answer": "B",
+      "explanation": "Logeren = to stay (overnight) with someone. From the corpus: 'Mag mijn hond bij je logeren?' = May my dog stay at your place? Different from verblijven (to stay in a hotel/more formal).",
+      "grammar_focus": "verb: logeren bij (to stay with someone)"
+    },
+    {
+      "id": 62,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'verblijven' mean?",
+      "options": { "A": "to travel", "B": "to stay / reside", "C": "to leave", "D": "to arrive" },
+      "correct_answer": "B",
+      "explanation": "Verblijven = to stay / reside (more formal than logeren). From corpus: 'Nee, ik verblijf liever in een hotel.' Also: het verblijf = the stay.",
+      "grammar_focus": "verb: verblijven (formal stay/reside)"
+    },
+    {
+      "id": 63,
+      "type": "confusing_pairs",
+      "theme": "daily_life",
+      "question": "What is the difference between 'logeren' and 'verblijven'?",
+      "options": { "A": "No difference – they are synonyms", "B": "Logeren = stay with someone informally; verblijven = stay/reside (more formal/hotel)", "C": "Logeren is for long stays; verblijven for short stays", "D": "Verblijven is only used for illegal residence" },
+      "correct_answer": "B",
+      "explanation": "Logeren = to stay with someone (informal, at their home). Verblijven = to stay/reside (formal, hotel, official residence). Context: 'bij een vriend logeren' vs 'in een hotel verblijven'.",
+      "grammar_focus": "register distinction: logeren vs verblijven"
+    },
+    {
+      "id": 64,
+      "type": "article_recognition",
+      "theme": "daily_life",
+      "question": "What is the correct article for 'cursus' (course)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De cursus. From the corpus: 'Ja, ik doe een cursus Nederlands.' Courses and educational activities tend to use 'de': de cursus, de les, de training.",
+      "grammar_focus": "de vs het – education: de cursus"
+    },
+    {
+      "id": 65,
+      "type": "vocabulary_translation",
+      "theme": "leisure",
+      "question": "What does 'wandelen' mean?",
+      "options": { "A": "to run", "B": "to cycle", "C": "to hike / walk (for leisure)", "D": "to swim" },
+      "correct_answer": "C",
+      "explanation": "Wandelen = to walk/hike (leisurely). From corpus: 'Ik ga wandelen in het bos. Ga je mee?' Different from lopen (to walk, neutral) — wandelen implies leisure.",
+      "grammar_focus": "leisure verb: wandelen (leisure walking)"
+    },
+    {
+      "id": 66,
+      "type": "vocabulary_translation",
+      "theme": "leisure",
+      "question": "What does 'hardlopen' mean?",
+      "options": { "A": "to walk fast", "B": "to jog/run", "C": "to sprint", "D": "to cycle fast" },
+      "correct_answer": "B",
+      "explanation": "Hardlopen = to run/jog (sport). From the corpus: 'Ik hardloop of ik fiets. Dat is goed voor mijn gezondheid.' Hard = hard/fast + lopen = to walk → to run.",
+      "grammar_focus": "sport vocabulary: hardlopen (separable compound)"
+    },
+    {
+      "id": 67,
+      "type": "article_recognition",
+      "theme": "leisure",
+      "question": "What is the correct article for 'sportschool' (gym)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De sportschool. Compound: sport + school. De school → de sportschool. From corpus: 'Ga je vaak naar de sportschool?'",
+      "grammar_focus": "de vs het – compound: de sportschool"
+    },
+    {
+      "id": 68,
+      "type": "vocabulary_translation",
+      "theme": "leisure",
+      "question": "What does 'ik ben dol op...' mean?",
+      "options": { "A": "I am tired of...", "B": "I don't mind...", "C": "I love / I'm crazy about...", "D": "I prefer..." },
+      "correct_answer": "C",
+      "explanation": "'Dol op' = crazy about / love. From the corpus: 'Graag! Ik ben dol op wandelen.' Stronger than 'ik hou van' (I like/love), expresses real enthusiasm.",
+      "grammar_focus": "fixed expression: dol op (= crazy about)"
+    },
+    {
+      "id": 69,
+      "type": "sentence_completion",
+      "theme": "preferences",
+      "question": "Complete: Ik zwem ______. Zwemmen vind ik leuker dan fitness.",
+      "options": { "A": "graag", "B": "liever", "C": "het liefst", "D": "ook" },
+      "correct_answer": "B",
+      "explanation": "Liever = prefer (comparative of graag). From the corpus: 'Ik zwem liever.' = I prefer swimming. Graag = like, liever = prefer, het liefst = like most of all.",
+      "grammar_focus": "preference scale: graag → liever → het liefst"
+    },
+    {
+      "id": 70,
+      "type": "sentence_completion",
+      "theme": "preferences",
+      "question": "Fill in the preference adverb: Ik ga ______ met de fiets. (I prefer going by bike.)",
+      "options": { "A": "graag", "B": "liever", "C": "ook", "D": "goed" },
+      "correct_answer": "B",
+      "explanation": "Liever expresses preference (I'd rather / I prefer). Graag = I like to. These two are frequently tested together at A2 level.",
+      "grammar_focus": "preference: liever (I prefer) vs graag (I like)"
+    },
+    {
+      "id": 71,
+      "type": "vocabulary_translation",
+      "theme": "leisure",
+      "question": "What does 'bioscoop' mean?",
+      "options": { "A": "library", "B": "theatre", "C": "cinema", "D": "concert hall" },
+      "correct_answer": "C",
+      "explanation": "De bioscoop = cinema/movie theater. From corpus: 'Ga je vaak naar de bioscoop?' Important leisure vocabulary.",
+      "grammar_focus": "leisure places vocabulary"
+    },
+    {
+      "id": 72,
+      "type": "article_recognition",
+      "theme": "leisure",
+      "question": "What is the correct article for 'bioscoop' (cinema)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De bioscoop. Places of entertainment/culture typically use 'de': de bioscoop, de bibliotheek, de schouwburg, de sportschool.",
+      "grammar_focus": "de vs het – entertainment venues"
+    },
+    {
+      "id": 73,
+      "type": "vocabulary_translation",
+      "theme": "social_media",
+      "question": "What does 'een berichtje sturen' mean?",
+      "options": { "A": "to write a letter", "B": "to make a phone call", "C": "to send a message", "D": "to post on social media" },
+      "correct_answer": "C",
+      "explanation": "Een berichtje sturen = to send a (short) message. Berichtje is a diminutive of bericht (message). From corpus: 'Ik stuur je een berichtje.' Common in Dutch for texting/messaging.",
+      "grammar_focus": "diminutive: bericht → berichtje (small/short message)"
+    },
+    {
+      "id": 74,
+      "type": "vocabulary_translation",
+      "theme": "technology",
+      "question": "What does 'opnieuw opstarten' mean?",
+      "options": { "A": "to install", "B": "to update", "C": "to restart", "D": "to switch off" },
+      "correct_answer": "C",
+      "explanation": "Opnieuw opstarten = to restart (computer/device). From the corpus: 'Heb je hem opnieuw opgestart?' Opnieuw = again/anew, opstarten = to start up.",
+      "grammar_focus": "technology vocabulary – computer problems"
+    },
+    {
+      "id": 75,
+      "type": "sentence_completion",
+      "theme": "technology",
+      "question": "Complete: Mijn computer ______ het niet meer.",
+      "options": { "A": "maakt", "B": "doet", "C": "werkt", "D": "Both B and C are correct" },
+      "correct_answer": "D",
+      "explanation": "Both 'doet het niet meer' and 'werkt niet meer' mean 'doesn't work anymore'. From corpus: 'Mijn computer doet het niet meer.' 'Doen het' = to work (for machines) is informal but very common.",
+      "grammar_focus": "verb: doen het / werken – machines working"
+    },
+    {
+      "id": 76,
+      "type": "vocabulary_translation",
+      "theme": "directions",
+      "question": "What does 'om de hoek' mean?",
+      "options": { "A": "far away", "B": "next door", "C": "around the corner", "D": "at the end of the street" },
+      "correct_answer": "C",
+      "explanation": "Om de hoek = around the corner. From the corpus: 'Die is om de hoek, naast de slager.' Very useful for giving directions.",
+      "grammar_focus": "direction expression: om de hoek"
+    },
+    {
+      "id": 77,
+      "type": "vocabulary_translation",
+      "theme": "housing",
+      "question": "What does 'verbouwen' mean?",
+      "options": { "A": "to move house", "B": "to sell a house", "C": "to renovate", "D": "to build a new house" },
+      "correct_answer": "C",
+      "explanation": "Verbouwen = to renovate / rebuild. Don't confuse with verhuizen (to move house) or verhuren (to rent out). These three 'ver-' verbs often confuse learners.",
+      "grammar_focus": "ver- prefix confusion: verbouwen / verhuizen / verhuren"
+    },
+    {
+      "id": 78,
+      "type": "confusing_pairs",
+      "theme": "housing",
+      "question": "Which 'ver-' verb means 'to move house'?",
+      "options": { "A": "verbouwen", "B": "verhuren", "C": "verhuizen", "D": "verkopen" },
+      "correct_answer": "C",
+      "explanation": "Verhuizen = to move house. Verbouwen = to renovate. Verhuren = to rent out. Verkopen = to sell. The 'ver-' prefix is common but each verb has a completely different meaning.",
+      "grammar_focus": "ver- prefix confusion: the three ver- housing verbs"
+    },
+    {
+      "id": 79,
+      "type": "vocabulary_translation",
+      "theme": "housing",
+      "question": "What does 'koophuis' mean?",
+      "options": { "A": "a house for sale", "B": "an owner-occupied home", "C": "a cheap house", "D": "a new-build house" },
+      "correct_answer": "B",
+      "explanation": "Koophuis = owner-occupied home (a house you own, not rent). From corpus: 'Huur je of heb je een koophuis?' Koop = purchase, huis = house.",
+      "grammar_focus": "housing vocabulary: koophuis vs huurhuis"
+    },
+    {
+      "id": 80,
+      "type": "contextual_usage",
+      "theme": "housing",
+      "question": "Someone asks 'Huur je of heb je een koophuis?' What are they asking?",
+      "options": { "A": "How much is your rent?", "B": "Do you want to buy a house?", "C": "Do you rent or own your home?", "D": "Is your house expensive?" },
+      "correct_answer": "C",
+      "explanation": "This is asking whether you are a tenant (huren) or a homeowner (koophuis). From the corpus: 'Huur je of heb je een koophuis? – Ik huur. Een koophuis is te duur.'",
+      "grammar_focus": "housing tenure vocabulary"
+    },
+    {
+      "id": 81,
+      "type": "vocabulary_translation",
+      "theme": "education",
+      "question": "What does 'studeren' mean?",
+      "options": { "A": "to teach", "B": "to study (university level)", "C": "to learn (in general)", "D": "to practise" },
+      "correct_answer": "B",
+      "explanation": "Studeren = to study (at university/college level). Leren = to learn (general). From corpus: 'Of zeg dat je voor een examen moet studeren.' De studie = the study/degree programme.",
+      "grammar_focus": "studeren vs leren – study level distinction"
+    },
+    {
+      "id": 82,
+      "type": "vocabulary_translation",
+      "theme": "education",
+      "question": "What does 'diploma' mean?",
+      "options": { "A": "certificate", "B": "diploma / degree certificate", "C": "report card", "D": "licence" },
+      "correct_answer": "B",
+      "explanation": "Het diploma = diploma/degree certificate. Diploma-uitreiking = graduation ceremony. Used for completing any level of education in the Netherlands.",
+      "grammar_focus": "education vocabulary: diploma"
+    },
+    {
+      "id": 83,
+      "type": "article_recognition",
+      "theme": "education",
+      "question": "What is the correct article for 'diploma' (diploma)?",
+      "options": { "A": "de", "B": "het", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "Het diploma. Words of Greek/Latin origin ending in -a often take 'het': het diploma, het thema, het dilemma, het schema.",
+      "grammar_focus": "de vs het – Latin/Greek -a words take 'het'"
+    },
+    {
+      "id": 84,
+      "type": "vocabulary_translation",
+      "theme": "social",
+      "question": "What does 'kennis' mean in the phrase 'een kennis van mij'?",
+      "options": { "A": "knowledge", "B": "colleague", "C": "acquaintance", "D": "friend" },
+      "correct_answer": "C",
+      "explanation": "De kennis = acquaintance (when referring to a person). Note: kennis also means 'knowledge' (het/de kennis). Context decides: 'een kennis van mij' = an acquaintance of mine. Een vriend = a friend (closer).",
+      "grammar_focus": "vocabulary: kennis (dual meaning – knowledge / acquaintance)"
+    },
+    {
+      "id": 85,
+      "type": "vocabulary_translation",
+      "theme": "events",
+      "question": "What does 'feestdag' mean?",
+      "options": { "A": "birthday party", "B": "public holiday", "C": "festival", "D": "special event" },
+      "correct_answer": "B",
+      "explanation": "Feestdag = public/national holiday (e.g., Koningsdag, Kerst). Feest = party/celebration, dag = day. From corpus: 'Met verjaardagen en met de feestdagen.' Don't confuse with festival (festival, een evenement).",
+      "grammar_focus": "events vocabulary: feestdag vs verjaardag vs festival"
+    },
+    {
+      "id": 86,
+      "type": "article_recognition",
+      "theme": "events",
+      "question": "What is the correct article for 'feestdag' (holiday)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De feestdag. Day-based compound nouns typically use 'de': de dag, de feestdag, de verjaardag, de werkdag.",
+      "grammar_focus": "de vs het – compounds with 'dag'"
+    },
+    {
+      "id": 87,
+      "type": "vocabulary_translation",
+      "theme": "health",
+      "question": "What does 'allergisch voor' mean?",
+      "options": { "A": "intolerant to", "B": "afraid of", "C": "allergic to", "D": "sensitive about" },
+      "correct_answer": "C",
+      "explanation": "Allergisch voor = allergic to. From corpus: 'Ben je allergisch voor iets?' An important phrase for food and health contexts. The preposition is 'voor': allergisch VOOR noten.",
+      "grammar_focus": "adjective + preposition: allergisch voor"
+    },
+    {
+      "id": 88,
+      "type": "sentence_completion",
+      "theme": "health",
+      "question": "Complete: Ik zal geen noten gebruiken, want je bent ______ voor noten.",
+      "options": { "A": "bang", "B": "allergisch", "C": "ziek", "D": "gevoelig" },
+      "correct_answer": "B",
+      "explanation": "Allergisch = allergic. From corpus: 'Ik zal geen noten gebruiken in het eten.' The reason implied is an allergy. Gevoelig (sensitive) is also possible in reality but allergisch is the direct term.",
+      "grammar_focus": "health vocabulary in context"
+    },
+    {
+      "id": 89,
+      "type": "vocabulary_translation",
+      "theme": "food",
+      "question": "What does 'vegetarisch' mean?",
+      "options": { "A": "vegan", "B": "vegetarian", "C": "gluten-free", "D": "organic" },
+      "correct_answer": "B",
+      "explanation": "Vegetarisch = vegetarian. From corpus: 'Om 18 uur. Eet je vegetarisch?' Important for food and social situations. Veganistisch = vegan.",
+      "grammar_focus": "food preference vocabulary"
+    },
+    {
+      "id": 90,
+      "type": "sentence_completion",
+      "theme": "invitations",
+      "question": "Complete: ______ je zaterdag komen eten?",
+      "options": { "A": "Wil", "B": "Kun", "C": "Mag", "D": "Both A and B work naturally" },
+      "correct_answer": "D",
+      "explanation": "Both 'Wil je komen eten?' (Do you want to come eat?) and 'Kun je komen eten?' (Can you come eat?) are natural invitations. From corpus: 'Kun je zaterdag komen eten?' Modal verb choice shows nuance: wil = desire, kun = ability.",
+      "grammar_focus": "modal verbs in invitations: willen vs kunnen"
+    },
+    {
+      "id": 91,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'kwijt zijn' mean?",
+      "options": { "A": "to be finished", "B": "to have lost something", "C": "to be tired", "D": "to be free" },
+      "correct_answer": "B",
+      "explanation": "Kwijt zijn = to have lost (something). From corpus: 'Ik ben mijn sleutel kwijt.' = I've lost my key. This is a set expression — always 'kwijt zijn' not 'verliezen' in this context.",
+      "grammar_focus": "idiomatic expression: kwijt zijn (to have lost)"
+    },
+    {
+      "id": 92,
+      "type": "vocabulary_translation",
+      "theme": "daily_life",
+      "question": "What does 'sleutel' mean?",
+      "options": { "A": "wallet", "B": "phone", "C": "key", "D": "bag" },
+      "correct_answer": "C",
+      "explanation": "De sleutel = the key. From corpus: 'Ik ben mijn sleutel kwijt.' Very practical daily vocabulary.",
+      "grammar_focus": "daily life vocabulary: de sleutel"
+    },
+    {
+      "id": 93,
+      "type": "article_recognition",
+      "theme": "daily_life",
+      "question": "What is the correct article for 'sleutel' (key)?",
+      "options": { "A": "het", "B": "de", "C": "een (only)", "D": "no article" },
+      "correct_answer": "B",
+      "explanation": "De sleutel. Most everyday objects use 'de': de sleutel, de tas, de telefoon, de computer.",
+      "grammar_focus": "de vs het – everyday objects"
+    },
+    {
+      "id": 94,
+      "type": "vocabulary_translation",
+      "theme": "nature_leisure",
+      "question": "What does 'het bos' mean?",
+      "options": { "A": "the park", "B": "the forest / woods", "C": "the field", "D": "the river" },
+      "correct_answer": "B",
+      "explanation": "Het bos = the forest/woods. From corpus: 'Ik ga wandelen in het bos.' Note the article: het bos (not de bos).",
+      "grammar_focus": "nature vocabulary: het bos"
+    },
+    {
+      "id": 95,
+      "type": "contextual_usage",
+      "theme": "social",
+      "question": "Someone invites you to come along: 'Ga je mee?' You enthusiastically agree. What do you say?",
+      "options": { "A": "Nee, dat gaat niet.", "B": "Graag! Ik ben dol op wandelen.", "C": "Misschien, we zien wel.", "D": "Ik moet nadenken." },
+      "correct_answer": "B",
+      "explanation": "From the corpus: 'Graag! Ik ben dol op wandelen.' Graag = gladly/yes please. 'Ik ben dol op...' = I love... These are key enthusiastic acceptance phrases.",
+      "grammar_focus": "social expressions: graag + dol op"
+    },
+    {
+      "id": 96,
+      "type": "vocabulary_translation",
+      "theme": "social",
+      "question": "What does 'Dat gaat niet' mean?",
+      "options": { "A": "That's not right.", "B": "That won't work / I can't make it.", "C": "That doesn't go there.", "D": "That's not allowed." },
+      "correct_answer": "B",
+      "explanation": "'Dat gaat niet' = That won't work / I can't make it. From the vocabulary list: '*Dat gaat niet* = That won't work.' A very common polite refusal in Dutch.",
+      "grammar_focus": "fixed expression: dat gaat niet (polite refusal)"
+    },
+    {
+      "id": 97,
+      "type": "vocabulary_translation",
+      "theme": "social",
+      "question": "What does 'Niks aan te doen' mean?",
+      "options": { "A": "There's nothing to do (boring)", "B": "Nothing can be done about it", "C": "Don't do anything", "D": "Nothing is happening" },
+      "correct_answer": "B",
+      "explanation": "'Niks aan te doen' = Nothing can be done about it / There's nothing to be done. From the vocabulary: '*Niks aan te doen* = Nothing to be done.' Used to express acceptance of an unavoidable situation.",
+      "grammar_focus": "fixed expression: niks aan te doen (resignation)"
+    },
+    {
+      "id": 98,
+      "type": "sentence_completion",
+      "theme": "social",
+      "question": "Complete the fixed phrase: ______ kunnen we afspreken?",
+      "options": { "A": "Hoe", "B": "Wanneer", "C": "Wat", "D": "Waar" },
+      "correct_answer": "B",
+      "explanation": "Wanneer = when. 'Wanneer kunnen we afspreken?' = When can we meet? From the vocabulary list: '*Wanneer kunt u langskomen?* = When can you come by?' Wanneer is used for scheduling.",
+      "grammar_focus": "question word: wanneer (scheduling/time)"
+    },
+    {
+      "id": 99,
+      "type": "vocabulary_translation",
+      "theme": "social",
+      "question": "What does 'Ik durf het niet' mean?",
+      "options": { "A": "I don't want to", "B": "I don't dare (to do it)", "C": "I'm not allowed to", "D": "I can't do it" },
+      "correct_answer": "B",
+      "explanation": "'Durven' = to dare. 'Ik durf het niet' = I don't dare (to do it). From the vocabulary list. Different from 'ik wil het niet' (I don't want to) or 'ik kan het niet' (I can't).",
+      "grammar_focus": "modal-like verb: durven (to dare)"
+    },
+    {
+      "id": 100,
+      "type": "contextual_usage",
+      "theme": "social",
+      "question": "You want to politely decline an offer to go somewhere. Which expression is most natural?",
+      "options": { "A": "Nee, ik wil niet.", "B": "Dat gaat niet, ik moet werken.", "C": "Niks aan te doen.", "D": "Ik durf het niet." },
+      "correct_answer": "B",
+      "explanation": "'Dat gaat niet, ik moet werken.' = That won't work, I have to work. This is the most natural, polite decline. 'Dat gaat niet' is softened by giving a reason with 'want/omdat/ik moet...'",
+      "grammar_focus": "polite refusal: dat gaat niet + reason"
+    }
+  ]
+}
