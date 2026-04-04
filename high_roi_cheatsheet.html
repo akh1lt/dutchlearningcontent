@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch A2 High-ROI Cheatsheet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin: 20px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin: 30px 0 15px 0;
+            padding: 15px;
+            background: #ecf0f1;
+            border-left: 5px solid #3498db;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin: 20px 0 10px 0;
+            padding: 10px;
+            background: #fff;
+            border-left: 3px solid #95a5a6;
+        }
+
+        .toc {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .toc h2 {
+            background: none;
+            border: none;
+            padding: 0;
+            margin-bottom: 15px;
+        }
+
+        .toc ul {
+            list-style: none;
+            columns: 2;
+            column-gap: 30px;
+        }
+
+        .toc li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .toc li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+
+        .toc a {
+            color: #2980b9;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .toc a:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .freq-high {
+            background: #d4edda;
+            font-weight: bold;
+            color: #155724;
+        }
+
+        .freq-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .pattern-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .pattern-box h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+
+        .example {
+            background: #f5f5f5;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        .grammar-rule {
+            background: #fff9c4;
+            padding: 15px;
+            border-left: 4px solid #fbc02d;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .tip {
+            background: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid #4caf50;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .tip:before {
+            content: "💡 PRO TIP: ";
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        .study-plan {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .study-plan h3 {
+            color: white;
+            background: transparent;
+            border: none;
+            padding: 5px 0;
+        }
+
+        .vocab-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .vocab-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #6c757d;
+        }
+
+        .vocab-item strong {
+            color: #495057;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .section {
+                box-shadow: none;
+                page-break-inside: avoid;
+            }
+
+            h2 {
+                page-break-after: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .toc ul {
+                columns: 1;
+            }
+
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .vocab-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 MUST-DO HIGH-ROI DUTCH A2 NOTES</h1>
+
+    <div class="toc">
+        <h2>📑 Table of Contents</h2>
+        <ul>
+            <li><a href="#top-30-words">Top 30 Essential Words</a></li>
+            <li><a href="#sentence-patterns">Top 15 Sentence Patterns</a></li>
+            <li><a href="#connecting-words">Top 15 Connecting Words</a></li>
+            <li><a href="#question-starters">Top 20 Question Starters</a></li>
+            <li><a href="#grammar">Grammar Essentials</a></li>
+            <li><a href="#vocabulary">Top 50 High-ROI Vocabulary</a></li>
+            <li><a href="#exam-tips">Exam-Specific Tips</a></li>
+            <li><a href="#study-plan">10-Day Study Plan</a></li>
+            <li><a href="#quick-wins">Quick Wins for Conversation</a></li>
+            <li><a href="#pro-tips">Pro Tips</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="top-30-words">
+        <h2>📊 TOP 30 ESSENTIAL WORDS</h2>
+        <p><strong>Learn These First! They appear most frequently in daily conversation.</strong></p>
+
+        <h3>Pronouns & Core Words</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dutch</th>
+                    <th>English</th>
+                    <th>Usage</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="freq-high">
+                    <td><strong>je</strong></td>
+                    <td>you</td>
+                    <td>Most common word!</td>
+                    <td>134×</td>
+                </tr>
+                <tr class="freq-high">
+                    <td><strong>ik</strong></td>
+                    <td>I</td>
+                    <td>#2 most common</td>
+                    <td>93×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>wat</strong></td>
+                    <td>what</td>
+                    <td>Key question word</td>
+                    <td>28×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>dat</strong></td>
+                    <td>that</td>
+                    <td>Point to things</td>
+                    <td>27×</td>
+                </tr>
+                <tr>
+                    <td><strong>we</strong></td>
+                    <td>we</td>
+                    <td>Talk about groups</td>
+                    <td>18×</td>
+                </tr>
+                <tr>
+                    <td><strong>jij</strong></td>
+                    <td>you (stressed)</td>
+                    <td>Emphasize "you"</td>
+                    <td>15×</td>
+                </tr>
+                <tr>
+                    <td><strong>mij</strong></td>
+                    <td>me</td>
+                    <td>Object form</td>
+                    <td>13×</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Essential Verbs</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dutch</th>
+                    <th>English</th>
+                    <th>Present Forms</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="freq-high">
+                    <td><strong>zijn</strong></td>
+                    <td>to be</td>
+                    <td>ben, bent, is, zijn</td>
+                    <td>83×</td>
+                </tr>
+                <tr class="freq-high">
+                    <td><strong>hebben</strong></td>
+                    <td>to have</td>
+                    <td>heb, hebt, heeft, hebben</td>
+                    <td>44×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>gaan</strong></td>
+                    <td>to go</td>
+                    <td>ga, gaat, gaan</td>
+                    <td>21×</td>
+                </tr>
+                <tr>
+                    <td><strong>kunnen</strong></td>
+                    <td>can</td>
+                    <td>kan, kunnen</td>
+                    <td>11×</td>
+                </tr>
+                <tr>
+                    <td><strong>willen</strong></td>
+                    <td>to want</td>
+                    <td>wil, willen</td>
+                    <td>11×</td>
+                </tr>
+                <tr>
+                    <td><strong>doen</strong></td>
+                    <td>to do</td>
+                    <td>doe, doet, doen</td>
+                    <td>15×</td>
+                </tr>
+                <tr>
+                    <td><strong>vinden</strong></td>
+                    <td>to think/find</td>
+                    <td>vind, vindt, vinden</td>
+                    <td>11×</td>
+                </tr>
+                <tr>
+                    <td><strong>werken</strong></td>
+                    <td>to work</td>
+                    <td>werk, werkt, werken</td>
+                    <td>13×</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Key Words for Connection</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dutch</th>
+                    <th>English</th>
+                    <th>Use</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="freq-high">
+                    <td><strong>ja</strong></td>
+                    <td>yes</td>
+                    <td>Agree/confirm</td>
+                    <td>54×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>en</strong></td>
+                    <td>and</td>
+                    <td>Connect</td>
+                    <td>45×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>maar</strong></td>
+                    <td>but</td>
+                    <td>Contrast</td>
+                    <td>20×</td>
+                </tr>
+                <tr>
+                    <td><strong>ook</strong></td>
+                    <td>also/too</td>
+                    <td>Add information</td>
+                    <td>18×</td>
+                </tr>
+                <tr>
+                    <td><strong>niet</strong></td>
+                    <td>not</td>
+                    <td>Negate</td>
+                    <td>17×</td>
+                </tr>
+                <tr>
+                    <td><strong>of</strong></td>
+                    <td>or</td>
+                    <td>Give options</td>
+                    <td>9×</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Essential Prepositions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dutch</th>
+                    <th>English</th>
+                    <th>Examples</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="freq-medium">
+                    <td><strong>in</strong></td>
+                    <td>in</td>
+                    <td>in Amsterdam, in de stad</td>
+                    <td>25×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>met</strong></td>
+                    <td>with</td>
+                    <td>met de trein, met je</td>
+                    <td>24×</td>
+                </tr>
+                <tr>
+                    <td><strong>naar</strong></td>
+                    <td>to</td>
+                    <td>naar huis, naar school</td>
+                    <td>16×</td>
+                </tr>
+                <tr>
+                    <td><strong>voor</strong></td>
+                    <td>for</td>
+                    <td>voor jou, voor werk</td>
+                    <td>18×</td>
+                </tr>
+                <tr>
+                    <td><strong>op</strong></td>
+                    <td>on</td>
+                    <td>op maandag, op het strand</td>
+                    <td>15×</td>
+                </tr>
+                <tr>
+                    <td><strong>van</strong></td>
+                    <td>of/from</td>
+                    <td>van Nederland, van mij</td>
+                    <td>14×</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section" id="sentence-patterns">
+        <h2>🗣️ TOP 15 HIGH-ROI SENTENCE PATTERNS</h2>
+
+        <div class="pattern-box">
+            <h4>Pattern 1: Heb je...? (16×) - HIGHEST ROI!</h4>
+            <p><strong>Use:</strong> Ask if someone has/wants/feels like something</p>
+            <div class="example">
+                Heb je tijd? = Do you have time?<br>
+                Heb je zin om mee te gaan? = Do you feel like coming along?<br>
+                Heb je plannen? = Do you have plans?<br>
+                Heb je honger? = Are you hungry?
+            </div>
+            <p><strong>Grammar:</strong> heb + je + noun/om te + infinitive</p>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 2: Zullen we...? (5×) - Make Suggestions</h4>
+            <p><strong>Use:</strong> Suggest doing something together</p>
+            <div class="example">
+                Zullen we afspreken? = Shall we meet?<br>
+                Zullen we pasta maken? = Shall we make pasta?<br>
+                Zullen we naar het park gaan? = Shall we go to the park?
+            </div>
+            <p><strong>Grammar:</strong> Zullen + we + infinitive</p>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 3: Ik ga... (12×) - Talk About Plans</h4>
+            <p><strong>Use:</strong> Say what you're going to do</p>
+            <div class="example">
+                Ik ga naar huis = I'm going home<br>
+                Ik ga werken = I'm going to work<br>
+                Ik ga met de trein = I'm going by train
+            </div>
+            <p><strong>Grammar:</strong> Ik ga + place/infinitive</p>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 4: Wat vind je van...? (7×) - Ask Opinions</h4>
+            <p><strong>Use:</strong> Get someone's opinion</p>
+            <div class="example">
+                Wat vind je van het weer? = What do you think of the weather?<br>
+                Wat vind je van deze film? = What do you think of this movie?
+            </div>
+            <p><strong>Grammar:</strong> Wat vind je van + noun</p>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 5: Hoe...? (16×) - Ask "How" Questions</h4>
+            <p><strong>Use:</strong> Ask about manner/degree</p>
+            <div class="example">
+                Hoe laat? = What time?<br>
+                Hoe vaak? = How often?<br>
+                Hoe lang? = How long?<br>
+                Hoe kom je naar...? = How do you get to...?
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 6: Ik hou van... (8×) - Express Likes</h4>
+            <p><strong>Use:</strong> Say what you like</p>
+            <div class="example">
+                Ik hou van honden = I like dogs<br>
+                Ik hou van sport = I like sports<br>
+                Ik hou niet van kou = I don't like cold
+            </div>
+            <p><strong>Grammar:</strong> Ik hou (niet) van + noun</p>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 7: Waar...? (10×) - Ask "Where"</h4>
+            <p><strong>Use:</strong> Ask about location</p>
+            <div class="example">
+                Waar woon je? = Where do you live?<br>
+                Waar werk je? = Where do you work?<br>
+                Waar is...? = Where is...?
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 8: Dat is... (12×) - Describe/Explain</h4>
+            <p><strong>Use:</strong> State facts or descriptions</p>
+            <div class="example">
+                Dat is leuk! = That's nice!<br>
+                Dat is waar = That's true<br>
+                Dat is fijn = That's good/nice<br>
+                Dat is snel = That's fast
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 9: Ik vind... (11×) - Give Opinions</h4>
+            <p><strong>Use:</strong> Express your opinion</p>
+            <div class="example">
+                Ik vind het leuk = I think it's nice<br>
+                Ik vind het moeilijk = I find it difficult<br>
+                Ik vind hem saai = I find him boring
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 10: ... per week - Frequency Expressions</h4>
+            <p><strong>Use:</strong> Talk about frequency</p>
+            <div class="example">
+                drie keer per week = three times per week<br>
+                twee dagen per week = two days per week<br>
+                elke week = every week
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 11: Mag ik...? - Ask Permission</h4>
+            <p><strong>Use:</strong> Politely request</p>
+            <div class="example">
+                Mag ik hem passen? = May I try it on?<br>
+                Mag ik vragen? = May I ask?
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 12: ... graag - Politeness Marker</h4>
+            <p><strong>Use:</strong> Make requests polite</p>
+            <div class="example">
+                Ik zou graag... = I would like...<br>
+                Graag een kopje thee = A cup of tea, please
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 13: Hoelang/Hoeveel...? - Quantity/Duration</h4>
+            <p><strong>Use:</strong> Ask about amounts/time</p>
+            <div class="example">
+                Hoelang duurt het? = How long does it take?<br>
+                Hoeveel kost dat? = How much does that cost?<br>
+                Hoeveel dagen? = How many days?
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 14: Ik moet... (7×) - Express Obligation</h4>
+            <p><strong>Use:</strong> Say what you have to do</p>
+            <div class="example">
+                Ik moet werken = I have to work<br>
+                Ik moet gaan = I have to go
+            </div>
+        </div>
+
+        <div class="pattern-box">
+            <h4>Pattern 15: ... of niet? - Confirmation Tag</h4>
+            <p><strong>Use:</strong> Confirm understanding</p>
+            <div class="example">
+                Dat is goed, of niet? = That's good, isn't it?<br>
+                Je komt, of niet? = You're coming, aren't you?
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="connecting-words">
+        <h2>🔗 TOP 15 CONNECTING WORDS</h2>
+        <p><strong>Learn these for fluency!</strong></p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dutch</th>
+                    <th>English</th>
+                    <th>Usage</th>
+                    <th>Example</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="freq-high">
+                    <td><strong>en</strong></td>
+                    <td>and</td>
+                    <td>Connect</td>
+                    <td>Brood en melk</td>
+                    <td>45×</td>
+                </tr>
+                <tr class="freq-medium">
+                    <td><strong>maar</strong></td>
+                    <td>but</td>
+                    <td>Contrast</td>
+                    <td>Klein maar gezellig</td>
+                    <td>20×</td>
+                </tr>
+                <tr>
+                    <td><strong>ook</strong></td>
+                    <td>also</td>
+                    <td>Add info</td>
+                    <td>Ik ook</td>
+                    <td>18×</td>
+                </tr>
+                <tr>
+                    <td><strong>want</strong></td>
+                    <td>because</td>
+                    <td>Explain</td>
+                    <td>...want het is koud</td>
+                    <td>8×</td>
+                </tr>
+                <tr>
+                    <td><strong>dus</strong></td>
+                    <td>so/therefore</td>
+                    <td>Conclude</td>
+                    <td>Dus ik ga niet</td>
+                    <td>7×</td>
+                </tr>
+                <tr>
+                    <td><strong>of</strong></td>
+                    <td>or</td>
+                    <td>Options</td>
+                    <td>Thee of koffie?</td>
+                    <td>9×</td>
+                </tr>
+                <tr>
+                    <td><strong>als</strong></td>
+                    <td>if/when</td>
+                    <td>Condition</td>
+                    <td>Als je wilt</td>
+                    <td>6×</td>
+                </tr>
+                <tr>
+                    <td><strong>omdat</strong></td>
+                    <td>because</td>
+                    <td>Reason</td>
+                    <td>Omdat ik werk</td>
+                    <td>3×</td>
+                </tr>
+                <tr>
+                    <td><strong>dan</strong></td>
+                    <td>then</td>
+                    <td>Sequence</td>
+                    <td>Dan gaan we</td>
+                    <td>8×</td>
+                </tr>
+                <tr>
+                    <td><strong>nog</strong></td>
+                    <td>still/yet</td>
+                    <td>Time</td>
+                    <td>Nog niet</td>
+                    <td>7×</td>
+                </tr>
+                <tr>
+                    <td><strong>nu</strong></td>
+                    <td>now</td>
+                    <td>Present</td>
+                    <td>Nu werk ik</td>
+                    <td>3×</td>
+                </tr>
+                <tr>
+                    <td><strong>al</strong></td>
+                    <td>already</td>
+                    <td>Time</td>
+                    <td>Al vijf jaar</td>
+                    <td>6×</td>
+                </tr>
+                <tr>
+                    <td><strong>alleen</strong></td>
+                    <td>only/alone</td>
+                    <td>Limit</td>
+                    <td>Alleen melk</td>
+                    <td>7×</td>
+                </tr>
+                <tr>
+                    <td><strong>misschien</strong></td>
+                    <td>maybe</td>
+                    <td>Possibility</td>
+                    <td>Misschien morgen</td>
+                    <td>4×</td>
+                </tr>
+                <tr>
+                    <td><strong>wel</strong></td>
+                    <td>indeed/do</td>
+                    <td>Emphasis</td>
+                    <td>Ik wel</td>
+                    <td>10×</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section" id="question-starters">
+        <h2>💬 TOP 20 QUESTION STARTERS</h2>
+
+        <div class="vocab-list">
+            <div class="vocab-item">
+                <strong>1. Heb je...? (16×)</strong><br>
+                Do you have/feel like...?
+            </div>
+            <div class="vocab-item">
+                <strong>2. Wat... (28×)</strong><br>
+                What...?
+            </div>
+            <div class="vocab-item">
+                <strong>3. Waar... (10×)</strong><br>
+                Where...?
+            </div>
+            <div class="vocab-item">
+                <strong>4. Hoe... (16×)</strong><br>
+                How...?
+            </div>
+            <div class="vocab-item">
+                <strong>5. Wanneer... (5×)</strong><br>
+                When...?
+            </div>
+            <div class="vocab-item">
+                <strong>6. Hoelang... (5×)</strong><br>
+                How long...?
+            </div>
+            <div class="vocab-item">
+                <strong>7. Hoeveel... (6×)</strong><br>
+                How much/many...?
+            </div>
+            <div class="vocab-item">
+                <strong>8. Wie...</strong><br>
+                Who...?
+            </div>
+            <div class="vocab-item">
+                <strong>9. Waarom...</strong><br>
+                Why...?
+            </div>
+            <div class="vocab-item">
+                <strong>10. Welke...</strong><br>
+                Which...?
+            </div>
+            <div class="vocab-item">
+                <strong>11. Kun je... (11×)</strong><br>
+                Can you...?
+            </div>
+            <div class="vocab-item">
+                <strong>12. Wil je...</strong><br>
+                Do you want...?
+            </div>
+            <div class="vocab-item">
+                <strong>13. Ga je...</strong><br>
+                Are you going...?
+            </div>
+            <div class="vocab-item">
+                <strong>14. Ben je...</strong><br>
+                Are you...?
+            </div>
+            <div class="vocab-item">
+                <strong>15. Vind je...</strong><br>
+                Do you think/find...?
+            </div>
+            <div class="vocab-item">
+                <strong>16. Is het/hij/zij...</strong><br>
+                Is it/he/she...?
+            </div>
+            <div class="vocab-item">
+                <strong>17. Zullen we... (5×)</strong><br>
+                Shall we...?
+            </div>
+            <div class="vocab-item">
+                <strong>18. Mag ik...</strong><br>
+                May I...?
+            </div>
+            <div class="vocab-item">
+                <strong>19. Moet je/ik...</strong><br>
+                Do you/I have to...?
+            </div>
+            <div class="vocab-item">
+                <strong>20. Hoe laat...</strong><br>
+                What time...?
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="grammar">
+        <h2>📝 GRAMMAR ESSENTIALS</h2>
+        <p><strong>Focus: ~25% - Learn patterns, not rules!</strong></p>
+
+        <h3>1. Present Tense (Most Important!)</h3>
+        <div class="grammar-rule">
+            <strong>Regular Verbs:</strong> stem + t (jij/hij), stem + en (wij/jullie/zij)<br>
+            <div class="example">
+                werken (to work): ik werk, je werkt, hij werkt, we werken
+            </div>
+        </div>
+
+        <div class="grammar-rule">
+            <strong>Top Irregular Verbs (MEMORIZE!):</strong>
+            <div class="example">
+                zijn: ben, bent, is, zijn<br>
+                hebben: heb, hebt, heeft, hebben<br>
+                gaan: ga, gaat, gaan<br>
+                kunnen: kan, kunnen<br>
+                willen: wil, willen<br>
+                moeten: moet, moeten
+            </div>
+        </div>
+
+        <h3>2. Word Order Basics</h3>
+        <div class="grammar-rule">
+            <strong>Main clause:</strong> Subject + Verb + Rest
+            <div class="example">
+                Ik werk in Amsterdam = I work in Amsterdam
+            </div>
+        </div>
+
+        <div class="grammar-rule">
+            <strong>Question:</strong> Verb + Subject + Rest
+            <div class="example">
+                Werk je in Amsterdam? = Do you work in Amsterdam?
+            </div>
+        </div>
+
+        <div class="grammar-rule">
+            <strong>With omdat/als/dat:</strong> Subject + Rest + Verb (LAST!)
+            <div class="example">
+                ...omdat ik in Amsterdam werk = ...because I work in Amsterdam
+            </div>
+        </div>
+
+        <h3>3. Past Tense (Perfectum) - Common Pattern</h3>
+        <div class="grammar-rule">
+            <strong>Pattern:</strong> hebben/zijn + ge...t/d or ge...en
+            <div class="example">
+                Ik heb gewerkt = I (have) worked<br>
+                Ik ben gegaan = I (have) gone
+            </div>
+        </div>
+
+        <div class="grammar-rule">
+            <strong>Top 10 Irregular Past Participles:</strong>
+            <div class="example">
+                gedaan (done), geweest (been), gehad (had), gegaan (gone),<br>
+                gekomen (come), gezien (seen), gegeten (eaten), gedronken (drunk),<br>
+                gekregen (gotten), geworden (become)
+            </div>
+        </div>
+
+        <h3>4. Modal Verbs (Can/Want/Must)</h3>
+        <div class="grammar-rule">
+            <strong>Pattern:</strong> Modal + infinitive (end of sentence)
+            <div class="example">
+                Ik kan zwemmen = I can swim<br>
+                Ik wil gaan = I want to go<br>
+                Ik moet werken = I must work
+            </div>
+        </div>
+
+        <h3>5. Om te... (in order to)</h3>
+        <div class="grammar-rule">
+            <strong>Pattern:</strong> om + te + infinitive
+            <div class="example">
+                Ik kom om te leren = I come (in order) to learn<br>
+                Tijd om te eten = Time to eat
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="vocabulary">
+        <h2>🎯 TOP 50 HIGH-ROI VOCABULARY</h2>
+
+        <h3>Time & Frequency</h3>
+        <div class="vocab-list">
+            <div class="vocab-item"><strong>vandaag</strong> = today</div>
+            <div class="vocab-item"><strong>morgen</strong> = tomorrow</div>
+            <div class="vocab-item"><strong>gisteren</strong> = yesterday</div>
+            <div class="vocab-item"><strong>nu</strong> = now</div>
+            <div class="vocab-item"><strong>straks</strong> = later</div>
+            <div class="vocab-item"><strong>vanavond</strong> = tonight</div>
+            <div class="vocab-item"><strong>week</strong> = week</div>
+            <div class="vocab-item"><strong>maand</strong> = month</div>
+            <div class="vocab-item"><strong>jaar</strong> = year</div>
+            <div class="vocab-item"><strong>vaak</strong> = often</div>
+            <div class="vocab-item"><strong>altijd</strong> = always</div>
+            <div class="vocab-item"><strong>nooit</strong> = never</div>
+            <div class="vocab-item"><strong>elke dag</strong> = every day</div>
+            <div class="vocab-item"><strong>soms</strong> = sometimes</div>
+        </div>
+
+        <h3>Daily Activities</h3>
+        <div class="vocab-list">
+            <div class="vocab-item"><strong>werken</strong> = work</div>
+            <div class="vocab-item"><strong>studeren</strong> = study</div>
+            <div class="vocab-item"><strong>eten</strong> = eat</div>
+            <div class="vocab-item"><strong>drinken</strong> = drink</div>
+            <div class="vocab-item"><strong>slapen</strong> = sleep</div>
+            <div class="vocab-item"><strong>koken</strong> = cook</div>
+            <div class="vocab-item"><strong>lezen</strong> = read</div>
+            <div class="vocab-item"><strong>kijken</strong> = watch</div>
+            <div class="vocab-item"><strong>sporten</strong> = exercise</div>
+            <div class="vocab-item"><strong>wandelen</strong> = walk</div>
+            <div class="vocab-item"><strong>fietsen</strong> = cycle</div>
+        </div>
+
+        <h3>Places</h3>
+        <div class="vocab-list">
+            <div class="vocab-item"><strong>huis</strong> = house</div>
+            <div class="vocab-item"><strong>werk</strong> = work</div>
+            <div class="vocab-item"><strong>school</strong> = school</div>
+            <div class="vocab-item"><strong>station</strong> = station</div>
+            <div class="vocab-item"><strong>supermarkt</strong> = supermarket</div>
+            <div class="vocab-item"><strong>winkel</strong> = shop</div>
+            <div class="vocab-item"><strong>restaurant</strong> = restaurant</div>
+            <div class="vocab-item"><strong>park</strong> = park</div>
+            <div class="vocab-item"><strong>stad</strong> = city</div>
+            <div class="vocab-item"><strong>straat</strong> = street</div>
+        </div>
+
+        <h3>Common Adjectives</h3>
+        <div class="vocab-list">
+            <div class="vocab-item"><strong>goed</strong> = good</div>
+            <div class="vocab-item"><strong>leuk</strong> = nice/fun</div>
+            <div class="vocab-item"><strong>mooi</strong> = beautiful</div>
+            <div class="vocab-item"><strong>fijn</strong> = nice</div>
+            <div class="vocab-item"><strong>groot</strong> = big</div>
+            <div class="vocab-item"><strong>klein</strong> = small</div>
+            <div class="vocab-item"><strong>oud</strong> = old</div>
+            <div class="vocab-item"><strong>nieuw</strong> = new</div>
+            <div class="vocab-item"><strong>makkelijk</strong> = easy</div>
+            <div class="vocab-item"><strong>moeilijk</strong> = difficult</div>
+            <div class="vocab-item"><strong>duur</strong> = expensive</div>
+            <div class="vocab-item"><strong>goedkoop</strong> = cheap</div>
+            <div class="vocab-item"><strong>warm</strong> = warm</div>
+            <div class="vocab-item"><strong>koud</strong> = cold</div>
+            <div class="vocab-item"><strong>druk</strong> = busy</div>
+            <div class="vocab-item"><strong>rustig</strong> = quiet</div>
+        </div>
+    </div>
+
+    <div class="section" id="exam-tips">
+        <h2>🎓 EXAM-SPECIFIC TIPS</h2>
+
+        <h3>1. Vocabulary Test (20 MC, 15 min)</h3>
+        <ul>
+            <li><strong>Focus:</strong> additionalvocab.md words (high priority!)</li>
+            <li><strong>Strategy:</strong> Learn most frequent nouns, verbs, adjectives first</li>
+            <li><strong>Passing:</strong> 12/20 points minimum</li>
+        </ul>
+
+        <h3>2. Listening Test (20 MC, 20 min)</h3>
+        <ul>
+            <li><strong>Key skill:</strong> Recognize question patterns above</li>
+            <li><strong>Practice:</strong> Listen for Heb je...?, Wat...?, Waar...?, Hoe...?</li>
+            <li><strong>Passing:</strong> 14/20 points minimum</li>
+        </ul>
+
+        <h3>3. Reading Test (20 MC, 45 min)</h3>
+        <ul>
+            <li><strong>Focus:</strong> Main ideas, don't get stuck on unknown words</li>
+            <li><strong>Key:</strong> Connecting words (maar, omdat, dus) show logic</li>
+            <li><strong>Passing:</strong> 14/20 points minimum</li>
+        </ul>
+
+        <h3>4. Writing Test (5 sentences + short text, 30 min)</h3>
+        <ul>
+            <li><strong>Use:</strong> Sentence patterns from this guide!</li>
+            <li><strong>Grammar counts:</strong> 1 point for content, 1 for grammar</li>
+            <li><strong>Safe patterns:</strong> Ik..., Ik ga..., Ik vind..., Omdat..., Maar...</li>
+            <li><strong>Passing:</strong> 15/22 points minimum</li>
+        </ul>
+    </div>
+
+    <div class="section" id="study-plan">
+        <h2>📅 10-DAY STUDY PLAN</h2>
+
+        <div class="study-plan">
+            <h3>Days 1-2: Foundation</h3>
+            <ul>
+                <li>Memorize Top 30 Essential Words</li>
+                <li>Practice Top 5 Sentence Patterns (Heb je...?, Zullen we...?, etc.)</li>
+                <li>Learn zijn and hebben conjugations</li>
+            </ul>
+        </div>
+
+        <div class="study-plan">
+            <h3>Days 3-4: Expansion</h3>
+            <ul>
+                <li>Master all 15 Sentence Patterns</li>
+                <li>Learn 15 Connecting Words</li>
+                <li>Practice 20 Question Starters</li>
+            </ul>
+        </div>
+
+        <div class="study-plan">
+            <h3>Days 5-6: Vocabulary</h3>
+            <ul>
+                <li>Review additionalvocab.md (high priority)</li>
+                <li>Focus on Top 50 High-ROI Vocabulary</li>
+                <li>Practice using new words in sentence patterns</li>
+            </ul>
+        </div>
+
+        <div class="study-plan">
+            <h3>Days 7-8: Grammar & Application</h3>
+            <ul>
+                <li>Review Grammar Essentials (25% focus)</li>
+                <li>Practice writing with sentence patterns</li>
+                <li>Combine patterns: "Heb je zin om... omdat..."</li>
+            </ul>
+        </div>
+
+        <div class="study-plan">
+            <h3>Days 9-10: Exam Practice</h3>
+            <ul>
+                <li>Do practice exercises from Link+</li>
+                <li>Write practice sentences using patterns</li>
+                <li>Review everything marked with ×10 or higher frequency</li>
+            </ul>
+        </div>
+
+        <h3>Daily Practice Routine (30 min/day)</h3>
+        <ul>
+            <li><strong>10 min:</strong> Flashcards (Top 30 words + sentence patterns)</li>
+            <li><strong>10 min:</strong> Write 5 sentences using different patterns</li>
+            <li><strong>10 min:</strong> Read extracted_texts.md dialogues out loud</li>
+        </ul>
+    </div>
+
+    <div class="section" id="quick-wins">
+        <h2>✅ QUICK WINS FOR CONVERSATION</h2>
+
+        <h3>Start Any Conversation:</h3>
+        <div class="example">
+            Hoe gaat het? (How are you?)<br>
+            Hoe is het weer? (How's the weather?)<br>
+            Heb je plannen voor het weekend? (Do you have weekend plans?)
+        </div>
+
+        <h3>Keep Conversation Going:</h3>
+        <div class="example">
+            En jij? (And you?)<br>
+            Dat is leuk! (That's nice!)<br>
+            Wat leuk! (How nice!)<br>
+            Echt waar? (Really?)
+        </div>
+
+        <h3>Exit Gracefully:</h3>
+        <div class="example">
+            Ik moet gaan (I have to go)<br>
+            Tot ziens! (Goodbye!)<br>
+            Tot later! (See you later!)<br>
+            Bedankt! (Thanks!)
+        </div>
+    </div>
+
+    <div class="section" id="pro-tips">
+        <h2>💡 PRO TIPS</h2>
+
+        <div class="tip">Use "Ik ga..." for everything: "Ik ga werken", "Ik ga eten", "Ik ga naar huis"</div>
+
+        <div class="tip">When in doubt, use "Heb je...?": Works for questions about almost anything</div>
+
+        <div class="tip">"Dat is..." is your friend: Easy way to comment on anything</div>
+
+        <div class="tip">Add "graag" to be polite: "Ja graag", "Ik zou graag..."</div>
+
+        <div class="tip">Combine patterns: "Heb je zin om mee te gaan omdat het mooi weer is?"</div>
+
+        <h3>Success Formula</h3>
+        <p><strong>Master these in order:</strong></p>
+        <ol>
+            <li>Top 30 Essential Words (Foundation)</li>
+            <li>Top 5 Sentence Patterns (Communication starts)</li>
+            <li>zijn & hebben (Most common verbs)</li>
+            <li>Question Starters (Ask anything)</li>
+            <li>Connecting Words (Sound fluent)</li>
+            <li>additionalvocab.md words (Exam vocabulary)</li>
+            <li>Remaining patterns & grammar (Polish)</li>
+        </ol>
+
+        <p style="margin-top: 20px; font-size: 18px; font-weight: bold; text-align: center;">
+            Remember: You don't need perfect grammar to communicate!<br>
+            Focus on patterns, they'll carry you through 80% of situations.
+        </p>
+
+        <p style="text-align: center; font-size: 24px; margin-top: 20px;">
+            Good luck with your exam! 🍀
+        </p>
+    </div>
+</body>
+</html>

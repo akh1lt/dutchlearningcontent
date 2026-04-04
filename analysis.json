@@ -1,0 +1,1546 @@
+{
+  "metadata": {
+    "analysis_date": "2026-04-04",
+    "source_file": "extracted_texts.md",
+    "total_dialogues": 30,
+    "description": "Statistical analysis of A2-level Dutch study materials for exam preparation"
+  },
+  "top_100_words": [
+    {
+      "word": "je",
+      "translation": "you",
+      "frequency": 134,
+      "category": "other"
+    },
+    {
+      "word": "ik",
+      "translation": "I",
+      "frequency": 93,
+      "category": "other"
+    },
+    {
+      "word": "ja",
+      "translation": "yes",
+      "frequency": 54,
+      "category": "other"
+    },
+    {
+      "word": "is",
+      "translation": "is",
+      "frequency": 51,
+      "category": "verb"
+    },
+    {
+      "word": "en",
+      "translation": "and",
+      "frequency": 45,
+      "category": "other"
+    },
+    {
+      "word": "heb",
+      "translation": "have",
+      "frequency": 37,
+      "category": "verb"
+    },
+    {
+      "word": "wat",
+      "translation": "what",
+      "frequency": 28,
+      "category": "other"
+    },
+    {
+      "word": "dat",
+      "translation": "that",
+      "frequency": 27,
+      "category": "other"
+    },
+    {
+      "word": "in",
+      "translation": "in",
+      "frequency": 25,
+      "category": "other"
+    },
+    {
+      "word": "met",
+      "translation": "with",
+      "frequency": 24,
+      "category": "other"
+    },
+    {
+      "word": "we",
+      "translation": "we",
+      "frequency": 18,
+      "category": "other"
+    },
+    {
+      "word": "voor",
+      "translation": "for",
+      "frequency": 18,
+      "category": "other"
+    },
+    {
+      "word": "niet",
+      "translation": "not",
+      "frequency": 17,
+      "category": "adverb"
+    },
+    {
+      "word": "naar",
+      "translation": "to",
+      "frequency": 16,
+      "category": "other"
+    },
+    {
+      "word": "hoe",
+      "translation": "how",
+      "frequency": 16,
+      "category": "other"
+    },
+    {
+      "word": "ben",
+      "translation": "am",
+      "frequency": 16,
+      "category": "verb"
+    },
+    {
+      "word": "ga",
+      "translation": "go",
+      "frequency": 15,
+      "category": "verb"
+    },
+    {
+      "word": "ook",
+      "translation": "also",
+      "frequency": 15,
+      "category": "adverb"
+    },
+    {
+      "word": "of",
+      "translation": "or",
+      "frequency": 14,
+      "category": "other"
+    },
+    {
+      "word": "veel",
+      "translation": "much/many",
+      "frequency": 14,
+      "category": "adjective"
+    },
+    {
+      "word": "op",
+      "translation": "on",
+      "frequency": 13,
+      "category": "other"
+    },
+    {
+      "word": "dan",
+      "translation": "then",
+      "frequency": 12,
+      "category": "other"
+    },
+    {
+      "word": "werk",
+      "translation": "work",
+      "frequency": 12,
+      "category": "noun"
+    },
+    {
+      "word": "van",
+      "translation": "of/from",
+      "frequency": 12,
+      "category": "other"
+    },
+    {
+      "word": "mijn",
+      "translation": "my",
+      "frequency": 12,
+      "category": "other"
+    },
+    {
+      "word": "week",
+      "translation": "week",
+      "frequency": 11,
+      "category": "noun"
+    },
+    {
+      "word": "goed",
+      "translation": "good",
+      "frequency": 11,
+      "category": "adjective"
+    },
+    {
+      "word": "nee",
+      "translation": "no",
+      "frequency": 10,
+      "category": "other"
+    },
+    {
+      "word": "waar",
+      "translation": "where",
+      "frequency": 10,
+      "category": "other"
+    },
+    {
+      "word": "er",
+      "translation": "there",
+      "frequency": 10,
+      "category": "other"
+    },
+    {
+      "word": "maar",
+      "translation": "but",
+      "frequency": 10,
+      "category": "other"
+    },
+    {
+      "word": "bij",
+      "translation": "at/with",
+      "frequency": 9,
+      "category": "other"
+    },
+    {
+      "word": "vaak",
+      "translation": "often",
+      "frequency": 9,
+      "category": "adverb"
+    },
+    {
+      "word": "per",
+      "translation": "per",
+      "frequency": 9,
+      "category": "other"
+    },
+    {
+      "word": "was",
+      "translation": "was",
+      "frequency": 9,
+      "category": "verb"
+    },
+    {
+      "word": "uur",
+      "translation": "hour",
+      "frequency": 8,
+      "category": "noun"
+    },
+    {
+      "word": "vind",
+      "translation": "find/think",
+      "frequency": 8,
+      "category": "verb"
+    },
+    {
+      "word": "doe",
+      "translation": "do",
+      "frequency": 8,
+      "category": "verb"
+    },
+    {
+      "word": "moet",
+      "translation": "must",
+      "frequency": 8,
+      "category": "verb"
+    },
+    {
+      "word": "wel",
+      "translation": "indeed",
+      "frequency": 8,
+      "category": "adverb"
+    },
+    {
+      "word": "jaar",
+      "translation": "year",
+      "frequency": 8,
+      "category": "noun"
+    },
+    {
+      "word": "om",
+      "translation": "at",
+      "frequency": 7,
+      "category": "other"
+    },
+    {
+      "word": "te",
+      "translation": "to",
+      "frequency": 7,
+      "category": "other"
+    },
+    {
+      "word": "nog",
+      "translation": "still/yet",
+      "frequency": 7,
+      "category": "adverb"
+    },
+    {
+      "word": "zijn",
+      "translation": "are/be",
+      "frequency": 7,
+      "category": "verb"
+    },
+    {
+      "word": "hij",
+      "translation": "he",
+      "frequency": 7,
+      "category": "other"
+    },
+    {
+      "word": "misschien",
+      "translation": "maybe",
+      "frequency": 7,
+      "category": "adverb"
+    },
+    {
+      "word": "zaterdag",
+      "translation": "Saturday",
+      "frequency": 6,
+      "category": "noun"
+    },
+    {
+      "word": "keer",
+      "translation": "time",
+      "frequency": 6,
+      "category": "noun"
+    },
+    {
+      "word": "twee",
+      "translation": "two",
+      "frequency": 6,
+      "category": "other"
+    },
+    {
+      "word": "heel",
+      "translation": "very",
+      "frequency": 6,
+      "category": "adverb"
+    },
+    {
+      "word": "doen",
+      "translation": "do",
+      "frequency": 6,
+      "category": "verb"
+    },
+    {
+      "word": "geen",
+      "translation": "no/none",
+      "frequency": 6,
+      "category": "other"
+    },
+    {
+      "word": "me",
+      "translation": "me",
+      "frequency": 6,
+      "category": "other"
+    },
+    {
+      "word": "leuk",
+      "translation": "nice",
+      "frequency": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "tot",
+      "translation": "until",
+      "frequency": 5,
+      "category": "other"
+    },
+    {
+      "word": "drie",
+      "translation": "three",
+      "frequency": 5,
+      "category": "other"
+    },
+    {
+      "word": "jij",
+      "translation": "you",
+      "frequency": 5,
+      "category": "other"
+    },
+    {
+      "word": "graag",
+      "translation": "gladly",
+      "frequency": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "mooi",
+      "translation": "beautiful",
+      "frequency": 5,
+      "category": "adjective"
+    },
+    {
+      "word": "morgen",
+      "translation": "tomorrow",
+      "frequency": 5,
+      "category": "adverb"
+    },
+    {
+      "word": "wil",
+      "translation": "want",
+      "frequency": 5,
+      "category": "verb"
+    },
+    {
+      "word": "hebben",
+      "translation": "have",
+      "frequency": 5,
+      "category": "verb"
+    },
+    {
+      "word": "mee",
+      "translation": "along",
+      "frequency": 4,
+      "category": "other"
+    },
+    {
+      "word": "gaan",
+      "translation": "go",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "zullen",
+      "translation": "shall",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "woensdag",
+      "translation": "Wednesday",
+      "frequency": 4,
+      "category": "noun"
+    },
+    {
+      "word": "tijd",
+      "translation": "time",
+      "frequency": 4,
+      "category": "noun"
+    },
+    {
+      "word": "eten",
+      "translation": "eat",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "eet",
+      "translation": "eat",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "dag",
+      "translation": "day",
+      "frequency": 4,
+      "category": "noun"
+    },
+    {
+      "word": "zo",
+      "translation": "so",
+      "frequency": 4,
+      "category": "adverb"
+    },
+    {
+      "word": "weer",
+      "translation": "again/weather",
+      "frequency": 4,
+      "category": "other"
+    },
+    {
+      "word": "ze",
+      "translation": "they/she",
+      "frequency": 4,
+      "category": "other"
+    },
+    {
+      "word": "woon",
+      "translation": "live",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "groot",
+      "translation": "big",
+      "frequency": 4,
+      "category": "adjective"
+    },
+    {
+      "word": "kijk",
+      "translation": "look",
+      "frequency": 4,
+      "category": "verb"
+    },
+    {
+      "word": "gezellig",
+      "translation": "cozy",
+      "frequency": 4,
+      "category": "adjective"
+    },
+    {
+      "word": "meer",
+      "translation": "more",
+      "frequency": 4,
+      "category": "adjective"
+    },
+    {
+      "word": "prima",
+      "translation": "fine",
+      "frequency": 3,
+      "category": "adjective"
+    },
+    {
+      "word": "vier",
+      "translation": "four",
+      "frequency": 3,
+      "category": "other"
+    },
+    {
+      "word": "kan",
+      "translation": "can",
+      "frequency": 3,
+      "category": "verb"
+    },
+    {
+      "word": "restaurant",
+      "translation": "restaurant",
+      "frequency": 3,
+      "category": "noun"
+    },
+    {
+      "word": "daar",
+      "translation": "there",
+      "frequency": 3,
+      "category": "adverb"
+    },
+    {
+      "word": "kom",
+      "translation": "come",
+      "frequency": 3,
+      "category": "verb"
+    },
+    {
+      "word": "lang",
+      "translation": "long",
+      "frequency": 3,
+      "category": "adjective"
+    },
+    {
+      "word": "huis",
+      "translation": "house",
+      "frequency": 3,
+      "category": "noun"
+    },
+    {
+      "word": "wordt",
+      "translation": "becomes",
+      "frequency": 3,
+      "category": "verb"
+    },
+    {
+      "word": "klein",
+      "translation": "small",
+      "frequency": 3,
+      "category": "adjective"
+    },
+    {
+      "word": "iets",
+      "translation": "something",
+      "frequency": 3,
+      "category": "other"
+    },
+    {
+      "word": "duur",
+      "translation": "expensive",
+      "frequency": 3,
+      "category": "adjective"
+    },
+    {
+      "word": "lees",
+      "translation": "read",
+      "frequency": 3,
+      "category": "verb"
+    },
+    {
+      "word": "dit",
+      "translation": "this",
+      "frequency": 3,
+      "category": "other"
+    },
+    {
+      "word": "waarom",
+      "translation": "why",
+      "frequency": 3,
+      "category": "other"
+    },
+    {
+      "word": "als",
+      "translation": "if/when",
+      "frequency": 2,
+      "category": "other"
+    },
+    {
+      "word": "fijn",
+      "translation": "fine",
+      "frequency": 2,
+      "category": "adjective"
+    },
+    {
+      "word": "wanneer",
+      "translation": "when",
+      "frequency": 2,
+      "category": "other"
+    },
+    {
+      "word": "uit",
+      "translation": "out",
+      "frequency": 2,
+      "category": "other"
+    },
+    {
+      "word": "vrijdag",
+      "translation": "Friday",
+      "frequency": 2,
+      "category": "noun"
+    },
+    {
+      "word": "alles",
+      "translation": "everything",
+      "frequency": 2,
+      "category": "other"
+    }
+  ],
+  "top_50_verbs": [
+    {
+      "infinitive": "zijn",
+      "translation": "to be",
+      "frequency": 83,
+      "common_forms": [
+        "ben",
+        "is",
+        "zijn",
+        "was"
+      ]
+    },
+    {
+      "infinitive": "hebben",
+      "translation": "to have",
+      "frequency": 44,
+      "common_forms": [
+        "heb",
+        "heeft",
+        "hebben"
+      ]
+    },
+    {
+      "infinitive": "gaan",
+      "translation": "to go",
+      "frequency": 21,
+      "common_forms": [
+        "ga",
+        "gaat",
+        "gaan"
+      ]
+    },
+    {
+      "infinitive": "doen",
+      "translation": "to do",
+      "frequency": 15,
+      "common_forms": [
+        "doe",
+        "doet",
+        "doen"
+      ]
+    },
+    {
+      "infinitive": "werken",
+      "translation": "to work",
+      "frequency": 13,
+      "common_forms": [
+        "werk",
+        "werken"
+      ]
+    },
+    {
+      "infinitive": "moeten",
+      "translation": "must/to have to",
+      "frequency": 8,
+      "common_forms": [
+        "moet"
+      ]
+    },
+    {
+      "infinitive": "vinden",
+      "translation": "to find/think",
+      "frequency": 8,
+      "common_forms": [
+        "vind"
+      ]
+    },
+    {
+      "infinitive": "eten",
+      "translation": "to eat",
+      "frequency": 8,
+      "common_forms": [
+        "eet",
+        "eten"
+      ]
+    },
+    {
+      "infinitive": "zullen",
+      "translation": "shall/will",
+      "frequency": 7,
+      "common_forms": [
+        "zal",
+        "zullen",
+        "zou"
+      ]
+    },
+    {
+      "infinitive": "houden",
+      "translation": "to hold/like",
+      "frequency": 7,
+      "common_forms": [
+        "hou"
+      ]
+    },
+    {
+      "infinitive": "willen",
+      "translation": "to want",
+      "frequency": 6,
+      "common_forms": [
+        "wil",
+        "willen"
+      ]
+    },
+    {
+      "infinitive": "kunnen",
+      "translation": "can/to be able to",
+      "frequency": 5,
+      "common_forms": [
+        "kan",
+        "kunt",
+        "kunnen"
+      ]
+    },
+    {
+      "infinitive": "komen",
+      "translation": "to come",
+      "frequency": 5,
+      "common_forms": [
+        "kom",
+        "komt",
+        "komen"
+      ]
+    },
+    {
+      "infinitive": "leren",
+      "translation": "to learn",
+      "frequency": 5,
+      "common_forms": [
+        "leer",
+        "leren"
+      ]
+    },
+    {
+      "infinitive": "sporten",
+      "translation": "to exercise",
+      "frequency": 5,
+      "common_forms": [
+        "sport",
+        "sporten"
+      ]
+    },
+    {
+      "infinitive": "wonen",
+      "translation": "to live",
+      "frequency": 4,
+      "common_forms": [
+        "woon"
+      ]
+    },
+    {
+      "infinitive": "kijken",
+      "translation": "to watch/look",
+      "frequency": 4,
+      "common_forms": [
+        "kijk"
+      ]
+    },
+    {
+      "infinitive": "helpen",
+      "translation": "to help",
+      "frequency": 4,
+      "common_forms": [
+        "helpt",
+        "helpen"
+      ]
+    },
+    {
+      "infinitive": "gebruiken",
+      "translation": "to use",
+      "frequency": 4,
+      "common_forms": [
+        "gebruik",
+        "gebruiken"
+      ]
+    },
+    {
+      "infinitive": "worden",
+      "translation": "to become",
+      "frequency": 3,
+      "common_forms": [
+        "wordt"
+      ]
+    },
+    {
+      "infinitive": "zien",
+      "translation": "to see",
+      "frequency": 3,
+      "common_forms": [
+        "zie",
+        "ziet"
+      ]
+    },
+    {
+      "infinitive": "lezen",
+      "translation": "to read",
+      "frequency": 3,
+      "common_forms": [
+        "lees"
+      ]
+    },
+    {
+      "infinitive": "weten",
+      "translation": "to know",
+      "frequency": 3,
+      "common_forms": [
+        "weet"
+      ]
+    },
+    {
+      "infinitive": "zoeken",
+      "translation": "to search",
+      "frequency": 3,
+      "common_forms": [
+        "zoek",
+        "zoeken"
+      ]
+    },
+    {
+      "infinitive": "wandelen",
+      "translation": "to walk/hike",
+      "frequency": 3,
+      "common_forms": [
+        "wandel",
+        "wandelen"
+      ]
+    },
+    {
+      "infinitive": "maken",
+      "translation": "to make",
+      "frequency": 2,
+      "common_forms": [
+        "maakt",
+        "maken"
+      ]
+    },
+    {
+      "infinitive": "spelen",
+      "translation": "to play",
+      "frequency": 2,
+      "common_forms": [
+        "speel"
+      ]
+    },
+    {
+      "infinitive": "nemen",
+      "translation": "to take",
+      "frequency": 2,
+      "common_forms": [
+        "neem",
+        "nemen"
+      ]
+    },
+    {
+      "infinitive": "blijven",
+      "translation": "to stay",
+      "frequency": 2,
+      "common_forms": [
+        "blijf"
+      ]
+    },
+    {
+      "infinitive": "betalen",
+      "translation": "to pay",
+      "frequency": 2,
+      "common_forms": [
+        "betaal"
+      ]
+    },
+    {
+      "infinitive": "proberen",
+      "translation": "to try",
+      "frequency": 2,
+      "common_forms": [
+        "probeer"
+      ]
+    },
+    {
+      "infinitive": "reizen",
+      "translation": "to travel",
+      "frequency": 2,
+      "common_forms": [
+        "reis"
+      ]
+    },
+    {
+      "infinitive": "zwemmen",
+      "translation": "to swim",
+      "frequency": 2,
+      "common_forms": [
+        "zwem",
+        "zwemmen"
+      ]
+    },
+    {
+      "infinitive": "trainen",
+      "translation": "to train",
+      "frequency": 2,
+      "common_forms": [
+        "train"
+      ]
+    },
+    {
+      "infinitive": "denken",
+      "translation": "to think",
+      "frequency": 1,
+      "common_forms": [
+        "denk"
+      ]
+    },
+    {
+      "infinitive": "geven",
+      "translation": "to give",
+      "frequency": 1,
+      "common_forms": [
+        "geef"
+      ]
+    },
+    {
+      "infinitive": "krijgen",
+      "translation": "to get",
+      "frequency": 1,
+      "common_forms": [
+        "krijgen"
+      ]
+    },
+    {
+      "infinitive": "liggen",
+      "translation": "to lie",
+      "frequency": 1,
+      "common_forms": [
+        "ligt"
+      ]
+    },
+    {
+      "infinitive": "zitten",
+      "translation": "to sit",
+      "frequency": 1,
+      "common_forms": [
+        "zitten"
+      ]
+    },
+    {
+      "infinitive": "staan",
+      "translation": "to stand",
+      "frequency": 1,
+      "common_forms": [
+        "staat"
+      ]
+    },
+    {
+      "infinitive": "lopen",
+      "translation": "to walk",
+      "frequency": 1,
+      "common_forms": [
+        "lopen"
+      ]
+    },
+    {
+      "infinitive": "studeren",
+      "translation": "to study",
+      "frequency": 1,
+      "common_forms": [
+        "studeer"
+      ]
+    },
+    {
+      "infinitive": "voelen",
+      "translation": "to feel",
+      "frequency": 1,
+      "common_forms": [
+        "voel"
+      ]
+    },
+    {
+      "infinitive": "horen",
+      "translation": "to hear",
+      "frequency": 1,
+      "common_forms": [
+        "hoor"
+      ]
+    },
+    {
+      "infinitive": "spreken",
+      "translation": "to speak",
+      "frequency": 1,
+      "common_forms": [
+        "spreek"
+      ]
+    },
+    {
+      "infinitive": "kopen",
+      "translation": "to buy",
+      "frequency": 0,
+      "common_forms": []
+    },
+    {
+      "infinitive": "beginnen",
+      "translation": "to begin",
+      "frequency": 0,
+      "common_forms": []
+    },
+    {
+      "infinitive": "stoppen",
+      "translation": "to stop",
+      "frequency": 0,
+      "common_forms": []
+    },
+    {
+      "infinitive": "drinken",
+      "translation": "to drink",
+      "frequency": 0,
+      "common_forms": []
+    },
+    {
+      "infinitive": "koken",
+      "translation": "to cook",
+      "frequency": 0,
+      "common_forms": []
+    }
+  ],
+  "top_30_patterns": [
+    {
+      "pattern": "Heb je ...?",
+      "example_dutch": "Heb je zin om zaterdag mee te gaan?",
+      "example_english": "Do you have/Do you feel like...?",
+      "frequency": 16,
+      "use_case": "Asking if someone has something or wants to do something"
+    },
+    {
+      "pattern": "Dat is ...",
+      "example_dutch": "Dat is ook goed voor je conditie!",
+      "example_english": "That is...",
+      "frequency": 12,
+      "use_case": "Describing or identifying something"
+    },
+    {
+      "pattern": "Wat ...?",
+      "example_dutch": "Wat is er?",
+      "example_english": "What...?",
+      "frequency": 10,
+      "use_case": "Asking general questions"
+    },
+    {
+      "pattern": "Ben je ...?",
+      "example_dutch": "Ben je tevreden met je baan?",
+      "example_english": "Are you...?",
+      "frequency": 7,
+      "use_case": "Asking about state or condition"
+    },
+    {
+      "pattern": "Waar ...?",
+      "example_dutch": "Waar is de bakkerij?",
+      "example_english": "Where...?",
+      "frequency": 7,
+      "use_case": "Asking about location"
+    },
+    {
+      "pattern": "Ga je ...?",
+      "example_dutch": "Ga je vaak naar de sportschool?",
+      "example_english": "Do you go/Are you going...?",
+      "frequency": 6,
+      "use_case": "Asking about habits or future plans"
+    },
+    {
+      "pattern": "Hoe ...?",
+      "example_dutch": "Hoe vaak heb je les?",
+      "example_english": "How...?",
+      "frequency": 6,
+      "use_case": "Asking about manner, frequency, or degree"
+    },
+    {
+      "pattern": "Zullen we ...?",
+      "example_dutch": "Zullen we volgende week afspreken?",
+      "example_english": "Shall we...?",
+      "frequency": 5,
+      "use_case": "Making suggestions together"
+    },
+    {
+      "pattern": "Wil je ...?",
+      "example_dutch": "Wil je koffie of thee?",
+      "example_english": "Do you want...?",
+      "frequency": 4,
+      "use_case": "Offering or asking about desires"
+    },
+    {
+      "pattern": "Ik vind ...",
+      "example_dutch": "Ik vind het lekker",
+      "example_english": "I think/find...",
+      "frequency": 4,
+      "use_case": "Expressing opinion"
+    },
+    {
+      "pattern": "Wat voor ...?",
+      "example_dutch": "Wat voor werk doe je?",
+      "example_english": "What kind of...?",
+      "frequency": 3,
+      "use_case": "Asking about type or category"
+    },
+    {
+      "pattern": "Hoe laat ...?",
+      "example_dutch": "Hoe laat zullen we afspreken?",
+      "example_english": "What time...?",
+      "frequency": 3,
+      "use_case": "Asking about time"
+    },
+    {
+      "pattern": "Hoeveel ...?",
+      "example_dutch": "Hoeveel kost deze jas?",
+      "example_english": "How much/many...?",
+      "frequency": 3,
+      "use_case": "Asking about quantity or price"
+    },
+    {
+      "pattern": "Kun je ...?",
+      "example_dutch": "Kun je zaterdag komen?",
+      "example_english": "Can you...?",
+      "frequency": 3,
+      "use_case": "Asking about ability or requesting"
+    },
+    {
+      "pattern": "Ik zou ... kiezen",
+      "example_dutch": "Ik zou de blauwe kiezen",
+      "example_english": "I would choose...",
+      "frequency": 2,
+      "use_case": "Giving advice or preference"
+    },
+    {
+      "pattern": "... graag",
+      "example_dutch": "Ja, graag!",
+      "example_english": "... gladly/please",
+      "frequency": 8,
+      "use_case": "Expressing preference or politeness"
+    },
+    {
+      "pattern": "Dat maakt niet uit",
+      "example_dutch": "Dat maakt mij niet uit",
+      "example_english": "That doesn't matter",
+      "frequency": 2,
+      "use_case": "Expressing indifference"
+    },
+    {
+      "pattern": "Tot ...",
+      "example_dutch": "Tot zaterdag!",
+      "example_english": "See you...",
+      "frequency": 5,
+      "use_case": "Saying goodbye with time reference"
+    },
+    {
+      "pattern": "Ik hou van ...",
+      "example_dutch": "Ik hou niet van kou",
+      "example_english": "I like/love...",
+      "frequency": 3,
+      "use_case": "Expressing preference or affection"
+    },
+    {
+      "pattern": "Wat vind je van ...?",
+      "example_dutch": "Wat vind je van het weer?",
+      "example_english": "What do you think of...?",
+      "frequency": 2,
+      "use_case": "Asking for opinions"
+    },
+    {
+      "pattern": "Heb je zin om ...?",
+      "example_dutch": "Heb je zin om mee te gaan?",
+      "example_english": "Do you feel like...?",
+      "frequency": 2,
+      "use_case": "Inviting or suggesting activity"
+    },
+    {
+      "pattern": "Ja, leuk!",
+      "example_dutch": "Ja, leuk!",
+      "example_english": "Yes, nice!",
+      "frequency": 3,
+      "use_case": "Agreeing enthusiastically"
+    },
+    {
+      "pattern": "Mag ik ...?",
+      "example_dutch": "Mag ik hem passen?",
+      "example_english": "May I...?",
+      "frequency": 2,
+      "use_case": "Requesting permission"
+    },
+    {
+      "pattern": "Moet ik ...?",
+      "example_dutch": "Moet ik naar de dokter?",
+      "example_english": "Do I have to...?",
+      "frequency": 2,
+      "use_case": "Asking about necessity"
+    },
+    {
+      "pattern": "Eet je ...?",
+      "example_dutch": "Eet je vegetarisch?",
+      "example_english": "Do you eat...?",
+      "frequency": 2,
+      "use_case": "Asking about eating habits"
+    },
+    {
+      "pattern": "Kom je ...?",
+      "example_dutch": "Kom je ook?",
+      "example_english": "Are you coming...?",
+      "frequency": 2,
+      "use_case": "Inviting someone"
+    },
+    {
+      "pattern": "Is het ...?",
+      "example_dutch": "Is het duur?",
+      "example_english": "Is it...?",
+      "frequency": 3,
+      "use_case": "Asking about quality or state"
+    },
+    {
+      "pattern": "Hoe kom je ...?",
+      "example_dutch": "Hoe kom je naar je werk?",
+      "example_english": "How do you get...?",
+      "frequency": 2,
+      "use_case": "Asking about transportation"
+    },
+    {
+      "pattern": "Wat doe je ...?",
+      "example_dutch": "Wat doe je in je vrije tijd?",
+      "example_english": "What do you do...?",
+      "frequency": 3,
+      "use_case": "Asking about activities"
+    },
+    {
+      "pattern": "Ik ga ...",
+      "example_dutch": "Ik ga wandelen",
+      "example_english": "I am going...",
+      "frequency": 5,
+      "use_case": "Stating plans or actions"
+    }
+  ],
+  "top_30_connecting_words": [
+    {
+      "phrase": "en",
+      "translation": "and",
+      "frequency": 45,
+      "usage": "Connect words, phrases, or sentences; addition"
+    },
+    {
+      "phrase": "maar",
+      "translation": "but",
+      "frequency": 20,
+      "usage": "Express contrast or opposition"
+    },
+    {
+      "phrase": "ook",
+      "translation": "also/too",
+      "frequency": 18,
+      "usage": "Add information; indicate similarity"
+    },
+    {
+      "phrase": "niet",
+      "translation": "not",
+      "frequency": 16,
+      "usage": "Negate verbs, adjectives, or entire statements"
+    },
+    {
+      "phrase": "of",
+      "translation": "or",
+      "frequency": 14,
+      "usage": "Present alternatives or choices"
+    },
+    {
+      "phrase": "dat",
+      "translation": "that",
+      "frequency": 27,
+      "usage": "Introduce subordinate clauses; demonstrative"
+    },
+    {
+      "phrase": "met",
+      "translation": "with",
+      "frequency": 24,
+      "usage": "Indicate accompaniment or instrument"
+    },
+    {
+      "phrase": "voor",
+      "translation": "for/before",
+      "frequency": 12,
+      "usage": "Indicate purpose, recipient, or time"
+    },
+    {
+      "phrase": "van",
+      "translation": "of/from",
+      "frequency": 15,
+      "usage": "Show possession, origin, or material"
+    },
+    {
+      "phrase": "in",
+      "translation": "in",
+      "frequency": 25,
+      "usage": "Indicate location or time period"
+    },
+    {
+      "phrase": "op",
+      "translation": "on/at",
+      "frequency": 18,
+      "usage": "Indicate position, day, or activity"
+    },
+    {
+      "phrase": "als",
+      "translation": "if/when/as",
+      "frequency": 6,
+      "usage": "Introduce conditional or temporal clauses"
+    },
+    {
+      "phrase": "omdat",
+      "translation": "because",
+      "frequency": 3,
+      "usage": "Give reasons or explanations"
+    },
+    {
+      "phrase": "dus",
+      "translation": "so/therefore",
+      "frequency": 2,
+      "usage": "Draw conclusions or show results"
+    },
+    {
+      "phrase": "want",
+      "translation": "because/for",
+      "frequency": 2,
+      "usage": "Give reasons (coordinate conjunction)"
+    },
+    {
+      "phrase": "dan",
+      "translation": "then",
+      "frequency": 8,
+      "usage": "Indicate consequence or time sequence"
+    },
+    {
+      "phrase": "nog",
+      "translation": "still/yet/more",
+      "frequency": 10,
+      "usage": "Indicate continuation or addition"
+    },
+    {
+      "phrase": "wel",
+      "translation": "indeed/yes",
+      "frequency": 9,
+      "usage": "Affirm or contrast with negation"
+    },
+    {
+      "phrase": "naar",
+      "translation": "to/toward",
+      "frequency": 12,
+      "usage": "Indicate direction or destination"
+    },
+    {
+      "phrase": "bij",
+      "translation": "at/with/near",
+      "frequency": 8,
+      "usage": "Indicate location or association"
+    },
+    {
+      "phrase": "om",
+      "translation": "at/around/to",
+      "frequency": 9,
+      "usage": "Indicate time or purpose"
+    },
+    {
+      "phrase": "tot",
+      "translation": "until/to",
+      "frequency": 6,
+      "usage": "Indicate time limit or extent"
+    },
+    {
+      "phrase": "al",
+      "translation": "already/though",
+      "frequency": 4,
+      "usage": "Indicate time or concession"
+    },
+    {
+      "phrase": "uit",
+      "translation": "out/from",
+      "frequency": 5,
+      "usage": "Indicate origin or separation"
+    },
+    {
+      "phrase": "over",
+      "translation": "about/over",
+      "frequency": 3,
+      "usage": "Indicate topic or position"
+    },
+    {
+      "phrase": "misschien",
+      "translation": "maybe/perhaps",
+      "frequency": 4,
+      "usage": "Express uncertainty or possibility"
+    },
+    {
+      "phrase": "natuurlijk",
+      "translation": "naturally/of course",
+      "frequency": 3,
+      "usage": "Express obviousness or agreement"
+    },
+    {
+      "phrase": "helaas",
+      "translation": "unfortunately",
+      "frequency": 2,
+      "usage": "Express regret or disappointment"
+    },
+    {
+      "phrase": "gelukkig",
+      "translation": "fortunately/happily",
+      "frequency": 2,
+      "usage": "Express relief or satisfaction"
+    },
+    {
+      "phrase": "gewoon",
+      "translation": "just/simply",
+      "frequency": 2,
+      "usage": "Downplay or emphasize normality"
+    }
+  ],
+  "top_20_question_starters": [
+    {
+      "question_start": "Heb je",
+      "translation": "Do you have",
+      "frequency": 16,
+      "example": "Heb je zin om mee te gaan?"
+    },
+    {
+      "question_start": "Wat",
+      "translation": "What",
+      "frequency": 10,
+      "example": "Wat is er?"
+    },
+    {
+      "question_start": "Ben je",
+      "translation": "Are you",
+      "frequency": 7,
+      "example": "Ben je tevreden met je baan?"
+    },
+    {
+      "question_start": "Waar",
+      "translation": "Where",
+      "frequency": 7,
+      "example": "Waar is de bakkerij?"
+    },
+    {
+      "question_start": "Ga je",
+      "translation": "Are you going/Do you go",
+      "frequency": 6,
+      "example": "Ga je vaak naar de sportschool?"
+    },
+    {
+      "question_start": "Hoe",
+      "translation": "How",
+      "frequency": 6,
+      "example": "Hoe vaak heb je les?"
+    },
+    {
+      "question_start": "Zullen we",
+      "translation": "Shall we",
+      "frequency": 5,
+      "example": "Zullen we volgende week afspreken?"
+    },
+    {
+      "question_start": "Wil je",
+      "translation": "Do you want",
+      "frequency": 4,
+      "example": "Wil je koffie of thee?"
+    },
+    {
+      "question_start": "Wat voor",
+      "translation": "What kind of",
+      "frequency": 3,
+      "example": "Wat voor werk doe je?"
+    },
+    {
+      "question_start": "Hoe laat",
+      "translation": "What time",
+      "frequency": 3,
+      "example": "Hoe laat zullen we afspreken?"
+    },
+    {
+      "question_start": "Hoeveel",
+      "translation": "How much/many",
+      "frequency": 3,
+      "example": "Hoeveel kost deze jas?"
+    },
+    {
+      "question_start": "Kun je",
+      "translation": "Can you",
+      "frequency": 3,
+      "example": "Kun je zaterdag komen?"
+    },
+    {
+      "question_start": "Is het",
+      "translation": "Is it",
+      "frequency": 3,
+      "example": "Is het duur?"
+    },
+    {
+      "question_start": "Wat doe",
+      "translation": "What do you do",
+      "frequency": 3,
+      "example": "Wat doe je in je vrije tijd?"
+    },
+    {
+      "question_start": "Eet je",
+      "translation": "Do you eat",
+      "frequency": 2,
+      "example": "Eet je vegetarisch?"
+    },
+    {
+      "question_start": "Mag ik",
+      "translation": "May I",
+      "frequency": 2,
+      "example": "Mag ik hem passen?"
+    },
+    {
+      "question_start": "Moet ik",
+      "translation": "Do I have to",
+      "frequency": 2,
+      "example": "Moet ik naar de dokter?"
+    },
+    {
+      "question_start": "Hoe kom",
+      "translation": "How do you get",
+      "frequency": 2,
+      "example": "Hoe kom je naar je werk?"
+    },
+    {
+      "question_start": "Wanneer",
+      "translation": "When",
+      "frequency": 2,
+      "example": "Wanneer ben je jarig?"
+    },
+    {
+      "question_start": "Hou je van",
+      "translation": "Do you like",
+      "frequency": 2,
+      "example": "Hou je van kamperen?"
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch A2 Sentence Taxonomy - Review</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f5f7fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding: 12px 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            border-left: 4px solid #3498db;
+        }
+        h4 {
+            color: #e74c3c;
+            font-size: 1.1em;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .intro {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #3498db;
+        }
+        .intro strong {
+            color: #2980b9;
+        }
+        .category {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #95a5a6;
+        }
+        .subcategory {
+            background: white;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 6px;
+            border: 1px solid #e1e8ed;
+        }
+        .learning-value {
+            background: #d5f4e6;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-weight: 600;
+            color: #27ae60;
+        }
+        .exam-focus {
+            background: #ffeaa7;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-weight: 600;
+            color: #d63031;
+        }
+        .pattern-rec {
+            background: #e3f2fd;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-weight: 600;
+            color: #1976d2;
+        }
+        .frequency {
+            background: #f3e5f5;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-weight: 600;
+            color: #8e24aa;
+        }
+        .examples {
+            background: #fff3e0;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+        }
+        .note {
+            background: #ffebee;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 8px 0;
+            border-left: 3px solid #e74c3c;
+            font-style: italic;
+        }
+        .tier {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .tier h4 {
+            color: white;
+            margin-top: 0;
+        }
+        ul {
+            margin: 10px 0 10px 30px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .tag-strategy {
+            background: #fff9c4;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 2px solid #fdd835;
+        }
+        .example-box {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            border-left: 4px solid #4caf50;
+        }
+        .priority-high {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .priority-medium {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        code {
+            background: #f1f3f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Dutch A2 Sentence Taxonomy</h1>
+        <p style="font-size: 1.2em; color: #7f8c8d; margin-bottom: 30px;">A Practical Pattern-Based Classification System</p>
+
+        <div class="intro">
+            <strong>Purpose:</strong> Tag 1,265 Dutch sentences to identify ~100 high-ROI memorizable patterns for A2-level learners preparing for inburgering exams and daily communication.<br><br>
+            <strong>Core Philosophy:</strong> This taxonomy prioritizes PRACTICAL COMMUNICATION PATTERNS over exhaustive grammatical coverage. Tags should help learners recognize "I've seen this pattern before" and practice strategically.
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Main Categories</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">~100</div>
+                <div class="stat-label">Target Patterns</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">1,265</div>
+                <div class="stat-label">Sentences to Tag</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">3-Tier</div>
+                <div class="stat-label">Tagging System</div>
+            </div>
+        </div>
+
+        <h2>1. COMMUNICATIVE INTENT (Primary Category)</h2>
+        <p><em>What is the speaker trying to DO with this sentence?</em></p>
+
+        <div class="category">
+            <h3>1.1 Requesting & Asking</h3>
+            <div class="learning-value">Learning Value: Bread-and-butter patterns for daily survival</div>
+            <div class="examples">
+                • Direct requests: "Kun je mij helpen?" / "Mag ik...?"<br>
+                • Polite requests: "Zou je...?" / "Wil je alsjeblieft...?"<br>
+                • Permission seeking: "Mag ik...?" / "Is het goed als...?"<br>
+                • Offers of help: "Zal ik...?" / "Kan ik iets voor je doen?"
+            </div>
+            <div class="exam-focus">Exam Focus: A2 speaking tasks constantly require polite requesting</div>
+        </div>
+
+        <div class="category">
+            <h3>1.2 Information Seeking (Questions)</h3>
+            <div class="learning-value">Learning Value: High-frequency patterns for getting answers</div>
+            <div class="examples">
+                • Yes/No questions: "Heb je...?" / "Is er...?" / "Kun je...?"<br>
+                • Wh-questions: "Waar is...?" / "Wanneer...?" / "Hoe...?" / "Wat voor...?"<br>
+                • Indirect questions: "Weet je waar...?" / "Kun je me zeggen hoe...?"<br>
+                • Clarification: "Bedoel je...?" / "Wat betekent...?"
+            </div>
+            <div class="exam-focus">Exam Focus: Essential for KNM exam listening/speaking sections</div>
+        </div>
+
+        <div class="category">
+            <h3>1.3 Stating & Informing</h3>
+            <div class="learning-value">Learning Value: Foundational declarative patterns</div>
+            <div class="examples">
+                • Simple statements: "Ik woon in..." / "Dat is..."<br>
+                • Describing situations: "Er is/zijn..." / "Het gaat om..."<br>
+                • Giving information: "Het station is..." / "De winkel sluit om..."<br>
+                • Reporting facts: "Ik heb gehoord dat..." / "Het is belangrijk dat..."
+            </div>
+            <div class="exam-focus">Exam Focus: Reading comprehension and written communication</div>
+        </div>
+
+        <div class="category">
+            <h3>1.4 Expressing Needs & Wants</h3>
+            <div class="learning-value">Learning Value: Critical for service interactions</div>
+            <div class="examples">
+                • Direct needs: "Ik heb ... nodig" / "Ik moet..."<br>
+                • Preferences: "Ik wil graag..." / "Ik zou liever..."<br>
+                • Wishes: "Ik hoop dat..." / "Ik zou graag willen..."<br>
+                • Problems: "Ik heb een probleem met..." / "Het lukt me niet om..."
+            </div>
+            <div class="exam-focus">Exam Focus: Healthcare, housing, workplace scenarios</div>
+        </div>
+
+        <div class="category">
+            <h3>1.5 Reacting & Responding</h3>
+            <div class="learning-value">Learning Value: Natural conversation flow</div>
+            <div class="examples">
+                • Agreement: "Ja, dat klopt" / "Ik ben het met je eens"<br>
+                • Disagreement: "Nee, dat is niet zo" / "Ik denk het niet"<br>
+                • Expressing surprise: "Echt waar?" / "Dat wist ik niet"<br>
+                • Confirming understanding: "Oké, ik begrijp het" / "Dus je bedoelt..."
+            </div>
+            <div class="exam-focus">Exam Focus: Speaking fluency and natural interaction</div>
+        </div>
+
+        <div class="category">
+            <h3>1.6 Suggesting & Advising</h3>
+            <div class="learning-value">Learning Value: Social interaction patterns</div>
+            <div class="examples">
+                • Suggestions: "Zullen we...?" / "Wat dacht je van...?" / "Misschien kunnen we..."<br>
+                • Advice: "Je moet..." / "Het is beter om..." / "Je kunt het beste..."<br>
+                • Recommendations: "Ik raad je aan om..." / "Je zou moeten..."
+            </div>
+            <div class="exam-focus">Exam Focus: Social integration scenarios</div>
+        </div>
+
+        <div class="category">
+            <h3>1.7 Explaining & Reasoning</h3>
+            <div class="learning-value">Learning Value: Connecting ideas logically</div>
+            <div class="examples">
+                • Giving reasons: "omdat..." / "want..." / "daarom..."<br>
+                • Purpose: "om ... te" / "zodat..."<br>
+                • Conditions: "als..." / "als je ... dan..."<br>
+                • Contrast: "maar..." / "hoewel..." / "toch..."
+            </div>
+            <div class="exam-focus">Exam Focus: Extended responses in speaking exam</div>
+        </div>
+
+        <div class="category">
+            <h3>1.8 Commands & Instructions</h3>
+            <div class="learning-value">Learning Value: Following/giving directions</div>
+            <div class="examples">
+                • Direct imperatives: "Ga naar..." / "Neem..."<br>
+                • Softened commands: "Doe ... maar" / "Kom even hier"<br>
+                • Instructions: "Je moet eerst... en dan..." / "Let op dat..."<br>
+                • Prohibitions: "Niet ... !" / "Je mag niet..."
+            </div>
+            <div class="exam-focus">Exam Focus: Following directions, workplace safety</div>
+        </div>
+
+        <h2>2. VERB PATTERNS (Grammar Core)</h2>
+        <p><em>What structural pattern does the verb create?</em></p>
+
+        <div class="category">
+            <h3>2.1 Single Finite Verb (Simple Present/Past)</h3>
+            <div class="learning-value">Learning Value: Foundation patterns</div>
+            <div class="examples">
+                • Present: "Ik werk hier" / "Hij woont daar"<br>
+                • Simple past: "Ik werkte" / "Hij was" / "Ze hadden"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Subject + finite verb + rest</div>
+            <div class="frequency">Frequency: 40-50% of daily sentences</div>
+        </div>
+
+        <div class="category">
+            <h3>2.2 Perfect Tense (Hebben/Zijn + Participle)</h3>
+            <div class="learning-value">Learning Value: Past experiences, completed actions</div>
+            <div class="examples">
+                • With hebben: "Ik heb gewerkt" / "Ze heeft gebeld"<br>
+                • With zijn: "Ik ben gegaan" / "Ze zijn geweest"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Auxiliary position + participle at end</div>
+            <div class="exam-focus">Exam Focus: Describing past events in speaking</div>
+        </div>
+
+        <div class="category">
+            <h3>2.3 Modal Verb Constructions</h3>
+            <div class="learning-value">Learning Value: Expressing ability, permission, obligation</div>
+            <div class="examples">
+                • Kunnen: "Ik kan zwemmen" / "Kun je dat doen?"<br>
+                • Mogen: "Mag ik...?" / "Je mag niet..."<br>
+                • Moeten: "Ik moet werken" / "Je moet dat doen"<br>
+                • Willen: "Ik wil graag..." / "Wil je...?"<br>
+                • Zullen: "Zullen we...?" / "Ik zal het doen"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Modal + infinitive at end</div>
+            <div class="frequency">Frequency: Top 10 most common patterns</div>
+        </div>
+
+        <div class="category">
+            <h3>2.4 Gaan + Infinitive (Near Future)</h3>
+            <div class="learning-value">Learning Value: Plans and intentions</div>
+            <div class="examples">
+                • Future plans: "Ik ga morgen..." / "We gaan ...en"<br>
+                • Intentions: "Ik ga proberen om..."
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Gaan conjugated + infinitive at end</div>
+            <div class="exam-focus">Exam Focus: Discussing plans in speaking</div>
+        </div>
+
+        <div class="category">
+            <h3>2.5 Te + Infinitive (Purpose/Obligation)</h3>
+            <div class="learning-value">Learning Value: Expressing goals and requirements</div>
+            <div class="examples">
+                • Om te: "Ik ben hier om te leren" / "Het is moeilijk om te..."<br>
+                • Te + infinitive: "Ik heb geen tijd te verliezen"<br>
+                • Adjective + te: "Het is belangrijk te weten"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Watch for "om te" vs. bare "te"</div>
+        </div>
+
+        <div class="category">
+            <h3>2.6 Progressive (Aan het + Infinitive)</h3>
+            <div class="learning-value">Learning Value: Ongoing actions</div>
+            <div class="examples">
+                • "Ik ben aan het werken" / "Ze zijn aan het eten"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Zijn + aan het + infinitive</div>
+            <div class="note">Note: Less frequent than English progressive, but distinctive</div>
+        </div>
+
+        <div class="category">
+            <h3>2.7 Separable Verbs</h3>
+            <div class="learning-value">Learning Value: Common in everyday speech</div>
+            <div class="examples">
+                • Main clause: "Ik bel je straks op" / "Kom je mee?"<br>
+                • Subordinate: "...omdat ik je opbel"<br>
+                • With modal: "Ik wil je opbellen"
+            </div>
+            <div class="pattern-rec">Pattern Recognition: Particle position changes</div>
+            <div class="frequency">High-Frequency Examples: meegaan, opbellen, aankomen, uitgaan</div>
+        </div>
+
+        <h2>3. WORD ORDER PATTERNS (Structural)</h2>
+        <div class="category">
+            <h3>3.1 Standard Main Clause (V2)</h3>
+            <div class="learning-value">Learning Value: Foundation structure</div>
+            <div class="pattern-rec">Pattern Recognition: Verb always in second position</div>
+        </div>
+
+        <div class="category">
+            <h3>3.2 Subordinate Clause (Verb-Final)</h3>
+            <div class="learning-value">Learning Value: Complex sentence building</div>
+            <div class="pattern-rec">Pattern Recognition: All verbs cluster at end</div>
+            <div class="note">Common Error Point: Learners forget verb-final order</div>
+        </div>
+
+        <div class="category">
+            <h3>3.3 Question Word Order</h3>
+            <div class="learning-value">Learning Value: Information gathering</div>
+            <div class="pattern-rec">Pattern Recognition: Inversion after question word</div>
+        </div>
+
+        <div class="category">
+            <h3>3.4 Existential ER Constructions</h3>
+            <div class="learning-value">Learning Value: Presenting new information</div>
+            <div class="examples">"Er is..." / "Er zijn..." / "Er komt..." / "Er staat..."</div>
+            <div class="exam-focus">Exam Focus: Descriptions in speaking/writing</div>
+        </div>
+
+        <h2>4-12. ADDITIONAL CATEGORIES</h2>
+        <div class="category">
+            <p><strong>4. TIME FRAME:</strong> Present Situations, Past Events, Future Plans, Time Connectors</p>
+            <p><strong>5. MODAL & ATTITUDE MARKERS:</strong> Certainty/Possibility, Necessity/Obligation, Politeness, Contrast/Emphasis</p>
+            <p><strong>6. NEGATION PATTERNS:</strong> Verb negation (niet), Noun negation (geen), Never/Nothing/Nobody</p>
+            <p><strong>7. CONNECTING & COMBINING:</strong> Coordination, Subordination, Relative Clauses</p>
+            <p><strong>8. PRACTICAL SITUATION CLUSTERS:</strong> Healthcare, Housing, Work, Shopping, Transportation, Social/Family, Education, Money/Admin</p>
+            <p><strong>9. PRONOUNS & REFERENCE:</strong> Personal, Possessive, Demonstratives, Reflexive/Reciprocal</p>
+            <p><strong>10. REGISTER & TONE MARKERS:</strong> Formality Level, Directness vs. Politeness, Emotional Expression</p>
+            <p><strong>11. SPECIAL CONSTRUCTIONS:</strong> ER forms, Pronominal Adverbs, Comparatives, Fixed Expressions</p>
+            <p><strong>12. COMMON IRREGULAR VERBS:</strong> Zijn/Hebben/Worden, Top Modals, High-Frequency Strong Verbs</p>
+        </div>
+
+        <h2>TAGGING STRATEGY</h2>
+        <div class="tag-strategy">
+            <h3>Primary Tag (Required)</h3>
+            <p>Choose ONE from:</p>
+            <ul>
+                <li><strong>Communicative Intent</strong> (what is speaker doing?)</li>
+                <li><strong>Verb Pattern</strong> (structural core)</li>
+                <li><strong>Word Order Pattern</strong> (sentence structure)</li>
+            </ul>
+
+            <h3>Secondary Tags (1-3 recommended)</h3>
+            <ul>
+                <li>Time Frame (when?)</li>
+                <li>Modal/Attitude (stance?)</li>
+                <li>Practical Situation (real-world context)</li>
+                <li>Special Construction (distinctive features)</li>
+            </ul>
+
+            <h3>Tertiary Tags (Optional)</h3>
+            <ul>
+                <li>Register/Tone (if marked)</li>
+                <li>Pronoun Type (if teaching point)</li>
+                <li>Negation (if present)</li>
+                <li>Connection Type (if complex sentence)</li>
+            </ul>
+        </div>
+
+        <div class="example-box">
+            <h3>Example Tagging</h3>
+            <p><strong>Sentence:</strong> "Zou je morgen even naar de dokter kunnen bellen?"</p>
+            <p><strong>Primary:</strong> Requesting (polite request)</p>
+            <p><strong>Secondary:</strong></p>
+            <ul>
+                <li>Modal verb construction (zullen + kunnen + infinitive)</li>
+                <li>Healthcare situation</li>
+                <li>Politeness markers (zou + even)</li>
+            </ul>
+            <p><strong>Tertiary:</strong></p>
+            <ul>
+                <li>Future time frame (morgen)</li>
+                <li>Separable verb (opbellen)</li>
+            </ul>
+        </div>
+
+        <h2>PRIORITIZATION GUIDE FOR LEARNERS</h2>
+
+        <div class="tier">
+            <h4>TIER 1: Survival Patterns (Weeks 1-4)</h4>
+            <p>Learn these first for immediate communication:</p>
+            <ul>
+                <li>Simple present declaratives</li>
+                <li>Yes/No questions with hebben/zijn</li>
+                <li>Modal verb + infinitive (kunnen, mogen, moeten, willen)</li>
+                <li>Basic wh-questions (waar, wat, wanneer, hoe)</li>
+                <li>Polite requests (mag ik, kun je)</li>
+                <li>Negation with niet/geen</li>
+                <li>Present perfect with hebben (past events)</li>
+            </ul>
+        </div>
+
+        <div class="tier">
+            <h4>TIER 2: Daily Fluency (Weeks 5-8)</h4>
+            <p>Build on foundation:</p>
+            <ul>
+                <li>Subordinate clauses with omdat/als/dat</li>
+                <li>Separable verbs (common ones)</li>
+                <li>Gaan + infinitive (future plans)</li>
+                <li>ER constructions (existential)</li>
+                <li>Time connectors (eerst, dan, daarna)</li>
+                <li>Coordination with en/maar/want</li>
+                <li>Common modal particles (maar, even, toch)</li>
+            </ul>
+        </div>
+
+        <div class="tier">
+            <h4>TIER 3: Exam Readiness (Weeks 9-12)</h4>
+            <p>Refine and expand:</p>
+            <ul>
+                <li>Te + infinitive constructions</li>
+                <li>Relative clauses (die/dat)</li>
+                <li>Complex subordination</li>
+                <li>Pronominal adverbs (ervoor, eraan, etc.)</li>
+                <li>Past tense (simple past for common verbs)</li>
+                <li>Advanced politeness strategies</li>
+                <li>Situation-specific vocabulary clusters</li>
+            </ul>
+        </div>
+
+        <h2>NEXT STEPS</h2>
+        <div class="intro">
+            <p><strong>After reviewing this taxonomy:</strong></p>
+            <ol style="margin: 15px 0 0 30px;">
+                <li>Confirm the 12 main categories make sense for your learning goals</li>
+                <li>Verify the tagging strategy (primary/secondary/tertiary) is clear</li>
+                <li>Approve moving forward to sentence labeling phase</li>
+                <li>The labeling process will cluster sentences by patterns</li>
+                <li>Final output: ~100 high-ROI sentence templates to memorize</li>
+            </ol>
+        </div>
+
+        <div class="note" style="margin-top: 30px; background: #e8f5e9; border-left-color: #4caf50;">
+            <strong>✅ Success Metric:</strong> After memorizing the top 100 extracted patterns, you should recognize "I know this pattern!" for 80%+ of sentences you encounter in daily life.
+        </div>
+    </div>
+</body>
+</html>

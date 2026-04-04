@@ -1,0 +1,4614 @@
+[
+  {
+    "id": "824",
+    "sentence": "Halverwege het jaar kunt u dus niet op een andere verzekering overstappen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | ARTICLE.Het | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.dus-consecutive | DISCOURSE.Formal-register-u | TOPIC.Health | TOPIC.Finance-admin",
+    "score": 131,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "222",
+    "sentence": "Hij heeft me een maand geleden al een keer gevraagd: 'Mag mijn hond bij je logeren?' Ik heb toen gezegd: 'Sorry, ik kan niet, want ik ben dit weekend niet thuis'.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.kunnen | MODAL.mogen | VERBCLUSTER.modal-inf | NP.Demonstrative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.al | NEGATION.niet | MODALITY.Deontic-permission | MODALITY.Epistemic-kan | CONNECTOR.want-causal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Travel-leisure",
+    "score": 130,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Modal verb (2)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "818",
+    "sentence": "Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Health",
+    "score": 127,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "236",
+    "sentence": "Of zeg dat je voor een examen moet studeren en dat je geen tijd hebt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | NEGATION.geen | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Education",
+    "score": 125,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1131",
+    "sentence": "Ze zijn zacht en schoon, maar je hoeft ze niet de hele dag te verzorgen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PRONOUN.3pl | PARTICLE.maar | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.en-additive | CONNECTOR.maar-adversative | DISCOURSE.Informal-register",
+    "score": 125,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Particles (1)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "217",
+    "sentence": "Je moet het niet doen, als je geen zin hebt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | NEGATION.niet | NEGATION.geen | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register",
+    "score": 124,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "777",
+    "sentence": "Studeren en werken Is het thuis niet stil en wilt u rustig werken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-formal-u | NEGATION.niet | CONNECTOR.en-additive | DISCOURSE.Formal-register-u | TOPIC.Daily-life",
+    "score": 124,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "499",
+    "sentence": "Rafael Ja, ik wil je zo snel mogelijk bezoeken, maar ik moet eerst voor de vliegtickets sparen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.maar | MODALITY.Deontic-obligation | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | CONNECTOR.Temporal-sequence | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Finance-admin",
+    "score": 119,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (2)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Travel-leisure",
+      "Particles (1)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "782",
+    "sentence": "Als u geen laptop hebt, kunt u één uur per dag een computer van de bibliotheek gebruiken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | NEGATION.geen | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u",
+    "score": 119,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "181",
+    "sentence": "Wanneer bent u vrij en wanneer is de school van uw kinderen dicht?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | PRONOUN.2sg-formal-u | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Formal-register-u | TOPIC.Education | TOPIC.Relationships-family",
+    "score": 118,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Topic: Education",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "498",
+    "sentence": "Hier schijnt de zon elke dag, dus je zal hier geen koude voeten hebben.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-informal | NEGATION.geen | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 117,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Future tense",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "56",
+    "sentence": "En je hoeft even helemaal aan niets te denken, alleen maar te kijken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.maar | PARTICLE.even | NEGATION.niets | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Media-entertainment",
+    "score": 109,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1253",
+    "sentence": "En je hoeft even helemaal aan niets te denken, alleen maar te kijken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.maar | PARTICLE.even | NEGATION.niets | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Media-entertainment",
+    "score": 109,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1095",
+    "sentence": "Soms moet je ook betalen, als je in een natuurgebied wil wandelen of fietsen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Finance-admin",
+    "score": 108,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (2)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Travel-leisure",
+      "Connectors (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "365",
+    "sentence": "Monteur Splash monteurs goedemiddag, wat kan ik voor u doen?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-formal-u | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u",
+    "score": 106,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "1st person singular",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "273",
+    "sentence": "Wat wil je nog meer met de taal bereiken, wat is je doel?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.De | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.nog | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | TOPIC.Education",
+    "score": 105,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "621",
+    "sentence": "Oh, dat hoeft niet, ik heb het thuis al gewassen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Demonstrative | NP.Noun-compound | PRONOUN.1sg | PARTICLE.al | NEGATION.niet | NEGATION.hoeven-neg | SYNTAX.Subordinate-clause | DISCOURSE.Backchannel-opener | TOPIC.Daily-life",
+    "score": 105,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Conversation opener",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "761",
+    "sentence": "Voor luisterboeken en e-boeken hoeft u niet eens uit uw stoel te komen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-formal-u | PARTICLE.eens | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.en-additive",
+    "score": 105,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "289",
+    "sentence": "Bas Eh, ik ben niet zo gemotiveerd als jij, denk ik.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | PRONOUN.1sg | PRONOUN.2sg-informal | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 103,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "763",
+    "sentence": "Als u toch liever naar het Spui komt, kunt u daar aan een leestafel kranten en tijdschriften lezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-formal-u | PARTICLE.toch | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | DISCOURSE.Formal-register-u",
+    "score": 103,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "372",
+    "sentence": "Wanneer kunt u langskomen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | DISCOURSE.Indirect-request",
+    "score": 102,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "698",
+    "sentence": "Ik loop hard in het bos of ik fiets met een groepje.' Vind je het ook leuk om naar sport te kijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERBCLUSTER.te-inf | ARTICLE.Het | NP.Diminutive | PRONOUN.1sg | PRONOUN.2sg-informal | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Media-entertainment | TOPIC.Daily-life | TOPIC.Health | TOPIC.Nature-environment",
+    "score": 101,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Te-infinitive (purpose/goal)",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "287",
+    "sentence": "Bas Wat denk je: kan ik Arabisch leren?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.2sg-informal | MODALITY.Epistemic-kan | DISCOURSE.Informal-register | TOPIC.Education",
+    "score": 100,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "810",
+    "sentence": "Deze kosten hoeft u dus niet zelf te betalen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-formal-u | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.dus-consecutive | TOPIC.Finance-admin",
+    "score": 100,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "205",
+    "sentence": "Ik wil dus eigenlijk 'nee' zeggen, maar ik durf het niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | PARTICLE.eigenlijk | NEGATION.niet | CONNECTOR.maar-adversative | CONNECTOR.dus-consecutive",
+    "score": 99,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (2)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "685",
+    "sentence": "Toen kreeg ik meer plezier in hardlopen.' En sinds wanneer ga je naar de sportschool?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | ARTICLE.De | NP.Adjective-comparative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register",
+    "score": 99,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "852",
+    "sentence": "Met dit bonnetje kunt u het statiegeld terugkrijgen of een deel van uw boodschappen betalen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Diminutive | NP.Demonstrative | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.of-alternative | DISCOURSE.Formal-register-u | TOPIC.Daily-life | TOPIC.Finance-admin",
+    "score": 99,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "890",
+    "sentence": "Je kunt bijvoorbeeld zeggen: \"Mooie locatie is dit, hè!', 'Ben je hier eerder geweest?' of 'Heb je al een stuk taart gehad?' Later kun je serieuzere vragen stellen, zoals: 'Wat voor werk doe je?', 'Hoe heb je je baan gevonden?' en 'Waar heb je vroeger gewerkt?\" Diana Aha, nuttige tips!",
+    "tags": "SENTENCE_TYPE.Exclamative | TENSE.Perfectum | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PARTICLE.al | PARTICLE.hè-tag | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Work-career | TOPIC.Housing-living",
+    "score": 99,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Work-career",
+      "Particles (2)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "237",
+    "sentence": "Philip Je moet inderdaad zeggen dat je honden niet leuk vindt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 98,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "256",
+    "sentence": "Helpt het als je al een andere taal hebt geleerd?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.al | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Education",
+    "score": 98,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Education",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "793",
+    "sentence": "Een extra verzekering Naast de basisverzekering kunt u nog extra verzekeringen kiezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | PARTICLE.nog | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Health | TOPIC.Finance-admin",
+    "score": 98,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "410",
+    "sentence": "Moeder Nou, kun je dat zelf niet even doen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.even | PARTICLE.nou | NEGATION.niet | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | DISCOURSE.Backchannel-opener",
+    "score": 97,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "860",
+    "sentence": "Nou, ga in ieder geval naar een uitzendbureau en schrijf je als werkzoekende in.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.nou | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 97,
+    "reasons": [
+      "Future tense",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "891",
+    "sentence": "Heb je nog een laatste advies voor mensen die graag willen beginnen met netwerken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.nog | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 97,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "470",
+    "sentence": "Sidra Ja, het is hier bloed heet, maar ik zal niet klagen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | NEGATION.niet | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener",
+    "score": 96,
+    "reasons": [
+      "Future tense",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Conversation opener",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "680",
+    "sentence": "En ik zat op turnen.' Je was zeker geen meisje voor ballet?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERB.Reflexive | NP.Diminutive | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.zeker | NEGATION.geen | DISCOURSE.Informal-register",
+    "score": 95,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Question form (conversation)",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "822",
+    "sentence": "Als u over een nieuwe verzekering twijfelt, kunt u online verschillende verzekeringen vergelijken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Health | TOPIC.Finance-admin",
+    "score": 95,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1066",
+    "sentence": "Niet zo zeuren dus en schiet op, want je komt te laat.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.te-excess | NEGATION.niet | SYNTAX.Inversion-V2 | CONNECTOR.want-causal | CONNECTOR.en-additive | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register",
+    "score": 95,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (3)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "202",
+    "sentence": "Op vrijdagavond wil ze met haar vriend uitgaan, maar ze heeft geen oppas.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | VERB.Separable-verb | NP.Noun-compound | PRONOUN.3sg-fem | PRONOUN.3pl | PARTICLE.maar | NEGATION.geen | CONNECTOR.maar-adversative | TOPIC.Daily-life | TOPIC.Relationships-family",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "588",
+    "sentence": "Moeder Ja, natuurlijk, maak je maar geen zorgen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.natuurlijk | NEGATION.geen | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "667",
+    "sentence": "Kom, doe je bril maar even af.",
+    "tags": "SENTENCE_TYPE.Imperative | SENTENCE_TYPE.Imperative-softened | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.even | CONNECTOR.maar-adversative | DISCOURSE.Informal-register",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Command/request (rare, high value)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "750",
+    "sentence": "Of je gaat naar Den Haag, als je vriend nog meer schilderijen wil zien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.gaan-inf | NP.Adjective-comparative | PRONOUN.2sg-informal | PARTICLE.nog | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Relationships-family",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Travel-leisure",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "757",
+    "sentence": "De Centrale bibliotheek in Den Haag Bent u weleens in dat mooie witte gebouw aan het Spui geweest, op nummer 68?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Travel-leisure",
+    "score": 93,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Topic: Travel-leisure",
+      "Articles (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "774",
+    "sentence": "In het Taalcafé kunt u samen met anderen Nederlands spreken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Education",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "816",
+    "sentence": "Of u kunt in de app van uw zorgverzekering kijken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Health",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "907",
+    "sentence": "Nou, fijn dat je als verkoper in onze boekwinkel wilt werken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.1pl | PARTICLE.nou | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | DISCOURSE.Evaluative-stance | TOPIC.Work-career",
+    "score": 93,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "600",
+    "sentence": "Andere stem Wil je iets drinken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | TOPIC.Daily-life",
+    "score": 92,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "708",
+    "sentence": "Sven Oh Mark, mag ik je iets vragen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.Indefinite | MODALITY.Deontic-permission | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 92,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "764",
+    "sentence": "U kunt uit Nederlandse en buitenlandse kranten kiezen, op papier of online.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.of-alternative | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Nature-environment",
+    "score": 92,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Connectors (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "322",
+    "sentence": "Wilco Hé Pieter, wanneer heb jij die pizza in de oven gedaan?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 91,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "626",
+    "sentence": "Nou, ik vind het wel mooi als het kort bij je oren is.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.nou | PARTICLE.wel | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | DISCOURSE.Epistemic-stance",
+    "score": 91,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "845",
+    "sentence": "Ook lege drinkpakken, chipszakken en blikjes kunt u in de pmd-bak doen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | DISCOURSE.Formal-register-u",
+    "score": 91,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1058",
+    "sentence": "Ivan Nee joh, met die hitte moet je niet sporten.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | DISCOURSE.Informal-register",
+    "score": 91,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "688",
+    "sentence": "De sportschool is echt fijn om alle spieren goed te trainen.' Wat betekent sporten voor jou?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | VERBCLUSTER.te-inf | NP.Noun-compound | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | DISCOURSE.Informal-register | DISCOURSE.Evaluative-stance | TOPIC.Health",
+    "score": 90,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Te-infinitive (purpose/goal)",
+      "Topic: Health",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "846",
+    "sentence": "Oude meubels, matrassen en grote elektrische apparaten mag u niet zomaar buiten zetten.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.mogen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Deontic-permission | CONNECTOR.en-additive",
+    "score": 90,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "330",
+    "sentence": "Pieter Misschien moet je even op die grote knop drukken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.even | MODALITY.Deontic-obligation | DISCOURSE.Informal-register",
+    "score": 89,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "525",
+    "sentence": "Als je het leuk vindt, kunnen we binnenkort een biertje drinken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Diminutive | PRONOUN.2sg-informal | PRONOUN.1pl | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 89,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "618",
+    "sentence": "Hoe wil je het hebben?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 89,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "645",
+    "sentence": "Ivet Nou, maar ik moet wel een goede shampoo gebruiken, het is erg droog.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | PARTICLE.nou | PARTICLE.wel | DEGREE.Intensifier | MODALITY.Deontic-obligation | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener",
+    "score": 89,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Modal verb (1)",
+      "Conversation opener",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (3)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "250",
+    "sentence": "Omar Tja, je wilt natuurlijk 'ja' of 'nee' horen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.natuurlijk | CONNECTOR.of-alternative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 88,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "581",
+    "sentence": "Jeroen wil graag een maand door Azië reizen, maar dat lijkt me niets.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Indefinite | PARTICLE.maar | NEGATION.niets | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative | TOPIC.Travel-leisure",
+    "score": 88,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Topic: Travel-leisure",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "733",
+    "sentence": "Sven Nee, ik ga liever wandelen, ik wil geen risico's nemen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-gaan | MODAL.willen | VERBCLUSTER.modal-inf | VERBCLUSTER.gaan-inf | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.geen | TOPIC.Travel-leisure",
+    "score": 88,
+    "reasons": [
+      "Future tense",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Gaan-future",
+      "Topic: Travel-leisure",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "765",
+    "sentence": "Via een app kunt u thuis rustig verder lezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Daily-life",
+    "score": 88,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1042",
+    "sentence": "Barbara Ja, maar ik kan niet wachten tot het écht zomer is. 00:00 Ivan praat met zijn zoon Jarek.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative | TOPIC.Nature-environment",
+    "score": 88,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "279",
+    "sentence": "En Nederlanders begrijpen je echt niet als je een klank verkeerd uitspreekt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register",
+    "score": 87,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "502",
+    "sentence": "En ik zal een cadeautje uit Nederland voor je meenemen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | VERB.Separable-verb | NP.Diminutive | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 87,
+    "reasons": [
+      "Future tense",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "1146",
+    "sentence": "Björn Ja, maar een hond blaft ook de hele dag als we niet thuis zijn.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | NP.Noun-compound | PRONOUN.3sg-masc | PRONOUN.1pl | PARTICLE.maar | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener | TOPIC.Daily-life",
+    "score": 87,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "145",
+    "sentence": "Petra Hm, nou, dat lijkt me wel leuk, maar dat gaat niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | PARTICLE.maar | PARTICLE.nou | PARTICLE.wel | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener",
+    "score": 86,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "1st person singular",
+      "Particles (3)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "392",
+    "sentence": "Sinds wanneer droog jij je haar?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 86,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "736",
+    "sentence": "En verder... ik denk dat je vriend het Van Gogh Museum of het Stedelijk Museum ook wel mooi vindt.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | NP.Demonstrative | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.wel | MODALITY.Epistemic-stance | SYNTAX.Subordinate-clause | CONNECTOR.of-alternative | DISCOURSE.Informal-register | DISCOURSE.Epistemic-stance | TOPIC.Travel-leisure | TOPIC.Relationships-family",
+    "score": 86,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Travel-leisure",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "768",
+    "sentence": "U kunt ook films, muziek en games lenen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | DISCOURSE.Formal-register-u",
+    "score": 86,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1020",
+    "sentence": "Barbara Ja, dit is echt geen weer om te fietsen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | VERBCLUSTER.te-inf | CONNECTOR.om-te-purpose | NP.Demonstrative | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.geen | DISCOURSE.Backchannel-opener | TOPIC.Nature-environment | TOPIC.Travel-leisure",
+    "score": 86,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: geen",
+      "Conversation opener",
+      "Te-infinitive (purpose/goal)",
+      "Topic: Travel-leisure",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1046",
+    "sentence": "Jarek Pap, ik heb echt geen zin en de wedstrijd gaat vast niet door.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | NEGATION.geen | CONNECTOR.en-additive",
+    "score": 86,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Negation: geen",
+      "1st person singular",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "142",
+    "sentence": "Hé, ga je vanmiddag mee zwemmen, in dat nieuwe zwembad?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | NP.Noun-compound | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Travel-leisure",
+    "score": 85,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Travel-leisure",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "326",
+    "sentence": "Heb je de oven wel aangezet?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 85,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "344",
+    "sentence": "Heb jij je was in de wasmachine gedaan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERB.Reflexive | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 85,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "1153",
+    "sentence": "Die ruik je niet en ze maken geen rommel.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | NEGATION.geen | CONNECTOR.en-additive | DISCOURSE.Informal-register",
+    "score": 85,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "170",
+    "sentence": "Julie Goh, heb jij wel een beetje tijd voor jezelf, af en toe?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Reflexive | NP.Diminutive | PRONOUN.2sg-informal | DEGREE.Downtoner | CONNECTOR.en-additive | INFSTR.Contrastive-focus | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 84,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "700",
+    "sentence": "Mijn vriend en ik zijn ook Ajaxsupporters.' Sport je vriend ook zoveel?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.3sg-masc | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Health | TOPIC.Relationships-family",
+    "score": 84,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Health",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "993",
+    "sentence": "Als je op vakantie in Nederland gaat, moet je altijd rekening met slecht weer houden.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Nature-environment | TOPIC.Travel-leisure | TOPIC.Finance-admin",
+    "score": 84,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Travel-leisure",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "422",
+    "sentence": "Je hoeft ze niet in de kast te zetten.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | ARTICLE.De | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | NEGATION.hoeven-neg",
+    "score": 83,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Te-infinitive (purpose/goal)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "474",
+    "sentence": "Zeg, heb je nog iets leuks gedaan dit weekend?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.nog | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Daily-life",
+    "score": 83,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "894",
+    "sentence": "In het begin vind je netwerken misschien lastig, maar het zal snel beter gaan.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-informal | PARTICLE.maar | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 83,
+    "reasons": [
+      "Future tense",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "942",
+    "sentence": "Ik studeer nog, dus ik kan niet te veel werken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.nog | DEGREE.te-excess | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.dus-consecutive",
+    "score": 83,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "948",
+    "sentence": "Wanneer hoor ik iets van u?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-formal-u | PRONOUN.Indefinite | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u",
+    "score": 83,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Formal U register (official contexts)",
+      "1st person singular",
+      "2nd person formal (U)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "964",
+    "sentence": "Je kan met stress omgaan en je hebt veel motivatie en doorzettingsvermogen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | MODALITY.Epistemic-kan | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Health",
+    "score": 83,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1054",
+    "sentence": "Kom op Jarek, je gaat echt niet dood van wat regen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | INFSTR.Topicalization-fronting | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 82,
+    "reasons": [
+      "Future tense",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "41",
+    "sentence": "Abel Oké, maar kijk je dan ook nooit een film?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | NEGATION.nooit | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Media-entertainment",
+    "score": 81,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "617",
+    "sentence": "Vertel, wat gaan we met je haar doen?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.1pl | PRONOUN.Relative-clause | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 81,
+    "reasons": [
+      "Future tense",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "693",
+    "sentence": "Op kantoor zit ik de hele dag achter een computer en dat is echt niet goed voor mijn humeur.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | TOPIC.Work-career",
+    "score": 81,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1155",
+    "sentence": "Een vis of een vogel komt toch niet naast je op de bank zitten?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | PARTICLE.toch | NEGATION.niet | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 81,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1238",
+    "sentence": "Abel Oké, maar kijk je dan ook nooit een film?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | NEGATION.nooit | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Media-entertainment",
+    "score": 81,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "374",
+    "sentence": "Morgen kan onze monteur bij u langskomen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | PRONOUN.1pl | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Housing-living",
+    "score": 80,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "589",
+    "sentence": "Mirjam Oei, ik bedenk ineens dat ik de kapper nog niet heb gebeld!",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PARTICLE.nog | NEGATION.niet | SYNTAX.Subordinate-clause | TOPIC.Daily-life",
+    "score": 80,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "677",
+    "sentence": "Was je als kind al zo sportief?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.al | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 80,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "840",
+    "sentence": "U kunt dit chemisch afval op speciale plaatsen in uw gemeente weggooien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Nature-environment | TOPIC.Housing-living",
+    "score": 80,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Formal U register (official contexts)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1127",
+    "sentence": "Maar ik wil liever geen kat.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.geen | TOPIC.Daily-life",
+    "score": 80,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "705",
+    "sentence": "Hij heeft niet zoveel discipline als ik, maar hij is wel veel relaxter!'",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | PARTICLE.wel | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.maar-adversative",
+    "score": 79,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Particles (2)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "940",
+    "sentence": "Goed, dan heb ik tot slot nog één vraag: hoeveel uur per week ben je beschikbaar?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.nog | CONNECTOR.Addition-adverbial | DISCOURSE.Informal-register",
+    "score": 79,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "231",
+    "sentence": "Zeg gewoon 'nee' tegen je vriend, maar leg je reactie wel uit.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.gewoon | PARTICLE.wel | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 78,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (3)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "577",
+    "sentence": "Jeroen kent een fotograaf die mooie foto's kan maken, maar ik moet hem nog bellen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.3sg-masc | PRONOUN.Relative-clause | PARTICLE.maar | PARTICLE.nog | MODALITY.Deontic-obligation | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative",
+    "score": 78,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (2)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "419",
+    "sentence": "Moeder Wil jij die vuile borden op het aanrecht even afwassen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register",
+    "score": 77,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Articles (1)",
+      "Moderate complexity",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "643",
+    "sentence": "Kapper Met die mooie, dikke krullen van jou kan ik alles doen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.Indefinite | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | DISCOURSE.Informal-register",
+    "score": 77,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "687",
+    "sentence": "Met hardlopen en fietsen train je natuurlijk je conditie, maar verder alleen je beenspieren.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.natuurlijk | CONNECTOR.en-additive | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Health | TOPIC.Travel-leisure",
+    "score": 77,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Health",
+      "Particles (2)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "956",
+    "sentence": "Zorg jij dat onze gasten met een tevreden gevoel naar huis gaan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.1pl | PRONOUN.Relative-clause | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 77,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "28",
+    "sentence": "Rhana Oké, maar zullen we misschien iets gezelligs kijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | PRONOUN.1pl | PRONOUN.Indefinite | PARTICLE.maar | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener | TOPIC.Media-entertainment",
+    "score": 76,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Conversation opener",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "232",
+    "sentence": "Vertel hem dat je niet van honden houdt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.3sg-masc | NEGATION.niet | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 76,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "288",
+    "sentence": "Omar Hoe graag wil je dat?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 76,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "388",
+    "sentence": "Sharon Hé, wat doe je in mijn kamer?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 76,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "881",
+    "sentence": "Als je netwerkt, moet je voor nieuwe mensen open staan.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 76,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1132",
+    "sentence": "Je geeft ze twee keer per dag eten en je bent klaar.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | VERB.Separable-verb | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 76,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "1225",
+    "sentence": "Rhana Oké, maar zullen we misschien iets gezelligs kijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | PRONOUN.1pl | PRONOUN.Indefinite | PARTICLE.maar | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener | TOPIC.Media-entertainment",
+    "score": 76,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Conversation opener",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "50",
+    "sentence": "Rhana Hm, waarom vind je dat zo leuk?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "61",
+    "sentence": "Of ik drink koffie met vriendinnen of ik ga gewoon even de stad in.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | VERB.Separable-verb | ARTICLE.De | PRONOUN.1sg | PARTICLE.even | PARTICLE.gewoon | CONNECTOR.of-alternative | TOPIC.Daily-life | TOPIC.Travel-leisure",
+    "score": 75,
+    "reasons": [
+      "Future tense",
+      "1st person singular",
+      "Gaan-future",
+      "Topic: Daily-life",
+      "Particles (2)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "98",
+    "sentence": "Deze jongeren krijgen stress als ze hun berichten niet kunnen lezen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | TOPIC.Health",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Topic: Health",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "271",
+    "sentence": "Het gaat niet echt vanzelf, ik heb voor dat diploma hard gewerkt.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | NP.Demonstrative | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | TOPIC.Education",
+    "score": 75,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Topic: Education",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "479",
+    "sentence": "Slapen je broers bij jou thuis?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Moderate complexity",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "670",
+    "sentence": "En voordat ik ga föhnen, doe ik nog iets anders in je haar.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.Indefinite | PARTICLE.nog | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 75,
+    "reasons": [
+      "Future tense",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "839",
+    "sentence": "Lege batterijen, medicijnen en olie mogen niet in het milieu terechtkomen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | ARTICLE.Het | NEGATION.niet | MODALITY.Deontic-permission | CONNECTOR.en-additive | TOPIC.Nature-environment",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "934",
+    "sentence": "En waarom denk je dat deze baan bij je past?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1144",
+    "sentence": "Als je je hond uitlaat, maak je veel sneller een praatje met mensen uit de buurt.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Reflexive | ARTICLE.De | NP.Diminutive | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "1191",
+    "sentence": "Deze jongeren krijgen stress als ze hun berichten niet kunnen lezen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | TOPIC.Health",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Topic: Health",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1247",
+    "sentence": "Rhana Hm, waarom vind je dat zo leuk?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 75,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1258",
+    "sentence": "Of ik drink koffie met vriendinnen of ik ga gewoon even de stad in.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | VERB.Separable-verb | ARTICLE.De | PRONOUN.1sg | PARTICLE.even | PARTICLE.gewoon | CONNECTOR.of-alternative | TOPIC.Daily-life | TOPIC.Travel-leisure",
+    "score": 75,
+    "reasons": [
+      "Future tense",
+      "1st person singular",
+      "Gaan-future",
+      "Topic: Daily-life",
+      "Particles (2)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "22",
+    "sentence": "Die moet je absoluut zien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.absoluut | MODALITY.Deontic-obligation | DISCOURSE.Informal-register",
+    "score": 74,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "233",
+    "sentence": "Dan vraagt hij je de volgende keer ook niet meer.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.3sg-masc | NEGATION.niet | DISCOURSE.Informal-register",
+    "score": 74,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "428",
+    "sentence": "We hebben echt geen afwasmachine nodig, dat is ook niet zo goed voor het milieu.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | ARTICLE.Het | NP.Demonstrative | PRONOUN.Relative-clause | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | NEGATION.geen | SYNTAX.Subordinate-clause | TOPIC.Nature-environment | TOPIC.Housing-living",
+    "score": 74,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: niet",
+      "Negation: geen",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "605",
+    "sentence": "Wanneer ben je hier voor het laatst geweest?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 74,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "952",
+    "sentence": "Na het overleg zullen we je mailen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | PRONOUN.1pl | DISCOURSE.Informal-register",
+    "score": 74,
+    "reasons": [
+      "Future tense",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1028",
+    "sentence": "Wat voor weer wordt het vanmiddag, weet je dat?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | INFSTR.Topicalization-fronting | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 74,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1100",
+    "sentence": "Later hoorde ik dat dit geen origineel bos is.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | TENSE.Imperfectum | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | NEGATION.geen | SYNTAX.Subordinate-clause | TOPIC.Nature-environment",
+    "score": 74,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Negation: geen",
+      "1st person singular",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1219",
+    "sentence": "Die moet je absoluut zien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.absoluut | MODALITY.Deontic-obligation | DISCOURSE.Informal-register",
+    "score": 74,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "59",
+    "sentence": "Maar wat doe jij dan als je vrij bent?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "230",
+    "sentence": "Hij is één van mijn beste vrienden en ik wil geen ruzie met hem.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.willen | NP.Adjective-superlative | PRONOUN.1sg | PRONOUN.3sg-masc | NEGATION.geen | CONNECTOR.en-additive",
+    "score": 73,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: geen",
+      "1st person singular",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "263",
+    "sentence": "En zo kan ik nog wel even doorgaan.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.even | PARTICLE.wel | PARTICLE.nog | MODALITY.Epistemic-kan | SYNTAX.Inversion-V2",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (3)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "404",
+    "sentence": "En heb je mijn nieuwe, zwarte broek gezien?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "476",
+    "sentence": "Ik wilde ze meteen de blauwe zee laten zien, dus we zijn gisteren naar het strand gegaan.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | TENSE.Imperfectum | MODAL.willen | VERB.Causative-laten | ARTICLE.De | ARTICLE.Het | PRONOUN.3sg-masc | PRONOUN.1pl | PRONOUN.3pl | CONNECTOR.dus-consecutive | TOPIC.Nature-environment | TOPIC.Travel-leisure",
+    "score": 73,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Past tense (storytelling)",
+      "Modal verb (1)",
+      "Topic: Travel-leisure",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "596",
+    "sentence": "Sinds wanneer heb je een baard?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "676",
+    "sentence": "Als ze niet op haar racefiets zit, loopt ze hard in het bos of traint ze in de sportschool.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | ARTICLE.Het | NP.Noun-compound | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.of-alternative | TOPIC.Daily-life | TOPIC.Nature-environment",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "820",
+    "sentence": "U moet dan voor 1 januari van het nieuwe jaar een nieuwe verzekering kiezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-formal-u | MODALITY.Deontic-obligation | TOPIC.Health | TOPIC.Finance-admin",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "920",
+    "sentence": "Aha, dus je moest daar ook met klanten werken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "965",
+    "sentence": "Je hebt goede vaardigheden op de computer. ⚫ Je hebt minimaal één jaar werkervaring als receptionist in een hotel.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Work-career | TOPIC.Travel-leisure",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "980",
+    "sentence": "Voor meer informatie kun je contact opnemen met de afdeling personeelszaken via het formulier op onze website of via 020-8510 2407.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.1pl | CONNECTOR.of-alternative | DISCOURSE.Informal-register",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "1256",
+    "sentence": "Maar wat doe jij dan als je vrij bent?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register",
+    "score": 73,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "284",
+    "sentence": "Het Arabisch heeft bijvoorbeeld maar één lidwoord en niet drie, zoals het Nederlands.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PARTICLE.maar | NEGATION.niet | CONNECTOR.en-additive | CONNECTOR.maar-adversative | TOPIC.Education",
+    "score": 72,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Topic: Education",
+      "Particles (1)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "553",
+    "sentence": "Is je trouwjurk bijvoorbeeld al klaar?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.al | DISCOURSE.Informal-register",
+    "score": 72,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "661",
+    "sentence": "Ivet Wanneer heb jij vakantie?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Travel-leisure",
+    "score": 72,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Travel-leisure",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "728",
+    "sentence": "Dat houd ik echt niet vol!",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause",
+    "score": 72,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "903",
+    "sentence": "Zo, kon je het makkelijk vinden?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.Het | PRONOUN.2sg-informal | SYNTAX.Inversion-V2 | DISCOURSE.Informal-register",
+    "score": 72,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "132",
+    "sentence": "Ik ben zelfstandig, maar ik kan ook goed samenwerken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | PRONOUN.1sg | PARTICLE.maar | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "239",
+    "sentence": "Je moet niet liegen, dat is niet goed voor jullie vriendschap.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2pl | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "285",
+    "sentence": "Maar nu klink ik zo negatief en dat is niet mijn bedoeling.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | NEGATION.niet | SYNTAX.Subordinate-clause | SYNTAX.Inversion-V2 | CONNECTOR.en-additive | INFSTR.Topicalization-fronting",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "500",
+    "sentence": "Sidra Ah, maar je komt wel, hè?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.hè-tag | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "554",
+    "sentence": "Mirjam Ja, maar het pak voor Jeroen nog niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PARTICLE.maar | PARTICLE.nog | NEGATION.niet | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "Particles (2)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "586",
+    "sentence": "O ja, mama, waar moeten opa en oma na de bruiloft slapen?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Relationships-family",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "673",
+    "sentence": "ALS IK NIET SPORT, WORD IK CHAGRIJNIG Julia woont met haar vriend in Almelo.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.3sg-fem | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | TOPIC.Daily-life | TOPIC.Health | TOPIC.Relationships-family",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1053",
+    "sentence": "Ivan Ach, het is maar een beetje regen hoor, het sneeuwt niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | NP.Diminutive | PARTICLE.maar | PARTICLE.hoor | DEGREE.Downtoner | NEGATION.niet | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener | TOPIC.Nature-environment",
+    "score": 71,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "Particles (2)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "166",
+    "sentence": "Ga je dit weekend nog wel iets leuks doen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.nog | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "390",
+    "sentence": "Mag ik je föhn even lenen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "488",
+    "sentence": "Sidra Ah, heb jij nog iets leuks meegemaakt?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.nog | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "712",
+    "sentence": "Kun je even met me meedenken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "913",
+    "sentence": "Mevrouw Driesen Murat Mevrouw Driesen Murat Oké, wat waren je taken toen?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | NP.Noun-compound | PRONOUN.2sg-informal | PRONOUN.Relative-clause | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 70,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "921",
+    "sentence": "En kun je iets meer over jezelf vertellen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Reflexive | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.Indefinite | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Complex sentence (8+ features)",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "1019",
+    "sentence": "Jaïr Hé, ben je ook met de tram vandaag?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1037",
+    "sentence": "Ja, je hebt met dit weer niets aan een paraplu en een regenjas, je wordt toch nat.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.toch | NEGATION.niets | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 70,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "218",
+    "sentence": "Het is het gezin van je zus en je zwager, dus het is ook hun probleem.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | PRONOUN.3pl | CONNECTOR.en-additive | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 69,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (2)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "723",
+    "sentence": "En daarna weet ik het niet meer.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.niet | SYNTAX.Inversion-V2 | CONNECTOR.Temporal-sequence | INFSTR.Topicalization-fronting",
+    "score": 69,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "780",
+    "sentence": "Veel studieplekken hebben een stopcontact, zodat u uw laptop of telefoon kunt opladen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.of-alternative | CONNECTOR.zodat-result",
+    "score": 69,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "833",
+    "sentence": "Daarom moeten we niet al ons afval in één vuilnisbak gooien.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1pl | PARTICLE.al | NEGATION.niet | MODALITY.Deontic-obligation | TOPIC.Nature-environment",
+    "score": 69,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "836",
+    "sentence": "Bovendien kunnen schadelijke stoffen zo niet in het milieu terechtkomen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NEGATION.niet | MODALITY.Epistemic-kan | TOPIC.Nature-environment",
+    "score": 69,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "872",
+    "sentence": "Maar ook mensen die je via internet kent, bijvoorbeeld op Facebook of LinkedIn.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | SYNTAX.Inversion-V2 | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Media-entertainment | TOPIC.Work-career",
+    "score": 69,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "918",
+    "sentence": "Ik moest ze helpen, als ze iets niet konden vinden.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.moeten | PRONOUN.3sg-fem | PRONOUN.3pl | PRONOUN.Indefinite | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional",
+    "score": 69,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "40",
+    "sentence": "En ik heb ook geen abonnement of zo, om series te kijken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERBCLUSTER.te-inf | PRONOUN.1sg | NEGATION.geen | CONNECTOR.of-alternative | TOPIC.Media-entertainment | TOPIC.Finance-admin",
+    "score": 68,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: geen",
+      "1st person singular",
+      "Te-infinitive (purpose/goal)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "307",
+    "sentence": "Of ze hebben bijles op school. ledereen wil en moet goed presteren.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.3sg-fem | PRONOUN.3pl | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Education",
+    "score": 68,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (2)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "817",
+    "sentence": "Overstappen op een andere verzekering U mag uw zorgverzekering zelf kiezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Deontic-permission | INFSTR.Topicalization-fronting | TOPIC.Health | TOPIC.Finance-admin",
+    "score": 68,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1121",
+    "sentence": "Mario Hm, ik weet het niet hoor.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PRONOUN.1sg | PARTICLE.hoor | NEGATION.niet | MODALITY.Epistemic-stance | DISCOURSE.Backchannel-opener | DISCOURSE.Epistemic-stance",
+    "score": 68,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "1st person singular",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1237",
+    "sentence": "En ik heb ook geen abonnement of zo, om series te kijken.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERBCLUSTER.te-inf | PRONOUN.1sg | NEGATION.geen | CONNECTOR.of-alternative | TOPIC.Media-entertainment | TOPIC.Finance-admin",
+    "score": 68,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: geen",
+      "1st person singular",
+      "Te-infinitive (purpose/goal)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "219",
+    "sentence": "Doen zij wel eens iets voor jou?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.Indefinite | PARTICLE.eens | INFSTR.Contrastive-focus | DISCOURSE.Informal-register",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "226",
+    "sentence": "Ik wil helemaal niet op zijn hond passen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.3sg-masc | NEGATION.niet | TOPIC.Daily-life",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "282",
+    "sentence": "Omar Ook dat hangt van je moedertaal af, van de grammatica van je moedertaal.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | NP.Demonstrative | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Education",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Education",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "412",
+    "sentence": "Stefan Ja maar mam, ik heb haast en ik moet mijn tanden nog poetsen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.nog | MODALITY.Deontic-obligation | CONNECTOR.en-additive | CONNECTOR.maar-adversative",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "528",
+    "sentence": "Leuk dat je mijn broer in de trein bent tegengekomen!",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "555",
+    "sentence": "Dat kan hij dit weekend ophalen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | NP.Demonstrative | PRONOUN.3sg-masc | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | TOPIC.Daily-life",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "591",
+    "sentence": "En heb je eigenlijk al een bruidsboeket uitgezocht?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.eigenlijk | PARTICLE.al | DISCOURSE.Informal-register",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (2)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "671",
+    "sentence": "Dat laat ik je straks wel zien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Causative-laten | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.wel | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "730",
+    "sentence": "Mark Rustig maar, dat hoeft ook niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | NP.Demonstrative | NEGATION.niet | NEGATION.hoeven-neg | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "807",
+    "sentence": "Als u in een jaar geen zorgkosten heeft, betaalt u alleen uw premie.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | PRONOUN.2sg-formal-u | NEGATION.geen | SYNTAX.Subordinate-clause | TOPIC.Finance-admin",
+    "score": 67,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: geen",
+      "2nd person formal (U)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "878",
+    "sentence": "Hoe moet ik dat aanpakken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1sg | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "880",
+    "sentence": "Met mensen die voor je carrière belangrijk kunnen zijn.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 67,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "113",
+    "sentence": "Het gaat over een onderwerp dat ik altijd interessant gevonden heb, namelijk depressie bij jongeren. in Q Zoek &8 A Home Mijn netwerk Vacatures Berichten Notificaties Ik Bericht Meer...",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | NP.Demonstrative | NP.Adjective-comparative | NP.Noun-compound | PRONOUN.1sg | PARTICLE.namelijk | SYNTAX.Subordinate-clause | TOPIC.Media-entertainment | TOPIC.Health",
+    "score": 66,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Future tense",
+      "1st person singular",
+      "Gaan-future",
+      "Topic: Health",
+      "Particles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "207",
+    "sentence": "Ze vindt dat je je familie altijd moet helpen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | NP.Demonstrative | NP.Noun-compound | PRONOUN.2sg-informal | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 66,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "235",
+    "sentence": "Zeg bijvoorbeeld dat je naar je schoonouders moet.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 66,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "369",
+    "sentence": "Loes Nou, het water gaat niet weg en hij lekt ook.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PRONOUN.3sg-masc | PARTICLE.nou | NEGATION.niet | CONNECTOR.en-additive | DISCOURSE.Backchannel-opener | TOPIC.Nature-environment",
+    "score": 66,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "530",
+    "sentence": "Ik mis hem wel, maar ik ben niet heel verdrietig.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | PARTICLE.wel | DEGREE.Intensifier | NEGATION.niet | CONNECTOR.maar-adversative",
+    "score": 66,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Particles (2)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "640",
+    "sentence": "Wat wil je?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 66,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "262",
+    "sentence": "Hoeveel tijd besteed je aan je huiswerk?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Education",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Education",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "409",
+    "sentence": "Stefan Wil jij hem dan strijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-masc | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "464",
+    "sentence": "Rafael Ha Sidra, kun je me horen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "544",
+    "sentence": "Kun je me je telefoonnummer sturen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "799",
+    "sentence": "U moet een eerste deel van de zorgkosten zelf betalen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | MODALITY.Deontic-obligation | TOPIC.Finance-admin",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "848",
+    "sentence": "Wilt u dat de gemeente het grofvuil ophaalt?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | ARTICLE.Het | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause | TOPIC.Housing-living",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "2nd person formal (U)",
+      "Articles (2)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "868",
+    "sentence": "Diana Ja, het woord 'netwerk' hoor je tegenwoordig vaak.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-informal | PARTICLE.hoor | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "922",
+    "sentence": "Wat zijn je kwaliteiten?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-masc | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 65,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "928",
+    "sentence": "Waarom ben jij geschikt voor deze baan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 65,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career"
+    ]
+  },
+  {
+    "id": "47",
+    "sentence": "Dat doe ik echt het liefst in het weekend: alleen op de bank hangen en series kijken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | ARTICLE.Het | NP.Adjective-superlative | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | TOPIC.Media-entertainment | TOPIC.Daily-life",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "1st person singular",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "624",
+    "sentence": "Weet je het zeker?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.zeker | DISCOURSE.Informal-register",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "635",
+    "sentence": "Ik laat je straks ook zien hoe je het moet föhnen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERB.Causative-laten | ARTICLE.Het | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | DISCOURSE.Informal-register",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "884",
+    "sentence": "Of naar mensen die je lang niet hebt gezien.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | NEGATION.niet | DISCOURSE.Informal-register",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "957",
+    "sentence": "En ben jij bereid om hard te werken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Te-infinitive (purpose/goal)"
+    ]
+  },
+  {
+    "id": "1088",
+    "sentence": "Maar kun je dat wel natuur noemen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | TOPIC.Nature-environment",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1244",
+    "sentence": "Dat doe ik echt het liefst in het weekend: alleen op de bank hangen en series kijken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | ARTICLE.Het | NP.Adjective-superlative | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | TOPIC.Media-entertainment | TOPIC.Daily-life",
+    "score": 64,
+    "reasons": [
+      "Present tense (most frequent)",
+      "1st person singular",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "124",
+    "sentence": "Ik kan heel goed kleding aan onze klanten verkopen. in a Zoek E Home he Mijn netwerk A Vacatures Berichten Notificaties Paulo Bericht Meer...",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Adjective-comparative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.1pl | PARTICLE.hè-tag | DEGREE.Intensifier | MODALITY.Epistemic-kan | TOPIC.Media-entertainment | TOPIC.Daily-life",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "163",
+    "sentence": "Petra Ja, dat gaat dus niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.Relative-clause | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.dus-consecutive | DISCOURSE.Backchannel-opener",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Conversation opener",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "246",
+    "sentence": "En nog gefeliciteerd met je diploma!",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | SYNTAX.Inversion-V2 | DISCOURSE.Informal-register | TOPIC.Education",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Education",
+      "Particles (1)",
+      "Moderate complexity",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "375",
+    "sentence": "Bent u dan thuis?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | NP.Noun-compound | PRONOUN.2sg-formal-u | TOPIC.Daily-life",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "2nd person formal (U)",
+      "Topic: Daily-life",
+      "Moderate complexity",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "450",
+    "sentence": "Sinds 2001 kunnen twee mannen ook met elkaar trouwen, net als twee vrouwen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Reflexive | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | TOPIC.Relationships-family",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "682",
+    "sentence": "Ik deed judo en later een teamsport, volleybal.' Wat bedoel je met 'later'?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | PRONOUN.2sg-informal | CONNECTOR.en-additive | DISCOURSE.Informal-register",
+    "score": 63,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Wh-question (information seeking)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)"
+    ]
+  },
+  {
+    "id": "715",
+    "sentence": "Krijg je je moeder op bezoek of zo?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "731",
+    "sentence": "Dan ga je na een uur lekker naar buiten, wandelen langs de grachten.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Travel-leisure",
+    "score": 63,
+    "reasons": [
+      "Future tense",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Travel-leisure",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "821",
+    "sentence": "En u moet uw oude zorgverzekering opzeggen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Deontic-obligation | TOPIC.Health",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Modal + infinitive cluster",
+      "Topic: Health",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "829",
+    "sentence": "Bewoners moeten hun vuilniszakken, vuilnisbakken of containers dan aan de straat zetten.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.3pl | MODALITY.Deontic-obligation | CONNECTOR.of-alternative | TOPIC.Daily-life | TOPIC.Housing-living",
+    "score": 63,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "888",
+    "sentence": "Ik denk altijd: hoe moet ik zo'n gesprek beginnen?",
+    "tags": "SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.1sg | MODALITY.Deontic-obligation",
+    "score": 63,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Wh-question (information seeking)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "43",
+    "sentence": "Abel Maar je kijkt geen series?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.geen | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)"
+    ]
+  },
+  {
+    "id": "130",
+    "sentence": "Daarnaast kan ik goed met apparaten werken en ik ben dus erg handig.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | DEGREE.Intensifier | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.dus-consecutive",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Connectors (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "153",
+    "sentence": "Petra Hans Petra Kun jij Joris vanmiddag naar het hockeyveld brengen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "173",
+    "sentence": "Dus ja, ik heb pas meer vrije tijd als de kinderen ouder zijn.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | NP.Diminutive | NP.Adjective-comparative | PRONOUN.1sg | PRONOUN.3sg-masc | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Backchannel-opener | TOPIC.Daily-life | TOPIC.Relationships-family",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Conversation opener",
+      "1st person singular",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "223",
+    "sentence": "Ik heb niet uitgelegd dat ik niet van honden hou.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | NP.Demonstrative | PRONOUN.1sg | NEGATION.niet | SYNTAX.Subordinate-clause",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Moderate complexity",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "352",
+    "sentence": "Willemijn Heb je wel het juiste programma gekozen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Media-entertainment",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "405",
+    "sentence": "Heb je hem in de droger gedaan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-masc | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "415",
+    "sentence": "Moeder Is je zus daar nog?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "443",
+    "sentence": "Pas daarna trouwen ze of ze trouwen helemaal niet.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | SYNTAX.Inversion-V2 | CONNECTOR.of-alternative | CONNECTOR.Temporal-sequence | INFSTR.Topicalization-fronting | TOPIC.Relationships-family",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Connectors (2)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)"
+    ]
+  },
+  {
+    "id": "513",
+    "sentence": "Maar hij heeft een baard, jij niet toch?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PARTICLE.toch | NEGATION.niet | INFSTR.Contrastive-focus | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "517",
+    "sentence": "Leeft je moeder nog wel?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "620",
+    "sentence": "Ik ga het eerst even wassen, oké?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | ARTICLE.Het | PARTICLE.even | CONNECTOR.Temporal-sequence | TOPIC.Daily-life",
+    "score": 62,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Gaan-future",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "718",
+    "sentence": "Maar ik weet niet zo goed wat we moeten doen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | PRONOUN.1sg | PRONOUN.1pl | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | MODALITY.Epistemic-stance | DISCOURSE.Epistemic-stance",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "1st person singular",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "734",
+    "sentence": "Mijn vriend is niet gewend om in zo'n drukke stad te fietsen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | VERBCLUSTER.te-inf | NEGATION.niet | TOPIC.Daily-life | TOPIC.Travel-leisure | TOPIC.Relationships-family",
+    "score": 62,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation pattern",
+      "Negation: niet",
+      "Te-infinitive (purpose/goal)",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "805",
+    "sentence": "Dat betekent dat u de eerste 385 euro van uw zorgkosten zelf moet betalen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | ARTICLE.De | NP.Demonstrative | PRONOUN.2sg-formal-u | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | TOPIC.Finance-admin",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "2nd person formal (U)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "996",
+    "sentence": "Wil je altijd mooi weer in de zomer?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1022",
+    "sentence": "Jaïr Nee, heb je vannacht die storm ook gehoord?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 62,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1119",
+    "sentence": "Welke vind jij het leukst?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | NP.Adjective-superlative | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1240",
+    "sentence": "Abel Maar je kijkt geen series?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.geen | DISCOURSE.Informal-register",
+    "score": 62,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Negation: geen",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)"
+    ]
+  },
+  {
+    "id": "512",
+    "sentence": "Hij heeft net zulke donkere ogen en bruine krullen als jij.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register",
+    "score": 61,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Connectors (2)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1128",
+    "sentence": "We kunnen toch ook een hond nemen, of een konijn of vissen?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PARTICLE.toch | MODALITY.Epistemic-kan | CONNECTOR.of-alternative | TOPIC.Daily-life",
+    "score": 61,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1154",
+    "sentence": "Björn Die zijn toch niet geschikt als huisdier?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Perfectum | PRONOUN.3sg-masc | PARTICLE.toch | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | TOPIC.Daily-life",
+    "score": 61,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Negation: niet",
+      "Topic: Daily-life",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "229",
+    "sentence": "Of moet ik weer een excuus verzinnen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1sg | MODALITY.Deontic-obligation | TOPIC.Nature-environment",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "313",
+    "sentence": "Ze mogen trouwens pas een bijbaantje hebben als ze achttien zijn.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | NP.Diminutive | PRONOUN.3sg-masc | PRONOUN.3pl | PARTICLE.trouwens | MODALITY.Deontic-permission | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "511",
+    "sentence": "Ik herkende hem meteen, want hij lijkt nog steeds heel veel op je.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PARTICLE.nog | DEGREE.Intensifier | CONNECTOR.want-causal | DISCOURSE.Informal-register",
+    "score": 60,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "604",
+    "sentence": "Kapper Wat is je haar lang, het is hard gegroeid.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | PRONOUN.3sg-fem | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 60,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "633",
+    "sentence": "Ali AT Kapper Ali Kapper Je hebt me overtuigd.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 60,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "657",
+    "sentence": "Ben je op vakantie geweest?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Travel-leisure",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Travel-leisure"
+    ]
+  },
+  {
+    "id": "692",
+    "sentence": "Als ik niet sport, word ik chagrijnig.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | NEGATION.niet | SYNTAX.Subordinate-clause | TOPIC.Health",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Topic: Health",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "909",
+    "sentence": "Heb je ervaring met dit soort werk?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career"
+    ]
+  },
+  {
+    "id": "955",
+    "sentence": "vacaturebank inloggen | registreren | help vacatures informatie plaats je cv jouw account Receptionist bij Hotel Arena Ben jij op zoek naar een leuke baan in een hotel?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Work-career | TOPIC.Travel-leisure",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "958",
+    "sentence": "Dan ben jij misschien wel onze nieuwe receptionist!",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.1pl | PARTICLE.wel | MODALITY.Epistemic-adverbial | INFSTR.Contrastive-focus | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career",
+      "Particles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "977",
+    "sentence": "Ben jij geschikt voor deze baan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Work-career",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Work-career"
+    ]
+  },
+  {
+    "id": "1068",
+    "sentence": "Contact Inloggen Mijn blog Q in f Thema's Over mij In het land waar ik vandaan kom, heb je veel meer natuur dan in Nederland.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | NP.Adjective-comparative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Nature-environment",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1230",
+    "sentence": "Wat kijk jij meestal?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 60,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "2nd person informal (je)"
+    ]
+  },
+  {
+    "id": "212",
+    "sentence": "Je moet niet zo egoïstisch doen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NEGATION.niet | MODALITY.Deontic-obligation",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "251",
+    "sentence": "Maar dat hangt van je moedertaal af.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | NP.Demonstrative | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity",
+      "Subordinate clause",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "298",
+    "sentence": "Wat viel je op in de lessen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 59,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)"
+    ]
+  },
+  {
+    "id": "497",
+    "sentence": "Wanneer kom jij op bezoek in Australië?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "599",
+    "sentence": "Ik had geen zin meer om me te scheren.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERBCLUSTER.te-inf | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.geen",
+    "score": 59,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Negation: geen",
+      "1st person singular",
+      "Te-infinitive (purpose/goal)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "919",
+    "sentence": "Als het erg druk was, moest ik soms ook achter de kassa werken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | MODAL.moeten | ARTICLE.De | ARTICLE.Het | PRONOUN.1sg | DEGREE.Intensifier | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause",
+    "score": 59,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "962",
+    "sentence": "Je controleert de kamers voordat je ze aan de gasten geeft.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "1039",
+    "sentence": "Want je kleren drogen niet zo snel.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.niet | DISCOURSE.Informal-register",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)"
+    ]
+  },
+  {
+    "id": "1147",
+    "sentence": "Die kan niet goed alleen zijn.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.3sg-masc | NEGATION.niet | MODALITY.Epistemic-kan",
+    "score": 59,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Modal verb (1)",
+      "Negation: niet",
+      "Modal + infinitive cluster",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1158",
+    "sentence": "We kunnen toch gewoon een keer gaan kijken bij die kleine poesjes, voordat we iets besluiten?",
+    "tags": "SENTENCE_TYPE.Tag-question | TENSE.Futurum-gaan | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1pl | PRONOUN.Indefinite | PARTICLE.toch | PARTICLE.gewoon | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | TOPIC.Media-entertainment",
+    "score": 59,
+    "reasons": [
+      "Future tense",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Particles (2)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "172",
+    "sentence": "De kinderen hebben zoveel activiteiten, we moeten ze overal naartoe brengen en weer ophalen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | VERB.Separable-verb | PRONOUN.3sg-fem | PRONOUN.1pl | PRONOUN.3pl | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Nature-environment | TOPIC.Relationships-family",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "272",
+    "sentence": "Bas Ja, daarom spreek je ook zo goed, denk ik.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "337",
+    "sentence": "Wilco Ik zoek het nummer van de winkel wel even op.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | ARTICLE.Het | PARTICLE.even | PARTICLE.wel | TOPIC.Daily-life",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Topic: Daily-life",
+      "Particles (2)",
+      "Articles (2)",
+      "Complex sentence (8+ features)",
+      "Separable verb (Dutch-specific)"
+    ]
+  },
+  {
+    "id": "436",
+    "sentence": "Soms ontmoeten mensen elkaar omdat de familie dat graag wil.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERB.Reflexive | ARTICLE.De | NP.Demonstrative | PRONOUN.Relative-clause | SYNTAX.Subordinate-clause | CONNECTOR.omdat-causal | TOPIC.Relationships-family",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause",
+      "Reflexive verb"
+    ]
+  },
+  {
+    "id": "487",
+    "sentence": "Rafael Pff, je maakt me jaloers!",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Informal register (daily conversation)",
+      "Conversation opener",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "668",
+    "sentence": "Ik ga je haar wassen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | PRONOUN.2sg-informal | PRONOUN.3sg-fem | DISCOURSE.Informal-register | TOPIC.Daily-life",
+    "score": 58,
+    "reasons": [
+      "Future tense",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Gaan-future",
+      "Topic: Daily-life",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "851",
+    "sentence": "Als u ze naar de supermarkt terugbrengt, krijgt u een bonnetje.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | NP.Diminutive | PRONOUN.2sg-formal-u | PRONOUN.3sg-fem | PRONOUN.3pl | SYNTAX.Subordinate-clause | TOPIC.Daily-life | TOPIC.Finance-admin",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "2nd person formal (U)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "944",
+    "sentence": "En doordeweeks kan ik ook in de avond, als dat nodig is.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "999",
+    "sentence": "Het kan met Kerstmis bijvoorbeeld tien graden boven nul zijn, maar het kan ook tien graden vriezen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.3sg-masc | PARTICLE.maar | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative | TOPIC.Nature-environment",
+    "score": 58,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "1083",
+    "sentence": "En het was toegestaan om in de natuur te kamperen of vuur te maken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | VERBCLUSTER.te-inf | ARTICLE.De | ARTICLE.Het | CONNECTOR.of-alternative | TOPIC.Nature-environment | TOPIC.Travel-leisure",
+    "score": 58,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Te-infinitive (purpose/goal)",
+      "Topic: Travel-leisure",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "63",
+    "sentence": "Maar goed, zullen we dan het journaal kijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1pl | TOPIC.Media-entertainment",
+    "score": 57,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "118",
+    "sentence": "En tegenwoordig geef ik als manager leiding aan een groep enthousiaste medewerkers.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.1sg | SYNTAX.Subordinate-clause | SYNTAX.Inversion-V2 | CONNECTOR.als-conditional | INFSTR.Topicalization-fronting | TOPIC.Work-career",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "1st person singular",
+      "Topic: Work-career",
+      "Connectors (1)",
+      "Complex sentence (8+ features)",
+      "V2 word order (Dutch structure)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "261",
+    "sentence": "Hoe gemotiveerd ben je?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Perfect tense (exam essential)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)"
+    ]
+  },
+  {
+    "id": "304",
+    "sentence": "Hun uniform viel natuurlijk ook op, omdat Nederlandse leerlingen geen uniform dragen.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | PARTICLE.natuurlijk | NEGATION.geen | SYNTAX.Subordinate-clause | CONNECTOR.omdat-causal",
+    "score": 57,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Negation pattern",
+      "Negation: geen",
+      "Particles (1)",
+      "Connectors (1)",
+      "Moderate complexity",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "510",
+    "sentence": "Gisteren kwam ik je broer in de trein tegen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | ARTICLE.De | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Relationships-family",
+    "score": 57,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Informal register (daily conversation)",
+      "1st person singular",
+      "2nd person informal (je)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "516",
+    "sentence": "Hoe gaat het nu met je?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)"
+    ]
+  },
+  {
+    "id": "563",
+    "sentence": "Ben je niemand vergeten?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | NEGATION.niemand | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "584",
+    "sentence": "Ik herinner me onze huwelijksreis nog goed, het regende de hele week en papa werd ziek.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | ARTICLE.Het | PRONOUN.1sg | PRONOUN.1pl | PARTICLE.nog | CONNECTOR.en-additive | TOPIC.Health",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "1st person singular",
+      "Topic: Health",
+      "Particles (1)",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "607",
+    "sentence": "Kapper Heb je het druk?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Articles (1)"
+    ]
+  },
+  {
+    "id": "760",
+    "sentence": "Maar wist u dat de Centrale Bibliotheek boeken in verschillende talen heeft?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.De | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause",
+    "score": 57,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Question form (conversation)",
+      "2nd person formal (U)",
+      "Articles (1)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "859",
+    "sentence": "Wat adviseer je hen dan?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.3pl | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "865",
+    "sentence": "Heb je nog andere tips?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)"
+    ]
+  },
+  {
+    "id": "946",
+    "sentence": "Heb je zelf nog vragen?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register",
+    "score": 57,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Particles (1)"
+    ]
+  },
+  {
+    "id": "1073",
+    "sentence": "In de stad kon je de bergen zien.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Travel-leisure",
+    "score": 57,
+    "reasons": [
+      "Past tense (storytelling)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Topic: Daily-life",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "1260",
+    "sentence": "Maar goed, zullen we dan het journaal kijken?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1pl | TOPIC.Media-entertainment",
+    "score": 57,
+    "reasons": [
+      "Future tense",
+      "Question form (conversation)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "8",
+    "sentence": "Vind je dat oké?",
+    "tags": "SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Question form (conversation)",
+      "Informal register (daily conversation)",
+      "2nd person informal (je)",
+      "Subordinate clause"
+    ]
+  },
+  {
+    "id": "110",
+    "sentence": "Mensen praten makkelijk over hun gevoel met mij en ik kan goed luisteren.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.3pl | MODALITY.Epistemic-kan | CONNECTOR.en-additive",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "1st person singular",
+      "Modal + infinitive cluster",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "269",
+    "sentence": "Een goede docent en een goede lesmethode zijn niet genoeg.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.3sg-masc | DEGREE.genoeg-sufficiency | NEGATION.niet | CONNECTOR.en-additive | TOPIC.Work-career | TOPIC.Education",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Topic: Work-career",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "270",
+    "sentence": "Je moet overal en met iedereen Nederlands spreken.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.Indefinite | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Education",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "442",
+    "sentence": "Ze willen hun partner eerst beter leren kennen.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | NP.Adjective-comparative | PRONOUN.3pl | CONNECTOR.Temporal-sequence | TOPIC.Education | TOPIC.Relationships-family",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Modal + infinitive cluster",
+      "Topic: Education",
+      "Connectors (1)",
+      "Complex sentence (8+ features)"
+    ]
+  },
+  {
+    "id": "719",
+    "sentence": "Hij houdt namelijk van kunst en ik totaal niet...",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PARTICLE.namelijk | NEGATION.niet | CONNECTOR.en-additive",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "1st person singular",
+      "Particles (1)",
+      "Connectors (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "809",
+    "sentence": "De huisarts, kraamzorg en zorg voor kinderen vallen niet onder het eigen risico.",
+    "tags": "SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | NEGATION.niet | CONNECTOR.en-additive | TOPIC.Health | TOPIC.Relationships-family",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Negation pattern",
+      "Negation: niet",
+      "Topic: Health",
+      "Connectors (1)",
+      "Articles (1)",
+      "Moderate complexity"
+    ]
+  },
+  {
+    "id": "915",
+    "sentence": "Ik moest het magazijn en de winkel netjes houden.",
+    "tags": "SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | ARTICLE.De | ARTICLE.Het | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Daily-life",
+    "score": 56,
+    "reasons": [
+      "Present tense (most frequent)",
+      "Modal verb (1)",
+      "Topic: Daily-life",
+      "Connectors (1)",
+      "Articles (2)",
+      "Complex sentence (8+ features)"
+    ]
+  }
+]

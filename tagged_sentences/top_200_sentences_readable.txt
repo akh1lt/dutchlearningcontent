@@ -1,0 +1,3275 @@
+TOP 200 DUTCH A2 SENTENCES FOR MAXIMUM LEARNING ROI
+======================================================================
+
+Selected using 15-factor scoring system:
+- Exam-critical grammar (modals, negation, tenses)
+- High-frequency patterns (questions, discourse markers)
+- Register variety (formal U vs informal je)
+- Topic diversity (daily life, work, health, etc.)
+- Dutch-specific features (separable verbs, particles)
+
+======================================================================
+
+#1 | ROI Score: 131 | ID: 824
+
+📝 DUTCH:
+Halverwege het jaar kunt u dus niet op een andere verzekering overstappen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Formal U register (official contexts)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | ARTICLE.Het | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.dus-consecutive | DISCOURSE.Formal-register-u | TOPIC.Health | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#2 | ROI Score: 130 | ID: 222
+
+📝 DUTCH:
+Hij heeft me een maand geleden al een keer gevraagd: 'Mag mijn hond bij je logeren?' Ik heb toen gezegd: 'Sorry, ik kan niet, want ik ben dit weekend niet thuis'.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Modal verb (2)
+   • Negation: niet
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.kunnen | MODAL.mogen | VERBCLUSTER.modal-inf | NP.Demonstrative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.al | NEGATION.niet | MODALITY.Deontic-permission | MODALITY.Epistemic-kan | CONNECTOR.want-causal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#3 | ROI Score: 127 | ID: 818
+
+📝 DUTCH:
+Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Formal U register (official contexts)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Health
+
+----------------------------------------------------------------------
+
+#4 | ROI Score: 125 | ID: 236
+
+📝 DUTCH:
+Of zeg dat je voor een examen moet studeren en dat je geen tijd hebt.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | NEGATION.geen | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#5 | ROI Score: 125 | ID: 1131
+
+📝 DUTCH:
+Ze zijn zacht en schoon, maar je hoeft ze niet de hele dag te verzorgen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PRONOUN.3pl | PARTICLE.maar | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.en-additive | CONNECTOR.maar-adversative | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#6 | ROI Score: 124 | ID: 217
+
+📝 DUTCH:
+Je moet het niet doen, als je geen zin hebt.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Negation: geen
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | NEGATION.niet | NEGATION.geen | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#7 | ROI Score: 124 | ID: 777
+
+📝 DUTCH:
+Studeren en werken Is het thuis niet stil en wilt u rustig werken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Negation: niet
+   • Formal U register (official contexts)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-formal-u | NEGATION.niet | CONNECTOR.en-additive | DISCOURSE.Formal-register-u | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#8 | ROI Score: 119 | ID: 499
+
+📝 DUTCH:
+Rafael Ja, ik wil je zo snel mogelijk bezoeken, maar ik moet eerst voor de vliegtickets sparen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (2)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.maar | MODALITY.Deontic-obligation | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | CONNECTOR.Temporal-sequence | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#9 | ROI Score: 119 | ID: 782
+
+📝 DUTCH:
+Als u geen laptop hebt, kunt u één uur per dag een computer van de bibliotheek gebruiken.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+   • Formal U register (official contexts)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | NEGATION.geen | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#10 | ROI Score: 118 | ID: 181
+
+📝 DUTCH:
+Wanneer bent u vrij en wanneer is de school van uw kinderen dicht?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Topic: Education
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | PRONOUN.2sg-formal-u | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Formal-register-u | TOPIC.Education | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#11 | ROI Score: 117 | ID: 498
+
+📝 DUTCH:
+Hier schijnt de zon elke dag, dus je zal hier geen koude voeten hebben.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Future tense
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-informal | NEGATION.geen | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#12 | ROI Score: 109 | ID: 56
+
+📝 DUTCH:
+En je hoeft even helemaal aan niets te denken, alleen maar te kijken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.maar | PARTICLE.even | NEGATION.niets | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Media-entertainment
+
+----------------------------------------------------------------------
+
+#13 | ROI Score: 109 | ID: 1253
+
+📝 DUTCH:
+En je hoeft even helemaal aan niets te denken, alleen maar te kijken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.maar | PARTICLE.even | NEGATION.niets | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Media-entertainment
+
+----------------------------------------------------------------------
+
+#14 | ROI Score: 108 | ID: 1095
+
+📝 DUTCH:
+Soms moet je ook betalen, als je in een natuurgebied wil wandelen of fietsen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (2)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#15 | ROI Score: 106 | ID: 365
+
+📝 DUTCH:
+Monteur Splash monteurs goedemiddag, wat kan ik voor u doen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-formal-u | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#16 | ROI Score: 105 | ID: 273
+
+📝 DUTCH:
+Wat wil je nog meer met de taal bereiken, wat is je doel?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.De | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.nog | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#17 | ROI Score: 105 | ID: 621
+
+📝 DUTCH:
+Oh, dat hoeft niet, ik heb het thuis al gewassen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Conversation opener
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Demonstrative | NP.Noun-compound | PRONOUN.1sg | PARTICLE.al | NEGATION.niet | NEGATION.hoeven-neg | SYNTAX.Subordinate-clause | DISCOURSE.Backchannel-opener | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#18 | ROI Score: 105 | ID: 761
+
+📝 DUTCH:
+Voor luisterboeken en e-boeken hoeft u niet eens uit uw stoel te komen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 2nd person formal (U)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-formal-u | PARTICLE.eens | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+
+#19 | ROI Score: 103 | ID: 289
+
+📝 DUTCH:
+Bas Eh, ik ben niet zo gemotiveerd als jij, denk ik.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • Conversation opener
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | PRONOUN.1sg | PRONOUN.2sg-informal | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#20 | ROI Score: 103 | ID: 763
+
+📝 DUTCH:
+Als u toch liever naar het Spui komt, kunt u daar aan een leestafel kranten en tijdschriften lezen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-formal-u | PARTICLE.toch | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#21 | ROI Score: 102 | ID: 372
+
+📝 DUTCH:
+Wanneer kunt u langskomen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#22 | ROI Score: 101 | ID: 698
+
+📝 DUTCH:
+Ik loop hard in het bos of ik fiets met een groepje.' Vind je het ook leuk om naar sport te kijken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERBCLUSTER.te-inf | ARTICLE.Het | NP.Diminutive | PRONOUN.1sg | PRONOUN.2sg-informal | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Media-entertainment | TOPIC.Daily-life | TOPIC.Health | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#23 | ROI Score: 100 | ID: 287
+
+📝 DUTCH:
+Bas Wat denk je: kan ik Arabisch leren?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.2sg-informal | MODALITY.Epistemic-kan | DISCOURSE.Informal-register | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#24 | ROI Score: 100 | ID: 810
+
+📝 DUTCH:
+Deze kosten hoeft u dus niet zelf te betalen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 2nd person formal (U)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | PRONOUN.2sg-formal-u | NEGATION.niet | NEGATION.hoeven-neg | CONNECTOR.dus-consecutive | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#25 | ROI Score: 99 | ID: 205
+
+📝 DUTCH:
+Ik wil dus eigenlijk 'nee' zeggen, maar ik durf het niet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | PARTICLE.eigenlijk | NEGATION.niet | CONNECTOR.maar-adversative | CONNECTOR.dus-consecutive
+
+----------------------------------------------------------------------
+
+#26 | ROI Score: 99 | ID: 685
+
+📝 DUTCH:
+Toen kreeg ik meer plezier in hardlopen.' En sinds wanneer ga je naar de sportschool?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | ARTICLE.De | NP.Adjective-comparative | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#27 | ROI Score: 99 | ID: 852
+
+📝 DUTCH:
+Met dit bonnetje kunt u het statiegeld terugkrijgen of een deel van uw boodschappen betalen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | NP.Diminutive | NP.Demonstrative | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.of-alternative | DISCOURSE.Formal-register-u | TOPIC.Daily-life | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#28 | ROI Score: 99 | ID: 890
+
+📝 DUTCH:
+Je kunt bijvoorbeeld zeggen: "Mooie locatie is dit, hè!', 'Ben je hier eerder geweest?' of 'Heb je al een stuk taart gehad?' Later kun je serieuzere vragen stellen, zoals: 'Wat voor werk doe je?', 'Hoe heb je je baan gevonden?' en 'Waar heb je vroeger gewerkt?" Diana Aha, nuttige tips!
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Exclamative | TENSE.Perfectum | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PARTICLE.al | PARTICLE.hè-tag | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.of-alternative | DISCOURSE.Informal-register | TOPIC.Work-career | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#29 | ROI Score: 98 | ID: 237
+
+📝 DUTCH:
+Philip Je moet inderdaad zeggen dat je honden niet leuk vindt.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#30 | ROI Score: 98 | ID: 256
+
+📝 DUTCH:
+Helpt het als je al een andere taal hebt geleerd?
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Education
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.al | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#31 | ROI Score: 98 | ID: 793
+
+📝 DUTCH:
+Een extra verzekering Naast de basisverzekering kunt u nog extra verzekeringen kiezen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | PARTICLE.nog | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Health | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#32 | ROI Score: 97 | ID: 410
+
+📝 DUTCH:
+Moeder Nou, kun je dat zelf niet even doen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Negation: niet
+   • Informal register (daily conversation)
+   • Conversation opener
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.even | PARTICLE.nou | NEGATION.niet | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#33 | ROI Score: 97 | ID: 860
+
+📝 DUTCH:
+Nou, ga in ieder geval naar een uitzendbureau en schrijf je als werkzoekende in.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Gaan-future
+   • Topic: Work-career
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.nou | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#34 | ROI Score: 97 | ID: 891
+
+📝 DUTCH:
+Heb je nog een laatste advies voor mensen die graag willen beginnen met netwerken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PRONOUN.Relative-clause | PARTICLE.nog | DISCOURSE.Informal-register | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#35 | ROI Score: 96 | ID: 470
+
+📝 DUTCH:
+Sidra Ja, het is hier bloed heet, maar ik zal niet klagen.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Conversation opener
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | NEGATION.niet | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#36 | ROI Score: 95 | ID: 680
+
+📝 DUTCH:
+En ik zat op turnen.' Je was zeker geen meisje voor ballet?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Question form (conversation)
+   • Negation: geen
+   • Informal register (daily conversation)
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERB.Reflexive | NP.Diminutive | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.zeker | NEGATION.geen | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#37 | ROI Score: 95 | ID: 822
+
+📝 DUTCH:
+Als u over een nieuwe verzekering twijfelt, kunt u online verschillende verzekeringen vergelijken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Health | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#38 | ROI Score: 95 | ID: 1066
+
+📝 DUTCH:
+Niet zo zeuren dus en schiet op, want je komt te laat.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.te-excess | NEGATION.niet | SYNTAX.Inversion-V2 | CONNECTOR.want-causal | CONNECTOR.en-additive | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#39 | ROI Score: 93 | ID: 202
+
+📝 DUTCH:
+Op vrijdagavond wil ze met haar vriend uitgaan, maar ze heeft geen oppas.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | VERB.Separable-verb | NP.Noun-compound | PRONOUN.3sg-fem | PRONOUN.3pl | PARTICLE.maar | NEGATION.geen | CONNECTOR.maar-adversative | TOPIC.Daily-life | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#40 | ROI Score: 93 | ID: 588
+
+📝 DUTCH:
+Moeder Ja, natuurlijk, maak je maar geen zorgen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: geen
+   • Informal register (daily conversation)
+   • Conversation opener
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.natuurlijk | NEGATION.geen | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#41 | ROI Score: 93 | ID: 667
+
+📝 DUTCH:
+Kom, doe je bril maar even af.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Command/request (rare, high value)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Imperative | SENTENCE_TYPE.Imperative-softened | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.even | CONNECTOR.maar-adversative | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#42 | ROI Score: 93 | ID: 750
+
+📝 DUTCH:
+Of je gaat naar Den Haag, als je vriend nog meer schilderijen wil zien.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Gaan-future
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.gaan-inf | NP.Adjective-comparative | PRONOUN.2sg-informal | PARTICLE.nog | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Travel-leisure | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#43 | ROI Score: 93 | ID: 757
+
+📝 DUTCH:
+De Centrale bibliotheek in Den Haag Bent u weleens in dat mooie witte gebouw aan het Spui geweest, op nummer 68?
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Question form (conversation)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Topic: Travel-leisure
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#44 | ROI Score: 93 | ID: 774
+
+📝 DUTCH:
+In het Taalcafé kunt u samen met anderen Nederlands spreken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#45 | ROI Score: 93 | ID: 816
+
+📝 DUTCH:
+Of u kunt in de app van uw zorgverzekering kijken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Health
+
+----------------------------------------------------------------------
+
+#46 | ROI Score: 93 | ID: 907
+
+📝 DUTCH:
+Nou, fijn dat je als verkoper in onze boekwinkel wilt werken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.1pl | PARTICLE.nou | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | DISCOURSE.Evaluative-stance | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#47 | ROI Score: 92 | ID: 600
+
+📝 DUTCH:
+Andere stem Wil je iets drinken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PRONOUN.Indefinite | DISCOURSE.Informal-register | DISCOURSE.Indirect-request | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#48 | ROI Score: 92 | ID: 708
+
+📝 DUTCH:
+Sven Oh Mark, mag ik je iets vragen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.Indefinite | MODALITY.Deontic-permission | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#49 | ROI Score: 92 | ID: 764
+
+📝 DUTCH:
+U kunt uit Nederlandse en buitenlandse kranten kiezen, op papier of online.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.of-alternative | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#50 | ROI Score: 91 | ID: 322
+
+📝 DUTCH:
+Wilco Hé Pieter, wanneer heb jij die pizza in de oven gedaan?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Daily-life
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#51 | ROI Score: 91 | ID: 626
+
+📝 DUTCH:
+Nou, ik vind het wel mooi als het kort bij je oren is.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.nou | PARTICLE.wel | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | DISCOURSE.Epistemic-stance
+
+----------------------------------------------------------------------
+
+#52 | ROI Score: 91 | ID: 845
+
+📝 DUTCH:
+Ook lege drinkpakken, chipszakken en blikjes kunt u in de pmd-bak doen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#53 | ROI Score: 91 | ID: 1058
+
+📝 DUTCH:
+Ivan Nee joh, met die hitte moet je niet sporten.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#54 | ROI Score: 90 | ID: 688
+
+📝 DUTCH:
+De sportschool is echt fijn om alle spieren goed te trainen.' Wat betekent sporten voor jou?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Te-infinitive (purpose/goal)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | VERBCLUSTER.te-inf | NP.Noun-compound | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | DISCOURSE.Informal-register | DISCOURSE.Evaluative-stance | TOPIC.Health
+
+----------------------------------------------------------------------
+
+#55 | ROI Score: 90 | ID: 846
+
+📝 DUTCH:
+Oude meubels, matrassen en grote elektrische apparaten mag u niet zomaar buiten zetten.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 2nd person formal (U)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.mogen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | NEGATION.niet | MODALITY.Deontic-permission | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+
+#56 | ROI Score: 89 | ID: 330
+
+📝 DUTCH:
+Pieter Misschien moet je even op die grote knop drukken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.even | MODALITY.Deontic-obligation | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#57 | ROI Score: 89 | ID: 618
+
+📝 DUTCH:
+Hoe wil je het hebben?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#58 | ROI Score: 89 | ID: 645
+
+📝 DUTCH:
+Ivet Nou, maar ik moet wel een goede shampoo gebruiken, het is erg droog.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Modal verb (1)
+   • Conversation opener
+   • 1st person singular
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PARTICLE.maar | PARTICLE.nou | PARTICLE.wel | DEGREE.Intensifier | MODALITY.Deontic-obligation | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#59 | ROI Score: 88 | ID: 250
+
+📝 DUTCH:
+Omar Tja, je wilt natuurlijk 'ja' of 'nee' horen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.natuurlijk | CONNECTOR.of-alternative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#60 | ROI Score: 88 | ID: 581
+
+📝 DUTCH:
+Jeroen wil graag een maand door Azië reizen, maar dat lijkt me niets.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.willen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Indefinite | PARTICLE.maar | NEGATION.niets | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#61 | ROI Score: 88 | ID: 733
+
+📝 DUTCH:
+Sven Nee, ik ga liever wandelen, ik wil geen risico's nemen.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-gaan | MODAL.willen | VERBCLUSTER.modal-inf | VERBCLUSTER.gaan-inf | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.geen | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#62 | ROI Score: 88 | ID: 765
+
+📝 DUTCH:
+Via een app kunt u thuis rustig verder lezen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Media-entertainment | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#63 | ROI Score: 88 | ID: 1042
+
+📝 DUTCH:
+Barbara Ja, maar ik kan niet wachten tot het écht zomer is. 00:00 Ivan praat met zijn zoon Jarek.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#64 | ROI Score: 87 | ID: 279
+
+📝 DUTCH:
+En Nederlanders begrijpen je echt niet als je een klank verkeerd uitspreekt.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#65 | ROI Score: 87 | ID: 502
+
+📝 DUTCH:
+En ik zal een cadeautje uit Nederland voor je meenemen.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | VERB.Separable-verb | NP.Diminutive | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#66 | ROI Score: 86 | ID: 145
+
+📝 DUTCH:
+Petra Hm, nou, dat lijkt me wel leuk, maar dat gaat niet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Conversation opener
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | PARTICLE.maar | PARTICLE.nou | PARTICLE.wel | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#67 | ROI Score: 86 | ID: 392
+
+📝 DUTCH:
+Sinds wanneer droog jij je haar?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Daily-life
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#68 | ROI Score: 86 | ID: 736
+
+📝 DUTCH:
+En verder... ik denk dat je vriend het Van Gogh Museum of het Stedelijk Museum ook wel mooi vindt.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+   • Topic: Travel-leisure
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | NP.Demonstrative | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.wel | MODALITY.Epistemic-stance | SYNTAX.Subordinate-clause | CONNECTOR.of-alternative | DISCOURSE.Informal-register | DISCOURSE.Epistemic-stance | TOPIC.Travel-leisure | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#69 | ROI Score: 86 | ID: 768
+
+📝 DUTCH:
+U kunt ook films, muziek en games lenen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | CONNECTOR.en-additive | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#70 | ROI Score: 86 | ID: 1020
+
+📝 DUTCH:
+Barbara Ja, dit is echt geen weer om te fietsen.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Negation: geen
+   • Conversation opener
+   • Te-infinitive (purpose/goal)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | VERBCLUSTER.te-inf | CONNECTOR.om-te-purpose | NP.Demonstrative | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.geen | DISCOURSE.Backchannel-opener | TOPIC.Nature-environment | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#71 | ROI Score: 86 | ID: 1046
+
+📝 DUTCH:
+Jarek Pap, ik heb echt geen zin en de wedstrijd gaat vast niet door.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Negation: geen
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | NEGATION.geen | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+
+#72 | ROI Score: 85 | ID: 344
+
+📝 DUTCH:
+Heb jij je was in de wasmachine gedaan?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Daily-life
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERB.Reflexive | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register | TOPIC.Daily-life | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#73 | ROI Score: 85 | ID: 1153
+
+📝 DUTCH:
+Die ruik je niet en ze maken geen rommel.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Negation: geen
+   • Informal register (daily conversation)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | NEGATION.geen | CONNECTOR.en-additive | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#74 | ROI Score: 84 | ID: 170
+
+📝 DUTCH:
+Julie Goh, heb jij wel een beetje tijd voor jezelf, af en toe?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Reflexive | NP.Diminutive | PRONOUN.2sg-informal | DEGREE.Downtoner | CONNECTOR.en-additive | INFSTR.Contrastive-focus | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#75 | ROI Score: 84 | ID: 700
+
+📝 DUTCH:
+Mijn vriend en ik zijn ook Ajaxsupporters.' Sport je vriend ook zoveel?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.3sg-masc | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Health | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#76 | ROI Score: 84 | ID: 993
+
+📝 DUTCH:
+Als je op vakantie in Nederland gaat, moet je altijd rekening met slecht weer houden.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Nature-environment | TOPIC.Travel-leisure | TOPIC.Finance-admin
+
+----------------------------------------------------------------------
+
+#77 | ROI Score: 83 | ID: 422
+
+📝 DUTCH:
+Je hoeft ze niet in de kast te zetten.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.hoeven-neg | VERBCLUSTER.modal-inf | VERBCLUSTER.te-inf | ARTICLE.De | PRONOUN.3sg-fem | PRONOUN.3pl | NEGATION.niet | NEGATION.hoeven-neg
+
+----------------------------------------------------------------------
+
+#78 | ROI Score: 83 | ID: 894
+
+📝 DUTCH:
+In het begin vind je netwerken misschien lastig, maar het zal snel beter gaan.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Work-career
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-informal | PARTICLE.maar | MODALITY.Epistemic-adverbial | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#79 | ROI Score: 83 | ID: 942
+
+📝 DUTCH:
+Ik studeer nog, dus ik kan niet te veel werken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.nog | DEGREE.te-excess | NEGATION.niet | MODALITY.Epistemic-kan | CONNECTOR.dus-consecutive
+
+----------------------------------------------------------------------
+
+#80 | ROI Score: 83 | ID: 948
+
+📝 DUTCH:
+Wanneer hoor ik iets van u?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Formal U register (official contexts)
+   • 1st person singular
+   • 2nd person formal (U)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-formal-u | PRONOUN.Indefinite | SYNTAX.Subordinate-clause | DISCOURSE.Formal-register-u
+
+----------------------------------------------------------------------
+
+#81 | ROI Score: 82 | ID: 1054
+
+📝 DUTCH:
+Kom op Jarek, je gaat echt niet dood van wat regen.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Futurum-gaan | VERBCLUSTER.gaan-inf | PRONOUN.2sg-informal | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | INFSTR.Topicalization-fronting | DISCOURSE.Informal-register | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#82 | ROI Score: 81 | ID: 41
+
+📝 DUTCH:
+Abel Oké, maar kijk je dan ook nooit een film?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | NEGATION.nooit | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener | TOPIC.Media-entertainment
+
+----------------------------------------------------------------------
+
+#83 | ROI Score: 81 | ID: 693
+
+📝 DUTCH:
+Op kantoor zit ik de hele dag achter een computer en dat is echt niet goed voor mijn humeur.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Topic: Work-career
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.en-additive | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#84 | ROI Score: 80 | ID: 374
+
+📝 DUTCH:
+Morgen kan onze monteur bij u langskomen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Formal U register (official contexts)
+   • 2nd person formal (U)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.2sg-formal-u | PRONOUN.1pl | MODALITY.Epistemic-kan | DISCOURSE.Formal-register-u | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#85 | ROI Score: 80 | ID: 589
+
+📝 DUTCH:
+Mirjam Oei, ik bedenk ineens dat ik de kapper nog niet heb gebeld!
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Topic: Daily-life
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PARTICLE.nog | NEGATION.niet | SYNTAX.Subordinate-clause | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#86 | ROI Score: 80 | ID: 677
+
+📝 DUTCH:
+Was je als kind al zo sportief?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.al | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#87 | ROI Score: 79 | ID: 705
+
+📝 DUTCH:
+Hij heeft niet zoveel discipline als ik, maar hij is wel veel relaxter!'
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | PARTICLE.wel | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#88 | ROI Score: 79 | ID: 940
+
+📝 DUTCH:
+Goed, dan heb ik tot slot nog één vraag: hoeveel uur per week ben je beschikbaar?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.nog | CONNECTOR.Addition-adverbial | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#89 | ROI Score: 78 | ID: 231
+
+📝 DUTCH:
+Zeg gewoon 'nee' tegen je vriend, maar leg je reactie wel uit.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (3)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.gewoon | PARTICLE.wel | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#90 | ROI Score: 78 | ID: 577
+
+📝 DUTCH:
+Jeroen kent een fotograaf die mooie foto's kan maken, maar ik moet hem nog bellen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (2)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.3sg-masc | PRONOUN.Relative-clause | PARTICLE.maar | PARTICLE.nog | MODALITY.Deontic-obligation | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#91 | ROI Score: 77 | ID: 419
+
+📝 DUTCH:
+Moeder Wil jij die vuile borden op het aanrecht even afwassen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#92 | ROI Score: 77 | ID: 643
+
+📝 DUTCH:
+Kapper Met die mooie, dikke krullen van jou kan ik alles doen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.1sg | PRONOUN.2sg-informal | PRONOUN.Indefinite | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#93 | ROI Score: 76 | ID: 232
+
+📝 DUTCH:
+Vertel hem dat je niet van honden houdt.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.3sg-masc | NEGATION.niet | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#94 | ROI Score: 76 | ID: 288
+
+📝 DUTCH:
+Omar Hoe graag wil je dat?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#95 | ROI Score: 76 | ID: 881
+
+📝 DUTCH:
+Als je netwerkt, moet je voor nieuwe mensen open staan.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#96 | ROI Score: 76 | ID: 1132
+
+📝 DUTCH:
+Je geeft ze twee keer per dag eten en je bent klaar.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Daily-life
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Perfectum | VERB.Separable-verb | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | CONNECTOR.en-additive | DISCOURSE.Informal-register | TOPIC.Daily-life
+
+----------------------------------------------------------------------
+
+#97 | ROI Score: 75 | ID: 50
+
+📝 DUTCH:
+Rhana Hm, waarom vind je dat zo leuk?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#98 | ROI Score: 75 | ID: 271
+
+📝 DUTCH:
+Het gaat niet echt vanzelf, ik heb voor dat diploma hard gewerkt.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Topic: Education
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | NP.Demonstrative | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#99 | ROI Score: 75 | ID: 839
+
+📝 DUTCH:
+Lege batterijen, medicijnen en olie mogen niet in het milieu terechtkomen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | ARTICLE.Het | NEGATION.niet | MODALITY.Deontic-permission | CONNECTOR.en-additive | TOPIC.Nature-environment
+
+----------------------------------------------------------------------
+
+#100 | ROI Score: 75 | ID: 934
+
+📝 DUTCH:
+En waarom denk je dat deze baan bij je past?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Work-career
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#101 | ROI Score: 75 | ID: 1247
+
+📝 DUTCH:
+Rhana Hm, waarom vind je dat zo leuk?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#102 | ROI Score: 74 | ID: 22
+
+📝 DUTCH:
+Die moet je absoluut zien.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.absoluut | MODALITY.Deontic-obligation | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#103 | ROI Score: 74 | ID: 233
+
+📝 DUTCH:
+Dan vraagt hij je de volgende keer ook niet meer.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.De | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.3sg-masc | NEGATION.niet | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#104 | ROI Score: 74 | ID: 428
+
+📝 DUTCH:
+We hebben echt geen afwasmachine nodig, dat is ook niet zo goed voor het milieu.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Negation: niet
+   • Negation: geen
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | ARTICLE.Het | NP.Demonstrative | PRONOUN.Relative-clause | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | NEGATION.geen | SYNTAX.Subordinate-clause | TOPIC.Nature-environment | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#105 | ROI Score: 74 | ID: 605
+
+📝 DUTCH:
+Wanneer ben je hier voor het laatst geweest?
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | ARTICLE.Het | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#106 | ROI Score: 74 | ID: 952
+
+📝 DUTCH:
+Na het overleg zullen we je mailen.
+
+⭐ LEARNING VALUE:
+   • Future tense
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Futurum-zullen | MODAL.zullen | VERBCLUSTER.modal-inf | ARTICLE.Het | PRONOUN.2sg-informal | PRONOUN.1pl | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#107 | ROI Score: 74 | ID: 1219
+
+📝 DUTCH:
+Die moet je absoluut zien.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.2sg-informal | PARTICLE.absoluut | MODALITY.Deontic-obligation | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#108 | ROI Score: 73 | ID: 59
+
+📝 DUTCH:
+Maar wat doe jij dan als je vrij bent?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#109 | ROI Score: 73 | ID: 230
+
+📝 DUTCH:
+Hij is één van mijn beste vrienden en ik wil geen ruzie met hem.
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: geen
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Perfectum | MODAL.willen | NP.Adjective-superlative | PRONOUN.1sg | PRONOUN.3sg-masc | NEGATION.geen | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+
+#110 | ROI Score: 73 | ID: 263
+
+📝 DUTCH:
+En zo kan ik nog wel even doorgaan.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Particles (3)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.even | PARTICLE.wel | PARTICLE.nog | MODALITY.Epistemic-kan | SYNTAX.Inversion-V2
+
+----------------------------------------------------------------------
+
+#111 | ROI Score: 73 | ID: 596
+
+📝 DUTCH:
+Sinds wanneer heb je een baard?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#112 | ROI Score: 73 | ID: 920
+
+📝 DUTCH:
+Aha, dus je moest daar ook met klanten werken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | CONNECTOR.dus-consecutive | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#113 | ROI Score: 73 | ID: 965
+
+📝 DUTCH:
+Je hebt goede vaardigheden op de computer. ⚫ Je hebt minimaal één jaar werkervaring als receptionist in een hotel.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Work-career
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register | TOPIC.Work-career | TOPIC.Travel-leisure
+
+----------------------------------------------------------------------
+
+#114 | ROI Score: 73 | ID: 980
+
+📝 DUTCH:
+Voor meer informatie kun je contact opnemen met de afdeling personeelszaken via het formulier op onze website of via 020-8510 2407.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (1)
+   • Articles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | ARTICLE.De | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.1pl | CONNECTOR.of-alternative | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#115 | ROI Score: 73 | ID: 1256
+
+📝 DUTCH:
+Maar wat doe jij dan als je vrij bent?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | PRONOUN.2sg-informal | DEGREE.Moderate-intensifier | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#116 | ROI Score: 72 | ID: 284
+
+📝 DUTCH:
+Het Arabisch heeft bijvoorbeeld maar één lidwoord en niet drie, zoals het Nederlands.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Topic: Education
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PARTICLE.maar | NEGATION.niet | CONNECTOR.en-additive | CONNECTOR.maar-adversative | TOPIC.Education
+
+----------------------------------------------------------------------
+
+#117 | ROI Score: 72 | ID: 553
+
+📝 DUTCH:
+Is je trouwjurk bijvoorbeeld al klaar?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Separable-verb | PRONOUN.2sg-informal | PARTICLE.al | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#118 | ROI Score: 72 | ID: 728
+
+📝 DUTCH:
+Dat houd ik echt niet vol!
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | PRONOUN.1sg | PARTICLE.echt-intensifier | DEGREE.Intensifier | NEGATION.niet | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#119 | ROI Score: 72 | ID: 903
+
+📝 DUTCH:
+Zo, kon je het makkelijk vinden?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.Het | PRONOUN.2sg-informal | SYNTAX.Inversion-V2 | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#120 | ROI Score: 71 | ID: 132
+
+📝 DUTCH:
+Ik ben zelfstandig, maar ik kan ook goed samenwerken.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | VERB.Separable-verb | PRONOUN.1sg | PARTICLE.maar | MODALITY.Epistemic-kan | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#121 | ROI Score: 71 | ID: 239
+
+📝 DUTCH:
+Je moet niet liegen, dat is niet goed voor jullie vriendschap.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Demonstrative | PRONOUN.2pl | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#122 | ROI Score: 71 | ID: 285
+
+📝 DUTCH:
+Maar nu klink ik zo negatief en dat is niet mijn bedoeling.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | NEGATION.niet | SYNTAX.Subordinate-clause | SYNTAX.Inversion-V2 | CONNECTOR.en-additive | INFSTR.Topicalization-fronting
+
+----------------------------------------------------------------------
+
+#123 | ROI Score: 71 | ID: 500
+
+📝 DUTCH:
+Sidra Ah, maar je komt wel, hè?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Tag-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.maar | PARTICLE.hè-tag | CONNECTOR.maar-adversative | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#124 | ROI Score: 71 | ID: 554
+
+📝 DUTCH:
+Mirjam Ja, maar het pak voor Jeroen nog niet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Conversation opener
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PARTICLE.maar | PARTICLE.nog | NEGATION.niet | CONNECTOR.maar-adversative | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#125 | ROI Score: 71 | ID: 586
+
+📝 DUTCH:
+O ja, mama, waar moeten opa en oma na de bruiloft slapen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Modal verb (1)
+   • Modal + infinitive cluster
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | CONNECTOR.en-additive | TOPIC.Relationships-family
+
+----------------------------------------------------------------------
+
+#126 | ROI Score: 70 | ID: 390
+
+📝 DUTCH:
+Mag ik je föhn even lenen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#127 | ROI Score: 70 | ID: 488
+
+📝 DUTCH:
+Sidra Ah, heb jij nog iets leuks meegemaakt?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | PARTICLE.nog | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#128 | ROI Score: 70 | ID: 712
+
+📝 DUTCH:
+Kun je even met me meedenken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.even | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#129 | ROI Score: 70 | ID: 913
+
+📝 DUTCH:
+Mevrouw Driesen Murat Mevrouw Driesen Murat Oké, wat waren je taken toen?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Topic: Work-career
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | NP.Noun-compound | PRONOUN.2sg-informal | PRONOUN.Relative-clause | DISCOURSE.Informal-register | TOPIC.Work-career
+
+----------------------------------------------------------------------
+
+#130 | ROI Score: 70 | ID: 921
+
+📝 DUTCH:
+En kun je iets meer over jezelf vertellen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Complex sentence (8+ features)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERB.Reflexive | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.Indefinite | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#131 | ROI Score: 69 | ID: 723
+
+📝 DUTCH:
+En daarna weet ik het niet meer.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.niet | SYNTAX.Inversion-V2 | CONNECTOR.Temporal-sequence | INFSTR.Topicalization-fronting
+
+----------------------------------------------------------------------
+
+#132 | ROI Score: 69 | ID: 780
+
+📝 DUTCH:
+Veel studieplekken hebben een stopcontact, zodat u uw laptop of telefoon kunt opladen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 2nd person formal (U)
+   • Connectors (2)
+   • Complex sentence (8+ features)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | PRONOUN.2sg-formal-u | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.of-alternative | CONNECTOR.zodat-result
+
+----------------------------------------------------------------------
+
+#133 | ROI Score: 69 | ID: 918
+
+📝 DUTCH:
+Ik moest ze helpen, als ze iets niet konden vinden.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | MODAL.moeten | PRONOUN.3sg-fem | PRONOUN.3pl | PRONOUN.Indefinite | NEGATION.niet | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional
+
+----------------------------------------------------------------------
+
+#134 | ROI Score: 68 | ID: 1121
+
+📝 DUTCH:
+Mario Hm, ik weet het niet hoor.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Conversation opener
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | ARTICLE.Het | PRONOUN.1sg | PARTICLE.hoor | NEGATION.niet | MODALITY.Epistemic-stance | DISCOURSE.Backchannel-opener | DISCOURSE.Epistemic-stance
+
+----------------------------------------------------------------------
+
+#135 | ROI Score: 67 | ID: 219
+
+📝 DUTCH:
+Doen zij wel eens iets voor jou?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.Indefinite | PARTICLE.eens | INFSTR.Contrastive-focus | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#136 | ROI Score: 67 | ID: 412
+
+📝 DUTCH:
+Stefan Ja maar mam, ik heb haast en ik moet mijn tanden nog poetsen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1sg | PARTICLE.nog | MODALITY.Deontic-obligation | CONNECTOR.en-additive | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#137 | ROI Score: 67 | ID: 591
+
+📝 DUTCH:
+En heb je eigenlijk al een bruidsboeket uitgezocht?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.eigenlijk | PARTICLE.al | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#138 | ROI Score: 67 | ID: 671
+
+📝 DUTCH:
+Dat laat ik je straks wel zien.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Causative-laten | PRONOUN.1sg | PRONOUN.2sg-informal | PARTICLE.wel | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#139 | ROI Score: 67 | ID: 730
+
+📝 DUTCH:
+Mark Rustig maar, dat hoeft ook niet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.hoeven-neg | NP.Demonstrative | NEGATION.niet | NEGATION.hoeven-neg | SYNTAX.Subordinate-clause | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#140 | ROI Score: 67 | ID: 878
+
+📝 DUTCH:
+Hoe moet ik dat aanpakken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | PRONOUN.1sg | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#141 | ROI Score: 66 | ID: 235
+
+📝 DUTCH:
+Zeg bijvoorbeeld dat je naar je schoonouders moet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Complex sentence (8+ features)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | NP.Demonstrative | PRONOUN.2sg-informal | PRONOUN.Relative-clause | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#142 | ROI Score: 66 | ID: 530
+
+📝 DUTCH:
+Ik mis hem wel, maar ik ben niet heel verdrietig.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Particles (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.3sg-masc | PARTICLE.maar | PARTICLE.wel | DEGREE.Intensifier | NEGATION.niet | CONNECTOR.maar-adversative
+
+----------------------------------------------------------------------
+
+#143 | ROI Score: 66 | ID: 640
+
+📝 DUTCH:
+Wat wil je?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | MODAL.willen | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#144 | ROI Score: 65 | ID: 464
+
+📝 DUTCH:
+Rafael Ha Sidra, kun je me horen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Indirect-request
+
+----------------------------------------------------------------------
+
+#145 | ROI Score: 65 | ID: 544
+
+📝 DUTCH:
+Kun je me je telefoonnummer sturen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | NP.Noun-compound | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#146 | ROI Score: 65 | ID: 848
+
+📝 DUTCH:
+Wilt u dat de gemeente het grofvuil ophaalt?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • 2nd person formal (U)
+   • Articles (2)
+   • Moderate complexity
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | ARTICLE.Het | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#147 | ROI Score: 65 | ID: 868
+
+📝 DUTCH:
+Diana Ja, het woord 'netwerk' hoor je tegenwoordig vaak.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-informal | PARTICLE.hoor | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#148 | ROI Score: 64 | ID: 624
+
+📝 DUTCH:
+Weet je het zeker?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | PARTICLE.zeker | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#149 | ROI Score: 64 | ID: 635
+
+📝 DUTCH:
+Ik laat je straks ook zien hoe je het moet föhnen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.moeten | VERB.Causative-laten | ARTICLE.Het | PRONOUN.2sg-informal | MODALITY.Deontic-obligation | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#150 | ROI Score: 64 | ID: 884
+
+📝 DUTCH:
+Of naar mensen die je lang niet hebt gezien.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.2sg-informal | NEGATION.niet | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#151 | ROI Score: 64 | ID: 957
+
+📝 DUTCH:
+En ben jij bereid om hard te werken?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Te-infinitive (purpose/goal)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | VERBCLUSTER.te-inf | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#152 | ROI Score: 63 | ID: 163
+
+📝 DUTCH:
+Petra Ja, dat gaat dus niet.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Conversation opener
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | NP.Demonstrative | PRONOUN.Relative-clause | NEGATION.niet | SYNTAX.Subordinate-clause | CONNECTOR.dus-consecutive | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#153 | ROI Score: 63 | ID: 682
+
+📝 DUTCH:
+Ik deed judo en later een teamsport, volleybal.' Wat bedoel je met 'later'?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Wh-question (information seeking)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Imperfectum | PRONOUN.2sg-informal | CONNECTOR.en-additive | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#154 | ROI Score: 63 | ID: 829
+
+📝 DUTCH:
+Bewoners moeten hun vuilniszakken, vuilnisbakken of containers dan aan de straat zetten.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Modal verb (1)
+   • Modal + infinitive cluster
+   • Topic: Daily-life
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | MODAL.moeten | VERBCLUSTER.modal-inf | ARTICLE.De | PRONOUN.3pl | MODALITY.Deontic-obligation | CONNECTOR.of-alternative | TOPIC.Daily-life | TOPIC.Housing-living
+
+----------------------------------------------------------------------
+
+#155 | ROI Score: 63 | ID: 888
+
+📝 DUTCH:
+Ik denk altijd: hoe moet ik zo'n gesprek beginnen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Wh-question (information seeking)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Wh-question | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NP.Noun-compound | PRONOUN.1sg | MODALITY.Deontic-obligation
+
+----------------------------------------------------------------------
+
+#156 | ROI Score: 62 | ID: 43
+
+📝 DUTCH:
+Abel Maar je kijkt geen series?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Negation: geen
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.geen | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#157 | ROI Score: 62 | ID: 130
+
+📝 DUTCH:
+Daarnaast kan ik goed met apparaten werken en ik ben dus erg handig.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Connectors (2)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | DEGREE.Intensifier | MODALITY.Epistemic-kan | CONNECTOR.en-additive | CONNECTOR.dus-consecutive
+
+----------------------------------------------------------------------
+
+#158 | ROI Score: 62 | ID: 153
+
+📝 DUTCH:
+Petra Hans Petra Kun jij Joris vanmiddag naar het hockeyveld brengen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | NP.Noun-compound | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#159 | ROI Score: 62 | ID: 223
+
+📝 DUTCH:
+Ik heb niet uitgelegd dat ik niet van honden hou.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Moderate complexity
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | VERB.Separable-verb | NP.Demonstrative | PRONOUN.1sg | NEGATION.niet | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#160 | ROI Score: 62 | ID: 405
+
+📝 DUTCH:
+Heb je hem in de droger gedaan?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-masc | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#161 | ROI Score: 62 | ID: 513
+
+📝 DUTCH:
+Maar hij heeft een baard, jij niet toch?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Tag-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PARTICLE.toch | NEGATION.niet | INFSTR.Contrastive-focus | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#162 | ROI Score: 62 | ID: 718
+
+📝 DUTCH:
+Maar ik weet niet zo goed wat we moeten doen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • 1st person singular
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | PRONOUN.1sg | PRONOUN.1pl | PRONOUN.Relative-clause | NEGATION.niet | MODALITY.Deontic-obligation | MODALITY.Epistemic-stance | DISCOURSE.Epistemic-stance
+
+----------------------------------------------------------------------
+
+#163 | ROI Score: 62 | ID: 1119
+
+📝 DUTCH:
+Welke vind jij het leukst?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | NP.Adjective-superlative | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#164 | ROI Score: 62 | ID: 1240
+
+📝 DUTCH:
+Abel Maar je kijkt geen series?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Negation: geen
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.geen | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#165 | ROI Score: 61 | ID: 512
+
+📝 DUTCH:
+Hij heeft net zulke donkere ogen en bruine krullen als jij.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Connectors (2)
+   • Moderate complexity
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional | CONNECTOR.en-additive | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#166 | ROI Score: 60 | ID: 313
+
+📝 DUTCH:
+Ze mogen trouwens pas een bijbaantje hebben als ze achttien zijn.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • Modal + infinitive cluster
+   • Particles (1)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.mogen | VERBCLUSTER.modal-inf | NP.Diminutive | PRONOUN.3sg-masc | PRONOUN.3pl | PARTICLE.trouwens | MODALITY.Deontic-permission | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional
+
+----------------------------------------------------------------------
+
+#167 | ROI Score: 60 | ID: 511
+
+📝 DUTCH:
+Ik herkende hem meteen, want hij lijkt nog steeds heel veel op je.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | PRONOUN.2sg-informal | PRONOUN.3sg-masc | PARTICLE.nog | DEGREE.Intensifier | CONNECTOR.want-causal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#168 | ROI Score: 60 | ID: 1230
+
+📝 DUTCH:
+Wat kijk jij meestal?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#169 | ROI Score: 59 | ID: 212
+
+📝 DUTCH:
+Je moet niet zo egoïstisch doen.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.moeten | VERBCLUSTER.modal-inf | NEGATION.niet | MODALITY.Deontic-obligation
+
+----------------------------------------------------------------------
+
+#170 | ROI Score: 59 | ID: 251
+
+📝 DUTCH:
+Maar dat hangt van je moedertaal af.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Moderate complexity
+   • Subordinate clause
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | VERB.Separable-verb | NP.Demonstrative | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#171 | ROI Score: 59 | ID: 298
+
+📝 DUTCH:
+Wat viel je op in de lessen?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.De | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#172 | ROI Score: 59 | ID: 497
+
+📝 DUTCH:
+Wanneer kom jij op bezoek in Australië?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Subordinate clause
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#173 | ROI Score: 59 | ID: 599
+
+📝 DUTCH:
+Ik had geen zin meer om me te scheren.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Negation pattern
+   • Negation: geen
+   • 1st person singular
+   • Te-infinitive (purpose/goal)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | TENSE.Plusquamperfectum | VERBCLUSTER.te-inf | NP.Adjective-comparative | PRONOUN.1sg | NEGATION.geen
+
+----------------------------------------------------------------------
+
+#174 | ROI Score: 59 | ID: 919
+
+📝 DUTCH:
+Als het erg druk was, moest ik soms ook achter de kassa werken.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Modal verb (1)
+   • 1st person singular
+   • Articles (2)
+   • Complex sentence (8+ features)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Imperfectum | MODAL.moeten | ARTICLE.De | ARTICLE.Het | PRONOUN.1sg | DEGREE.Intensifier | MODALITY.Deontic-obligation | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#175 | ROI Score: 59 | ID: 962
+
+📝 DUTCH:
+Je controleert de kamers voordat je ze aan de gasten geeft.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+   • Complex sentence (8+ features)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | ARTICLE.De | PRONOUN.2sg-informal | PRONOUN.3sg-fem | PRONOUN.3pl | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#176 | ROI Score: 59 | ID: 1039
+
+📝 DUTCH:
+Want je kleren drogen niet zo snel.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.2sg-informal | NEGATION.niet | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#177 | ROI Score: 59 | ID: 1147
+
+📝 DUTCH:
+Die kan niet goed alleen zijn.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Modal verb (1)
+   • Negation: niet
+   • Modal + infinitive cluster
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.3sg-masc | NEGATION.niet | MODALITY.Epistemic-kan
+
+----------------------------------------------------------------------
+
+#178 | ROI Score: 58 | ID: 272
+
+📝 DUTCH:
+Bas Ja, daarom spreek je ook zo goed, denk ik.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#179 | ROI Score: 58 | ID: 487
+
+📝 DUTCH:
+Rafael Pff, je maakt me jaloers!
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Informal register (daily conversation)
+   • Conversation opener
+   • 1st person singular
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | PRONOUN.1sg | PRONOUN.2sg-informal | DISCOURSE.Informal-register | DISCOURSE.Backchannel-opener
+
+----------------------------------------------------------------------
+
+#180 | ROI Score: 58 | ID: 944
+
+📝 DUTCH:
+En doordeweeks kan ik ook in de avond, als dat nodig is.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Connectors (1)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | ARTICLE.De | NP.Demonstrative | PRONOUN.1sg | PRONOUN.Relative-clause | MODALITY.Epistemic-kan | SYNTAX.Subordinate-clause | CONNECTOR.als-conditional
+
+----------------------------------------------------------------------
+
+#181 | ROI Score: 57 | ID: 261
+
+📝 DUTCH:
+Hoe gemotiveerd ben je?
+
+⭐ LEARNING VALUE:
+   • Perfect tense (exam essential)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Perfectum | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#182 | ROI Score: 57 | ID: 304
+
+📝 DUTCH:
+Hun uniform viel natuurlijk ook op, omdat Nederlandse leerlingen geen uniform dragen.
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Negation pattern
+   • Negation: geen
+   • Particles (1)
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Imperfectum | PARTICLE.natuurlijk | NEGATION.geen | SYNTAX.Subordinate-clause | CONNECTOR.omdat-causal
+
+----------------------------------------------------------------------
+
+#183 | ROI Score: 57 | ID: 516
+
+📝 DUTCH:
+Hoe gaat het nu met je?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#184 | ROI Score: 57 | ID: 563
+
+📝 DUTCH:
+Ben je niemand vergeten?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Moderate complexity
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PRONOUN.Indefinite | NEGATION.niemand | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#185 | ROI Score: 57 | ID: 607
+
+📝 DUTCH:
+Kapper Heb je het druk?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Articles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | ARTICLE.Het | PRONOUN.2sg-informal | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#186 | ROI Score: 57 | ID: 760
+
+📝 DUTCH:
+Maar wist u dat de Centrale Bibliotheek boeken in verschillende talen heeft?
+
+⭐ LEARNING VALUE:
+   • Past tense (storytelling)
+   • Question form (conversation)
+   • 2nd person formal (U)
+   • Articles (1)
+   • Subordinate clause
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Imperfectum | ARTICLE.De | PRONOUN.2sg-formal-u | SYNTAX.Subordinate-clause
+
+----------------------------------------------------------------------
+
+#187 | ROI Score: 57 | ID: 859
+
+📝 DUTCH:
+Wat adviseer je hen dan?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Moderate complexity
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | NP.Adjective-comparative | PRONOUN.2sg-informal | PRONOUN.3pl | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#188 | ROI Score: 57 | ID: 865
+
+📝 DUTCH:
+Heb je nog andere tips?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#189 | ROI Score: 57 | ID: 946
+
+📝 DUTCH:
+Heb je zelf nog vragen?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | PARTICLE.nog | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#190 | ROI Score: 56 | ID: 8
+
+📝 DUTCH:
+Vind je dat oké?
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Question form (conversation)
+   • Informal register (daily conversation)
+   • 2nd person informal (je)
+   • Subordinate clause
+
+🏷️  TAGS:
+SENTENCE_TYPE.Yes-no-question | TENSE.Presens | PRONOUN.2sg-informal | SYNTAX.Subordinate-clause | DISCOURSE.Informal-register
+
+----------------------------------------------------------------------
+
+#191 | ROI Score: 56 | ID: 110
+
+📝 DUTCH:
+Mensen praten makkelijk over hun gevoel met mij en ik kan goed luisteren.
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Modal verb (1)
+   • 1st person singular
+   • Modal + infinitive cluster
+   • Connectors (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Affirmative-declarative | TENSE.Presens | MODAL.kunnen | VERBCLUSTER.modal-inf | PRONOUN.1sg | PRONOUN.3pl | MODALITY.Epistemic-kan | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+
+#192 | ROI Score: 56 | ID: 719
+
+📝 DUTCH:
+Hij houdt namelijk van kunst en ik totaal niet...
+
+⭐ LEARNING VALUE:
+   • Present tense (most frequent)
+   • Negation pattern
+   • Negation: niet
+   • 1st person singular
+   • Particles (1)
+
+🏷️  TAGS:
+SENTENCE_TYPE.Negative-declarative | TENSE.Presens | PRONOUN.1sg | PARTICLE.namelijk | NEGATION.niet | CONNECTOR.en-additive
+
+----------------------------------------------------------------------
+

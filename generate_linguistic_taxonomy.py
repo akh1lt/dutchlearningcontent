@@ -1,0 +1,494 @@
+#!/usr/bin/env python3
+"""
+Generate a proper linguistic taxonomy HTML for Dutch A1-A2 sentence classification.
+Based on the external LLM suggestions, focusing on LANGUAGE CONCEPTS not pedagogy.
+"""
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch A1-A2 Linguistic Taxonomy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .category {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .category-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 20px;
+            margin: -20px -20px 15px -20px;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        .subcategory {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+        .subcategory-name {
+            font-weight: bold;
+            color: #2980b9;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        .items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 8px;
+            margin: 10px 0;
+        }
+        .item {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.95em;
+            border-left: 3px solid #95a5a6;
+        }
+        .level-1 { margin-left: 0; }
+        .level-2 { margin-left: 20px; border-left-color: #3498db; }
+        .level-3 { margin-left: 40px; border-left-color: #9b59b6; }
+        code {
+            background: #e8f4f8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #2c3e50;
+        }
+        .intro {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dutch A1-A2 Linguistic Taxonomy for Sentence Classification</h1>
+
+    <div class="intro">
+        <strong>Purpose:</strong> Classify 1,265 Dutch sentences by linguistic features to enable clustering by structural similarity and pattern extraction.
+        <br><br>
+        <strong>Focus:</strong> Language structure, morphology, syntax, and semantic function - NOT pedagogical strategy.
+    </div>
+
+    <!-- CATEGORY 1: SENTENCE TYPE -->
+    <div class="category">
+        <div class="category-title">1. SENTENCE TYPE</div>
+        <div class="items">
+            <div class="item">Declarative</div>
+            <div class="item">Interrogative (Yes/No)</div>
+            <div class="item">Interrogative (Wh-question)</div>
+            <div class="item">Imperative</div>
+            <div class="item">Exclamative</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 2: CLAUSE STRUCTURE -->
+    <div class="category">
+        <div class="category-title">2. CLAUSE STRUCTURE</div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Main Clause (Independent)</div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Coordinate Clause</div>
+            <div class="items">
+                <div class="item">en (additive)</div>
+                <div class="item">maar (adversative)</div>
+                <div class="item">of (alternative)</div>
+                <div class="item">want (causal)</div>
+                <div class="item">dus (consecutive)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Subordinate Clause</div>
+            <div class="items">
+                <div class="item">Complement Clause (dat)</div>
+                <div class="item">Causal Clause (omdat, doordat)</div>
+                <div class="item">Conditional Clause (als, wanneer)</div>
+                <div class="item">Temporal Clause (toen, nadat, voordat, totdat, terwijl)</div>
+                <div class="item">Concessive Clause (hoewel, al)</div>
+                <div class="item">Purpose Clause (zodat, om te)</div>
+                <div class="item">Relative Clause (die, dat, waar)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Infinitive Clause</div>
+            <div class="items">
+                <div class="item">om te + infinitive</div>
+                <div class="item">te + infinitive</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 3: WORD ORDER -->
+    <div class="category">
+        <div class="category-title">3. WORD ORDER / SYNTAX</div>
+        <div class="items">
+            <div class="item">V2 Structure (verb-second)</div>
+            <div class="item">V1 Structure (verb-first, questions/imperatives)</div>
+            <div class="item">SOV Structure (subordinate clause verb-final)</div>
+            <div class="item">Subject-Verb Inversion</div>
+            <div class="item">Topicalization (fronting)</div>
+            <div class="item">Verb Cluster Formation</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 4: VERB SYSTEM -->
+    <div class="category">
+        <div class="category-title">4. VERB SYSTEM</div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Verb Forms</div>
+            <div class="items">
+                <div class="item">Finite Verb</div>
+                <div class="item">Infinitive</div>
+                <div class="item">Past Participle</div>
+                <div class="item">Imperative Form</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Tense</div>
+            <div class="items">
+                <div class="item">Present (OTT)</div>
+                <div class="item">Simple Past (OVTT)</div>
+                <div class="item">Perfect (VTT) - hebben/zijn + participle</div>
+                <div class="item">Future (gaan + infinitive)</div>
+                <div class="item">Future (zullen + infinitive)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Aspect</div>
+            <div class="items">
+                <div class="item">Progressive (aan het + infinitive)</div>
+                <div class="item">Completed Action</div>
+                <div class="item">Habitual</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Verb Types</div>
+            <div class="items">
+                <div class="item">Main Verb</div>
+                <div class="item">Auxiliary Verb (hebben, zijn, worden)</div>
+                <div class="item">Modal Verb (kunnen, mogen, moeten, willen, zullen)</div>
+                <div class="item">Copular Verb (zijn, worden)</div>
+                <div class="item">Separable Verb (scheidbaar werkwoord)</div>
+                <div class="item">Inseparable Verb</div>
+                <div class="item">Reflexive Verb</div>
+                <div class="item">Weak Verb</div>
+                <div class="item">Strong Verb</div>
+                <div class="item">Irregular Verb</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Verb Clusters</div>
+            <div class="items">
+                <div class="item">Modal + Infinitive</div>
+                <div class="item">Auxiliary + Participle</div>
+                <div class="item">Auxiliary + Infinitive</div>
+                <div class="item">Double Infinitive</div>
+                <div class="item">te-Infinitive</div>
+                <div class="item">om-te-Infinitive</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 5: MODALITY -->
+    <div class="category">
+        <div class="category-title">5. MODALITY</div>
+        <div class="items">
+            <div class="item">Ability (kunnen)</div>
+            <div class="item">Permission (mogen)</div>
+            <div class="item">Obligation (moeten)</div>
+            <div class="item">Necessity</div>
+            <div class="item">Desire (willen)</div>
+            <div class="item">Intention (zullen, gaan)</div>
+            <div class="item">Possibility</div>
+            <div class="item">Epistemic (certainty/uncertainty)</div>
+            <div class="item">Deontic (rules/obligations)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 6: NEGATION -->
+    <div class="category">
+        <div class="category-title">6. NEGATION</div>
+        <div class="items">
+            <div class="item">Sentence Negation (niet)</div>
+            <div class="item">Noun Negation (geen)</div>
+            <div class="item">Negative Polarity (nooit, niemand, niets, nergens)</div>
+            <div class="item">Partial Negation</div>
+            <div class="item">hoeven + niet/geen</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 7: NOUN PHRASE STRUCTURE -->
+    <div class="category">
+        <div class="category-title">7. NOUN PHRASE STRUCTURE</div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Determiners</div>
+            <div class="items">
+                <div class="item">Definite Article (de/het)</div>
+                <div class="item">Indefinite Article (een)</div>
+                <div class="item">Zero Article</div>
+                <div class="item">Demonstrative (deze/die/dit/dat)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Noun Features</div>
+            <div class="items">
+                <div class="item">Common Gender (de-woord)</div>
+                <div class="item">Neuter Gender (het-woord)</div>
+                <div class="item">Singular</div>
+                <div class="item">Plural (-en)</div>
+                <div class="item">Plural (-s)</div>
+                <div class="item">Diminutive (-tje/-je/-pje/-kje)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Adjective Modification</div>
+            <div class="items">
+                <div class="item">Attributive Adjective (+e inflection)</div>
+                <div class="item">Predicative Adjective (base form)</div>
+                <div class="item">Comparative (-er)</div>
+                <div class="item">Superlative (-st)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Noun Compounding</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 8: PRONOUNS -->
+    <div class="category">
+        <div class="category-title">8. PRONOUNS</div>
+        <div class="items">
+            <div class="item">Personal Pronoun - Subject Form</div>
+            <div class="item">Personal Pronoun - Object Form</div>
+            <div class="item">Personal Pronoun - Reduced Form</div>
+            <div class="item">Possessive Pronoun (mijn, jouw, zijn, haar, ons/onze, jullie, hun)</div>
+            <div class="item">Reflexive Pronoun (me, je, zich, ons)</div>
+            <div class="item">Demonstrative Pronoun (dit, dat, deze, die)</div>
+            <div class="item">Relative Pronoun (die, dat, wat, waar)</div>
+            <div class="item">Interrogative Pronoun (wie, wat, welk/welke)</div>
+            <div class="item">Indefinite Pronoun (iemand, niemand, iets, niets, men, alles)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 9: ADVERBS -->
+    <div class="category">
+        <div class="category-title">9. ADVERBS</div>
+        <div class="items">
+            <div class="item">Time Adverb (nu, gisteren, morgen, straks, vandaag)</div>
+            <div class="item">Place Adverb (hier, daar, overal, nergens)</div>
+            <div class="item">Manner Adverb</div>
+            <div class="item">Frequency Adverb (altijd, nooit, vaak, soms)</div>
+            <div class="item">Degree Adverb (heel, erg, echt, zeer, te)</div>
+            <div class="item">Sentence Adverb (misschien, waarschijnlijk, gelukkig)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 10: PREPOSITIONS -->
+    <div class="category">
+        <div class="category-title">10. PREPOSITIONS</div>
+        <div class="items">
+            <div class="item">Simple Preposition (in, op, aan, van, voor, met, bij, naar, uit, door)</div>
+            <div class="item">Fixed Prepositional Phrase</div>
+            <div class="item">Circumposition (naar...toe)</div>
+            <div class="item">Postposition (de berg op)</div>
+            <div class="item">Pronominal Adverb (er + preposition: erop, eraan, ervoor, etc.)</div>
+            <div class="item">Interrogative Pronominal Adverb (waar + prep: waarop, waaraan, etc.)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 11: PARTICLES -->
+    <div class="category">
+        <div class="category-title">11. PARTICLES (Modal & Discourse)</div>
+        <div class="items">
+            <div class="item">Modal Particle: maar (softening)</div>
+            <div class="item">Modal Particle: toch (counter-expectation)</div>
+            <div class="item">Modal Particle: wel (affirmation/contrast)</div>
+            <div class="item">Modal Particle: even (politeness/casual)</div>
+            <div class="item">Modal Particle: eens (softening invitation)</div>
+            <div class="item">Modal Particle: hoor (reassurance)</div>
+            <div class="item">Modal Particle: gewoon (normalizing)</div>
+            <div class="item">Modal Particle: eigenlijk (hedging)</div>
+            <div class="item">Modal Particle: al (surprising amount/earliness)</div>
+            <div class="item">Modal Particle: nog (continuity)</div>
+            <div class="item">Focus Particle: ook (also)</div>
+            <div class="item">Focus Particle: alleen (only)</div>
+            <div class="item">Focus Particle: juist (precisely)</div>
+            <div class="item">Discourse Particle: nou (well)</div>
+            <div class="item">Discourse Particle: zeg (attention)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 12: CONNECTORS -->
+    <div class="category">
+        <div class="category-title">12. CONNECTORS / CONJUNCTIONS</div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Coordinating Conjunctions</div>
+            <div class="items">
+                <div class="item">en (addition)</div>
+                <div class="item">maar (contrast)</div>
+                <div class="item">of (alternative)</div>
+                <div class="item">want (cause)</div>
+                <div class="item">dus (result)</div>
+                <div class="item">noch...noch</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Subordinating Conjunctions</div>
+            <div class="items">
+                <div class="item">omdat (cause)</div>
+                <div class="item">doordat (cause, factual)</div>
+                <div class="item">dat (content)</div>
+                <div class="item">als (conditional/temporal)</div>
+                <div class="item">wanneer (temporal/conditional)</div>
+                <div class="item">of (indirect question)</div>
+                <div class="item">terwijl (simultaneous/contrast)</div>
+                <div class="item">nadat (after)</div>
+                <div class="item">voordat (before)</div>
+                <div class="item">totdat (until)</div>
+                <div class="item">zodat (result)</div>
+                <div class="item">hoewel (concessive)</div>
+                <div class="item">al (concessive)</div>
+                <div class="item">tenzij (exception)</div>
+            </div>
+        </div>
+
+        <div class="subcategory level-1">
+            <div class="subcategory-name">Adverbial Connectors</div>
+            <div class="items">
+                <div class="item">dan (then/comparison)</div>
+                <div class="item">echter (however)</div>
+                <div class="item">bovendien (moreover)</div>
+                <div class="item">daarna (after that)</div>
+                <div class="item">daarvoor (before that)</div>
+                <div class="item">daarom (therefore)</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 13: ER CONSTRUCTIONS -->
+    <div class="category">
+        <div class="category-title">13. ER CONSTRUCTIONS</div>
+        <div class="items">
+            <div class="item">Existential ER (er is/zijn/komt/staat/ligt)</div>
+            <div class="item">Locative ER (location pro-form)</div>
+            <div class="item">Quantitative ER (er + number)</div>
+            <div class="item">Prepositional ER (er + preposition split)</div>
+            <div class="item">Expletive ER (placeholder subject)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 14: SPECIAL CONSTRUCTIONS -->
+    <div class="category">
+        <div class="category-title">14. SPECIAL CONSTRUCTIONS</div>
+        <div class="items">
+            <div class="item">Comparative Structure (dan, als)</div>
+            <div class="item">Superlative Structure</div>
+            <div class="item">te + Adjective Construction (te groot, te duur)</div>
+            <div class="item">Passive Construction (worden + participle)</div>
+            <div class="item">Impersonal Passive</div>
+            <div class="item">Fixed Expression/Chunk</div>
+            <div class="item">Idiomatic Expression</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 15: AGREEMENT -->
+    <div class="category">
+        <div class="category-title">15. AGREEMENT</div>
+        <div class="items">
+            <div class="item">Subject-Verb Agreement</div>
+            <div class="item">Adjective-Noun Agreement (-e inflection)</div>
+            <div class="item">Number Agreement</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 16: INFORMATION STRUCTURE -->
+    <div class="category">
+        <div class="category-title">16. INFORMATION STRUCTURE</div>
+        <div class="items">
+            <div class="item">Topic-Fronting</div>
+            <div class="item">Focus Position</div>
+            <div class="item">Contrastive Focus</div>
+            <div class="item">Left Dislocation</div>
+            <div class="item">Right Dislocation</div>
+            <div class="item">Definiteness (first vs. second mention)</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 17: REGISTER -->
+    <div class="category">
+        <div class="category-title">17. REGISTER / FORMALITY</div>
+        <div class="items">
+            <div class="item">Informal Register (jij/je)</div>
+            <div class="item">Formal Register (u)</div>
+            <div class="item">Spoken Reduction Features</div>
+            <div class="item">Written vs. Spoken Syntax</div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 18: QUANTIFICATION -->
+    <div class="category">
+        <div class="category-title">18. QUANTIFICATION</div>
+        <div class="items">
+            <div class="item">Quantity Expression (veel, weinig, enkele, alle)</div>
+            <div class="item">Degree Expression</div>
+            <div class="item">Indefinite Quantity</div>
+            <div class="item">Totality Expression (allemaal, alles)</div>
+            <div class="item">Numerical Quantifier</div>
+        </div>
+    </div>
+
+    <div class="intro" style="background: #d4edda; border-left-color: #28a745; margin-top: 40px;">
+        <strong>TAGGING APPROACH:</strong><br>
+        Tag each sentence with ALL applicable categories from the taxonomy above. Multiple tags per sentence are expected and encouraged for clustering analysis.
+        <br><br>
+        <strong>GOAL:</strong> After tagging, cluster sentences by shared linguistic features to extract ~100 high-frequency structural patterns for memorization.
+    </div>
+
+</body>
+</html>
+"""
+
+with open('/Users/athatipamula/personal/dutch/finalprep/linguistic_taxonomy.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+
+print("✅ Linguistic taxonomy HTML generated: linguistic_taxonomy.html")
+print("   18 main linguistic categories")
+print("   Focus: Language structure and morphosyntactic features")

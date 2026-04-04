@@ -1,0 +1,656 @@
+This hierarchical taxonomy is designed for a tagging system to categorize Dutch sentences at the A1–A2 level. It prioritizes syntactic function and morphological categories while accounting for the specific idiomatic nuances (like modal particles) common in beginner-to-intermediate Dutch.
+
+## Dutch Grammar Taxonomy (A1–A2)
+
+1. **Syntax & Clause Structure**
+   ├── **Sentence Type**
+   │   ├── Declarative
+   │   ├── Interrogative (Yes/No)
+   │   ├── Interrogative (Wh-question)
+   │   ├── Imperative
+   │   └── Exclamatory
+   ├── **Word Order (Linearity)**
+   │   ├── SVO (Standard)
+   │   ├── V1 (Inversion)
+   │   ├── V2 (Main Clause)
+   │   └── SOV (Subordinate Clause)
+   ├── **Clause Connectivity**
+   │   ├── Main Clause (Independent)
+   │   ├── Coordinate Clause (En/Maar/Of/Want)
+   │   └── Subordinate Clause (Omdat/Dat/Als/Toen)
+   └── **Information Structure**
+       ├── Topic-Fronting
+       └── Dummy-Subject (Er-Presentative)
+
+2. **Verb System (Verbum)**
+   ├── **Inflectional State**
+   │   ├── Finite Verb
+   │   ├── Infinitive
+   │   └── Past Participle
+   ├── **Tense & Aspect**
+   │   ├── Presens (OTT)
+   │   ├── Perfectum (VTT)
+   │   ├── Imperfectum (OVTT)
+   │   └── Future (Zullen / Gaan)
+   ├── **Verb Clusters**
+   │   ├── Auxiliary + Infinitive
+   │   ├── Auxiliary + Participle
+   │   ├── Modal + Infinitive
+   │   └── Te-Infinitive / Om-Te-Infinitive
+   └── **Morpho-Syntactic Class**
+       ├── Weak Verbs
+       ├── Strong Verbs
+       ├── Irregular Verbs
+       ├── Separable Verbs (Scheidbare werkwoorden)
+       └── Reflexive Verbs
+
+3. **Noun Phrase (NP)**
+   ├── **Determinative**
+   │   ├── Definite Article (De/Het)
+   │   ├── Indefinite Article (Een)
+   │   └── Demonstrative (Deze/Die/Dit/Dat)
+   ├── **Adjectival Modification**
+   │   ├── Attributive (+e inflection)
+   │   ├── Predicative (Base form)
+   │   └── Comparative / Superlative
+   └── **Noun Properties**
+       ├── Common Gender (De-woord)
+       ├── Neuter Gender (Het-woord)
+       ├── Singular
+       ├── Plural (-en / -s)
+       └── Diminutive (-tje)
+
+4. **Pronoun System (Pronomina)**
+   ├── **Personal**
+   │   ├── Subject (Full/Reduced)
+   │   └── Object (Full/Reduced)
+   ├── **Possessive**
+   │   ├── Pre-nominal (Mijn/Jouw)
+   │   └── Independent
+   ├── **Reflexive** (Me/Je/Zich)
+   ├── **Relative** (Die/Dat/Wat)
+   └── **Pronominal Adverbs**
+       ├── Locative Er (Er + Preposition)
+       └── Quantitative Er
+
+5. **Particles & Modality**
+   ├── **Modal Particles** (Focus: A1-A2)
+   │   ├── Toch
+   │   ├── Maar
+   │   ├── Hoor
+   │   ├── Even
+   │   └── Wel
+   ├── **Negation**
+   │   ├── Sentential (Niet)
+   │   └── Nominal (Geen)
+   └── **Adverbial Modifiers**
+       ├── Temporal (Nu/Straks/Gisteren)
+       ├── Modal (Misschien/Zeker)
+       └── Degree (Heel/Erg/Te)
+
+6. **Prepositional & Locative Logic**
+   ├── **Simple Prepositions**
+   ├── **Circumpositions** (E.g., Naar ... toe)
+   └── **Postpositions** (E.g., De berg op)
+
+7. **Discourse & Logic**
+   ├── **Connectors (Cohesive Devices)**
+   │   ├── Additive
+   │   ├── Adversative
+   │   ├── Causal
+   │   └── Conditional
+   └── **Interjections**
+       ├── Phatic (Hé, Ja, Oké)
+       └── Hesitation Markers
+
+
+
+
+
+
+Category: Sentence Type
+├── Declarative
+├── Interrogative
+│     ├── Yes/No Question
+│     ├── Wh-Question
+├── Imperative
+├── Exclamative
+
+---
+
+Category: Clause Structure
+├── Main Clause
+├── Subordinate Clause
+│     ├── Complement Clause
+│     ├── Adverbial Clause
+│     │     ├── Causal Clause
+│     │     ├── Conditional Clause
+│     │     ├── Temporal Clause
+│     │     ├── Concessive Clause
+│     │     ├── Purpose Clause
+│     ├── Relative Clause
+├── Coordinate Clause
+├── Infinitive Clause
+
+---
+
+Category: Word Order / Syntax
+├── V2 Structure
+├── Subject–Verb–Object Order
+├── Inversion Structure
+├── Verb-Final Structure
+├── Verb Cluster Formation
+├── Topicalization
+├── Extraposition
+├── Dislocation
+├── Ellipsis
+
+---
+
+Category: Verb System
+├── Verb Types
+│     ├── Main Verb
+│     ├── Auxiliary Verb
+│     ├── Modal Verb
+│     ├── Copular Verb
+├── Verb Forms
+│     ├── Infinitive
+│     ├── Finite Verb
+│     ├── Past Participle
+│     ├── Imperative Form
+├── Tense
+│     ├── Present
+│     ├── Past
+│     ├── Perfect
+│     ├── Future (gaan-construction)
+├── Aspect
+│     ├── Progressive (aan het + infinitive)
+│     ├── Completed Action
+│     ├── Habitual
+├── Verb Constructions
+│     ├── Separable Verb
+│     ├── Inseparable Verb
+│     ├── Reflexive Verb
+│     ├── Verb + Preposition
+│     ├── Verb Cluster
+│     ├── gaan + infinitive
+│     ├── komen + infinitive
+│     ├── blijven + infinitive
+
+---
+
+Category: Modality
+├── Ability
+├── Obligation
+├── Permission
+├── Intention
+├── Desire
+├── Possibility
+├── Necessity
+
+---
+
+Category: Negation
+├── Sentence Negation (niet)
+├── Noun Negation (geen)
+├── Negative Polarity
+│     ├── nooit
+│     ├── niemand
+│     ├── niets
+├── Partial Negation
+├── Double Negation Structures
+
+---
+
+Category: Noun Phrase Structure
+├── Determiners
+│     ├── Definite Article
+│     ├── Indefinite Article
+│     ├── Zero Article
+├── Noun Features
+│     ├── Singular
+│     ├── Plural
+│     ├── Diminutive
+├── Adjective Modification
+│     ├── Attributive Adjective
+│     ├── Adjective Inflection (-e)
+├── Noun Compounding
+
+---
+
+Category: Pronouns
+├── Personal Pronouns
+│     ├── Subject Form
+│     ├── Object Form
+├── Reflexive Pronouns
+├── Demonstrative Pronouns
+├── Relative Pronouns
+├── Interrogative Pronouns
+├── Indefinite Pronouns
+├── Possessive Pronouns
+
+---
+
+Category: Adjectives
+├── Predicative Use
+├── Attributive Use
+├── Comparative Form
+├── Superlative Form
+├── Degree Modification
+
+---
+
+Category: Adverbs
+├── Time Adverbs
+├── Place Adverbs
+├── Manner Adverbs
+├── Frequency Adverbs
+├── Degree Adverbs
+├── Sentence Adverbs
+├── Adverb Position
+│     ├── Initial Position
+│     ├── Mid Position
+│     ├── Final Position
+
+---
+
+Category: Prepositions
+├── Simple Prepositions
+├── Fixed Prepositions
+├── Prepositional Phrases
+├── Pronominal Adverbs (er + preposition)
+
+---
+
+Category: Particles (Discourse / Modal)
+├── Emphasis Particles
+├── Contrast Particles
+├── Expectation Particles
+├── Softening Particles
+├── Politeness Particles
+├── Temporal Particles
+├── Degree Particles
+
+---
+
+Category: Connectors / Logical Relations
+├── Coordination
+│     ├── Addition
+│     ├── Contrast
+│     ├── Choice
+│     ├── Cause
+│     ├── Result
+├── Subordination
+│     ├── Cause
+│     ├── Condition
+│     ├── Time
+│     ├── Purpose
+│     ├── Concession
+
+---
+
+Category: Special Constructions
+├── Existential Construction (er is / er zijn)
+├── Dummy Subject (er)
+├── te + Adjective Construction
+├── om te + Infinitive Construction
+├── aan het + Infinitive Construction
+├── Comparative Structures
+├── Passive-like Constructions (basic)
+
+---
+
+Category: Information Structure
+├── Topic
+├── Focus
+├── Contrastive Focus
+├── Background Information
+├── Emphasis
+
+---
+
+Category: Sentence Function (Pragmatics)
+├── Informative
+├── Interrogative Function
+├── Directive
+├── Suggestive
+├── Evaluative
+├── Persuasive
+
+---
+
+Category: Register / Tone
+├── Formal
+├── Informal
+├── Neutral
+├── Emotional
+├── Polite
+├── Direct
+├── Mitigated
+
+---
+
+Category: Agreement
+├── Subject–Verb Agreement
+├── Adjective Agreement
+├── Number Agreement
+
+---
+
+Category: Quantification
+├── Quantity Expressions
+├── Degree Expressions
+├── Indefinite Quantity
+├── Totality Expressions
+
+---
+
+Category: Coordination & Listing
+├── Enumeration
+├── Parallel Structure
+├── Elliptical Coordination
+
+---
+
+Category: Positioning Rules
+├── Verb Position
+├── Negation Placement
+├── Adverb Placement
+├── Object Placement
+├── Particle Placement
+
+
+
+SYNTAX
+├── Word order — main clause
+│     ├── SVO baseline
+│     ├── V2 rule
+│     ├── Subject–verb inversion
+│     ├── Finite verb in second position
+│     ├── Sentence-final infinitive/participle
+│     └── Verb cluster order
+├── Word order — subordinate clause
+│     ├── Verb-final order
+│     ├── Conjunction–subject–verb–verb sequence
+│     └── Embedded verb cluster
+└── Fronting & topicalization
+      ├── Adverbial fronting
+      ├── Object fronting
+      └── Temporal/locative fronting
+
+VERB SYSTEM
+├── Verb forms
+│     ├── Infinitive
+│     ├── Present stem
+│     ├── Present tense — singular
+│     ├── Present tense — plural
+│     ├── Simple past — weak
+│     ├── Simple past — strong
+│     ├── Past participle — ge- prefix
+│     ├── Past participle — irregular
+│     └── Imperative
+├── Tense & aspect
+│     ├── Simple present
+│     ├── Simple past
+│     ├── Perfective present (hebben/zijn + participle)
+│     ├── Perfective past
+│     └── Progressive (aan het + infinitive)
+├── Verb clusters
+│     ├── Infinitive cluster (modal + inf)
+│     ├── Double infinitive
+│     ├── Participle cluster
+│     ├── Stacked modal cluster
+│     └── Verb cluster with te + inf
+├── Auxiliary verbs
+│     ├── hebben (perfective)
+│     ├── zijn (perfective)
+│     ├── worden (passive)
+│     └── zijn (copula)
+├── Modal verbs
+│     ├── kunnen
+│     ├── mogen
+│     ├── moeten
+│     ├── willen
+│     ├── zullen
+│     └── hoeven (+ niet/geen)
+├── Semi-modal / aspectual
+│     ├── gaan + infinitive (prospective)
+│     ├── komen + infinitive
+│     ├── blijven + infinitive
+│     └── beginnen te + infinitive
+├── Separable verbs
+│     ├── Prefix separation in main clause
+│     ├── Prefix attachment in subordinate clause
+│     └── Prefix placement with modals
+└── Reflexive verbs
+      ├── Obligatory reflexive (zich)
+      ├── Reciprocal (elkaar)
+      └── Intensifying reflexive
+
+NOUN PHRASE
+├── Gender & article
+│     ├── de-word (common gender)
+│     ├── het-word (neuter gender)
+│     ├── Definite article de / het
+│     ├── Indefinite article een
+│     └── Zero article (plural, indefinite)
+├── Plural formation
+│     ├── -en plural
+│     ├── -s plural
+│     ├── -eren plural
+│     ├── Irregular plural
+│     └── Diminutive plural
+├── Diminutive
+│     ├── -je suffix
+│     ├── -tje / -etje / -pje / -kje variants
+│     └── Diminutive + de (always de-word)
+├── Adjective inflection
+│     ├── -e inflection (attributive, de-word)
+│     ├── Uninflected (attributive, het-word, indefinite)
+│     ├── Predicative uninflected
+│     ├── Comparative -er
+│     └── Superlative -st
+├── Determiners
+│     ├── Demonstrative dit / dat
+│     ├── Demonstrative deze / die
+│     ├── Possessive mijn / jouw / zijn / haar / ons / onze / hun
+│     ├── Quantifier veel / weinig / enkele
+│     └── Indefinite elk / ieder / elke
+└── Noun compound
+      ├── N+N compound
+      └── Linking element -e- / -en- / -s-
+
+PRONOUNS
+├── Personal pronouns
+│     ├── Subject: ik / jij / u / hij / zij / het / we / jullie / ze
+│     ├── Object: mij / jou / u / hem / haar / het / ons / jullie / hen/hun/ze
+│     └── Reduced forms: 'k / je / ie / ze / we
+├── Possessive pronouns
+│     ├── mijn / jouw / zijn / haar / ons / onze / hun
+│     └── Stressed vs. unstressed form
+├── Reflexive pronouns
+│     ├── me / je / zich / ons
+│     └── zichzelf (emphatic)
+├── Demonstrative pronouns
+│     ├── dit / dat (standalone)
+│     └── deze / die (standalone)
+├── Interrogative pronouns
+│     ├── wie / wat
+│     ├── welk / welke
+│     └── wat voor (een)
+├── Relative pronouns
+│     ├── die (de-word antecedent)
+│     ├── dat (het-word antecedent)
+│     ├── wat (indefinite / superlative antecedent)
+│     └── waar + prep (prepositional relative)
+└── Indefinite pronouns
+      ├── iemand / niemand
+      ├── iets / niets
+      ├── men
+      └── alles / allemaal
+
+PARTICLES
+├── Modal particles
+│     ├── maar (concession / softening imperative)
+│     ├── toch (counter-expectation / appeal)
+│     ├── wel (affirmation / contrast)
+│     ├── even (politeness / casual immediacy)
+│     ├── eens (softening / invitation)
+│     ├── gewoon (normalizing)
+│     ├── eigenlijk (reframing / hedging)
+│     ├── eigenlijk wel (partial concession)
+│     ├── al (surprising earliness / amount)
+│     ├── nog (continuity / emphasis)
+│     └── al eens (experiential)
+├── Focus & discourse particles
+│     ├── ook (addition / appeal)
+│     ├── alleen (restriction)
+│     ├── juist (precision / correction)
+│     ├── zeker (certainty / emphasis)
+│     ├── immers (shared-knowledge marker)
+│     └── namelijk (explanatory)
+├── Interjection-grade particles
+│     ├── hoor (reassurance / tag)
+│     ├── hè / he (tag / confirmation-seek)
+│     ├── zeg (call-attention)
+│     ├── weet je (intimacy filler)
+│     └── snap je (check comprehension)
+└── Degree particles
+      ├── heel / erg / echt (intensifiers)
+      ├── best (moderating intensifier)
+      ├── nogal (considerable degree)
+      ├── te (excess)
+      └── genoeg (sufficiency — post-adj)
+
+NEGATION
+├── Negators
+│     ├── niet (verbal / adjectival / adverbial)
+│     ├── geen (nominal negation, replaces een)
+│     └── nooit / nergens / niemand / niets (negative concords)
+├── Scope & placement
+│     ├── niet before adjective/adverb
+│     ├── niet before prepositional phrase
+│     ├── geen before indefinite NP
+│     ├── Sentence-final niet (verbal negation default)
+│     └── niet after pronoun object
+└── Negative polarity
+      ├── hoeven + niet/geen (+ te)
+      └── Neg-raising with denken / vinden
+
+MODALITY
+├── Deontic modality
+│     ├── moeten (obligation)
+│     ├── mogen (permission)
+│     ├── niet mogen (prohibition)
+│     └── hoeven + niet (negative obligation)
+├── Epistemic modality
+│     ├── kunnen (possibility)
+│     ├── zullen (supposition / prediction)
+│     ├── wel (affirmative epistemic)
+│     ├── misschien (adverbial)
+│     └── waarschijnlijk (adverbial)
+└── Volitional modality
+      ├── willen (volition)
+      └── zullen (1st-person offer/intention)
+
+CONNECTORS
+├── Coordinating conjunctions
+│     ├── en (additive)
+│     ├── maar (adversative)
+│     ├── of (alternative)
+│     ├── want (causal, main-clause order)
+│     ├── dus (consecutive)
+│     ├── toch (adversative-concessive)
+│     └── noch … noch
+├── Subordinating conjunctions
+│     ├── omdat (cause, verb-final)
+│     ├── doordat (cause, factual)
+│     ├── dat (content clause)
+│     ├── als / wanneer (temporal/conditional)
+│     ├── of (indirect yes/no question)
+│     ├── terwijl (simultaneous / contrast)
+│     ├── nadat / voordat / totdat (temporal sequence)
+│     ├── zodat (result)
+│     ├── hoewel / al (concession)
+│     ├── tenzij (exception)
+│     └── om te (purpose + infinitive)
+└── Adverbial connectors
+      ├── dan (comparison / then)
+      ├── dan ook (consequence)
+      ├── echter (contrast, written)
+      ├── bovendien (addition)
+      ├── toch (resumptive contrast)
+      ├── daarna / toen / daarvoor (time sequence)
+      └── daar / er (pronominal connector)
+
+SENTENCE TYPES
+├── Declarative
+│     ├── Affirmative declarative
+│     └── Negative declarative
+├── Interrogative
+│     ├── Yes/no question (V1 order)
+│     ├── Wh-question (wh-fronted, V2)
+│     ├── Indirect question (verb-final)
+│     └── Tag question (hè / toch / nietwaar)
+├── Imperative
+│     ├── 2nd-person singular imperative (bare stem)
+│     ├── Imperative + maar / even (softened)
+│     ├── Plural imperative (jullie + stem)
+│     └── Polite imperative with u
+├── Exclamative
+│     ├── wat + adj/adv exclamative
+│     └── Zo + adj / zo'n + NP
+└── Content clause
+      ├── dat-clause (complement)
+      ├── of-clause (indirect question)
+      └── Infinitival complement (te + inf)
+
+ER-CONSTRUCTIONS
+├── Existential er
+│     ├── er + zijn/komen/staan/liggen (presentative)
+│     └── er + quantity NP
+├── Referential er
+│     ├── er as locative pro-form
+│     └── er as partitive pronoun (er + number)
+├── Prepositional er (er-PP)
+│     ├── er + preposition split (ervan / ermee / erop…)
+│     └── Stranded preposition with er
+└── Expletive er
+      ├── er as placeholder subject (weather, passive)
+      └── Passive er + worden
+
+INFORMATION STRUCTURE
+├── Topic & focus
+│     ├── Sentence-initial topic position
+│     ├── Focus accent (narrow vs. broad)
+│     ├── Contrastive focus
+│     └── Given–new ordering
+├── Left & right dislocation
+│     ├── Left dislocation (hanging topic)
+│     └── Right dislocation (afterthought)
+└── Definiteness & reference
+      ├── First mention (indefinite NP)
+      ├── Second mention (definite NP)
+      ├── Generic reference (zero article plural)
+      └── Specific vs. non-specific indefinite
+
+DISCOURSE & TONE
+├── Register & formality
+│     ├── Informal register (jij/je)
+│     ├── Formal register (u)
+│     ├── Spoken reduction features
+│     └── Written vs. spoken syntax
+├── Politeness strategies
+│     ├── Indirect request (kun je…?)
+│     ├── Conditional softening (zou je…?)
+│     ├── Downgrader even / maar / eens
+│     └── Positive politeness markers
+├── Turn-taking signals
+│     ├── Backchannel: ja / oh / oke / mm
+│     ├── Discourse opener: nou / zeg / kijk
+│     ├── Repair initiator: hè? / wat?
+│     └── Filler: ehm / dus
+└── Stance markers
+      ├── Epistemic: ik denk / ik vind / ik geloof
+      ├── Evidential: ik hoor / ze zeggen
+      └── Evaluative: gelukkig / helaas / jammer
