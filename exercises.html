@@ -1,517 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dutch A2 Exercises</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #f5f5f5;
-            color: #333;
-        }
-
-        .app {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 20px;
-            background: white;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 2rem;
-            color: #1a1a1a;
-        }
-
-        .subtitle {
-            color: #666;
-            font-size: 1rem;
-        }
-
-        .progress-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        .progress-text {
-            font-size: 1.1rem;
-            font-weight: 500;
-        }
-
-        .score {
-            font-size: 1.1rem;
-            color: #0066cc;
-            font-weight: 600;
-        }
-
-        .progress-bar-container {
-            height: 8px;
-            background: #e0e0e0;
-            border-radius: 4px;
-            overflow: hidden;
-            margin: 10px 0;
-        }
-
-        .progress-bar-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #0066cc, #00a3ff);
-            transition: width 0.3s ease;
-        }
-
-        .question-card {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-
-        .question-text {
-            font-size: 1.4rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-            color: #1a1a1a;
-        }
-
-        .choices {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .choice {
-            padding: 18px 24px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
-            background: #fafafa;
-            font-size: 1.05rem;
-        }
-
-        .choice:hover:not(.disabled) {
-            border-color: #0066cc;
-            background: #f0f7ff;
-        }
-
-        .choice.selected {
-            border-color: #0066cc;
-            background: #e6f3ff;
-        }
-
-        .choice.correct {
-            border-color: #00c853;
-            background: #e8f5e9;
-            color: #2e7d32;
-        }
-
-        .choice.wrong {
-            border-color: #ff1744;
-            background: #ffebee;
-            color: #c62828;
-        }
-
-        .choice.disabled {
-            cursor: default;
-        }
-
-        .feedback-box {
-            margin-top: 30px;
-            padding: 24px;
-            border-radius: 8px;
-            display: none;
-        }
-
-        .feedback-box.show {
-            display: block;
-        }
-
-        .feedback-box.success {
-            background: #e8f5e9;
-            border-left: 4px solid #00c853;
-        }
-
-        .feedback-box.error {
-            background: #ffebee;
-            border-left: 4px solid #ff1744;
-        }
-
-        .feedback-title {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 12px;
-        }
-
-        .feedback-box.success .feedback-title {
-            color: #2e7d32;
-        }
-
-        .feedback-box.error .feedback-title {
-            color: #c62828;
-        }
-
-        .explanation {
-            line-height: 1.7;
-            color: #555;
-            margin-bottom: 15px;
-        }
-
-        .grammar-note {
-            padding: 12px 16px;
-            background: rgba(0,0,0,0.03);
-            border-radius: 6px;
-            font-size: 0.95rem;
-            color: #666;
-        }
-
-        .grammar-note strong {
-            color: #0066cc;
-        }
-
-        .actions {
-            display: flex;
-            gap: 12px;
-            justify-content: flex-end;
-            margin-top: 20px;
-        }
-
-        button {
-            padding: 12px 28px;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-
-        .btn-primary {
-            background: #0066cc;
-            color: white;
-        }
-
-        .btn-primary:hover:not(:disabled) {
-            background: #0052a3;
-        }
-
-        .btn-secondary {
-            background: #e0e0e0;
-            color: #333;
-        }
-
-        .btn-secondary:hover {
-            background: #d0d0d0;
-        }
-
-        button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .results {
-            background: white;
-            padding: 50px 40px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            display: none;
-        }
-
-        .results.show {
-            display: block;
-        }
-
-        .results-icon {
-            font-size: 4rem;
-            margin-bottom: 20px;
-        }
-
-        .results-title {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-        }
-
-        .results-score {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin: 30px 0;
-        }
-
-        .results-message {
-            font-size: 1.2rem;
-            color: #666;
-            margin-bottom: 30px;
-        }
-
-        .excellent { color: #00c853; }
-        .good { color: #0066cc; }
-        .okay { color: #ff9800; }
-        .poor { color: #ff1744; }
-
-        @media (max-width: 600px) {
-            .app {
-                padding: 10px;
-            }
-
-            header {
-                padding: 30px 15px;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            .question-card {
-                padding: 25px 20px;
-            }
-
-            .question-text {
-                font-size: 1.2rem;
-            }
-
-            .choice {
-                padding: 15px 18px;
-            }
-
-            .actions {
-                flex-direction: column;
-            }
-
-            button {
-                width: 100%;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutch A2 Practice Exercises - All 175 Questions</title>
+<link rel="stylesheet" href="vars.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);color:var(--color-text-primary);background:var(--color-background-primary);padding:1rem;max-width:900px;margin:0 auto}
+h1{font-size:24px;margin-bottom:.5rem;font-weight:600}
+.subtitle{font-size:13px;color:var(--color-text-secondary);margin-bottom:1.5rem}
+.back{display:inline-block;margin-bottom:1rem;font-size:13px;color:var(--color-text-link);text-decoration:none}
+.back:hover{text-decoration:underline}
+.search{width:100%;font-size:13px;padding:8px 12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:var(--color-background-primary);color:var(--color-text-primary);margin-bottom:1rem}
+.stats{font-size:12px;color:var(--color-text-secondary);margin-bottom:1.5rem;padding:8px 12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md)}
+.exercise{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem;margin-bottom:1rem;background:var(--color-background-primary)}
+.exercise.answered{background:var(--color-background-secondary)}
+.ex-num{font-size:11px;color:var(--color-text-tertiary);font-weight:500;margin-bottom:.5rem}
+.question{font-size:15px;font-weight:500;margin-bottom:1rem;line-height:1.5;color:var(--color-text-primary)}
+.question .blank{color:var(--color-text-info);text-decoration:underline;text-decoration-style:dashed}
+.options{display:grid;gap:8px;margin-bottom:1rem}
+.option{display:flex;align-items:center;padding:8px 12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);cursor:pointer;font-size:13px;transition:all .15s}
+.option:hover{background:var(--color-background-secondary)}
+.option input{margin-right:8px;cursor:pointer}
+.option.correct{background:var(--color-background-success);border-color:var(--color-border-success);color:var(--color-text-success)}
+.option.incorrect{background:var(--color-background-error);border-color:var(--color-border-error);color:var(--color-text-error)}
+.actions{display:flex;gap:8px;margin-bottom:.75rem}
+.btn{padding:6px 12px;font-size:12px;border-radius:var(--border-radius-md);border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;color:var(--color-text-primary)}
+.btn:hover{background:var(--color-background-secondary)}
+.btn.primary{background:var(--color-background-info);color:var(--color-text-info);border-color:var(--color-border-info)}
+.btn.primary:hover{opacity:.9}
+.feedback{font-size:12px;padding:8px 12px;border-radius:var(--border-radius-md);margin-bottom:.75rem}
+.feedback.success{background:var(--color-background-success);color:var(--color-text-success);border:0.5px solid var(--color-border-success)}
+.feedback.error{background:var(--color-background-error);color:var(--color-text-error);border:0.5px solid var(--color-border-error)}
+.hint{font-size:12px;padding:8px 12px;background:var(--color-background-tertiary);border-radius:var(--border-radius-md);color:var(--color-text-secondary);border-left:2px solid var(--color-border-info);line-height:1.5}
+.source{font-size:12px;padding:8px 12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);color:var(--color-text-secondary);font-style:italic;line-height:1.5}
+.hidden{display:none}
+</style>
 </head>
 <body>
-    <div class="app">
-        <header>
-            <h1>Dutch A2 Practice</h1>
-            <p class="subtitle">200 exercises for inburgering exam preparation</p>
-        </header>
+<a href="index.html" class="back">← Back to home</a>
+<h1>Dutch A2 Practice Exercises</h1>
+<p class="subtitle">All 175 gap-fill exercises. Answer at your own pace - each question has its own submit button.</p>
 
-        <div class="progress-info">
-            <div>
-                <div class="progress-text">Question <span id="current">1</span> of <span id="total">200</span></div>
-                <div class="progress-bar-container">
-                    <div class="progress-bar-fill" id="progress"></div>
-                </div>
-            </div>
-            <div class="score">
-                <span id="correct">0</span>/<span id="answered">0</span> correct
-            </div>
+<input type="text" class="search" id="search" placeholder="Search exercises..." oninput="filterExercises()">
+
+<div class="stats" id="stats">0 / 175 answered</div>
+
+<div id="exercises"></div>
+
+<script src="calude_suggested_sentence_exercises/dutch_exercises.json"></script>
+<script>
+// Load exercises from external JSON
+fetch('calude_suggested_sentence_exercises/dutch_exercises.json')
+  .then(response => response.json())
+  .then(data => {
+    window.EXERCISES = data;
+    renderExercises();
+  });
+
+let answered = new Set();
+
+function renderExercises() {
+  if (!window.EXERCISES) return;
+
+  const container = document.getElementById('exercises');
+  const searchTerm = document.getElementById('search').value.toLowerCase();
+
+  const filtered = window.EXERCISES.map((ex, idx) => ({ex, idx})).filter(({ex}) => {
+    if (!searchTerm) return true;
+    return ex.q.toLowerCase().includes(searchTerm) ||
+           ex.hint.toLowerCase().includes(searchTerm) ||
+           ex.source.toLowerCase().includes(searchTerm);
+  });
+
+  container.innerHTML = filtered.map(({ex, idx}) => {
+    const options = [ex.correct, ...ex.distractors].sort(() => Math.random() - 0.5);
+    const isAnswered = answered.has(idx);
+
+    return `
+      <div class="exercise ${isAnswered ? 'answered' : ''}" id="ex-${idx}">
+        <div class="ex-num">Question ${idx + 1} of ${window.EXERCISES.length}</div>
+        <div class="question">${ex.q.replace('___', '<span class="blank">___</span>')}</div>
+        <div class="options" id="options-${idx}">
+          ${options.map((opt, i) => `
+            <label class="option" id="opt-${idx}-${i}">
+              <input type="radio" name="q-${idx}" value="${opt}" onchange="selectOption(${idx})">
+              <span>${opt}</span>
+            </label>
+          `).join('')}
         </div>
-
-        <div class="question-card" id="quiz">
-            <div class="question-text" id="question"></div>
-            <div class="choices" id="choices"></div>
-
-            <div class="feedback-box" id="feedback">
-                <div class="feedback-title" id="feedback-title"></div>
-                <div class="explanation" id="explanation"></div>
-                <div class="grammar-note" id="grammar"></div>
-            </div>
-
-            <div class="actions">
-                <button class="btn-secondary" id="prev" onclick="navigate(-1)">← Previous</button>
-                <button class="btn-primary" id="next" onclick="navigate(1)" disabled>Next →</button>
-            </div>
+        <div class="actions">
+          <button class="btn primary" onclick="checkAnswer(${idx})" id="check-${idx}">Check Answer</button>
+          <button class="btn" onclick="showHint(${idx})" id="hint-btn-${idx}">Show Hint</button>
         </div>
+        <div class="hint hidden" id="hint-${idx}">💡 ${ex.hint}</div>
+        <div class="feedback hidden" id="feedback-${idx}"></div>
+        <div class="source hidden" id="source-${idx}">📝 Full sentence: ${ex.source}</div>
+      </div>
+    `;
+  }).join('');
 
-        <div class="results" id="results">
-            <div class="results-icon" id="results-icon"></div>
-            <div class="results-title">Quiz Complete!</div>
-            <div class="results-score" id="final-score"></div>
-            <div class="results-message" id="results-message"></div>
-            <button class="btn-primary" onclick="restart()">Start Over</button>
-        </div>
-    </div>
+  updateStats();
+}
 
-    <script>
-        let exercises = [];
-        let currentIndex = 0;
-        let userAnswers = new Array(200).fill(null);
-        let correctCount = 0;
-        let answeredCount = 0;
+function selectOption(idx) {
+  // Just marks that an option was selected
+}
 
-        async function init() {
-            try {
-                const [batch1, batch2] = await Promise.all([
-                    fetch('exercises/dutch_a2_exercises_batch1.json').then(r => r.json()),
-                    fetch('exercises/dutch_a2_exercises_batch2.json').then(r => r.json())
-                ]);
+function checkAnswer(idx) {
+  const ex = window.EXERCISES[idx];
+  const selected = document.querySelector(`input[name="q-${idx}"]:checked`);
 
-                exercises = [...batch1.exercises, ...batch2.exercises];
-                loadProgress();
-                renderQuestion();
-            } catch (error) {
-                document.getElementById('quiz').innerHTML =
-                    '<p style="color: red; text-align: center;">Failed to load exercises. Make sure JSON files are in exercises/ folder.</p>';
-            }
-        }
+  if (!selected) {
+    alert('Please select an answer first!');
+    return;
+  }
 
-        function renderQuestion() {
-            const ex = exercises[currentIndex];
-            const hasAnswered = userAnswers[currentIndex] !== null;
+  const userAnswer = selected.value;
+  const isCorrect = userAnswer === ex.correct;
 
-            document.getElementById('question').textContent = ex.question;
-            document.getElementById('current').textContent = currentIndex + 1;
-            document.getElementById('total').textContent = exercises.length;
+  // Mark as answered
+  answered.add(idx);
+  document.getElementById(`ex-${idx}`).classList.add('answered');
 
-            const choicesHtml = Object.entries(ex.options).map(([key, value]) => {
-                let className = 'choice';
-                if (hasAnswered) {
-                    className += ' disabled';
-                    if (key === ex.correct_answer) {
-                        className += ' correct';
-                    } else if (key === userAnswers[currentIndex]) {
-                        className += ' wrong';
-                    }
-                } else if (userAnswers[currentIndex] === key) {
-                    className += ' selected';
-                }
+  // Show feedback
+  const feedback = document.getElementById(`feedback-${idx}`);
+  feedback.classList.remove('hidden', 'success', 'error');
 
-                return `<div class="${className}" onclick="selectAnswer('${key}')">${key}. ${value}</div>`;
-            }).join('');
+  if (isCorrect) {
+    feedback.classList.add('success');
+    feedback.textContent = '✓ Correct!';
+  } else {
+    feedback.classList.add('error');
+    feedback.textContent = `✗ Wrong. The correct answer is: ${ex.correct}`;
+  }
 
-            document.getElementById('choices').innerHTML = choicesHtml;
+  // Highlight correct/incorrect options
+  const options = document.querySelectorAll(`#options-${idx} .option`);
+  options.forEach(opt => {
+    const input = opt.querySelector('input');
+    if (input.value === ex.correct) {
+      opt.classList.add('correct');
+    } else if (input.value === userAnswer && !isCorrect) {
+      opt.classList.add('incorrect');
+    }
+    input.disabled = true;
+  });
 
-            const feedback = document.getElementById('feedback');
-            if (hasAnswered) {
-                const isCorrect = userAnswers[currentIndex] === ex.correct_answer;
-                feedback.className = 'feedback-box show ' + (isCorrect ? 'success' : 'error');
-                document.getElementById('feedback-title').textContent = isCorrect ? '✓ Correct' : '✗ Incorrect';
-                document.getElementById('explanation').textContent = ex.explanation;
-                document.getElementById('grammar').innerHTML = '<strong>Grammar:</strong> ' + ex.grammar_focus;
-                document.getElementById('next').disabled = false;
-            } else {
-                feedback.className = 'feedback-box';
-                document.getElementById('next').disabled = true;
-            }
+  // Show source
+  document.getElementById(`source-${idx}`).classList.remove('hidden');
 
-            document.getElementById('prev').disabled = currentIndex === 0;
+  // Disable check button
+  document.getElementById(`check-${idx}`).disabled = true;
+  document.getElementById(`check-${idx}`).textContent = 'Answered';
 
-            const progress = ((currentIndex + 1) / exercises.length) * 100;
-            document.getElementById('progress').style.width = progress + '%';
+  updateStats();
+}
 
-            updateStats();
-        }
+function showHint(idx) {
+  document.getElementById(`hint-${idx}`).classList.remove('hidden');
+  document.getElementById(`hint-btn-${idx}`).disabled = true;
+}
 
-        function selectAnswer(choice) {
-            if (userAnswers[currentIndex] !== null) return;
+function updateStats() {
+  document.getElementById('stats').textContent = `${answered.size} / ${window.EXERCISES.length} answered`;
+}
 
-            const ex = exercises[currentIndex];
-            userAnswers[currentIndex] = choice;
-            answeredCount++;
-
-            if (choice === ex.correct_answer) {
-                correctCount++;
-            }
-
-            saveProgress();
-            renderQuestion();
-
-            if (answeredCount === exercises.length) {
-                setTimeout(showResults, 1500);
-            }
-        }
-
-        function navigate(direction) {
-            currentIndex += direction;
-            if (currentIndex < 0) currentIndex = 0;
-            if (currentIndex >= exercises.length) currentIndex = exercises.length - 1;
-            renderQuestion();
-        }
-
-        function updateStats() {
-            document.getElementById('correct').textContent = correctCount;
-            document.getElementById('answered').textContent = answeredCount;
-        }
-
-        function showResults() {
-            document.getElementById('quiz').style.display = 'none';
-            document.getElementById('progress-info').style.display = 'none';
-
-            const percentage = Math.round((correctCount / exercises.length) * 100);
-            const results = document.getElementById('results');
-            results.className = 'results show';
-
-            const scoreEl = document.getElementById('final-score');
-            scoreEl.textContent = percentage + '%';
-
-            if (percentage >= 90) {
-                scoreEl.className = 'results-score excellent';
-                document.getElementById('results-icon').textContent = '🎉';
-                document.getElementById('results-message').textContent =
-                    `Outstanding! You got ${correctCount} out of ${exercises.length} correct. You're well-prepared for the A2 exam!`;
-            } else if (percentage >= 75) {
-                scoreEl.className = 'results-score good';
-                document.getElementById('results-icon').textContent = '👍';
-                document.getElementById('results-message').textContent =
-                    `Great work! You got ${correctCount} out of ${exercises.length} correct. Keep it up!`;
-            } else if (percentage >= 60) {
-                scoreEl.className = 'results-score okay';
-                document.getElementById('results-icon').textContent = '📚';
-                document.getElementById('results-message').textContent =
-                    `Good effort! You got ${correctCount} out of ${exercises.length} correct. Review the explanations and try again.`;
-            } else {
-                scoreEl.className = 'results-score poor';
-                document.getElementById('results-icon').textContent = '💪';
-                document.getElementById('results-message').textContent =
-                    `Keep practicing! You got ${correctCount} out of ${exercises.length} correct. Focus on the grammar notes.`;
-            }
-        }
-
-        function restart() {
-            if (confirm('This will reset all your progress. Continue?')) {
-                userAnswers = new Array(200).fill(null);
-                correctCount = 0;
-                answeredCount = 0;
-                currentIndex = 0;
-                localStorage.removeItem('dutch_a2_progress');
-                location.reload();
-            }
-        }
-
-        function saveProgress() {
-            localStorage.setItem('dutch_a2_progress', JSON.stringify({
-                answers: userAnswers,
-                correct: correctCount,
-                answered: answeredCount,
-                index: currentIndex
-            }));
-        }
-
-        function loadProgress() {
-            const saved = localStorage.getItem('dutch_a2_progress');
-            if (saved) {
-                const data = JSON.parse(saved);
-                userAnswers = data.answers;
-                correctCount = data.correct;
-                answeredCount = data.answered;
-                currentIndex = data.index;
-            }
-        }
-
-        init();
-    </script>
+function filterExercises() {
+  renderExercises();
+}
+</script>
 </body>
 </html>

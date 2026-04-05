@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutch A2 Gold Sentences - Complete Reference</title>
+<link rel="stylesheet" href="vars.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);color:var(--color-text-primary);background:var(--color-background-primary);padding:1rem;max-width:1200px;margin:0 auto}
+h1{font-size:24px;margin-bottom:1rem;font-weight:600}
+.back{display:inline-block;margin-bottom:1rem;font-size:13px;color:var(--color-text-link);text-decoration:none}
+.back:hover{text-decoration:underline}
+.controls{display:flex;gap:8px;margin-bottom:1rem;flex-wrap:wrap;align-items:center}
+.search{font-size:13px;padding:6px 10px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:var(--color-background-primary);color:var(--color-text-primary);min-width:200px}
+.tag-btn{font-size:12px;padding:4px 10px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;color:var(--color-text-secondary)}
+.tag-btn.active{background:var(--color-background-info);color:var(--color-text-info);border-color:var(--color-border-info)}
+.tag-btn:hover{background:var(--color-background-secondary)}
+.total{font-size:12px;color:var(--color-text-secondary);margin-bottom:.5rem}
+.section{margin-bottom:2rem}
+.section-header{display:flex;align-items:center;gap:10px;margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.section-title{font-size:15px;font-weight:500}
+.section-count{font-size:12px;padding:2px 8px;border-radius:10px;background:var(--color-background-info);color:var(--color-text-info)}
+.why{font-size:12px;color:var(--color-text-secondary);margin-bottom:.75rem;line-height:1.6;padding:8px 12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);border-left:2px solid var(--color-border-info)}
+.table-wrap{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:var(--color-background-secondary);font-weight:500;font-size:11px;color:var(--color-text-secondary);padding:7px 12px;text-align:left;border-bottom:0.5px solid var(--color-border-tertiary);text-transform:uppercase;letter-spacing:.03em}
+td{padding:9px 12px;border-bottom:0.5px solid var(--color-border-tertiary);vertical-align:top;line-height:1.5}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--color-background-secondary)}
+.nl{font-weight:500;color:var(--color-text-primary)}
+.en{color:var(--color-text-secondary);font-size:12px;margin-top:3px}
+.note{font-size:11px;color:var(--color-text-tertiary);margin-top:3px;font-style:italic}
+.num{font-size:11px;color:var(--color-text-tertiary);min-width:22px}
+</style>
+</head>
+<body>
+<a href="index.html" class="back">← Back to home</a>
+<h1>Dutch A2 Gold Sentences - Complete Reference</h1>
+<div class="controls">
+  <input class="search" type="text" placeholder="Search Dutch or English..." oninput="renderAll()" id="search">
+</div>
+<div class="controls" id="cat-filters"></div>
+<div class="total" id="total"></div>
+<div id="list-view"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+<script>
+const SECTIONS=[
+{
+  id:"modal-imperfectum",
+  title:"Imperfectum of modals",
+  why:"Moest / kon / wilde / mocht / wou are the everyday past tense workhorse. Every inburgeringsexam conversation uses them. Pattern: modal-imperfectum + infinitive at end of clause.",
+  rows:[
+    ["Ik kon geen minuut stilzitten, ik was altijd buiten.","I couldn't sit still for a minute, I was always outside.","kon + infinitive; negation-geen"],
+    ["We konden niet stoppen met lachen.","We couldn't stop laughing.","konden + stoppen met + infinitive"],
+    ["Ik moest het magazijn en de winkel netjes houden.","I had to keep the stockroom and the shop tidy.","moest + infinitive at end"],
+    ["Ik moest ze helpen, als ze iets niet konden vinden.","I had to help them when they couldn't find something.","moest + bijzin-als + konden"],
+    ["Als het erg druk was, moest ik soms ook achter de kassa werken.","When it was very busy I sometimes had to work at the checkout.","bijzin-als + moest + imperfectum"],
+    ["Vroeger kon je in Nederland bijna iedere winter schaatsen.","In the past you could skate in the Netherlands almost every winter.","kon + particles-vroeger + time"],
+    ["In de stad kon je de bergen zien.","From the city you could see the mountains.","kon + infinitive; inversion"],
+    ["Daar kon je zwemmen.","You could swim there.","kon + short infinitive; particles-daar"],
+    ["Ik wilde dat het zomer was, lekker 25 graden.","I wished it were summer, a nice 25 degrees.","wilde + bijzin-dat; wishful imperfectum"],
+    ["Ik wilde ze meteen de blauwe zee laten zien.","I wanted to show them the blue sea right away.","wilde + laten-causative + particles-meteen"],
+  ]
+},
+{
+  id:"er-constructions",
+  title:"Er as placeholder subject",
+  why:"Er + zijn/staan/zitten/komen/liggen with indefinite subjects is tested constantly. The rule: definite subject = no er; indefinite = er. Also er + quantity expressions.",
+  rows:[
+    ["Er zijn veel bergen, maar ik ben in een stad opgegroeid.","There are many mountains but I grew up in a city.","er-zijn + contrast connector"],
+    ["Er zijn ook vaak periodes met regen en onweer.","There are also often periods of rain and thunderstorms.","er-zijn + particles-ook"],
+    ["Er zijn zo veel regels.","There are so many rules.","er-zijn + quantity; comparison-zo-veel"],
+    ["Er is ook een toename van het aantal ouderen op sociale media.","There is also an increase in the number of elderly on social media.","er-is + particles-ook; het-subject"],
+    ["Er zitten meer ouderen op sociale media omdat ze handiger zijn geworden.","More elderly are on social media because they have become more skilled.","er-zitten + bijzin-omdat + worden perfectum"],
+    ["Er is trouwens ook voetbal op tv.","There's also football on TV by the way.","er-is + particles-trouwens + particles-ook"],
+    ["Zijn er nog meer positieve invloeden?","Are there any more positive influences?","er-question + particles-nog"],
+    ["Op deze school zijn speciale ruimtes voor pianolessen.","At this school there are special rooms for piano lessons.","inversion = er-equivalent with fronted location"],
+    ["In veel steden zijn dan feesten.","In many cities there are celebrations then.","fronted location triggers inversion = er-function"],
+    ["Fijn dat je er bent.","Good that you're here.","er as location pronoun; bijzin-dat"],
+  ]
+},
+{
+  id:"relative-die-dat",
+  title:"Relative clauses: die vs dat",
+  why:"Die for de-words and plural, dat for het-words. Word order in the relative clause: subject + verb last. Very frequent in reading and listening exams.",
+  rows:[
+    ["Alleenstaande mensen zijn mensen die alleen wonen.","Single people are people who live alone.","die-clause; de-word antecedent"],
+    ["Jeroen kent een fotograaf die mooie foto's kan maken.","Jeroen knows a photographer who can take beautiful photos.","die-clause + modal inside bijzin"],
+    ["Je netwerk bestaat uit alle mensen die je kent.","Your network consists of all the people you know.","die-clause; verb-last in bijzin"],
+    ["Op de vijfde verdieping zijn studieplekken die een wifi-verbinding hebben.","On the fifth floor there are study spots that have a wifi connection.","die-clause; plural antecedent"],
+    ["Zoek naar interesses die jullie allebei hebben.","Look for interests that you both share.","die-clause + particles-allebei"],
+    ["Soms kijk ik programma's terug die ik heb gemist.","Sometimes I watch programmes back that I missed.","die-clause + perfectum inside bijzin"],
+    ["Geniet van de leuke contacten die je krijgt.","Enjoy the nice contacts you get.","die-clause; short and natural"],
+    ["Dat is het enige stukje echte natuur in Nederland.","That is the only real piece of nature in the Netherlands.","dat as demonstrative; het-word + adjective"],
+    ["Is die grammatica moeilijk?","Is that grammar hard?","die as demonstrative pronoun for de-word"],
+    ["Het Arabisch heeft maar één lidwoord en niet drie, zoals het Nederlands.","Arabic has only one article and not three, like Dutch.","zoals-comparison; niet + number"],
+  ]
+},
+{
+  id:"reflexive-verbs",
+  title:"Reflexive verbs",
+  why:"Me / je / zich as reflexive pronouns. Placement: directly after the conjugated verb. High frequency in daily speech and inburgering topics (feelings, behaviour, identity).",
+  rows:[
+    ["Ik voelde me thuis in de natuur.","I felt at home in nature.","zich voelen + location; imperfectum"],
+    ["Ik schaamde me vroeger altijd voor zijn grapjes.","I always used to be embarrassed by his jokes.","zich schamen voor; imperfectum + particles-vroeger"],
+    ["Ik herinner me onze huwelijksreis nog goed.","I still remember our honeymoon well.","zich herinneren + particles-nog"],
+    ["Ik had geen zin meer om me te scheren.","I no longer felt like shaving.","om-te + reflexive; negation-geen + particles-meer"],
+    ["Je moet je niet zo druk maken.","You shouldn't stress so much.","zich druk maken; negation + modal"],
+    ["Ze spraken af en gaan daten.","They made a date and started dating.","separable-afspreken; reflexive implication in context"],
+    ["Ik bedenk ineens dat ik de kapper nog niet heb gebeld.","I suddenly realize I haven't called the hairdresser yet.","zich bedenken; bijzin-dat + negation-nog-niet"],
+    ["Hij schaamde zich voor zijn gedrag.","He was embarrassed about his behaviour.","zich as 3rd person reflexive; imperfectum"],
+    ["We hebben ons goed voorbereid.","We have prepared ourselves well.","zich voorbereiden; perfectum + ons"],
+    ["Je kunt je hier prima op concentreren.","You can concentrate on this perfectly well here.","zich concentreren op; modal + particles-prima"],
+  ]
+},
+{
+  id:"time-triggers-inversion",
+  title:"Time / place fronting → inversion",
+  why:"Any element moved to position 1 pushes the subject after the verb. This is the core Dutch word-order rule. Drilling it with varied front-elements locks in the pattern permanently.",
+  rows:[
+    ["Gisteren heb ik lekker uitgerust en twee films gekeken.","Yesterday I had a good rest and watched two films.","gisteren → inversion + perfectum"],
+    ["Vorig jaar hebben we hem gekocht.","Last year we bought it.","vorig jaar → inversion + perfectum"],
+    ["Vorige maand is mijn vader overleden.","Last month my father passed away.","vorige maand → inversion; zijn-perfectum"],
+    ["Tegenwoordig trouwen mensen gemiddeld tien jaar later.","Nowadays people get married on average ten years later.","tegenwoordig → inversion"],
+    ["Vroeger was ongetrouwd samenwonen niet zo vanzelfsprekend.","In the past cohabiting without marriage was not so obvious.","vroeger → inversion + imperfectum"],
+    ["In de zomervakantie ging ik met mijn ouders vaak wandelen.","In the summer holidays I often went hiking with my parents.","time-phrase → inversion + imperfectum"],
+    ["'s Ochtends maakte ik de winkel open en 's avonds sloot ik hem weer.","In the morning I opened the shop and in the evening I closed it again.","time-adverb → inversion; both clauses"],
+    ["Daarna overleg ik meteen met de directeur.","After that I'll consult with the director right away.","daarna → inversion; particles-meteen"],
+    ["Sindsdien daalt het aantal huwelijken in Nederland.","Since then the number of marriages in the Netherlands has been falling.","sindsdien → inversion"],
+    ["Op 4 mei is iedereen om 20.00 uur twee minuten stil.","On May 4th everyone is silent for two minutes at 8pm.","place/time → inversion; adjective-predicative"],
+  ]
+},
+{
+  id:"laten-constructions",
+  title:"Laten: three uses",
+  why:"Laten appears constantly in A2/inburgering. Three distinct uses that learners confuse: (1) causative = have someone do something, (2) laten zien = show, (3) laten we = let's.",
+  rows:[
+    ["Laten we binnenkort samen iets gaan drinken.","Let's go get a drink together soon.","laten-we suggestion; modal-gaan chain"],
+    ["Ik laat je straks zien hoe je het moet föhnen.","I'll show you later how to blow-dry it.","laten-zien causative; indirect question + modal"],
+    ["Dat laten we u morgen weten.","We'll let you know tomorrow.","laten-weten = inform; formal-u"],
+    ["Ik wilde ze meteen de blauwe zee laten zien.","I wanted to show them the blue sea right away.","laten-zien + wilde; double object"],
+    ["Misschien kunnen ze een monteur sturen.","Maybe they can send a repairman.","modal-kunnen + indirect suggestion; laten-alternative context"],
+    ["Laat maar, ik doe het zelf wel.","Never mind, I'll do it myself.","laten imperative = forget it; particles-wel + reflexive-zelf"],
+    ["Zullen we het journaal kijken?","Shall we watch the news?","zullen-we as laten-we alternative; offer"],
+    ["Ik ga het eerst even wassen, oké?","I'll wash it first quickly, okay?","gaan as near-future; particles-eerst-even"],
+    ["Kom op, probeer het zelf even te doen.","Come on, try to do it yourself.","imperative + te-infinitive + reflexive-zelf"],
+    ["Ze laten de kinderen de hele dag op school sporten.","They have the children exercise at school all day.","laten causative + object + infinitive"],
+  ]
+},
+{
+  id:"worden-process",
+  title:"Worden: becoming / change",
+  why:"Worden is tested for two things: (1) process/change (becoming something) and (2) the passive. At A2 focus on the change meaning — it appears everywhere in the inburgering topics.",
+  rows:[
+    ["Als alles goed gaat, worden ze verliefd en krijgen ze een relatie.","If everything goes well they fall in love and get into a relationship.","worden + adjective; bijzin-als"],
+    ["Ongetrouwd samenwonen wordt ieder jaar populairder.","Cohabiting without marriage becomes more popular every year.","worden + comparative; time-expression"],
+    ["De winters zijn de laatste vijftig jaar minder koud geworden.","Winters have become less cold over the past fifty years.","worden + perfectum zijn + comparative"],
+    ["Als ik niet sport, word ik chagrijnig.","If I don't work out I get irritable.","bijzin-als + worden + adjective"],
+    ["Er zitten meer ouderen op sociale media omdat ze handiger zijn geworden.","More elderly are on social media because they have become more skilled.","worden perfectum zijn + bijzin-omdat"],
+    ["Je vriend wordt vast boos als hij dat ontdekt.","Your friend will definitely get angry when he finds that out.","worden + adjective + bijzin-als; particles-vast"],
+    ["Ik werd helemaal nat op de fiets.","I got completely wet on the bike.","worden imperfectum + adjective + particles-helemaal"],
+    ["Mijn zus wordt namelijk nogal snel kwaad.","My sister gets angry quite quickly you see.","worden + adjective + connector-namelijk"],
+    ["Ze worden verliefd en gaan daten.","They fall in love and start dating.","worden + verliefd; separable-daten"],
+    ["Nederland wordt steeds warmer door klimaatverandering.","The Netherlands is getting increasingly warmer due to climate change.","worden + steeds + comparative; connector-door"],
+  ]
+},
+{
+  id:"perfectum-zijn",
+  title:"Perfectum with zijn (not hebben)",
+  why:"Movement verbs and change-of-state verbs take zijn in the perfectum. This is one of the top error sources at A2/inburgering. Must be drilled as separate patterns from hebben-perfectum.",
+  rows:[
+    ["Vorige maand is mijn vader overleden.","Last month my father passed away.","zijn-perfectum; overlijden"],
+    ["Leuk dat je mijn broer in de trein bent tegengekomen!","Great that you ran into my brother on the train!","zijn-perfectum; bijzin-dat + separable"],
+    ["We zijn vorig jaar verhuisd.","We moved last year.","zijn-perfectum; verhuizen"],
+    ["We zijn gisteren naar het strand gegaan.","Yesterday we went to the beach.","zijn-perfectum; gaan"],
+    ["Iedereen was positief over de reis.","Everyone was positive about the trip.","imperfectum; adjective-predicative — contrast with zijn-perfectum context"],
+    ["Ik ben in een stad opgegroeid.","I grew up in a city.","zijn-perfectum; separable-opgroeien"],
+    ["De leerlingen zijn bij Chinese leerlingen thuis gelogeerd.","The students stayed at Chinese students' homes.","zijn-perfectum; logeren = temporary stay"],
+    ["De aarde is de laatste jaren warmer geworden.","The earth has become warmer in recent years.","zijn-perfectum + worden; comparative"],
+    ["Ook het aantal alleenstaande mensen is erg toegenomen.","The number of single people has also increased a lot.","zijn-perfectum; separable-toenemen"],
+    ["Ze zijn verliefd geworden en hebben een relatie gekregen.","They fell in love and got into a relationship.","zijn-perfectum + worden; hebben-perfectum contrast"],
+  ]
+},
+];
+
+let activecat=null;
+
+function init(){
+  const cf=document.getElementById('cat-filters');
+  SECTIONS.forEach(s=>{
+    const b=document.createElement('button');
+    b.className='tag-btn';
+    b.textContent=s.title.split(':')[0].trim();
+    b.dataset.cat=s.id;
+    b.onclick=()=>{
+      activecat=activecat===s.id?null:s.id;
+      document.querySelectorAll('.tag-btn').forEach(x=>x.classList.toggle('active',x.dataset.cat===activecat));
+      renderAll();
+    };
+    cf.appendChild(b);
+  });
+  renderAll();
+}
+
+function renderAll(){
+  const q=(document.getElementById('search').value||'').toLowerCase();
+  const lv=document.getElementById('list-view');
+
+  if(!activecat){
+    const filteredSections=SECTIONS.map(s=>{
+      const rows=s.rows.filter(r=>{
+        return !q||(r[0].toLowerCase().includes(q)||r[1].toLowerCase().includes(q)||r[2].toLowerCase().includes(q));
+      });
+      return {section:s,rows};
+    }).filter(s=>s.rows.length>0);
+
+    const totalCount=filteredSections.reduce((sum,s)=>sum+s.rows.length,0);
+    document.getElementById('total').textContent=`${totalCount} sentences shown`;
+
+    lv.innerHTML=filteredSections.map(({section:s,rows})=>{
+      return`<div class="section">
+        <div class="section-header"><span class="section-title">${s.title}</span><span class="section-count">${rows.length}</span></div>
+        <div class="why">${s.why}</div>
+        <div class="table-wrap"><table><thead><tr><th style="width:22px">#</th><th>Dutch</th><th>Key pattern</th></tr></thead><tbody>
+        ${rows.map((r,i)=>`<tr><td class="num">${i+1}</td><td><div class="nl">${r[0]}</div><div class="en">${r[1]}</div></td><td><div class="note">${r[2]}</div></td></tr>`).join('')}
+        </tbody></table></div></div>`;
+    }).join('');
+  } else {
+    const sec=SECTIONS.find(s=>s.id===activecat);
+    const rows=sec.rows.filter(r=>{
+      return !q||(r[0].toLowerCase().includes(q)||r[1].toLowerCase().includes(q)||r[2].toLowerCase().includes(q));
+    });
+
+    document.getElementById('total').textContent=`${rows.length} sentences shown`;
+
+    lv.innerHTML=`<div class="section">
+      <div class="section-header"><span class="section-title">${sec.title}</span><span class="section-count">${rows.length}</span></div>
+      <div class="why">${sec.why}</div>
+      <div class="table-wrap"><table><thead><tr><th style="width:22px">#</th><th>Dutch</th><th>Key pattern</th></tr></thead><tbody>
+      ${rows.map((r,i)=>`<tr><td class="num">${i+1}</td><td><div class="nl">${r[0]}</div><div class="en">${r[1]}</div></td><td><div class="note">${r[2]}</div></td></tr>`).join('')}
+      </tbody></table></div></div>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

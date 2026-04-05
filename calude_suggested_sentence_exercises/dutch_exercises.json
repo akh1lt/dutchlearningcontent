@@ -1,0 +1,1227 @@
+[
+  {
+    "q": "Dat ___ me heerlijk.",
+    "correct": "lijkt",
+    "distractors": ["is", "voelt", "klinkt"],
+    "hint": "modal-lijken + dative me",
+    "source": "Dat lijkt me heerlijk."
+  },
+  {
+    "q": "Dat ___ niet.",
+    "correct": "gaat",
+    "distractors": ["is", "doet", "kan"],
+    "hint": "gaan = to be possible/work out",
+    "source": "Dat gaat niet."
+  },
+  {
+    "q": "___ jij Joris vanmiddag naar het hockeyveld brengen?",
+    "correct": "Kun",
+    "distractors": ["Wil", "Mag", "Moet"],
+    "hint": "modal kunnen in question; inversion",
+    "source": "Kun jij Joris vanmiddag naar het hockeyveld brengen?"
+  },
+  {
+    "q": "Ik heb met Sjoerd ___.",
+    "correct": "afgesproken",
+    "distractors": ["gesprokken", "gesproken af", "afgepraat"],
+    "hint": "perfectum of separable verb afspreken",
+    "source": "Ik heb met Sjoerd afgesproken."
+  },
+  {
+    "q": "We gaan hardlopen, ___ we volgende week die wedstrijd hebben.",
+    "correct": "omdat",
+    "distractors": ["want", "maar", "dus"],
+    "hint": "omdat = bijzin, verb goes to end; want = main clause",
+    "source": "We gaan hardlopen, omdat we volgende week die wedstrijd hebben."
+  },
+  {
+    "q": "We gaan hardlopen, omdat we volgende week die wedstrijd ___.",
+    "correct": "hebben",
+    "distractors": ["hebben gehad", "hadden", "zullen hebben"],
+    "hint": "verb position at end of omdat-clause",
+    "source": "We gaan hardlopen, omdat we volgende week die wedstrijd hebben."
+  },
+  {
+    "q": "Je ___ ze niet in de kast te zetten.",
+    "correct": "hoeft",
+    "distractors": ["moet", "kan", "wil"],
+    "hint": "hoeven niet te = don't need to",
+    "source": "Je hoeft ze niet in de kast te zetten."
+  },
+  {
+    "q": "Je hoeft ze niet in de kast ___ zetten.",
+    "correct": "te",
+    "distractors": ["om te", "voor te", "aan te"],
+    "hint": "hoeven niet + te + infinitive",
+    "source": "Je hoeft ze niet in de kast te zetten."
+  },
+  {
+    "q": "Ik wil dus eigenlijk 'nee' zeggen, maar ik ___ het niet.",
+    "correct": "durf",
+    "distractors": ["kan", "wil", "moet"],
+    "hint": "durven = to dare; modal conjugation",
+    "source": "Ik wil dus eigenlijk 'nee' zeggen, maar ik durf het niet."
+  },
+  {
+    "q": "Mijn zus wordt ___ nogal snel kwaad.",
+    "correct": "namelijk",
+    "distractors": ["dus", "want", "echter"],
+    "hint": "namelijk = you see / because you see; position mid-clause",
+    "source": "Mijn zus wordt namelijk nogal snel kwaad."
+  },
+  {
+    "q": "Zeg gewoon 'nee', maar leg je reactie wel ___.",
+    "correct": "uit",
+    "distractors": ["op", "af", "voor"],
+    "hint": "separable verb uitleggen; prefix goes to end",
+    "source": "Zeg gewoon 'nee', maar leg je reactie wel uit."
+  },
+  {
+    "q": "Dan vraagt hij je de volgende keer ook niet ___.",
+    "correct": "meer",
+    "distractors": ["weer", "eens", "al"],
+    "hint": "niet meer = no longer / not again",
+    "source": "Dan vraagt hij je de volgende keer ook niet meer."
+  },
+  {
+    "q": "Dat ___ van je moedertaal af.",
+    "correct": "hangt",
+    "distractors": ["gaat", "ligt", "staat"],
+    "hint": "afhangen van = to depend on; separable",
+    "source": "Dat hangt van je moedertaal af."
+  },
+  {
+    "q": "Dat hangt van je moedertaal ___.",
+    "correct": "af",
+    "distractors": ["op", "uit", "aan"],
+    "hint": "separable verb afhangen van; prefix at end",
+    "source": "Dat hangt van je moedertaal af."
+  },
+  {
+    "q": "Je moet overal en met ___ Nederlands spreken.",
+    "correct": "iedereen",
+    "distractors": ["allen", "iemand", "niemand"],
+    "hint": "iedereen = everyone; indefinite pronoun",
+    "source": "Je moet overal en met iedereen Nederlands spreken."
+  },
+  {
+    "q": "Schrijven in het Nederlands ___ ik het moeilijkst.",
+    "correct": "vind",
+    "distractors": ["is", "lijkt", "denk"],
+    "hint": "fronted infinitive forces inversion: vind after subject",
+    "source": "Schrijven in het Nederlands vind ik het moeilijkst."
+  },
+  {
+    "q": "Schrijven in het Nederlands vind ik het ___.",
+    "correct": "moeilijkst",
+    "distractors": ["moeilijker", "moeilijk", "moeilijkste"],
+    "hint": "superlative without article after het",
+    "source": "Schrijven in het Nederlands vind ik het moeilijkst."
+  },
+  {
+    "q": "Het Arabisch heeft ___ één lidwoord en niet drie.",
+    "correct": "maar",
+    "distractors": ["slechts", "alleen", "enkel"],
+    "hint": "maar = only (limiting particle); positional use",
+    "source": "Het Arabisch heeft maar één lidwoord en niet drie, zoals het Nederlands."
+  },
+  {
+    "q": "Ga je vanmiddag ___ zwemmen?",
+    "correct": "mee",
+    "distractors": ["ook", "nog", "wel"],
+    "hint": "meegaan = to come along; separable prefix",
+    "source": "Ga je vanmiddag mee zwemmen?"
+  },
+  {
+    "q": "Ik ga sowieso, ___ ze hebben voor volwassenen ook een sauna.",
+    "correct": "want",
+    "distractors": ["omdat", "dus", "maar"],
+    "hint": "want = because, main clause follows (no word order shift)",
+    "source": "Ik ga sowieso, want ze hebben voor volwassenen ook een sauna."
+  },
+  {
+    "q": "___ vanmorgen heb ik hem aangezet.",
+    "correct": "Vanmorgen",
+    "distractors": ["Ja", "Maar", "En"],
+    "hint": "time adverb fronted → inversion: heb before ik",
+    "source": "Vanmorgen heb ik hem aangezet."
+  },
+  {
+    "q": "Vanmorgen heb ik hem ___.",
+    "correct": "aangezet",
+    "distractors": ["gezet aan", "aanzetten", "aangedaan"],
+    "hint": "perfectum of separable aanzetten: ge- inserted between prefix and stem",
+    "source": "Vanmorgen heb ik hem aangezet."
+  },
+  {
+    "q": "Ik heb gisteren nog gewassen, ___ deed hij het gewoon.",
+    "correct": "toen",
+    "distractors": ["dan", "daarna", "want"],
+    "hint": "toen = then/at that time (past); dan = then (future/conditional)",
+    "source": "Ik heb gisteren nog gewassen, toen deed hij het gewoon."
+  },
+  {
+    "q": "Als we de wasmachine ___, is de vloer telkens helemaal nat.",
+    "correct": "aanzetten",
+    "distractors": ["aanzet", "hebben aangezet", "zetten aan"],
+    "hint": "bijzin with als: conjugated verb at end of clause",
+    "source": "Als we de wasmachine aanzetten, is de vloer telkens helemaal nat."
+  },
+  {
+    "q": "Ik weet nog niet hoe laat ___.",
+    "correct": "precies",
+    "distractors": ["exact", "zeker", "eigenlijk"],
+    "hint": "precies = exactly; indirect question word order",
+    "source": "Ik weet nog niet hoe laat precies."
+  },
+  {
+    "q": "Dat ___ we u morgen weten.",
+    "correct": "laten",
+    "distractors": ["zullen", "zeggen", "geven"],
+    "hint": "laten weten = to let someone know / inform",
+    "source": "Dat laten we u morgen weten."
+  },
+  {
+    "q": "Mag ik je föhn even ___?",
+    "correct": "lenen",
+    "distractors": ["gebruiken", "pakken", "nemen"],
+    "hint": "lenen = to borrow (from someone); not pakken or nemen",
+    "source": "Mag ik je föhn even lenen?"
+  },
+  {
+    "q": "Nou, ___ je dat zelf niet even doen?",
+    "correct": "kun",
+    "distractors": ["wil", "moet", "ga"],
+    "hint": "kunnen in rhetorical suggestion; inversion question",
+    "source": "Nou, kun je dat zelf niet even doen?"
+  },
+  {
+    "q": "Je ___ ze niet in de kast te zetten. Dat doe ik wel.",
+    "correct": "hoeft",
+    "distractors": ["moet", "kan", "heeft"],
+    "hint": "hoeven niet te vs moeten niet: don't need to vs must not",
+    "source": "Je hoeft ze niet in de kast te zetten."
+  },
+  {
+    "q": "We hebben echt geen afwasmachine ___.",
+    "correct": "nodig",
+    "distractors": ["noodzakelijk", "nodige", "nood"],
+    "hint": "nodig hebben = to need; nodig is predicative adjective",
+    "source": "We hebben echt geen afwasmachine nodig."
+  },
+  {
+    "q": "Dat is ook niet ___ goed voor het milieu.",
+    "correct": "zo",
+    "distractors": ["heel", "erg", "zeer"],
+    "hint": "niet zo = not that / not very; downplaying degree",
+    "source": "Dat is ook niet zo goed voor het milieu."
+  },
+  {
+    "q": "De meeste mensen leren hun partner in hun vrije tijd ___.",
+    "correct": "kennen",
+    "distractors": ["kennen leren", "leren kennen", "weten"],
+    "hint": "leren kennen = to get to know; kennen goes to end in main clause",
+    "source": "De meeste mensen leren in hun vrije tijd hun partner kennen."
+  },
+  {
+    "q": "Soms ontmoeten mensen elkaar ___ de familie dat graag wil.",
+    "correct": "omdat",
+    "distractors": ["want", "als", "zodat"],
+    "hint": "omdat introduces reason bijzin; verb to end",
+    "source": "Soms ontmoeten mensen elkaar omdat de familie dat graag wil."
+  },
+  {
+    "q": "Ze willen hun partner eerst ___ leren kennen.",
+    "correct": "beter",
+    "distractors": ["goed", "meer", "best"],
+    "hint": "beter = better; comparative before infinitive chain",
+    "source": "Ze willen hun partner eerst beter leren kennen."
+  },
+  {
+    "q": "___ daarna trouwen ze of ze trouwen helemaal niet.",
+    "correct": "Pas",
+    "distractors": ["Dan", "Toen", "Alleen"],
+    "hint": "pas = only then / not until; fronted → inversion",
+    "source": "Pas daarna trouwen ze of ze trouwen helemaal niet."
+  },
+  {
+    "q": "Ze trouwen of ze trouwen helemaal ___.",
+    "correct": "niet",
+    "distractors": ["nooit", "meer", "geen"],
+    "hint": "helemaal niet = not at all; negation intensifier",
+    "source": "Pas daarna trouwen ze of ze trouwen helemaal niet."
+  },
+  {
+    "q": "Ongetrouwd samenwonen ___ ieder jaar populairder.",
+    "correct": "wordt",
+    "distractors": ["is", "groeit", "gaat"],
+    "hint": "worden + comparative = becoming more ...",
+    "source": "Ongetrouwd samenwonen wordt ieder jaar populairder."
+  },
+  {
+    "q": "Het aantal huwelijken in Nederland daalt nog ___.",
+    "correct": "steeds",
+    "distractors": ["altijd", "meer", "steeds meer"],
+    "hint": "nog steeds = still (ongoing); not altijd which is habitual",
+    "source": "Het aantal huwelijken in Nederland daalt nog steeds."
+  },
+  {
+    "q": "Ze stellen het krijgen van kinderen vaak ___.",
+    "correct": "uit",
+    "distractors": ["op", "af", "weg"],
+    "hint": "uitstellen = to postpone; separable prefix uit at end",
+    "source": "Ze stellen het krijgen van kinderen vaak uit."
+  },
+  {
+    "q": "Mensen scheiden vooral ___ ze te veel ruzie met elkaar maken.",
+    "correct": "omdat",
+    "distractors": ["want", "doordat", "als"],
+    "hint": "omdat = reason bijzin; verb to end of clause",
+    "source": "Mensen scheiden vooral omdat ze te veel ruzie met elkaar maken."
+  },
+  {
+    "q": "Het is hier bloed heet, maar ik ___ niet klagen.",
+    "correct": "zal",
+    "distractors": ["wil", "ga", "moet"],
+    "hint": "zullen + negation = won't / I shall not; modal zullen",
+    "source": "Het is hier bloed heet, maar ik zal niet klagen."
+  },
+  {
+    "q": "Ik hoorde dat het in Nederland al de hele week ___.",
+    "correct": "vriest",
+    "distractors": ["vroor", "heeft gevroren", "vriezen"],
+    "hint": "bijzin-dat: verb at end; present tense after hoorde",
+    "source": "Ik hoorde dat het in Nederland al de hele week vriest."
+  },
+  {
+    "q": "Gisteren was het ___ tien graden onder nul.",
+    "correct": "zelfs",
+    "distractors": ["ook", "nog", "bijna"],
+    "hint": "zelfs = even (emphasising surprising degree)",
+    "source": "Gisteren was het zelfs tien graden onder nul."
+  },
+  {
+    "q": "Mijn huisje is veel ___ klein voor een extra bed.",
+    "correct": "te",
+    "distractors": ["zo", "erg", "heel"],
+    "hint": "te = too (excessive degree); veel te = way too",
+    "source": "Mijn huisje is veel te klein voor een extra bed."
+  },
+  {
+    "q": "Ik wil je zo snel ___ bezoeken.",
+    "correct": "mogelijk",
+    "distractors": ["als mogelijk", "kunnen", "mogelijk als"],
+    "hint": "zo snel mogelijk = as soon as possible; fixed superlative phrase",
+    "source": "Ik wil je zo snel mogelijk bezoeken, maar ik moet eerst sparen."
+  },
+  {
+    "q": "En ik zal een cadeautje voor je ___.",
+    "correct": "meenemen",
+    "distractors": ["nemen mee", "meenemen mee", "brengen"],
+    "hint": "meenemen = to bring along; separable, infinitive stays together",
+    "source": "En ik zal een cadeautje uit Nederland voor je meenemen."
+  },
+  {
+    "q": "Doe je broers de ___ van me.",
+    "correct": "groeten",
+    "distractors": ["groet", "begroeting", "hello"],
+    "hint": "de groeten doen = give my regards; fixed expression plural",
+    "source": "Doe je broers de groeten van me."
+  },
+  {
+    "q": "Gisteren ___ ik je broer in de trein tegen.",
+    "correct": "kwam",
+    "distractors": ["heb gekomen", "ben gekomen", "zag"],
+    "hint": "tegenkomen = to run into; imperfectum: kwamen/kwam",
+    "source": "Gisteren kwam ik je broer in de trein tegen."
+  },
+  {
+    "q": "Gisteren kwam ik je broer in de trein ___.",
+    "correct": "tegen",
+    "distractors": ["op", "af", "uit"],
+    "hint": "separable tegenkomen; prefix tegen at end",
+    "source": "Gisteren kwam ik je broer in de trein tegen."
+  },
+  {
+    "q": "Hij ___ nog steeds heel veel op je.",
+    "correct": "lijkt",
+    "distractors": ["is", "ziet", "lijkent"],
+    "hint": "lijken op = to resemble; separable verb",
+    "source": "Hij lijkt nog steeds heel veel op je."
+  },
+  {
+    "q": "Ik mis hem wel, maar ik ben niet heel ___.",
+    "correct": "verdrietig",
+    "distractors": ["treurig", "verdriet", "bedroefd"],
+    "hint": "verdrietig = sad; predicative adjective after zijn",
+    "source": "Ik mis hem wel, maar ik ben niet heel verdrietig."
+  },
+  {
+    "q": "Ik ___ me vroeger altijd voor zijn grapjes.",
+    "correct": "schaamde",
+    "distractors": ["schaamde me", "schamde", "heb geschaamd"],
+    "hint": "imperfectum of zich schamen; reflexive me stays",
+    "source": "Ik schaamde me vroeger altijd voor zijn grapjes."
+  },
+  {
+    "q": "Volgens mijn moeder ben ik net ___ vrolijk als hij.",
+    "correct": "zo",
+    "distractors": ["als", "meer", "even"],
+    "hint": "net zo ... als = just as ... as; comparison formula",
+    "source": "Volgens mijn moeder ben ik net zo vrolijk als hij."
+  },
+  {
+    "q": "Mijn broer en ik lijken meer ___ onze moeder.",
+    "correct": "op",
+    "distractors": ["aan", "van", "als"],
+    "hint": "lijken op = to look like / resemble; fixed preposition op",
+    "source": "Mijn broer en ik lijken meer op onze moeder."
+  },
+  {
+    "q": "Ik hoop dat ik aan alles heb ___.",
+    "correct": "gedacht",
+    "distractors": ["gedacht aan", "dacht", "nagedacht"],
+    "hint": "perfectum of denken aan; ge-dacht; aan stays before gedacht",
+    "source": "Ik hoop dat ik aan alles heb gedacht."
+  },
+  {
+    "q": "Die gaan we morgen samen ___.",
+    "correct": "uitzoeken",
+    "distractors": ["zoeken uit", "uitzoek", "zoeken"],
+    "hint": "separable uitzoeken = to pick out; infinitive stays together",
+    "source": "Die gaan we morgen samen uitzoeken."
+  },
+  {
+    "q": "Zijn de uitnodigingen al ___?",
+    "correct": "verstuurd",
+    "distractors": ["versturen", "verstuurde", "gestuurd"],
+    "hint": "perfectum of versturen; ge-prefix is replaced by ver-",
+    "source": "Zijn de uitnodigingen voor het feest al verstuurd?"
+  },
+  {
+    "q": "Om twee uur ___ we in het stadhuis zijn.",
+    "correct": "moeten",
+    "distractors": ["zijn", "gaan", "zullen"],
+    "hint": "moeten = obligation; time phrase fronted → inversion",
+    "source": "Om twee uur moeten we in het stadhuis zijn."
+  },
+  {
+    "q": "Jeroen wil graag een maand ___ Azië reizen.",
+    "correct": "door",
+    "distractors": ["naar", "in", "over"],
+    "hint": "door = through (traversing); naar = to (destination)",
+    "source": "Jeroen wil graag een maand door Azië reizen."
+  },
+  {
+    "q": "Dat lijkt me ___.",
+    "correct": "niets",
+    "distractors": ["niet", "niks aan", "slecht"],
+    "hint": "niets = nothing / not appealing; dat lijkt me niets = that's not for me",
+    "source": "Dat lijkt me niets."
+  },
+  {
+    "q": "Oei, ik bedenk ___ dat ik de kapper nog niet heb gebeld.",
+    "correct": "ineens",
+    "distractors": ["opeens", "plotseling", "meteen"],
+    "hint": "ineens and opeens both work but ineens is more natural here",
+    "source": "Oei, ik bedenk ineens dat ik de kapper nog niet heb gebeld."
+  },
+  {
+    "q": "Ik had geen zin meer ___ me te scheren.",
+    "correct": "om",
+    "distractors": ["voor", "aan", "te"],
+    "hint": "om te + infinitive construction; geen zin om te = no desire to",
+    "source": "Ik had geen zin meer om me te scheren."
+  },
+  {
+    "q": "Ik had geen zin meer om me te ___.",
+    "correct": "scheren",
+    "distractors": ["scheer", "geschoren", "scherende"],
+    "hint": "om te + bare infinitive; not the past participle",
+    "source": "Ik had geen zin meer om me te scheren."
+  },
+  {
+    "q": "Wanneer ben je hier voor het ___ geweest?",
+    "correct": "laatst",
+    "distractors": ["laatste", "laat", "meest laat"],
+    "hint": "voor het laatst = for the last time; fixed superlative expression",
+    "source": "Wanneer ben je hier voor het laatst geweest?"
+  },
+  {
+    "q": "Knip het maar lekker ___ voor de zomer.",
+    "correct": "kort",
+    "distractors": ["kortste", "korter", "kleine"],
+    "hint": "kort = short; predicative adjective, no inflection after lekker",
+    "source": "Knip het maar lekker kort voor de zomer."
+  },
+  {
+    "q": "O, dat ___ niet, ik heb het thuis al gewassen.",
+    "correct": "hoeft",
+    "distractors": ["moet", "kan", "is"],
+    "hint": "hoeven niet = not necessary; contrast with moeten = obligation",
+    "source": "O, dat hoeft niet, ik heb het thuis al gewassen."
+  },
+  {
+    "q": "Het ___ ook goed bij je baard en je gezicht.",
+    "correct": "staat",
+    "distractors": ["is", "ziet", "past"],
+    "hint": "staan = to suit / look good on (for hair, clothes, style)",
+    "source": "Het staat ook goed bij je baard en je gezicht."
+  },
+  {
+    "q": "Maak het maar wat ___, wat blonder.",
+    "correct": "lichter",
+    "distractors": ["licht", "lichtere", "lichtst"],
+    "hint": "comparative lichter; wat = a bit (softening particle)",
+    "source": "Maak het maar wat lichter, wat blonder."
+  },
+  {
+    "q": "Als ik niet sport, word ik ___.",
+    "correct": "chagrijnig",
+    "distractors": ["boos", "moe", "ziek"],
+    "hint": "worden + adjective = to become; chagrijnig = grumpy/irritable",
+    "source": "Als ik niet sport, word ik chagrijnig."
+  },
+  {
+    "q": "___ ga ik op mijn racefiets naar het werk.",
+    "correct": "Daarom",
+    "distractors": ["Dus", "Want", "Omdat"],
+    "hint": "daarom = that's why; fronted → inversion; want/omdat stay mid-sentence",
+    "source": "Daarom ga ik op mijn racefiets naar het werk."
+  },
+  {
+    "q": "Omdat hij veel last van spierpijn had, ___ hij op.",
+    "correct": "hield",
+    "distractors": ["stopte", "houd", "ophield"],
+    "hint": "ophouden = to stop; imperfectum hield; inversion after bijzin",
+    "source": "Omdat hij veel last van spierpijn had, hield hij op."
+  },
+  {
+    "q": "Omdat hij veel last van spierpijn had, hield hij ___.",
+    "correct": "op",
+    "distractors": ["uit", "af", "weg"],
+    "hint": "separable ophouden; prefix op at end of clause",
+    "source": "Omdat hij veel last van spierpijn had, hield hij op."
+  },
+  {
+    "q": "Hij heeft niet zoveel discipline ___ ik.",
+    "correct": "als",
+    "distractors": ["dan", "zoals", "want"],
+    "hint": "zo ... als = as ... as comparison; niet zoveel als = not as much as",
+    "source": "Hij heeft niet zoveel discipline als ik."
+  },
+  {
+    "q": "Ik wil in ieder ___ naar het Rijksmuseum.",
+    "correct": "geval",
+    "distractors": ["geval gaan", "geval wel", "geval ook"],
+    "hint": "in ieder geval = in any case; fixed expression",
+    "source": "Ik wil in ieder geval naar het Rijksmuseum in Amsterdam."
+  },
+  {
+    "q": "Dat ___ ik echt niet vol.",
+    "correct": "houd",
+    "distractors": ["doe", "vol hou", "kan"],
+    "hint": "volhouden = to keep up / endure; separable, prefix vol at end",
+    "source": "Dat houd ik echt niet vol."
+  },
+  {
+    "q": "Mijn vriend is niet ___ om in zo'n drukke stad te fietsen.",
+    "correct": "gewend",
+    "distractors": ["gebruikt", "geleerd", "bekend"],
+    "hint": "gewend zijn om te = to be used to doing; fixed construction",
+    "source": "Mijn vriend is niet gewend om in zo'n drukke stad te fietsen."
+  },
+  {
+    "q": "Het Mauritshuis is ook erg de moeite ___.",
+    "correct": "waard",
+    "distractors": ["waardig", "waarde", "waard zijn"],
+    "hint": "de moeite waard = worth the effort; fixed expression, waard invariable",
+    "source": "Het Mauritshuis in Den Haag is ook erg de moeite waard."
+  },
+  {
+    "q": "Bent u ___ in dat mooie witte gebouw geweest?",
+    "correct": "weleens",
+    "distractors": ["al", "ooit", "soms"],
+    "hint": "weleens = ever (casual); used with perfectum for past experience",
+    "source": "Bent u weleens in dat mooie witte gebouw geweest?"
+  },
+  {
+    "q": "Voor luisterboeken hoeft u niet eens uit uw stoel te ___.",
+    "correct": "komen",
+    "distractors": ["gaan", "staan", "lopen"],
+    "hint": "uit de stoel komen = to get out of your chair; niet eens = not even",
+    "source": "Voor luisterboeken en e-boeken hoeft u niet eens uit uw stoel te komen."
+  },
+  {
+    "q": "Die ___ u thuis.",
+    "correct": "downloadt",
+    "distractors": ["download", "downloaded", "downloaden"],
+    "hint": "die as pronoun replaces het-word; formal u; inversion",
+    "source": "Die downloadt u thuis."
+  },
+  {
+    "q": "Op de vijfde verdieping ___ speciale studieplekken.",
+    "correct": "zijn",
+    "distractors": ["staan", "hebben", "is"],
+    "hint": "er-zijn equivalent; fronted location; plural subject = zijn",
+    "source": "Op de vijfde verdieping zijn speciale studieplekken die een gratis wifi-verbinding hebben."
+  },
+  {
+    "q": "Veel studieplekken hebben een stopcontact, ___ u uw laptop kunt opladen.",
+    "correct": "zodat",
+    "distractors": ["omdat", "want", "dus"],
+    "hint": "zodat = so that (result/purpose bijzin); verb to end",
+    "source": "Veel studieplekken hebben een stopcontact, zodat u uw laptop of telefoon kunt opladen."
+  },
+  {
+    "q": "Als u geen laptop hebt, ___ u één uur per dag een computer gebruiken.",
+    "correct": "kunt",
+    "distractors": ["mag", "moet", "heeft"],
+    "hint": "kunnen = ability/permission; inversion after als-bijzin",
+    "source": "Als u geen laptop hebt, kunt u één uur per dag een computer van de bibliotheek gebruiken."
+  },
+  {
+    "q": "Iedereen in Nederland ___ een zorgverzekering hebben.",
+    "correct": "moet",
+    "distractors": ["kan", "mag", "wil"],
+    "hint": "moeten = obligation; iedereen is singular → moet",
+    "source": "Iedereen in Nederland moet een zorgverzekering hebben."
+  },
+  {
+    "q": "Naast de basisverzekering ___ u nog extra verzekeringen kiezen.",
+    "correct": "kunt",
+    "distractors": ["moet", "mag", "wilt"],
+    "hint": "kunnen = option/choice; naast fronted → inversion",
+    "source": "Naast de basisverzekering kunt u nog extra verzekeringen kiezen."
+  },
+  {
+    "q": "U moet een eerste deel van de zorgkosten ___ betalen.",
+    "correct": "zelf",
+    "distractors": ["zichzelf", "eigen", "alleen"],
+    "hint": "zelf = yourself (emphatic); not reflexive zichzelf here",
+    "source": "U moet een eerste deel van de zorgkosten zelf betalen."
+  },
+  {
+    "q": "Dat ___ we het eigen risico.",
+    "correct": "noemen",
+    "distractors": ["zeggen", "heten", "noem"],
+    "hint": "noemen = to call/name something; we noemen dat X",
+    "source": "Dat noemen we het eigen risico."
+  },
+  {
+    "q": "De huisarts en kraamzorg ___ niet onder het eigen risico.",
+    "correct": "vallen",
+    "distractors": ["zijn", "gaan", "horen"],
+    "hint": "vallen onder = to fall under / be covered by; plural vallen",
+    "source": "De huisarts, kraamzorg en zorg voor kinderen vallen niet onder het eigen risico."
+  },
+  {
+    "q": "Deze kosten hoeft u dus niet zelf ___ betalen.",
+    "correct": "te",
+    "distractors": ["om te", "aan te", "voor te"],
+    "hint": "hoeven niet + te + infinitive; om is not used with hoeven",
+    "source": "Deze kosten hoeft u dus niet zelf te betalen."
+  },
+  {
+    "q": "Als u niet tevreden bent, ___ u overstappen.",
+    "correct": "kunt",
+    "distractors": ["moet", "mag", "wilt"],
+    "hint": "kunnen = possibility; inversion after als-bijzin",
+    "source": "Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen."
+  },
+  {
+    "q": "Halverwege het jaar kunt u ___ niet overstappen.",
+    "correct": "dus",
+    "distractors": ["toch", "wel", "dan"],
+    "hint": "dus = therefore/so; logical conclusion connector",
+    "source": "Halverwege het jaar kunt u dus niet op een andere verzekering overstappen."
+  },
+  {
+    "q": "De gemeente haalt het restafval ___.",
+    "correct": "op",
+    "distractors": ["weg", "af", "uit"],
+    "hint": "ophalen = to collect/pick up; separable, op at end",
+    "source": "De gemeente haalt het restafval op."
+  },
+  {
+    "q": "Het is beter voor het milieu ___ afval te scheiden.",
+    "correct": "om",
+    "distractors": ["voor", "aan", "te"],
+    "hint": "om te + infinitive; het is beter om te... = it's better to...",
+    "source": "Het is beter voor het milieu om afval te scheiden."
+  },
+  {
+    "q": "Lege batterijen ___ niet in het milieu terechtkomen.",
+    "correct": "mogen",
+    "distractors": ["kunnen", "moeten", "willen"],
+    "hint": "mogen niet = must not / are not allowed to; prohibition",
+    "source": "Lege batterijen, medicijnen en olie mogen niet in het milieu terechtkomen."
+  },
+  {
+    "q": "Als u ze naar de supermarkt ___, krijgt u een bonnetje.",
+    "correct": "terugbrengt",
+    "distractors": ["brengt terug", "terugbreng", "heeft teruggebracht"],
+    "hint": "bijzin: separable verb stays together at end; terugbrengen",
+    "source": "Als u ze naar de supermarkt terugbrengt, krijgt u een bonnetje."
+  },
+  {
+    "q": "Je netwerk ___ uit alle mensen die je kent.",
+    "correct": "bestaat",
+    "distractors": ["gaat", "is", "heeft"],
+    "hint": "bestaan uit = to consist of; separable verb",
+    "source": "Je netwerk bestaat uit alle mensen die je kent."
+  },
+  {
+    "q": "Je netwerk is ___ dan je denkt.",
+    "correct": "groter",
+    "distractors": ["groot", "grootst", "meer groot"],
+    "hint": "comparative groter; comparison with dan",
+    "source": "Je netwerk is groter dan je denkt."
+  },
+  {
+    "q": "Als je netwerkt, moet je voor nieuwe mensen ___ staan.",
+    "correct": "open",
+    "distractors": ["openbaar", "vrij", "beschikbaar"],
+    "hint": "openstaan voor = to be open to; separable, open at end of bijzin",
+    "source": "Als je netwerkt, moet je voor nieuwe mensen open staan."
+  },
+  {
+    "q": "Begin ___ praten over een neutraal onderwerp.",
+    "correct": "met",
+    "distractors": ["om", "over", "aan"],
+    "hint": "beginnen met + infinitive = to start by doing; fixed preposition",
+    "source": "Begin met praten over een neutraal onderwerp, zoals de locatie of het eten."
+  },
+  {
+    "q": "Later ___ je serieuzere vragen stellen.",
+    "correct": "kun",
+    "distractors": ["mag", "wil", "moet"],
+    "hint": "kunnen = possibility; inversion: kun before je",
+    "source": "Later kun je serieuzere vragen stellen."
+  },
+  {
+    "q": "Besef dat ___ netwerken spannend vindt.",
+    "correct": "iedereen",
+    "distractors": ["iemand", "niemand", "men"],
+    "hint": "iedereen = everyone; bijzin-dat + verb at end",
+    "source": "Besef dat iedereen netwerken spannend vindt."
+  },
+  {
+    "q": "Hij houdt ___ van kunst en ik totaal niet.",
+    "correct": "namelijk",
+    "distractors": ["immers", "dus", "ook"],
+    "hint": "namelijk = you see / I should mention; position after verb",
+    "source": "Hij houdt namelijk van kunst en ik totaal niet."
+  },
+  {
+    "q": "Ik heb nooit eerder in een boekwinkel ___.",
+    "correct": "gewerkt",
+    "distractors": ["gewerk", "werkte", "gewerken"],
+    "hint": "perfectum regular verb werken: ge + stem + t",
+    "source": "Ik heb nooit eerder in een boekwinkel gewerkt."
+  },
+  {
+    "q": "Ik ___ ze helpen, als ze iets niet konden vinden.",
+    "correct": "moest",
+    "distractors": ["moet", "heb gemoeten", "had moeten"],
+    "hint": "moeten imperfectum = moest; past obligation in job description",
+    "source": "Ik moest ze helpen, als ze iets niet konden vinden."
+  },
+  {
+    "q": "Als het erg druk was, ___ ik soms ook achter de kassa werken.",
+    "correct": "moest",
+    "distractors": ["moet", "kon", "mocht"],
+    "hint": "moest = had to; imperfectum in past condition",
+    "source": "Als het erg druk was, moest ik soms ook achter de kassa werken."
+  },
+  {
+    "q": "Als klanten een vraag hadden, ___ ik graag tijd voor ze.",
+    "correct": "maakte",
+    "distractors": ["maak", "had", "nam"],
+    "hint": "imperfectum maakte; tijd maken voor = to make time for",
+    "source": "Als klanten een vraag over een product hadden, dan maakte ik graag tijd voor ze."
+  },
+  {
+    "q": "Ik vind het niks ___ de hele dag achter een bureau te zitten.",
+    "correct": "om",
+    "distractors": ["voor", "aan", "te"],
+    "hint": "het niks vinden om te = can't stand doing; om te construction",
+    "source": "Ik vind het niks om de hele dag achter een bureau te zitten."
+  },
+  {
+    "q": "En doordeweeks kan ik ook in de avond, ___ dat nodig is.",
+    "correct": "als",
+    "distractors": ["wanneer", "indien", "mits"],
+    "hint": "als = if (conditional); wanneer = when (time); als is more natural here",
+    "source": "En doordeweeks kan ik ook in de avond, als dat nodig is."
+  },
+  {
+    "q": "Het weer in Nederland kan iedere dag ___ zijn.",
+    "correct": "anders",
+    "distractors": ["ander", "verschillend", "veranderlijk"],
+    "hint": "anders = different; predicative adjective, invariable form",
+    "source": "Het weer in Nederland kan iedere dag anders zijn."
+  },
+  {
+    "q": "Veel mensen hebben het gevoel ___ Nederland een erg nat klimaat heeft.",
+    "correct": "dat",
+    "distractors": ["die", "of", "wat"],
+    "hint": "het gevoel dat = the feeling that; dat introduces bijzin",
+    "source": "Veel mensen hebben het gevoel dat Nederland een erg nat klimaat heeft."
+  },
+  {
+    "q": "Als je op vakantie gaat, moet je altijd rekening ___ slecht weer houden.",
+    "correct": "met",
+    "distractors": ["voor", "aan", "over"],
+    "hint": "rekening houden met = to take into account; fixed preposition met",
+    "source": "Als je op vakantie in Nederland gaat, moet je altijd rekening met slecht weer houden."
+  },
+  {
+    "q": "De winters zijn de laatste vijftig jaar minder koud ___.",
+    "correct": "geworden",
+    "distractors": ["worden", "geweest", "gegaan"],
+    "hint": "worden perfectum with zijn: zijn + geworden; change of state",
+    "source": "De winters zijn de laatste vijftig jaar wel steeds minder koud geworden."
+  },
+  {
+    "q": "Vroeger ___ je in Nederland bijna iedere winter schaatsen.",
+    "correct": "kon",
+    "distractors": ["kan", "mocht", "deed"],
+    "hint": "kunnen imperfectum = kon; describing past possibility",
+    "source": "Vroeger kon je in Nederland bijna iedere winter schaatsen."
+  },
+  {
+    "q": "Het ___ en stormt vooral in de winter vaker.",
+    "correct": "regent",
+    "distractors": ["regende", "heeft geregend", "zal regenen"],
+    "hint": "present tense for general climate facts; impersonal het",
+    "source": "Het regent en stormt vooral in de winter en de lente vaker."
+  },
+  {
+    "q": "Als het water in de Noordzee ___, hebben we meer kans op wateroverlast.",
+    "correct": "stijgt",
+    "distractors": ["stijgen", "gestegen is", "is gestegen"],
+    "hint": "bijzin-als: conjugated verb at end; present tense for future condition",
+    "source": "Als het water in de Noordzee en in de rivieren stijgt, hebben we meer kans op wateroverlast."
+  },
+  {
+    "q": "Nederland wordt ___ warmer door klimaatverandering.",
+    "correct": "steeds",
+    "distractors": ["altijd", "nog", "meer en meer"],
+    "hint": "steeds + comparative = increasingly; fixed combination",
+    "source": "Nederland wordt steeds warmer door klimaatverandering."
+  },
+  {
+    "q": "In de stad ___ je de bergen zien.",
+    "correct": "kon",
+    "distractors": ["kan", "mocht", "zag"],
+    "hint": "kunnen imperfectum = kon; past ability/possibility",
+    "source": "In de stad kon je de bergen zien."
+  },
+  {
+    "q": "Ik ___ me thuis in de natuur.",
+    "correct": "voelde",
+    "distractors": ["voel", "heb gevoeld", "was"],
+    "hint": "zich voelen imperfectum = voelde; reflexive me stays",
+    "source": "Ik voelde me thuis in de natuur."
+  },
+  {
+    "q": "Eigenlijk hebben mensen bijna alle natuurgebieden in Nederland ___ gemaakt.",
+    "correct": "zelf",
+    "distractors": ["eigen", "zichzelf", "alleen"],
+    "hint": "zelf = themselves (emphatic); position before past participle",
+    "source": "Eigenlijk hebben mensen bijna alle natuurgebieden in Nederland zelf gemaakt."
+  },
+  {
+    "q": "___ die natuurgebieden staat een hek heen.",
+    "correct": "Om",
+    "distractors": ["Rond", "Bij", "Langs"],
+    "hint": "om ... heen = around (encircling); fronted → inversion",
+    "source": "Om die natuurgebieden staat een hek heen en er zijn zo veel regels."
+  },
+  {
+    "q": "Je ___ alleen op de paden lopen.",
+    "correct": "mag",
+    "distractors": ["moet", "kan", "hoeft"],
+    "hint": "mogen = permission (allowed to); restriction context",
+    "source": "Je mag alleen op de paden lopen."
+  },
+  {
+    "q": "Het is niet ___ om daar zomaar hotels te bouwen.",
+    "correct": "toegestaan",
+    "distractors": ["toegelaten", "verboden", "toestaan"],
+    "hint": "toegestaan = permitted/allowed; niet toegestaan = not allowed",
+    "source": "Het is niet toegestaan om daar zomaar hotels of huizen te bouwen."
+  },
+  {
+    "q": "Welke vind jij het ___?",
+    "correct": "leukst",
+    "distractors": ["leukste", "leuker", "meest leuk"],
+    "hint": "superlative after het: het leukst (no -e); predicative form",
+    "source": "Welke vind jij het leukst?"
+  },
+  {
+    "q": "We zijn vorig jaar ___ en we zitten hier nog steeds met z'n tweeën.",
+    "correct": "verhuisd",
+    "distractors": ["verhuis", "verhuizen", "verhuisde"],
+    "hint": "zijn-perfectum of verhuizen; no ge- prefix because ver- already there",
+    "source": "We zijn vorig jaar verhuisd en we zitten hier nog steeds met z'n tweeën."
+  },
+  {
+    "q": "Je moet hem een paar keer per dag ___.",
+    "correct": "uitlaten",
+    "distractors": ["laten uit", "uitlopen", "buiten brengen"],
+    "hint": "uitlaten = to walk (a dog); separable, infinitive stays together",
+    "source": "Je moet hem een paar keer per dag uitlaten."
+  },
+  {
+    "q": "___ is ons appartement te klein voor een hond.",
+    "correct": "Bovendien",
+    "distractors": ["Daarom", "Toch", "Namelijk"],
+    "hint": "bovendien = moreover/furthermore; fronted → inversion",
+    "source": "Bovendien is ons appartement te klein voor een hond."
+  },
+  {
+    "q": "Ze zijn blij ___ je thuiskomt.",
+    "correct": "als",
+    "distractors": ["wanneer", "dat", "omdat"],
+    "hint": "als = when (repeated/conditional event); thuiskomen = separable",
+    "source": "Ze zijn blij als je thuiskomt."
+  },
+  {
+    "q": "Als je je hond uitlaat, maak je veel ___ een praatje.",
+    "correct": "sneller",
+    "distractors": ["snel", "snelst", "meer snel"],
+    "hint": "comparative sneller; veel sneller = much more quickly",
+    "source": "Als je je hond uitlaat, maak je veel sneller een praatje met mensen uit de buurt."
+  },
+  {
+    "q": "We kunnen toch gewoon een keer gaan ___ bij die kleine poesjes?",
+    "correct": "kijken",
+    "distractors": ["zien", "kijken naar", "bekijken"],
+    "hint": "gaan kijken = go and look; kijken is the infinitive in the chain",
+    "source": "We kunnen toch gewoon een keer gaan kijken bij die kleine poesjes?"
+  },
+  {
+    "q": "Het ___ echter op dat jongeren veel vaker op sociale media zitten.",
+    "correct": "valt",
+    "distractors": ["is", "blijkt", "staat"],
+    "hint": "opvallen = to be noticeable; het valt op dat = it is notable that",
+    "source": "Het valt echter op dat jongeren tussen de 18 en 25 jaar veel vaker op sociale media zitten."
+  },
+  {
+    "q": "Uit onderzoek ___ dat steeds meer jongeren verslaafd zijn.",
+    "correct": "blijkt",
+    "distractors": ["zegt", "toont", "staat"],
+    "hint": "blijken uit = to emerge from / show; uit onderzoek blijkt dat = research shows",
+    "source": "Uit onderzoek blijkt dat steeds meer jongeren aan sociale media verslaafd zijn."
+  },
+  {
+    "q": "Ze vinden het eigenlijk ___ van hun tijd.",
+    "correct": "zonde",
+    "distractors": ["verspilling", "slecht", "verloren"],
+    "hint": "zonde van = a waste of; fixed expression",
+    "source": "Ze vinden het eigenlijk zonde van hun tijd om sociale media te gebruiken."
+  },
+  {
+    "q": "Ik kijk meestal ___ het journaal.",
+    "correct": "naar",
+    "distractors": ["op", "van", "aan"],
+    "hint": "kijken naar = to watch; fixed preposition naar for TV/screen",
+    "source": "Ik kijk meestal naar het journaal."
+  },
+  {
+    "q": "Soms kijk ik programma's ___ die ik heb gemist.",
+    "correct": "terug",
+    "distractors": ["terug kijken", "opnieuw", "nogmaals"],
+    "hint": "terugkijken = to watch back; separable, terug at end of clause",
+    "source": "Soms kijk ik online wat programma's terug die ik heb gemist."
+  },
+  {
+    "q": "Ik heb ook geen abonnement ___ series te kijken.",
+    "correct": "om",
+    "distractors": ["voor", "aan", "te"],
+    "hint": "geen abonnement om te = no subscription to; om te construction",
+    "source": "Ik heb ook geen abonnement of zo, om series te kijken."
+  },
+  {
+    "q": "Dan kijk ik vaak vier of vijf afleveringen ___ elkaar.",
+    "correct": "achter",
+    "distractors": ["na", "voor", "met"],
+    "hint": "achter elkaar = in a row / consecutively; fixed expression",
+    "source": "Dan kijk ik vaak vier of vijf afleveringen achter elkaar."
+  },
+  {
+    "q": "Je hoeft even helemaal aan ___ te denken.",
+    "correct": "niets",
+    "distractors": ["iets", "alles", "niets anders"],
+    "hint": "hoeven niet + te; niets = nothing; helemaal niets = absolutely nothing",
+    "source": "Je hoeft even helemaal aan niets te denken, alleen maar te kijken."
+  },
+  {
+    "q": "Ik ben benieuwd ___ er gaat winnen.",
+    "correct": "wie",
+    "distractors": ["wat", "dat", "of"],
+    "hint": "wie = who; indirect question after benieuwd; er as pronoun placeholder",
+    "source": "Ik ben benieuwd wie er gaat winnen."
+  },
+  {
+    "q": "Vorige maand ___ mijn vader overleden.",
+    "correct": "is",
+    "distractors": ["heeft", "was", "werd"],
+    "hint": "overlijden takes zijn in perfectum; movement/change of state verb",
+    "source": "Vorige maand is mijn vader overleden."
+  },
+  {
+    "q": "Leuk dat je mijn broer in de trein bent ___!",
+    "correct": "tegengekomen",
+    "distractors": ["teggekomen", "tegengekomen tegen", "gekomen tegen"],
+    "hint": "zijn-perfectum of tegenkomen; ge- inserted: tegen-ge-komen",
+    "source": "Leuk dat je mijn broer in de trein bent tegengekomen!"
+  },
+  {
+    "q": "Ik ben in een stad ___.",
+    "correct": "opgegroeid",
+    "distractors": ["gegroeid op", "opgegroeiden", "groot geworden"],
+    "hint": "zijn-perfectum of opgroeien; ge- inserted: op-ge-groeid",
+    "source": "Ik ben in een stad opgegroeid."
+  },
+  {
+    "q": "Ook het aantal alleenstaande mensen is erg ___.",
+    "correct": "toegenomen",
+    "distractors": ["gegroeid", "gestegen", "genomen toe"],
+    "hint": "zijn-perfectum of toenemen; ge- inserted: toe-ge-nomen",
+    "source": "Ook het aantal alleenstaande mensen is erg toegenomen."
+  },
+  {
+    "q": "Ze zijn verliefd ___ en hebben een relatie gekregen.",
+    "correct": "geworden",
+    "distractors": ["gegaan", "geraakt", "gevallen"],
+    "hint": "worden perfectum with zijn; verliefd worden = to fall in love",
+    "source": "Ze zijn verliefd geworden en hebben een relatie gekregen."
+  },
+  {
+    "q": "Ik ___ ze meteen de blauwe zee laten zien.",
+    "correct": "wilde",
+    "distractors": ["wou", "wil", "heb gewild"],
+    "hint": "willen imperfectum = wilde (standard) or wou (informal); laten zien follows",
+    "source": "Ik wilde ze meteen de blauwe zee laten zien."
+  },
+  {
+    "q": "Ik wilde ze meteen de blauwe zee laten ___.",
+    "correct": "zien",
+    "distractors": ["zien te", "zien aan", "bekijken"],
+    "hint": "laten zien = to show; zien is the bare infinitive after laten",
+    "source": "Ik wilde ze meteen de blauwe zee laten zien."
+  },
+  {
+    "q": "Ik ___ geen minuut stilzitten, ik was altijd buiten.",
+    "correct": "kon",
+    "distractors": ["mocht", "wilde", "moest"],
+    "hint": "kunnen imperfectum = kon; physical inability",
+    "source": "Ik kon geen minuut stilzitten, ik was altijd buiten."
+  },
+  {
+    "q": "We ___ niet stoppen met lachen.",
+    "correct": "konden",
+    "distractors": ["mochten", "wilden", "moesten"],
+    "hint": "konden = could not; plural imperfectum of kunnen",
+    "source": "We konden niet stoppen met lachen."
+  },
+  {
+    "q": "Ik ___ dat het zomer was, lekker 25 graden.",
+    "correct": "wilde",
+    "distractors": ["hoopte", "dacht", "wou dat"],
+    "hint": "willen + dat + imperfectum = to wish something were true",
+    "source": "Ik wilde dat het zomer was, lekker 25 graden."
+  },
+  {
+    "q": "Er ___ ook vaak periodes met regen en onweer.",
+    "correct": "zijn",
+    "distractors": ["is", "komen", "hebben"],
+    "hint": "er zijn = there are; plural subject periodes → zijn",
+    "source": "Maar er zijn ook vaak periodes met regen en onweer."
+  },
+  {
+    "q": "Er ___ meer ouderen op sociale media omdat ze handiger zijn geworden.",
+    "correct": "zitten",
+    "distractors": ["zijn", "gaan", "staan"],
+    "hint": "zitten op = to be on (social media); er zitten = there are (sitting)",
+    "source": "Er zitten meer ouderen op sociale media omdat ze handiger met hun smartphone zijn geworden."
+  },
+  {
+    "q": "Zijn er nog meer positieve ___?",
+    "correct": "invloeden",
+    "distractors": ["invloed", "invloeden zijn", "effecten"],
+    "hint": "er zijn + plural noun; invloeden = influences (plural of invloed)",
+    "source": "Zijn er nog meer positieve invloeden?"
+  },
+  {
+    "q": "Alleenstaande mensen zijn mensen ___ alleen wonen.",
+    "correct": "die",
+    "distractors": ["dat", "welke", "wie"],
+    "hint": "die = relative pronoun for de-words and plural nouns",
+    "source": "Alleenstaande mensen zijn mensen die alleen wonen."
+  },
+  {
+    "q": "Jeroen kent een fotograaf ___ mooie foto's kan maken.",
+    "correct": "die",
+    "distractors": ["dat", "welke", "wat"],
+    "hint": "die = relative pronoun; fotograaf is de-word",
+    "source": "Jeroen kent een fotograaf die mooie foto's kan maken."
+  },
+  {
+    "q": "Jeroen kent een fotograaf die mooie foto's ___ maken.",
+    "correct": "kan",
+    "distractors": ["kan hij", "maakt", "kunnen"],
+    "hint": "bijzin word order: modal verb goes to end; no subject pronoun repeated",
+    "source": "Jeroen kent een fotograaf die mooie foto's kan maken."
+  },
+  {
+    "q": "Soms kijk ik programma's terug ___ ik heb gemist.",
+    "correct": "die",
+    "distractors": ["dat", "welke", "wat"],
+    "hint": "die = relative pronoun; programma's is plural → die",
+    "source": "Soms kijk ik online wat programma's terug die ik heb gemist."
+  },
+  {
+    "q": "___ heb ik lekker uitgerust en twee films gekeken.",
+    "correct": "Gisteren",
+    "distractors": ["Toen", "Dan", "Daarna"],
+    "hint": "gisteren fronted → inversion: heb before ik",
+    "source": "Dus gisteren heb ik lekker uitgerust en twee films gekeken."
+  },
+  {
+    "q": "Vorig jaar ___ we hem gekocht.",
+    "correct": "hebben",
+    "distractors": ["zijn", "hadden", "kochten"],
+    "hint": "kopen takes hebben in perfectum; vorig jaar fronted → inversion",
+    "source": "Het is een nieuw type, we hebben hem vorig jaar gekocht."
+  },
+  {
+    "q": "___ was ongetrouwd samenwonen niet zo vanzelfsprekend.",
+    "correct": "Vroeger",
+    "distractors": ["Voorheen", "Destijds", "Toen"],
+    "hint": "vroeger fronted → inversion; vroeger = in the past (general)",
+    "source": "Vroeger was ongetrouwd samenwonen niet zo vanzelfsprekend."
+  },
+  {
+    "q": "'s Ochtends ___ ik de winkel open en 's avonds sloot ik hem weer.",
+    "correct": "maakte",
+    "distractors": ["deed", "opende", "zette"],
+    "hint": "openmaken imperfectum = maakte open; 's ochtends fronted → inversion",
+    "source": "'s Ochtends maakte ik de winkel open en 's avonds sloot ik hem weer."
+  },
+  {
+    "q": "Laten we binnenkort samen iets gaan ___.",
+    "correct": "drinken",
+    "distractors": ["te drinken", "gedronken", "drinkend"],
+    "hint": "laten we + infinitive chain; gaan + bare infinitive at end",
+    "source": "Laten we binnenkort samen iets gaan drinken."
+  },
+  {
+    "q": "Dat ___ we u morgen weten.",
+    "correct": "laten",
+    "distractors": ["zeggen", "vertellen", "geven"],
+    "hint": "laten weten = to let someone know; not zeggen or vertellen",
+    "source": "Dat laten we u morgen weten."
+  },
+  {
+    "q": "Ik laat je straks zien hoe je het moet ___.",
+    "correct": "föhnen",
+    "distractors": ["te föhnen", "föhned", "drogen"],
+    "hint": "indirect question + moeten + bare infinitive at very end",
+    "source": "Ik laat je straks ook zien hoe je het moet föhnen."
+  },
+  {
+    "q": "Ze ___ een groot deel van het bos zo gemaakt.",
+    "correct": "hebben",
+    "distractors": ["zijn", "hadden", "lieten"],
+    "hint": "maken takes hebben in perfectum; action verb not movement",
+    "source": "Mensen hebben een groot deel van het bos zo gemaakt."
+  },
+  {
+    "q": "De aarde wordt steeds warmer. ___ stijgt het water in de Noordzee.",
+    "correct": "Daardoor",
+    "distractors": ["Dus", "Daarom", "Hierdoor"],
+    "hint": "daardoor = because of that / as a result of that; fronted → inversion",
+    "source": "De aarde wordt steeds warmer en daardoor stijgt het water in de Noordzee."
+  },
+  {
+    "q": "Ik ___ me onze huwelijksreis nog goed.",
+    "correct": "herinner",
+    "distractors": ["herinnerd", "heb herinnerd", "weet"],
+    "hint": "zich herinneren = to remember; present tense; reflexive me",
+    "source": "Ik herinner me onze huwelijksreis nog goed."
+  },
+  {
+    "q": "Hij ___ zich voor zijn gedrag.",
+    "correct": "schaamde",
+    "distractors": ["schaamt", "schamen", "heeft geschaamd"],
+    "hint": "sich schamen imperfectum; 3rd person reflexive = zich",
+    "source": "Hij schaamde zich voor zijn gedrag."
+  },
+  {
+    "q": "We hebben ___ goed voorbereid.",
+    "correct": "ons",
+    "distractors": ["zich", "onszelf", "we"],
+    "hint": "reflexive of wij = ons; perfectum: hebben + ons + past participle",
+    "source": "We hebben ons goed voorbereid."
+  },
+  {
+    "q": "Je kunt je hier prima ___ concentreren.",
+    "correct": "op",
+    "distractors": ["aan", "over", "voor"],
+    "hint": "zich concentreren op = to concentrate on; fixed preposition op",
+    "source": "Je kunt je hier prima op concentreren."
+  },
+  {
+    "q": "Op 4 mei is iedereen twee minuten ___.",
+    "correct": "stil",
+    "distractors": ["stille", "stilte", "rustig"],
+    "hint": "stil = silent; predicative adjective, invariable; two minutes of silence",
+    "source": "Op 4 mei is iedereen om 20.00 uur twee minuten stil."
+  },
+  {
+    "q": "___ trouwen mensen gemiddeld tien jaar later.",
+    "correct": "Tegenwoordig",
+    "distractors": ["Vandaag", "Nu", "Heden"],
+    "hint": "tegenwoordig = nowadays (general trend); fronted → inversion",
+    "source": "Tegenwoordig trouwen mensen gemiddeld tien jaar later."
+  },
+  {
+    "q": "In de zomervakantie ___ ik met mijn ouders vaak in de bergen wandelen.",
+    "correct": "ging",
+    "distractors": ["ben gegaan", "was", "liep"],
+    "hint": "gaan imperfectum = ging; habitual past with often",
+    "source": "In de zomervakanties ging ik met mijn ouders vaak in de bergen wandelen."
+  },
+  {
+    "q": "___ overleg ik meteen met de directeur.",
+    "correct": "Daarna",
+    "distractors": ["Dan", "Toen", "Vervolgens"],
+    "hint": "daarna = after that; fronted → inversion; dann is German not Dutch",
+    "source": "Daarna overleg ik meteen met de directeur."
+  },
+  {
+    "q": "Je vriend wordt ___ boos als hij dat ontdekt.",
+    "correct": "vast",
+    "distractors": ["zeker", "waarschijnlijk", "misschien"],
+    "hint": "vast = surely/definitely (informal certainty); zeker is more formal",
+    "source": "Je vriend wordt vast boos als hij dat ontdekt."
+  },
+  {
+    "q": "Ik werd ___ nat op de fiets.",
+    "correct": "helemaal",
+    "distractors": ["heel", "erg", "totaal"],
+    "hint": "helemaal = completely; intensifier for adjectives of state",
+    "source": "Ik ben gisteren op de fiets helemaal nat geworden."
+  },
+  {
+    "q": "Mijn zus ___ namelijk nogal snel kwaad.",
+    "correct": "wordt",
+    "distractors": ["is", "maakt", "raakt"],
+    "hint": "worden + adjective = to get/become; kwaad worden = to get angry",
+    "source": "Mijn zus wordt namelijk nogal snel kwaad."
+  }
+]
