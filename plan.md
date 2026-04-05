@@ -1,3 +1,34 @@
+=====
+new ask:
+/Users/athatipamula/workspace/genai/dutch -- use this to integrate the flash cards with multiple choice questions only
+the original idea of that project was to enable me to provide vocabulary and text which will be used by dutch specialist to generate exercises flashcards for me to practice
+
+what to inherit from there:
+1. the concept of exercises and flash cards
+
+what not to
+1. the concept of themas
+2. the concept of admin portal
+
+reason:
+1. I have already shared all the content possible through text
+2. all the vocabulary already exists
+
+what needs to be done:
+1. we need to extend our github page to include flash cards tab
+2. most importantly we need a language specialised perspective to generate english translations for vocab
+3. basically create exercises from all the 30 texts and all the vocabularies
+4. good thing we have better context, we don't have to create exercises for all
+5. use the context to keep the scope down but also generate exercises independently for the 30 of the texts with the iimportance
+context available from the top sentneces we already have information about
+
+suggest me the plan you have in mind? 
+1. when to use the dutch language speciality
+2. when to use the software skills
+
+
+
+======
 I have curated a task. I am preparing for my dutch cours final exam. the contenxt of the exam is in md file. I have posted the
   vocabulary used for the course in vocab md. and also created all the text used for studying as images in content. 
 

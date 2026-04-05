@@ -1,0 +1,301 @@
+rank,dutch,english,article,category,example,frequency
+1,je,you,,other,,134
+2,ik,I,,other,,93
+3,ja,yes,,other,,54
+4,is,is,,verb,,51
+5,en,and,,other,,45
+6,heb,have,,verb,,37
+7,wat,what,,other,,28
+8,dat,that,,other,,27
+9,in,in,,other,,25
+10,met,with,,other,,24
+11,we,we,,other,,18
+12,voor,for,,other,,18
+13,niet,not,,adverb,,17
+14,naar,to,,other,,16
+15,hoe,how,,other,,16
+16,ben,am,,verb,,16
+17,ga,go,,verb,,15
+18,ook,also,,adverb,,15
+19,of,or,,other,,14
+20,veel,much/many,,adjective,,14
+21,op,on,,other,,13
+22,dan,then,,other,,12
+23,werk,work,,noun,,12
+24,van,of/from,,other,,12
+25,mijn,my,,other,,12
+26,week,week,,noun,,11
+27,goed,good,,adjective,,11
+28,nee,no,,other,,10
+29,waar,where,,other,,10
+30,er,there,,other,,10
+31,maar,but,,other,,10
+32,bij,at/with,,other,,9
+33,vaak,often,,adverb,,9
+34,per,per,,other,,9
+35,was,was,,verb,,9
+36,uur,hour,,noun,,8
+37,vind,find/think,,verb,,8
+38,doe,do,,verb,,8
+39,moet,must,,verb,,8
+40,wel,indeed,,adverb,,8
+41,jaar,year,,noun,,8
+42,om,at,,other,,7
+43,te,to,,other,,7
+44,nog,still/yet,,adverb,,7
+45,zijn,are/be,,verb,,7
+46,hij,he,,other,,7
+47,misschien,maybe,,adverb,,7
+48,zaterdag,Saturday,,noun,,6
+49,keer,time,,noun,,6
+50,twee,two,,other,,6
+51,heel,very,,adverb,,6
+52,doen,do,,verb,,6
+53,geen,no/none,,other,,6
+54,me,me,,other,,6
+55,leuk,nice,,adjective,,5
+56,tot,until,,other,,5
+57,drie,three,,other,,5
+58,jij,you,,other,,5
+59,graag,gladly,,adverb,,5
+60,mooi,beautiful,,adjective,,5
+61,morgen,tomorrow,,adverb,,5
+62,wil,want,,verb,,5
+63,hebben,have,,verb,,5
+64,mee,along,,other,,4
+65,gaan,go,,verb,,4
+66,zullen,shall,,verb,,4
+67,woensdag,Wednesday,,noun,,4
+68,tijd,time,,noun,,4
+69,eten,eat,,verb,,4
+70,eet,eat,,verb,,4
+71,dag,day,,noun,,4
+72,zo,so,,adverb,,4
+73,weer,again/weather,,other,,4
+74,ze,they/she,,other,,4
+75,woon,live,,verb,,4
+76,groot,big,,adjective,,4
+77,kijk,look,,verb,,4
+78,gezellig,cozy,,adjective,,4
+79,meer,more,,adjective,,4
+80,prima,fine,,adjective,,3
+81,vier,four,,other,,3
+82,kan,can,,verb,,3
+83,restaurant,restaurant,,noun,,3
+84,daar,there,,adverb,,3
+85,kom,come,,verb,,3
+86,lang,long,,adjective,,3
+87,huis,house,,noun,,3
+88,wordt,becomes,,verb,,3
+89,klein,small,,adjective,,3
+90,iets,something,,other,,3
+91,duur,expensive,,adjective,,3
+92,lees,read,,verb,,3
+93,dit,this,,other,,3
+94,waarom,why,,other,,3
+95,als,if/when,,other,,2
+96,fijn,fine,,adjective,,2
+97,wanneer,when,,other,,2
+98,uit,out,,other,,2
+99,vrijdag,Friday,,noun,,2
+100,alles,everything,,other,,2
+101,agenda,agenda,de,,,0
+102,behoorlijk,rather,,,,0
+103,binnenkort,soon,,,,0
+104,gelijk,immediately,,,,0
+105,heerlijk,delicious,,,,0
+106,hockey,(field) hockey,de,,,0
+107,lastig,difficult,,,,0
+108,meegaan,to come along,,,,0
+109,omdat,because,,,,0
+110,plezier,pleasure,het,,,0
+111,sauna,sauna,de,,,0
+112,sowieso,no matter what,,,,0
+113,speciaal,special,,,,0
+114,strand,beach,het,,,0
+115,trainen,to train,,,,0
+116,training,training,de,,,0
+117,veld,field,het,,,0
+118,volwassene,adult,de,,,0
+119,voorlopig,for the time being,,,,0
+120,wandelen,to walk,,,,0
+121,wedstrijd,match,de,,,0
+122,zwembad,swimming pool,het,,,0
+123,zwemmen,to swim,,,,0
+124,bedenken,to think of,,,,0
+125,bovendien,in addition,,,,0
+126,durven,to dare,,,,0
+127,egoïstisch,selfish,,,,0
+128,examen,exam,het,,,0
+129,excuus,excuse,het,,,0
+130,kwaad,angry,,,,0
+131,liegen,to lie,,,,0
+132,logeren,to stay over,,,,0
+133,moeite,trouble,de,,,0
+134,neef,nephew,de,,,0
+135,nicht,niece,de,,,0
+136,ontdekken,to discover,,,,0
+137,oppassen op,to care for,,,,0
+138,plan,plan,het,,,0
+139,reizen,to travel,,,,0
+140,schoonouders,parents-in-law,de,,,0
+141,smoes,excuse,de,,,0
+142,verzinnen,to make up,,,,0
+143,vriendschap,friendship,de,,,0
+144,waarheid,truth,de,,,0
+145,zwager,brother-in-law,de,,,0
+146,aflopen,to end,,,,0
+147,bedrijf,company,het,,,0
+148,behalve,except,,,,0
+149,christelijk,Christian,,,,0
+150,datum,date,de,,,0
+151,enzovoorts,and so on,,,,0
+152,Europees,European,,,,0
+153,Hemelvaart,Ascension Day,,,,0
+154,herdenken,to commemorate,,,,0
+155,Kerstmis,Christmas,,,,0
+156,koning,king,de,,,0
+157,Koningsdag,King's Day,,,,0
+158,midden,middle,het,,,0
+159,noorden,north,het,,,0
+160,officieel,official,,,,0
+161,oorlog,war,de,,,0
+162,optreden,performance,het,,,0
+163,oranje,orange,,,,0
+164,oud en nieuw,New Year's Eve and New Year's Day,,,,0
+165,Pasen,Easter,,,,0
+166,Pinksteren,Pentecost,,,,0
+167,regio,region,de,,,0
+168,respect,respect,het,,,0
+169,scholier,schoolkid,de,,,0
+170,slachtoffer,victim,het,,,0
+171,stil,silent,,,,0
+172,traditie,tradition,de,,,0
+173,voorjaar,spring,het,,,0
+174,zuiden,south,het,,,0
+175,aandacht,attention,de,,,0
+176,actief,active,,,,0
+177,bezoeken,to visit,,,,0
+178,bijbaantje,job on the side,het,,,0
+179,bijles,extra lesson,de,,,0
+180,bijzonder,special,,,,0
+181,campus,campus,de,,,0
+182,Chinees,Chinese,,,,0
+183,gemotiveerd,motivated,,,,0
+184,nauwelijks,barely,,,,0
+185,ontzettend,extremely,,,,0
+186,opvallen,to stand out,,,,0
+187,piano,piano,de,,,0
+188,positief,positive,,,,0
+189,presentatie,presentation,de,,,0
+190,presteren,to perform,,,,0
+191,reis,trip,de,,,0
+192,samenwerken,to collaborate,,,,0
+193,sportclub,sports club,de,,,0
+194,trouwens,by the way,,,,0
+195,volgen,to follow,,,,0
+196,workshop,workshop,de,,,0
+197,afhangen van,to depend on,,,,0
+198,Arabisch,Arabic,,,,0
+199,bedoeling,intention,de,,,0
+200,bereiken,to achieve,,,,0
+201,bestaan,to exist,,,,0
+202,besteden,to spend,,,,0
+203,dichtbij,close to,,,,0
+204,doel,goal,het,,,0
+205,doorgaan,to go through,,,,0
+206,Duits,German,,,,0
+207,gemakkelijk,easy,,,,0
+208,grammatica,grammar,de,,,0
+209,interview,interview,het,,,0
+210,invloed,influence,de,,,0
+211,klank,sound,de,,,0
+212,lesmethode,teaching method,de,,,0
+213,moedertaal,native language,de,,,0
+214,motivatie,motivation,de,,,0
+215,negatief,negative,,,,0
+216,onbekend,unknown,,,,0
+217,staatsexamen NT2,NT2 state exam,het,,,0
+218,taalcontact,language contact,het,,,0
+219,uitspraak,pronunciation,de,,,0
+220,uitspreken,to pronounce,,,,0
+221,voordeel,advantage,het,,,0
+222,aanrecht,countertop,het,,,0
+223,afwasmachine,dishwasher,de,,,0
+224,afwassen,to do the dishes,,,,0
+225,apparaat,device,het,,,0
+226,bord,plate,het,,,0
+227,drogen,to dry,,,,0
+228,droger,dryer,de,,,0
+229,droog,dry,,,,0
+230,elektrisch,electric,,,,0
+231,föhn,hair dryer,de,,,0
+232,haar,hair,het,,,0
+233,lenen,to borrow,,,,0
+234,mama,mum,,,,0
+235,ophangen,to hang up,,,,0
+236,raar,weird,,,,0
+237,spannend,exciting,,,,0
+238,stofzuiger,vacuum cleaner,de,,,0
+239,strijken,to iron,,,,0
+240,strijkijzer,iron,het,,,0
+241,tand,tooth,de,,,0
+242,tandenborstel,toothbrush,de,,,0
+243,vuil,dirty,,,,0
+244,afhankelijk,depending,,,,0
+245,bevroren,frozen,,,,0
+246,branden,to light up,,,,0
+247,draaien,to turn,,,,0
+248,drukken,to press,,,,0
+249,drukte,busyness,de,,,0
+250,ergens,somewhere,,,,0
+251,gisteren,yesterday,,,,0
+252,knop,button,de,,,0
+253,kwartier,quarter of an hour,het,,,0
+254,lekken,to leak,,,,0
+255,lukken,to succeed,,,,0
+256,magnetron,microwave,de,,,0
+257,monteur,mechanic,de,,,0
+258,nat,wet,,,,0
+259,opzoeken,to look up,,,,0
+260,oven,oven,de,,,0
+261,programma,programme,het,,,0
+262,scherm,screen,het,,,0
+263,stuk,broken,,,,0
+264,telkens,every time,,,,0
+265,tijdstip,time,het,,,0
+266,type,type,het,,,0
+267,wassen,to wash,,,,0
+268,zolder,attic,de,,,0
+269,bloedheet,very hot,,,,0
+270,cadeau,gift,het,,,0
+271,extra,extra,,,,0
+272,hotel,hotel,het,,,0
+273,jaloers,jealous,,,,0
+274,jazeker,absolutely,,,,0
+275,klimaat,climate,het,,,0
+276,laten zien,to show,,,,0
+277,meemaken,to experience,,,,0
+278,natuur,nature,de,,,0
+279,nul,zero,,,,0
+280,oma,grandma,de,,,0
+281,perfect,perfect,,,,0
+282,schijnen,to shine,,,,0
+283,tijdelijk,temporarily,,,,0
+284,uiteraard,of course,,,,0
+285,uitgebreid,extensively,,,,0
+286,uitrusten,to rest,,,,0
+287,vliegen,to fly,,,,0
+288,vliegticket,airline ticket,de,,,0
+289,voet,foot,de,,,0
+290,vriezen,to freeze,,,,0
+291,wereld,world,de,,,0
+292,zee,sea,de,,,0
+293,zich voelen,to feel,,,,0
+294,afspreken,to make an appointment,,,,0
+295,alleenstaand,single,,,,0
+296,cultuur,culture,de,,,0
+297,dalen,to decrease,,,,0
+298,eindigen,to end,,,,0
+299,gemiddeld,average,,,,0
+300,gescheiden,divorced,,,,0

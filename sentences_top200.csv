@@ -1,0 +1,201 @@
+rank,dutch_sentence,source_text,occurrences
+1,Wat doe je dan?,Text 6,3
+2,Heb je zin om zaterdag mee te gaan naar het strand?,Text 1,1
+3,"Ja, leuk! Hoe laat zullen we afspreken?",Text 1,1
+4,Om 10 uur bij het station?,Text 1,1
+5,Prima! Tot zaterdag.,Text 1,1
+6,Ga je vaak naar de sportschool?,Text 1,1
+7,"Ja, ik train drie keer per week. En jij?",Text 1,1
+8,Ik zwem liever. Zwemmen vind ik leuker dan fitness.,Text 1,1
+9,Dat is ook goed voor je conditie!,Text 1,1
+10,Heb je plannen voor het weekend?,Text 1,1
+11,Ik ga wandelen in het bos. Ga je mee?,Text 1,1
+12,Graag! Ik ben dol op wandelen.,Text 1,1
+13,"Mooi, dan gaan we zaterdag.",Text 1,1
+14,Wat voor werk doe je?,Text 2,1
+15,Ik werk als leraar op een basisschool.,Text 2,1
+16,Leuk! Hoeveel dagen per week werk je?,Text 2,1
+17,Ik werk vier dagen per week.,Text 2,1
+18,Studeer je nog?,Text 2,1
+19,"Ja, ik doe een cursus Nederlands.",Text 2,1
+20,Hoe vaak heb je les?,Text 2,1
+21,"Twee keer per week, op maandag en woensdag.",Text 2,1
+22,Ben je tevreden met je baan?,Text 2,1
+23,"Ja, ik werk graag met kinderen.",Text 2,1
+24,Dat is fijn! En de collega's?,Text 2,1
+25,Die zijn ook heel aardig.,Text 2,1
+26,Zullen we volgende week afspreken?,Text 3,1
+27,Goed idee! Wanneer kun je?,Text 3,1
+28,"Dinsdag of woensdag, dat maakt mij niet uit.",Text 3,1
+29,Dan doen we woensdag. Om 14 uur?,Text 3,1
+30,Perfect! Tot woensdag.,Text 3,1
+31,Heb je morgen tijd om te lunchen?,Text 3,1
+32,Helaas niet. Ik moet werken tot 17 uur.,Text 3,1
+33,En vrijdag dan?,Text 3,1
+34,Vrijdag kan ik wel! Hoe laat?,Text 3,1
+35,Om 12 uur bij het restaurant?,Text 3,1
+36,Afgesproken!,Text 3,1
+37,Kun je zaterdag komen eten?,Text 3,1
+38,Ja hoor! Hoe laat?,Text 3,1
+39,Om 18 uur. Eet je vegetarisch?,Text 3,1
+40,"Nee, ik eet alles.",Text 3,1
+41,"Mooi, tot zaterdag dan!",Text 3,1
+42,Wat heb je nodig van de supermarkt?,Text 4,1
+43,"Brood, melk en kaas.",Text 4,1
+44,Heb je ook groente nodig?,Text 4,1
+45,"Ja, tomaten en komkommer.",Text 4,1
+46,Waar is de bakkerij?,Text 4,1
+47,"Die is om de hoek, naast de slager.",Text 4,1
+48,Dank je. Is die vandaag open?,Text 4,1
+49,"Ja, tot 18 uur.",Text 4,1
+50,Hoeveel kost deze jas?,Text 4,1
+51,89 euro. Hij is in de aanbieding.,Text 4,1
+52,Mag ik hem passen?,Text 4,1
+53,Natuurlijk! De paskamer is daar.,Text 4,1
+54,Hoe kom je naar je werk?,Text 5,1
+55,Met de fiets. En jij?,Text 5,1
+56,Ik ga met de trein. Dat duurt 20 minuten.,Text 5,1
+57,Dat is snel!,Text 5,1
+58,Waar ga je op vakantie?,Text 5,1
+59,Naar Spanje. We vliegen in juli.,Text 5,1
+60,Hoe lang blijf je daar?,Text 5,1
+61,Twee weken. We huren een huis aan zee.,Text 5,1
+62,Heb je een auto?,Text 5,1
+63,"Nee, ik heb geen rijbewijs.",Text 5,1
+64,Hoe reis je dan?,Text 5,1
+65,Met het openbaar vervoer. Dat is goedkoper.,Text 5,1
+66,Ik voel me niet lekker.,Text 6,1
+67,Wat is er?,Text 6,1
+68,Ik heb hoofdpijn en keelpijn.,Text 6,1
+69,Heb je koorts?,Text 6,1
+70,Ik weet het niet. Misschien moet ik naar de dokter.,Text 6,1
+71,Sport je veel?,Text 6,1
+72,"Ja, elke dag een half uur.",Text 6,1
+73,Ik hardloop of ik fiets. Dat is goed voor mijn gezondheid.,Text 6,1
+74,Eet je gezond?,Text 6,1
+75,Ik probeer het. Veel groente en fruit.,Text 6,1
+76,En vlees?,Text 6,1
+77,Niet zo veel. Een of twee keer per week.,Text 6,1
+78,Wat is het koud vandaag!,Text 7,1
+79,"Ja, het vriest. Maar morgen wordt het warmer.",Text 7,1
+80,Gelukkig! Ik hou niet van kou.,Text 7,1
+81,Ik ook niet.,Text 7,1
+82,Regent het buiten?,Text 7,1
+83,"Ja, neem een paraplu mee.",Text 7,1
+84,Dank je. Ik hoop dat het snel droog wordt.,Text 7,1
+85,Het weer wordt beter vanavond.,Text 7,1
+86,Wat een mooi weer!,Text 7,1
+87,"Ja, de zon schijnt en het is warm.",Text 7,1
+88,Zullen we naar het park gaan?,Text 7,1
+89,Goed idee! We kunnen buiten zitten.,Text 7,1
+90,Heb je broers of zussen?,Text 8,1
+91,"Ja, ik heb een broer en een zus.",Text 8,1
+92,Zijn ze ouder of jonger?,Text 8,1
+93,Mijn broer is ouder en mijn zus is jonger.,Text 8,1
+94,Woon je samen met je vriend?,Text 8,1
+95,"Ja, al drie jaar.",Text 8,1
+96,Willen jullie trouwen?,Text 8,1
+97,"Misschien, over een paar jaar.",Text 8,1
+98,Hoe groot is je familie?,Text 8,1
+99,Best groot. Ik heb vijf neven en drie nichten.,Text 8,1
+100,Zie je ze vaak?,Text 8,1
+101,Met verjaardagen en met de feestdagen.,Text 8,1
+102,Waar woon je?,Text 9,1
+103,"In Amsterdam, in een appartement.",Text 9,1
+104,Hoeveel kamers heb je?,Text 9,1
+105,"Twee slaapkamers, een woonkamer en een keuken.",Text 9,1
+106,Ben je tevreden met je huis?,Text 9,1
+107,"Ja, maar het is wel klein.",Text 9,1
+108,Wil je verhuizen?,Text 9,1
+109,Misschien over een jaar. We zoeken iets groters.,Text 9,1
+110,Huur je of heb je een koophuis?,Text 9,1
+111,Ik huur. Een koophuis is te duur.,Text 9,1
+112,Dat is hier ook een probleem.,Text 9,1
+113,"Ja, de huizenprijzen zijn hoog.",Text 9,1
+114,Wat eten we vanavond?,Text 10,1
+115,Zullen we pasta maken?,Text 10,1
+116,Goed idee! Met welke saus?,Text 10,1
+117,Tomatensaus met groenten.,Text 10,1
+118,Wil je koffie of thee?,Text 10,1
+119,Graag een kopje thee.,Text 10,1
+120,Met melk en suiker?,Text 10,1
+121,"Alleen melk, zonder suiker alsjeblieft.",Text 10,1
+122,Ben je allergisch voor iets?,Text 10,1
+123,"Ja, voor noten.",Text 10,1
+124,Ik zal geen noten gebruiken in het eten.,Text 10,1
+125,"Dank je, dat is fijn.",Text 10,1
+126,Wat doe je in je vrije tijd?,Text 11,1
+127,Ik lees graag en ik kijk series.,Text 11,1
+128,Wat voor boeken lees je?,Text 11,1
+129,Thrillers en romans. En jij?,Text 11,1
+130,Speel je een muziekinstrument?,Text 11,1
+131,"Ja, ik speel gitaar.",Text 11,1
+132,Hoe lang doe je dat al?,Text 11,1
+133,Al vijf jaar. Ik oefen elke dag.,Text 11,1
+134,Ga je vaak naar de bioscoop?,Text 11,1
+135,Niet zo vaak. Ik kijk liever thuis.,Text 11,1
+136,Met Netflix?,Text 11,1
+137,"Ja, precies. Dat is goedkoper.",Text 11,1
+138,Wat heb je gestudeerd?,Text 12,1
+139,Ik heb rechten gestudeerd.,Text 12,1
+140,Hoelang duurde je studie?,Text 12,1
+141,Vier jaar. Nu werk ik als jurist.,Text 12,1
+142,Ga je nog naar school?,Text 12,1
+143,"Nee, ik ben klaar met mijn opleiding.",Text 12,1
+144,Wat ga je nu doen?,Text 12,1
+145,Ik zoek een baan in mijn vakgebied.,Text 12,1
+146,Wil je nog een cursus doen?,Text 12,1
+147,"Ja, ik wil beter Engels leren.",Text 12,1
+148,Dat is handig voor je werk.,Text 12,1
+149,"Ja, zeker! Engels is belangrijk.",Text 12,1
+150,Waar ben je geweest met vakantie?,Text 13,1
+151,In Frankrijk. We hebben een week in Parijs verbleven.,Text 13,1
+152,Wat leuk! Was het druk?,Text 13,1
+153,"Ja, maar het was fantastisch.",Text 13,1
+154,Ga je dit jaar op vakantie?,Text 13,1
+155,"Ja, in augustus naar Italië.",Text 13,1
+156,Alleen of met familie?,Text 13,1
+157,Met mijn vrouw en kinderen.,Text 13,1
+158,Hou je van kamperen?,Text 13,1
+159,"Nee, ik verblijf liever in een hotel.",Text 13,1
+160,Waarom?,Text 13,1
+161,Dat is comfortabeler. En jij?,Text 13,1
+162,Wanneer ben je jarig?,Text 14,1
+163,Op 15 maart. En jij?,Text 14,1
+164,Op 3 mei. Geef je een feest?,Text 14,1
+165,"Ja, bij mij thuis. Kom je ook?",Text 14,1
+166,Wat heb je met Kerst gedaan?,Text 14,1
+167,We hebben bij mijn ouders gegeten.,Text 14,1
+168,Was het gezellig?,Text 14,1
+169,"Ja, heel gezellig. De hele familie was er.",Text 14,1
+170,Vier je Sinterklaas?,Text 14,1
+171,"Ja, elk jaar met de kinderen.",Text 14,1
+172,Wat leuk! Krijgen ze cadeaus?,Text 14,1
+173,"Ja, en we eten pepernoten.",Text 14,1
+174,Hoe kan ik je bereiken?,Text 15,1
+175,Je kunt me bellen of een berichtje sturen.,Text 15,1
+176,Wat is je telefoonnummer?,Text 15,1
+177,06-12345678.,Text 15,1
+178,Heb je WhatsApp?,Text 15,1
+179,"Ja, ik gebruik dat elke dag.",Text 15,1
+180,Ik stuur je een berichtje.,Text 15,1
+181,Prima! Ik zie het wel.,Text 15,1
+182,Mail je veel?,Text 15,1
+183,"Voor werk wel, privé gebruik ik liever WhatsApp.",Text 15,1
+184,Dat is makkelijker.,Text 15,1
+185,"Ja, veel sneller ook.",Text 15,1
+186,Mijn computer doet het niet meer.,Text 16,1
+187,Heb je hem opnieuw opgestart?,Text 16,1
+188,"Ja, maar dat helpt niet.",Text 16,1
+189,Misschien moet je naar de reparatieservice.,Text 16,1
+190,Ik ben mijn sleutel kwijt.,Text 16,1
+191,Waar heb je hem voor het laatst gezien?,Text 16,1
+192,"In de keuken, denk ik.",Text 16,1
+193,Zal ik je helpen zoeken?,Text 16,1
+194,De trein heeft vertraging.,Text 16,1
+195,Hoelang?,Text 16,1
+196,Een half uur. Ik kom later aan.,Text 16,1
+197,"Geen probleem, ik wacht wel.",Text 16,1
+198,Wat een mooie tuin heb je!,Text 17,1
+199,Dank je. Ik werk er veel in.,Text 17,1
+200,Heb je ook groenten?,Text 17,1

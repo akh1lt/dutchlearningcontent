@@ -1,0 +1,1050 @@
+# EXPERT DUTCH A2 EXERCISE CURATION PROMPT
+
+## YOUR ROLE
+You are an experienced Dutch A2 instructor preparing personalized exercises for inburgering exam preparation. You have been given raw vocabulary lists and authentic sentences. Your task is to **analyze, understand, and curate** high-quality exercises based on deep linguistic and pedagogical insight.
+
+## PHASE 1: ANALYZE THE CONTENT (Do this first!)
+
+Before generating any exercises, thoroughly analyze the provided materials:
+
+### Step 1: Vocabulary Analysis
+- **Read through ALL 467 vocabulary words**
+- Identify thematic clusters (healthcare, housing, work, time, emotions, etc.)
+- Note difficult patterns (compound words, false friends, similar words that confuse learners)
+- Identify words that are often confused (huren vs verhuren, omdat vs doordat)
+- Find words with irregular patterns or tricky articles
+- Spot high-frequency vs low-frequency words in the sentences
+
+### Step 2: Sentence Corpus Analysis
+- **Read through ALL 192 sentences as a complete text corpus**
+- Identify recurring grammatical patterns (modal verbs, question forms, subordinate clauses)
+- Extract ADDITIONAL vocabulary from sentences that isn't in the vocabulary list
+- Note which vocabulary words actually appear in authentic sentence contexts
+- Identify common conversational chunks and phrases (fixed expressions)
+- Observe which topics dominate (appointments, opinions, daily activities)
+
+### Step 3: Pedagogical Planning
+Based on your analysis, identify:
+- Which vocabulary is most exam-critical (healthcare, government, housing)?
+- Which grammar patterns need the most practice (articles, modal verbs, word order)?
+- Which words are semantically related and should be tested together?
+- Which sentences demonstrate important A2 grammar structures?
+- What are the common mistakes Dutch learners make with this content?
+
+## PHASE 2: EXTRACT ADDITIONAL VOCABULARY
+
+**Critical instruction:** Don't just use the 467-word vocabulary list!
+
+From the 192 sentences, extract:
+- Key verbs that appear frequently but aren't in the vocab list
+- Important nouns with their articles (de/het)
+- Useful adjectives and adverbs
+- Common prepositions and conjunctions in context
+- Fixed phrases and expressions (e.g., "Hoe laat", "geen probleem")
+
+Add these to your working vocabulary pool for exercise creation.
+
+## PHASE 3: CURATE EXERCISES (Not mechanical conversion!)
+
+### Exercise Design Principles:
+
+**1. Test Understanding, Not Just Memorization**
+- Bad: "What is the translation of wandelen?" (A) walk (B) run (C) swim (D) cycle
+- Good: "Complete: Ik ga morgen ______ in het bos. Context: planning outdoor activity" → forces understanding of usage
+
+**2. Create Pedagogically Clustered Exercises**
+- Group related vocabulary (all healthcare terms, all time expressions)
+- Test confusing pairs together (huren/verhuren, omdat/doordat, als/wanneer)
+- Include article testing for nouns (de vs het - common A2 struggle)
+
+**3. Use Real Sentence Contexts**
+- Extract mini-dialogues from the sentence corpus
+- Test vocabulary in authentic usage, not isolation
+- Include cultural/practical context (inburgering-relevant)
+
+**4. Progressive Difficulty**
+- Start with high-frequency, exam-critical vocabulary
+- Mix receptive (recognition) and productive (usage) exercises
+- Include some challenging items for advanced learners
+
+**5. Smart Distractors**
+- Use semantically related words (synonyms, antonyms, same category)
+- Include common mistakes (e.g., using "als" instead of "wanneer")
+- Test article confusion (de/het) for nouns
+
+### Exercise Type Distribution (Use your judgment based on content analysis):
+
+Aim for **300-500 total exercises**, distributed based on what the content actually supports:
+
+- **Vocabulary Translation** (both directions): Focus on complex/confusing words
+- **Article Recognition**: All nouns - critical for A2 exam writing
+- **Sentence Completion**: Use authentic sentences, test grammar + vocabulary
+- **Sentence Translation**: Full sentences that demonstrate key patterns
+- **Contextual Usage**: "Which word fits this situation?" (practical application)
+- **Synonym/Antonym**: Where semantically appropriate
+- **Word Order**: If sentences demonstrate interesting syntax
+- **Error Correction**: Common A2 mistakes in context
+
+## PHASE 4: QUALITY CHECKS
+
+For each exercise, verify:
+- ✅ Is this testing something important for A2 level?
+- ✅ Does this have clear pedagogical value?
+- ✅ Are the distractors plausible but clearly wrong?
+- ✅ Does this relate to inburgering exam contexts?
+- ✅ Is the explanation helpful for learning?
+
+Skip exercises that are:
+- ❌ Too obvious or too obscure
+- ❌ Testing rare vocabulary with no practical value
+- ❌ Mechanically generated without thought
+- ❌ Redundant with other exercises
+
+## OUTPUT FORMAT
+
+```json
+{
+  "metadata": {
+    "total_exercises": 387,
+    "vocabulary_analyzed": "467 words + extracted from sentences",
+    "sentence_corpus": "161 high-value sentences",
+    "themes_identified": ["healthcare", "housing", "work", "appointments", "opinions"],
+    "focus_areas": ["modal verbs", "subordinate clauses", "articles", "question forms"],
+    "difficulty": "A2 - Inburgering focused",
+    "generated_date": "2026-04-04"
+  },
+  "exercises": [
+    {
+      "id": 1,
+      "type": "contextual_usage",
+      "theme": "healthcare",
+      "question": "You need medicine for your headache. Where do you go? **Ik ga naar de ______.**",
+      "correct_answer": "C",
+      "options": {
+        "A": "dokter",
+        "B": "ziekenhuis",
+        "C": "apotheek",
+        "D": "tandarts"
+      },
+      "explanation": "For medicine, you go to de apotheek (pharmacy). Dokter = doctor visit, ziekenhuis = hospital (emergency), tandarts = dentist.",
+      "grammar_focus": "de + place names (destination)"
+    },
+    {
+      "id": 2,
+      "type": "confusing_pairs",
+      "theme": "housing",
+      "question": "I am looking for a house to live in (as a tenant). **Ik wil een huis ______.**",
+      "correct_answer": "A",
+      "options": {
+        "A": "huren",
+        "B": "verhuren",
+        "C": "kopen",
+        "D": "verkopen"
+      },
+      "explanation": "huren = to rent (as tenant). verhuren = to rent out (as landlord). Critical distinction for housing applications!",
+      "grammar_focus": "verb confusion - huren vs verhuren"
+    },
+    {
+      "id": 3,
+      "type": "article_recognition",
+      "theme": "healthcare",
+      "question": "What is the correct article for **ziekenhuis** (hospital)?",
+      "correct_answer": "B",
+      "options": {
+        "A": "de",
+        "B": "het",
+        "C": "een",
+        "D": "geen artikel"
+      },
+      "explanation": "het ziekenhuis (neuter). Remember: most -huis words are het (het huis, het ziekenhuis, het stadhuis).",
+      "grammar_focus": "de vs het articles"
+    },
+    {
+      "id": 4,
+      "type": "sentence_pattern",
+      "theme": "questions",
+      "question": "Complete the question pattern: **______ kan ik je bereiken?** (How can I reach you?)",
+      "correct_answer": "D",
+      "options": {
+        "A": "Wat",
+        "B": "Waar",
+        "C": "Wanneer",
+        "D": "Hoe"
+      },
+      "explanation": "Hoe = how. Common exam pattern: Hoe + modal verb (kan, moet) + subject. Used for asking about methods/ways.",
+      "grammar_focus": "question words + modal verbs"
+    }
+  ]
+}
+```
+
+## CRITICAL INSTRUCTIONS
+
+1. **ANALYZE FIRST** - Spend time understanding the content before generating
+2. **EXTRACT MORE** - Pull vocabulary from sentences that isn't in the word list
+3. **CURATE SMARTLY** - Only create exercises with clear learning value
+4. **TEST UNDERSTANDING** - Focus on usage in context, not just translation
+5. **PEDAGOGICAL CLUSTERS** - Group related content (themes, confusing pairs)
+6. **QUALITY > QUANTITY** - Better 300 excellent exercises than 500 mediocre ones
+7. **EXAM RELEVANT** - Prioritize healthcare, housing, government, modal verbs, articles
+8. **AUTHENTIC CONTEXT** - Use real sentences, not invented examples
+
+## YOUR WORKING PROCESS
+
+1. Read and analyze all vocabulary and sentences (10-15 minutes of analysis)
+2. Create your mental model of themes, patterns, and learning priorities
+3. Extract additional vocabulary from sentence corpus
+4. Design exercise clusters (healthcare vocab, housing vocab, modal verbs, etc.)
+5. Generate 300-500 curated exercises with pedagogical intent
+6. Add metadata about themes, focus areas, and your analysis
+
+---
+
+## CSV DATA
+
+### vocabulary_complex_expert.csv (467 exam-relevant words - analyze these)
+```csv
+[CSV WILL BE INSERTED HERE]
+```
+
+### sentences_expert.csv (192 high-value sentences - extract more vocabulary from these)
+```csv
+dutch
+Halverwege het jaar kunt u dus niet op een andere verzekering overstappen.
+"Hij heeft me een maand geleden al een keer gevraagd: 'Mag mijn hond bij je logeren?' Ik heb toen gezegd: 'Sorry, ik kan niet, want ik ben dit weekend niet thuis'."
+"Als u over uw zorgverzekering niet tevreden bent, kunt u overstappen."
+Of zeg dat je voor een examen moet studeren en dat je geen tijd hebt.
+"Ze zijn zacht en schoon, maar je hoeft ze niet de hele dag te verzorgen."
+"Je moet het niet doen, als je geen zin hebt."
+Studeren en werken Is het thuis niet stil en wilt u rustig werken?
+"Rafael Ja, ik wil je zo snel mogelijk bezoeken, maar ik moet eerst voor de vliegtickets sparen."
+"Als u geen laptop hebt, kunt u één uur per dag een computer van de bibliotheek gebruiken."
+Wanneer bent u vrij en wanneer is de school van uw kinderen dicht?
+"Hier schijnt de zon elke dag, dus je zal hier geen koude voeten hebben."
+"En je hoeft even helemaal aan niets te denken, alleen maar te kijken."
+"En je hoeft even helemaal aan niets te denken, alleen maar te kijken."
+"Soms moet je ook betalen, als je in een natuurgebied wil wandelen of fietsen."
+"Monteur Splash monteurs goedemiddag, wat kan ik voor u doen?"
+"Wat wil je nog meer met de taal bereiken, wat is je doel?"
+"Oh, dat hoeft niet, ik heb het thuis al gewassen."
+Voor luisterboeken en e-boeken hoeft u niet eens uit uw stoel te komen.
+"Bas Eh, ik ben niet zo gemotiveerd als jij, denk ik."
+"Als u toch liever naar het Spui komt, kunt u daar aan een leestafel kranten en tijdschriften lezen."
+Wanneer kunt u langskomen?
+Ik loop hard in het bos of ik fiets met een groepje.' Vind je het ook leuk om naar sport te kijken?
+Bas Wat denk je: kan ik Arabisch leren?
+Deze kosten hoeft u dus niet zelf te betalen.
+"Ik wil dus eigenlijk 'nee' zeggen, maar ik durf het niet."
+Toen kreeg ik meer plezier in hardlopen.' En sinds wanneer ga je naar de sportschool?
+Met dit bonnetje kunt u het statiegeld terugkrijgen of een deel van uw boodschappen betalen.
+"Je kunt bijvoorbeeld zeggen: ""Mooie locatie is dit, hè!', 'Ben je hier eerder geweest?' of 'Heb je al een stuk taart gehad?' Later kun je serieuzere vragen stellen, zoals: 'Wat voor werk doe je?', 'Hoe heb je je baan gevonden?' en 'Waar heb je vroeger gewerkt?"" Diana Aha, nuttige tips!"
+Philip Je moet inderdaad zeggen dat je honden niet leuk vindt.
+Helpt het als je al een andere taal hebt geleerd?
+Een extra verzekering Naast de basisverzekering kunt u nog extra verzekeringen kiezen.
+"Moeder Nou, kun je dat zelf niet even doen?"
+"Nou, ga in ieder geval naar een uitzendbureau en schrijf je als werkzoekende in."
+Heb je nog een laatste advies voor mensen die graag willen beginnen met netwerken?
+"Sidra Ja, het is hier bloed heet, maar ik zal niet klagen."
+En ik zat op turnen.' Je was zeker geen meisje voor ballet?
+"Als u over een nieuwe verzekering twijfelt, kunt u online verschillende verzekeringen vergelijken."
+"Niet zo zeuren dus en schiet op, want je komt te laat."
+"Op vrijdagavond wil ze met haar vriend uitgaan, maar ze heeft geen oppas."
+"Moeder Ja, natuurlijk, maak je maar geen zorgen."
+"Kom, doe je bril maar even af."
+"Of je gaat naar Den Haag, als je vriend nog meer schilderijen wil zien."
+"De Centrale bibliotheek in Den Haag Bent u weleens in dat mooie witte gebouw aan het Spui geweest, op nummer 68?"
+In het Taalcafé kunt u samen met anderen Nederlands spreken.
+Of u kunt in de app van uw zorgverzekering kijken.
+"Nou, fijn dat je als verkoper in onze boekwinkel wilt werken."
+Andere stem Wil je iets drinken?
+"Sven Oh Mark, mag ik je iets vragen?"
+"U kunt uit Nederlandse en buitenlandse kranten kiezen, op papier of online."
+"Wilco Hé Pieter, wanneer heb jij die pizza in de oven gedaan?"
+"Nou, ik vind het wel mooi als het kort bij je oren is."
+"Ook lege drinkpakken, chipszakken en blikjes kunt u in de pmd-bak doen."
+"Ivan Nee joh, met die hitte moet je niet sporten."
+De sportschool is echt fijn om alle spieren goed te trainen.' Wat betekent sporten voor jou?
+"Oude meubels, matrassen en grote elektrische apparaten mag u niet zomaar buiten zetten."
+Pieter Misschien moet je even op die grote knop drukken?
+Hoe wil je het hebben?
+"Ivet Nou, maar ik moet wel een goede shampoo gebruiken, het is erg droog."
+"Omar Tja, je wilt natuurlijk 'ja' of 'nee' horen."
+"Jeroen wil graag een maand door Azië reizen, maar dat lijkt me niets."
+"Sven Nee, ik ga liever wandelen, ik wil geen risico's nemen."
+Via een app kunt u thuis rustig verder lezen.
+"Barbara Ja, maar ik kan niet wachten tot het écht zomer is. 00:00 Ivan praat met zijn zoon Jarek."
+En Nederlanders begrijpen je echt niet als je een klank verkeerd uitspreekt.
+En ik zal een cadeautje uit Nederland voor je meenemen.
+"Petra Hm, nou, dat lijkt me wel leuk, maar dat gaat niet."
+Sinds wanneer droog jij je haar?
+En verder... ik denk dat je vriend het Van Gogh Museum of het Stedelijk Museum ook wel mooi vindt.
+"U kunt ook films, muziek en games lenen."
+"Barbara Ja, dit is echt geen weer om te fietsen."
+"Jarek Pap, ik heb echt geen zin en de wedstrijd gaat vast niet door."
+Heb jij je was in de wasmachine gedaan?
+Die ruik je niet en ze maken geen rommel.
+"Julie Goh, heb jij wel een beetje tijd voor jezelf, af en toe?"
+Mijn vriend en ik zijn ook Ajaxsupporters.' Sport je vriend ook zoveel?
+"Als je op vakantie in Nederland gaat, moet je altijd rekening met slecht weer houden."
+Je hoeft ze niet in de kast te zetten.
+"In het begin vind je netwerken misschien lastig, maar het zal snel beter gaan."
+"Ik studeer nog, dus ik kan niet te veel werken."
+Wanneer hoor ik iets van u?
+"Kom op Jarek, je gaat echt niet dood van wat regen."
+"Abel Oké, maar kijk je dan ook nooit een film?"
+Op kantoor zit ik de hele dag achter een computer en dat is echt niet goed voor mijn humeur.
+Morgen kan onze monteur bij u langskomen.
+"Mirjam Oei, ik bedenk ineens dat ik de kapper nog niet heb gebeld!"
+Was je als kind al zo sportief?
+"Hij heeft niet zoveel discipline als ik, maar hij is wel veel relaxter!'"
+"Goed, dan heb ik tot slot nog één vraag: hoeveel uur per week ben je beschikbaar?"
+"Zeg gewoon 'nee' tegen je vriend, maar leg je reactie wel uit."
+"Jeroen kent een fotograaf die mooie foto's kan maken, maar ik moet hem nog bellen."
+Moeder Wil jij die vuile borden op het aanrecht even afwassen?
+"Kapper Met die mooie, dikke krullen van jou kan ik alles doen."
+Vertel hem dat je niet van honden houdt.
+Omar Hoe graag wil je dat?
+"Als je netwerkt, moet je voor nieuwe mensen open staan."
+Je geeft ze twee keer per dag eten en je bent klaar.
+"Rhana Hm, waarom vind je dat zo leuk?"
+"Het gaat niet echt vanzelf, ik heb voor dat diploma hard gewerkt."
+"Lege batterijen, medicijnen en olie mogen niet in het milieu terechtkomen."
+En waarom denk je dat deze baan bij je past?
+"Rhana Hm, waarom vind je dat zo leuk?"
+Die moet je absoluut zien.
+Dan vraagt hij je de volgende keer ook niet meer.
+"We hebben echt geen afwasmachine nodig, dat is ook niet zo goed voor het milieu."
+Wanneer ben je hier voor het laatst geweest?
+Na het overleg zullen we je mailen.
+Die moet je absoluut zien.
+Maar wat doe jij dan als je vrij bent?
+Hij is één van mijn beste vrienden en ik wil geen ruzie met hem.
+En zo kan ik nog wel even doorgaan.
+Sinds wanneer heb je een baard?
+"Aha, dus je moest daar ook met klanten werken."
+Je hebt goede vaardigheden op de computer. ⚫ Je hebt minimaal één jaar werkervaring als receptionist in een hotel.
+Voor meer informatie kun je contact opnemen met de afdeling personeelszaken via het formulier op onze website of via 020-8510 2407.
+Maar wat doe jij dan als je vrij bent?
+"Het Arabisch heeft bijvoorbeeld maar één lidwoord en niet drie, zoals het Nederlands."
+Is je trouwjurk bijvoorbeeld al klaar?
+Dat houd ik echt niet vol!
+"Zo, kon je het makkelijk vinden?"
+"Ik ben zelfstandig, maar ik kan ook goed samenwerken."
+"Je moet niet liegen, dat is niet goed voor jullie vriendschap."
+Maar nu klink ik zo negatief en dat is niet mijn bedoeling.
+"Sidra Ah, maar je komt wel, hè?"
+"Mirjam Ja, maar het pak voor Jeroen nog niet."
+"O ja, mama, waar moeten opa en oma na de bruiloft slapen?"
+Mag ik je föhn even lenen?
+"Sidra Ah, heb jij nog iets leuks meegemaakt?"
+Kun je even met me meedenken?
+"Mevrouw Driesen Murat Mevrouw Driesen Murat Oké, wat waren je taken toen?"
+En kun je iets meer over jezelf vertellen?
+En daarna weet ik het niet meer.
+"Veel studieplekken hebben een stopcontact, zodat u uw laptop of telefoon kunt opladen."
+"Ik moest ze helpen, als ze iets niet konden vinden."
+"Mario Hm, ik weet het niet hoor."
+Doen zij wel eens iets voor jou?
+"Stefan Ja maar mam, ik heb haast en ik moet mijn tanden nog poetsen."
+En heb je eigenlijk al een bruidsboeket uitgezocht?
+Dat laat ik je straks wel zien.
+"Mark Rustig maar, dat hoeft ook niet."
+Hoe moet ik dat aanpakken?
+Zeg bijvoorbeeld dat je naar je schoonouders moet.
+"Ik mis hem wel, maar ik ben niet heel verdrietig."
+Wat wil je?
+"Rafael Ha Sidra, kun je me horen?"
+Kun je me je telefoonnummer sturen?
+Wilt u dat de gemeente het grofvuil ophaalt?
+"Diana Ja, het woord 'netwerk' hoor je tegenwoordig vaak."
+Weet je het zeker?
+Ik laat je straks ook zien hoe je het moet föhnen.
+Of naar mensen die je lang niet hebt gezien.
+En ben jij bereid om hard te werken?
+"Petra Ja, dat gaat dus niet."
+"Ik deed judo en later een teamsport, volleybal.' Wat bedoel je met 'later'?"
+"Bewoners moeten hun vuilniszakken, vuilnisbakken of containers dan aan de straat zetten."
+Ik denk altijd: hoe moet ik zo'n gesprek beginnen?
+Abel Maar je kijkt geen series?
+Daarnaast kan ik goed met apparaten werken en ik ben dus erg handig.
+Petra Hans Petra Kun jij Joris vanmiddag naar het hockeyveld brengen?
+Ik heb niet uitgelegd dat ik niet van honden hou.
+Heb je hem in de droger gedaan?
+"Maar hij heeft een baard, jij niet toch?"
+Maar ik weet niet zo goed wat we moeten doen.
+Welke vind jij het leukst?
+Abel Maar je kijkt geen series?
+Hij heeft net zulke donkere ogen en bruine krullen als jij.
+Ze mogen trouwens pas een bijbaantje hebben als ze achttien zijn.
+"Ik herkende hem meteen, want hij lijkt nog steeds heel veel op je."
+Wat kijk jij meestal?
+Je moet niet zo egoïstisch doen.
+Maar dat hangt van je moedertaal af.
+Wat viel je op in de lessen?
+Wanneer kom jij op bezoek in Australië?
+Ik had geen zin meer om me te scheren.
+"Als het erg druk was, moest ik soms ook achter de kassa werken."
+Je controleert de kamers voordat je ze aan de gasten geeft.
+Want je kleren drogen niet zo snel.
+Die kan niet goed alleen zijn.
+"Bas Ja, daarom spreek je ook zo goed, denk ik."
+"Rafael Pff, je maakt me jaloers!"
+"En doordeweeks kan ik ook in de avond, als dat nodig is."
+Hoe gemotiveerd ben je?
+"Hun uniform viel natuurlijk ook op, omdat Nederlandse leerlingen geen uniform dragen."
+Hoe gaat het nu met je?
+Ben je niemand vergeten?
+Kapper Heb je het druk?
+Maar wist u dat de Centrale Bibliotheek boeken in verschillende talen heeft?
+Wat adviseer je hen dan?
+Heb je nog andere tips?
+Heb je zelf nog vragen?
+Vind je dat oké?
+Mensen praten makkelijk over hun gevoel met mij en ik kan goed luisteren.
+Hij houdt namelijk van kunst en ik totaal niet...
+```
+
+---
+
+**Now take time to analyze this content deeply, understand the patterns and themes, extract additional vocabulary from the sentences, and curate 300-500 high-quality exercises that demonstrate true pedagogical insight.**
+
+### vocabulary_complex_expert.csv (467 exam-relevant words - analyze these)
+```csv
+dutch,english,article
+agenda,agenda,de
+als,when,
+binnenkort,soon,
+hockey,(field) hockey,de
+lastig,difficult,
+omdat,because,
+plezier,pleasure,het
+sauna,sauna,de
+strand,beach,het
+training,training,de
+veld,field,het
+volwassene,adult,de
+wandelen,to walk,
+wedstrijd,match,de
+zwembad,swimming pool,het
+bedenken,to think of,
+examen,exam,het
+excuus,excuse,het
+liegen,to lie,
+logeren,to stay over,
+moeite,trouble,de
+neef,nephew,de
+nicht,niece,de
+ontdekken,to discover,
+oppassen op,to care for,
+plan,plan,het
+schoonouders,parents-in-law,de
+smoes,excuse,de
+vriendschap,friendship,de
+waarheid,truth,de
+zwager,brother-in-law,de
+bedrijf,company,het
+christelijk,Christian,
+datum,date,de
+herdenken,to commemorate,
+koning,king,de
+midden,middle,het
+noorden,north,het
+oorlog,war,de
+optreden,performance,het
+oud en nieuw,New Year's Eve and New Year's Day,
+Pinksteren,Pentecost,
+regio,region,de
+respect,respect,het
+scholier,schoolkid,de
+slachtoffer,victim,het
+traditie,tradition,de
+voorjaar,spring,het
+zuiden,south,het
+aandacht,attention,de
+bezoeken,to visit,
+bijbaantje,job on the side,het
+bijles,extra lesson,de
+campus,campus,de
+gemotiveerd,motivated,
+piano,piano,de
+presentatie,presentation,de
+presteren,to perform,
+reis,trip,de
+samenwerken,to collaborate,
+sportclub,sports club,de
+volgen,to follow,
+workshop,workshop,de
+afhangen van,to depend on,
+bedoeling,intention,de
+bereiken,to achieve,
+doel,goal,het
+gemakkelijk,easy,
+grammatica,grammar,de
+interview,interview,het
+invloed,influence,de
+klank,sound,de
+lesmethode,teaching method,de
+moedertaal,native language,de
+motivatie,motivation,de
+staatsexamen NT2,NT2 state exam,het
+taalcontact,language contact,het
+uitspraak,pronunciation,de
+uitspreken,to pronounce,
+voordeel,advantage,het
+aanrecht,countertop,het
+afwasmachine,dishwasher,de
+apparaat,device,het
+bord,plate,het
+drogen,to dry,
+droger,dryer,de
+föhn,hair dryer,de
+haar,hair,het
+ophangen,to hang up,
+stofzuiger,vacuum cleaner,de
+strijken,to iron,
+strijkijzer,iron,het
+tand,tooth,de
+tandenborstel,toothbrush,de
+afhankelijk,depending,
+drukken,to press,
+drukte,busyness,de
+gisteren,yesterday,
+knop,button,de
+kwartier,quarter of an hour,het
+lekken,to leak,
+lukken,to succeed,
+magnetron,microwave,de
+monteur,mechanic,de
+opzoeken,to look up,
+oven,oven,de
+programma,programme,het
+scherm,screen,het
+tijdstip,time,het
+type,type,het
+zolder,attic,de
+cadeau,gift,het
+hotel,hotel,het
+klimaat,climate,het
+laten zien,to show,
+meemaken,to experience,
+natuur,nature,de
+oma,grandma,de
+vliegen,to fly,
+vliegticket,airline ticket,de
+voet,foot,de
+wereld,world,de
+zee,sea,de
+zich voelen,to feel,
+afspreken,to make an appointment,
+alleenstaand,single,
+cultuur,culture,de
+eindigen,to end,
+huwelijk,marriage,het
+ontmoeting,encounter,de
+opvoeding,upbringing,de
+partner,partner,de
+relatie,relationship,de
+scheiding,divorce,de
+traditioneel,traditional,
+vanzelfsprekend,the natural thing to do,
+verwachting,expectation,de
+zorg,care,de
+bloem,flower,de
+bruidsboeket,wedding bouquet,het
+foto,photo,de
+fotograaf,photographer,de
+gast,guest,de
+huwelijksreis,honeymoon,de
+opa,grandpa,de
+pech,bad luck,de
+regelen,to arrange,
+ring,ring,de
+stadhuis,city hall,het
+taart,cake,de
+trouwjurk,wedding dress,de
+uitzoeken,to pick out,
+vergeten,to forget,
+zich herinneren,to remember,
+baard,beard,de
+gecondoleerd,sorry for your loss,
+grap,joke,de
+herinnering,memory,de
+huid,skin,de
+karakter,character,het
+krul,curl,de
+lengte,length,de
+lijken op,to resemble,
+oog,eye,het
+oor,ear,het
+uiterlijk,appearance,het
+zich schamen,to be ashamed,
+collectie,collection,de
+concert,concert,het
+cursus,course,de
+documentaire,documentary,de
+e-boek,e-book,het
+kosten,costs,de
+leestafel,reading table,de
+lid,member,het
+lidmaatschap,membership,het
+luisterboek,audio book,het
+medewerker,employee,de
+mogelijkheid,possibility,de
+papier,paper,het
+pas,pass,de
+stuk,bit,het
+termijn,term,de
+tijdschrift,magazine,het
+toegang,access,de
+tv-serie,TV series,de
+verbeteren,to improve,
+verbinding,connection,de
+doorbrengen,to spend,
+eeuw,century,de
+fantastisch,fantastic,
+gracht,canal,de
+interesse,interest,de
+kunst,art,de
+meedenken,to help think,
+museum,museum,het
+overnachten,to spend the night,
+popconcert,pop concert,het
+risico,risk,het
+schilderij,painting,het
+toerist,tourist,de
+ballet,ballet,het
+betekenen,to mean,
+beweging,exercise,de
+bos,forest,het
+conditie,condition,de
+discipline,discipline,de
+humeur,mood,het
+ict'er,ICT worker,de
+judo,judo,de
+onderdeel,part,het
+racefiets,racing bicycle,de
+spier,muscle,de
+spierpijn,muscle pain,de
+sportschool,gym,de
+supporter,supporter,de
+teamsport,team sport,de
+totdat,until,
+bovenkant,top,de
+bril,glasses,de
+gezicht,face,het
+model,hairstyle,het
+nek,neck,de
+overtuigen,to convince,
+psycholoog,psychologist,de
+shampoo,shampoo,de
+spiegel,mirror,de
+verandering,change,de
+voordat,before,
+zaak,store,de
+zich scheren,to shave,
+afval,waste,het
+bak,container,de
+batterij,battery,de
+beker,cup,de
+"blik, het (het blikje)",can,
+container,container,de
+deel,part,het
+grofvuil,bulky waste,het
+helft,half,de
+karton,cardboard,het
+krat,crate,het
+"matras, de/het",mattress,
+olie,oil,de
+plastic,plastic,het
+pot,pot,de
+restje,leftover,het
+schil,peel,de
+statiegeld,deposit,het
+stof,substance,de
+terechtkomen,to end up,
+terugbrengen,to return,
+verzamelen,to collect,
+vuilnis,garbage,het
+basis,basis,de
+behandeling,treatment,de
+bezoek,visit,het
+bloed,blood,het
+hoogte,height,de
+kraamzorg,maternity care,de
+noodzakelijk,necessary,
+opname,admission,de
+opzeggen,to cancel,
+overzicht,overview,het
+polis,(insurance) policy,de
+premie,premium,de
+vergelijken,to compare,
+verzekeren,to insure,
+zorgkosten,healthcare costs,de
+beschrijven,to describe,
+bezorger,deliveryman,de
+depressie,depression,de
+enthousiast,enthusiastic,
+functie,function,de
+gevoel,feeling,het
+kennis,knowledge,de
+klant,customer,de
+kwaliteit,quality,de
+leiding,leadership,de
+mode,fashion,de
+passen bij,to match,
+sfeer,atmosphere,de
+stage,internship,de
+therapie,therapy,de
+wiskunde,math,de
+aanpakken,to go about,
+adviseren,to advise,
+begin,start,het
+belang,importance,het
+bestaan uit,to consist of,
+bijeenkomst,meeting,de
+borrel,drink,de
+carrière,career,de
+interviewen,to interview,
+leidinggevende,leader,de
+netwerk,network,het
+netwerken,to network,
+resultaat,result,het
+uitkering,benefit,de
+uitzendbureau,employment agency,het
+vacature,vacancy,de
+werkervaring,work experience,de
+werkgever,employer,de
+werknemer,employee,de
+werkzaamheden,work activities,de
+werkzoekende,job seeker,de
+afdeling,department,de
+beantwoorden,to answer,
+beschikbaar,available,
+cv,CV,het
+doorzettingsvermogen,perseverance,het
+eis,requirement,de
+fulltime,full time,
+omschrijving,description,de
+personeelszaken,human resources department,de
+receptie,reception,de
+receptionist,receptionist,de
+salaris,salary,het
+snelweg,highway,de
+sollicitatiebrief,application letter,de
+solliciteren,to apply for a job,
+vaardigheid,skill,de
+verantwoordelijk,responsible,
+afwisselend,full of variety,
+bijbaan,job on the side,de
+boekwinkel,bookstore,de
+bureau,desk,het
+directeur,director,de
+kassa,cash register,de
+magazijn,warehouse,het
+overleg,meeting,het
+serveren,to serve,
+sollicitant,applicant,de
+sollicitatiegesprek,job interview,het
+soort,type,het
+taak,task,de
+verleden,past,het
+verzorgingshuis,care home,het
+voorbeeld,example,het
+binnenblijven,to stay inside,
+bui,rain shower,de
+hagel,hail,de
+handschoen,glove,de
+hitte,heat,de
+hoofd,head,het
+ijs,ice,het
+muts,hat,de
+onweren,to thunder,
+paraplu,umbrella,de
+regenjas,raincoat,de
+storm,storm,de
+voorspellen,to predict,
+wolk,cloud,de
+aarde,Earth,de
+dam,dam,de
+dijk,dyke,de
+gevolg,consequence,het
+kans,chance,de
+kust,coast,de
+lente,spring,de
+lucht,air,de
+misverstand,misunderstanding,het
+neerslag,precipitation,de
+onweer,thunder,het
+oosten,east,het
+overstroming,flood,de
+periode,period,de
+rivier,river,de
+seizoen,season,het
+sneeuw,snow,de
+stijgen,to rise,
+vliegtuig,airplane,het
+waddeneiland,Wadden Island,het
+westen,west,het
+wisselvallig,changeable (weather),
+berg,mountain,de
+boerderij,farm,de
+duin,dune,de
+enige,only,de
+hek,fence,het
+inwoner,resident,de
+kamperen,to camp,
+koe,cow,de
+landschap,landscape,het
+meer,lake,het
+miljoen,million,het
+natuurgebied,nature reserve,het
+pad,path,het
+schaap,sheep,het
+teleurgesteld,disappointed,
+top,top,de
+uitzicht,view,het
+vuur,fire,het
+weiland,meadow,het
+zand,sand,het
+beest,animal,het
+dier,animal,het
+kat,cat,de
+knuffelen,to cuddle,
+konijn,rabbit,het
+nadeel,disadvantage,het
+praatje,chat,het
+rommel,mess,de
+ruiken,to smell,
+slang,snake,de
+spin,spider,de
+verzorgen,to care for,
+vogel,bird,de
+aflevering,episode,de
+drama,drama,het
+hangen,to hang,
+journaal,news,het
+misdaad,crime,de
+politiek,politics,de
+programma,programme,het
+quiz,quiz show,de
+rust,rest,de
+soapserie,soap series,de
+talkshow,talk show,de
+terugkijken,to watch back,
+thriller,thriller,de
+titel,title,de
+vegetarisch,vegetarian,
+zender,(TV) station,de
+advertentie,advertisement,de
+bevolking,population,de
+communiceren,to communicate,
+diploma-uitreiking,graduation ceremony,de
+evenement,event,het
+feestdag,holiday,de
+festival,festival,het
+gebeurtenis,event,de
+gebruiker,user,de
+kennis,acquaintance,de
+kleinkind,grandchild,het
+koopje,bargain,het
+kwart,quarter,het
+oudere,elderly person,de
+profiel,profile,het
+sociale medium,social media,het
+toename,increase,de
+*Ga je mee...?*,Are you coming along?,
+*Dat gaat niet*,That won't work,
+*Kun jij...?*,Can you...?,
+*Ik moet...*,I must/have to...,
+*Niks aan te doen*,Nothing to be done,
+*Ik durf het niet*,I don't dare,
+*Mag ik...?*,May I...?,
+*Je moet...*,You must...,
+"*Ik kan niet, want...*","I can't, because...",
+*Bovendien...*,Moreover...,
+*Dat hangt van... af*,That depends on...,
+*Ik hoor weleens dat...*,I sometimes hear that...,
+*Hoe zit het met...?*,How is it with...?,
+*Wat viel je op?*,What did you notice?,
+*verder...*,furthermore...,
+*Ik vond... bijzonder*,I found... special,
+*Heb je... gedaan?*,Have you done...?,
+*Doet hij het?*,Does it work?,
+*Misschien kunnen ze...*,Maybe they can...,
+*Wat kan ik voor u doen?*,What can I do for you?,
+*Wanneer kunt u langskomen?*,When can you come by?,
+*Mag ik...?*,May I...?,
+*Sinds wanneer...?*,Since when...?,
+*Wil jij...?*,Will you...?,
+*Kun je... niet?*,Can't you...?,
+```
+
+### sentences_expert.csv (161 high-value sentences - extract more vocabulary from these)
+```csv
+dutch
+Vrijdag kan ik wel! Hoe laat?
+Hoe kan ik je bereiken?
+Helaas niet. Ik moet werken tot 17 uur.
+Waar ga je op vakantie?
+Waar ben je geweest met vakantie?
+Mijn computer doet het niet meer.
+"Ja, leuk! Hoe laat zullen we afspreken?"
+Wat heb je nodig van de supermarkt?
+Hoe kom je naar je werk?
+Wat doe je in je vrije tijd?
+Niet zo vaak. Ik kijk liever thuis.
+Goed idee! Wanneer kun je?
+Hoelang duurde je studie?
+"Ja, ik wil beter Engels leren."
+Wanneer ben je jarig?
+Wat doe je dan?
+Dan doen we woensdag. Om 14 uur?
+Hoe reis je dan?
+Ik weet het niet. Misschien moet ik naar de dokter.
+Ik zwem liever. Zwemmen vind ik leuker dan fitness.
+Ja hoor! Hoe laat?
+"Nee, ik verblijf liever in een hotel."
+Waarom?
+"Voor werk wel, privé gebruik ik liever WhatsApp."
+"Geen probleem, ik wacht wel."
+Wat voor werk doe je?
+Leuk! Hoeveel dagen per week werk je?
+Hoe vaak heb je les?
+Hoe lang blijf je daar?
+Wat is het koud vandaag!
+Hoe groot is je familie?
+Wat voor boeken lees je?
+Hoe lang doe je dat al?
+Wat ga je nu doen?
+Wat leuk! Was het druk?
+Wat heb je met Kerst gedaan?
+Wat leuk! Krijgen ze cadeaus?
+Waar heb je hem voor het laatst gezien?
+Wat een mooie tuin heb je!
+Ik werk als leraar op een basisschool.
+Goed idee! We kunnen buiten zitten.
+Wil je koffie of thee?
+"Alleen melk, zonder suiker alsjeblieft."
+Vier jaar. Nu werk ik als jurist.
+Wil je nog een cursus doen?
+Ga je dit jaar op vakantie?
+Misschien moet je naar de reparatieservice.
+Heb je zin om zaterdag mee te gaan naar het strand?
+Om 10 uur bij het station?
+Zullen we volgende week afspreken?
+Heb je morgen tijd om te lunchen?
+Om 12 uur bij het restaurant?
+Kun je zaterdag komen eten?
+Om 18 uur. Eet je vegetarisch?
+Heb je ook groente nodig?
+"Die is om de hoek, naast de slager."
+Hoeveel kost deze jas?
+Ik ga met de trein. Dat duurt 20 minuten.
+Wat is er?
+"Ja, elke dag een half uur."
+"Ja, het vriest. Maar morgen wordt het warmer."
+Wat een mooi weer!
+Huur je of heb je een koophuis?
+Ik huur. Een koophuis is te duur.
+Dat is hier ook een probleem.
+Wat eten we vanavond?
+Thrillers en romans. En jij?
+Wat heb je gestudeerd?
+Dat is comfortabeler. En jij?
+"Ja, bij mij thuis. Kom je ook?"
+Wat is je telefoonnummer?
+Ik stuur je een berichtje.
+Zal ik je helpen zoeken?
+Een half uur. Ik kom later aan.
+"Mooi, dan gaan we zaterdag."
+Dank je. Ik hoop dat het snel droog wordt.
+Het weer wordt beter vanavond.
+"Dank je, dat is fijn."
+Dank je. Ik werk er veel in.
+"Dinsdag of woensdag, dat maakt mij niet uit."
+Waar is de bakkerij?
+Mag ik hem passen?
+Natuurlijk! De paskamer is daar.
+"Nee, ik heb geen rijbewijs."
+Ik voel me niet lekker.
+Niet zo veel. Een of twee keer per week.
+Gelukkig! Ik hou niet van kou.
+Willen jullie trouwen?
+Waar woon je?
+Hoeveel kamers heb je?
+Wil je verhuizen?
+Ik zal geen noten gebruiken in het eten.
+"Ja, maar dat helpt niet."
+Hoelang?
+"Ja, tomaten en komkommer."
+Dank je. Is die vandaag open?
+"Ja, tot 18 uur."
+Tomatensaus met groenten.
+"In de keuken, denk ik."
+En vrijdag dan?
+"Mooi, tot zaterdag dan!"
+Ik ook niet.
+Ga je vaak naar de sportschool?
+"Ja, ik train drie keer per week. En jij?"
+Dat is ook goed voor je conditie!
+Heb je plannen voor het weekend?
+Ik ga wandelen in het bos. Ga je mee?
+Graag! Ik ben dol op wandelen.
+Ik werk vier dagen per week.
+"Ja, ik doe een cursus Nederlands."
+"Twee keer per week, op maandag en woensdag."
+Ben je tevreden met je baan?
+"Ja, ik werk graag met kinderen."
+Dat is fijn! En de collega's?
+89 euro. Hij is in de aanbieding.
+Met de fiets. En jij?
+Naar Spanje. We vliegen in juli.
+Twee weken. We huren een huis aan zee.
+Met het openbaar vervoer. Dat is goedkoper.
+Ik heb hoofdpijn en keelpijn.
+Ik hardloop of ik fiets. Dat is goed voor mijn gezondheid.
+Ik probeer het. Veel groente en fruit.
+"Ja, neem een paraplu mee."
+"Ja, de zon schijnt en het is warm."
+Zullen we naar het park gaan?
+Heb je broers of zussen?
+"Ja, ik heb een broer en een zus."
+Mijn broer is ouder en mijn zus is jonger.
+Woon je samen met je vriend?
+"Misschien, over een paar jaar."
+Best groot. Ik heb vijf neven en drie nichten.
+Met verjaardagen en met de feestdagen.
+"In Amsterdam, in een appartement."
+"Twee slaapkamers, een woonkamer en een keuken."
+Ben je tevreden met je huis?
+"Ja, maar het is wel klein."
+Misschien over een jaar. We zoeken iets groters.
+"Ja, de huizenprijzen zijn hoog."
+Goed idee! Met welke saus?
+Ben je allergisch voor iets?
+Ik lees graag en ik kijk series.
+Al vijf jaar. Ik oefen elke dag.
+Ga je vaak naar de bioscoop?
+"Ja, precies. Dat is goedkoper."
+Ga je nog naar school?
+"Nee, ik ben klaar met mijn opleiding."
+Ik zoek een baan in mijn vakgebied.
+Dat is handig voor je werk.
+In Frankrijk. We hebben een week in Parijs verbleven.
+"Ja, maar het was fantastisch."
+Met mijn vrouw en kinderen.
+Op 15 maart. En jij?
+Op 3 mei. Geef je een feest?
+We hebben bij mijn ouders gegeten.
+"Ja, elk jaar met de kinderen."
+"Ja, en we eten pepernoten."
+Je kunt me bellen of een berichtje sturen.
+"Ja, ik gebruik dat elke dag."
+Prima! Ik zie het wel.
+Heb je hem opnieuw opgestart?
+Ik ben mijn sleutel kwijt.
+```
+
+---
+
+**Now take time to analyze this content deeply, understand the patterns and themes, extract additional vocabulary from the sentences, and curate 300-500 high-quality exercises that demonstrate true pedagogical insight.**
