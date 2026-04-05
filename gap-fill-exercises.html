@@ -116,7 +116,10 @@ function renderExercises() {
           <button class="btn primary" onclick="checkAnswer(${idx})" id="check-${idx}">Check Answer</button>
           <button class="btn secondary" onclick="showHint(${idx})" id="hint-btn-${idx}">💡 Show Hint</button>
         </div>
-        <div class="hint hidden" id="hint-${idx}">💡 <strong>Hint:</strong> ${ex.hint}</div>
+        <div class="hint hidden" id="hint-${idx}">
+          💡 <strong>Hint:</strong> ${ex.hint}
+          ${ex.english ? `<br>🇬🇧 <strong>Translation:</strong> ${ex.english}` : ''}
+        </div>
         <div class="feedback hidden" id="feedback-${idx}"></div>
         <div class="source hidden" id="source-${idx}">
           📝 <strong>Full sentence:</strong> ${ex.source}
