@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch A1-A2 Exercises (300 Questions) - Dark Mode</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #b0b0b0;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            padding: 12px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #e0e0e0;
+            font-size: 1em;
+        }
+
+        .search-box::placeholder {
+            color: #808080;
+        }
+
+        .theme-filter {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .theme-btn {
+            padding: 8px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #e0e0e0;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .theme-btn:hover {
+            background: rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+
+        .theme-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: transparent;
+            color: white;
+        }
+
+        .progress-bar {
+            background: rgba(255, 255, 255, 0.05);
+            height: 8px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .stats {
+            text-align: center;
+            color: #b0b0b0;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .exercise {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .exercise:hover {
+            border-color: rgba(102, 126, 234, 0.5);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.2);
+        }
+
+        .exercise.answered {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .exercise-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .exercise-number {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .sentence {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .sentence .blank {
+            color: #667eea;
+            font-weight: bold;
+            padding: 0 5px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.03);
+            color: #e0e0e0;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.2);
+        }
+
+        .option.selected {
+            background: rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+
+        .option.correct {
+            background: rgba(76, 175, 80, 0.3);
+            border-color: #4caf50;
+        }
+
+        .option.incorrect {
+            background: rgba(244, 67, 54, 0.3);
+            border-color: #f44336;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .hint {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.15);
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .hint.visible {
+            display: block;
+        }
+
+        .hint-translation {
+            color: #b0b0b0;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+
+        .hint-explanation {
+            color: #e0e0e0;
+            line-height: 1.5;
+        }
+
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .feedback.visible {
+            display: block;
+        }
+
+        .feedback.correct {
+            background: rgba(76, 175, 80, 0.2);
+            border-left: 4px solid #4caf50;
+            color: #a5d6a7;
+        }
+
+        .feedback.incorrect {
+            background: rgba(244, 67, 54, 0.2);
+            border-left: 4px solid #f44336;
+            color: #ef9a9a;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .sentence {
+                font-size: 1.1em;
+            }
+
+            .options {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <header>
+            <h1>🌙 Dutch A1-A2 Exercises</h1>
+            <p class="subtitle">300 multiple-choice exercises with translations and explanations</p>
+        </header>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search exercises...">
+        </div>
+
+        <div class="theme-filter" id="themeFilter"></div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="stats" id="stats">0 / 300 completed</div>
+
+        <div id="exerciseContainer"></div>
+    </div>
+
+    <script>
+        let exercises = [];
+        let answeredCount = 0;
+        let activeTheme = 'all';
+
+        // Load exercises
+        fetch('calude_suggested_sentence_exercises/dutch_exercises_v2.json')
+            .then(response => response.json())
+            .then(data => {
+                exercises = data.exercises;
+                extractThemes();
+                renderExercises();
+            })
+            .catch(error => {
+                console.error('Error loading exercises:', error);
+                document.getElementById('exerciseContainer').innerHTML =
+                    '<div style="text-align:center;padding:40px;color:#f44336;">Failed to load exercises. Please make sure the JSON file is in the correct location.</div>';
+            });
+
+        function extractThemes() {
+            const themes = new Set();
+            exercises.forEach(ex => {
+                if (ex.hint && ex.hint.explanation) {
+                    const exp = ex.hint.explanation.toLowerCase();
+                    if (exp.includes('modal') || exp.includes('moeten') || exp.includes('kunnen') || exp.includes('willen') || exp.includes('mogen')) themes.add('Modals');
+                    if (exp.includes('separable') || exp.includes('particle')) themes.add('Separable Verbs');
+                    if (exp.includes('past') || exp.includes('perfect') || exp.includes('participle')) themes.add('Past Tense');
+                    if (exp.includes('pronoun') || exp.includes('possessive')) themes.add('Pronouns');
+                    if (exp.includes('preposition')) themes.add('Prepositions');
+                    if (exp.includes('article') || exp.includes('de/het')) themes.add('Articles');
+                    if (exp.includes('adjective')) themes.add('Adjectives');
+                    if (exp.includes('word order') || exp.includes('inversion')) themes.add('Word Order');
+                }
+            });
+
+            const filterDiv = document.getElementById('themeFilter');
+            filterDiv.innerHTML = '<button class="theme-btn active" onclick="filterByTheme(\'all\')">All (300)</button>';
+
+            Array.from(themes).sort().forEach(theme => {
+                const count = exercises.filter(ex => {
+                    const exp = ex.hint.explanation.toLowerCase();
+                    return matchesTheme(exp, theme);
+                }).length;
+
+                filterDiv.innerHTML += `<button class="theme-btn" onclick="filterByTheme('${theme}')">${theme} (${count})</button>`;
+            });
+        }
+
+        function matchesTheme(explanation, theme) {
+            const exp = explanation.toLowerCase();
+            const themeMap = {
+                'Modals': ['modal', 'moeten', 'kunnen', 'willen', 'mogen'],
+                'Separable Verbs': ['separable', 'particle'],
+                'Past Tense': ['past', 'perfect', 'participle'],
+                'Pronouns': ['pronoun', 'possessive'],
+                'Prepositions': ['preposition'],
+                'Articles': ['article', 'de/het'],
+                'Adjectives': ['adjective'],
+                'Word Order': ['word order', 'inversion']
+            };
+
+            return themeMap[theme].some(keyword => exp.includes(keyword));
+        }
+
+        function filterByTheme(theme) {
+            activeTheme = theme;
+
+            // Update active button
+            document.querySelectorAll('.theme-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.startsWith(theme) || (theme === 'all' && btn.textContent.startsWith('All'))) {
+                    btn.classList.add('active');
+                }
+            });
+
+            renderExercises();
+        }
+
+        function renderExercises() {
+            const container = document.getElementById('exerciseContainer');
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+
+            let filtered = exercises.filter(ex => {
+                const matchesSearch = searchTerm === '' ||
+                    ex.sentence.toLowerCase().includes(searchTerm) ||
+                    (ex.hint.translation && ex.hint.translation.toLowerCase().includes(searchTerm));
+
+                const matchesTheme = activeTheme === 'all' ||
+                    matchesTheme(ex.hint.explanation, activeTheme);
+
+                return matchesSearch && matchesTheme;
+            });
+
+            container.innerHTML = filtered.map((ex, idx) => `
+                <div class="exercise" id="exercise-${ex.id}">
+                    <div class="exercise-header">
+                        <span class="exercise-number">Exercise ${ex.id}</span>
+                    </div>
+
+                    <div class="sentence">${ex.sentence.replace('___', '<span class="blank">___</span>')}</div>
+
+                    <div class="options" id="options-${ex.id}">
+                        ${ex.options.map((opt, i) => `
+                            <div class="option" onclick="selectOption(${ex.id}, ${i}, '${opt}')">${opt}</div>
+                        `).join('')}
+                    </div>
+
+                    <button class="submit-btn" id="submit-${ex.id}" onclick="checkAnswer(${ex.id})" disabled>
+                        Submit Answer
+                    </button>
+
+                    <div class="hint" id="hint-${ex.id}">
+                        <div class="hint-translation">🇬🇧 ${ex.hint.translation}</div>
+                        <div class="hint-explanation">💡 ${ex.hint.explanation}</div>
+                    </div>
+
+                    <div class="feedback" id="feedback-${ex.id}"></div>
+                </div>
+            `).join('');
+
+            updateStats();
+        }
+
+        let selectedAnswers = {};
+
+        function selectOption(exerciseId, optionIndex, optionText) {
+            const exercise = exercises.find(ex => ex.id === exerciseId);
+            const answered = document.getElementById(`exercise-${exerciseId}`).classList.contains('answered');
+
+            if (answered) return;
+
+            // Deselect all options
+            const optionsDiv = document.getElementById(`options-${exerciseId}`);
+            optionsDiv.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
+
+            // Select clicked option
+            optionsDiv.children[optionIndex].classList.add('selected');
+
+            // Enable submit button
+            document.getElementById(`submit-${exerciseId}`).disabled = false;
+
+            // Store selected answer
+            selectedAnswers[exerciseId] = { optionIndex, optionText };
+        }
+
+        function checkAnswer(exerciseId) {
+            const exercise = exercises.find(ex => ex.id === exerciseId);
+            const selected = selectedAnswers[exerciseId];
+
+            if (!selected) return;
+
+            const optionsDiv = document.getElementById(`options-${exerciseId}`);
+            const options = Array.from(optionsDiv.children);
+            const correctIndex = exercise.options.findIndex(opt => opt === exercise.answer);
+
+            // Mark correct and incorrect
+            options.forEach((opt, idx) => {
+                if (idx === correctIndex) {
+                    opt.classList.add('correct');
+                } else if (idx === selected.optionIndex) {
+                    opt.classList.add('incorrect');
+                }
+                opt.style.pointerEvents = 'none';
+            });
+
+            // Show feedback
+            const isCorrect = selected.optionText === exercise.answer;
+            const feedbackDiv = document.getElementById(`feedback-${exerciseId}`);
+            feedbackDiv.className = `feedback visible ${isCorrect ? 'correct' : 'incorrect'}`;
+            feedbackDiv.textContent = isCorrect ?
+                '✅ Correct! Well done!' :
+                `❌ Incorrect. The correct answer is: ${exercise.answer}`;
+
+            // Show hint
+            document.getElementById(`hint-${exerciseId}`).classList.add('visible');
+
+            // Mark as answered
+            document.getElementById(`exercise-${exerciseId}`).classList.add('answered');
+            document.getElementById(`submit-${exerciseId}`).disabled = true;
+
+            // Update progress
+            answeredCount++;
+            updateStats();
+        }
+
+        function updateStats() {
+            const total = activeTheme === 'all' ? 300 :
+                exercises.filter(ex => matchesTheme(ex.hint.explanation, activeTheme)).length;
+
+            const answered = document.querySelectorAll('.exercise.answered').length;
+            document.getElementById('stats').textContent = `${answered} / ${total} completed`;
+
+            const progress = (answered / total) * 100;
+            document.getElementById('progressFill').style.width = `${progress}%`;
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', renderExercises);
+    </script>
+</body>
+</html>
