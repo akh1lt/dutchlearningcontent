@@ -13,8 +13,8 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #e0e0e0;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f2027 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -22,20 +22,25 @@
             padding: 20px;
         }
         .container {
-            background: white;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
             max-width: 800px;
             width: 100%;
             padding: 40px;
         }
         h1 {
-            color: #667eea;
+            background: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #48dbfb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 10px;
             font-size: 2.5em;
         }
         .subtitle {
-            color: #666;
+            color: #b0b0b0;
             margin-bottom: 30px;
             font-size: 1.1em;
         }
@@ -45,29 +50,35 @@
             margin-top: 30px;
         }
         .material-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(254, 202, 87, 0.1) 50%, rgba(72, 219, 251, 0.1) 100%);
+            border: 1px solid rgba(255, 107, 107, 0.3);
             color: white;
             padding: 25px;
             border-radius: 12px;
             text-decoration: none;
             display: block;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: all 0.3s ease;
         }
         .material-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.2) 0%, rgba(254, 202, 87, 0.2) 50%, rgba(72, 219, 251, 0.2) 100%);
+            border-color: rgba(255, 107, 107, 0.6);
         }
         .material-card h2 {
             font-size: 1.4em;
             margin-bottom: 8px;
+            color: #ffffff;
         }
         .material-card p {
             opacity: 0.9;
             font-size: 0.95em;
+            color: #e0e0e0;
         }
         .badge {
             display: inline-block;
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 107, 107, 0.3);
+            border: 1px solid rgba(255, 107, 107, 0.5);
             padding: 4px 12px;
             border-radius: 20px;
             font-size: 0.8em;
@@ -76,7 +87,7 @@
         footer {
             text-align: center;
             margin-top: 30px;
-            color: #666;
+            color: #808080;
             font-size: 0.9em;
         }
         @media (max-width: 600px) {
@@ -122,6 +133,12 @@
             <a href="exercises-v2-dark.html" class="material-card">
                 <h2>🌙 Advanced Exercises - Dark Mode (300 Questions)</h2>
                 <p>300 multiple-choice exercises with English translations and detailed explanations. Theme filtering and search included.</p>
+                <span class="badge">NEW</span>
+            </a>
+
+            <a href="exercises-210-dark.html" class="material-card">
+                <h2>🌊 Corpus-Based Exercises - Dark Mode (210 Questions)</h2>
+                <p>210 fill-in-the-blank exercises organized by text themes from authentic Dutch corpus. Includes translations and explanations.</p>
                 <span class="badge">NEW</span>
             </a>
 

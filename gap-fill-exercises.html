@@ -6,43 +6,44 @@
 <title>Dutch A2 Gap-Fill Exercises - 175 Questions</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;padding:20px;color:#333}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);min-height:100vh;padding:20px;color:#e0e0e0}
 .container{max-width:900px;margin:0 auto}
-.header{background:white;border-radius:16px;padding:30px;margin-bottom:20px;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+.header{background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:30px;margin-bottom:20px;box-shadow:0 10px 30px rgba(0,0,0,0.3)}
 h1{font-size:2.2rem;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
-.subtitle{color:#666;font-size:1rem;margin-bottom:15px}
+.subtitle{color:#b0b0b0;font-size:1rem;margin-bottom:15px}
 .back{display:inline-block;color:#667eea;text-decoration:none;font-size:0.9rem;margin-bottom:10px}
 .back:hover{text-decoration:underline}
-.controls{background:white;border-radius:12px;padding:15px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.1)}
-.search{width:100%;padding:12px 16px;border:2px solid #e0e0e0;border-radius:8px;font-size:1rem;transition:border .3s}
+.controls{background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:15px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.2)}
+.search{width:100%;padding:12px 16px;border:2px solid rgba(255,255,255,0.2);border-radius:8px;font-size:1rem;transition:border .3s;background:rgba(255,255,255,0.08);color:#fff}
+.search::placeholder{color:#b0b0b0}
 .search:focus{outline:none;border-color:#667eea}
-.stats{background:white;border-radius:12px;padding:15px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.1);display:flex;justify-content:space-between;align-items:center}
+.stats{background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:15px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.2);display:flex;justify-content:space-between;align-items:center}
 .progress-text{font-weight:600;color:#667eea}
-.progress-bar{flex:1;height:8px;background:#e0e0e0;border-radius:4px;margin:0 15px;overflow:hidden}
+.progress-bar{flex:1;height:8px;background:rgba(255,255,255,0.1);border-radius:4px;margin:0 15px;overflow:hidden}
 .progress-fill{height:100%;background:linear-gradient(90deg,#667eea,#764ba2);transition:width .3s;border-radius:4px}
-.exercise{background:white;border-radius:16px;padding:25px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.1);transition:transform .2s,box-shadow .2s}
-.exercise:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,0.15)}
-.exercise.answered{background:#f8f9fa;border-left:4px solid #667eea}
-.ex-num{font-size:0.85rem;color:#999;font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.5px}
-.question{font-size:1.3rem;font-weight:500;margin-bottom:20px;line-height:1.6;color:#1a1a1a}
-.question .blank{color:#667eea;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:underline;text-decoration-style:wavy;font-weight:600}
+.exercise{background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:25px;margin-bottom:20px;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform .2s,box-shadow .2s}
+.exercise:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(102,126,234,0.3);border-color:rgba(102,126,234,0.5)}
+.exercise.answered{background:rgba(255,255,255,0.08);border-left:4px solid #667eea}
+.ex-num{font-size:0.85rem;color:#b0b0b0;font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.5px}
+.question{font-size:1.3rem;font-weight:500;margin-bottom:20px;line-height:1.6;color:#ffffff}
+.question .blank{color:#764ba2;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:underline;text-decoration-style:wavy;font-weight:600}
 .options{display:grid;gap:10px;margin-bottom:20px}
-.option{display:flex;align-items:center;padding:14px 18px;border:2px solid #e0e0e0;border-radius:10px;cursor:pointer;font-size:1rem;transition:all .2s;background:white}
-.option:hover{border-color:#667eea;background:#f8f9fd;transform:translateX(4px)}
+.option{display:flex;align-items:center;padding:14px 18px;border:2px solid rgba(255,255,255,0.2);border-radius:10px;cursor:pointer;font-size:1rem;transition:all .2s;background:rgba(255,255,255,0.03);color:#e0e0e0}
+.option:hover{border-color:#667eea;background:rgba(102,126,234,0.2);transform:translateX(4px)}
 .option input{margin-right:12px;cursor:pointer;width:18px;height:18px;accent-color:#667eea}
-.option.correct{background:linear-gradient(135deg,#d4edda,#c3e6cb);border-color:#28a745;color:#155724;font-weight:500}
-.option.incorrect{background:linear-gradient(135deg,#f8d7da,#f5c6cb);border-color:#dc3545;color:#721c24;font-weight:500}
+.option.correct{background:rgba(76,175,80,0.3);border-color:#4caf50;color:#a5d6a7;font-weight:500}
+.option.incorrect{background:rgba(244,67,54,0.3);border-color:#f44336;color:#ef9a9a;font-weight:500}
 .actions{display:flex;gap:10px;margin-bottom:15px}
 .btn{padding:10px 20px;font-size:0.95rem;border-radius:8px;border:none;cursor:pointer;font-weight:500;transition:all .2s}
-.btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+.btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(102,126,234,0.3)}
 .btn.primary{background:linear-gradient(135deg,#667eea,#764ba2);color:white}
-.btn.secondary{background:#f0f0f0;color:#333;border:1px solid #ddd}
+.btn.secondary{background:rgba(255,255,255,0.1);color:#e0e0e0;border:1px solid rgba(255,255,255,0.2)}
 .btn:disabled{opacity:0.5;cursor:not-allowed;transform:none}
 .feedback{font-size:0.95rem;padding:12px 16px;border-radius:8px;margin-bottom:15px;font-weight:500}
-.feedback.success{background:linear-gradient(135deg,#d4edda,#c3e6cb);color:#155724;border-left:4px solid #28a745}
-.feedback.error{background:linear-gradient(135deg,#f8d7da,#f5c6cb);color:#721c24;border-left:4px solid #dc3545}
-.hint{font-size:0.9rem;padding:12px 16px;background:linear-gradient(135deg,#fff3cd,#ffeaa7);border-radius:8px;color:#856404;border-left:4px solid #ffc107;line-height:1.6}
-.source{font-size:0.9rem;padding:12px 16px;background:#f8f9fa;border-radius:8px;color:#666;font-style:italic;line-height:1.6;border-left:4px solid #667eea}
+.feedback.success{background:rgba(76,175,80,0.2);color:#a5d6a7;border-left:4px solid #4caf50}
+.feedback.error{background:rgba(244,67,54,0.2);color:#ef9a9a;border-left:4px solid #f44336}
+.hint{font-size:0.9rem;padding:12px 16px;background:rgba(102,126,234,0.15);border-radius:8px;color:#b0b0b0;border-left:4px solid #667eea;line-height:1.6}
+.source{font-size:0.9rem;padding:12px 16px;background:rgba(255,255,255,0.05);border-radius:8px;color:#b0b0b0;font-style:italic;line-height:1.6;border-left:4px solid #667eea}
 .hidden{display:none}
 @media (max-width:768px){
   .header{padding:20px}

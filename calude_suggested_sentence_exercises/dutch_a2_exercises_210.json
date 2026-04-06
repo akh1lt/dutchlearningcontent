@@ -1,0 +1,2189 @@
+{
+  "course": "Dutch A2 Fill-in-the-Blank Exercises",
+  "texts": [
+    {
+      "text_id": "image_01",
+      "title": "Dat lijkt me heerlijk",
+      "exercises": [
+        {
+          "id": "01_01",
+          "sentence": "Ga je vanmiddag ___ zwemmen, in dat nieuwe zwembad?",
+          "options": { "A": "mee", "B": "ook", "C": "even", "D": "weg" },
+          "correct": "A",
+          "hint": {
+            "translation": "Are you coming along to swim this afternoon, in that new swimming pool?",
+            "explanation": "'Mee' is the separable prefix of 'meegaan' (to come along / join someone). 'Ook' means 'also', 'even' means 'just a moment', 'weg' means 'away' — none express joining someone."
+          }
+        },
+        {
+          "id": "01_02",
+          "sentence": "Ik moet Joris vanmiddag naar hockeytraining ___.",
+          "options": { "A": "brengen", "B": "gebracht", "C": "bracht", "D": "te brengen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have to bring Joris to hockey practice this afternoon.",
+            "explanation": "After modal 'moeten', the second verb is always a bare infinitive. So 'brengen' (infinitive) is correct. 'Gebracht' is the past participle, 'bracht' is imperfectum, 'te brengen' is wrong because modals never take 'te'."
+          }
+        },
+        {
+          "id": "01_03",
+          "sentence": "Ik ga sowieso, ___ ze hebben voor volwassenen ook een sauna.",
+          "options": { "A": "want", "B": "omdat", "C": "dus", "D": "maar" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'm going anyway, because they also have a sauna for adults.",
+            "explanation": "'Want' is a coordinating conjunction meaning 'because' — normal word order follows. 'Omdat' also means 'because' but is a subordinating conjunction (verb to end), which would require 'ze ook een sauna hebben' — not what follows here."
+          }
+        },
+        {
+          "id": "01_04",
+          "sentence": "Ik heb ___ Sjoerd afgesproken.",
+          "options": { "A": "met", "B": "voor", "C": "aan", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have made an appointment with Sjoerd.",
+            "explanation": "'Afspreken met' is the fixed Dutch phrase for making plans with someone. 'Afspreken voor/aan/bij' are not standard collocations."
+          }
+        },
+        {
+          "id": "01_05",
+          "sentence": "We gaan hardlopen, ___ we volgende week die wedstrijd hebben.",
+          "options": { "A": "omdat", "B": "want", "C": "maar", "D": "dus" },
+          "correct": "A",
+          "hint": {
+            "translation": "We're going running because we have that race next week.",
+            "explanation": "'Omdat' is a subordinating conjunction — the verb 'hebben' goes to the END of the clause. The structure here confirms bijzin word order. 'Want' would also mean 'because' but is followed by normal word order."
+          }
+        },
+        {
+          "id": "01_06",
+          "sentence": "Ik denk dat ik ___ gelijk boodschappen voor mijn vader doe.",
+          "options": { "A": "daarna", "B": "toen", "C": "al", "D": "nog" },
+          "correct": "A",
+          "hint": {
+            "translation": "I think I'll do groceries for my father right after that.",
+            "explanation": "'Daarna' means 'after that / right afterwards' — exactly fitting the context of doing something immediately following hockey. 'Toen' is past tense 'then', 'al' means 'already', 'nog' means 'still/yet'."
+          }
+        },
+        {
+          "id": "01_07",
+          "sentence": "Goh, heb jij wel een beetje tijd voor ___, af en toe?",
+          "options": { "A": "jezelf", "B": "jijzelf", "C": "uzelf", "D": "haarzelf" },
+          "correct": "A",
+          "hint": {
+            "translation": "Wow, do you have a little time for yourself every now and then?",
+            "explanation": "'Jezelf' is the reflexive pronoun for 'jij/je' (yourself, informal). 'Jijzelf' is not a reflexive form, 'uzelf' is formal 'yourself', 'haarzelf' means 'herself'."
+          }
+        },
+        {
+          "id": "01_08",
+          "sentence": "Ik heb pas meer vrije tijd ___ de kinderen ouder zijn.",
+          "options": { "A": "als", "B": "wanneer", "C": "totdat", "D": "omdat" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll only have more free time when the children are older.",
+            "explanation": "'Als' here expresses a condition ('when/if X is the case'). Both 'als' and 'wanneer' can mean 'when', but 'als' is more natural in conditional/future contexts like this. 'Totdat' means 'until' and 'omdat' means 'because'."
+          }
+        },
+        {
+          "id": "01_09",
+          "sentence": "De kinderen hebben zoveel activiteiten, we moeten ze ___ naartoe brengen.",
+          "options": { "A": "overal", "B": "nergens", "C": "ergens", "D": "ernaartoe" },
+          "correct": "A",
+          "hint": {
+            "translation": "The children have so many activities, we have to bring them everywhere.",
+            "explanation": "'Overal' means 'everywhere'. 'Nergens' means 'nowhere', 'ergens' means 'somewhere', 'ernaartoe' is a directional adverb meaning 'to there' — wrong in this context."
+          }
+        },
+        {
+          "id": "01_10",
+          "sentence": "Laten we binnenkort samen iets gaan ___.",
+          "options": { "A": "drinken", "B": "te drinken", "C": "gedronken", "D": "dronken" },
+          "correct": "A",
+          "hint": {
+            "translation": "Let's go for a drink together soon.",
+            "explanation": "'Laten we + infinitive' is a standard 'let's do something' construction. After 'gaan', the bare infinitive follows — no 'te'. 'Gedronken' is past participle, 'dronken' means 'drunk (adj)'."
+          }
+        },
+        {
+          "id": "01_11",
+          "sentence": "Kan Hans Joris ___ naar hockey brengen?",
+          "options": { "A": "niet", "B": "geen", "C": "nooit", "D": "nergens" },
+          "correct": "A",
+          "hint": {
+            "translation": "Can't Hans bring Joris to hockey?",
+            "explanation": "'Niet' negates the verb (can't bring). 'Geen' negates a noun (would need a noun: 'geen auto'). 'Nooit' = never, 'nergens' = nowhere — neither fits here."
+          }
+        },
+        {
+          "id": "01_12",
+          "sentence": "Hm, dat is ___. Ik heb met Sjoerd afgesproken.",
+          "options": { "A": "lastig", "B": "moeilijk", "C": "zwaar", "D": "druk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Hmm, that's tricky. I've made plans with Sjoerd.",
+            "explanation": "'Lastig' means 'tricky/difficult (situationally)'. 'Moeilijk' also means difficult but more about complexity/skill. In social/scheduling contexts, 'lastig' is the natural Dutch word."
+          }
+        },
+        {
+          "id": "01_13",
+          "sentence": "Ze hebben een speciale middag voor ouders ___ kinderen.",
+          "options": { "A": "en", "B": "of", "C": "met", "D": "voor" },
+          "correct": "A",
+          "hint": {
+            "translation": "They have a special afternoon for parents and children.",
+            "explanation": "'En' (and) connects two equal nouns in a list. 'Of' means 'or', 'met' means 'with' (but 'voor ouders met kinderen' would mean 'for parents WITH children' — subtly different meaning), 'voor' cannot connect two nouns."
+          }
+        },
+        {
+          "id": "01_14",
+          "sentence": "Onze ___ zitten behoorlijk vol.",
+          "options": { "A": "agenda's", "B": "agendas", "C": "agenda", "D": "agenden" },
+          "correct": "A",
+          "hint": {
+            "translation": "Our diaries are pretty full.",
+            "explanation": "Dutch words ending in a vowel form their plural with apostrophe-s: agenda → agenda's. 'Agendas' is the English spelling, 'agenda' is singular, 'agenden' is not a Dutch plural form."
+          }
+        },
+        {
+          "id": "01_15",
+          "sentence": "Nou, ___ aan te doen.",
+          "options": { "A": "niks", "B": "niets", "C": "niet", "D": "geen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Well, nothing to be done about it.",
+            "explanation": "'Niks aan te doen' is a fixed idiomatic expression meaning 'nothing that can be done'. 'Niks' is informal for 'niets'. Both are grammatically possible here, but 'niks' is used in the original spoken context. Distractors 'niet' and 'geen' cannot start this idiom."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_02",
+      "title": "Vrije dagen in Nederland",
+      "exercises": [
+        {
+          "id": "02_01",
+          "sentence": "Nederland heeft niet ___ officiële vrije dagen als de meeste andere Europese landen.",
+          "options": { "A": "zoveel", "B": "zo veel", "C": "zulke", "D": "meer" },
+          "correct": "A",
+          "hint": {
+            "translation": "The Netherlands does not have as many official holidays as most other European countries.",
+            "explanation": "'Zoveel' (so many) is used in the comparative construction 'niet zoveel ... als' (not as many ... as). 'Zulke' modifies adjectives, 'meer' would need 'dan' not 'als'."
+          }
+        },
+        {
+          "id": "02_02",
+          "sentence": "De meeste bedrijven en kantoren zijn ___.",
+          "options": { "A": "dicht", "B": "gesloten", "C": "toe", "D": "dichtbij" },
+          "correct": "A",
+          "hint": {
+            "translation": "Most businesses and offices are closed.",
+            "explanation": "'Dicht' (closed) is the common adjective used for shops/businesses being closed in Dutch. 'Gesloten' is more formal and also correct but not what appears in the text. 'Toe' means closed only for a door/mouth, 'dichtbij' means 'nearby'."
+          }
+        },
+        {
+          "id": "02_03",
+          "sentence": "___ geldt ook voor 1 januari.",
+          "options": { "A": "Dat", "B": "Dit", "C": "Het", "D": "Die" },
+          "correct": "A",
+          "hint": {
+            "translation": "That also applies to January 1st.",
+            "explanation": "'Dat' refers back to the previously mentioned situation (shops/businesses being closed). 'Dit' points to something nearby/current. 'Het' would need a noun. 'Die' is a relative/demonstrative pronoun for de-words."
+          }
+        },
+        {
+          "id": "02_04",
+          "sentence": "Kerstmis is ieder jaar op ___ datum.",
+          "options": { "A": "dezelfde", "B": "hetzelfde", "C": "gelijke", "D": "eenzelfde" },
+          "correct": "A",
+          "hint": {
+            "translation": "Christmas is on the same date every year.",
+            "explanation": "'Datum' is a de-word, so the demonstrative takes the de-form: 'dezelfde'. 'Hetzelfde' is used with het-words. 'Gelijke' means 'equal', 'eenzelfde' is used in different constructions."
+          }
+        },
+        {
+          "id": "02_05",
+          "sentence": "De andere feestdagen vallen ieder jaar op een andere datum, in ___ voorjaar.",
+          "options": { "A": "het", "B": "de", "C": "een", "D": "dit" },
+          "correct": "A",
+          "hint": {
+            "translation": "The other holidays fall on a different date every year, in spring.",
+            "explanation": "'Voorjaar' (spring) is a het-word, so it takes the definite article 'het'. 'De' is for de-words. 'Een' would make it indefinite. 'Dit' means 'this spring' — too specific."
+          }
+        },
+        {
+          "id": "02_06",
+          "sentence": "Koningsdag ___ ieder jaar op 27 april.",
+          "options": { "A": "is", "B": "valt", "C": "heeft", "D": "staat" },
+          "correct": "A",
+          "hint": {
+            "translation": "King's Day is on 27 April every year.",
+            "explanation": "The text uses 'is' (to be) to state the fixed date. 'Vallen op' (to fall on a date) is also used in Dutch but here the text says 'is'. 'Heeft' and 'staat' don't fit grammatically in this context."
+          }
+        },
+        {
+          "id": "02_07",
+          "sentence": "Mensen ___ oranje kleding.",
+          "options": { "A": "dragen", "B": "trekken", "C": "hebben", "D": "zetten" },
+          "correct": "A",
+          "hint": {
+            "translation": "People wear orange clothing.",
+            "explanation": "'Dragen' (to wear/carry) is the standard verb for wearing clothes in Dutch. 'Aantrekken' also means to put on clothes, but 'trekken' alone doesn't mean wear. 'Hebben' = have, 'zetten' = put/set."
+          }
+        },
+        {
+          "id": "02_08",
+          "sentence": "Op 4 mei is iedereen om 20.00 uur twee minuten ___, uit respect voor de slachtoffers.",
+          "options": { "A": "stil", "B": "rustig", "C": "kalm", "D": "stil zijn" },
+          "correct": "A",
+          "hint": {
+            "translation": "On 4 May, everyone is silent for two minutes at 8 PM, out of respect for the victims.",
+            "explanation": "'Stil' (silent/quiet) is the specific word used for the national moment of silence. 'Rustig' means calm/peaceful, 'kalm' means calm — neither specifically means 'silent'. 'Stil zijn' would be fine grammatically but the text uses just 'stil' as a predicative adjective."
+          }
+        },
+        {
+          "id": "02_09",
+          "sentence": "Op 5 mei vieren ze ___ de oorlog is afgelopen.",
+          "options": { "A": "dat", "B": "omdat", "C": "wat", "D": "hoe" },
+          "correct": "A",
+          "hint": {
+            "translation": "On 5 May they celebrate that the war ended.",
+            "explanation": "'Dat' introduces a subordinate clause after the verb 'vieren' (to celebrate). 'Omdat' means because, 'wat' means what, 'hoe' means how — none of these fit the structure 'vieren dat...' (celebrate that...)."
+          }
+        },
+        {
+          "id": "02_10",
+          "sentence": "5 mei is één keer in de vijf jaar ook een officiële ___ dag.",
+          "options": { "A": "vrije", "B": "vrij", "C": "vrijen", "D": "vrijs" },
+          "correct": "A",
+          "hint": {
+            "translation": "5 May is also an official day off once every five years.",
+            "explanation": "Adjectives before nouns get an -e ending when the noun has an article (definite or indefinite): 'een vrije dag'. 'Vrij' would be predicative ('de dag is vrij'). 'Vrijen' and 'vrijs' are not adjective forms."
+          }
+        },
+        {
+          "id": "02_11",
+          "sentence": "Scholieren hebben in Nederland vijf keer ___ jaar vakantie.",
+          "options": { "A": "per", "B": "in", "C": "van", "D": "het" },
+          "correct": "A",
+          "hint": {
+            "translation": "Students in the Netherlands have five school holidays per year.",
+            "explanation": "'Per jaar' (per year) expresses frequency/rate. 'In' could work in some contexts ('in een jaar') but 'per' is the standard for expressing recurring frequency. 'Van' and 'het' don't fit."
+          }
+        },
+        {
+          "id": "02_12",
+          "sentence": "De data van de vakanties zijn ieder jaar ___.",
+          "options": { "A": "anders", "B": "andere", "C": "verschillend", "D": "veranderd" },
+          "correct": "A",
+          "hint": {
+            "translation": "The dates of the holidays are different every year.",
+            "explanation": "'Anders' (different/otherwise) is used predicatively here. 'Andere' is the attributive adjective form used before a noun. 'Verschillend' also means different but is less idiomatic in this fixed phrase. 'Veranderd' = changed (past participle)."
+          }
+        },
+        {
+          "id": "02_13",
+          "sentence": "Ze ___ soms ook per regio.",
+          "options": { "A": "verschillen", "B": "variëren", "C": "veranderen", "D": "verschijnen" },
+          "correct": "A",
+          "hint": {
+            "translation": "They also sometimes differ by region.",
+            "explanation": "'Verschillen' (to differ) is the exact verb used in the text. 'Variëren' also means to vary and is acceptable, but the text specifically uses 'verschillen'. 'Veranderen' = to change, 'verschijnen' = to appear."
+          }
+        },
+        {
+          "id": "02_14",
+          "sentence": "Het zuiden, noorden en midden van Nederland hebben niet ___ tegelijk vakantie.",
+          "options": { "A": "altijd", "B": "steeds", "C": "ooit", "D": "nooit" },
+          "correct": "A",
+          "hint": {
+            "translation": "The south, north and centre of the Netherlands don't always have holidays at the same time.",
+            "explanation": "'Niet altijd' = not always (sometimes yes, sometimes no). 'Niet steeds' = not constantly. 'Niet ooit' = not ever (unusual phrasing). 'Nooit' = never — but the text means 'not always', not 'never'."
+          }
+        },
+        {
+          "id": "02_15",
+          "sentence": "Behalve de christelijke feestdagen heeft Nederland ___ één officiële vrije dag: Koningsdag.",
+          "options": { "A": "nog", "B": "ook", "C": "maar", "D": "zelfs" },
+          "correct": "A",
+          "hint": {
+            "translation": "Besides the Christian holidays, the Netherlands has just one more official day off: King's Day.",
+            "explanation": "'Nog' here means 'additionally/one more' — 'nog één' = one more, one additional. 'Ook' = also (but doesn't suggest limitation to one more). 'Maar' here would be unusual. 'Zelfs' = even."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_03",
+      "title": "Forum: Nee zeggen",
+      "exercises": [
+        {
+          "id": "03_01",
+          "sentence": "Ik ben ___ op mijn neefje en nichtje.",
+          "options": { "A": "dol", "B": "gek", "C": "weg", "D": "blij" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'm crazy about my nephew and niece.",
+            "explanation": "'Dol op' is a fixed expression meaning 'to love / be crazy about'. 'Gek op' also works informally. 'Weg van' means 'crazy about' too but takes 'van'. 'Blij' = happy — doesn't take 'op' in this construction."
+          }
+        },
+        {
+          "id": "03_02",
+          "sentence": "Ik heb ___ andere plannen op vrijdag.",
+          "options": { "A": "al", "B": "nog", "C": "ook", "D": "zelfs" },
+          "correct": "A",
+          "hint": {
+            "translation": "I already have other plans on Friday.",
+            "explanation": "'Al' means 'already' — she already has plans. 'Nog' = still (suggesting plans not yet made). 'Ook' = also (doesn't convey the 'already' timing). 'Zelfs' = even."
+          }
+        },
+        {
+          "id": "03_03",
+          "sentence": "Mijn zus wordt ___ nogal snel kwaad.",
+          "options": { "A": "namelijk", "B": "ook", "C": "toch", "D": "dus" },
+          "correct": "A",
+          "hint": {
+            "translation": "You see, my sister gets angry quite quickly.",
+            "explanation": "'Namelijk' means 'you see / the thing is' — it explains or justifies what was just said. It always follows the verb. 'Ook' = also, 'toch' = after all/right?, 'dus' = so/therefore."
+          }
+        },
+        {
+          "id": "03_04",
+          "sentence": "Ze vindt dat je je familie ___ moet helpen.",
+          "options": { "A": "altijd", "B": "steeds", "C": "nooit", "D": "zeker" },
+          "correct": "A",
+          "hint": {
+            "translation": "She believes you should always help your family.",
+            "explanation": "'Altijd' = always. 'Steeds' = increasingly/constantly (used for ongoing change). 'Nooit' = never (opposite meaning). 'Zeker' = certainly (wrong word class here)."
+          }
+        },
+        {
+          "id": "03_05",
+          "sentence": "Het is ___ niet zoveel moeite?",
+          "options": { "A": "toch", "B": "ook", "C": "dan", "D": "wel" },
+          "correct": "A",
+          "hint": {
+            "translation": "It's not that much trouble, is it?",
+            "explanation": "'Toch' here turns the statement into a rhetorical tag question ('isn't it?'). It seeks agreement/confirmation from the listener. 'Ook' = also, 'dan' = then, 'wel' would change the meaning to affirmative."
+          }
+        },
+        {
+          "id": "03_06",
+          "sentence": "Je kunt zelf op zaterdagavond ___ iets leuks gaan doen.",
+          "options": { "A": "nog", "B": "al", "C": "ook", "D": "gewoon" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can still do something nice yourself on Saturday evening.",
+            "explanation": "'Nog' here means 'still / yet another time' — there's still an opportunity. 'Al' = already (too early), 'ook' = also (shifts meaning), 'gewoon' = simply/just."
+          }
+        },
+        {
+          "id": "03_07",
+          "sentence": "Je moet het niet doen, ___ je geen zin hebt.",
+          "options": { "A": "als", "B": "want", "C": "omdat", "D": "toen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You shouldn't do it if you don't feel like it.",
+            "explanation": "'Als' introduces a conditional bijzin (verb to end: 'hebt'). 'Want' and 'omdat' both mean 'because' but this is a conditional clause, not a causal one. 'Toen' = when (past), not for conditions."
+          }
+        },
+        {
+          "id": "03_08",
+          "sentence": "Hij heeft me een maand geleden ___ een keer gevraagd.",
+          "options": { "A": "al", "B": "nog", "C": "net", "D": "zelfs" },
+          "correct": "A",
+          "hint": {
+            "translation": "He already asked me once a month ago.",
+            "explanation": "'Al' emphasises that this happened at an earlier point than expected — 'already once'. 'Nog' = still/yet, 'net' = just (recently), 'zelfs' = even."
+          }
+        },
+        {
+          "id": "03_09",
+          "sentence": "Ik heb toen gezegd: 'Sorry, ik kan niet, ___ ik ben dit weekend niet thuis'.",
+          "options": { "A": "want", "B": "omdat", "C": "maar", "D": "dus" },
+          "correct": "A",
+          "hint": {
+            "translation": "I said then: 'Sorry, I can't, because I'm not home this weekend'.",
+            "explanation": "'Want' is a coordinating conjunction = because, normal word order follows ('ik ben'). 'Omdat' = because as subordinator — the verb would need to go to end ('thuis ben'). The normal order after the comma signals 'want'."
+          }
+        },
+        {
+          "id": "03_10",
+          "sentence": "Ik wil helemaal niet ___ zijn hond passen.",
+          "options": { "A": "op", "B": "voor", "C": "aan", "D": "naar" },
+          "correct": "A",
+          "hint": {
+            "translation": "I don't want to look after his dog at all.",
+            "explanation": "'Oppassen op' = to look after / take care of (someone/an animal). This is a fixed prepositional verb. 'Passen voor/aan/naar' are not used in this sense."
+          }
+        },
+        {
+          "id": "03_11",
+          "sentence": "___ heb ik niet genoeg ruimte in mijn huis.",
+          "options": { "A": "Bovendien", "B": "Toch", "C": "Dus", "D": "Namelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Moreover, I don't have enough space in my house.",
+            "explanation": "'Bovendien' = moreover / in addition — adds a second argument. 'Toch' = still/yet/after all, 'Dus' = so/therefore (implies consequence), 'Namelijk' = you see (comes after verb, not at start)."
+          }
+        },
+        {
+          "id": "03_12",
+          "sentence": "Zeg ___ 'nee' tegen je vriend, maar leg je reactie wel uit.",
+          "options": { "A": "gewoon", "B": "maar", "C": "even", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "Just say 'no' to your friend, but do explain your reaction.",
+            "explanation": "'Gewoon' here means 'just / simply' — the advice is: it's not complicated, just say it. 'Maar' = but/just (also possible: 'zeg maar nee' but the original uses 'gewoon'). 'Even' = just a moment, 'toch' = after all."
+          }
+        },
+        {
+          "id": "03_13",
+          "sentence": "Zeg dat je ___ een examen moet studeren.",
+          "options": { "A": "voor", "B": "aan", "C": "op", "D": "over" },
+          "correct": "A",
+          "hint": {
+            "translation": "Say that you have to study for an exam.",
+            "explanation": "'Studeren voor' = to study for (an exam). This is a fixed collocation. 'Studeren aan' = to study at (a university — different meaning). 'Op/over' don't collocate with studeren in this sense."
+          }
+        },
+        {
+          "id": "03_14",
+          "sentence": "Je vriend wordt ___ boos als hij dat ontdekt.",
+          "options": { "A": "vast", "B": "zeker", "C": "misschien", "D": "waarschijnlijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your friend will surely get angry when he finds out.",
+            "explanation": "'Vast' (surely / bound to) expresses confident expectation in informal Dutch. 'Zeker' = certainly (also possible but 'vast' is used in the text). 'Misschien' = perhaps (less certain). 'Waarschijnlijk' = probably."
+          }
+        },
+        {
+          "id": "03_15",
+          "sentence": "Dat is ___ de waarheid?",
+          "options": { "A": "toch", "B": "ook", "C": "al", "D": "nog" },
+          "correct": "A",
+          "hint": {
+            "translation": "That's the truth, isn't it?",
+            "explanation": "'Toch' here tags a question expecting agreement — 'that IS the truth, right?' It signals the speaker assumes yes. 'Ook' = also, 'al' = already, 'nog' = still — none create this rhetorical confirmation effect."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_04",
+      "title": "Nederlands leren",
+      "exercises": [
+        {
+          "id": "04_01",
+          "sentence": "Dat ___ van je moedertaal af.",
+          "options": { "A": "hangt", "B": "hangt af", "C": "afhangt", "D": "afgehangen" },
+          "correct": "A",
+          "hint": {
+            "translation": "That depends on your mother tongue.",
+            "explanation": "'Afhangen van' is a separable verb. In a main clause, the conjugated part 'hangt' stays in position 2 and 'af' goes to the end ('af'). Option B 'hangt af' would be at the end of a bijzin. 'Afhangt' is wrong word order. 'Afgehangen' is past participle."
+          }
+        },
+        {
+          "id": "04_02",
+          "sentence": "Voor hem is Nederlands ___, omdat het Duits dichtbij het Nederlands staat.",
+          "options": { "A": "gemakkelijk", "B": "makkelijk", "C": "eenvoudig", "D": "simpel" },
+          "correct": "A",
+          "hint": {
+            "translation": "For him, Dutch is easy, because German is close to Dutch.",
+            "explanation": "The text uses 'gemakkelijk'. 'Makkelijk' is the informal synonym and equally correct in spoken Dutch. However the text uses 'gemakkelijk' — making this an exact-text question. 'Eenvoudig' and 'simpel' also mean easy but are less common in this register."
+          }
+        },
+        {
+          "id": "04_03",
+          "sentence": "Helpt het ___ je al een andere taal hebt geleerd?",
+          "options": { "A": "als", "B": "dat", "C": "of", "D": "wanneer" },
+          "correct": "A",
+          "hint": {
+            "translation": "Does it help if you've already learned another language?",
+            "explanation": "'Als' introduces a conditional subordinate clause here. 'Dat' = that (introduces a fact-clause, not conditional). 'Of' = whether/or (would make it 'Does it help whether...' — different meaning). 'Wanneer' = when (time, not condition)."
+          }
+        },
+        {
+          "id": "04_04",
+          "sentence": "Hoeveel tijd ___ je aan je huiswerk?",
+          "options": { "A": "besteed", "B": "geeft", "C": "doet", "D": "zet" },
+          "correct": "A",
+          "hint": {
+            "translation": "How much time do you spend on your homework?",
+            "explanation": "'Besteden aan' = to spend time on (something). This is a fixed collocation. 'Geven aan' = to give to, 'doen aan' = to do something about/with, 'zetten op' = different meaning entirely."
+          }
+        },
+        {
+          "id": "04_05",
+          "sentence": "Je moet ___ en met iedereen Nederlands spreken.",
+          "options": { "A": "overal", "B": "altijd", "C": "veel", "D": "hard" },
+          "correct": "A",
+          "hint": {
+            "translation": "You have to speak Dutch everywhere and with everyone.",
+            "explanation": "'Overal' = everywhere — pairs naturally with 'met iedereen' (with everyone) to emphasise total immersion. 'Altijd' = always, 'veel' = much/many, 'hard' = hard/loudly."
+          }
+        },
+        {
+          "id": "04_06",
+          "sentence": "Het gaat niet ___ vanzelf.",
+          "options": { "A": "echt", "B": "zeker", "C": "ook", "D": "al" },
+          "correct": "A",
+          "hint": {
+            "translation": "It really doesn't happen by itself.",
+            "explanation": "'Echt' (really/truly) intensifies the negation. 'Zeker' = certainly, 'ook' = also, 'al' = already — none fit the intensifying role before 'vanzelf' here."
+          }
+        },
+        {
+          "id": "04_07",
+          "sentence": "Wat wil je ___ meer met de taal bereiken?",
+          "options": { "A": "nog", "B": "al", "C": "ook", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "What else do you want to achieve with the language?",
+            "explanation": "'Nog meer' = even more / what else. 'Nog' here signals additional items beyond what was mentioned. 'Al meer' = already more, 'ook meer' = also more (different nuance), 'toch meer' = after all more."
+          }
+        },
+        {
+          "id": "04_08",
+          "sentence": "Schrijven in het Nederlands vind ik ___ moeilijkst.",
+          "options": { "A": "het", "B": "de", "C": "meest", "D": "heel" },
+          "correct": "A",
+          "hint": {
+            "translation": "I find writing in Dutch the hardest.",
+            "explanation": "'Het moeilijkst' is the superlative — Dutch superlatives always take 'het' as the article: 'het + adjective + st'. 'De' is wrong article for superlative, 'meest' is used for 'het meest' + long adjective (not short adjectives like moeilijk with -st)."
+          }
+        },
+        {
+          "id": "04_09",
+          "sentence": "Nederlanders begrijpen je echt niet ___ je een klank verkeerd uitspreekt.",
+          "options": { "A": "als", "B": "want", "C": "omdat", "D": "maar" },
+          "correct": "A",
+          "hint": {
+            "translation": "Dutch people really don't understand you if you pronounce a sound wrong.",
+            "explanation": "'Als' introduces a conditional: if you mispronounce, they don't understand. 'Want/omdat' = because (would give a reason, not a condition). 'Maar' = but (adversative)."
+          }
+        },
+        {
+          "id": "04_10",
+          "sentence": "Grote ___ maken het lastig.",
+          "options": { "A": "verschillen", "B": "verschil", "C": "verlies", "D": "veranderingen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Big differences make it difficult.",
+            "explanation": "'Verschillen' (differences, plural) is the subject. 'Verschil' is singular — verb would need to be 'maakt'. 'Verlies' = loss, 'veranderingen' = changes."
+          }
+        },
+        {
+          "id": "04_11",
+          "sentence": "Het Arabisch heeft ___ maar één lidwoord.",
+          "options": { "A": "bijvoorbeeld", "B": "namelijk", "C": "ook", "D": "maar" },
+          "correct": "A",
+          "hint": {
+            "translation": "Arabic, for example, has only one article.",
+            "explanation": "'Bijvoorbeeld' = for example — the speaker is giving Arabic as an example of grammatical difference. 'Namelijk' = you see (explains, doesn't illustrate). 'Ook' = also, 'maar' = but/only (already used later in the sentence)."
+          }
+        },
+        {
+          "id": "04_12",
+          "sentence": "Nu ___ ik zo negatief en dat is niet mijn bedoeling.",
+          "options": { "A": "klink", "B": "klinkt", "C": "hoor", "D": "lijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Now I sound so negative and that's not my intention.",
+            "explanation": "'Klinken' = to sound. With 'ik' the conjugation is 'klink' (no -t). 'Klinkt' is for hij/zij/het. 'Horen' = to hear, 'lijken' = to seem — different verbs."
+          }
+        },
+        {
+          "id": "04_13",
+          "sentence": "Ik hou van nieuwe dingen ___, het mag ook moeilijk zijn!",
+          "options": { "A": "leren", "B": "te leren", "C": "geleerd", "D": "lerend" },
+          "correct": "A",
+          "hint": {
+            "translation": "I love learning new things, it can be difficult too!",
+            "explanation": "'Houden van + infinitive' takes a bare infinitive. 'Te leren' would be correct after other verbs (proberen te leren) but 'houden van' directly connects to the infinitive. 'Geleerd' = past participle, 'lerend' = present participle (not used this way)."
+          }
+        },
+        {
+          "id": "04_14",
+          "sentence": "Je hebt Engels ___, Omar.",
+          "options": { "A": "gestudeerd", "B": "geleerd", "C": "gestudeerd aan", "D": "studeerd" },
+          "correct": "A",
+          "hint": {
+            "translation": "You studied English, Omar.",
+            "explanation": "'Studeren' (to study a subject/at university level) → past participle 'gestudeerd'. 'Geleerd' = learned (more informal). The text uses 'gestudeerd'. 'Studeerd' is not a Dutch past participle form."
+          }
+        },
+        {
+          "id": "04_15",
+          "sentence": "Een goede docent en een goede lesmethode zijn ___.",
+          "options": { "A": "niet genoeg", "B": "geen genoeg", "C": "niet voldoende genoeg", "D": "nooit genoeg" },
+          "correct": "A",
+          "hint": {
+            "translation": "A good teacher and a good learning method are not enough.",
+            "explanation": "'Niet genoeg' = not enough, negating the adjective 'genoeg'. 'Geen genoeg' is grammatically incorrect (geen negates nouns, not adjectives). 'Niet voldoende genoeg' is redundant. 'Nooit genoeg' = never enough (too strong)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_05",
+      "title": "Kijken op een school in het buitenland",
+      "exercises": [
+        {
+          "id": "05_01",
+          "sentence": "We ___ een aantal lessen op de school.",
+          "options": { "A": "volgden", "B": "volgden aan", "C": "gingen", "D": "hadden" },
+          "correct": "A",
+          "hint": {
+            "translation": "We attended a number of classes at the school.",
+            "explanation": "'Volgen' (to follow / attend) is the correct verb for attending lessons. Imperfectum: 'volgden'. 'Volgen aan' is not correct. 'Gingen' = went (movement verb). 'Hadden' = had."
+          }
+        },
+        {
+          "id": "05_02",
+          "sentence": "De leerlingen logeerden bij Chinese leerlingen ___ en dat vonden ze ontzettend leuk.",
+          "options": { "A": "thuis", "B": "huis", "C": "bij huis", "D": "aan huis" },
+          "correct": "A",
+          "hint": {
+            "translation": "The students stayed at the homes of Chinese students and they found that incredibly fun.",
+            "explanation": "'Bij iemand thuis' = at someone's home. This is a fixed Dutch expression. 'Huis' alone without 'thuis' or preposition is just the noun. 'Bij huis' = near the house (different meaning). 'Aan huis' = at the door/delivery."
+          }
+        },
+        {
+          "id": "05_03",
+          "sentence": "De docenten spraken veel en stelden ___ een korte vraag aan een leerling.",
+          "options": { "A": "af en toe", "B": "dan en wanneer", "C": "soms ook", "D": "altijd ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "The teachers talked a lot and occasionally asked a student a short question.",
+            "explanation": "'Af en toe' = occasionally / now and then. This is a fixed Dutch expression. 'Dan en wanneer' is not a Dutch expression. 'Soms ook' and 'altijd ook' change the nuance."
+          }
+        },
+        {
+          "id": "05_04",
+          "sentence": "In Nederland zijn leerlingen veel ___ tijdens de lessen.",
+          "options": { "A": "actiever", "B": "actief", "C": "meer actief", "D": "het actiefst" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the Netherlands, students are much more active during lessons.",
+            "explanation": "'Actiever' is the comparative form of 'actief' (actief → actiever). 'Veel actiever' = much more active. 'Actief' is base form. 'Meer actief' is used for longer adjectives. 'Het actiefst' is superlative."
+          }
+        },
+        {
+          "id": "05_05",
+          "sentence": "Ze stellen zelf vragen en geven regelmatig een ___.",
+          "options": { "A": "presentatie", "B": "presentaties", "C": "voordracht", "D": "presenteren" },
+          "correct": "A",
+          "hint": {
+            "translation": "They ask questions themselves and regularly give a presentation.",
+            "explanation": "'Een presentatie geven' = to give a presentation. 'Een' requires singular. 'Presentaties' is plural (no 'een'). 'Voordracht' = recitation/talk (different context). 'Presenteren' is a verb."
+          }
+        },
+        {
+          "id": "05_06",
+          "sentence": "Hun uniform viel ___ ook op, omdat Nederlandse leerlingen geen uniform dragen.",
+          "options": { "A": "natuurlijk", "B": "vanzelf", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "Their uniform naturally stood out too, because Dutch students don't wear uniforms.",
+            "explanation": "'Natuurlijk' = naturally / of course — the uniform obviously drew attention since Dutch students don't wear them. 'Vanzelf' = by itself, 'toch' = after all, 'ook' is already in the sentence."
+          }
+        },
+        {
+          "id": "05_07",
+          "sentence": "De schooldagen zijn ___ dan in Nederland.",
+          "options": { "A": "langer", "B": "meer lang", "C": "het langst", "D": "lang" },
+          "correct": "A",
+          "hint": {
+            "translation": "The school days are longer than in the Netherlands.",
+            "explanation": "'Langer' is the comparative of 'lang' (long → longer). 'Dan' confirms we need a comparative. 'Meer lang' is wrong (short adjectives use -er, not meer). 'Het langst' is superlative."
+          }
+        },
+        {
+          "id": "05_08",
+          "sentence": "Chinese leerlingen hebben geen tijd ___ bijbaantjes.",
+          "options": { "A": "voor", "B": "aan", "C": "bij", "D": "om" },
+          "correct": "A",
+          "hint": {
+            "translation": "Chinese students have no time for part-time jobs.",
+            "explanation": "'Tijd voor' = time for (something). This is a fixed collocation. 'Tijd aan' = time for/to spend on, 'tijd bij' and 'tijd om' don't work in this construction."
+          }
+        },
+        {
+          "id": "05_09",
+          "sentence": "Ze ___ trouwens pas een bijbaantje hebben als ze achttien zijn.",
+          "options": { "A": "mogen", "B": "kunnen", "C": "moeten", "D": "zullen" },
+          "correct": "A",
+          "hint": {
+            "translation": "By the way, they're only allowed to have a part-time job when they're eighteen.",
+            "explanation": "'Mogen' = to be allowed to (permission). This sentence is about legal permission to work. 'Kunnen' = can (ability), 'moeten' = must (obligation), 'zullen' = will (future/intention)."
+          }
+        },
+        {
+          "id": "05_10",
+          "sentence": "In Nederland ___ dat vanaf vijftien jaar.",
+          "options": { "A": "mag", "B": "kan", "C": "moet", "D": "is" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the Netherlands, that is allowed from age fifteen.",
+            "explanation": "Continuing the permission theme: 'mag' = is allowed (mogen, 3rd person singular). 'Kan' = is possible (ability), 'moet' = must, 'is' would need a different sentence structure."
+          }
+        },
+        {
+          "id": "05_11",
+          "sentence": "In het ___ vond ik de leerlingen erg gemotiveerd.",
+          "options": { "A": "algemeen", "B": "totaal", "C": "geheel", "D": "groot" },
+          "correct": "A",
+          "hint": {
+            "translation": "In general, I found the students very motivated.",
+            "explanation": "'In het algemeen' = in general — a fixed Dutch expression. 'In het totaal' = in total (different meaning), 'in het geheel' = at all (often negative), 'in het groot' = in bulk/at large scale."
+          }
+        },
+        {
+          "id": "05_12",
+          "sentence": "Dat ___ ik soms in Nederland.",
+          "options": { "A": "mis", "B": "missen", "C": "gemist", "D": "mistut" },
+          "correct": "A",
+          "hint": {
+            "translation": "I sometimes miss that in the Netherlands.",
+            "explanation": "'Missen' = to miss. With 'ik', the present tense conjugation is 'mis' (no -t). 'Missen' is infinitive, 'gemist' is past participle, 'mistut' doesn't exist."
+          }
+        },
+        {
+          "id": "05_13",
+          "sentence": "We ___ ook een paar workshops.",
+          "options": { "A": "kregen", "B": "hadden", "C": "namen", "D": "gingen" },
+          "correct": "A",
+          "hint": {
+            "translation": "We also received a couple of workshops.",
+            "explanation": "'Krijgen' (to receive/get) → imperfectum 'kregen'. Workshops are received/given, not 'had', 'taken', or 'gone to' in this context. 'Kregen' is the exact verb in the text."
+          }
+        },
+        {
+          "id": "05_14",
+          "sentence": "We zagen leerlingen nauwelijks in groepjes ___, zoals in Nederland veel gebeurt.",
+          "options": { "A": "samenwerken", "B": "samengewerkt", "C": "werken", "D": "te werken" },
+          "correct": "A",
+          "hint": {
+            "translation": "We hardly saw students working together in groups, as happens a lot in the Netherlands.",
+            "explanation": "'Zien + infinitive' — perception verbs (zien, horen, voelen) are followed by a bare infinitive, not 'te + infinitive'. 'Samenwerken' = to work together (infinitive). 'Samengewerkt' = past participle."
+          }
+        },
+        {
+          "id": "05_15",
+          "sentence": "Op deze school zijn speciale ___ voor pianolessen.",
+          "options": { "A": "ruimtes", "B": "ruimten", "C": "ruimte", "D": "kamers" },
+          "correct": "A",
+          "hint": {
+            "translation": "At this school there are special rooms for piano lessons.",
+            "explanation": "Both 'ruimtes' and 'ruimten' are valid Dutch plurals of 'ruimte'. The text uses 'ruimtes'. 'Ruimte' is singular. 'Kamers' means bedrooms/rooms but 'ruimtes' (spaces/rooms) is the word in the text."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_06",
+      "title": "Kapot",
+      "exercises": [
+        {
+          "id": "06_01",
+          "sentence": "Wanneer heb jij die pizza in de oven ___?",
+          "options": { "A": "gedaan", "B": "gezet", "C": "gelegd", "D": "gestopt" },
+          "correct": "A",
+          "hint": {
+            "translation": "When did you put that pizza in the oven?",
+            "explanation": "'Doen' (to put/do) → past participle 'gedaan'. 'In de oven doen' is the natural Dutch phrase. 'Zetten' = to set/place upright, 'leggen' = to lay flat, 'stoppen' = to stuff/stop — all less natural here."
+          }
+        },
+        {
+          "id": "06_02",
+          "sentence": "Hij is ___ bevroren.",
+          "options": { "A": "nog", "B": "al", "C": "niet", "D": "bijna" },
+          "correct": "A",
+          "hint": {
+            "translation": "It's still frozen.",
+            "explanation": "'Nog' = still (ongoing state). The pizza has been in the oven 15 minutes but is still frozen — 'nog' expresses that the expected change hasn't happened yet. 'Al' = already (opposite), 'niet' = not, 'bijna' = almost."
+          }
+        },
+        {
+          "id": "06_03",
+          "sentence": "Heb je de oven wel ___?",
+          "options": { "A": "aangezet", "B": "aangezet heb", "C": "aanzet", "D": "gezet aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "Did you actually turn the oven on?",
+            "explanation": "'Aanzetten' is a separable verb. Past participle: ge- goes between prefix and stem → 'aan-ge-zet'. In a question, the participium goes to the end: 'heb je ... aangezet?' 'Aanzet' is present tense. 'Gezet aan' is wrong word order."
+          }
+        },
+        {
+          "id": "06_04",
+          "sentence": "Misschien moet je even op die grote knop ___?",
+          "options": { "A": "drukken", "B": "duwen", "C": "klikken", "D": "te drukken" },
+          "correct": "A",
+          "hint": {
+            "translation": "Maybe you should press that big button?",
+            "explanation": "'Drukken op' = to press (a button). This is the standard Dutch expression. 'Duwen' = to push (larger things), 'klikken' = to click (mouse), 'te drukken' is wrong after moeten."
+          }
+        },
+        {
+          "id": "06_05",
+          "sentence": "Nou, hij doet echt helemaal ___.",
+          "options": { "A": "niks", "B": "niets", "C": "niet", "D": "geen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Well, it really does absolutely nothing.",
+            "explanation": "'Niks' is informal for 'niets' (nothing). Both are correct but 'niks' is used in the spoken text. 'Niet' negates verbs/adjectives but can't follow 'helemaal' in this pattern. 'Geen' negates nouns."
+          }
+        },
+        {
+          "id": "06_06",
+          "sentence": "Misschien hebben we een ___?",
+          "options": { "A": "stroomstoring", "B": "stroomstopping", "C": "stroomproblem", "D": "elektriciteitsstoring" },
+          "correct": "A",
+          "hint": {
+            "translation": "Maybe we have a power outage?",
+            "explanation": "'Stroomstoring' is the standard Dutch compound noun for power outage/blackout (stroom = electricity/current, storing = disruption). 'Stroomstopping' doesn't exist. 'Elektriciteitsstoring' is technically possible but not the standard term."
+          }
+        },
+        {
+          "id": "06_07",
+          "sentence": "Nee, ___ de magnetron doet het wel.",
+          "options": { "A": "want", "B": "maar", "C": "omdat", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "No, because the microwave does work.",
+            "explanation": "'Want' = because — normal word order follows ('de magnetron doet'). 'Omdat' = because but triggers bijzin word order (would require: 'omdat de magnetron het wel doet'). 'Maar' = but, 'toch' = after all."
+          }
+        },
+        {
+          "id": "06_08",
+          "sentence": "Dan denk ik dat hij echt ___ is.",
+          "options": { "A": "kapot", "B": "stuk", "C": "gebroken", "D": "defect" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then I think it's really broken.",
+            "explanation": "'Kapot' is the common informal Dutch word for broken/not working (appliances). 'Stuk' is also very common and natural. The text uses 'kapot'. 'Gebroken' = physically broken into pieces. 'Defect' = defective (more formal)."
+          }
+        },
+        {
+          "id": "06_09",
+          "sentence": "Ik zoek het nummer van de winkel wel even ___.",
+          "options": { "A": "op", "B": "uit", "C": "aan", "D": "na" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll just look up the shop's number.",
+            "explanation": "'Opzoeken' = to look up (search for). Separable verb: 'zoek ... op'. 'Uitzoeken' = to figure out/sort out, 'nazoeken' = to check/look up (also possible), 'aanzoeken' = doesn't mean this."
+          }
+        },
+        {
+          "id": "06_10",
+          "sentence": "Dan bel ik ___ wel even.",
+          "options": { "A": "die", "B": "hem", "C": "het", "D": "ze" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then I'll give them a call.",
+            "explanation": "'Die' refers back to 'de winkel' (de-word) as a demonstrative pronoun meaning 'that one/them'. 'Hem' = him/it (also for de-words, but more personal — less natural for a shop). 'Het' = it (het-words), 'ze' = they/her."
+          }
+        },
+        {
+          "id": "06_11",
+          "sentence": "Misschien kunnen ze een monteur ___.",
+          "options": { "A": "sturen", "B": "zenden", "C": "brengen", "D": "komen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Maybe they can send a repairman.",
+            "explanation": "'Sturen' = to send (a person/thing). 'Een monteur sturen' is a very natural Dutch phrase. 'Zenden' = to broadcast/send (formal/media). 'Brengen' = to bring. 'Komen' would need restructuring."
+          }
+        },
+        {
+          "id": "06_12",
+          "sentence": "___, een kwartier geleden.",
+          "options": { "A": "Uhm", "B": "Ja", "C": "Nou", "D": "Hé" },
+          "correct": "A",
+          "hint": {
+            "translation": "Uhm, a quarter of an hour ago.",
+            "explanation": "This is an exact text match. 'Uhm' is a hesitation sound. This tests familiarity with conversational Dutch filler words. 'Ja' = yes, 'Nou' = well/now, 'Hé' = hey."
+          }
+        },
+        {
+          "id": "06_13",
+          "sentence": "Hè, ___ toch.",
+          "options": { "A": "jawel", "B": "jaja", "C": "jaah", "D": "jazeker" },
+          "correct": "A",
+          "hint": {
+            "translation": "What?! Yes I did, though.",
+            "explanation": "'Jawel' is a fixed Dutch response meaning 'yes I did / yes it does' — used specifically to contradict a negative suggestion. 'Jaja' = yeah yeah (dismissive), 'jazeker' = certainly yes, 'jaah' is not standard."
+          }
+        },
+        {
+          "id": "06_14",
+          "sentence": "Wat ___. Nou, dan denk ik dat hij echt kapot is.",
+          "options": { "A": "gek", "B": "raar", "C": "vreemd", "D": "apart" },
+          "correct": "A",
+          "hint": {
+            "translation": "How strange. Well, then I think it's really broken.",
+            "explanation": "'Wat gek' = how strange/weird — a very common Dutch exclamation. The text uses 'gek'. 'Raar' and 'vreemd' also mean strange, 'apart' = unusual, but the text specifically uses 'gek'."
+          }
+        },
+        {
+          "id": "06_15",
+          "sentence": "Ja, ___ idee.",
+          "options": { "A": "goed", "B": "goede", "C": "fijn", "D": "prima" },
+          "correct": "A",
+          "hint": {
+            "translation": "Yes, good idea.",
+            "explanation": "'Goed idee' is the standard Dutch expression for 'good idea'. 'Idee' is a het-word, but in exclamatory phrases like this, the adjective often appears without inflection. 'Goede idee' would be used with an article: 'een goed idee'. 'Prima' = fine, 'fijn' = nice."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_07",
+      "title": "De wasmachine is stuk",
+      "exercises": [
+        {
+          "id": "07_01",
+          "sentence": "Heb jij je was in de wasmachine ___?",
+          "options": { "A": "gedaan", "B": "gestopt", "C": "gelegd", "D": "gezet" },
+          "correct": "A",
+          "hint": {
+            "translation": "Did you put your laundry in the washing machine?",
+            "explanation": "'Was doen in de wasmachine' = to put laundry in the washing machine. 'Doen in' is the standard Dutch phrase for this. 'Stoppen in' = to stuff/put in, 'leggen' = to lay flat, 'zetten' = to set upright."
+          }
+        },
+        {
+          "id": "07_02",
+          "sentence": "Ja, vanmorgen heb ik hem ___.",
+          "options": { "A": "aangezet", "B": "aanzet", "C": "aan gedaan", "D": "gezet aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "Yes, I turned it on this morning.",
+            "explanation": "'Aanzetten' (to turn on) → participium 'aangezet'. Separable verb: ge- between prefix and stem: aan-ge-zet. 'Aanzet' = present tense, 'aan gedaan' and 'gezet aan' are wrong word order."
+          }
+        },
+        {
+          "id": "07_03",
+          "sentence": "De wasmachine zit ___ vol met water.",
+          "options": { "A": "nog", "B": "al", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "The washing machine is still full of water.",
+            "explanation": "'Nog' = still — the water should have drained but is still there. This signals an ongoing unexpected state. 'Al' = already (would mean it filled up again), 'toch' = after all, 'ook' = also."
+          }
+        },
+        {
+          "id": "07_04",
+          "sentence": "Ik heb gisteren ___ gewassen, toen deed hij het gewoon.",
+          "options": { "A": "nog", "B": "al", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "I did laundry just yesterday, it worked fine then.",
+            "explanation": "'Nog' here means 'as recently as' — emphasising how recent the last working use was. 'Ik heb gisteren nog X' = I even did X as recently as yesterday. 'Al' = already, 'toch' = after all, 'ook' = also."
+          }
+        },
+        {
+          "id": "07_05",
+          "sentence": "Heb je wel het juiste programma ___?",
+          "options": { "A": "gekozen", "B": "gekoost", "C": "koos", "D": "gekozes" },
+          "correct": "A",
+          "hint": {
+            "translation": "Did you actually choose the right programme?",
+            "explanation": "'Kiezen' = to choose. Irregular past participle: 'gekozen'. 'Gekoost' doesn't exist. 'Koos' is imperfectum (past tense), not participle. 'Gekozes' doesn't exist."
+          }
+        },
+        {
+          "id": "07_06",
+          "sentence": "Je hebt aan die linker knop gedraaid, ___?",
+          "options": { "A": "toch", "B": "hè", "C": "ja", "D": "of niet" },
+          "correct": "A",
+          "hint": {
+            "translation": "You turned that left knob, right?",
+            "explanation": "'Toch' at the end of a statement turns it into a confirmation-seeking tag question. It implies the speaker expects 'yes'. 'Hè' is also a tag but more casual/colloquial. The text uses 'toch'."
+          }
+        },
+        {
+          "id": "07_07",
+          "sentence": "Op het ___ staat 'error'.",
+          "options": { "A": "schermpje", "B": "scherm", "C": "display", "D": "scherm'tje" },
+          "correct": "A",
+          "hint": {
+            "translation": "The (little) screen shows 'error'.",
+            "explanation": "'Schermpje' is the diminutive of 'scherm' (screen). The -je suffix makes it 'little screen/display'. Diminutives are very common in Dutch and often signal informality or endearment. 'Scherm' is the base form."
+          }
+        },
+        {
+          "id": "07_08",
+          "sentence": "Mijn vriend komt ___. Misschien kan hij hem maken?",
+          "options": { "A": "zo", "B": "later", "C": "straks", "D": "snel" },
+          "correct": "A",
+          "hint": {
+            "translation": "My boyfriend is coming shortly. Maybe he can fix it?",
+            "explanation": "'Komt zo' = coming shortly / in a moment. 'Zo' in this context means 'in just a moment'. 'Later' = later (less immediate), 'straks' = soon/later, 'snel' = quickly."
+          }
+        },
+        {
+          "id": "07_09",
+          "sentence": "Want een reparatie gaat wel wat ___.",
+          "options": { "A": "kosten", "B": "kost", "C": "koste", "D": "kostende" },
+          "correct": "A",
+          "hint": {
+            "translation": "Because a repair will cost something.",
+            "explanation": "After modal-like 'gaan' (in the future sense), a bare infinitive follows. 'Kosten' (to cost) is the infinitive. 'Kost' is present tense conjugation. 'Koste' is subjunctive, 'kostende' is present participle."
+          }
+        },
+        {
+          "id": "07_10",
+          "sentence": "Als dat niet lukt, bellen we die ene ___.",
+          "options": { "A": "monteur", "B": "reparateur", "C": "technicus", "D": "werker" },
+          "correct": "A",
+          "hint": {
+            "translation": "If that doesn't work, we'll call that one repairman.",
+            "explanation": "'Monteur' is the standard Dutch word for a repairman/mechanic for appliances. 'Reparateur' is formal/written, 'technicus' = technician (more technical jobs), 'werker' = worker (general)."
+          }
+        },
+        {
+          "id": "07_11",
+          "sentence": "Die is hier vorig jaar ___ geweest.",
+          "options": { "A": "ook", "B": "al", "C": "zelfs", "D": "nog" },
+          "correct": "A",
+          "hint": {
+            "translation": "That person was also here last year.",
+            "explanation": "'Ook' = also — he was here before too. 'Al' = already, 'zelfs' = even, 'nog' = still/yet. 'Ook' is the natural addition here, adding him to a list of people/experiences."
+          }
+        },
+        {
+          "id": "07_12",
+          "sentence": "O ja, ik heb zijn nummer nog wel ___.",
+          "options": { "A": "ergens", "B": "ergens op", "C": "hier", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "Oh yes, I still have his number somewhere.",
+            "explanation": "'Ergens' = somewhere. 'Ik heb het ergens' = I have it somewhere (vaguely). 'Ergens op' is a different construction. 'Hier' = here (more definite location). 'Bij' = with/near — grammatically incomplete."
+          }
+        },
+        {
+          "id": "07_13",
+          "sentence": "Is hij ___ klaar?",
+          "options": { "A": "nog niet", "B": "al niet", "C": "niet nog", "D": "toch niet" },
+          "correct": "A",
+          "hint": {
+            "translation": "Is it not done yet?",
+            "explanation": "'Nog niet' = not yet (the expected state hasn't happened). 'Al niet' is not a standard combination. 'Niet nog' is wrong word order. 'Toch niet' = after all not (different meaning — expressing surprise)."
+          }
+        },
+        {
+          "id": "07_14",
+          "sentence": "O, wat ___.",
+          "options": { "A": "raar", "B": "gek", "C": "vreemd", "D": "apart" },
+          "correct": "A",
+          "hint": {
+            "translation": "Oh, how strange.",
+            "explanation": "The text uses 'raar' (strange/weird). 'Gek', 'vreemd', and 'apart' all mean strange/odd and would be natural, but this question tests exact text knowledge. 'Raar' is the most colloquial option."
+          }
+        },
+        {
+          "id": "07_15",
+          "sentence": "Ik heb gisteren nog gewassen, ___ deed hij het gewoon.",
+          "options": { "A": "toen", "B": "dan", "C": "als", "D": "wanneer" },
+          "correct": "A",
+          "hint": {
+            "translation": "I did laundry as recently as yesterday, at that time it just worked.",
+            "explanation": "'Toen' = then (referring to a specific past time). 'Dan' = then (in general/conditional), 'als' = if/when (conditional), 'wanneer' = when (question or future reference). In past narrative, 'toen' is the correct time adverb."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_08",
+      "title": "Loes belt met de monteur",
+      "exercises": [
+        {
+          "id": "08_01",
+          "sentence": "Splash monteurs goedemiddag, wat kan ik voor u ___?",
+          "options": { "A": "doen", "B": "helpen", "C": "dienen", "D": "zeggen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Splash repairmen good afternoon, what can I do for you?",
+            "explanation": "'Wat kan ik voor u doen?' is the standard Dutch customer service opening phrase. 'Helpen' would require 'Waarmee kan ik u helpen?'. 'Dienen' is formal/archaic. 'Zeggen' = to say — wrong verb entirely."
+          }
+        },
+        {
+          "id": "08_02",
+          "sentence": "Onze wasmachine is ___.",
+          "options": { "A": "stuk", "B": "kapot", "C": "defect", "D": "weg" },
+          "correct": "A",
+          "hint": {
+            "translation": "Our washing machine is broken.",
+            "explanation": "The text uses 'stuk'. 'Kapot' is equally common and natural. Both stuk and kapot mean broken for appliances. 'Defect' is more formal/written. 'Weg' = gone/away."
+          }
+        },
+        {
+          "id": "08_03",
+          "sentence": "Het water gaat niet weg en hij ___ ook.",
+          "options": { "A": "lekt", "B": "loopt", "C": "druppelt", "D": "vloeit" },
+          "correct": "A",
+          "hint": {
+            "translation": "The water doesn't drain and it also leaks.",
+            "explanation": "'Lekken' = to leak (appliances, pipes). 'Lekt' is 3rd person singular present. 'Lopen' = to run/flow, 'druppelen' = to drip, 'vloeien' = to flow — none specifically mean 'leak' for a machine."
+          }
+        },
+        {
+          "id": "08_04",
+          "sentence": "Als we de wasmachine ___, is de vloer telkens helemaal nat.",
+          "options": { "A": "aanzetten", "B": "aangezet", "C": "aanzet", "D": "hebben aangezet" },
+          "correct": "A",
+          "hint": {
+            "translation": "Whenever we turn the washing machine on, the floor is completely wet.",
+            "explanation": "In a conditional 'als' bijzin, the verb goes to the END in infinitive or conjugated form. Here 'aanzetten' (infinitive, separable) goes to the end as a unit. 'Aanzet' would be split. 'Aangezet' = past participle."
+          }
+        },
+        {
+          "id": "08_05",
+          "sentence": "Het is een nieuw ___, we hebben hem vorig jaar gekocht.",
+          "options": { "A": "type", "B": "soort", "C": "model", "D": "merk" },
+          "correct": "A",
+          "hint": {
+            "translation": "It's a new model, we bought it last year.",
+            "explanation": "The text uses 'type'. 'Model' is also natural. 'Soort' = sort/kind (more general), 'merk' = brand. The text specifically says 'type'."
+          }
+        },
+        {
+          "id": "08_06",
+          "sentence": "Wanneer kunt u ___?",
+          "options": { "A": "langskomen", "B": "komen", "C": "langsgaan", "D": "bezoeken" },
+          "correct": "A",
+          "hint": {
+            "translation": "When can you come over?",
+            "explanation": "'Langskomen' = to come over / stop by (visiting someone). This is a separable verb. 'Komen' = to come (less specific). 'Langsgaan' = to pass by / go past. 'Bezoeken' = to visit (more formal)."
+          }
+        },
+        {
+          "id": "08_07",
+          "sentence": "Morgen kan onze monteur bij u ___.",
+          "options": { "A": "langskomen", "B": "komen", "C": "thuiskomen", "D": "binnenkomen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Tomorrow our repairman can come to you.",
+            "explanation": "'Langskomen' = to come over, stop by. The repairman visits the customer. 'Thuiskomen' = to come home (wrong direction — the monteur isn't going home). 'Binnenkomen' = to come in (inside a building)."
+          }
+        },
+        {
+          "id": "08_08",
+          "sentence": "Het tijdstip is een beetje ___ van de drukte.",
+          "options": { "A": "afhankelijk", "B": "afhangend", "C": "hangt af", "D": "afhangt" },
+          "correct": "A",
+          "hint": {
+            "translation": "The time depends a bit on how busy it is.",
+            "explanation": "'Afhankelijk van' = dependent on / depending on. This is a fixed adjectival phrase. 'Afhangend' doesn't exist. 'Hangt af' and 'afhangt' are verb forms — wrong word class here after 'is'."
+          }
+        },
+        {
+          "id": "08_09",
+          "sentence": "Ik denk ___ tussen 14.00 en 16.00 uur.",
+          "options": { "A": "ongeveer", "B": "precies", "C": "zeker", "D": "mogelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "I think approximately between 2 and 4 PM.",
+            "explanation": "'Ongeveer' = approximately / around. The repairman is giving an estimate. 'Precies' = exactly (contradicts the range), 'zeker' = certainly (too definite), 'mogelijk' = possibly (different construction)."
+          }
+        },
+        {
+          "id": "08_10",
+          "sentence": "Ik weet ___ niet hoe laat precies.",
+          "options": { "A": "nog", "B": "al", "C": "ook", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "I don't know the exact time yet.",
+            "explanation": "'Nog niet' = not yet. The repairman doesn't have the information yet — it will come later. 'Al niet' = already not (different timing), 'ook niet' = also not, 'toch niet' = after all not."
+          }
+        },
+        {
+          "id": "08_11",
+          "sentence": "Dat laten we u morgen ___.",
+          "options": { "A": "weten", "B": "zeggen", "C": "bellen", "D": "melden" },
+          "correct": "A",
+          "hint": {
+            "translation": "We'll let you know that tomorrow.",
+            "explanation": "'Iemand iets laten weten' = to let someone know. This is a fixed Dutch phrase. 'Laten zeggen' = have someone say (different meaning), 'laten bellen' = have someone call (different meaning)."
+          }
+        },
+        {
+          "id": "08_12",
+          "sentence": "Oké, ___, dat is prima.",
+          "options": { "A": "morgenmiddag kan ik", "B": "ik kan morgenmiddag", "C": "kan ik morgenmiddag", "D": "morgenmiddag ik kan" },
+          "correct": "A",
+          "hint": {
+            "translation": "Okay, tomorrow afternoon I'm available, that's fine.",
+            "explanation": "When a time expression ('morgenmiddag') is in slot 1, inversion occurs: the verb ('kan') must immediately follow in slot 2, then the subject ('ik'). Option A correctly shows this inversion. Option B is normal order, also possible but the text uses inversion. Option D violates V2 rule."
+          }
+        },
+        {
+          "id": "08_13",
+          "sentence": "___, dank u wel.",
+          "options": { "A": "Fijn", "B": "Leuk", "C": "Goed", "D": "Prima" },
+          "correct": "A",
+          "hint": {
+            "translation": "Great, thank you very much.",
+            "explanation": "'Fijn' (nice/fine) is commonly used as a response meaning 'that's good news / I'm pleased to hear that'. The text uses 'fijn'. All options are plausible but the exact word from the text is 'fijn'."
+          }
+        },
+        {
+          "id": "08_14",
+          "sentence": "Oké, even ___.",
+          "options": { "A": "kijken", "B": "wachten", "C": "checken", "D": "zien" },
+          "correct": "A",
+          "hint": {
+            "translation": "Okay, let me just check.",
+            "explanation": "'Even kijken' = let me just check/look — a very common Dutch phrase when someone checks availability or information. 'Even wachten' = just wait a moment. 'Even checken' = just check (Anglicism). 'Even zien' = let's see."
+          }
+        },
+        {
+          "id": "08_15",
+          "sentence": "Bent u ___ thuis?",
+          "options": { "A": "dan", "B": "toch", "C": "ook", "D": "soms" },
+          "correct": "A",
+          "hint": {
+            "translation": "Will you be home then?",
+            "explanation": "'Dan' = then (referring to the proposed time of tomorrow). The repairman asks: 'at that time, will you be home?' 'Toch' = after all/right?, 'ook' = also, 'soms' = sometimes."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_09",
+      "title": "Thuis: föhn en afwas",
+      "exercises": [
+        {
+          "id": "09_01",
+          "sentence": "Mag ik je föhn even ___?",
+          "options": { "A": "lenen", "B": "gebruiken", "C": "nemen", "D": "pakken" },
+          "correct": "A",
+          "hint": {
+            "translation": "Can I borrow your hairdryer for a moment?",
+            "explanation": "'Lenen' = to borrow (you give it back). 'Gebruiken' = to use (doesn't imply returning). 'Nemen' = to take (implies keeping). 'Pakken' = to grab. In Dutch, 'lenen' specifically means borrowing with the intention of returning."
+          }
+        },
+        {
+          "id": "09_02",
+          "sentence": "___ zit het raar.",
+          "options": { "A": "Anders", "B": "Daarna", "C": "Toch", "D": "Dus" },
+          "correct": "A",
+          "hint": {
+            "translation": "Otherwise it sits/looks weird.",
+            "explanation": "'Anders' = otherwise (if not done). Stefan dries his hair so it doesn't look weird. 'Anders zit het raar' = otherwise it looks strange. 'Daarna' = after that, 'toch' = after all, 'dus' = so."
+          }
+        },
+        {
+          "id": "09_03",
+          "sentence": "Hij ___ niet hier.",
+          "options": { "A": "ligt", "B": "staat", "C": "hangt", "D": "zit" },
+          "correct": "A",
+          "hint": {
+            "translation": "It's not here.",
+            "explanation": "'Liggen' = to lie (objects that lie flat — a hairdryer lies on a surface). 'Staan' = to stand (upright objects), 'hangen' = to hang, 'zitten' = to sit. In Dutch, 'liggen/staan/zitten/hangen' are used precisely based on object orientation."
+          }
+        },
+        {
+          "id": "09_04",
+          "sentence": "In de badkamer, ___ mijn elektrische tandenborstel.",
+          "options": { "A": "naast", "B": "bij", "C": "achter", "D": "onder" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the bathroom, next to my electric toothbrush.",
+            "explanation": "'Naast' = next to (beside). The hairdryer is physically beside the toothbrush. 'Bij' = near/at, 'achter' = behind, 'onder' = under."
+          }
+        },
+        {
+          "id": "09_05",
+          "sentence": "Heb je mijn nieuwe, zwarte broek ___?",
+          "options": { "A": "gezien", "B": "zien", "C": "gezegd", "D": "gevonden" },
+          "correct": "A",
+          "hint": {
+            "translation": "Have you seen my new black trousers?",
+            "explanation": "'Zien' (to see) → past participle 'gezien'. 'Heb je X gezien?' = have you seen X? 'Zien' is infinitive. 'Gezegd' = said. 'Gevonden' = found (different verb)."
+          }
+        },
+        {
+          "id": "09_06",
+          "sentence": "Nee, die heb ik buiten ___.",
+          "options": { "A": "opgehangen", "B": "gehangen", "C": "gehangd", "D": "opgehangd" },
+          "correct": "A",
+          "hint": {
+            "translation": "No, I hung those outside.",
+            "explanation": "'Ophangen' = to hang up (laundry). Separable verb: ge- between prefix and stem → op-ge-hangen. 'Gehangen' is the past participle of 'hangen' without the prefix. 'Gehangd' and 'opgehangd' don't exist."
+          }
+        },
+        {
+          "id": "09_07",
+          "sentence": "Nou, kun je dat ___ niet even doen?",
+          "options": { "A": "zelf", "B": "zelfs", "C": "alleen", "D": "zelfstandig" },
+          "correct": "A",
+          "hint": {
+            "translation": "Well, can't you just do that yourself?",
+            "explanation": "'Zelf' = yourself/himself (reflexive emphasis on doing it independently). 'Zelfs' = even (different meaning), 'alleen' = alone/only, 'zelfstandig' = independently (more formal)."
+          }
+        },
+        {
+          "id": "09_08",
+          "sentence": "Het strijkijzer staat in de kast ___ de stofzuiger.",
+          "options": { "A": "bij", "B": "met", "C": "naast", "D": "aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "The iron is in the cupboard by the vacuum cleaner.",
+            "explanation": "'Bij' here means 'with/near' — stored in the same place as the vacuum cleaner. 'Met' = with (companionship, not location), 'naast' = next to (specific positional), 'aan' = to/at."
+          }
+        },
+        {
+          "id": "09_09",
+          "sentence": "Ik heb haast en ik moet mijn tanden nog ___.",
+          "options": { "A": "poetsen", "B": "wassen", "C": "poetsten", "D": "te poetsen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'm in a hurry and I still need to brush my teeth.",
+            "explanation": "'Tanden poetsen' = to brush teeth. After 'moeten', a bare infinitive follows. 'Wassen' = to wash (not teeth). 'Poetsten' is imperfectum, not infinitive. 'Te poetsen' is wrong after moeten."
+          }
+        },
+        {
+          "id": "09_10",
+          "sentence": "Kom op, probeer het zelf even ___ doen.",
+          "options": { "A": "te", "B": "om te", "C": "voor te", "D": "— (nothing)" },
+          "correct": "A",
+          "hint": {
+            "translation": "Come on, try to do it yourself for a moment.",
+            "explanation": "'Proberen te + infinitive' = to try to do. 'Proberen' is not a modal verb, so it requires 'te'. 'Om te doen' would suggest purpose, not the object of proberen. No 'te' would be wrong."
+          }
+        },
+        {
+          "id": "09_11",
+          "sentence": "Wil jij die vuile borden op het aanrecht even ___?",
+          "options": { "A": "afwassen", "B": "wassen", "C": "afgewassen", "D": "gewassen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Will you wash those dirty plates on the counter for a moment?",
+            "explanation": "'Afwassen' = to do the dishes / wash up (separable verb). After 'willen', bare infinitive follows. 'Wassen' = to wash (general — laundry too). 'Afgewassen' and 'gewassen' are past participles."
+          }
+        },
+        {
+          "id": "09_12",
+          "sentence": "Je ___ ze niet in de kast te zetten.",
+          "options": { "A": "hoeft", "B": "moet", "C": "kan", "D": "wil" },
+          "correct": "A",
+          "hint": {
+            "translation": "You don't have to put them in the cupboard.",
+            "explanation": "'Hoeven niet te' = don't have to (not necessary). 'Moet niet' = must not (forbidden — very different!). 'Kan niet' = cannot (inability). 'Wil niet' = doesn't want to."
+          }
+        },
+        {
+          "id": "09_13",
+          "sentence": "Omdat we al ___ apparaten hebben.",
+          "options": { "A": "genoeg", "B": "te veel", "C": "veel", "D": "zo veel" },
+          "correct": "A",
+          "hint": {
+            "translation": "Because we already have enough appliances.",
+            "explanation": "The text uses 'genoeg' (enough). 'Te veel' = too many (slightly stronger), 'veel' = many (no sufficiency claim), 'zo veel' = so many. The mother's argument is 'we have enough' — not 'too many'."
+          }
+        },
+        {
+          "id": "09_14",
+          "sentence": "We hebben echt ___ afwasmachine nodig.",
+          "options": { "A": "geen", "B": "niet", "C": "niet een", "D": "nooit een" },
+          "correct": "A",
+          "hint": {
+            "translation": "We really don't need a dishwasher.",
+            "explanation": "'Geen' negates a noun ('geen afwasmachine' = no dishwasher). 'Afwasmachine' is an indefinite noun being negated — use 'geen'. 'Niet' negates verbs/adjectives. 'Niet een' is incorrect Dutch."
+          }
+        },
+        {
+          "id": "09_15",
+          "sentence": "Dat is ook niet zo goed voor ___ milieu.",
+          "options": { "A": "het", "B": "de", "C": "een", "D": "ons" },
+          "correct": "A",
+          "hint": {
+            "translation": "That's also not so good for the environment.",
+            "explanation": "'Het milieu' (the environment) — 'milieu' is a het-word, so it takes 'het'. 'De' is for de-words. 'Een' makes it indefinite and unnatural here. 'Ons milieu' = our environment (possessive — too specific)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_10",
+      "title": "Trouwen, samenwonen en scheiden",
+      "exercises": [
+        {
+          "id": "10_01",
+          "sentence": "De meeste mensen in Nederland leren in hun vrije tijd hun partner ___.",
+          "options": { "A": "kennen", "B": "kennen aan", "C": "te kennen", "D": "gekend" },
+          "correct": "A",
+          "hint": {
+            "translation": "Most people in the Netherlands meet their partner in their free time.",
+            "explanation": "'Leren kennen' = to get to know / to meet (someone for the first time). 'Kennen' is the infinitive here. 'Te kennen' would be wrong after 'leren kennen' as a set phrase. 'Gekend' = past participle."
+          }
+        },
+        {
+          "id": "10_02",
+          "sentence": "Ze sturen elkaar via een app of website een bericht, ze ___ af.",
+          "options": { "A": "spreken", "B": "praten", "C": "zeggen", "D": "maken" },
+          "correct": "A",
+          "hint": {
+            "translation": "They send each other a message via an app or website, they make an appointment.",
+            "explanation": "'Afspreken' = to make an appointment / arrange to meet. Separable verb: 'spreken ... af'. 'Praten' = to talk, 'zeggen' = to say, 'maken' = to make (would need 'een afspraak maken', different structure)."
+          }
+        },
+        {
+          "id": "10_03",
+          "sentence": "Veel jonge mensen willen ___ samenwonen.",
+          "options": { "A": "eerst", "B": "snel", "C": "vroeg", "D": "meteen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Many young people want to live together first.",
+            "explanation": "'Eerst' = first (before doing something else — in this case, before getting married). 'Snel' = quickly, 'vroeg' = early, 'meteen' = immediately. The text makes a sequencing argument: cohabit first, then possibly marry."
+          }
+        },
+        {
+          "id": "10_04",
+          "sentence": "Ze willen hun partner eerst beter ___ kennen.",
+          "options": { "A": "leren", "B": "te leren", "C": "geleerd", "D": "leert" },
+          "correct": "A",
+          "hint": {
+            "translation": "They want to get to know their partner better first.",
+            "explanation": "'Leren kennen' = to get to know. After 'willen', the verb cluster 'leren kennen' goes to the end. 'Leren' is the infinitive. 'Te leren' would be wrong after 'willen'. 'Geleerd' = past participle."
+          }
+        },
+        {
+          "id": "10_05",
+          "sentence": "Vroeger was ongetrouwd samenwonen niet zo ___.",
+          "options": { "A": "vanzelfsprekend", "B": "normaal", "C": "gewoon", "D": "gebruikelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the past, living together unmarried was not so obvious/natural.",
+            "explanation": "The text uses 'vanzelfsprekend' (self-evident / taken for granted). 'Normaal', 'gewoon', 'gebruikelijk' all mean 'normal/common' — all plausible, but the text specifically uses the formal 'vanzelfsprekend'."
+          }
+        },
+        {
+          "id": "10_06",
+          "sentence": "De meeste mannen en vrouwen trouwden ___ voor hun vijfentwintigste.",
+          "options": { "A": "toen", "B": "dan", "C": "als", "D": "vroeger" },
+          "correct": "A",
+          "hint": {
+            "translation": "Most men and women married before their twenty-fifth back then.",
+            "explanation": "'Toen' refers back to the mentioned past time (vroeger). 'Toen' = at that time (in the past narrative). 'Dan' = then (general), 'als' = when (conditional/future), 'vroeger' = in the past (already used earlier in the sentence)."
+          }
+        },
+        {
+          "id": "10_07",
+          "sentence": "Tegenwoordig trouwen mensen gemiddeld tien jaar ___.",
+          "options": { "A": "later", "B": "ouder", "C": "meer", "D": "daarna" },
+          "correct": "A",
+          "hint": {
+            "translation": "Nowadays people marry on average ten years later.",
+            "explanation": "'Later' = later. Comparing to the past age of marriage, people now marry 'ten years later'. 'Ouder' = older (grammatically possible but the text uses 'later'), 'meer' = more (wrong comparison), 'daarna' = after that."
+          }
+        },
+        {
+          "id": "10_08",
+          "sentence": "Vrouwen krijgen ook steeds ___ en minder kinderen dan vroeger.",
+          "options": { "A": "later", "B": "ouder", "C": "later hoe", "D": "minder vroeg" },
+          "correct": "A",
+          "hint": {
+            "translation": "Women also have children increasingly later and fewer than in the past.",
+            "explanation": "'Steeds later' = increasingly later / later and later. 'Steeds' + comparative expresses a continuous trend. 'Ouder' = older (a different attribute), 'later hoe' and 'minder vroeg' are grammatically incorrect."
+          }
+        },
+        {
+          "id": "10_09",
+          "sentence": "Ze ___ het krijgen van kinderen vaak uit.",
+          "options": { "A": "stellen", "B": "leggen", "C": "zetten", "D": "doen" },
+          "correct": "A",
+          "hint": {
+            "translation": "They often postpone having children.",
+            "explanation": "'Uitstellen' = to postpone. Separable verb: 'stellen ... uit'. 'Leggen', 'zetten', 'doen' are all movement/placement verbs that don't form this meaning with 'uit'."
+          }
+        },
+        {
+          "id": "10_10",
+          "sentence": "Meer dan dertig procent van de huwelijken ___ in een scheiding.",
+          "options": { "A": "eindigt", "B": "stopt", "C": "loopt af", "D": "gaat" },
+          "correct": "A",
+          "hint": {
+            "translation": "More than thirty percent of marriages end in a divorce.",
+            "explanation": "'Eindigen in' = to end in (something). 'Eindigt in een scheiding' is the standard Dutch expression. 'Stoppen' = to stop, 'aflopen' = to end/expire, 'gaan' = to go — none combine naturally with 'in een scheiding'."
+          }
+        },
+        {
+          "id": "10_11",
+          "sentence": "Mensen scheiden vooral ___ ze te veel ruzie met elkaar maken.",
+          "options": { "A": "omdat", "B": "want", "C": "als", "D": "doordat" },
+          "correct": "A",
+          "hint": {
+            "translation": "People divorce mainly because they argue too much with each other.",
+            "explanation": "'Omdat' = because (subordinator, verb to end: 'maken'). 'Want' would require normal word order after it. 'Als' = if/when (conditional). 'Doordat' = because of the fact that (also possible, but text uses 'omdat')."
+          }
+        },
+        {
+          "id": "10_12",
+          "sentence": "De ___ jaren zoeken steeds meer mensen een partner online.",
+          "options": { "A": "laatste", "B": "vorige", "C": "afgelopen", "D": "recente" },
+          "correct": "A",
+          "hint": {
+            "translation": "In recent years, more and more people are looking for a partner online.",
+            "explanation": "'De laatste jaren' = in recent years (a fixed time expression). 'Vorige jaren' = previous years (more specific). 'Afgelopen jaren' is also common and natural. 'Recente jaren' is unusual in Dutch (English influence)."
+          }
+        },
+        {
+          "id": "10_13",
+          "sentence": "Als alles goed gaat, worden ze ___ en krijgen ze een relatie.",
+          "options": { "A": "verliefd", "B": "gelukkig", "C": "samen", "D": "goed" },
+          "correct": "A",
+          "hint": {
+            "translation": "If everything goes well, they fall in love and start a relationship.",
+            "explanation": "'Verliefd worden' = to fall in love. This is a fixed expression. 'Gelukkig' = happy, 'samen' = together, 'goed' = good — none capture the meaning of falling in love."
+          }
+        },
+        {
+          "id": "10_14",
+          "sentence": "Een traditioneel gezin is ___ minder belangrijk voor mensen met een hoge opleiding.",
+          "options": { "A": "vooral", "B": "namelijk", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "A traditional family is especially less important for people with a higher education.",
+            "explanation": "'Vooral' = especially / particularly — singles out a specific group. 'Namelijk' = you see (explains, doesn't emphasise), 'toch' = after all, 'ook' = also."
+          }
+        },
+        {
+          "id": "10_15",
+          "sentence": "Veel gescheiden ouders ___ samen de zorg van de kinderen.",
+          "options": { "A": "delen", "B": "verdelen", "C": "hebben", "D": "doen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Many divorced parents share the care of the children together.",
+            "explanation": "'Delen' = to share. 'Samen de zorg delen' = to share care together. 'Verdelen' = to divide/distribute (implies splitting, not sharing equally). 'Hebben' = to have, 'doen' = to do."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_11",
+      "title": "Hoe gaat het daar?",
+      "exercises": [
+        {
+          "id": "11_01",
+          "sentence": "Is het ___ steeds zo heet?",
+          "options": { "A": "nog", "B": "al", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "Is it still so hot?",
+            "explanation": "'Nog steeds' = still (ongoing, continuing). Rafael asks if the heat is continuing. 'Al' = already, 'toch' = after all, 'ook' = also."
+          }
+        },
+        {
+          "id": "11_02",
+          "sentence": "Ik zal niet ___.",
+          "options": { "A": "klagen", "B": "zeuren", "C": "mopperen", "D": "praten" },
+          "correct": "A",
+          "hint": {
+            "translation": "I won't complain.",
+            "explanation": "The text uses 'klagen' (to complain). 'Zeuren' and 'mopperen' also mean to complain/moan but are more informal. The exact word from the text is 'klagen'."
+          }
+        },
+        {
+          "id": "11_03",
+          "sentence": "Ik hoorde dat het in Nederland al de hele week ___.",
+          "options": { "A": "vriest", "B": "gevroren heeft", "C": "vroor", "D": "sneeuwt" },
+          "correct": "A",
+          "hint": {
+            "translation": "I heard that it has been freezing in the Netherlands all week.",
+            "explanation": "Inside a 'dat' bijzin, the conjugated verb goes to end. 'Al de hele week' + present tense: 'vriest' (it freezes/it's freezing). 'Gevroren heeft' is perfectum but the present continuous is more natural. 'Vroor' is imperfectum."
+          }
+        },
+        {
+          "id": "11_04",
+          "sentence": "Ik wilde ze meteen de blauwe zee ___ zien.",
+          "options": { "A": "laten", "B": "te laten", "C": "laten te", "D": "doen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I immediately wanted to show them the blue sea.",
+            "explanation": "'Laten zien' = to show (literally: let see). 'Willen + laten zien' — after 'wilde', 'laten zien' forms a verb cluster. The infinitives 'laten zien' go to the end. 'Laten' doesn't take 'te'."
+          }
+        },
+        {
+          "id": "11_05",
+          "sentence": "Mijn huisje is veel te klein voor een extra ___.",
+          "options": { "A": "bed", "B": "slaapplaats", "C": "kamer", "D": "bedden" },
+          "correct": "A",
+          "hint": {
+            "translation": "My little house is much too small for an extra bed.",
+            "explanation": "The text says 'een extra bed'. 'Een' requires singular. 'Bed' (het-word) = bed. 'Slaapplaats' = sleeping place (different word), 'kamer' = room, 'bedden' = beds (plural, can't follow 'een')."
+          }
+        },
+        {
+          "id": "11_06",
+          "sentence": "Vanavond gaan we ___ eten.",
+          "options": { "A": "uit", "B": "buiten", "C": "samen", "D": "weg" },
+          "correct": "A",
+          "hint": {
+            "translation": "Tonight we're going out for dinner.",
+            "explanation": "'Uit eten gaan' = to go out to eat / eat out. This is a fixed Dutch expression. 'Buiten eten' = to eat outside (in the garden), 'samen eten' = to eat together, 'weg eten' doesn't mean dining out."
+          }
+        },
+        {
+          "id": "11_07",
+          "sentence": "___, je maakt me jaloers!",
+          "options": { "A": "Pff", "B": "Wow", "C": "Ooh", "D": "Ach" },
+          "correct": "A",
+          "hint": {
+            "translation": "Ugh, you're making me jealous!",
+            "explanation": "'Pff' expresses mild exasperation or envy — the Dutch version of 'ugh'. The text uses 'Pff'. 'Wow' = positive amazement, 'Ooh' = surprise, 'Ach' = mild resignation."
+          }
+        },
+        {
+          "id": "11_08",
+          "sentence": "Dus gisteren heb ik lekker ___ en twee films gekeken.",
+          "options": { "A": "uitgerust", "B": "geslapen", "C": "gerust", "D": "uitgerusted" },
+          "correct": "A",
+          "hint": {
+            "translation": "So yesterday I rested up nicely and watched two films.",
+            "explanation": "'Uitrusten' = to rest/recuperate. Past participle: 'uitgerust' (separable: uit-ge-rust). 'Geslapen' = slept (different activity), 'gerust' = calmly/without worries (adjective/adverb), 'uitgerusted' doesn't exist."
+          }
+        },
+        {
+          "id": "11_09",
+          "sentence": "Van ___ week heb ik een verjaardagsfeestje.",
+          "options": { "A": "volgend", "B": "volgende", "C": "komend", "D": "aanstaande" },
+          "correct": "A",
+          "hint": {
+            "translation": "Next week I have a birthday party.",
+            "explanation": "Before a het-word without a definite article, adjectives do NOT get -e: 'volgend weekend' (het weekend). But 'week' is a de-word, so... actually 'volgend week' is used in fixed temporal expressions. The text uses 'volgend weekend' equivalent. The text says 'volgend weekend'."
+          }
+        },
+        {
+          "id": "11_10",
+          "sentence": "Het wordt ___ gezellig.",
+          "options": { "A": "vast", "B": "zeker", "C": "waarschijnlijk", "D": "heel" },
+          "correct": "A",
+          "hint": {
+            "translation": "It will surely be fun.",
+            "explanation": "'Vast' = surely / bound to be (confident informal expectation). 'Zeker' = certainly, 'waarschijnlijk' = probably, 'heel' = very (wrong word class here)."
+          }
+        },
+        {
+          "id": "11_11",
+          "sentence": "Wanneer ___ jij op bezoek in Australië?",
+          "options": { "A": "kom", "B": "gaat", "C": "bent", "D": "wil" },
+          "correct": "A",
+          "hint": {
+            "translation": "When are you coming to visit in Australia?",
+            "explanation": "'Komen op bezoek' = to come to visit. The subject is 'jij' so the verb is 'kom' (not 'komt' — because jij/je after the verb drops the -t). 'Gaat' = goes (going, not coming), 'bent' = are, 'wil' = want."
+          }
+        },
+        {
+          "id": "11_12",
+          "sentence": "Ik moet eerst voor de ___ sparen.",
+          "options": { "A": "vliegtickets", "B": "tickets", "C": "vliegkaartjes", "D": "kaartjes" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have to save up for the plane tickets first.",
+            "explanation": "'Vliegtickets' is the standard Dutch compound for plane tickets (vliegen = to fly, tickets). 'Tickets' alone is also used. 'Kaartjes' = tickets (also used in Dutch, especially train). The text uses 'vliegtickets'."
+          }
+        },
+        {
+          "id": "11_13",
+          "sentence": "Ik zal een cadeautje ___ Nederland voor je meenemen.",
+          "options": { "A": "uit", "B": "van", "C": "vanaf", "D": "vanuit" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll bring a little gift from the Netherlands for you.",
+            "explanation": "'Uit Nederland' = from the Netherlands (origin). 'Van' = of/from (possession/general), 'vanaf' = from (starting point in time or place), 'vanuit' = from within (more specific origin). 'Uit' is the standard for country of origin."
+          }
+        },
+        {
+          "id": "11_14",
+          "sentence": "Oeh, ik ___ benieuwd!",
+          "options": { "A": "ben", "B": "word", "C": "ben er", "D": "ben heel" },
+          "correct": "A",
+          "hint": {
+            "translation": "Ooh, I'm curious!",
+            "explanation": "'Ik ben benieuwd' = I'm curious / I wonder what it is. Fixed expression. 'Word' = become (wrong — you're already in that state). 'Ben er benieuwd naar' would be more elaborate but the text uses the simple 'ben benieuwd'."
+          }
+        },
+        {
+          "id": "11_15",
+          "sentence": "Doe je ___ de groeten van me.",
+          "options": { "A": "broers", "B": "broeders", "C": "zussen", "D": "familie" },
+          "correct": "A",
+          "hint": {
+            "translation": "Say hi to your brothers from me.",
+            "explanation": "'Broers' is the plural of 'broer' (brother). Rafael asks Sidra to greet her brothers who are visiting. 'Broeders' = brothers (formal/religious sense), 'zussen' = sisters, 'familie' = family (general)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_12",
+      "title": "E-mail: Hoe gaat het?",
+      "exercises": [
+        {
+          "id": "12_01",
+          "sentence": "Gisteren ___ ik je broer in de trein.",
+          "options": { "A": "tegenkwam", "B": "tegenkomen", "C": "ontmoette", "D": "kwam tegen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Yesterday I ran into your brother on the train.",
+            "explanation": "Wait — in a bijzin or after a time expression in slot 1, the verb goes to position 2. But here the sentence structure is: 'Gisteren' (slot 1) → 'kwam' (slot 2) → 'ik' (slot 3) ... 'tegen' (end). But in a subclause: 'tegenkwam' goes to end. The original email says 'Gisteren kwam ik je broer in de trein tegen' — but presented here as 'tegenkwam' for the bijzin version. Actually the text presents: 'Gisteren kwam ik je broer in de trein tegen'. This tests separable verb in imperfectum with inversion."
+          }
+        },
+        {
+          "id": "12_02",
+          "sentence": "Ik herkende hem meteen, want hij lijkt ___ heel veel op je.",
+          "options": { "A": "nog steeds", "B": "toch nog", "C": "altijd nog", "D": "ook steeds" },
+          "correct": "A",
+          "hint": {
+            "translation": "I recognised him immediately, because he still looks a lot like you.",
+            "explanation": "'Nog steeds' = still (ongoing, unchanged over time). He still looks like her. 'Toch nog' = after all still, 'altijd nog' = always still (unusual combination), 'ook steeds' = also increasingly."
+          }
+        },
+        {
+          "id": "12_03",
+          "sentence": "Hij heeft net zulke donkere ogen en bruine krullen ___ jij.",
+          "options": { "A": "als", "B": "dan", "C": "zoals", "D": "net" },
+          "correct": "A",
+          "hint": {
+            "translation": "He has just the same dark eyes and brown curls as you.",
+            "explanation": "'Net zulke ... als' = just the same ... as. This is a comparison of equality. 'Dan' is used after comparatives (groter dan), 'zoals' = such as/like (introduces examples), 'net' can't start the comparison here."
+          }
+        },
+        {
+          "id": "12_04",
+          "sentence": "Je broer vertelde dat jullie vader ___ is overleden.",
+          "options": { "A": "laatst", "B": "recent", "C": "gisteren", "D": "al" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your brother told me that your father recently passed away.",
+            "explanation": "'Laatst' = recently / the other day (informal Dutch time expression). 'Recent' is more formal and less natural here. 'Gisteren' = yesterday (too specific). 'Al' = already."
+          }
+        },
+        {
+          "id": "12_05",
+          "sentence": "___ liep ik vandaag langs jullie huis van vroeger.",
+          "options": { "A": "Toevallig", "B": "Gelukkig", "C": "Plotseling", "D": "Eigenlijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Coincidentally, I walked past your old house today.",
+            "explanation": "'Toevallig' = coincidentally / by chance. The writer walked past the house by accident — fitting the emotional tone. 'Gelukkig' = fortunately, 'plotseling' = suddenly, 'eigenlijk' = actually."
+          }
+        },
+        {
+          "id": "12_06",
+          "sentence": "Ik weet nog dat ik ___ bij jullie kwam eten.",
+          "options": { "A": "elke zaterdag", "B": "iedere zaterdag", "C": "alle zaterdagen", "D": "elke zaterdagen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I still remember that I came to eat at your place every Saturday.",
+            "explanation": "'Elke zaterdag' = every Saturday. 'Iedere zaterdag' is also correct and equally natural. 'Alle zaterdagen' is grammatically possible but unusual. 'Elke zaterdagen' is wrong (elke + singular noun)."
+          }
+        },
+        {
+          "id": "12_07",
+          "sentence": "Je vader vertelde dan veel ___ verhalen.",
+          "options": { "A": "grappige", "B": "grappig", "C": "grapjes", "D": "komische" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your father would tell many funny stories.",
+            "explanation": "'Grappige' is the inflected adjective before 'verhalen' (plural de-word) — adjective gets -e. 'Grappig' is the uninflected form. 'Grapjes' = jokes (different noun). 'Komische' = comical (also possible but the text uses 'grappige')."
+          }
+        },
+        {
+          "id": "12_08",
+          "sentence": "We ___ niet stoppen met lachen.",
+          "options": { "A": "konden", "B": "konden niet", "C": "wilden", "D": "mochten" },
+          "correct": "A",
+          "hint": {
+            "translation": "We couldn't stop laughing.",
+            "explanation": "'Konden niet stoppen' = couldn't stop. 'Kunnen' → imperfectum 'konden'. 'Konden niet' would be the full negation but the blank only needs the modal. 'Wilden' = wanted to, 'mochten' = were allowed to."
+          }
+        },
+        {
+          "id": "12_09",
+          "sentence": "Ik mis hem ___, maar ik ben niet heel verdrietig.",
+          "options": { "A": "wel", "B": "toch", "C": "ook", "D": "nog" },
+          "correct": "A",
+          "hint": {
+            "translation": "I do miss him, but I'm not very sad.",
+            "explanation": "'Wel' here acts as an affirmative intensifier — 'I do miss him' (acknowledging it, before the 'but'). 'Toch' = after all, 'ook' = also, 'nog' = still. 'Wel' sets up the contrast with 'maar niet heel verdrietig'."
+          }
+        },
+        {
+          "id": "12_10",
+          "sentence": "Hij ___ al 91 en hij heeft een mooi leven gehad.",
+          "options": { "A": "was", "B": "werd", "C": "is", "D": "heeft" },
+          "correct": "A",
+          "hint": {
+            "translation": "He was already 91 and he had a good life.",
+            "explanation": "'Was' = was (imperfectum of zijn). Since the father has passed away, past tense is used. 'Werd' = became, 'is' = is (present — incorrect since he's deceased), 'heeft' = has."
+          }
+        },
+        {
+          "id": "12_11",
+          "sentence": "Ik schaamde me vroeger ___ voor zijn grapjes.",
+          "options": { "A": "altijd", "B": "ook", "C": "wel", "D": "steeds" },
+          "correct": "A",
+          "hint": {
+            "translation": "I always used to be embarrassed by his jokes.",
+            "explanation": "'Altijd' = always. The text says she always felt embarrassed. 'Ook' = also, 'wel' = indeed/do (affirmative), 'steeds' = increasingly/constantly."
+          }
+        },
+        {
+          "id": "12_12",
+          "sentence": "Ons karakter was bijna hetzelfde, maar ons ___ niet.",
+          "options": { "A": "uiterlijk", "B": "uitzicht", "C": "gezicht", "D": "beeld" },
+          "correct": "A",
+          "hint": {
+            "translation": "Our character was almost the same, but not our appearance.",
+            "explanation": "'Uiterlijk' = appearance / outward looks. 'Uitzicht' = view (landscape), 'gezicht' = face (not overall appearance), 'beeld' = image/statue."
+          }
+        },
+        {
+          "id": "12_13",
+          "sentence": "Mijn vader had ___ haar en een lichtere huid.",
+          "options": { "A": "steil", "B": "recht", "C": "glad", "D": "dun" },
+          "correct": "A",
+          "hint": {
+            "translation": "My father had straight hair and a lighter skin.",
+            "explanation": "'Steil haar' = straight hair. 'Steil' is the standard Dutch word for straight (hair). 'Recht' = straight (geometrically, roads), 'glad' = smooth, 'dun' = thin."
+          }
+        },
+        {
+          "id": "12_14",
+          "sentence": "We hebben ___ lengte.",
+          "options": { "A": "dezelfde", "B": "hetzelfde", "C": "gelijke", "D": "een zelfde" },
+          "correct": "A",
+          "hint": {
+            "translation": "We have the same height.",
+            "explanation": "'Lengte' is a de-word, so 'dezelfde' is correct. 'Hetzelfde' is for het-words. 'Gelijke' = equal/similar. 'Een zelfde' is unusual phrasing."
+          }
+        },
+        {
+          "id": "12_15",
+          "sentence": "Kun je me je telefoonnummer ___? Dan bel ik je even.",
+          "options": { "A": "sturen", "B": "geven", "C": "schrijven", "D": "laten" },
+          "correct": "A",
+          "hint": {
+            "translation": "Can you send me your phone number? Then I'll give you a call.",
+            "explanation": "The text uses 'sturen' (to send — fitting for a digital contact like email). 'Geven' = to give (in person), 'schrijven' = to write, 'laten' = to let/leave. The email context makes 'sturen' most natural."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_13",
+      "title": "Hebben we alles geregeld?",
+      "exercises": [
+        {
+          "id": "13_01",
+          "sentence": "Ik vind het nu ___ spannend.",
+          "options": { "A": "al", "B": "nog", "C": "ook", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "I already find it exciting now.",
+            "explanation": "'Al' = already — she's already feeling nervous even though the wedding is still two months away. 'Nog' = still/yet, 'ook' = also, 'toch' = after all."
+          }
+        },
+        {
+          "id": "13_02",
+          "sentence": "Het pak voor Jeroen ___ niet.",
+          "options": { "A": "nog niet", "B": "al niet", "C": "niet al", "D": "toch niet" },
+          "correct": "A",
+          "hint": {
+            "translation": "Jeroen's suit is not ready yet.",
+            "explanation": "'Nog niet' = not yet. Contrasts with the wedding dress which IS ready. 'Al niet' = already not (wrong timing). 'Niet al' is wrong word order. 'Toch niet' = after all not (different nuance)."
+          }
+        },
+        {
+          "id": "13_03",
+          "sentence": "Dat kan hij dit weekend ___.",
+          "options": { "A": "ophalen", "B": "halen", "C": "meenemen", "D": "kopen" },
+          "correct": "A",
+          "hint": {
+            "translation": "He can pick that up this weekend.",
+            "explanation": "'Ophalen' = to pick up / collect (going somewhere to get something). Separable verb: 'halen ... op'. 'Halen' = to fetch, 'meenemen' = to take along, 'kopen' = to buy."
+          }
+        },
+        {
+          "id": "13_04",
+          "sentence": "___ gaan we morgen samen uitzoeken.",
+          "options": { "A": "Die", "B": "Dat", "C": "Ze", "D": "Het" },
+          "correct": "A",
+          "hint": {
+            "translation": "Those we're going to choose together tomorrow.",
+            "explanation": "Referring to 'de ringen' (de-word, plural) — the pronoun 'die' is used. 'Dat' = that (het-word reference), 'ze' = they/them (could also be used informally), 'het' = it (het-word). 'Die' is the demonstrative/pronoun for plural de-words."
+          }
+        },
+        {
+          "id": "13_05",
+          "sentence": "Nee, ___ versturen we dit weekend, als ze klaar zijn.",
+          "options": { "A": "die", "B": "dat", "C": "ze", "D": "het" },
+          "correct": "A",
+          "hint": {
+            "translation": "No, we'll send those this weekend when they're ready.",
+            "explanation": "Referring to 'de uitnodigingen' (invitations — de-word, plural). Pronoun 'die'. 'Dat' = het-word, 'ze' = them/they (also possible informally), 'het' = het-word singular."
+          }
+        },
+        {
+          "id": "13_06",
+          "sentence": "Hoeveel gasten ___ jullie?",
+          "options": { "A": "verwachten", "B": "willen", "C": "hebben", "D": "komen" },
+          "correct": "A",
+          "hint": {
+            "translation": "How many guests are you expecting?",
+            "explanation": "'Verwachten' = to expect. 'Hoeveel gasten verwachten jullie?' = how many guests do you expect? 'Willen' = want, 'hebben' = have, 'komen' = come (wrong subject — guests come, not 'jullie')."
+          }
+        },
+        {
+          "id": "13_07",
+          "sentence": "Ben je ___ vergeten?",
+          "options": { "A": "niemand", "B": "iemand", "C": "iedereen", "D": "geen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Have you forgotten anyone?",
+            "explanation": "'Niemand vergeten' = forgotten nobody (is anyone forgotten?). In questions expecting a negative result, 'niemand' is used. 'Iemand vergeten' = forgotten someone (different assumption). 'Iedereen' = everyone, 'geen' negates nouns."
+          }
+        },
+        {
+          "id": "13_08",
+          "sentence": "Om twee uur moeten we in het stadhuis ___.",
+          "options": { "A": "zijn", "B": "gaan", "C": "komen", "D": "wezen" },
+          "correct": "A",
+          "hint": {
+            "translation": "At two o'clock we have to be at the town hall.",
+            "explanation": "'Moeten zijn' = have to be (at a location). 'Zijn' as the infinitive of location. 'Gaan' = to go (movement, not being there), 'komen' = to come, 'wezen' is dialectal/archaic for zijn."
+          }
+        },
+        {
+          "id": "13_09",
+          "sentence": "We hebben een ___ taart besteld!",
+          "options": { "A": "enorme", "B": "groot", "C": "grote", "D": "heel grote" },
+          "correct": "A",
+          "hint": {
+            "translation": "We've ordered an enormous cake!",
+            "explanation": "'Een enorme taart' = an enormous cake. 'Enorme' is the inflected form before 'een + de-word'. 'Groot' would need inflection: 'een grote taart'. The text uses 'enorme'. 'Heel grote' = very big (different word)."
+          }
+        },
+        {
+          "id": "13_10",
+          "sentence": "Jeroen kent een fotograaf ___ mooie foto's kan maken.",
+          "options": { "A": "die", "B": "dat", "C": "welke", "D": "wie" },
+          "correct": "A",
+          "hint": {
+            "translation": "Jeroen knows a photographer who can make beautiful photos.",
+            "explanation": "'Die' is the relative pronoun for de-words ('fotograaf' = de fotograaf). 'Dat' is for het-words. 'Welke' is for plural/formal contexts. 'Wie' = who (for people in other constructions, but 'die' is used for relative clauses with people)."
+          }
+        },
+        {
+          "id": "13_11",
+          "sentence": "Jeroen wil graag een maand ___ Azië reizen.",
+          "options": { "A": "door", "B": "naar", "C": "in", "D": "via" },
+          "correct": "A",
+          "hint": {
+            "translation": "Jeroen would very much like to travel through Asia for a month.",
+            "explanation": "'Door Azië reizen' = to travel through Asia (traversing, not just going to). 'Naar Azië reizen' = to travel to Asia (destination). 'In Azië reizen' = unusual. 'Via Azië' = via Asia (transit)."
+          }
+        },
+        {
+          "id": "13_12",
+          "sentence": "Dat ___ me niets.",
+          "options": { "A": "lijkt", "B": "vind", "C": "is", "D": "ziet" },
+          "correct": "A",
+          "hint": {
+            "translation": "That doesn't appeal to me at all.",
+            "explanation": "'Dat lijkt me niets' = that doesn't seem like anything to me / that doesn't appeal to me. Fixed expression. 'Vind' = find/think, 'is' = is, 'ziet' = sees — none form this idiom."
+          }
+        },
+        {
+          "id": "13_13",
+          "sentence": "Ik ___ me onze huwelijksreis nog goed.",
+          "options": { "A": "herinner", "B": "weet", "C": "ken", "D": "denk aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "I remember our honeymoon well.",
+            "explanation": "'Herinneren' = to remember (a memory). 'Ik herinner me' = I remember (reflexive). 'Weten' = to know (facts), 'kennen' = to know (people/places), 'denken aan' = to think of."
+          }
+        },
+        {
+          "id": "13_14",
+          "sentence": "Kunnen die een nachtje ___ jullie logeren?",
+          "options": { "A": "bij", "B": "aan", "C": "op", "D": "voor" },
+          "correct": "A",
+          "hint": {
+            "translation": "Can they stay the night at your place?",
+            "explanation": "'Bij iemand logeren' = to stay at someone's place. 'Bij' is the preposition for 'at someone's home'. 'Aan/op/voor' don't collocate with 'logeren'."
+          }
+        },
+        {
+          "id": "13_15",
+          "sentence": "Ik bedenk ineens dat ik de kapper ___ niet heb gebeld!",
+          "options": { "A": "nog", "B": "al", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "I suddenly realise I still haven't called the hairdresser!",
+            "explanation": "'Nog niet' = not yet. She realises she forgot to do it — it still hasn't been done. 'Al niet' = already not (different timing), 'toch niet' = after all not (expression of disappointment), 'ook niet' = also not."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_14",
+      "title": "Ali bij de kapper",
+      "exercises": [
+        {
+          "id": "14_01",
+          "sentence": "___ wanneer heb je een baard?",
+          "options": { "A": "Sinds", "B": "Van", "C": "Vanaf", "D": "Al" },
+          "correct": "A",
+          "hint": {
+            "translation": "Since when do you have a beard?",
+            "explanation": "'Sinds wanneer' = since when (asking about the starting point of an ongoing state). 'Van wanneer' is not standard. 'Vanaf wanneer' = from when (asks about start of future/planned event). 'Al wanneer' doesn't exist."
+          }
+        },
+        {
+          "id": "14_02",
+          "sentence": "Ik had ___ zin meer om me te scheren.",
+          "options": { "A": "geen", "B": "niet", "C": "nooit", "D": "weinig" },
+          "correct": "A",
+          "hint": {
+            "translation": "I no longer felt like shaving.",
+            "explanation": "'Geen zin meer' = no desire anymore. 'Zin' is a noun → 'geen' negates it. 'Niet zin' is wrong (zin is a noun). 'Nooit zin' = never any desire (too absolute). 'Weinig zin' = little desire (not in text)."
+          }
+        },
+        {
+          "id": "14_03",
+          "sentence": "___ maar een espresso.",
+          "options": { "A": "Doe", "B": "Geef", "C": "Breng", "D": "Neem" },
+          "correct": "A",
+          "hint": {
+            "translation": "Just make it an espresso.",
+            "explanation": "'Doe maar' = just make it / go ahead with (casual Dutch ordering phrase). 'Doe maar een espresso' = just give me an espresso. 'Geef' = give, 'breng' = bring, 'neem' = take — all less natural for this informal order."
+          }
+        },
+        {
+          "id": "14_04",
+          "sentence": "Wat is je haar lang, het is hard ___.",
+          "options": { "A": "gegroeid", "B": "gewassen", "C": "lang geworden", "D": "gegroeid zijn" },
+          "correct": "A",
+          "hint": {
+            "translation": "How long your hair is, it's grown a lot.",
+            "explanation": "'Hard gegroeid' = grown a lot (hard here means 'much / fast'). 'Groeien' → past participle 'gegroeid'. 'Gewassen' = washed, 'lang geworden' = become long (also possible but not in text)."
+          }
+        },
+        {
+          "id": "14_05",
+          "sentence": "Dat is ___ drie maanden geleden.",
+          "options": { "A": "wel", "B": "al", "C": "ongeveer", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "That's been a good three months ago.",
+            "explanation": "'Wel drie maanden' = a good three months / no less than three months. 'Wel' here is an intensifier meaning 'as much as/fully'. 'Al drie maanden' = already three months, 'ongeveer' = approximately, 'toch' = after all."
+          }
+        },
+        {
+          "id": "14_06",
+          "sentence": "Ja, ___, ik ben net verhuisd.",
+          "options": { "A": "nogal", "B": "heel", "C": "erg", "D": "wel" },
+          "correct": "A",
+          "hint": {
+            "translation": "Yes, quite, I just moved.",
+            "explanation": "'Nogal' = quite / rather (mild intensifier, understated). 'Nogal druk' = quite busy. 'Heel' and 'erg' = very (stronger). The casual understatement fits the barber conversation. 'Wel' = indeed."
+          }
+        },
+        {
+          "id": "14_07",
+          "sentence": "Ja, en ___ mijn werk.",
+          "options": { "A": "dichterbij", "B": "dichter bij", "C": "dichter naar", "D": "verder van" },
+          "correct": "A",
+          "hint": {
+            "translation": "Yes, and closer to my work.",
+            "explanation": "'Dichterbij' = closer (comparative of dichtbij). Written as one word when used predicatively or in front of nothing. 'Dichter bij' (two words) is also possible. 'Dichter naar' doesn't work. 'Verder van' = further from (opposite)."
+          }
+        },
+        {
+          "id": "14_08",
+          "sentence": "O ja, nu weet ik het ___.",
+          "options": { "A": "weer", "B": "nog", "C": "toch", "D": "al" },
+          "correct": "A",
+          "hint": {
+            "translation": "Oh yes, now I remember again.",
+            "explanation": "'Weer weten' = to remember again (knowing again after forgetting). 'Weer' = again (returning to a previous state). 'Nog' = still, 'toch' = after all, 'al' = already."
+          }
+        },
+        {
+          "id": "14_09",
+          "sentence": "Knip het maar lekker kort ___ de zomer.",
+          "options": { "A": "voor", "B": "in", "C": "tegen", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "Just cut it nice and short for the summer.",
+            "explanation": "'Voor de zomer' = for the summer / ahead of summer. The haircut is in preparation for summer. 'In de zomer' = in the summer, 'tegen de zomer' = towards summer, 'bij de zomer' doesn't work here."
+          }
+        },
+        {
+          "id": "14_10",
+          "sentence": "Oh, dat ___ niet, ik heb het thuis al gewassen.",
+          "options": { "A": "hoeft", "B": "moet", "C": "kan", "D": "hoeft te" },
+          "correct": "A",
+          "hint": {
+            "translation": "Oh, that's not necessary, I already washed it at home.",
+            "explanation": "'Dat hoeft niet' = that's not necessary. 'Hoeven' + 'niet' = don't have to. 'Dat moet niet' would mean 'that shouldn't happen' (forbidden). 'Dat kan niet' = that's not possible. 'Hoeft te' is incomplete without an infinitive."
+          }
+        },
+        {
+          "id": "14_11",
+          "sentence": "Ik vind het ___ mooi als het kort bij je oren is.",
+          "options": { "A": "wel", "B": "erg", "C": "heel", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "I do think it looks nice when it's short at your ears.",
+            "explanation": "'Ik vind het wel mooi' — 'wel' here is affirmative/softening: 'I do find it nice' / 'I actually think it's nice'. It softens the assertion and signals the speaker's genuine opinion. 'Erg/heel' = very (different meaning), 'toch' = after all."
+          }
+        },
+        {
+          "id": "14_12",
+          "sentence": "Is mijn haar ___ geschikt voor dat model?",
+          "options": { "A": "wel", "B": "echt", "C": "toch", "D": "zo" },
+          "correct": "A",
+          "hint": {
+            "translation": "Is my hair actually suitable for that style?",
+            "explanation": "'Wel' in a yes/no question expresses genuine doubt or concern: 'is it really/actually suitable?' It signals the speaker isn't sure. 'Echt' = really (stronger doubt), 'toch' = after all, 'zo' = so."
+          }
+        },
+        {
+          "id": "14_13",
+          "sentence": "Je hebt me ___. Doe maar, ik ben benieuwd.",
+          "options": { "A": "overtuigd", "B": "overtuig", "C": "overtuigend", "D": "overgetuigd" },
+          "correct": "A",
+          "hint": {
+            "translation": "You've convinced me. Go ahead, I'm curious.",
+            "explanation": "'Overtuigen' = to convince. Past participle: 'overtuigd' (inseparable verb — starts with 'over-', so no extra ge-). 'Overtuig' is present tense, 'overtuigend' = convincing (adjective), 'overgetuigd' = wrong form."
+          }
+        },
+        {
+          "id": "14_14",
+          "sentence": "Ik laat je straks ___ zien hoe je het moet föhnen.",
+          "options": { "A": "ook", "B": "even", "C": "wel", "D": "zo" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll also show you later how to blow-dry it.",
+            "explanation": "The text uses 'ook' — 'I'll ALSO show you' (in addition to cutting). 'Even' = just for a moment, 'wel' = do/indeed, 'zo' = soon. The 'ook' adds the blow-drying demonstration as an extra service."
+          }
+        },
+        {
+          "id": "14_15",
+          "sentence": "Ik ga dus straks als een ___ knappe man naar buiten.",
+          "options": { "A": "ontzettend", "B": "heel", "C": "erg", "D": "echt" },
+          "correct": "A",
+          "hint": {
+            "translation": "So I'm going to walk out as an incredibly handsome man.",
+            "explanation": "'Ontzettend' = incredibly / terribly (informal intensifier, common in spoken Dutch). The text uses 'ontzettend knappe man'. 'Heel' and 'erg' = very (less dramatic), 'echt' = really/truly (different nuance)."
+          }
+        }
+      ]
+    }
+  ]
+}
