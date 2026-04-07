@@ -1,0 +1,1542 @@
+{
+  "title": "Dutch A2 Fill-in-the-Blank Exercises – 6 Texts × 25 Questions",
+  "total_exercises": 150,
+  "texts": [
+    {
+      "text_id": "image_29",
+      "title": "Sociale media – Voor welk doel?",
+      "exercises": [
+        {
+          "id": "SM-01",
+          "sentence": "Sociale media zijn ___ de hele Nederlandse bevolking populair.",
+          "options": ["A) bij", "B) voor", "C) in", "D) aan"],
+          "correct": "A) bij",
+          "hint": {
+            "en": "Social media are popular among the entire Dutch population.",
+            "explanation": "'Populair bij' = popular with/among a group. Fixed prepositional collocation. 'Populair voor' = popular for a purpose; 'in/aan' don't collocate with 'populair'."
+          }
+        },
+        {
+          "id": "SM-02",
+          "sentence": "Dat doen ze ___ om contact te maken.",
+          "options": ["A) vooral", "B) altijd", "C) soms", "D) nooit"],
+          "correct": "A) vooral",
+          "hint": {
+            "en": "They do that mainly to make contact.",
+            "explanation": "'Vooral' = mainly/above all. It expresses the primary motivation. 'Altijd' = always; 'soms' = sometimes — neither captures 'above all'."
+          }
+        },
+        {
+          "id": "SM-03",
+          "sentence": "Zestig procent van de gebruikers heeft ___ sociale media meer contact met vrienden.",
+          "options": ["A) dankzij", "B) door", "C) via", "D) met"],
+          "correct": "A) dankzij",
+          "hint": {
+            "en": "Sixty percent of users have more contact with friends thanks to social media.",
+            "explanation": "'Dankzij' = thanks to (positive cause). 'Door' = because of (neutral/negative). 'Via' = via (channel, not cause). 'Met' = with."
+          }
+        },
+        {
+          "id": "SM-04",
+          "sentence": "___ gebruiken ze sociale media om nieuws te volgen.",
+          "options": ["A) Daarnaast", "B) Daarvoor", "C) Daarna", "D) Daarmee"],
+          "correct": "A) Daarnaast",
+          "hint": {
+            "en": "In addition, they use social media to follow the news.",
+            "explanation": "'Daarnaast' = in addition/besides. It adds a second point. 'Daarvoor' = for that/before that; 'daarna' = after that; 'daarmee' = with that."
+          }
+        },
+        {
+          "id": "SM-05",
+          "sentence": "De meeste gebruikers besteden ___ dan een uur per dag aan sociale media.",
+          "options": ["A) minder", "B) meer", "C) geen", "D) weinig"],
+          "correct": "A) minder",
+          "hint": {
+            "en": "Most users spend less than an hour per day on social media.",
+            "explanation": "'Minder dan' = less than. The text states most users are under one hour. 'Meer dan' = more than (contradicts the statistic). 'Weinig' doesn't pair with 'dan'."
+          }
+        },
+        {
+          "id": "SM-06",
+          "sentence": "Het ___ echter op dat jongeren tussen de 18 en 25 jaar veel vaker op sociale media zitten.",
+          "options": ["A) valt", "B) komt", "C) staat", "D) gaat"],
+          "correct": "A) valt",
+          "hint": {
+            "en": "However, it is noticeable that young people between 18 and 25 are on social media much more often.",
+            "explanation": "'Het valt op dat' = it is noticeable that. Fixed Dutch expression. 'Het komt op/staat op/gaat op' are all wrong idioms for this meaning."
+          }
+        },
+        {
+          "id": "SM-07",
+          "sentence": "Er ___ ook een toename van het aantal ouderen op sociale media.",
+          "options": ["A) is", "B) zijn", "C) heeft", "D) wordt"],
+          "correct": "A) is",
+          "hint": {
+            "en": "There is also an increase in the number of elderly people on social media.",
+            "explanation": "'Er is' + singular noun 'een toename'. 'Er zijn' is for plural nouns. 'Er heeft/wordt' are wrong existential constructions."
+          }
+        },
+        {
+          "id": "SM-08",
+          "sentence": "Ze zijn handiger met hun smartphone of computer ___.",
+          "options": ["A) geworden", "B) geweest", "C) gegaan", "D) gedaan"],
+          "correct": "A) geworden",
+          "hint": {
+            "en": "They have become more skilled with their smartphone or computer.",
+            "explanation": "'Worden' = to become. Perfect tense uses 'zijn' + 'geworden'. This expresses a change of state. 'Geweest' = been (been → no change); 'gegaan' = gone."
+          }
+        },
+        {
+          "id": "SM-09",
+          "sentence": "Ze communiceren ___ sociale media met hun kleinkinderen.",
+          "options": ["A) via", "B) met", "C) door", "D) op"],
+          "correct": "A) via",
+          "hint": {
+            "en": "They communicate with their grandchildren via social media.",
+            "explanation": "'Via' = via/through (a channel or medium). 'Communiceren via' is the standard collocation. 'Door sociale media' = through/caused by social media (different nuance)."
+          }
+        },
+        {
+          "id": "SM-10",
+          "sentence": "De meeste gebruikers delen foto's van ___ gebeurtenissen, zoals een huwelijk.",
+          "options": ["A) belangrijke", "B) belangrijk", "C) belangrikste", "D) belangrijker"],
+          "correct": "A) belangrijke",
+          "hint": {
+            "en": "Most users share photos of important events, such as a wedding.",
+            "explanation": "Adjective before a de-word plural ('gebeurtenissen') takes -e: 'belangrijke'. 'Belangrijk' is predicative (no -e). 'Belangrikste' = most important (superlative)."
+          }
+        },
+        {
+          "id": "SM-11",
+          "sentence": "Ze plaatsen ___ een paar keer per jaar een bericht op hun profiel.",
+          "options": ["A) slechts", "B) alleen", "C) maar", "D) enkel"],
+          "correct": "A) slechts",
+          "hint": {
+            "en": "They post only a few times a year on their profile.",
+            "explanation": "'Slechts' = only/merely (formal, written register). 'Alleen/maar/enkel' are synonyms but the text uses 'slechts', which matches the informational register."
+          }
+        },
+        {
+          "id": "SM-12",
+          "sentence": "Uit onderzoek ___ dat steeds meer jongeren aan sociale media verslaafd zijn.",
+          "options": ["A) blijkt", "B) wijst", "C) toont", "D) zegt"],
+          "correct": "A) blijkt",
+          "hint": {
+            "en": "Research shows that increasingly more young people are addicted to social media.",
+            "explanation": "'Uit onderzoek blijkt dat' = research reveals/shows that. Fixed academic Dutch phrase. 'Blijkt' is the specific verb that collocates with 'uit onderzoek'."
+          }
+        },
+        {
+          "id": "SM-13",
+          "sentence": "Via hun smartphone zijn ze eigenlijk ___ met sociale media bezig.",
+          "options": ["A) constant", "B) altijd", "C) steeds", "D) voortdurend"],
+          "correct": "A) constant",
+          "hint": {
+            "en": "Via their smartphone they are practically constantly busy with social media.",
+            "explanation": "'Constant' = constantly (adverb). All options mean 'always/constantly' but 'constant' is the text's exact word. At A2, recognising this colloquial adverb is important."
+          }
+        },
+        {
+          "id": "SM-14",
+          "sentence": "Deze jongeren ___ stress als ze hun berichten niet kunnen lezen.",
+          "options": ["A) krijgen", "B) hebben", "C) voelen", "D) maken"],
+          "correct": "A) krijgen",
+          "hint": {
+            "en": "These young people get stressed when they cannot read their messages.",
+            "explanation": "'Stress krijgen' = to get/become stressed. 'Krijgen' expresses acquiring/developing a state. 'Hebben stress' = to have stress (static state already possessed)."
+          }
+        },
+        {
+          "id": "SM-15",
+          "sentence": "Ze kunnen ook ___ krijgen.",
+          "options": ["A) slaapproblemen", "B) slaapprobleem", "C) slaapproblem", "D) slaap problemen"],
+          "correct": "A) slaapproblemen",
+          "hint": {
+            "en": "They can also get sleep problems.",
+            "explanation": "'Slaapproblemen' = sleep problems (compound noun, plural). Dutch compounds are always written as one word. 'Slaap problemen' (two words) is a spelling error."
+          }
+        },
+        {
+          "id": "SM-16",
+          "sentence": "Ze halen soms ___ studieresultaten.",
+          "options": ["A) slechtere", "B) slecht", "C) slechte", "D) slechter"],
+          "correct": "A) slechtere",
+          "hint": {
+            "en": "They sometimes get worse study results.",
+            "explanation": "'Slechtere' = worse (comparative attributive before plural noun). Formula: 'slecht' + comparative '-er' + adjective ending '-e' = 'slechtere'. 'Slechte' = bad (not comparative)."
+          }
+        },
+        {
+          "id": "SM-17",
+          "sentence": "Ze vinden het eigenlijk ___ van hun tijd om sociale media te gebruiken.",
+          "options": ["A) zonde", "B) jammer", "C) slecht", "D) erg"],
+          "correct": "A) zonde",
+          "hint": {
+            "en": "They actually find it a waste of their time to use social media.",
+            "explanation": "'Zonde van de tijd' = a waste of time. Fixed Dutch expression. 'Jammer' = a pity. 'Slecht/erg' describe quality or degree, not waste of time."
+          }
+        },
+        {
+          "id": "SM-18",
+          "sentence": "Ook vinden ze de ___ via sociale media irritant.",
+          "options": ["A) advertenties", "B) reclames", "C) berichten", "D) posts"],
+          "correct": "A) advertenties",
+          "hint": {
+            "en": "They also find the advertisements via social media annoying.",
+            "explanation": "'Advertenties' = advertisements (the text's word). 'Reclames' = commercials (radio/TV). 'Berichten' = messages. 'Posts' is English."
+          }
+        },
+        {
+          "id": "SM-19",
+          "sentence": "Daarnaast zijn ze ___ over hun privacy.",
+          "options": ["A) bezorgd", "B) bang", "C) ongerust", "D) nerveus"],
+          "correct": "A) bezorgd",
+          "hint": {
+            "en": "In addition, they are worried about their privacy.",
+            "explanation": "'Bezorgd over' = worried/concerned about. Fixed preposition 'over'. 'Bang voor' = afraid of. 'Ongerust over' also works, but 'bezorgd' is the text's word."
+          }
+        },
+        {
+          "id": "SM-20",
+          "sentence": "Een deel van de gebruikers zoekt op sociale media ___ evenementen.",
+          "options": ["A) naar", "B) voor", "C) om", "D) aan"],
+          "correct": "A) naar",
+          "hint": {
+            "en": "Part of the users looks for events on social media.",
+            "explanation": "'Zoeken naar' = to look for/search for. Fixed Dutch verb-preposition combination. 'Zoeken voor' = to look for (on behalf of someone else). 'Naar' is the correct preposition here."
+          }
+        },
+        {
+          "id": "SM-21",
+          "sentence": "Sociale media zijn ___ de hele Nederlandse bevolking populair.",
+          "options": ["A) bij", "B) voor", "C) onder", "D) in"],
+          "correct": "A) bij",
+          "hint": {
+            "en": "Social media are popular with the entire Dutch population.",
+            "explanation": "'Populair bij' = popular with/among. 'Onder' = among (also possible in some contexts but 'bij' is the text's choice and more common at A2 level)."
+          }
+        },
+        {
+          "id": "SM-22",
+          "sentence": "De helft van hen ___ één tot drie uur per dag aan sociale media.",
+          "options": ["A) besteedt", "B) besteden", "C) gebruikt", "D) doet"],
+          "correct": "A) besteedt",
+          "hint": {
+            "en": "Half of them spend one to three hours per day on social media.",
+            "explanation": "'Besteden' = to spend (time). 'De helft' is a singular collective noun → third person singular: 'besteedt' (with -t). 'Besteden' is plural. 'Doet' = does (wrong verb)."
+          }
+        },
+        {
+          "id": "SM-23",
+          "sentence": "Het gebruik van sociale media heeft een aantal ___, vooral bij jongeren.",
+          "options": ["A) risico's", "B) risicos", "C) risicoen", "D) risici"],
+          "correct": "A) risico's",
+          "hint": {
+            "en": "The use of social media has a number of risks, especially among young people.",
+            "explanation": "Dutch words ending in a vowel (except -e) form their plural with apostrophe-s: risico → risico's. 'Risicos' (no apostrophe) is a spelling error. 'Risici' is Latin/archaic."
+          }
+        },
+        {
+          "id": "SM-24",
+          "sentence": "Zij delen ook foto's van ___ activiteiten, zoals een bezoek aan de sportschool.",
+          "options": ["A) dagelijkse", "B) dagelijks", "C) dagelijkser", "D) dagelijks'"],
+          "correct": "A) dagelijkse",
+          "hint": {
+            "en": "They also share photos of daily activities, such as a visit to the gym.",
+            "explanation": "'Dagelijkse activiteiten' = daily activities. Adjective before de-word plural takes -e: 'dagelijkse'. 'Dagelijks' is the uninflected adverb/predicate form."
+          }
+        },
+        {
+          "id": "SM-25",
+          "sentence": "Tot slot willen mensen ___ sociale media volgen wat andere mensen doen.",
+          "options": ["A) via", "B) op", "C) door", "D) met"],
+          "correct": "A) via",
+          "hint": {
+            "en": "Finally, people want to follow what other people do via social media.",
+            "explanation": "'Via sociale media' = through/via social media (channel). 'Op sociale media' = on social media (location). Both are used, but 'via' here emphasises the medium/channel, which is the text's word."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_30",
+      "title": "Ik heb geen tv",
+      "exercises": [
+        {
+          "id": "TV-01",
+          "sentence": "Ik heb vegetarische pasta ___, ik hoop dat het lekker is.",
+          "options": ["A) gemaakt", "B) gekookt", "C) gedaan", "D) gebakken"],
+          "correct": "A) gemaakt",
+          "hint": {
+            "en": "I made vegetarian pasta, I hope it's good.",
+            "explanation": "'Pasta maken' = to make pasta. 'Gemaakt' = past participle of 'maken'. 'Gekookt' = boiled/cooked, 'gebakken' = fried/baked — possible but 'gemaakt' is the text's word."
+          }
+        },
+        {
+          "id": "TV-02",
+          "sentence": "Ik eet eigenlijk altijd ___ de bank.",
+          "options": ["A) op", "B) aan", "C) bij", "D) in"],
+          "correct": "A) op",
+          "hint": {
+            "en": "I actually always eat on the sofa.",
+            "explanation": "'Op de bank' = on the sofa. Dutch uses 'op' for sitting/eating on furniture surfaces. 'Aan tafel' = at the table (different preposition for table)."
+          }
+        },
+        {
+          "id": "TV-03",
+          "sentence": "Ik ___ nu een serie. Murder's Mansion is de titel.",
+          "options": ["A) volg", "B) kijk", "C) zie", "D) loop"],
+          "correct": "A) volg",
+          "hint": {
+            "en": "I'm currently following a series. Murder's Mansion is the title.",
+            "explanation": "'Een serie volgen' = to follow a series (watch it regularly, episode by episode). 'Kijken naar' = to watch. Both exist, but 'volgen' implies regular/ongoing viewing and is the text's word."
+          }
+        },
+        {
+          "id": "TV-04",
+          "sentence": "Die ___ je absoluut zien.",
+          "options": ["A) moet", "B) kan", "C) wil", "D) gaat"],
+          "correct": "A) moet",
+          "hint": {
+            "en": "You absolutely must see that (series).",
+            "explanation": "'Moeten' = must (strong recommendation). 'Die moet je zien' = you have to see it. 'Kan' = can (ability); 'wil' = want; 'gaat' = going to — none carry the strong recommendation."
+          }
+        },
+        {
+          "id": "TV-05",
+          "sentence": "Zullen we misschien iets ___ kijken?",
+          "options": ["A) gezelligs", "B) gezellig", "C) gezellige", "D) gezelligheid"],
+          "correct": "A) gezelligs",
+          "hint": {
+            "en": "Shall we perhaps watch something cosy/fun?",
+            "explanation": "When 'iets' + adjective functions as an indefinite pronoun, Dutch adds -s: 'iets gezelligs', 'iets lekkers', 'iets nieuws'. This is a key A2 grammar pattern."
+          }
+        },
+        {
+          "id": "TV-06",
+          "sentence": "Ik hou niet ___ van series met bloed tijdens het eten.",
+          "options": ["A) zo", "B) erg", "C) veel", "D) heel"],
+          "correct": "A) zo",
+          "hint": {
+            "en": "I don't like series with blood so much while eating.",
+            "explanation": "'Niet zo van houden' = not to like so much (mild dislike). 'Ik hou niet zo van X' is a softened way of saying 'I don't like X very much'. 'Niet erg van' / 'niet veel van' are less idiomatic."
+          }
+        },
+        {
+          "id": "TV-07",
+          "sentence": "Ik kijk eigenlijk niet ___ tv.",
+          "options": ["A) zo veel", "B) zoveel", "C) veel zo", "D) veel"],
+          "correct": "A) zo veel",
+          "hint": {
+            "en": "I actually don't watch that much TV.",
+            "explanation": "'Niet zo veel' = not that much (with 'zo' softening the quantity). 'Niet veel tv kijken' = not watch much TV — both are correct, but 'niet zo veel' is the text's exact phrase and adds a hedging nuance."
+          }
+        },
+        {
+          "id": "TV-08",
+          "sentence": "Soms kijk ik online ___ programma's terug die ik heb gemist.",
+          "options": ["A) wat", "B) welke", "C) die", "D) sommige"],
+          "correct": "A) wat",
+          "hint": {
+            "en": "Sometimes I watch a few programmes online that I missed.",
+            "explanation": "'Wat programma's' = some/a few programmes. 'Wat' as an indefinite quantity determiner is standard colloquial Dutch. 'Welke' = which (specific selection). 'Sommige' is possible but 'wat' is the text's word."
+          }
+        },
+        {
+          "id": "TV-09",
+          "sentence": "Ik kijk eigenlijk ___ programma's van de NPO, niet van andere zenders.",
+          "options": ["A) vooral", "B) alleen", "C) soms", "D) ook"],
+          "correct": "A) vooral",
+          "hint": {
+            "en": "I actually mainly watch programmes from NPO, not from other channels.",
+            "explanation": "'Vooral' = mainly/above all. It indicates NPO is her primary choice while not excluding everything else. 'Alleen' = only (excludes others entirely — too absolute)."
+          }
+        },
+        {
+          "id": "TV-10",
+          "sentence": "Ik heb ook geen ___, om series te kijken.",
+          "options": ["A) abonnement", "B) abonnementen", "C) abonnering", "D) lidmaatschap"],
+          "correct": "A) abonnement",
+          "hint": {
+            "en": "I also don't have a subscription to watch series.",
+            "explanation": "'Een abonnement hebben' = to have a subscription (streaming service). 'Geen + singular countable noun'. 'Abonnementen' = plural. 'Abonnering' is not standard Dutch."
+          }
+        },
+        {
+          "id": "TV-11",
+          "sentence": "Er zijn series ___ politiek, drama, comedy's, misdaadseries.",
+          "options": ["A) over", "B) van", "C) met", "D) voor"],
+          "correct": "A) over",
+          "hint": {
+            "en": "There are series about politics, drama, comedies, crime series.",
+            "explanation": "'Series over politiek' = series about politics. 'Over' expresses subject matter. 'Van' = of (possession/origin). 'Met' = with (featuring). 'Over' is the preposition for topic/subject."
+          }
+        },
+        {
+          "id": "TV-12",
+          "sentence": "Dat doe ik echt het ___ in het weekend.",
+          "options": ["A) liefst", "B) liefste", "C) liever", "D) lief"],
+          "correct": "A) liefst",
+          "hint": {
+            "en": "That's really what I love doing most in the weekend.",
+            "explanation": "'Het liefst doen' = to prefer doing most. Bare superlative adverb of 'graag': 'het liefst'. 'Liefste' = attributive adjective. 'Liever' = rather (comparative)."
+          }
+        },
+        {
+          "id": "TV-13",
+          "sentence": "Dan kijk ik vaak vier of vijf afleveringen ___ elkaar.",
+          "options": ["A) achter", "B) na", "C) voor", "D) bij"],
+          "correct": "A) achter",
+          "hint": {
+            "en": "Then I often watch four or five episodes in a row.",
+            "explanation": "'Achter elkaar' = in a row / consecutively. Fixed Dutch expression. 'Na elkaar' = one after another. 'Voor/bij elkaar' don't fit this meaning."
+          }
+        },
+        {
+          "id": "TV-14",
+          "sentence": "Ik vind het een beetje ___ van mijn tijd om de hele dag series te kijken.",
+          "options": ["A) zonde", "B) jammer", "C) erg", "D) slecht"],
+          "correct": "A) zonde",
+          "hint": {
+            "en": "I find it a bit of a waste of my time to watch series all day.",
+            "explanation": "'Zonde van de tijd' = a waste of time. Fixed Dutch expression. 'Jammer' = a pity (about outcomes, not time). 'Erg' = bad/terrible (intensity)."
+          }
+        },
+        {
+          "id": "TV-15",
+          "sentence": "Je ___ even helemaal aan niets te denken.",
+          "options": ["A) hoeft", "B) moet", "C) kan", "D) wil"],
+          "correct": "A) hoeft",
+          "hint": {
+            "en": "You don't need to think about anything at all for a while.",
+            "explanation": "'Niet hoeven te + infinitive' = don't need to. 'Hoeven' is the negative counterpart of 'moeten'. 'Je hoeft niet te denken' is softer/more accurate than 'je moet niet denken'."
+          }
+        },
+        {
+          "id": "TV-16",
+          "sentence": "Echt ___ vind ik dat.",
+          "options": ["A) ontspannen", "B) ontspanning", "C) ontspannend", "D) ontspant"],
+          "correct": "A) ontspannen",
+          "hint": {
+            "en": "I really find that relaxing.",
+            "explanation": "'Ontspannen' as predicative adjective = relaxed/relaxing. 'Echt ontspannen vind ik dat' = I really find that relaxing. 'Ontspanning' = relaxation (noun). 'Ontspannend' = relaxing (active participle adjective)."
+          }
+        },
+        {
+          "id": "TV-17",
+          "sentence": "Maar wat doe jij dan ___ je vrij bent?",
+          "options": ["A) als", "B) wanneer", "C) omdat", "D) terwijl"],
+          "correct": "A) als",
+          "hint": {
+            "en": "But what do you do when you have time off?",
+            "explanation": "'Als' = when (conditional/habitual). 'Als je vrij bent' = when you're free. 'Wanneer' is more formal. 'Omdat' = because (reason). 'Terwijl' = while (simultaneous)."
+          }
+        },
+        {
+          "id": "TV-18",
+          "sentence": "Of ik ga gewoon even ___ in.",
+          "options": ["A) de stad", "B) het centrum", "C) buiten", "D) weg"],
+          "correct": "A) de stad",
+          "hint": {
+            "en": "Or I just briefly go into town.",
+            "explanation": "'De stad ingaan' = to go into town. Directional separable: 'ga de stad in'. The blank is 'de stad'; the particle 'in' is at the end. 'Buiten/weg' change the meaning."
+          }
+        },
+        {
+          "id": "TV-19",
+          "sentence": "Er is ___ ook voetbal op tv.",
+          "options": ["A) trouwens", "B) namelijk", "C) bovendien", "D) dus"],
+          "correct": "A) trouwens",
+          "hint": {
+            "en": "By the way, there's also football on TV.",
+            "explanation": "'Trouwens' = by the way / incidentally. Introduces an additional, somewhat unexpected point. 'Namelijk' = you see (explains). 'Bovendien' = moreover (adds a stronger point)."
+          }
+        },
+        {
+          "id": "TV-20",
+          "sentence": "Ik ben ___ wie er gaat winnen.",
+          "options": ["A) benieuwd", "B) nieuwsgierig", "C) interessant", "D) geïnteresseerd"],
+          "correct": "A) benieuwd",
+          "hint": {
+            "en": "I'm curious who is going to win.",
+            "explanation": "'Benieuwd zijn' + indirect question (wie/of/wat) = to be curious about. Fixed expression. 'Nieuwsgierig' = curious (personality trait, not followed by 'wie/wat/of'). 'Interessant' = interesting (describes an object)."
+          }
+        },
+        {
+          "id": "TV-21",
+          "sentence": "Die ___ echt verslavend.",
+          "options": ["A) zijn", "B) is", "C) was", "D) worden"],
+          "correct": "A) zijn",
+          "hint": {
+            "en": "They (those series) are truly addictive.",
+            "explanation": "'Die' refers to 'die series' (plural). Plural subject → plural verb: 'zijn'. 'Is' would be for a singular subject. 'Worden' = become (a change, not a current state)."
+          }
+        },
+        {
+          "id": "TV-22",
+          "sentence": "Ik heb ___ geen tv.",
+          "options": ["A) ook", "B) al", "C) nog", "D) zelfs"],
+          "correct": "A) ook",
+          "hint": {
+            "en": "I also don't have a TV.",
+            "explanation": "'Ook geen' = also no/not either. Rhana adds that she also lacks a TV, building on her statement about not watching much. 'Al geen' = already no; 'nog geen' = not yet."
+          }
+        },
+        {
+          "id": "TV-23",
+          "sentence": "Een quiz vind ik ___ ook wel leuk.",
+          "options": ["A) soms", "B) altijd", "C) nooit", "D) vaak"],
+          "correct": "A) soms",
+          "hint": {
+            "en": "I sometimes find a quiz fun too.",
+            "explanation": "'Soms ook wel leuk' = sometimes also quite fun. 'Soms' expresses occasional enjoyment. 'Altijd' = always (too absolute for casual TV preference)."
+          }
+        },
+        {
+          "id": "TV-24",
+          "sentence": "Het is niet echt actief ___, of sociaal.",
+          "options": ["A) ofzo", "B) enzovoorts", "C) enzo", "D) en zo"],
+          "correct": "A) ofzo",
+          "hint": {
+            "en": "It's not really active or anything, or social.",
+            "explanation": "'Ofzo' = or something / or whatever. Very common Dutch colloquial hedging word that softens a statement. 'Enzovoorts' = etc. (formal written). 'Enzo' is informal but 'ofzo' is the text's word."
+          }
+        },
+        {
+          "id": "TV-25",
+          "sentence": "Ja, ___ is ook leuk natuurlijk.",
+          "options": ["A) dat", "B) dit", "C) het", "D) zo"],
+          "correct": "A) dat",
+          "hint": {
+            "en": "Yes, that is also fun of course.",
+            "explanation": "'Dat' = that (anaphoric reference to Rhana's weekend activities mentioned previously). 'Dit' = this (something immediate/present). 'Dat' refers back to what was just said."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_28",
+      "title": "Je hebt me overtuigd",
+      "exercises": [
+        {
+          "id": "KAT-01",
+          "sentence": "Ze zijn vorige maand ___.",
+          "options": ["A) geboren", "B) geboren zijn", "C) geboorte", "D) geboord"],
+          "correct": "A) geboren",
+          "hint": {
+            "en": "They were born last month.",
+            "explanation": "'Geboren zijn' = to be born. Perfect tense: 'ze zijn geboren'. Past participle 'geboren' with auxiliary 'zijn'. 'Geboorte' = birth (noun). 'Geboord' = drilled."
+          }
+        },
+        {
+          "id": "KAT-02",
+          "sentence": "We kunnen ze ___ ophalen.",
+          "options": ["A) gratis", "B) voor gratis", "C) voor niks", "D) kosteloos"],
+          "correct": "A) gratis",
+          "hint": {
+            "en": "We can pick them up for free.",
+            "explanation": "'Gratis' = free of charge (adverb). 'Voor gratis' is incorrect Dutch. 'Voor niks' is colloquial and possible. 'Gratis ophalen' = to pick up for free (the text's exact phrase)."
+          }
+        },
+        {
+          "id": "KAT-03",
+          "sentence": "Ja, dat hebben we toch ___?",
+          "options": ["A) afgesproken", "B) afsproken", "C) gesproken", "D) geafsproken"],
+          "correct": "A) afgesproken",
+          "hint": {
+            "en": "Yes, we did agree on that, right?",
+            "explanation": "'Afspreken' = to agree/arrange. Separable verb: past participle 'afgesproken' (ge- + prefix 'af' + stem 'sproken'). 'Gesproken' = past participle of 'spreken' (to speak) — a different verb."
+          }
+        },
+        {
+          "id": "KAT-04",
+          "sentence": "We zijn vorig jaar ___ en we zitten hier nog steeds met z'n tweeën.",
+          "options": ["A) verhuisd", "B) verhuist", "C) verhuis", "D) verhuizen"],
+          "correct": "A) verhuisd",
+          "hint": {
+            "en": "We moved last year and we're still just the two of us here.",
+            "explanation": "'Verhuizen' = to move house. Movement verb → perfect tense with 'zijn': 'zijn verhuisd'. 'Verhuist' = present third person. 'Verhuizen' = infinitive."
+          }
+        },
+        {
+          "id": "KAT-05",
+          "sentence": "We zitten hier nog steeds ___ z'n tweeën.",
+          "options": ["A) met", "B) in", "C) als", "D) van"],
+          "correct": "A) met",
+          "hint": {
+            "en": "We're still just the two of us here.",
+            "explanation": "'Met z'n tweeën' = just the two of us. Fixed Dutch expression: 'met z'n + number'. 'Met z'n drieën' = the three of us, etc. 'In/als/van z'n tweeën' are all incorrect."
+          }
+        },
+        {
+          "id": "KAT-06",
+          "sentence": "Katten zijn ___ lieve dieren.",
+          "options": ["A) hartstikke", "B) hartelijk", "C) heel erg", "D) erg"],
+          "correct": "A) hartstikke",
+          "hint": {
+            "en": "Cats are incredibly sweet animals.",
+            "explanation": "'Hartstikke' = incredibly/really (intensifier, colloquial). 'Hartstikke lief' = incredibly sweet. 'Hartelijk' = heartfelt (a different adjective). 'Heel erg' = very much (used differently)."
+          }
+        },
+        {
+          "id": "KAT-07",
+          "sentence": "Je ___ ze aaien en knuffelen.",
+          "options": ["A) kunt", "B) mag", "C) moet", "D) wil"],
+          "correct": "A) kunt",
+          "hint": {
+            "en": "You can stroke and cuddle them.",
+            "explanation": "'Kunt' = can (ability, second person singular 'je'). Both 'kan' and 'kunt' are accepted for 'je', but 'kunt' is the standard written form. 'Mag' = may (permission)."
+          }
+        },
+        {
+          "id": "KAT-08",
+          "sentence": "Maar je ___ ze niet de hele dag te verzorgen.",
+          "options": ["A) hoeft", "B) moet", "C) kan", "D) wil"],
+          "correct": "A) hoeft",
+          "hint": {
+            "en": "But you don't need to look after them all day.",
+            "explanation": "'Niet hoeven te + infinitive' = don't need to. 'Hoeven' is the negative counterpart of 'moeten'. 'Je hoeft niet te verzorgen' = you don't need to care for. 'Moet niet' = should not (different meaning)."
+          }
+        },
+        {
+          "id": "KAT-09",
+          "sentence": "Een hond heeft ___ nadelen.",
+          "options": ["A) alleen maar", "B) maar alleen", "C) slechts", "D) enkel maar"],
+          "correct": "A) alleen maar",
+          "hint": {
+            "en": "A dog has nothing but disadvantages.",
+            "explanation": "'Alleen maar' = nothing but/only (emphatic restriction). 'Een hond heeft alleen maar nadelen' = a dog has only disadvantages. 'Maar alleen' is incorrect word order. 'Slechts' is more formal."
+          }
+        },
+        {
+          "id": "KAT-10",
+          "sentence": "Bovendien is ons appartement ___ voor een hond.",
+          "options": ["A) te klein", "B) klein", "C) kleiner", "D) het kleinst"],
+          "correct": "A) te klein",
+          "hint": {
+            "en": "Moreover, our apartment is too small for a dog.",
+            "explanation": "'Te klein' = too small. 'Te + adjective' = too + adjective. 'Klein' alone = just small (without 'too'). 'Te klein voor' = too small for."
+          }
+        },
+        {
+          "id": "KAT-11",
+          "sentence": "Een hond ___ ook de hele dag als we niet thuis zijn.",
+          "options": ["A) blaft", "B) blaff", "C) klaagt", "D) bijt"],
+          "correct": "A) blaft",
+          "hint": {
+            "en": "A dog also barks all day when we're not home.",
+            "explanation": "'Blaffen' = to bark. Third person singular: 'blaft'. 'Blaff' is not a valid Dutch form. 'Klaagt' = complains. 'Bijt' = bites."
+          }
+        },
+        {
+          "id": "KAT-12",
+          "sentence": "Een hond ___ niet bij ons.",
+          "options": ["A) past", "B) hoort", "C) is", "D) gaat"],
+          "correct": "A) past",
+          "hint": {
+            "en": "A dog doesn't suit us / doesn't fit our lifestyle.",
+            "explanation": "'Passen bij' = to suit/fit with. 'Een hond past niet bij ons' = a dog doesn't suit us. 'Hoort bij' = belongs to/goes with (different nuance). 'Past' specifically expresses suitability."
+          }
+        },
+        {
+          "id": "KAT-13",
+          "sentence": "Ze zijn blij als je ___.",
+          "options": ["A) thuiskomt", "B) thuiskomen", "C) thuis komt", "D) thuisgekomen"],
+          "correct": "A) thuiskomt",
+          "hint": {
+            "en": "They are happy when you come home.",
+            "explanation": "'Thuiskomen' = to come home. Separable verb. Present tense 'je': 'thuiskomt' (written together, verb at end of 'als' clause). 'Thuis komt' (two words) is an older spelling variant but 'thuiskomt' is standard."
+          }
+        },
+        {
+          "id": "KAT-14",
+          "sentence": "Als je je hond uitlaat, maak je veel sneller een ___ met mensen.",
+          "options": ["A) praatje", "B) praat", "C) gesprek", "D) contact"],
+          "correct": "A) praatje",
+          "hint": {
+            "en": "When you walk your dog, you make conversation with people much faster.",
+            "explanation": "'Een praatje maken' = to make small talk / have a chat. Fixed Dutch expression. 'Praatje' = diminutive of 'praat', meaning a little chat. 'Gesprek' = conversation (more formal)."
+          }
+        },
+        {
+          "id": "KAT-15",
+          "sentence": "Die ___ je niet en ze maken geen rommel.",
+          "options": ["A) ruik", "B) ruikt", "C) ruiken", "D) geroken"],
+          "correct": "A) ruik",
+          "hint": {
+            "en": "You don't smell them and they don't make a mess.",
+            "explanation": "'Ruiken' = to smell. After inversion with 'je': 'die ruik je niet' (the -t drops). Without inversion: 'je ruikt ze niet'. Inversion rule: verb before 'je' → drop -t."
+          }
+        },
+        {
+          "id": "KAT-16",
+          "sentence": "Een vis of een vogel komt toch niet ___ je op de bank zitten?",
+          "options": ["A) naast", "B) bij", "C) voor", "D) aan"],
+          "correct": "A) naast",
+          "hint": {
+            "en": "A fish or a bird doesn't come and sit next to you on the sofa, does it?",
+            "explanation": "'Naast je zitten' = to sit next to you. 'Naast' = next to/beside. 'Bij je zitten' = to sit with/near you (less specific). 'Naast' specifies the physical position beside."
+          }
+        },
+        {
+          "id": "KAT-17",
+          "sentence": "We kunnen toch gewoon een keer ___ bij die kleine poesjes?",
+          "options": ["A) gaan kijken", "B) kijken gaan", "C) kijken", "D) bekijken"],
+          "correct": "A) gaan kijken",
+          "hint": {
+            "en": "We can just go have a look at those little kittens, right?",
+            "explanation": "'Gaan + infinitive' = to go (and do something). After modal 'kunnen': 'we kunnen gaan kijken'. Word order: modal → gaan → infinitive. 'Kijken gaan' is incorrect Dutch word order."
+          }
+        },
+        {
+          "id": "KAT-18",
+          "sentence": "Oké, oké. Je hebt me ___.",
+          "options": ["A) overtuigd", "B) overtuigend", "C) overtuigen", "D) overtuigde"],
+          "correct": "A) overtuigd",
+          "hint": {
+            "en": "Okay, okay. You've convinced me.",
+            "explanation": "'Overtuigen' = to convince. Past participle: 'overtuigd'. Perfect tense: 'je hebt me overtuigd'. 'Overtuigend' = convincing (adjective). 'Overtuigde' = simple past verb form."
+          }
+        },
+        {
+          "id": "KAT-19",
+          "sentence": "Maak maar een ___.",
+          "options": ["A) afspraak", "B) plan", "C) reservering", "D) datum"],
+          "correct": "A) afspraak",
+          "hint": {
+            "en": "Just make an appointment.",
+            "explanation": "'Een afspraak maken' = to make an appointment/arrangement. Fixed Dutch expression. 'Reservering' = reservation (hotels/restaurants). 'Datum' = date."
+          }
+        },
+        {
+          "id": "KAT-20",
+          "sentence": "Dat zijn zulke ___ dieren.",
+          "options": ["A) ongezellige", "B) ongezellig", "C) saai", "D) ongezelligheid"],
+          "correct": "A) ongezellige",
+          "hint": {
+            "en": "Those are such unsociable/dull animals.",
+            "explanation": "'Ongezellige dieren' = unsociable animals. Adjective before plural noun: 'ongezellig' + -e. 'Ongezellig' is predicative. 'Zulke + -e adjective' is the standard pattern."
+          }
+        },
+        {
+          "id": "KAT-21",
+          "sentence": "Ik wil ___ geen kat.",
+          "options": ["A) liever", "B) liefst", "C) meer", "D) ook"],
+          "correct": "A) liever",
+          "hint": {
+            "en": "I'd rather not have a cat.",
+            "explanation": "'Liever' = rather (comparative of 'graag'). 'Ik wil liever geen kat' = I'd rather not have a cat (preference against). 'Liefst' = most prefer (superlative). 'Liever' expresses preference comparison."
+          }
+        },
+        {
+          "id": "KAT-22",
+          "sentence": "Honden zijn ___ heel sociale dieren.",
+          "options": ["A) wel", "B) toch", "C) ook", "D) echt"],
+          "correct": "A) wel",
+          "hint": {
+            "en": "Dogs are indeed/do really social animals.",
+            "explanation": "'Wel' as a modal particle = indeed/do (concessive/emphatic). Mario concedes that dogs have benefits. 'Honden zijn wel sociale dieren' = dogs are indeed social. 'Toch' = yet/still (also possible but 'wel' is the text's word)."
+          }
+        },
+        {
+          "id": "KAT-23",
+          "sentence": "Ze zijn zacht en schoon, maar je ___ ze niet de hele dag te verzorgen.",
+          "options": ["A) hoeft", "B) moet", "C) kan", "D) wil"],
+          "correct": "A) hoeft",
+          "hint": {
+            "en": "They are soft and clean, but you don't need to look after them all day.",
+            "explanation": "'Niet hoeven te' = don't need to. 'Hoeft...te' is the formal standard. 'Moet niet' = should not (warns against something). 'Hoeven' specifically means 'don't need to'."
+          }
+        },
+        {
+          "id": "KAT-24",
+          "sentence": "Die kan niet goed ___ zijn.",
+          "options": ["A) alleen", "B) apart", "C) thuis", "D) rustig"],
+          "correct": "A) alleen",
+          "hint": {
+            "en": "That (dog) can't be/be left alone well.",
+            "explanation": "'Alleen zijn' = to be alone. 'Niet goed alleen zijn' = to not cope well with being alone. 'Apart' = separately/special. 'Thuis zijn' = to be at home (different meaning)."
+          }
+        },
+        {
+          "id": "KAT-25",
+          "sentence": "Zo'n beest heeft hier toch ___ ruimte.",
+          "options": ["A) geen", "B) niet", "C) weinig", "D) minder"],
+          "correct": "A) geen",
+          "hint": {
+            "en": "Such an animal just doesn't have space here.",
+            "explanation": "'Geen ruimte hebben' = to have no space. 'Geen' negates the noun 'ruimte'. 'Niet ruimte' is ungrammatical — you cannot use 'niet' to negate a noun directly. 'Weinig' = little (not zero)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_27",
+      "title": "Mijn blog – natuur",
+      "exercises": [
+        {
+          "id": "NAT-01",
+          "sentence": "In het land waar ik ___ kom, heb je veel meer natuur dan in Nederland.",
+          "options": ["A) vandaan", "B) vandaan uit", "C) uit", "D) van"],
+          "correct": "A) vandaan",
+          "hint": {
+            "en": "In the country where I come from, you have much more nature than in the Netherlands.",
+            "explanation": "'Vandaan komen' = to come from (origin). 'Waar ik vandaan kom' = where I come from. 'Vandaan' is the required directional particle. 'Uit komen' means 'to come from' too, but 'waar ik uit kom' is a different (also correct) structure."
+          }
+        },
+        {
+          "id": "NAT-02",
+          "sentence": "Het was ___ al een vieze stad met veel verkeer.",
+          "options": ["A) toen", "B) dan", "C) er", "D) altijd"],
+          "correct": "A) toen",
+          "hint": {
+            "en": "It was already a dirty city with a lot of traffic back then.",
+            "explanation": "'Toen al' = already back then. 'Toen' = then (past reference). 'Dan' = then (logical/conditional). 'Toen al' expresses that the situation existed even at that earlier time."
+          }
+        },
+        {
+          "id": "NAT-03",
+          "sentence": "Ik ___ niet van die stad.",
+          "options": ["A) hield", "B) hou", "C) vond", "D) voelde"],
+          "correct": "A) hield",
+          "hint": {
+            "en": "I didn't like that city.",
+            "explanation": "'Houden van' = to like/love. Simple past: 'hield van'. The blog uses past tense throughout for memories. 'Hou' = present tense. 'Vond' = found/thought."
+          }
+        },
+        {
+          "id": "NAT-04",
+          "sentence": "In de winter ___ we de sneeuw op de toppen liggen.",
+          "options": ["A) zag", "B) zagen", "C) zien", "D) konden zien"],
+          "correct": "A) zag",
+          "hint": {
+            "en": "In winter you could see the snow lying on the peaks.",
+            "explanation": "Subject is 'je' (general 'you/one'). Past tense of 'zien': 'je zag'. 'Zagen' = we/they saw (plural). The general 'you' takes singular verb."
+          }
+        },
+        {
+          "id": "NAT-05",
+          "sentence": "We liepen dan ___ omhoog.",
+          "options": ["A) urenlang", "B) uren lang", "C) voor uren", "D) langdurig"],
+          "correct": "A) urenlang",
+          "hint": {
+            "en": "We would walk upward for hours.",
+            "explanation": "'Urenlang' = for hours (duration adverb, one compound word). Standard written Dutch. 'Uren lang' is an acceptable variant but 'urenlang' (one word) is the established form."
+          }
+        },
+        {
+          "id": "NAT-06",
+          "sentence": "Het was ___ om in de natuur te kamperen of vuur te maken.",
+          "options": ["A) toegestaan", "B) verboden", "C) verplicht", "D) moeilijk"],
+          "correct": "A) toegestaan",
+          "hint": {
+            "en": "It was allowed to camp in nature or make a fire.",
+            "explanation": "'Toegestaan' = permitted/allowed. The blogger contrasts freedoms in their home country with restrictions in Netherlands. 'Verboden' = forbidden (opposite)."
+          }
+        },
+        {
+          "id": "NAT-07",
+          "sentence": "Eigenlijk hebben mensen ___ alle natuurgebieden in Nederland zelf gemaakt.",
+          "options": ["A) bijna", "B) alle", "C) haast", "D) zeker"],
+          "correct": "A) bijna",
+          "hint": {
+            "en": "Actually, people have made almost all nature areas in the Netherlands themselves.",
+            "explanation": "'Bijna alle' = almost all. 'Bijna' quantifies/modifies 'alle'. 'Alle' is already in the sentence. 'Haast' = barely/almost (poetic/literary). 'Bijna' is the standard A2 word for 'almost'."
+          }
+        },
+        {
+          "id": "NAT-08",
+          "sentence": "De dieren in die gebieden zijn daar ___ niet vanzelf gekomen.",
+          "options": ["A) meestal", "B) altijd", "C) nooit", "D) soms"],
+          "correct": "A) meestal",
+          "hint": {
+            "en": "The animals in those areas mostly didn't arrive there by themselves.",
+            "explanation": "'Meestal' = mostly/in most cases. It softens the statement — not absolutely all, but most animals were introduced. 'Altijd' = always (too absolute). 'Nooit' = never (contradicts 'vanzelf gekomen')."
+          }
+        },
+        {
+          "id": "NAT-09",
+          "sentence": "Je mag ___ op de paden lopen.",
+          "options": ["A) alleen", "B) slechts", "C) maar", "D) enkel"],
+          "correct": "A) alleen",
+          "hint": {
+            "en": "You may only walk on the paths.",
+            "explanation": "'Alleen...lopen' = only to walk. 'Alleen' as restrictive adverb = only. 'Slechts' is more formal. 'Je mag alleen op de paden lopen' = you may only walk on the paths."
+          }
+        },
+        {
+          "id": "NAT-10",
+          "sentence": "Soms moet je ___ betalen, als je in een natuurgebied wil wandelen.",
+          "options": ["A) ook", "B) zelfs", "C) wel", "D) dan"],
+          "correct": "A) ook",
+          "hint": {
+            "en": "Sometimes you even have to pay too, if you want to walk in a nature area.",
+            "explanation": "'Ook betalen' = also/too pay. 'Soms moet je ook betalen' = sometimes you have to pay as well. 'Ook' adds this to the list of restrictions already mentioned."
+          }
+        },
+        {
+          "id": "NAT-11",
+          "sentence": "Ik vond het ___, al die verschillende kleuren.",
+          "options": ["A) prachtig", "B) prachtige", "C) mooi", "D) heerlijk"],
+          "correct": "A) prachtig",
+          "hint": {
+            "en": "I found it beautiful, all those different colours.",
+            "explanation": "'Prachtig' = wonderful/beautiful (predicative after 'vinden'). No -e ending. 'Prachtige' would be attributive (before a noun). 'Mooi' = beautiful (also correct but 'prachtig' is the text's word)."
+          }
+        },
+        {
+          "id": "NAT-12",
+          "sentence": "___ hoorde ik dat dit geen origineel bos is.",
+          "options": ["A) Later", "B) Daarna", "C) Toen", "D) Na"],
+          "correct": "A) Later",
+          "hint": {
+            "en": "Later I heard that this is not an original forest.",
+            "explanation": "'Later' = later (subsequent discovery, some time after). 'Daarna' = after that (implies immediate sequence). 'Toen' = then (immediate past). 'Na' is a preposition requiring an object."
+          }
+        },
+        {
+          "id": "NAT-13",
+          "sentence": "Mensen hebben een groot deel van het bos ___ gemaakt.",
+          "options": ["A) zo", "B) zelf", "C) dus", "D) hier"],
+          "correct": "A) zo",
+          "hint": {
+            "en": "People have made a large part of the forest that way.",
+            "explanation": "'Zo gemaakt' = made that way/like that. 'Zo' refers back to the managed/artificial way described. 'Zelf gemaakt' = made themselves (changes the meaning — it's about the method, not the agent)."
+          }
+        },
+        {
+          "id": "NAT-14",
+          "sentence": "Toen ___ ik wel teleurgesteld.",
+          "options": ["A) was", "B) ben", "C) werd", "D) raakte"],
+          "correct": "A) was",
+          "hint": {
+            "en": "I was quite disappointed then.",
+            "explanation": "'Was' = simple past of 'zijn' (to be). 'Teleurgesteld zijn' = to be disappointed (state). 'Werd teleurgesteld' = was disappointed (passive process). 'Was' describes the resulting feeling."
+          }
+        },
+        {
+          "id": "NAT-15",
+          "sentence": "Het mooiste stuk natuur in Nederland ___ ik de stranden.",
+          "options": ["A) vind", "B) denk", "C) houd", "D) vind ik"],
+          "correct": "A) vind",
+          "hint": {
+            "en": "I find the beaches the most beautiful stretch of nature in the Netherlands.",
+            "explanation": "Fronted object 'het mooiste stuk' causes inversion: 'vind ik'. The blank is 'vind'; 'ik' is the subject after inversion. 'Denk' = think; 'houd' = hold/keep."
+          }
+        },
+        {
+          "id": "NAT-16",
+          "sentence": "Als het stormt, ___ het zand overal naartoe.",
+          "options": ["A) waait", "B) gaat", "C) vliegt", "D) trekt"],
+          "correct": "A) waait",
+          "hint": {
+            "en": "When it storms, the sand blows everywhere.",
+            "explanation": "'Waaien' = to blow (wind). 'Het zand waait' = the sand blows. 'Vliegt' = flies (birds/objects, not sand in wind). 'Waaien' is the weather verb for wind movement."
+          }
+        },
+        {
+          "id": "NAT-17",
+          "sentence": "Gelukkig ___ de overheid de kust in Nederland goed.",
+          "options": ["A) beschermt", "B) beschermen", "C) beveiligt", "D) bewaart"],
+          "correct": "A) beschermt",
+          "hint": {
+            "en": "Fortunately the government protects the Dutch coastline well.",
+            "explanation": "'Beschermen' = to protect. Singular subject 'de overheid' → 'beschermt'. 'Beveiligen' = to secure (usually buildings/security). 'Bewaren' = to preserve/keep/store."
+          }
+        },
+        {
+          "id": "NAT-18",
+          "sentence": "Het is niet ___ om daar zomaar hotels of huizen te bouwen.",
+          "options": ["A) toegestaan", "B) verboden", "C) mogelijk", "D) nodig"],
+          "correct": "A) toegestaan",
+          "hint": {
+            "en": "It is not permitted to just build hotels or houses there.",
+            "explanation": "'Niet toegestaan' = not permitted. 'Het is niet toegestaan om' + infinitive = it is not allowed to. 'Verboden' = forbidden (stronger legal term; also possible but 'toegestaan' is the text's word)."
+          }
+        },
+        {
+          "id": "NAT-19",
+          "sentence": "Overal langs de kust ___ hoge flats en hotels.",
+          "options": ["A) staan", "B) zijn", "C) liggen", "D) hebben"],
+          "correct": "A) staan",
+          "hint": {
+            "en": "Everywhere along the coast there are tall apartment blocks and hotels.",
+            "explanation": "'Staan' = to stand (for buildings and vertical structures). 'Langs de kust staan flats'. 'Liggen' = to lie (horizontal objects). 'Zijn' is possible but 'staan' is the geographical standard for buildings."
+          }
+        },
+        {
+          "id": "NAT-20",
+          "sentence": "De natuur is daar ___ en komt niet meer terug.",
+          "options": ["A) verdwenen", "B) weg", "C) afwezig", "D) verloren"],
+          "correct": "A) verdwenen",
+          "hint": {
+            "en": "Nature has disappeared there and won't come back.",
+            "explanation": "'Verdwenen zijn' = to have disappeared. Predicative past participle. 'Weg zijn' = to be gone (colloquial). 'Verdwenen' is more literary and matches the blog's tone."
+          }
+        },
+        {
+          "id": "NAT-21",
+          "sentence": "Nederland is een ___ en groen land.",
+          "options": ["A) mooi", "B) mooie", "C) schoon", "D) fijn"],
+          "correct": "A) mooi",
+          "hint": {
+            "en": "The Netherlands is a beautiful and green country.",
+            "explanation": "'Mooi' before neuter noun 'land' with indefinite article 'een': adjective stays uninflected: 'een mooi land'. 'Mooie' would be for de-words or definite article. (Note: 'mooi en groen land' — both adjectives are uninflected)."
+          }
+        },
+        {
+          "id": "NAT-22",
+          "sentence": "Ik ___ me thuis in de natuur.",
+          "options": ["A) voelde", "B) voel", "C) gevoeld", "D) voelen"],
+          "correct": "A) voelde",
+          "hint": {
+            "en": "I felt at home in nature.",
+            "explanation": "'Zich thuis voelen' = to feel at home. Simple past: 'voelde me'. The blog narrates past memories. 'Voel' = present tense. 'Gevoeld' = past participle."
+          }
+        },
+        {
+          "id": "NAT-23",
+          "sentence": "Om die natuurgebieden ___ een hek heen.",
+          "options": ["A) staat", "B) staan", "C) is", "D) hangt"],
+          "correct": "A) staat",
+          "hint": {
+            "en": "Around those nature areas there is a fence.",
+            "explanation": "'Staan' = to stand (for fences). 'Er staat een hek' = there is a fence. 'Om X heen staan' = to stand around X. Singular 'een hek' → 'staat'."
+          }
+        },
+        {
+          "id": "NAT-24",
+          "sentence": "Maar het landschap is erg ___, vind ik.",
+          "options": ["A) plat", "B) vlak", "C) laag", "D) klein"],
+          "correct": "A) plat",
+          "hint": {
+            "en": "But the landscape is very flat, I think.",
+            "explanation": "'Plat' = flat (landscape). 'Vlak' = flat (surface, also used for landscape but 'plat' is the text's word). 'Laag' = low (elevation). 'Klein' = small."
+          }
+        },
+        {
+          "id": "NAT-25",
+          "sentence": "Ik hou van de groene weilanden met koeien, schapen en ___.",
+          "options": ["A) boerderijen", "B) boerderij", "C) boeren", "D) platteland"],
+          "correct": "A) boerderijen",
+          "hint": {
+            "en": "I like the green meadows with cows, sheep and farms.",
+            "explanation": "'Boerderijen' = farms (plural of 'boerderij'). The list 'koeien, schapen en boerderijen' = cows, sheep and farms. All three are in plural. 'Boeren' = farmers (people)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_25",
+      "title": "Het klimaat in Nederland",
+      "exercises": [
+        {
+          "id": "KL-01",
+          "sentence": "Het weer in Nederland kan iedere dag ___ zijn.",
+          "options": ["A) anders", "B) andere", "C) anders dan", "D) verscheiden"],
+          "correct": "A) anders",
+          "hint": {
+            "en": "The weather in the Netherlands can be different every day.",
+            "explanation": "'Anders' = different (predicative adverb/adjective after 'zijn'). No -e ending after 'zijn'. 'Andere' = attributive (before a noun, e.g., 'andere dag'). 'Verscheiden' = various."
+          }
+        },
+        {
+          "id": "KL-02",
+          "sentence": "Het Nederlandse klimaat heeft ___ winters en milde zomers.",
+          "options": ["A) milde", "B) mild", "C) warme", "D) zachte"],
+          "correct": "A) milde",
+          "hint": {
+            "en": "The Dutch climate has mild winters and mild summers.",
+            "explanation": "'Milde winters' = mild winters. Adjective before de-word plural: 'mild' + -e = 'milde'. The text explicitly uses 'milde winters en milde zomers'. Factual recall + grammar check."
+          }
+        },
+        {
+          "id": "KL-03",
+          "sentence": "Veel mensen hebben het ___ dat Nederland een erg nat klimaat heeft.",
+          "options": ["A) gevoel", "B) idee", "C) beeld", "D) gedachte"],
+          "correct": "A) gevoel",
+          "hint": {
+            "en": "Many people have the feeling that the Netherlands has a very wet climate.",
+            "explanation": "'Het gevoel hebben dat' = to have the feeling that. Fixed expression. 'Het gevoel' = subjective impression. 'Idee' = idea (more cognitive). 'Beeld' = image."
+          }
+        },
+        {
+          "id": "KL-04",
+          "sentence": "Maar dit is een ___.",
+          "options": ["A) misverstand", "B) vergissing", "C) fout", "D) leugen"],
+          "correct": "A) misverstand",
+          "hint": {
+            "en": "But this is a misconception.",
+            "explanation": "'Misverstand' = misconception/misunderstanding. The text calls the 'wet Netherlands' belief a 'misverstand'. 'Vergissing' = mistake (personal error). 'Fout' = error. 'Leugen' = lie."
+          }
+        },
+        {
+          "id": "KL-05",
+          "sentence": "De Nederlandse zomers zijn vaak ___.",
+          "options": ["A) wisselvallig", "B) wisselend", "C) veranderend", "D) onzeker"],
+          "correct": "A) wisselvallig",
+          "hint": {
+            "en": "Dutch summers are often unpredictable/changeable.",
+            "explanation": "'Wisselvallig' = changeable/unpredictable (specifically for weather). 'Wisselend' = varying. 'Wisselvallig' is the specific weather term used in the text."
+          }
+        },
+        {
+          "id": "KL-06",
+          "sentence": "Als je op vakantie in Nederland gaat, moet je altijd ___ met slecht weer houden.",
+          "options": ["A) rekening", "B) contact", "C) mening", "D) zorg"],
+          "correct": "A) rekening",
+          "hint": {
+            "en": "If you go on holiday in the Netherlands, you must always take bad weather into account.",
+            "explanation": "'Rekening houden met' = to take into account/consider. Fixed Dutch idiom. Cannot be replaced by other nouns — 'rekening' is the required word in this expression."
+          }
+        },
+        {
+          "id": "KL-07",
+          "sentence": "Je hebt de ___ kans op mooi weer aan de kust.",
+          "options": ["A) meeste", "B) grootste", "C) beste", "D) hoogste"],
+          "correct": "A) meeste",
+          "hint": {
+            "en": "You have the most chance of nice weather at the coast.",
+            "explanation": "'De meeste kans' = the most chance/likelihood. 'De meeste + noun' = most of the. 'De grootste kans' is also commonly used but 'meeste' is the text's exact word."
+          }
+        },
+        {
+          "id": "KL-08",
+          "sentence": "___ de auto of het vliegtuig naar het zuiden of het oosten van Europa.",
+          "options": ["A) Neem", "B) Ga met", "C) Pak", "D) Gebruik"],
+          "correct": "A) Neem",
+          "hint": {
+            "en": "Take the car or the plane to the south or east of Europe.",
+            "explanation": "'Neem' = take (imperative of 'nemen'). 'De auto/het vliegtuig nemen' = to take the car/plane. 'Pak' = grab/take (more informal, often for smaller items). 'Neem' is standard for transport."
+          }
+        },
+        {
+          "id": "KL-09",
+          "sentence": "De winters zijn de laatste vijftig jaar ___ minder koud geworden.",
+          "options": ["A) wel", "B) echt", "C) zeker", "D) heel"],
+          "correct": "A) wel",
+          "hint": {
+            "en": "The winters have indeed become less cold over the last fifty years.",
+            "explanation": "'Wel' as modal particle = indeed/do (concessive/emphatic). Acknowledges a real but perhaps surprising trend. 'Echt' = really; 'zeker' = certainly — both possible but 'wel' is the text's word."
+          }
+        },
+        {
+          "id": "KL-10",
+          "sentence": "Vroeger kon je in Nederland ___ bijna iedere winter schaatsen.",
+          "options": ["A) bijvoorbeeld", "B) misschien", "C) soms", "D) ook"],
+          "correct": "A) bijvoorbeeld",
+          "hint": {
+            "en": "For example, in the past you could skate in the Netherlands almost every winter.",
+            "explanation": "'Bijvoorbeeld' = for example. The text uses it to give skating as an example of the warmer winters' effect. 'Misschien' = maybe (introduces uncertainty that doesn't fit here)."
+          }
+        },
+        {
+          "id": "KL-11",
+          "sentence": "Tegenwoordig is ___ een uitzondering.",
+          "options": ["A) dat", "B) dit", "C) het", "D) schaatsen"],
+          "correct": "A) dat",
+          "hint": {
+            "en": "Nowadays that is an exception.",
+            "explanation": "'Dat' = that (anaphoric reference to skating every winter, mentioned in the previous sentence). 'Dit' = this (immediate/nearby reference). 'Dat' refers back to what was just said."
+          }
+        },
+        {
+          "id": "KL-12",
+          "sentence": "De sneeuw ___ ook minder lang liggen.",
+          "options": ["A) blijft", "B) legt", "C) valt", "D) zit"],
+          "correct": "A) blijft",
+          "hint": {
+            "en": "The snow also stays on the ground for less time.",
+            "explanation": "'Blijven liggen' = to remain lying (on the ground). 'Sneeuw blijft liggen' = snow stays. 'Valt' = falls (snow falling, not staying). 'Legt' = lays (transitive, wrong use)."
+          }
+        },
+        {
+          "id": "KL-13",
+          "sentence": "In Nederland ___ we dus ook dat het klimaat verandert.",
+          "options": ["A) merken", "B) zien", "C) weten", "D) horen"],
+          "correct": "A) merken",
+          "hint": {
+            "en": "In the Netherlands we thus also notice that the climate is changing.",
+            "explanation": "'Merken' = to notice/perceive. 'We merken dat' = we notice/are experiencing that. 'Zien dat' = to see that (more visual). 'Merken' implies experiencing a change firsthand."
+          }
+        },
+        {
+          "id": "KL-14",
+          "sentence": "De aarde wordt ___ warmer.",
+          "options": ["A) steeds", "B) altijd", "C) meer", "D) heel"],
+          "correct": "A) steeds",
+          "hint": {
+            "en": "The earth is getting warmer and warmer.",
+            "explanation": "'Steeds warmer' = warmer and warmer / increasingly warm. 'Steeds + comparative' = progressively more. 'Altijd' = always (a fixed state, not progressive). 'Meer warmer' is ungrammatical Dutch."
+          }
+        },
+        {
+          "id": "KL-15",
+          "sentence": "___ krijgen we minder koude winters en hetere, drogere zomers.",
+          "options": ["A) Daardoor", "B) Hierdoor", "C) Daarvoor", "D) Daarmee"],
+          "correct": "A) Daardoor",
+          "hint": {
+            "en": "As a result of that, we get less cold winters and hotter, drier summers.",
+            "explanation": "'Daardoor' = because of that/as a result (refers back to the warming earth). 'Hierdoor' = because of this (more immediate). 'Daarvoor' = for that/before that. 'Daardoor' = consequence of something previously mentioned."
+          }
+        },
+        {
+          "id": "KL-16",
+          "sentence": "De hogere temperaturen hebben ook ___ op de neerslag.",
+          "options": ["A) invloed", "B) effect", "C) gevolg", "D) impact"],
+          "correct": "A) invloed",
+          "hint": {
+            "en": "The higher temperatures also have an influence on the precipitation.",
+            "explanation": "'Invloed hebben op' = to have an influence on. Fixed Dutch collocation. 'Effect op' is also possible but 'invloed hebben op' is the standard and is the text's phrase."
+          }
+        },
+        {
+          "id": "KL-17",
+          "sentence": "Het regent en stormt ___ in de winter en de lente vaker.",
+          "options": ["A) vooral", "B) altijd", "C) alleen", "D) erg"],
+          "correct": "A) vooral",
+          "hint": {
+            "en": "It rains and storms more often especially in winter and spring.",
+            "explanation": "'Vooral' = especially/particularly. It highlights which seasons see more rain. 'Vaker' is already in the sentence as the comparative. 'Altijd' = always (too absolute)."
+          }
+        },
+        {
+          "id": "KL-18",
+          "sentence": "In de zomer ___ en stormt het veel minder.",
+          "options": ["A) regent", "B) sneeuwt", "C) waait", "D) vriest"],
+          "correct": "A) regent",
+          "hint": {
+            "en": "In summer it rains and storms much less.",
+            "explanation": "The text: 'In de zomer regent en stormt het veel minder'. 'Regent' = rains. The structure links '[regent] en stormt het' — both weather verbs. Context: summer has less rain and storms."
+          }
+        },
+        {
+          "id": "KL-19",
+          "sentence": "Het westen van Nederland ___ voor het grootste deel lager dan de Noordzee.",
+          "options": ["A) ligt", "B) staat", "C) zit", "D) valt"],
+          "correct": "A) ligt",
+          "hint": {
+            "en": "The west of the Netherlands lies largely below the North Sea.",
+            "explanation": "'Liggen' = to lie/be located (geographical position). 'Lager liggen dan'. 'Staan' is for vertical structures. 'Liggen' is the geographic standard for land/regions."
+          }
+        },
+        {
+          "id": "KL-20",
+          "sentence": "Als het water ___, hebben we meer kans op wateroverlast.",
+          "options": ["A) stijgt", "B) groeit", "C) stroomt", "D) valt"],
+          "correct": "A) stijgt",
+          "hint": {
+            "en": "If the water rises, we have more chance of flooding.",
+            "explanation": "'Stijgen' = to rise (water level, prices, etc.). 'Het water stijgt' = the water rises. 'Groeien' = to grow (organisms). 'Stromen' = to flow. 'Vallen' = to fall."
+          }
+        },
+        {
+          "id": "KL-21",
+          "sentence": "Verschillende dammen en dijken moeten Nederland ___ dit hoge water beschermen.",
+          "options": ["A) tegen", "B) voor", "C) van", "D) bij"],
+          "correct": "A) tegen",
+          "hint": {
+            "en": "Various dams and dikes must protect the Netherlands against this high water.",
+            "explanation": "'Beschermen tegen' = to protect against. Fixed prepositional collocation. 'Beschermen voor' is incorrect Dutch. 'Tegen' is the standard preposition with 'beschermen'."
+          }
+        },
+        {
+          "id": "KL-22",
+          "sentence": "Op sommige dagen ___ het bloed heet, de zon schijnt en de lucht is blauw.",
+          "options": ["A) is", "B) wordt", "C) zijn", "D) wordt het"],
+          "correct": "A) is",
+          "hint": {
+            "en": "On some days it is boiling hot, the sun shines and the sky is blue.",
+            "explanation": "'Het is bloed heet' = it is boiling hot. Present tense of 'zijn': 'is'. 'Wordt' = becomes (a change). 'Is' describes a current state of the weather on those days."
+          }
+        },
+        {
+          "id": "KL-23",
+          "sentence": "Klimaatverandering kan grote ___ voor Nederland hebben.",
+          "options": ["A) gevolgen", "B) gevolg", "C) consequenties", "D) effecten"],
+          "correct": "A) gevolgen",
+          "hint": {
+            "en": "Climate change can have major consequences for the Netherlands.",
+            "explanation": "'Grote gevolgen hebben' = to have major consequences. 'Gevolgen' = consequences (plural of 'gevolg'). 'Grote gevolgen' — the plural is needed here. 'Gevolg' (singular) doesn't match the plural adjective 'grote'."
+          }
+        },
+        {
+          "id": "KL-24",
+          "sentence": "Er zijn ook vaak periodes met regen en ___.",
+          "options": ["A) onweer", "B) bliksem", "C) storm", "D) wind"],
+          "correct": "A) onweer",
+          "hint": {
+            "en": "There are also often periods with rain and thunderstorms.",
+            "explanation": "'Onweer' = thunderstorm. 'Regen en onweer' = rain and thunderstorms. The text's exact word. 'Bliksem' = lightning (part of thunderstorm). 'Storm' = storm (different intensity)."
+          }
+        },
+        {
+          "id": "KL-25",
+          "sentence": "Het weer in de winter in Nederland is ___ te voorspellen.",
+          "options": ["A) moeilijk", "B) makkelijk", "C) niet", "D) slecht"],
+          "correct": "A) moeilijk",
+          "hint": {
+            "en": "The weather in winter in the Netherlands is difficult to predict.",
+            "explanation": "'Moeilijk te voorspellen' = difficult to predict. 'Moeilijk + te + infinitive' is a standard Dutch construction. 'Makkelijk' = easy (opposite). 'Niet te voorspellen' = impossible to predict (too strong)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_26",
+      "title": "Het gaat zo regenen",
+      "exercises": [
+        {
+          "id": "REGEN-01",
+          "sentence": "Dit is echt geen weer ___ te fietsen.",
+          "options": ["A) om", "B) voor", "C) van", "D) aan"],
+          "correct": "A) om",
+          "hint": {
+            "en": "This is really no weather to cycle in.",
+            "explanation": "'Om te + infinitive' expresses suitability/purpose: 'geen weer om te fietsen' = no weather to cycle in. Standard Dutch infinitive complement construction after 'goed/slecht/geen X'."
+          }
+        },
+        {
+          "id": "REGEN-02",
+          "sentence": "Heb je vannacht die storm ___ gehoord?",
+          "options": ["A) ook", "B) al", "C) nog", "D) wel"],
+          "correct": "A) ook",
+          "hint": {
+            "en": "Did you also hear that storm last night?",
+            "explanation": "'Ook' = also/too. Barbara asks if Jaïr also heard what she heard (shared experience). 'Al' = already; 'nog' = still; 'wel' = indeed — 'ook' best fits the inclusive shared-experience question."
+          }
+        },
+        {
+          "id": "REGEN-03",
+          "sentence": "Het waaide zo hard en het ___ ook.",
+          "options": ["A) onweerde", "B) regende", "C) stormde", "D) vroor"],
+          "correct": "A) onweerde",
+          "hint": {
+            "en": "It blew so hard and there was also thunder and lightning.",
+            "explanation": "'Onweren' = to thunder/have a thunderstorm. Simple past: 'onweerde'. The text specifically says 'onweerde'. 'Regende' = rained; 'stormde' = stormed — both possible but 'onweerde' is the text's word."
+          }
+        },
+        {
+          "id": "REGEN-04",
+          "sentence": "Ik ___ precies in die bui, toen ik naar huis ging.",
+          "options": ["A) fietste", "B) fiets", "C) gefietst", "D) ga fietsen"],
+          "correct": "A) fietste",
+          "hint": {
+            "en": "I cycled right into that rain shower when I went home.",
+            "explanation": "'Fietste' = simple past of 'fietsen'. Narrative past tense for ongoing action alongside another past event ('toen ik naar huis ging'). 'Fiets' = present tense."
+          }
+        },
+        {
+          "id": "REGEN-05",
+          "sentence": "Ze ___ voor vanmiddag ook hagel.",
+          "options": ["A) voorspellen", "B) verwachten", "C) zeggen", "D) melden"],
+          "correct": "A) voorspellen",
+          "hint": {
+            "en": "They are forecasting hail for this afternoon too.",
+            "explanation": "'Voorspellen' = to forecast/predict. 'Ze voorspellen hagel' = they forecast hail. The weather-specific verb. 'Verwachten' = expect; 'zeggen' = say — less specific for weather forecasting."
+          }
+        },
+        {
+          "id": "REGEN-06",
+          "sentence": "Ik heb zo'n ___ aan die harde wind.",
+          "options": ["A) hekel", "B) haat", "C) afkeer", "D) angst"],
+          "correct": "A) hekel",
+          "hint": {
+            "en": "I have such a dislike of that strong wind.",
+            "explanation": "'Een hekel hebben aan' = to dislike/hate something. Fixed Dutch expression. 'Haat' = hatred (too strong, different register). 'Afkeer' = aversion (formal). 'Angst' = fear."
+          }
+        },
+        {
+          "id": "REGEN-07",
+          "sentence": "Je haar en je kleren ___ helemaal nat.",
+          "options": ["A) worden", "B) zijn", "C) gaan", "D) raken"],
+          "correct": "A) worden",
+          "hint": {
+            "en": "Your hair and clothes get completely wet.",
+            "explanation": "'Worden' = to become/get. 'Helemaal nat worden' = to get completely wet (change of state). 'Zijn' = are (already wet — static state). 'Worden' captures the process of becoming."
+          }
+        },
+        {
+          "id": "REGEN-08",
+          "sentence": "Dan ___ ik zo chagrijnig.",
+          "options": ["A) word", "B) wordt", "C) ben", "D) ga"],
+          "correct": "A) word",
+          "hint": {
+            "en": "Then I become so grumpy.",
+            "explanation": "'Worden' = to become. First person singular: 'ik word' (not 'wordt' which is hij/zij/het). Change of state: 'chagrijnig worden'. 'Ben' = am (static state)."
+          }
+        },
+        {
+          "id": "REGEN-09",
+          "sentence": "Je kleren ___ niet zo snel.",
+          "options": ["A) drogen", "B) droogt", "C) worden droog", "D) drogen op"],
+          "correct": "A) drogen",
+          "hint": {
+            "en": "Your clothes don't dry that quickly.",
+            "explanation": "'Drogen' = to dry (intransitive). Plural subject 'kleren' → 'drogen'. 'Droogt' is singular. 'Drogen op' = to dry up (separable, slightly different meaning)."
+          }
+        },
+        {
+          "id": "REGEN-10",
+          "sentence": "Gelukkig ___ we met het ov.",
+          "options": ["A) kunnen", "B) mogen", "C) moeten", "D) willen"],
+          "correct": "A) kunnen",
+          "hint": {
+            "en": "Luckily we can use public transport.",
+            "explanation": "'Met het ov kunnen' = to be able to use public transport. Ability/option: 'kunnen'. 'Mogen' = may (permission); 'moeten' = must (obligation); 'willen' = want."
+          }
+        },
+        {
+          "id": "REGEN-11",
+          "sentence": "En ___ we droog op kantoor aan.",
+          "options": ["A) komen", "B) gaan", "C) zijn", "D) arriveren"],
+          "correct": "A) komen",
+          "hint": {
+            "en": "And we arrive at the office dry.",
+            "explanation": "'Aankomen op kantoor' = to arrive at the office. Separable verb: 'komen...aan'. The text says 'komen we droog...aan'. 'Gaan' = go. 'Arriveren' = arrive (formal, not used with 'aan')."
+          }
+        },
+        {
+          "id": "REGEN-12",
+          "sentence": "De wedstrijd ___ vast niet door.",
+          "options": ["A) gaat", "B) doet", "C) loopt", "D) komt"],
+          "correct": "A) gaat",
+          "hint": {
+            "en": "The match surely won't go ahead.",
+            "explanation": "'Doorgaan' = to continue/go ahead. Separable: 'gaat...door'. Singular 'de wedstrijd' → 'gaat'. 'Doet door' / 'loopt door' are wrong uses of the separable verb."
+          }
+        },
+        {
+          "id": "REGEN-13",
+          "sentence": "Het is ___ weer om buiten te sporten.",
+          "options": ["A) prima", "B) goed", "C) leuk", "D) fijn"],
+          "correct": "A) prima",
+          "hint": {
+            "en": "It's excellent weather to sport outside.",
+            "explanation": "'Prima weer' = excellent/fine weather. The text uses 'prima'. 'Goed' = good; 'leuk' = fun; 'fijn' = nice — all possible, but 'prima' is the text's exact word and a key A2 adjective."
+          }
+        },
+        {
+          "id": "REGEN-14",
+          "sentence": "Kijk ___ naar de grijze wolken buiten.",
+          "options": ["A) dan", "B) maar", "C) toch", "D) eens"],
+          "correct": "A) dan",
+          "hint": {
+            "en": "Just look at the grey clouds outside.",
+            "explanation": "'Kijk dan' = just look (then). 'Dan' as a discourse particle intensifies the imperative (= come on, look!). 'Maar eens kijken' is another common pattern. The text uses 'dan'."
+          }
+        },
+        {
+          "id": "REGEN-15",
+          "sentence": "Je gaat echt niet ___ van wat regen.",
+          "options": ["A) dood", "B) nat", "C) weg", "D) ziek"],
+          "correct": "A) dood",
+          "hint": {
+            "en": "You're really not going to die from a bit of rain.",
+            "explanation": "'Doodgaan van' = to die from. Ivan uses 'je gaat niet dood van wat regen' as a hyperbolic reassurance (= it won't kill you). Very common Dutch expression."
+          }
+        },
+        {
+          "id": "REGEN-16",
+          "sentence": "Trek gewoon een lange broek ___ en een paar handschoenen.",
+          "options": ["A) aan", "B) uit", "C) om", "D) op"],
+          "correct": "A) aan",
+          "hint": {
+            "en": "Just put on some long trousers and a pair of gloves.",
+            "explanation": "'Aantrekken' = to put on (clothing). Separable: 'trek...aan'. 'Uittrekken' = to take off. 'Omdoen' = for scarves/accessories. 'Opzetten' = for hats."
+          }
+        },
+        {
+          "id": "REGEN-17",
+          "sentence": "___ een muts op je hoofd.",
+          "options": ["A) Zet", "B) Doe", "C) Trek", "D) Leg"],
+          "correct": "A) Zet",
+          "hint": {
+            "en": "Put a hat on your head.",
+            "explanation": "'Opzetten' = to put on (a hat, glasses). Separable imperative: 'Zet...op'. 'Doe op' = for lids/covers. 'Trek aan' = for clothes. 'Zet op' is the standard for hats."
+          }
+        },
+        {
+          "id": "REGEN-18",
+          "sentence": "In de app staat dat de zon vanmiddag ___ schijnen.",
+          "options": ["A) gaat", "B) zal", "C) kan", "D) moet"],
+          "correct": "A) gaat",
+          "hint": {
+            "en": "The app says the sun is going to shine this afternoon.",
+            "explanation": "'Gaan + infinitive' = near future (based on evidence/information). 'De zon gaat schijnen' = the sun is going to shine. 'Zal' is future too but more formal/hypothetical."
+          }
+        },
+        {
+          "id": "REGEN-19",
+          "sentence": "Niet zo ___ dus en schiet op, want je komt te laat.",
+          "options": ["A) zeuren", "B) klagen", "C) piepen", "D) mopperen"],
+          "correct": "A) zeuren",
+          "hint": {
+            "en": "So stop whining and hurry up, you'll be late.",
+            "explanation": "'Zeuren' = to whine/nag (about trivial things). Ivan says 'niet zo zeuren' = stop whining. 'Klagen' = to complain (more serious). 'Mopperen' = to grumble. 'Zeuren' is the text's word."
+          }
+        },
+        {
+          "id": "REGEN-20",
+          "sentence": "Ik kan niet ___ tot het écht zomer is.",
+          "options": ["A) wachten", "B) wachting", "C) wacht", "D) wachten op"],
+          "correct": "A) wachten",
+          "hint": {
+            "en": "I can't wait until it's really summer.",
+            "explanation": "'Niet kunnen wachten' = can't wait. 'Kan niet wachten tot' = can't wait until. 'Wachten' = infinitive after modal 'kan'. 'Wachten op' = to wait for (something/someone)."
+          }
+        },
+        {
+          "id": "REGEN-21",
+          "sentence": "Ik vond het een beetje ___.",
+          "options": ["A) eng", "B) enge", "C) bang", "D) engst"],
+          "correct": "A) eng",
+          "hint": {
+            "en": "I found it a bit scary.",
+            "explanation": "'Eng' = scary (predicative after 'vinden'). No -e ending. 'Enge' is attributive. 'Bang' = afraid (a person's feeling). 'Engst' = scariest (superlative)."
+          }
+        },
+        {
+          "id": "REGEN-22",
+          "sentence": "Hé, ___ je ook met de tram vandaag?",
+          "options": ["A) ben", "B) bent", "C) ga", "D) reis"],
+          "correct": "A) ben",
+          "hint": {
+            "en": "Hey, are you also taking the tram today?",
+            "explanation": "'Met de tram zijn' = to be (going) by tram. After inversion with 'je', the -t drops: 'ben je' (not 'bent je'). This is the inversion rule for 'jij/je'."
+          }
+        },
+        {
+          "id": "REGEN-23",
+          "sentence": "Het is ___ buiten en het gaat zo regenen.",
+          "options": ["A) ijskoud", "B) ijs koud", "C) ijzig koud", "D) heel koud"],
+          "correct": "A) ijskoud",
+          "hint": {
+            "en": "It's ice cold outside and it's about to rain.",
+            "explanation": "'IJskoud' = ice cold. Written as one compound word. 'Ijs koud' (two words) is a spelling error. 'Heel koud' = very cold — 'ijskoud' is a stronger intensifier compound."
+          }
+        },
+        {
+          "id": "REGEN-24",
+          "sentence": "Ik wilde ___ het zomer was, lekker 25 graden.",
+          "options": ["A) dat", "B) als", "C) zo", "D) het"],
+          "correct": "A) dat",
+          "hint": {
+            "en": "I wish it were summer, a lovely 25 degrees.",
+            "explanation": "'Ik wilde dat' + past tense = I wish (that)... Expresses a counterfactual wish. 'Ik wilde dat het zomer was' = I wish it were summer. Fixed wish construction in Dutch."
+          }
+        },
+        {
+          "id": "REGEN-25",
+          "sentence": "Met die ___ moet je niet sporten.",
+          "options": ["A) hitte", "B) warmte", "C) temperatuur", "D) zon"],
+          "correct": "A) hitte",
+          "hint": {
+            "en": "In that heat you shouldn't sport.",
+            "explanation": "'Hitte' = heat (intense, uncomfortable). 'Met die hitte' = in that heat. 'Warmte' = warmth (pleasant). 'Hitte' specifically refers to unpleasant, oppressive heat — Ivan uses it to argue against 25 degrees."
+          }
+        }
+      ]
+    }
+  ]
+}

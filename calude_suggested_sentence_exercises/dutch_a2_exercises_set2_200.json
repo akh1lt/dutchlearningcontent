@@ -1,0 +1,2065 @@
+{
+  "course": "Dutch A2 Fill-in-the-Blank Exercises — Set 2",
+  "texts": [
+    {
+      "text_id": "image_15",
+      "title": "Ivet bij de kapper",
+      "exercises": [
+        {
+          "id": "15_01",
+          "sentence": "Met die mooie, dikke krullen van jou kan ik ___ doen.",
+          "options": { "A": "alles", "B": "niets", "C": "iets", "D": "veel" },
+          "correct": "A",
+          "hint": {
+            "translation": "With those beautiful thick curls of yours I can do anything.",
+            "explanation": "'Alles' = everything/anything. The hairdresser is being complimentary — saying the curls are so versatile that any style is possible. 'Niets' = nothing (opposite), 'iets' = something (too vague for a compliment), 'veel' = much."
+          }
+        },
+        {
+          "id": "15_02",
+          "sentence": "Je haar zit ___ goed.",
+          "options": { "A": "altijd", "B": "steeds", "C": "elke keer", "D": "nooit" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your hair always looks good.",
+            "explanation": "'Altijd' = always. The hairdresser pays a compliment about the hair consistently looking good. 'Steeds' = increasingly/constantly (implies change), 'elke keer' = every time (less natural as a simple compliment), 'nooit' = never (opposite)."
+          }
+        },
+        {
+          "id": "15_03",
+          "sentence": "Ik moet wel een goede shampoo ___, het is erg droog.",
+          "options": { "A": "gebruiken", "B": "kopen", "C": "hebben", "D": "nemen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I do have to use a good shampoo, it's very dry.",
+            "explanation": "'Gebruiken' = to use. The context is using the right shampoo on dry hair. 'Kopen' = to buy, 'hebben' = to have, 'nemen' = to take — none specifically mean applying/using a product on hair."
+          }
+        },
+        {
+          "id": "15_04",
+          "sentence": "Zal ik het een beetje ___ knippen?",
+          "options": { "A": "rond", "B": "kort", "C": "recht", "D": "glad" },
+          "correct": "A",
+          "hint": {
+            "translation": "Shall I cut it a little round?",
+            "explanation": "'Rond knippen' = to cut it in a round shape. The hairdresser proposes a round cut because the hair is currently straight ('recht'). 'Kort' = short, 'recht' = straight (already how it is), 'glad' = smooth."
+          }
+        },
+        {
+          "id": "15_05",
+          "sentence": "Het is nu ___.",
+          "options": { "A": "recht", "B": "kort", "C": "lang", "D": "dun" },
+          "correct": "A",
+          "hint": {
+            "translation": "It is straight now.",
+            "explanation": "'Recht' = straight. The hairdresser contrasts the current shape (straight) with the proposed round cut. 'Kort' = short, 'lang' = long, 'dun' = thin."
+          }
+        },
+        {
+          "id": "15_06",
+          "sentence": "Moet ik het ___ kleuren?",
+          "options": { "A": "ook", "B": "dan", "C": "nog", "D": "wel" },
+          "correct": "A",
+          "hint": {
+            "translation": "Should I also colour it?",
+            "explanation": "'Ook' = also — in addition to cutting, should colouring be done too? 'Dan' = then (different timing), 'nog' = yet/still, 'wel' would mean 'should I actually colour it?' — a slightly different nuance."
+          }
+        },
+        {
+          "id": "15_07",
+          "sentence": "Je wordt al een beetje ___, zie ik.",
+          "options": { "A": "grijs", "B": "wit", "C": "blond", "D": "licht" },
+          "correct": "A",
+          "hint": {
+            "translation": "You're already getting a little grey, I see.",
+            "explanation": "'Grijs' = grey (hair colour due to ageing). 'Wit' = white (too extreme for 'a little'), 'blond' = blonde (what they want to make it), 'licht' = light (an adjective, not a hair colour noun)."
+          }
+        },
+        {
+          "id": "15_08",
+          "sentence": "Maak het maar wat ___, wat blonder.",
+          "options": { "A": "lichter", "B": "licht", "C": "donkerder", "D": "mooier" },
+          "correct": "A",
+          "hint": {
+            "translation": "Make it a bit lighter, a bit blonder.",
+            "explanation": "'Lichter' = lighter (comparative of 'licht'). The comma and 'blonder' confirm this is a comparative. 'Licht' = light (base form, not comparative), 'donkerder' = darker (opposite), 'mooier' = prettier (different attribute)."
+          }
+        },
+        {
+          "id": "15_09",
+          "sentence": "___ in orde.",
+          "options": { "A": "Komt", "B": "Is", "C": "Gaat", "D": "Wordt" },
+          "correct": "A",
+          "hint": {
+            "translation": "That'll be taken care of.",
+            "explanation": "'Komt in orde' is a fixed Dutch expression meaning 'it'll be fine / I'll sort it out'. Literally 'comes in order'. 'Is in orde' = is fine (present state), 'Gaat in orde' and 'Wordt in orde' are not standard expressions."
+          }
+        },
+        {
+          "id": "15_10",
+          "sentence": "Je bent lekker ___. Ben je op vakantie geweest?",
+          "options": { "A": "bruin", "B": "bruin geworden", "C": "gebruind", "D": "verbrand" },
+          "correct": "A",
+          "hint": {
+            "translation": "You're nicely tanned. Have you been on holiday?",
+            "explanation": "'Lekker bruin' = nicely tanned. In Dutch 'bruin' as a predicative adjective captures the tan directly. 'Bruin geworden' is also grammatical but wordy. 'Gebruind' = tanned (formal), 'verbrand' = sunburned (negative connotation)."
+          }
+        },
+        {
+          "id": "15_11",
+          "sentence": "Oh, pas ___ anderhalve maand.",
+          "options": { "A": "over", "B": "in", "C": "na", "D": "binnen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Oh, not for another month and a half.",
+            "explanation": "'Over anderhalve maand' = in a month and a half / after one and a half months (future reference). 'In anderhalve maand' = within a month and a half, 'na' = after (needs a noun phrase differently), 'binnen' = within."
+          }
+        },
+        {
+          "id": "15_12",
+          "sentence": "In de zomervakantie ___ ik de zaak een week.",
+          "options": { "A": "sluit", "B": "sloten", "C": "sluiten", "D": "sloot" },
+          "correct": "A",
+          "hint": {
+            "translation": "During the summer holidays I close the shop for a week.",
+            "explanation": "'Sluiten' (to close). With subject 'ik', present tense: 'sluit'. 'Sloten' and 'sloot' are past tense forms, 'sluiten' is the infinitive."
+          }
+        },
+        {
+          "id": "15_13",
+          "sentence": "Dan kan ik ___.",
+          "options": { "A": "weg", "B": "gaan", "C": "vertrekken", "D": "vrij zijn" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then I can get away.",
+            "explanation": "'Ik kan weg' = I can get away / I'm free to go. 'Weg' here functions as an adverb meaning 'away'. 'Gaan' = to go (but 'kan gaan' would need a destination), 'vertrekken' = to depart, 'vrij zijn' = to be free."
+          }
+        },
+        {
+          "id": "15_14",
+          "sentence": "Kom, doe je bril maar even ___.",
+          "options": { "A": "af", "B": "uit", "C": "neer", "D": "weg" },
+          "correct": "A",
+          "hint": {
+            "translation": "Come on, just take your glasses off for a moment.",
+            "explanation": "'Afzetten' or 'afdoen' = to take off (glasses, hat — accessories). The separable particle 'af' is used for removing glasses. 'Uit' = out/off (used for clothing: jas uittrekken), 'neer' = down, 'weg' = away."
+          }
+        },
+        {
+          "id": "15_15",
+          "sentence": "Ik heb een speciale shampoo ___ droog haar.",
+          "options": { "A": "voor", "B": "van", "C": "bij", "D": "tegen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have a special shampoo for dry hair.",
+            "explanation": "'Voor' = for (purpose/intended use). 'Een shampoo voor droog haar' = a shampoo designed for dry hair. 'Van' = of/from, 'bij' = near/with, 'tegen' = against (used for medicines: 'tegen hoofdpijn')."
+          }
+        },
+        {
+          "id": "15_16",
+          "sentence": "___ ik ga föhnen, doe ik nog iets anders in je haar.",
+          "options": { "A": "Voordat", "B": "Nadat", "C": "Als", "D": "Wanneer" },
+          "correct": "A",
+          "hint": {
+            "translation": "Before I blow-dry, I'll put something else in your hair.",
+            "explanation": "'Voordat' = before (temporal sequence: X before Y). The blow-drying comes after the treatment. 'Nadat' = after (reversed order), 'Als/wanneer' = when (conditional/general, not specifically 'before')."
+          }
+        },
+        {
+          "id": "15_17",
+          "sentence": "Dat laat ik je straks wel ___.",
+          "options": { "A": "zien", "B": "te zien", "C": "gezien", "D": "zag" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll show you that later.",
+            "explanation": "'Laten zien' = to show (let see). Perception/causative verb 'laten' takes a bare infinitive — no 'te'. 'Te zien' would be wrong after 'laten'. 'Gezien' = past participle, 'zag' = imperfectum."
+          }
+        },
+        {
+          "id": "15_18",
+          "sentence": "Ik heb ___ geen idee.",
+          "options": { "A": "nog", "B": "al", "C": "toch", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "I still have no idea.",
+            "explanation": "'Nog geen idee' = still no idea / not yet any idea. The hairdresser hasn't decided on a holiday destination yet. 'Al geen idee' = already no idea (odd tense relationship), 'toch' = after all, 'ook' = also."
+          }
+        },
+        {
+          "id": "15_19",
+          "sentence": "En ___ ga je dan naartoe?",
+          "options": { "A": "waar", "B": "waarheen", "C": "waartoe", "D": "wanneer" },
+          "correct": "A",
+          "hint": {
+            "translation": "And where are you going then?",
+            "explanation": "'Waar ... naartoe' = where (to) — the 'naartoe' at the end handles the direction. 'Waarheen' also means where-to but the text splits it as 'waar...naartoe'. 'Waartoe' = whereto/for what purpose (more formal), 'wanneer' = when."
+          }
+        },
+        {
+          "id": "15_20",
+          "sentence": "Kijk ___ hier in de spiegel.",
+          "options": { "A": "eens", "B": "maar", "C": "even", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "Just take a look here in the mirror.",
+            "explanation": "'Kijk eens' = just look / take a look (inviting someone to look at something). 'Eens' softens the imperative. 'Maar' = just (also possible: 'kijk maar'), 'even' = just for a moment, 'toch' = after all. The text uses 'eens'."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_16",
+      "title": "Als ik niet sport, word ik chagrijnig",
+      "exercises": [
+        {
+          "id": "16_01",
+          "sentence": "Als ze niet op haar racefiets zit, ___ ze hard in het bos.",
+          "options": { "A": "loopt", "B": "rent", "C": "hardloopt", "D": "jogt" },
+          "correct": "A",
+          "hint": {
+            "translation": "If she's not on her racing bike, she runs in the forest.",
+            "explanation": "'Lopen' in 'hard lopen' = to run (jogging/running). In the text 'loopt ze hard' means she goes running. 'Rent' = runs (but less used for jogging in Dutch), 'hardloopt' = also correct but one word. The text uses 'loopt ... hard'."
+          }
+        },
+        {
+          "id": "16_02",
+          "sentence": "Ik kon geen minuut ___.",
+          "options": { "A": "stilzitten", "B": "stilstaan", "C": "stil zijn", "D": "rustig zijn" },
+          "correct": "A",
+          "hint": {
+            "translation": "I couldn't sit still for a minute.",
+            "explanation": "'Stilzitten' = to sit still (separable compound verb). This is a fixed Dutch expression for a child who can't stop moving. 'Stilstaan' = to stand still, 'stil zijn' = to be quiet, 'rustig zijn' = to be calm."
+          }
+        },
+        {
+          "id": "16_03",
+          "sentence": "Ik speelde graag voetbal met mijn ___.",
+          "options": { "A": "buurjongetjes", "B": "buurjongens", "C": "buurtkinderen", "D": "vrienden" },
+          "correct": "A",
+          "hint": {
+            "translation": "I enjoyed playing football with my (little) neighbour boys.",
+            "explanation": "'Buurjongetjes' is the diminutive plural of 'buurjongen' (neighbour boy). The diminutive adds a sense of affection/childhood memory. 'Buurjongens' is the non-diminutive plural. The text specifically uses 'buurjongetjes'."
+          }
+        },
+        {
+          "id": "16_04",
+          "sentence": "Ik ging volleybal spelen ___ ik ging studeren.",
+          "options": { "A": "totdat", "B": "voordat", "C": "nadat", "D": "zodra" },
+          "correct": "A",
+          "hint": {
+            "translation": "I played volleyball until I went to study.",
+            "explanation": "'Totdat' = until (up to the point that). She played volleyball right up until she started university. 'Voordat' = before, 'nadat' = after, 'zodra' = as soon as — all different temporal relationships."
+          }
+        },
+        {
+          "id": "16_05",
+          "sentence": "Toen ___ ik meer plezier in hardlopen.",
+          "options": { "A": "kreeg", "B": "had", "C": "vond", "D": "nam" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then I got more pleasure from running.",
+            "explanation": "'Krijgen' = to get/gain. 'Meer plezier krijgen in' = to develop more enjoyment in. Imperfectum: 'kreeg'. 'Had' = had (already possessed), 'vond' = found, 'nam' = took — none express gaining new enjoyment."
+          }
+        },
+        {
+          "id": "16_06",
+          "sentence": "Met hardlopen en fietsen ___ je natuurlijk je conditie.",
+          "options": { "A": "train", "B": "verbeter", "C": "oefen", "D": "bouw" },
+          "correct": "A",
+          "hint": {
+            "translation": "With running and cycling you naturally train your fitness.",
+            "explanation": "'Trainen' = to train (fitness/condition). The text uses 'train je je conditie'. 'Verbeteren' = to improve (possible but text uses 'train'), 'oefenen' = to practise, 'bouwen' = to build."
+          }
+        },
+        {
+          "id": "16_07",
+          "sentence": "Sporten is voor mij als eten, tandenpoetsen en ___.",
+          "options": { "A": "werken", "B": "slapen", "C": "leven", "D": "ademen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Sport is for me like eating, brushing teeth and working.",
+            "explanation": "The text lists three daily necessities: 'eten, tandenpoetsen en werken'. This tests knowledge of the exact text and the concept that sport is like a daily necessity. 'Slapen' and 'ademen' are also daily necessities but not in the text."
+          }
+        },
+        {
+          "id": "16_08",
+          "sentence": "Het is een ___ onderdeel van mijn leven.",
+          "options": { "A": "vast", "B": "groot", "C": "belangrijk", "D": "normaal" },
+          "correct": "A",
+          "hint": {
+            "translation": "It is a fixed part of my life.",
+            "explanation": "'Vast onderdeel' = fixed/permanent part. 'Vast' here means stable/fixed (like a regular fixture). 'Groot' = big, 'belangrijk' = important, 'normaal' = normal — all plausible but the text uses 'vast'."
+          }
+        },
+        {
+          "id": "16_09",
+          "sentence": "Als ik niet sport, ___ ik chagrijnig.",
+          "options": { "A": "word", "B": "ben", "C": "raak", "D": "voel" },
+          "correct": "A",
+          "hint": {
+            "translation": "If I don't exercise, I become grumpy.",
+            "explanation": "'Worden' = to become (a change of state). 'Word ik chagrijnig' = I become grumpy. 'Ben ik' = I am (already in that state), 'raak ik' = I get/become (also possible but text uses 'word'), 'voel ik' = I feel (reflexive form needed: 'voel me')."
+          }
+        },
+        {
+          "id": "16_10",
+          "sentence": "___ ga ik op mijn racefiets naar het werk.",
+          "options": { "A": "Daarom", "B": "Dus", "C": "Dan", "D": "Daarna" },
+          "correct": "A",
+          "hint": {
+            "translation": "That's why I cycle to work on my racing bike.",
+            "explanation": "'Daarom' = that's why / for that reason — it refers back to the problem (sitting all day is bad for her mood) and explains the solution. 'Dus' = so/therefore (result), 'Dan' = then (time), 'Daarna' = after that."
+          }
+        },
+        {
+          "id": "16_11",
+          "sentence": "Goed voor mijn conditie en echt een ___ begin van de dag.",
+          "options": { "A": "lekker", "B": "goed", "C": "fijn", "D": "mooi" },
+          "correct": "A",
+          "hint": {
+            "translation": "Good for my fitness and really a great start to the day.",
+            "explanation": "'Lekker begin' = great/nice start. 'Lekker' is used informally to mean 'nice/great'. The text uses 'lekker begin'. 'Goed begin' = good start, 'fijn begin' = fine start, 'mooi begin' = beautiful start — all plausible but the text uses 'lekker'."
+          }
+        },
+        {
+          "id": "16_12",
+          "sentence": "'s Avonds ga ik naar de sportschool, drie ___ per week.",
+          "options": { "A": "keer", "B": "dag", "C": "maal", "D": "keren" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the evenings I go to the gym, three times a week.",
+            "explanation": "'Drie keer per week' = three times a week. 'Keer' = time (occurrence). 'Dag' = day (wrong unit), 'maal' is an older/formal form of 'keer', 'keren' is a plural but 'drie keer' doesn't take plural in Dutch."
+          }
+        },
+        {
+          "id": "16_13",
+          "sentence": "Hij is minder sportief. We hebben wel een tijdje ___ in de sportschool getraind.",
+          "options": { "A": "samen", "B": "ook", "C": "beiden", "D": "met z'n tweeën" },
+          "correct": "A",
+          "hint": {
+            "translation": "He is less sporty. We did train together in the gym for a while.",
+            "explanation": "'Samen' = together. The text uses 'samen' for the period when they trained as a couple. 'Ook' = also, 'beiden' = both (different word class), 'met z'n tweeën' = the two of us (also possible but not in text)."
+          }
+        },
+        {
+          "id": "16_14",
+          "sentence": "Maar hij vond het al ___ saai.",
+          "options": { "A": "gauw", "B": "snel", "C": "spoedig", "D": "vlug" },
+          "correct": "A",
+          "hint": {
+            "translation": "But he found it boring quite quickly.",
+            "explanation": "'Al gauw' = quite quickly / soon enough. 'Al gauw saai vinden' is a common collocation. 'Snel' also means quickly but 'al gauw' is more colloquial and used in the text. 'Spoedig' = soon (formal), 'vlug' = quick (less common here)."
+          }
+        },
+        {
+          "id": "16_15",
+          "sentence": "En ___ hij veel last van spierpijn had, hield hij op.",
+          "options": { "A": "omdat", "B": "want", "C": "doordat", "D": "als" },
+          "correct": "A",
+          "hint": {
+            "translation": "And because he had a lot of muscle pain, he stopped.",
+            "explanation": "'Omdat' = because (subordinating conjunction — verb to end: 'had'). The bijzin comes first here, triggering inversion in the main clause ('hield hij op'). 'Want' = because (coordinator, normal word order), 'doordat' = because of/due to, 'als' = if/when."
+          }
+        },
+        {
+          "id": "16_16",
+          "sentence": "Hij heeft niet ___ discipline als ik.",
+          "options": { "A": "zoveel", "B": "zo", "C": "meer", "D": "veel" },
+          "correct": "A",
+          "hint": {
+            "translation": "He doesn't have as much discipline as I do.",
+            "explanation": "'Niet zoveel ... als' = not as much ... as. Equal comparison structure. 'Zo' alone can't work with a noun. 'Meer ... dan' = more ... than (superior comparison, wrong direction). 'Veel' alone without 'zo' breaks the comparison structure."
+          }
+        },
+        {
+          "id": "16_17",
+          "sentence": "Maar hij is wel veel ___!",
+          "options": { "A": "relaxter", "B": "ontspannener", "C": "rustiger", "D": "relaxst" },
+          "correct": "A",
+          "hint": {
+            "translation": "But he is much more relaxed!",
+            "explanation": "'Relaxter' is the comparative of 'relaxt' (relaxed — a Dutch loanword). 'Ontspannener' is grammatically correct but the text uses 'relaxter'. 'Rustiger' = calmer (different word). 'Relaxst' = superlative."
+          }
+        },
+        {
+          "id": "16_18",
+          "sentence": "Mijn vriend en ik zijn ook ___.",
+          "options": { "A": "Ajaxsupporters", "B": "Ajax fans", "C": "voetballers", "D": "supporters" },
+          "correct": "A",
+          "hint": {
+            "translation": "My boyfriend and I are also Ajax supporters.",
+            "explanation": "'Ajaxsupporters' is the compound noun in the text. Dutch compounds are written as one word. 'Ajax fans' (two words) is informal/English. 'Voetballers' = football players, 'supporters' alone lacks the Ajax specificity."
+          }
+        },
+        {
+          "id": "16_19",
+          "sentence": "Op kantoor zit ik de hele dag ___ een computer.",
+          "options": { "A": "achter", "B": "voor", "C": "bij", "D": "aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "At work I sit behind a computer all day.",
+            "explanation": "'Achter een computer zitten' = to sit behind a computer (working at it). This is the standard Dutch expression. 'Voor' = in front of (less used for computers), 'bij' = near, 'aan' = at (used for 'aan tafel' but less for computers)."
+          }
+        },
+        {
+          "id": "16_20",
+          "sentence": "Vind je het ___ leuk om naar sport te kijken?",
+          "options": { "A": "ook", "B": "nog", "C": "wel", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "Do you also enjoy watching sport?",
+            "explanation": "'Ook leuk' = also fun — the interviewer adds watching sport to the list of sport-related activities already discussed. 'Nog' = still/yet, 'wel' = do (affirmative marker), 'toch' = after all."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_17",
+      "title": "Hij houdt van kunst",
+      "exercises": [
+        {
+          "id": "17_01",
+          "sentence": "Mag ik je ___ vragen?",
+          "options": { "A": "iets", "B": "wat", "C": "een vraag", "D": "iets te vragen" },
+          "correct": "A",
+          "hint": {
+            "translation": "May I ask you something?",
+            "explanation": "'Mag ik je iets vragen?' = May I ask you something? 'Iets' = something (indefinite object). 'Wat' = what (question word, not object here), 'een vraag' = a question (also grammatical: 'mag ik je een vraag stellen'), 'iets te vragen' = double infinitive problem."
+          }
+        },
+        {
+          "id": "17_02",
+          "sentence": "Jij gaat ___ naar museums en zo.",
+          "options": { "A": "regelmatig", "B": "vaak", "C": "altijd", "D": "elke dag" },
+          "correct": "A",
+          "hint": {
+            "translation": "You go to museums regularly and things like that.",
+            "explanation": "'Regelmatig' = regularly. The text uses 'regelmatig' to describe consistent but not daily museum visits. 'Vaak' = often (also natural), 'altijd' = always (too absolute), 'elke dag' = every day (too frequent for museums)."
+          }
+        },
+        {
+          "id": "17_03",
+          "sentence": "Waar komt die interesse ___ vandaan?",
+          "options": { "A": "opeens", "B": "nu", "C": "vandaag", "D": "ineens" },
+          "correct": "A",
+          "hint": {
+            "translation": "Where does that interest suddenly come from?",
+            "explanation": "'Opeens' = suddenly/all of a sudden. The text uses 'opeens'. 'Ineens' is a synonym and also means suddenly but the text uses 'opeens'. 'Nu' = now, 'vandaag' = today — neither captures the suddenness."
+          }
+        },
+        {
+          "id": "17_04",
+          "sentence": "Hij houdt ___ van kunst en ik totaal niet.",
+          "options": { "A": "namelijk", "B": "ook", "C": "toch", "D": "wel" },
+          "correct": "A",
+          "hint": {
+            "translation": "You see, he likes art and I totally don't.",
+            "explanation": "'Namelijk' = you see / the thing is — it explains/justifies what was just said (why help is needed). 'Namelijk' always comes after the verb. 'Ook' = also, 'toch' = after all, 'wel' = indeed."
+          }
+        },
+        {
+          "id": "17_05",
+          "sentence": "Precies, dat heb je goed ___.",
+          "options": { "A": "geraden", "B": "gezegd", "C": "geweten", "D": "begrepen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Exactly, you guessed that right.",
+            "explanation": "'Raden' = to guess. Past participle: 'geraden'. 'Dat heb je goed geraden' = you guessed that correctly — a fixed expression. 'Gezegd' = said, 'geweten' = known, 'begrepen' = understood."
+          }
+        },
+        {
+          "id": "17_06",
+          "sentence": "Ik wil in ieder geval naar het Rijksmuseum in Amsterdam. En ___ weet ik het niet meer.",
+          "options": { "A": "daarna", "B": "daarvoor", "C": "dan", "D": "later" },
+          "correct": "A",
+          "hint": {
+            "translation": "I definitely want to go to the Rijksmuseum in Amsterdam. And after that I don't know anymore.",
+            "explanation": "'Daarna' = after that (referring to after the Rijksmuseum). 'Daarvoor' = before that (wrong direction), 'dan' = then (less specific time reference), 'later' = later (possible but 'daarna' is more precise)."
+          }
+        },
+        {
+          "id": "17_07",
+          "sentence": "Begin ___ maar gewoon met het Rijksmuseum.",
+          "options": { "A": "inderdaad", "B": "toch", "C": "dan", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "Indeed, just start with the Rijksmuseum.",
+            "explanation": "'Inderdaad' = indeed / that's right. Mark confirms Sven's Rijksmuseum plan with 'inderdaad'. 'Toch' = after all, 'dan' = then, 'ook' = also — none confirm agreement as strongly."
+          }
+        },
+        {
+          "id": "17_08",
+          "sentence": "Daar kunnen jullie wel een paar uur ___.",
+          "options": { "A": "doorbrengen", "B": "blijven", "C": "verblijven", "D": "zitten" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can spend a few hours there.",
+            "explanation": "'Doorbrengen' = to spend time (time-related). 'Een paar uur doorbrengen' is the standard Dutch expression for spending hours somewhere. 'Blijven' = to stay, 'verblijven' = to reside (formal), 'zitten' = to sit."
+          }
+        },
+        {
+          "id": "17_09",
+          "sentence": "Dat houd ik echt niet ___!",
+          "options": { "A": "vol", "B": "uit", "C": "bij", "D": "aan" },
+          "correct": "A",
+          "hint": {
+            "translation": "I really can't keep that up!",
+            "explanation": "'Volhouden' = to endure/keep up with (a long activity). Separable: 'houd ... vol'. 'Dat houd ik niet vol' = I can't sustain that. 'Uithouden' = to endure (similar), 'bijhouden' = to keep up with (a pace), 'aanhouden' = to continue."
+          }
+        },
+        {
+          "id": "17_10",
+          "sentence": "Rustig maar, dat ___ ook niet.",
+          "options": { "A": "hoeft", "B": "moet", "C": "kan", "D": "mag" },
+          "correct": "A",
+          "hint": {
+            "translation": "Calm down, that's not necessary either.",
+            "explanation": "'Dat hoeft ook niet' = that's not necessary either. 'Hoeven niet' = don't have to (not necessary). 'Moet niet' = must not (forbidden — different meaning). 'Kan niet' = can't, 'mag niet' = not allowed."
+          }
+        },
+        {
+          "id": "17_11",
+          "sentence": "Je kunt ook fietsen ___.",
+          "options": { "A": "huren", "B": "kopen", "C": "lenen", "D": "nemen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can also rent bikes.",
+            "explanation": "'Fietsen huren' = to rent bikes. 'Huren' = to rent (you pay for temporary use). 'Kopen' = to buy, 'lenen' = to borrow, 'nemen' = to take. In Amsterdam, renting bikes from a shop is the norm for tourists."
+          }
+        },
+        {
+          "id": "17_12",
+          "sentence": "Mijn vriend is niet ___ om in zo'n drukke stad te fietsen.",
+          "options": { "A": "gewend", "B": "bekend", "C": "goed", "D": "klaar" },
+          "correct": "A",
+          "hint": {
+            "translation": "My friend is not used to cycling in such a busy city.",
+            "explanation": "'Gewend zijn om te' = to be used to doing. 'Niet gewend om te fietsen' = not used to cycling. 'Bekend zijn met' = to be familiar with (different structure), 'goed zijn in' = to be good at, 'klaar zijn voor' = to be ready for."
+          }
+        },
+        {
+          "id": "17_13",
+          "sentence": "Twee museums op één dag is voor mij te ___.",
+          "options": { "A": "veel", "B": "zwaar", "C": "lang", "D": "druk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Two museums in one day is too much for me.",
+            "explanation": "'Te veel' = too much/too many. Sven says visiting two museums is excessive for him. 'Te zwaar' = too heavy/tough, 'te lang' = too long, 'te druk' = too busy — all possible but the text says 'te veel'."
+          }
+        },
+        {
+          "id": "17_14",
+          "sentence": "Het Mauritshuis in Den Haag is ook erg ___ waard.",
+          "options": { "A": "de moeite", "B": "het proberen", "C": "een bezoek", "D": "waard" },
+          "correct": "A",
+          "hint": {
+            "translation": "The Mauritshuis in The Hague is also well worth a visit.",
+            "explanation": "'De moeite waard' = worth the effort / worthwhile. This is a fixed Dutch expression. 'Het proberen waard' = worth trying (different context), 'een bezoek waard' also works but the text uses 'de moeite waard'."
+          }
+        },
+        {
+          "id": "17_15",
+          "sentence": "Je hebt me op goede ___ gebracht.",
+          "options": { "A": "ideeën", "B": "idee", "C": "gedachten", "D": "plannen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You've given me good ideas.",
+            "explanation": "'Op ideeën brengen' = to give someone ideas. 'Ideeën' is the plural of 'idee'. 'Je hebt me op goede ideeën gebracht' is a fixed expression. 'Idee' is singular, 'gedachten' = thoughts, 'plannen' = plans."
+          }
+        },
+        {
+          "id": "17_16",
+          "sentence": "De rest kan ik zelf wel ___, denk ik.",
+          "options": { "A": "uitzoeken", "B": "zoeken", "C": "vinden", "D": "regelen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I can figure out the rest myself, I think.",
+            "explanation": "'Uitzoeken' = to figure out/sort out (separable verb). 'De rest uitzoeken' = to sort out the details. 'Zoeken' = to search, 'vinden' = to find, 'regelen' = to arrange — close but the text uses 'uitzoeken'."
+          }
+        },
+        {
+          "id": "17_17",
+          "sentence": "Lekker bier hebben ze ___.",
+          "options": { "A": "daar", "B": "er", "C": "hier", "D": "aldaar" },
+          "correct": "A",
+          "hint": {
+            "translation": "They have good beer there.",
+            "explanation": "'Daar' = there (referring to Maastricht, just mentioned). 'Er' would be used in different structures ('er is goed bier'). 'Hier' = here (wrong location). 'Aldaar' = there (very formal/archaic)."
+          }
+        },
+        {
+          "id": "17_18",
+          "sentence": "Misschien ___ we wel in Amsterdam.",
+          "options": { "A": "blijven", "B": "gaan", "C": "slapen", "D": "overnachten" },
+          "correct": "A",
+          "hint": {
+            "translation": "Maybe we'll just stay in Amsterdam.",
+            "explanation": "'Blijven' = to stay/remain. 'Misschien blijven we in Amsterdam' = maybe we'll just stay in Amsterdam (not go to other cities). 'Gaan' = to go (movement), 'slapen' = to sleep, 'overnachten' = to spend the night (more specific)."
+          }
+        },
+        {
+          "id": "17_19",
+          "sentence": "Daar is ___ te doen.",
+          "options": { "A": "zoveel", "B": "veel", "C": "genoeg", "D": "meer" },
+          "correct": "A",
+          "hint": {
+            "translation": "There is so much to do there.",
+            "explanation": "'Zoveel te doen' = so much to do (emphasising the abundance of activities). 'Veel' = a lot (less emphatic), 'genoeg' = enough (less enthusiastic), 'meer' = more (comparative — needs a reference point)."
+          }
+        },
+        {
+          "id": "17_20",
+          "sentence": "Ik ga vanavond op internet verder ___.",
+          "options": { "A": "kijken", "B": "zoeken", "C": "lezen", "D": "surfen" },
+          "correct": "A",
+          "hint": {
+            "translation": "I'll continue looking on the internet tonight.",
+            "explanation": "'Op internet verder kijken' = to continue looking/browsing online. 'Kijken' in this context means to look (browse online). 'Zoeken' = to search (more active searching), 'lezen' = to read, 'surfen' = to surf (also possible but not in text)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_18",
+      "title": "De Centrale bibliotheek in Den Haag",
+      "exercises": [
+        {
+          "id": "18_01",
+          "sentence": "Bent u weleens in dat mooie witte ___ geweest?",
+          "options": { "A": "gebouw", "B": "pand", "C": "gebouwen", "D": "huis" },
+          "correct": "A",
+          "hint": {
+            "translation": "Have you ever been in that beautiful white building?",
+            "explanation": "'Gebouw' = building (general term for a large structure). 'Pand' = building/property (often commercial). 'Gebouwen' = buildings (plural — 'dat' is singular). 'Huis' = house (residential — not appropriate for a library)."
+          }
+        },
+        {
+          "id": "18_02",
+          "sentence": "Voor luisterboeken en e-boeken ___ u niet eens uit uw stoel te komen.",
+          "options": { "A": "hoeft", "B": "moet", "C": "hoeven", "D": "kan" },
+          "correct": "A",
+          "hint": {
+            "translation": "For audiobooks and e-books you don't even have to get out of your chair.",
+            "explanation": "'Hoeven niet te' = don't have to. With formal 'u', conjugation is 'hoeft'. 'Moet niet' = must not (forbidden), 'hoeven' is plural form (wrong for 'u'), 'kan niet' = cannot."
+          }
+        },
+        {
+          "id": "18_03",
+          "sentence": "Die ___ u thuis.",
+          "options": { "A": "downloadt", "B": "download", "C": "gedownload", "D": "downloading" },
+          "correct": "A",
+          "hint": {
+            "translation": "You download those at home.",
+            "explanation": "'Downloaden' is a loanword. With 'u', present tense: 'downloadt'. 'Download' is the English form. 'Gedownload' = past participle. 'Downloading' = English present participle — not Dutch."
+          }
+        },
+        {
+          "id": "18_04",
+          "sentence": "Als u toch liever naar het Spui ___, kunt u daar aan een leestafel kranten en tijdschriften lezen.",
+          "options": { "A": "komt", "B": "gaat", "C": "reist", "D": "rijdt" },
+          "correct": "A",
+          "hint": {
+            "translation": "If you still prefer to come to the Spui, you can read newspapers and magazines there at a reading table.",
+            "explanation": "'Komen' = to come (the reader comes to the library). The speaker addresses the reader from the library's perspective. 'Gaan' = to go (from the reader's perspective, also possible but text uses 'komt')."
+          }
+        },
+        {
+          "id": "18_05",
+          "sentence": "U kunt uit Nederlandse en buitenlandse kranten ___, op papier of online.",
+          "options": { "A": "kiezen", "B": "lezen", "C": "selecteren", "D": "nemen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can choose from Dutch and foreign newspapers, in print or online.",
+            "explanation": "'Kiezen uit' = to choose from. 'Uit kiezen' expresses selection from a set. 'Lezen' = to read (what you do after choosing), 'selecteren' = to select (formal), 'nemen' = to take."
+          }
+        },
+        {
+          "id": "18_06",
+          "sentence": "De bibliotheek biedt digitale kranten en tijdschriften in zestig verschillende talen ___.",
+          "options": { "A": "aan", "B": "op", "C": "over", "D": "mee" },
+          "correct": "A",
+          "hint": {
+            "translation": "The library offers digital newspapers and magazines in sixty different languages.",
+            "explanation": "'Aanbieden' = to offer/provide. Separable verb: 'biedt ... aan'. 'Aanbieden' is the standard verb for a service being provided. 'Op/over/mee' form different separable verbs with different meanings."
+          }
+        },
+        {
+          "id": "18_07",
+          "sentence": "U kunt ook films, muziek en games ___.",
+          "options": { "A": "lenen", "B": "huren", "C": "kopen", "D": "bekijken" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can also borrow films, music and games.",
+            "explanation": "'Lenen' = to borrow (from a library — free use, return it). 'Huren' = to rent (payment for temporary use), 'kopen' = to buy, 'bekijken' = to watch — all wrong for a library context."
+          }
+        },
+        {
+          "id": "18_08",
+          "sentence": "Het ___ jaar door organiseert de Centrale Bibliotheek lunchconcerten.",
+          "options": { "A": "hele", "B": "gehele", "C": "volledige", "D": "complete" },
+          "correct": "A",
+          "hint": {
+            "translation": "Throughout the whole year the Central Library organises lunch concerts.",
+            "explanation": "'Het hele jaar door' = throughout the whole year. 'Hele' is the inflected form of 'heel' with a definite article and het-word. 'Gehele' is a formal synonym. 'Volledige' = complete/full, 'complete' = English."
+          }
+        },
+        {
+          "id": "18_09",
+          "sentence": "Het Taalhuis op de tweede ___ heeft spreekuur.",
+          "options": { "A": "verdieping", "B": "etage", "C": "niveau", "D": "laag" },
+          "correct": "A",
+          "hint": {
+            "translation": "The Language House on the second floor has consultation hours.",
+            "explanation": "'Verdieping' = floor/storey (in a building). The text uses 'verdieping'. 'Etage' is a French loanword also used, 'niveau' = level (more abstract), 'laag' = layer/stratum."
+          }
+        },
+        {
+          "id": "18_10",
+          "sentence": "Op dinsdagmiddag ___ daar het Taalcafé plaats.",
+          "options": { "A": "vindt", "B": "heeft", "C": "is", "D": "neemt" },
+          "correct": "A",
+          "hint": {
+            "translation": "On Tuesday afternoon the Language Café takes place there.",
+            "explanation": "'Plaatsvinden' = to take place. Separable: 'vindt ... plaats'. 'Plaatsvinden' is the standard Dutch verb for events occurring. 'Heeft plaats' is also used, 'is' and 'neemt' don't form this expression."
+          }
+        },
+        {
+          "id": "18_11",
+          "sentence": "Dan is de Centrale Bibliotheek een goede ___ om te studeren.",
+          "options": { "A": "plek", "B": "plek voor", "C": "ruimte", "D": "lokatie" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then the Central Library is a good place to study.",
+            "explanation": "'Plek' = place/spot (informal, very common). 'Een goede plek om te studeren' = a good place to study. 'Plek voor' would need a noun, not 'om te'. 'Ruimte' = space/room, 'lokatie' is a misspelling of 'locatie'."
+          }
+        },
+        {
+          "id": "18_12",
+          "sentence": "Op de vijfde verdieping zijn speciale studieplekken die een gratis wifi-verbinding ___.",
+          "options": { "A": "hebben", "B": "bieden", "C": "geven", "D": "bevatten" },
+          "correct": "A",
+          "hint": {
+            "translation": "On the fifth floor there are special study spots that have a free wifi connection.",
+            "explanation": "'Hebben' = to have (possess). The study spots have wifi. In a relative clause, the verb goes to the end. 'Bieden' = to offer, 'geven' = to give, 'bevatten' = to contain — all possible but text uses 'hebben'."
+          }
+        },
+        {
+          "id": "18_13",
+          "sentence": "Veel studieplekken hebben een stopcontact, ___ u uw laptop of telefoon kunt opladen.",
+          "options": { "A": "zodat", "B": "zodat u", "C": "opdat", "D": "omdat" },
+          "correct": "A",
+          "hint": {
+            "translation": "Many study spots have a socket, so that you can charge your laptop or phone.",
+            "explanation": "'Zodat' = so that (expresses result/purpose). 'Zodat u kunt opladen' — verb to end in bijzin. 'Opdat' = in order that (more formal/archaic). 'Omdat' = because (reason, not result)."
+          }
+        },
+        {
+          "id": "18_14",
+          "sentence": "___ hebt u direct toegang tot de collectie van de bibliotheek.",
+          "options": { "A": "Bovendien", "B": "Bovendien dat", "C": "Daarna", "D": "Bovendien ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "Moreover, you have direct access to the library's collection.",
+            "explanation": "'Bovendien' = moreover/in addition — adds another benefit. 'Bovendien' at the start triggers inversion: 'hebt u'. 'Bovendien dat' is redundant, 'daarna' = after that, 'bovendien ook' is redundant."
+          }
+        },
+        {
+          "id": "18_15",
+          "sentence": "Dat is gratis voor leden; niet-leden ___ een klein bedrag.",
+          "options": { "A": "betalen", "B": "hebben", "C": "geven", "D": "krijgen" },
+          "correct": "A",
+          "hint": {
+            "translation": "That is free for members; non-members pay a small amount.",
+            "explanation": "'Betalen' = to pay. 'Een bedrag betalen' = to pay an amount. 'Hebben' = to have, 'geven' = to give, 'krijgen' = to receive — none mean 'to pay'."
+          }
+        },
+        {
+          "id": "18_16",
+          "sentence": "Het lidmaatschap is ___ tot achttien jaar.",
+          "options": { "A": "gratis", "B": "goedkoop", "C": "kosteloos", "D": "vrij" },
+          "correct": "A",
+          "hint": {
+            "translation": "Membership is free up to the age of eighteen.",
+            "explanation": "'Gratis' = free (at no cost). The text uses 'gratis'. 'Goedkoop' = cheap (not free), 'kosteloos' = free (formal synonym), 'vrij' = free (in the sense of liberty, not price)."
+          }
+        },
+        {
+          "id": "18_17",
+          "sentence": "Het goedkoopste lidmaatschap voor volwassenen kost zestien euro ___ jaar.",
+          "options": { "A": "per", "B": "in het", "C": "voor het", "D": "het" },
+          "correct": "A",
+          "hint": {
+            "translation": "The cheapest membership for adults costs sixteen euros per year.",
+            "explanation": "'Per jaar' = per year (rate/frequency). 'Per' is the standard Dutch preposition for expressing rates. 'In het jaar' = in the year, 'voor het jaar' = for the year (different meaning), 'het jaar' has no preposition."
+          }
+        },
+        {
+          "id": "18_18",
+          "sentence": "Het lezen van (digitale) kranten en tijdschriften is ___.",
+          "options": { "A": "gratis", "B": "vrij", "C": "kosteloos", "D": "niet duur" },
+          "correct": "A",
+          "hint": {
+            "translation": "Reading (digital) newspapers and magazines is free.",
+            "explanation": "The text uses 'gratis'. 'Kosteloos' is a formal synonym. 'Vrij' means free in other senses, 'niet duur' = not expensive (implies some cost)."
+          }
+        },
+        {
+          "id": "18_19",
+          "sentence": "Kijk op onze website voor de ___.",
+          "options": { "A": "mogelijkheden", "B": "informatie", "C": "details", "D": "opties" },
+          "correct": "A",
+          "hint": {
+            "translation": "Check our website for the options.",
+            "explanation": "'Mogelijkheden' = possibilities/options. The text invites readers to check the website for all membership options. 'Informatie' = information, 'details' = details, 'opties' = options (English-style word, less formal Dutch)."
+          }
+        },
+        {
+          "id": "18_20",
+          "sentence": "In het Taalcafé kunt u ___ met anderen Nederlands spreken.",
+          "options": { "A": "samen", "B": "ook", "C": "wel", "D": "zelfs" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the Language Café you can speak Dutch together with others.",
+            "explanation": "'Samen' = together. The point of the Taalcafé is the communal practice. 'Ook' = also, 'wel' = indeed (affirmative), 'zelfs' = even — none capture the 'together' aspect of the café."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_19",
+      "title": "De zorgverzekering",
+      "exercises": [
+        {
+          "id": "19_01",
+          "sentence": "Iedereen in Nederland moet een zorgverzekering ___.",
+          "options": { "A": "hebben", "B": "nemen", "C": "kopen", "D": "kiezen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Everyone in the Netherlands must have health insurance.",
+            "explanation": "'Hebben' = to have (possession of a required item). 'Een verzekering hebben' is the standard construction. 'Nemen' = to take, 'kopen' = to buy, 'kiezen' = to choose — all relate to getting one, but the obligation is to *have* it."
+          }
+        },
+        {
+          "id": "19_02",
+          "sentence": "Deze zorgverzekering is ___ en heet de basisverzekering.",
+          "options": { "A": "verplicht", "B": "nodig", "C": "vereist", "D": "wettelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "This health insurance is compulsory and is called the basic insurance.",
+            "explanation": "'Verplicht' = compulsory/mandatory. 'Verplicht' is the standard adjective for legally required things in Dutch. 'Nodig' = necessary, 'vereist' = required (formal), 'wettelijk' = legal/by law (adverb, not adjective here)."
+          }
+        },
+        {
+          "id": "19_03",
+          "sentence": "De basisverzekering verzekert u ___ de noodzakelijke medische kosten.",
+          "options": { "A": "tegen", "B": "voor", "C": "bij", "D": "van" },
+          "correct": "A",
+          "hint": {
+            "translation": "The basic insurance insures you against the necessary medical costs.",
+            "explanation": "'Verzekeren tegen' = to insure against. This is the fixed Dutch collocation. 'Verzekeren voor' and 'verzekeren bij' are not standard. 'Van' = of/from."
+          }
+        },
+        {
+          "id": "19_04",
+          "sentence": "Voor uw verzekering betaalt u iedere maand een ___ bedrag: de premie.",
+          "options": { "A": "vast", "B": "vaste", "C": "hoog", "D": "bepaald" },
+          "correct": "A",
+          "hint": {
+            "translation": "For your insurance you pay a fixed amount every month: the premium.",
+            "explanation": "'Bedrag' is a het-word. After 'een', adjectives before het-words do NOT get -e: 'een vast bedrag'. 'Vaste' would be correct with 'het' or 'dit'. 'Hoog' = high, 'bepaald' = a certain/specific."
+          }
+        },
+        {
+          "id": "19_05",
+          "sentence": "___ de basisverzekering kunt u nog extra verzekeringen kiezen.",
+          "options": { "A": "Naast", "B": "Behalve", "C": "Buiten", "D": "Boven" },
+          "correct": "A",
+          "hint": {
+            "translation": "In addition to the basic insurance, you can choose extra insurance.",
+            "explanation": "'Naast' = in addition to / alongside. 'Naast de basisverzekering' = on top of the basic insurance. 'Behalve' = except for (subtracts, not adds), 'buiten' = outside of, 'boven' = above."
+          }
+        },
+        {
+          "id": "19_06",
+          "sentence": "Een aanvullende verzekering ___ extra medische kosten.",
+          "options": { "A": "vergoedt", "B": "betaalt", "C": "dekt", "D": "geeft" },
+          "correct": "A",
+          "hint": {
+            "translation": "A supplementary insurance reimburses extra medical costs.",
+            "explanation": "'Vergoeden' = to reimburse/compensate. 'Vergoedt' is the 3rd person singular. This is the technical insurance term in Dutch. 'Betalen' = to pay (more general), 'dekken' = to cover (also used for insurance), 'geven' = to give."
+          }
+        },
+        {
+          "id": "19_07",
+          "sentence": "Een overzicht van uw verzekeringen staat in uw ___.",
+          "options": { "A": "polis", "B": "document", "C": "brief", "D": "papieren" },
+          "correct": "A",
+          "hint": {
+            "translation": "An overview of your insurances is in your policy document.",
+            "explanation": "'Polis' is the specific Dutch term for an insurance policy document. 'Document' = document (too generic), 'brief' = letter, 'papieren' = papers (plural — wouldn't follow 'uw' as singular)."
+          }
+        },
+        {
+          "id": "19_08",
+          "sentence": "U moet een eerste ___ van de zorgkosten zelf betalen.",
+          "options": { "A": "deel", "B": "gedeelte", "C": "helft", "D": "percentage" },
+          "correct": "A",
+          "hint": {
+            "translation": "You must pay a first part of the healthcare costs yourself.",
+            "explanation": "'Deel' = part/portion. 'Een eerste deel' = a first portion. 'Gedeelte' is a synonym but the text uses 'deel'. 'Helft' = half (implies 50%), 'percentage' = percentage (too vague for this specific deductible system)."
+          }
+        },
+        {
+          "id": "19_09",
+          "sentence": "De overheid ___ elk jaar de hoogte van dit eigen risico.",
+          "options": { "A": "bepaalt", "B": "beslist", "C": "zet", "D": "kiest" },
+          "correct": "A",
+          "hint": {
+            "translation": "The government determines the level of this deductible every year.",
+            "explanation": "'Bepalen' = to determine/set. 'De overheid bepaalt' = the government sets/determines. 'Beslist' = decides, 'zet' = sets (but 'stellen' is more standard here), 'kiest' = chooses."
+          }
+        },
+        {
+          "id": "19_10",
+          "sentence": "Alle kosten ___ die 385 euro betaalt de verzekering.",
+          "options": { "A": "boven", "B": "over", "C": "na", "D": "meer dan" },
+          "correct": "A",
+          "hint": {
+            "translation": "All costs above that 385 euros are paid by the insurance.",
+            "explanation": "'Boven die 385 euro' = above that 385 euros (exceeding the deductible). 'Boven' here means exceeding an amount. 'Over' = over/about, 'na' = after, 'meer dan' = more than (possible but the text uses 'boven')."
+          }
+        },
+        {
+          "id": "19_11",
+          "sentence": "De huisarts, kraamzorg en zorg voor kinderen ___ niet onder het eigen risico.",
+          "options": { "A": "vallen", "B": "staan", "C": "zijn", "D": "tellen" },
+          "correct": "A",
+          "hint": {
+            "translation": "The GP, maternity care and care for children do not fall under the deductible.",
+            "explanation": "'Onder het eigen risico vallen' = to fall under the deductible (be subject to it). 'Vallen onder' is the fixed Dutch expression for items being included in a category. 'Staan', 'zijn', 'tellen' don't form this expression."
+          }
+        },
+        {
+          "id": "19_12",
+          "sentence": "U betaalt deze kosten voor een deel zelf, ___ uw eigen risico op is.",
+          "options": { "A": "totdat", "B": "nadat", "C": "als", "D": "zodat" },
+          "correct": "A",
+          "hint": {
+            "translation": "You pay these costs partly yourself, until your deductible is used up.",
+            "explanation": "'Totdat' = until. You keep paying until the deductible is exhausted. 'Nadat' = after, 'als' = if/when (conditional), 'zodat' = so that (purpose/result)."
+          }
+        },
+        {
+          "id": "19_13",
+          "sentence": "Als u ___ uw zorgverzekering niet tevreden bent, kunt u overstappen.",
+          "options": { "A": "over", "B": "met", "C": "van", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "If you are not satisfied with your health insurance, you can switch.",
+            "explanation": "'Tevreden over' = satisfied with. 'Over' is the preposition for 'tevreden'. 'Tevreden met' is also used in some contexts but 'tevreden over je verzekering' is more standard. 'Van' and 'bij' don't collocate with 'tevreden'."
+          }
+        },
+        {
+          "id": "19_14",
+          "sentence": "U moet dan voor 1 januari van het nieuwe jaar een nieuwe verzekering ___.",
+          "options": { "A": "kiezen", "B": "hebben", "C": "nemen", "D": "regelen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You must then choose a new insurance before January 1st of the new year.",
+            "explanation": "'Kiezen' = to choose (selecting between options). The text specifies the action as choosing. 'Hebben' = to have (possession), 'nemen' = to take, 'regelen' = to arrange."
+          }
+        },
+        {
+          "id": "19_15",
+          "sentence": "En u moet uw oude zorgverzekering ___.",
+          "options": { "A": "opzeggen", "B": "stoppen", "C": "beëindigen", "D": "vergeten" },
+          "correct": "A",
+          "hint": {
+            "translation": "And you must cancel your old health insurance.",
+            "explanation": "'Opzeggen' = to cancel (a contract/subscription). Separable verb: 'zeg ... op'. This is the standard term for cancelling a recurring contract in Dutch. 'Stoppen' = to stop (informal), 'beëindigen' = to terminate (formal), 'vergeten' = to forget."
+          }
+        },
+        {
+          "id": "19_16",
+          "sentence": "Als u ___ een nieuwe verzekering twijfelt, kunt u online verschillende verzekeringen vergelijken.",
+          "options": { "A": "over", "B": "aan", "C": "bij", "D": "van" },
+          "correct": "A",
+          "hint": {
+            "translation": "If you are unsure about a new insurance, you can compare different insurances online.",
+            "explanation": "'Twijfelen over' = to doubt/be unsure about. This is the standard preposition after 'twijfelen'. 'Twijfelen aan' is also used ('aan iemands eerlijkheid twijfelen'), but 'over' is correct for 'twijfelen over een keuze'."
+          }
+        },
+        {
+          "id": "19_17",
+          "sentence": "U ___ een zorgverzekering voor minimaal één jaar.",
+          "options": { "A": "kiest", "B": "neemt", "C": "heeft", "D": "sluit" },
+          "correct": "A",
+          "hint": {
+            "translation": "You choose a health insurance for a minimum of one year.",
+            "explanation": "The text uses 'kiest' (you choose). 'Neemt' = takes (possible), 'heeft' = has (possession already), 'sluit' = concludes/takes out (used for contracts: 'een contract sluiten') — all possible but the text uses 'kiest'."
+          }
+        },
+        {
+          "id": "19_18",
+          "sentence": "Halverwege het jaar kunt u ___ niet op een andere verzekering overstappen.",
+          "options": { "A": "dus", "B": "toch", "C": "dan", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "Therefore, you cannot switch to a different insurance halfway through the year.",
+            "explanation": "'Dus' = so/therefore — it draws a logical conclusion from the one-year minimum rule. 'Toch' = after all, 'dan' = then, 'ook' = also — none express logical consequence as clearly."
+          }
+        },
+        {
+          "id": "19_19",
+          "sentence": "Dit zijn ___ verzekeringen en ze zijn niet verplicht.",
+          "options": { "A": "aanvullende", "B": "aanvullend", "C": "extra", "D": "additionele" },
+          "correct": "A",
+          "hint": {
+            "translation": "These are supplementary insurances and they are not compulsory.",
+            "explanation": "'Aanvullende' = supplementary (inflected adjective before plural noun). 'Aanvullend' is base form (used predicatively: 'de verzekering is aanvullend'). 'Extra' also works but the text uses 'aanvullende'. 'Additionele' = English-influenced."
+          }
+        },
+        {
+          "id": "19_20",
+          "sentence": "Als u in een jaar geen ___ heeft, betaalt u alleen uw premie.",
+          "options": { "A": "zorgkosten", "B": "kosten", "C": "uitgaven", "D": "rekeningen" },
+          "correct": "A",
+          "hint": {
+            "translation": "If you have no healthcare costs in a year, you only pay your premium.",
+            "explanation": "'Zorgkosten' = healthcare costs (care + costs compound noun). The text specifically uses 'zorgkosten' in the context of insurance. 'Kosten' = costs (general), 'uitgaven' = expenses, 'rekeningen' = bills."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_20",
+      "title": "Afval",
+      "exercises": [
+        {
+          "id": "20_01",
+          "sentence": "In Nederland verzamelen we ___ jaar zo'n vijfhonderd kilo afval per persoon.",
+          "options": { "A": "per", "B": "in het", "C": "elk", "D": "ieder" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the Netherlands we collect around five hundred kilos of waste per person per year.",
+            "explanation": "'Per jaar' = per year (rate). 'Per' is the correct preposition for expressing annual rates. 'In het jaar' = in the year (a specific year), 'elk/ieder jaar' = each year (repeated occurrence, not rate)."
+          }
+        },
+        {
+          "id": "20_02",
+          "sentence": "De gemeente ___ het restafval op.",
+          "options": { "A": "haalt", "B": "pakt", "C": "neemt", "D": "brengt" },
+          "correct": "A",
+          "hint": {
+            "translation": "The municipality collects the residual waste.",
+            "explanation": "'Ophalen' = to collect/pick up. Separable verb: 'haalt ... op'. 'Afval ophalen' = to collect waste. 'Pakken' = to grab, 'nemen' = to take, 'brengen' = to bring (wrong direction — the municipality takes it away)."
+          }
+        },
+        {
+          "id": "20_03",
+          "sentence": "Bewoners moeten hun vuilniszakken dan ___ de straat zetten.",
+          "options": { "A": "aan", "B": "op", "C": "bij", "D": "langs" },
+          "correct": "A",
+          "hint": {
+            "translation": "Residents must put their rubbish bags on the street.",
+            "explanation": "'Aan de straat zetten' = to put out on the street (for collection). 'Aan de straat' is the fixed Dutch expression for putting rubbish out. 'Op de straat' = on the street (physical surface), 'bij' = near, 'langs' = along."
+          }
+        },
+        {
+          "id": "20_04",
+          "sentence": "Soms ___ ze dan een speciaal pasje om de container open te maken.",
+          "options": { "A": "krijgen", "B": "hebben", "C": "gebruiken", "D": "nemen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Sometimes they receive a special pass to open the container.",
+            "explanation": "'Krijgen' = to receive/get. The residents receive the pass (it's given to them). 'Hebben' = to have (already possessing), 'gebruiken' = to use (after receiving), 'nemen' = to take (they don't take it themselves)."
+          }
+        },
+        {
+          "id": "20_05",
+          "sentence": "Daarom moeten we niet al ons afval in één vuilnisbak ___.",
+          "options": { "A": "gooien", "B": "doen", "C": "stoppen", "D": "plaatsen" },
+          "correct": "A",
+          "hint": {
+            "translation": "That's why we should not throw all our waste in one bin.",
+            "explanation": "'Gooien' = to throw (into a bin). The text uses 'gooien in' for waste disposal. 'Doen in' = to put in (also used), 'stoppen in' = to put/stuff in, 'plaatsen' = to place. The text uses 'gooien'."
+          }
+        },
+        {
+          "id": "20_06",
+          "sentence": "Het is ___ voor het milieu om afval te scheiden.",
+          "options": { "A": "beter", "B": "goed", "C": "belangrijk", "D": "nodig" },
+          "correct": "A",
+          "hint": {
+            "translation": "It is better for the environment to separate waste.",
+            "explanation": "'Beter' = better (comparative). The text uses a comparative because separating waste is better than not separating it. 'Goed' = good (no comparison), 'belangrijk' = important, 'nodig' = necessary."
+          }
+        },
+        {
+          "id": "20_07",
+          "sentence": "Plastic, papier en glas kunnen we dan nog een keer ___.",
+          "options": { "A": "gebruiken", "B": "hergebruiken", "C": "recyclen", "D": "verwerken" },
+          "correct": "A",
+          "hint": {
+            "translation": "Plastic, paper and glass we can then use again.",
+            "explanation": "The text uses 'gebruiken' (to use). 'Nog een keer gebruiken' = use again. 'Hergebruiken' = to reuse (also correct but the text says 'nog een keer gebruiken'). 'Recyclen' = to recycle, 'verwerken' = to process."
+          }
+        },
+        {
+          "id": "20_08",
+          "sentence": "Lege flessen en potten moeten in de ___.",
+          "options": { "A": "glasbak", "B": "glascontainer", "C": "glas bak", "D": "glazen bak" },
+          "correct": "A",
+          "hint": {
+            "translation": "Empty bottles and jars must go in the glass bin.",
+            "explanation": "'Glasbak' = glass recycling bin (compound noun). Dutch compounds are written as one word. 'Glascontainer' is also used but 'glasbak' is in the text. 'Glas bak' is wrong (two words), 'glazen bak' = glass (material) container — different meaning."
+          }
+        },
+        {
+          "id": "20_09",
+          "sentence": "Lege batterijen, medicijnen en olie ___ niet in het milieu terechtkomen.",
+          "options": { "A": "mogen", "B": "kunnen", "C": "moeten", "D": "hoeven" },
+          "correct": "A",
+          "hint": {
+            "translation": "Empty batteries, medicines and oil must not end up in the environment.",
+            "explanation": "'Mogen niet' = must not / are not allowed to (prohibition). These items are not permitted to enter the environment. 'Kunnen niet' = cannot (ability), 'moeten' = must (obligation), 'hoeven niet' = don't have to (no necessity — wrong here)."
+          }
+        },
+        {
+          "id": "20_10",
+          "sentence": "In de supermarkt staan vaak bakken ___ lege batterijen.",
+          "options": { "A": "voor", "B": "van", "C": "met", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "Supermarkets often have containers for empty batteries.",
+            "explanation": "'Bakken voor lege batterijen' = containers for (collecting) empty batteries. 'Voor' expresses purpose/intended use. 'Van' = of (possession), 'met' = with (already containing), 'bij' = near."
+          }
+        },
+        {
+          "id": "20_11",
+          "sentence": "Met 'groenafval' ___ we etensresten, schillen en afval uit de tuin.",
+          "options": { "A": "bedoelen", "B": "noemen", "C": "zeggen", "D": "betekenen" },
+          "correct": "A",
+          "hint": {
+            "translation": "By 'green waste' we mean food scraps, peelings and garden waste.",
+            "explanation": "'Bedoelen' = to mean (what is meant by a term). 'Met X bedoelen we Y' = by X we mean Y. 'Noemen' = to name/call, 'zeggen' = to say, 'betekenen' = to mean (word has a meaning — slightly different)."
+          }
+        },
+        {
+          "id": "20_12",
+          "sentence": "Dat kan in de ___.",
+          "options": { "A": "gft-bak", "B": "groene bak", "C": "compost bak", "D": "tuin bak" },
+          "correct": "A",
+          "hint": {
+            "translation": "That can go in the gft-bin (green waste bin).",
+            "explanation": "'gft-bak' = the specific Dutch term for the green organic waste bin (groente, fruit, tuinafval). The text uses this exact term. 'Groene bak' is informal, 'compost bak' = compost bin, 'tuin bak' is not a standard term."
+          }
+        },
+        {
+          "id": "20_13",
+          "sentence": "Oude meubels, matrassen en grote elektrische apparaten mag u niet ___ buiten zetten.",
+          "options": { "A": "zomaar", "B": "gewoon", "C": "zomaar even", "D": "zomaar maar" },
+          "correct": "A",
+          "hint": {
+            "translation": "You may not just put old furniture, mattresses and large electrical appliances outside.",
+            "explanation": "'Zomaar' = just like that / without reason/permission. 'Niet zomaar buiten zetten' = not just put outside without following the rules. 'Gewoon' = simply (also possible but text uses 'zomaar'). 'Zomaar even' and 'zomaar maar' are redundant additions."
+          }
+        },
+        {
+          "id": "20_14",
+          "sentence": "Wilt u dat de gemeente het grofvuil ___?",
+          "options": { "A": "ophaalt", "B": "haalt", "C": "weghaalt", "D": "opruimt" },
+          "correct": "A",
+          "hint": {
+            "translation": "Do you want the municipality to collect the bulk waste?",
+            "explanation": "'Ophalen' = to collect (the standard term for waste collection by municipality). Separable: 'haalt ... op'. 'Weghaalt' = takes away, 'opruimt' = tidies up. The text uses 'ophaalt'."
+          }
+        },
+        {
+          "id": "20_15",
+          "sentence": "Maak dan een ___.",
+          "options": { "A": "afspraak", "B": "plan", "C": "reservering", "D": "contact" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then make an appointment.",
+            "explanation": "'Een afspraak maken' = to make an appointment. This is the fixed Dutch expression. 'Een plan maken' = to make a plan, 'een reservering maken' = to make a reservation, 'contact maken' = to make contact."
+          }
+        },
+        {
+          "id": "20_16",
+          "sentence": "Op lege flesjes en kratten bier ___ vaak statiegeld.",
+          "options": { "A": "zit", "B": "staat", "C": "is", "D": "heeft" },
+          "correct": "A",
+          "hint": {
+            "translation": "Empty small bottles and crates of beer often have a deposit on them.",
+            "explanation": "'Er zit statiegeld op' = there is a deposit on it. 'Zitten op' expresses that something is on/attached to a price. 'Staat op' is used for text written on something, 'is' and 'heeft' don't form this expression."
+          }
+        },
+        {
+          "id": "20_17",
+          "sentence": "Als u ze naar de supermarkt ___, krijgt u een bonnetje.",
+          "options": { "A": "terugbrengt", "B": "brengt", "C": "meebrengt", "D": "terugstuurt" },
+          "correct": "A",
+          "hint": {
+            "translation": "If you bring them back to the supermarket, you get a receipt.",
+            "explanation": "'Terugbrengen' = to bring back (return). 'Terug' prefix signals returning something. 'Brengen' = to bring (general), 'meebrengen' = to bring along, 'terugsturen' = to send back (different method)."
+          }
+        },
+        {
+          "id": "20_18",
+          "sentence": "Met dit bonnetje kunt u het statiegeld ___ of een deel van uw boodschappen betalen.",
+          "options": { "A": "terugkrijgen", "B": "ontvangen", "C": "terugnemen", "D": "terugpakken" },
+          "correct": "A",
+          "hint": {
+            "translation": "With this receipt you can get the deposit back or pay for part of your shopping.",
+            "explanation": "'Terugkrijgen' = to get back (receive money back). Separable: 'krijg ... terug'. 'Ontvangen' = to receive (formal), 'terugnemen' = to take back, 'terugpakken' = to grab back — none are as natural for getting a refund."
+          }
+        },
+        {
+          "id": "20_19",
+          "sentence": "___ kunnen schadelijke stoffen zo niet in het milieu terechtkomen.",
+          "options": { "A": "Bovendien", "B": "Dus", "C": "Echter", "D": "Immers" },
+          "correct": "A",
+          "hint": {
+            "translation": "Moreover, harmful substances cannot end up in the environment this way.",
+            "explanation": "'Bovendien' = moreover — adds an additional benefit beyond reusing materials. 'Dus' = so/therefore, 'echter' = however (contrast), 'immers' = after all/indeed."
+          }
+        },
+        {
+          "id": "20_20",
+          "sentence": "Plastic, metaal en blik moeten in een ___ bak.",
+          "options": { "A": "speciale", "B": "speciaal", "C": "apart", "D": "andere" },
+          "correct": "A",
+          "hint": {
+            "translation": "Plastic, metal and tin must go in a special bin.",
+            "explanation": "'Een speciale bak' — 'bak' is a de-word. After 'een', adjectives before de-words get -e: 'speciale'. 'Speciaal' would be predicative ('de bak is speciaal'). 'Apart' = separate (also possible), 'andere' = other."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_21",
+      "title": "Gebruik je netwerk!",
+      "exercises": [
+        {
+          "id": "21_01",
+          "sentence": "Ga in ieder geval naar een uitzendbureau en ___ je als werkzoekende in.",
+          "options": { "A": "schrijf", "B": "meld", "C": "registreer", "D": "zet" },
+          "correct": "A",
+          "hint": {
+            "translation": "At any rate, go to an employment agency and register as a job-seeker.",
+            "explanation": "'Je inschrijven' = to register yourself. Separable verb: 'schrijf ... in'. 'Je inschrijven bij een uitzendbureau' is the standard phrase. 'Melden' = to report, 'registreren' = to register (also used), 'zetten' = to put."
+          }
+        },
+        {
+          "id": "21_02",
+          "sentence": "Ze ___ werkgevers en werknemers op deze manier met elkaar in contact.",
+          "options": { "A": "brengen", "B": "zetten", "C": "leggen", "D": "stellen" },
+          "correct": "A",
+          "hint": {
+            "translation": "They connect employers and employees in this way.",
+            "explanation": "'In contact brengen' = to bring into contact / to connect. 'Brengen ... in contact' is the fixed expression. 'Zetten', 'leggen', 'stellen' don't form this collocation."
+          }
+        },
+        {
+          "id": "21_03",
+          "sentence": "Je netwerk ___ uit alle mensen die je kent.",
+          "options": { "A": "bestaat", "B": "bestaat van", "C": "gaat", "D": "heeft" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your network consists of all the people you know.",
+            "explanation": "'Bestaan uit' = to consist of. 'Netwerk bestaat uit mensen' = network consists of people. 'Bestaan van' is wrong preposition. 'Gaat' = goes, 'heeft' = has — neither means 'consists of'."
+          }
+        },
+        {
+          "id": "21_04",
+          "sentence": "Je netwerk is ___ dan je denkt.",
+          "options": { "A": "groter", "B": "groot", "C": "het grootst", "D": "meer groot" },
+          "correct": "A",
+          "hint": {
+            "translation": "Your network is bigger than you think.",
+            "explanation": "'Groter dan' = bigger than. The comparative of 'groot'. 'Dan' signals a comparative is needed. 'Groot' = base form, 'het grootst' = superlative, 'meer groot' = wrong (short adjectives use -er not 'meer')."
+          }
+        },
+        {
+          "id": "21_05",
+          "sentence": "Met netwerken kun je je netwerk verder ___.",
+          "options": { "A": "uitbreiden", "B": "vergroten", "C": "opbouwen", "D": "ontwikkelen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Through networking you can expand your network further.",
+            "explanation": "'Uitbreiden' = to expand/extend. 'Netwerk uitbreiden' = to expand a network (adding more connections). 'Vergroten' = to enlarge (size), 'opbouwen' = to build up (from scratch), 'ontwikkelen' = to develop."
+          }
+        },
+        {
+          "id": "21_06",
+          "sentence": "Dat is van ___ voor mensen die werk zoeken.",
+          "options": { "A": "belang", "B": "belangen", "C": "belangrijkheid", "D": "waarde" },
+          "correct": "A",
+          "hint": {
+            "translation": "That is important for people looking for work.",
+            "explanation": "'Van belang zijn' = to be important. 'Van belang' is a fixed expression. 'Van belangen' is wrong (plural). 'Van belangrijkheid' doesn't exist. 'Van waarde' = of value (different expression)."
+          }
+        },
+        {
+          "id": "21_07",
+          "sentence": "Netwerken klinkt ___ spannend, maar het betekent gewoon contact maken.",
+          "options": { "A": "inderdaad", "B": "toch", "C": "misschien", "D": "zeker" },
+          "correct": "A",
+          "hint": {
+            "translation": "Networking does indeed sound exciting, but it just means making contact.",
+            "explanation": "'Inderdaad' = indeed/that's true — Yazan acknowledges Diana's point before reframing it. 'Toch' = after all, 'misschien' = perhaps, 'zeker' = certainly. 'Inderdaad' confirms and then redirects."
+          }
+        },
+        {
+          "id": "21_08",
+          "sentence": "Als je netwerkt, moet je voor nieuwe mensen ___ staan.",
+          "options": { "A": "open", "B": "klaar", "C": "vrij", "D": "bereid" },
+          "correct": "A",
+          "hint": {
+            "translation": "When you network, you must be open to new people.",
+            "explanation": "'Open staan voor' = to be open to. 'Open staan' is the fixed Dutch expression for being receptive. 'Klaarstaan voor' = to be ready for, 'vrij zijn voor' = to be free for, 'bereid zijn voor' = to be prepared for."
+          }
+        },
+        {
+          "id": "21_09",
+          "sentence": "Praat op borrels of bijeenkomsten ___ niet altijd met dezelfde mensen.",
+          "options": { "A": "dus", "B": "maar", "C": "ook", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "So at drinks or gatherings, don't always talk to the same people.",
+            "explanation": "'Dus' = so/therefore (drawing a practical conclusion from the advice to be open to new people). 'Maar' = but (contrast), 'ook' = also, 'toch' = after all."
+          }
+        },
+        {
+          "id": "21_10",
+          "sentence": "Ga ___ eens naar onbekende mensen.",
+          "options": { "A": "ook", "B": "dan", "C": "eens", "D": "even" },
+          "correct": "A",
+          "hint": {
+            "translation": "Also go talk to unfamiliar people sometimes.",
+            "explanation": "'Ook eens' = also sometimes. 'Ook' adds this as an additional suggestion. 'Dan eens' = then sometimes, 'eens eens' = redundant, 'even eens' = unusual combination."
+          }
+        },
+        {
+          "id": "21_11",
+          "sentence": "Zoek naar interesses die jullie ___ hebben.",
+          "options": { "A": "allebei", "B": "samen", "C": "beiden", "D": "twee" },
+          "correct": "A",
+          "hint": {
+            "translation": "Look for interests that you both have.",
+            "explanation": "'Allebei' = both (of two people). 'Interesses die jullie allebei hebben' = interests you both share. 'Samen' = together (adverb), 'beiden' = both (more formal, 'Wij beiden'), 'twee' = two (number, not 'both')."
+          }
+        },
+        {
+          "id": "21_12",
+          "sentence": "Vraag ___ naar hun werkzaamheden en werkervaring.",
+          "options": { "A": "bijvoorbeeld", "B": "eens", "C": "maar", "D": "gewoon" },
+          "correct": "A",
+          "hint": {
+            "translation": "Ask, for example, about their work and work experience.",
+            "explanation": "'Bijvoorbeeld' = for example. Yazan gives concrete examples of what to ask. 'Eens' = sometime/just, 'maar' = just/simply, 'gewoon' = simply — none introduce examples as clearly."
+          }
+        },
+        {
+          "id": "21_13",
+          "sentence": "Begin met praten over een ___ onderwerp, zoals de locatie of het eten.",
+          "options": { "A": "neutraal", "B": "neutral", "C": "onschuldig", "D": "veilig" },
+          "correct": "A",
+          "hint": {
+            "translation": "Start by talking about a neutral topic, like the location or the food.",
+            "explanation": "'Neutraal' = neutral (non-controversial). The text uses 'neutraal'. 'Neutral' = English spelling. 'Onschuldig' = innocent, 'veilig' = safe — both possible but text uses 'neutraal'."
+          }
+        },
+        {
+          "id": "21_14",
+          "sentence": "Later kun je ___ vragen stellen.",
+          "options": { "A": "serieuzere", "B": "serieuze", "C": "meer serieuze", "D": "serieuzer" },
+          "correct": "A",
+          "hint": {
+            "translation": "Later you can ask more serious questions.",
+            "explanation": "'Serieuzere' = more serious (comparative adjective before plural de-word 'vragen'). Adjectives get -e when before a noun + article/possessive. 'Serieuze' = base inflected form. 'Meer serieuze' = wrong (short comparative uses -er). 'Serieuzer' = predicative comparative."
+          }
+        },
+        {
+          "id": "21_15",
+          "sentence": "Hoe heb je je baan ___?",
+          "options": { "A": "gevonden", "B": "gekregen", "C": "gezocht", "D": "gekozen" },
+          "correct": "A",
+          "hint": {
+            "translation": "How did you find your job?",
+            "explanation": "'Hoe heb je je baan gevonden?' = how did you find your job? 'Vinden' = to find. 'Gekregen' = received (implies it was given), 'gezocht' = searched for (the process, not finding it), 'gekozen' = chosen (selecting from options)."
+          }
+        },
+        {
+          "id": "21_16",
+          "sentence": "Besef dat ___ netwerken spannend vindt.",
+          "options": { "A": "iedereen", "B": "niemand", "C": "iemand", "D": "men" },
+          "correct": "A",
+          "hint": {
+            "translation": "Realise that everyone finds networking exciting.",
+            "explanation": "'Iedereen' = everyone. The advice is: you're not alone in finding it daunting — everyone does. 'Niemand' = nobody (opposite), 'iemand' = someone (vague), 'men' = one (formal/impersonal — unusual in this direct advice context)."
+          }
+        },
+        {
+          "id": "21_17",
+          "sentence": "Verwacht niet ___ resultaat.",
+          "options": { "A": "meteen", "B": "snel", "C": "al", "D": "direct" },
+          "correct": "A",
+          "hint": {
+            "translation": "Don't expect results immediately.",
+            "explanation": "'Meteen' = immediately / straight away. The text uses 'meteen'. 'Snel' = quickly, 'al' = already, 'direct' = immediately (also possible but the text uses 'meteen')."
+          }
+        },
+        {
+          "id": "21_18",
+          "sentence": "In het ___ vind je netwerken misschien lastig.",
+          "options": { "A": "begin", "B": "start", "C": "eerste", "D": "aanvang" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the beginning you may find networking difficult.",
+            "explanation": "'In het begin' = in the beginning. This is a fixed temporal expression. 'Begin' is a het-word. 'Start' = start (English), 'eerste' = first (ordinal adjective, needs a noun), 'aanvang' = commencement (formal)."
+          }
+        },
+        {
+          "id": "21_19",
+          "sentence": "Het zal ___ beter gaan.",
+          "options": { "A": "snel", "B": "gauw", "C": "spoedig", "D": "vlug" },
+          "correct": "A",
+          "hint": {
+            "translation": "It will get better quickly.",
+            "explanation": "The text uses 'snel'. 'Gauw' is informal synonym, 'spoedig' = soon (formal), 'vlug' = quick. All are similar but the text uses 'snel'."
+          }
+        },
+        {
+          "id": "21_20",
+          "sentence": "Geniet ___ van de leuke contacten die je krijgt!",
+          "options": { "A": "vooral", "B": "ook", "C": "wel", "D": "zeker" },
+          "correct": "A",
+          "hint": {
+            "translation": "Most of all, enjoy the nice contacts you make!",
+            "explanation": "'Vooral' = above all / especially. The text uses 'geniet vooral' as enthusiastic encouragement. 'Ook' = also, 'wel' = indeed, 'zeker' = certainly — none match the text's 'especially enjoy'."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image22",
+      "title": "LinkedIn profielen",
+      "exercises": [
+        {
+          "id": "22_01",
+          "sentence": "Ik ben een ___ psycholoog.",
+          "options": { "A": "ervaren", "B": "ervarende", "C": "ervaring", "D": "ervaren hebbende" },
+          "correct": "A",
+          "hint": {
+            "translation": "I am an experienced psychologist.",
+            "explanation": "'Ervaren' = experienced (adjective used before a noun). It acts as an adjective and does not inflect further for this usage. 'Ervarende' is not standard, 'ervaring' = experience (noun), 'ervaren hebbende' = overly complex."
+          }
+        },
+        {
+          "id": "22_02",
+          "sentence": "Ik geef therapie aan mensen die een ___ of andere persoonlijke problemen hebben.",
+          "options": { "A": "depressie", "B": "depressief", "C": "depressiviteit", "D": "neerslagtigheid" },
+          "correct": "A",
+          "hint": {
+            "translation": "I give therapy to people who have depression or other personal problems.",
+            "explanation": "'Een depressie hebben' = to have a depression (the clinical condition). 'Depressief' = depressed (adjective — 'je bent depressief'). 'Depressiviteit' = depressiveness (abstract quality). 'Neerslagtigheid' = archaic/formal synonym."
+          }
+        },
+        {
+          "id": "22_03",
+          "sentence": "Deze functie ___ goed bij mijn kwaliteiten.",
+          "options": { "A": "past", "B": "klopt", "C": "sluit", "D": "matcht" },
+          "correct": "A",
+          "hint": {
+            "translation": "This position fits well with my qualities.",
+            "explanation": "'Passen bij' = to fit with / to suit. 'Deze functie past bij mijn kwaliteiten' is standard Dutch for job-application language. 'Kloppen' = to be correct, 'sluiten aan bij' = to connect to (also possible), 'matchen' = to match (Anglicism)."
+          }
+        },
+        {
+          "id": "22_04",
+          "sentence": "Ik ben geduldig, ___ en behulpzaam.",
+          "options": { "A": "betrouwbaar", "B": "eerlijk", "C": "vriendelijk", "D": "sociaal" },
+          "correct": "A",
+          "hint": {
+            "translation": "I am patient, trustworthy and helpful.",
+            "explanation": "The text lists exactly 'geduldig, betrouwbaar en behulpzaam'. 'Betrouwbaar' = trustworthy. This tests exact vocabulary from the text. All options are personality traits but only 'betrouwbaar' matches the text."
+          }
+        },
+        {
+          "id": "22_05",
+          "sentence": "Ik vind het belangrijk dat mensen zich tijdens de therapie ___ voelen.",
+          "options": { "A": "veilig", "B": "goed", "C": "comfortabel", "D": "vrij" },
+          "correct": "A",
+          "hint": {
+            "translation": "I think it is important that people feel safe during therapy.",
+            "explanation": "'Veilig voelen' = to feel safe. In a therapy context, psychological safety ('veilig') is key. 'Goed voelen' = to feel good, 'comfortabel voelen' = to feel comfortable (also logical), 'vrij voelen' = to feel free."
+          }
+        },
+        {
+          "id": "22_06",
+          "sentence": "Vorig jaar heb ik mijn eerste boek ___.",
+          "options": { "A": "geschreven", "B": "geschreven heb", "C": "schrijven", "D": "geschrijven" },
+          "correct": "A",
+          "hint": {
+            "translation": "Last year I wrote my first book.",
+            "explanation": "'Schrijven' = to write. Irregular past participle: 'geschreven'. In perfectum, participium goes to end: 'heb ik ... geschreven'. 'Geschrijven' doesn't exist. 'Schrijven' is the infinitive."
+          }
+        },
+        {
+          "id": "22_07",
+          "sentence": "Het gaat over een onderwerp dat ik altijd interessant ___ heb.",
+          "options": { "A": "gevonden", "B": "gevind", "C": "vind", "D": "vonden" },
+          "correct": "A",
+          "hint": {
+            "translation": "It is about a subject that I have always found interesting.",
+            "explanation": "'Vinden' = to find/consider. Past participle: 'gevonden'. In a relative clause (bijzin), the participium goes to end: 'dat ik ... gevonden heb'. 'Gevind' doesn't exist. 'Vind' = present tense. 'Vonden' = imperfectum plural."
+          }
+        },
+        {
+          "id": "22_08",
+          "sentence": "___ 15 jaar werk ik met veel plezier bij de Bijenkorf.",
+          "options": { "A": "Al", "B": "Sinds", "C": "Voor", "D": "Gedurende" },
+          "correct": "A",
+          "hint": {
+            "translation": "For 15 years already I have been working with great pleasure at the Bijenkorf.",
+            "explanation": "'Al 15 jaar' = for 15 years already. 'Al' here stresses duration up to now. 'Sinds 15 jaar' = since 15 years (less natural in Dutch for a duration). 'Gedurende 15 jaar' = during 15 years (formal). The text uses 'Al 15 jaar'."
+          }
+        },
+        {
+          "id": "22_09",
+          "sentence": "Tijdens mijn studie heb ik een jaar bij de Bijenkorf ___ gelopen.",
+          "options": { "A": "stage", "B": "praktijk", "C": "werk", "D": "leer" },
+          "correct": "A",
+          "hint": {
+            "translation": "During my studies I did a year-long internship at the Bijenkorf.",
+            "explanation": "'Stage lopen' = to do an internship. 'Stage' is the Dutch term for an internship. 'Stagelopen' is sometimes written as one word. 'Praktijk' = practice, 'werk' = work, 'leer' = apprenticeship (different system)."
+          }
+        },
+        {
+          "id": "22_10",
+          "sentence": "Ik ___ ook regelmatig in, als een verkoper ziek was.",
+          "options": { "A": "viel", "B": "ging", "C": "sprong", "D": "stapte" },
+          "correct": "A",
+          "hint": {
+            "translation": "I also regularly filled in when a salesperson was ill.",
+            "explanation": "'Invallen' = to fill in / substitute. Separable: 'viel ... in'. Imperfectum: 'viel in'. 'Invallen voor iemand' = to cover for someone. 'Ging in' = entered, 'sprong in' = jumped in, 'stapte in' = stepped in."
+          }
+        },
+        {
+          "id": "22_11",
+          "sentence": "Tegenwoordig geef ik ___ leiding aan een groep medewerkers.",
+          "options": { "A": "als manager", "B": "als teamleider", "C": "als chef", "D": "als baas" },
+          "correct": "A",
+          "hint": {
+            "translation": "Nowadays I give leadership to a group of employees as a manager.",
+            "explanation": "The text uses 'als manager'. 'Teamleider' = team leader (also used), 'chef' = boss (informal), 'baas' = boss (informal). The exact word in the text is 'manager'."
+          }
+        },
+        {
+          "id": "22_12",
+          "sentence": "Als het nodig is, val ik in of ruil ik een dag ___ een collega.",
+          "options": { "A": "met", "B": "voor", "C": "aan", "D": "bij" },
+          "correct": "A",
+          "hint": {
+            "translation": "If necessary, I fill in or swap a day with a colleague.",
+            "explanation": "'Een dag ruilen met' = to swap a day with (someone). 'Met' is the preposition for mutual exchange. 'Ruilen voor' = to exchange for (a thing), 'aan' and 'bij' don't collocate with 'ruilen' in this sense."
+          }
+        },
+        {
+          "id": "22_13",
+          "sentence": "Ik ben bijna ___ met mijn studie wiskunde.",
+          "options": { "A": "klaar", "B": "af", "C": "klaar te zijn", "D": "gereed" },
+          "correct": "A",
+          "hint": {
+            "translation": "I am almost done with my mathematics degree.",
+            "explanation": "'Bijna klaar zijn met' = to be almost done/finished with. 'Klaar zijn met' is the natural Dutch expression. 'Af zijn met' = to be done (more informal), 'klaar te zijn' = infinitive form (wrong here), 'gereed' = ready (formal/old-fashioned)."
+          }
+        },
+        {
+          "id": "22_14",
+          "sentence": "Ook geef ik bijles aan scholieren die wiskunde ___ vinden.",
+          "options": { "A": "moeilijk", "B": "moeilijker", "C": "lastig", "D": "ingewikkeld" },
+          "correct": "A",
+          "hint": {
+            "translation": "I also give private tuition to students who find mathematics difficult.",
+            "explanation": "The text uses 'moeilijk vinden' = to find difficult. 'Moeilijker' = more difficult (comparative — no comparison here), 'lastig' = tricky (also natural), 'ingewikkeld' = complicated. The text uses 'moeilijk'."
+          }
+        },
+        {
+          "id": "22_15",
+          "sentence": "___ kan ik goed met apparaten werken.",
+          "options": { "A": "Daarnaast", "B": "Bovendien", "C": "Ook", "D": "Eveneens" },
+          "correct": "A",
+          "hint": {
+            "translation": "Besides that, I can work well with equipment.",
+            "explanation": "'Daarnaast' = besides that / in addition (referring back to the previous point). The text uses 'Daarnaast'. 'Bovendien' = moreover, 'ook' = also, 'eveneens' = likewise — all additive but the text uses 'Daarnaast'."
+          }
+        },
+        {
+          "id": "22_16",
+          "sentence": "Ik ben ___, maar ik kan ook goed samenwerken.",
+          "options": { "A": "zelfstandig", "B": "onafhankelijk", "C": "alleen", "D": "autonoom" },
+          "correct": "A",
+          "hint": {
+            "translation": "I am self-reliant, but I can also work well with others.",
+            "explanation": "'Zelfstandig' = independent/self-reliant (working without supervision). This is the standard Dutch word in job contexts. 'Onafhankelijk' = independent (more general), 'alleen' = alone (just adverb), 'autonoom' = autonomous (formal)."
+          }
+        },
+        {
+          "id": "22_17",
+          "sentence": "Een goede ___ op het werk vind ik heel belangrijk.",
+          "options": { "A": "sfeer", "B": "omgeving", "C": "cultuur", "D": "atmosfeer" },
+          "correct": "A",
+          "hint": {
+            "translation": "I find a good atmosphere at work very important.",
+            "explanation": "'Sfeer' = atmosphere/vibe. 'Een goede sfeer op het werk' is the standard Dutch expression for a positive work atmosphere. 'Omgeving' = environment, 'cultuur' = culture, 'atmosfeer' = atmosphere (also possible but 'sfeer' is more colloquial)."
+          }
+        },
+        {
+          "id": "22_18",
+          "sentence": "Mijn collega's ___ me als sociaal en flexibel.",
+          "options": { "A": "beschrijven", "B": "zien", "C": "noemen", "D": "vinden" },
+          "correct": "A",
+          "hint": {
+            "translation": "My colleagues describe me as social and flexible.",
+            "explanation": "'Beschrijven als' = to describe as. The text uses 'beschrijven' for how colleagues characterise him. 'Zien als' = to see as, 'noemen' = to call/name, 'vinden' = to find/consider — all possible but text uses 'beschrijven'."
+          }
+        },
+        {
+          "id": "22_19",
+          "sentence": "Ik heb veel ___ van mode.",
+          "options": { "A": "kennis", "B": "interesse", "C": "passie", "D": "ervaring" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have a lot of knowledge of fashion.",
+            "explanation": "'Kennis van' = knowledge of. 'Veel kennis van mode hebben' = to have extensive knowledge of fashion. 'Interesse in' = interest in (different preposition), 'passie voor' = passion for, 'ervaring in' = experience in."
+          }
+        },
+        {
+          "id": "22_20",
+          "sentence": "Ik kan heel goed kleding ___ onze klanten verkopen.",
+          "options": { "A": "aan", "B": "voor", "C": "bij", "D": "naar" },
+          "correct": "A",
+          "hint": {
+            "translation": "I can sell clothing to our customers very well.",
+            "explanation": "'Iets aan iemand verkopen' = to sell something to someone. 'Aan' is the preposition for the recipient in a sale. 'Voor' = for, 'bij' = at/near, 'naar' = to/towards (movement)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_23",
+      "title": "Een sollicitatiegesprek",
+      "exercises": [
+        {
+          "id": "23_01",
+          "sentence": "Ik ben hier ___ geweest.",
+          "options": { "A": "vaker", "B": "eerder", "C": "al eens", "D": "meer" },
+          "correct": "A",
+          "hint": {
+            "translation": "I've been here more often.",
+            "explanation": "'Vaker' = more often (comparative of 'vaak'). Murat says he's been to this bookshop multiple times before. 'Eerder' = earlier/before (time-based), 'al eens' = already once, 'meer' = more (not for frequency with 'geweest')."
+          }
+        },
+        {
+          "id": "23_02",
+          "sentence": "We zoeken ___ iemand voor één of twee dagen per week.",
+          "options": { "A": "dus", "B": "dan", "C": "zo", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "So we're looking for someone for one or two days a week.",
+            "explanation": "'Dus' = so/therefore. The interviewer summarises the job type. 'Dus' draws a conclusion or summarises. 'Dan' = then, 'zo' = thus/so (less natural here), 'ook' = also."
+          }
+        },
+        {
+          "id": "23_03",
+          "sentence": "Ik heb in het verleden wel als ___ in een supermarkt gewerkt.",
+          "options": { "A": "winkelmedewerker", "B": "medewerker", "C": "verkoper", "D": "kassier" },
+          "correct": "A",
+          "hint": {
+            "translation": "I have worked in the past as a shop employee in a supermarket.",
+            "explanation": "The text uses 'winkelmedewerker' (shop employee — compound noun). 'Medewerker' = employee (general), 'verkoper' = salesperson, 'kassier' = cashier. The text uses the specific compound 'winkelmedewerker'."
+          }
+        },
+        {
+          "id": "23_04",
+          "sentence": "Ik moest het ___ en de winkel netjes houden.",
+          "options": { "A": "magazijn", "B": "magazijnen", "C": "lager", "D": "archief" },
+          "correct": "A",
+          "hint": {
+            "translation": "I had to keep the stockroom and the shop tidy.",
+            "explanation": "'Magazijn' = stockroom/warehouse (retail storage area). 'Magazijnen' = plural (but 'het' is singular article: 'het magazijn'). 'Lager' = store (Belgicism/dialectal), 'archief' = archive (office files)."
+          }
+        },
+        {
+          "id": "23_05",
+          "sentence": "'s Ochtends maakte ik de winkel open en 's avonds ___ ik hem weer.",
+          "options": { "A": "sloot", "B": "sluit", "C": "sloten", "D": "deed dicht" },
+          "correct": "A",
+          "hint": {
+            "translation": "In the mornings I opened the shop and in the evenings I closed it again.",
+            "explanation": "'Sluiten' = to close. Imperfectum with 'ik': 'sloot'. The parallel structure 'maakte open...sloot' requires past tense. 'Sluit' = present tense, 'sloten' = plural past, 'deed dicht' = also possible but the text uses 'sloot'."
+          }
+        },
+        {
+          "id": "23_06",
+          "sentence": "Maar ik ___ ook met klanten om.",
+          "options": { "A": "ging", "B": "was", "C": "werkte", "D": "omging" },
+          "correct": "A",
+          "hint": {
+            "translation": "But I also dealt with customers.",
+            "explanation": "'Omgaan met' = to deal with. Separable verb: 'ging ... om'. Imperfectum: 'ging'. 'Omging' would be the bijzin form. 'Was' = was, 'werkte' = worked (less specific)."
+          }
+        },
+        {
+          "id": "23_07",
+          "sentence": "Ik moest ze helpen, ___ ze iets niet konden vinden.",
+          "options": { "A": "als", "B": "wanneer", "C": "indien", "D": "zodra" },
+          "correct": "A",
+          "hint": {
+            "translation": "I had to help them when they couldn't find something.",
+            "explanation": "'Als' = when/if (conditional). 'Als ze iets niet konden vinden' — this is a condition. 'Wanneer' also works (when), 'indien' = if (formal written), 'zodra' = as soon as (temporal — implies speed). The text uses 'als'."
+          }
+        },
+        {
+          "id": "23_08",
+          "sentence": "Ik ben nauwkeurig en ___, denk ik.",
+          "options": { "A": "ijverig", "B": "hard werkend", "C": "ambitieus", "D": "serieus" },
+          "correct": "A",
+          "hint": {
+            "translation": "I am precise and diligent, I think.",
+            "explanation": "The text lists 'nauwkeurig en ijverig'. 'IJverig' = diligent/hardworking. 'Hard werkend' = hardworking (also means this), 'ambitieus' = ambitious, 'serieus' = serious. The text specifically uses 'ijverig'."
+          }
+        },
+        {
+          "id": "23_09",
+          "sentence": "Ik neem mijn werk erg ___.",
+          "options": { "A": "serieus", "B": "ernstig", "C": "zwaar", "D": "goed" },
+          "correct": "A",
+          "hint": {
+            "translation": "I take my work very seriously.",
+            "explanation": "'Serieus nemen' = to take seriously. 'Werk serieus nemen' is the standard Dutch expression. 'Ernstig nemen' is also possible. 'Zwaar nemen' = to take too heavily/to heart (too extreme), 'goed nemen' = to accept well."
+          }
+        },
+        {
+          "id": "23_10",
+          "sentence": "Kun je daar ook een ___ van geven?",
+          "options": { "A": "voorbeeld", "B": "bewijs", "C": "reden", "D": "situatie" },
+          "correct": "A",
+          "hint": {
+            "translation": "Can you also give an example of that?",
+            "explanation": "'Een voorbeeld geven' = to give an example. This is a fixed expression used in interviews. 'Bewijs' = proof, 'reden' = reason, 'situatie' = situation — all possible but the text uses 'voorbeeld'."
+          }
+        },
+        {
+          "id": "23_11",
+          "sentence": "Als klanten ___ een vraag over een product hadden, maakte ik graag tijd voor ze.",
+          "options": { "A": "bijvoorbeeld", "B": "eens", "C": "soms", "D": "ook" },
+          "correct": "A",
+          "hint": {
+            "translation": "When customers had a question about a product for example, I gladly made time for them.",
+            "explanation": "'Bijvoorbeeld' = for example. Murat illustrates what being helpful means with a concrete example. 'Eens' = once/sometime, 'soms' = sometimes (also possible), 'ook' = also. The text uses 'bijvoorbeeld'."
+          }
+        },
+        {
+          "id": "23_12",
+          "sentence": "Ik vind het niks om de hele dag ___ een bureau te zitten.",
+          "options": { "A": "achter", "B": "bij", "C": "aan", "D": "voor" },
+          "correct": "A",
+          "hint": {
+            "translation": "I don't like sitting behind a desk all day.",
+            "explanation": "'Achter een bureau zitten' = to sit behind a desk. 'Achter' is the standard preposition for sitting at a workdesk. 'Aan een bureau' = at a desk (also used), but the text uses 'achter'. 'Bij/voor' don't work here."
+          }
+        },
+        {
+          "id": "23_13",
+          "sentence": "Maximaal twaalf uur per week. Ik studeer ___, dus ik kan niet te veel werken.",
+          "options": { "A": "nog", "B": "ook", "C": "al", "D": "toch" },
+          "correct": "A",
+          "hint": {
+            "translation": "A maximum of twelve hours per week. I'm still studying, so I can't work too much.",
+            "explanation": "'Nog studeren' = to still be studying (ongoing). 'Ik studeer nog' = I'm still a student. 'Ook' = also, 'al' = already (opposite — would mean finished studying), 'toch' = after all."
+          }
+        },
+        {
+          "id": "23_14",
+          "sentence": "Daarna ___ ik meteen met de directeur.",
+          "options": { "A": "overleg", "B": "praat", "C": "bespreek", "D": "vergader" },
+          "correct": "A",
+          "hint": {
+            "translation": "After that I'll consult with the director immediately.",
+            "explanation": "'Overleggen' = to consult/discuss (to deliberate and decide together). The text uses 'overleg'. 'Praten' = to talk (general), 'bespreken' = to discuss, 'vergaderen' = to have a meeting (formal group meeting)."
+          }
+        },
+        {
+          "id": "23_15",
+          "sentence": "We besluiten dan samen wie we ___.",
+          "options": { "A": "aannemen", "B": "kiezen", "C": "nemen", "D": "selecteren" },
+          "correct": "A",
+          "hint": {
+            "translation": "We'll then decide together who we'll hire.",
+            "explanation": "'Aannemen' = to hire/take on. Separable verb: 'nemen ... aan'. 'Wie we aannemen' in a bijzin = verb to end. 'Kiezen' = to choose, 'nemen' alone = to take, 'selecteren' = to select (more formal process)."
+          }
+        },
+        {
+          "id": "23_16",
+          "sentence": "Na het overleg ___ we je mailen.",
+          "options": { "A": "zullen", "B": "gaan", "C": "zouden", "D": "zullen we" },
+          "correct": "A",
+          "hint": {
+            "translation": "After the meeting we will email you.",
+            "explanation": "'Zullen' = will (future). After 'na het overleg' in slot 1, inversion: verb 'zullen' in position 2, then subject 'we'. 'Gaan' = going to (also possible), 'zouden' = would (conditional — too uncertain here), 'zullen we' is wrong order after inversion."
+          }
+        },
+        {
+          "id": "23_17",
+          "sentence": "Wanneer ___ ik iets van u?",
+          "options": { "A": "hoor", "B": "krijg", "C": "verneem", "D": "weet" },
+          "correct": "A",
+          "hint": {
+            "translation": "When will I hear from you?",
+            "explanation": "'Iets horen van iemand' = to hear from someone. 'Wanneer hoor ik iets van u?' = when will I hear from you? — standard phrase after an interview. 'Krijgen' = to get, 'vernemen' = to learn/hear (formal), 'weten' = to know."
+          }
+        },
+        {
+          "id": "23_18",
+          "sentence": "Goed, dan heb ik ___ nog één vraag.",
+          "options": { "A": "tot slot", "B": "als laatste", "C": "ten slotte", "D": "uiteindelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Good, then I have finally one more question.",
+            "explanation": "'Tot slot' = finally / in closing (signalling the last item). The text uses 'tot slot'. 'Als laatste' = as the last one, 'ten slotte' = finally (also common), 'uiteindelijk' = ultimately (after a long time)."
+          }
+        },
+        {
+          "id": "23_19",
+          "sentence": "In het weekend ben ik altijd ___.",
+          "options": { "A": "beschikbaar", "B": "vrij", "C": "thuis", "D": "aanwezig" },
+          "correct": "A",
+          "hint": {
+            "translation": "At the weekend I am always available.",
+            "explanation": "'Beschikbaar' = available (for work/scheduling purposes). This is job-application vocabulary. 'Vrij' = free/off (can mean not working), 'thuis' = at home (location), 'aanwezig' = present."
+          }
+        },
+        {
+          "id": "23_20",
+          "sentence": "Morgen heb ik nog een sollicitatiegesprek met een andere ___.",
+          "options": { "A": "sollicitant", "B": "kandidaat", "C": "persoon", "D": "medewerker" },
+          "correct": "A",
+          "hint": {
+            "translation": "Tomorrow I have another job interview with another applicant.",
+            "explanation": "'Sollicitant' = job applicant (person who has applied). The text uses 'sollicitant'. 'Kandidaat' = candidate (also used), 'persoon' = person (too general), 'medewerker' = employee (already hired)."
+          }
+        }
+      ]
+    },
+    {
+      "text_id": "image_24",
+      "title": "Receptionist bij Hotel Arena",
+      "exercises": [
+        {
+          "id": "24_01",
+          "sentence": "Ben jij op ___ naar een leuke baan in een hotel?",
+          "options": { "A": "zoek", "B": "zoeken", "C": "zocht", "D": "zoeken naar" },
+          "correct": "A",
+          "hint": {
+            "translation": "Are you looking for a nice job in a hotel?",
+            "explanation": "'Op zoek zijn naar' = to be looking for. 'Op zoek' is the fixed noun phrase used in this expression. 'Op zoeken' = grammatically wrong (zoek is a noun here, not a verb), 'zocht' = past tense verb."
+          }
+        },
+        {
+          "id": "24_02",
+          "sentence": "Zorg jij dat onze gasten met een ___ gevoel naar huis gaan?",
+          "options": { "A": "tevreden", "B": "blij", "C": "positief", "D": "goed" },
+          "correct": "A",
+          "hint": {
+            "translation": "Do you ensure that our guests go home with a satisfied feeling?",
+            "explanation": "'Tevreden' = satisfied. 'Met een tevreden gevoel naar huis gaan' = to go home feeling satisfied. This is the standard hotel/service industry phrase. 'Blij' = happy, 'positief' = positive, 'goed' = good — all possible but the text uses 'tevreden'."
+          }
+        },
+        {
+          "id": "24_03",
+          "sentence": "Ben jij ___ om hard te werken?",
+          "options": { "A": "bereid", "B": "klaar", "C": "in staat", "D": "geschikt" },
+          "correct": "A",
+          "hint": {
+            "translation": "Are you willing to work hard?",
+            "explanation": "'Bereid zijn om te' = to be willing to. 'Bereid' is the standard adjective for willingness in formal job listings. 'Klaar om' = ready to (implies preparation), 'in staat om' = capable of, 'geschikt om' = suitable to."
+          }
+        },
+        {
+          "id": "24_04",
+          "sentence": "Je bent ___ voor alle werkzaamheden bij de receptie.",
+          "options": { "A": "verantwoordelijk", "B": "aansprakelijk", "C": "belast", "D": "beschikbaar" },
+          "correct": "A",
+          "hint": {
+            "translation": "You are responsible for all tasks at the reception.",
+            "explanation": "'Verantwoordelijk zijn voor' = to be responsible for (duties). Job description language. 'Aansprakelijk' = liable (legal responsibility), 'belast met' = charged with (also used), 'beschikbaar' = available."
+          }
+        },
+        {
+          "id": "24_05",
+          "sentence": "Je neemt de telefoon ___ en beantwoordt e-mails.",
+          "options": { "A": "op", "B": "aan", "C": "in", "D": "af" },
+          "correct": "A",
+          "hint": {
+            "translation": "You answer the phone and reply to emails.",
+            "explanation": "'De telefoon opnemen' = to answer the phone. Separable: 'neemt ... op'. 'Opnemen' is the standard Dutch verb for answering a call. 'Aannemen' = to accept/hire, 'innemen' = to take in, 'afnemen' = to decrease/take from."
+          }
+        },
+        {
+          "id": "24_06",
+          "sentence": "Je controleert de kamers ___ je ze aan de gasten geeft.",
+          "options": { "A": "voordat", "B": "nadat", "C": "zodra", "D": "wanneer" },
+          "correct": "A",
+          "hint": {
+            "translation": "You check the rooms before giving them to the guests.",
+            "explanation": "'Voordat' = before. You check the rooms first, then give them to guests. 'Nadat' = after (wrong order), 'zodra' = as soon as (temporal but implies immediacy after the main action), 'wanneer' = when (less specific timing)."
+          }
+        },
+        {
+          "id": "24_07",
+          "sentence": "Je kan met stress ___ en je hebt veel motivatie.",
+          "options": { "A": "omgaan", "B": "gaan", "C": "omgaan met", "D": "handelen" },
+          "correct": "A",
+          "hint": {
+            "translation": "You can deal with stress and you have a lot of motivation.",
+            "explanation": "'Omgaan met' = to deal with. Separable: 'gaat ... om'. 'Met stress omgaan' in a bijzin = 'omgaan' to end. In main clause: 'kan ... omgaan'. 'Omgaan met' split is wrong here (the 'met' is already present in the sentence)."
+          }
+        },
+        {
+          "id": "24_08",
+          "sentence": "Je hebt goede ___ op de computer.",
+          "options": { "A": "vaardigheden", "B": "kennis", "C": "ervaring", "D": "skills" },
+          "correct": "A",
+          "hint": {
+            "translation": "You have good computer skills.",
+            "explanation": "'Vaardigheden' = skills (plural). 'Goede vaardigheden op de computer' = good computer skills. 'Kennis' = knowledge (takes 'van': 'kennis van computers'), 'ervaring' = experience (takes 'met'), 'skills' = English loanword."
+          }
+        },
+        {
+          "id": "24_09",
+          "sentence": "Je hebt ___ één jaar werkervaring als receptionist in een hotel.",
+          "options": { "A": "minimaal", "B": "minstens", "C": "ten minste", "D": "mimimum" },
+          "correct": "A",
+          "hint": {
+            "translation": "You have at least one year of work experience as a receptionist in a hotel.",
+            "explanation": "The text uses 'minimaal' = at least/minimum. 'Minstens' and 'ten minste' are synonyms and equally correct. 'Mimimum' = misspelling of 'minimum'. The text uses 'minimaal'."
+          }
+        },
+        {
+          "id": "24_10",
+          "sentence": "Je spreekt ___ Engels en voldoende Nederlands.",
+          "options": { "A": "vloeiend", "B": "goed", "C": "perfect", "D": "uitstekend" },
+          "correct": "A",
+          "hint": {
+            "translation": "You speak fluent English and sufficient Dutch.",
+            "explanation": "'Vloeiend' = fluent (for language proficiency). 'Vloeiend Engels spreken' is the standard Dutch phrase for fluency. 'Goed' = well, 'perfect' = perfectly, 'uitstekend' = excellently — all possible but the text uses 'vloeiend'."
+          }
+        },
+        {
+          "id": "24_11",
+          "sentence": "Je bent ___ 24 uur per week beschikbaar.",
+          "options": { "A": "minimaal", "B": "maximaal", "C": "minstens", "D": "ten minste" },
+          "correct": "A",
+          "hint": {
+            "translation": "You are available for a minimum of 24 hours per week.",
+            "explanation": "The text uses 'minimaal 24 uur' = at minimum 24 hours. This is the minimum requirement. 'Maximaal' = maximum (a different constraint), 'minstens/ten minste' = at least (synonyms, but the text uses 'minimaal')."
+          }
+        },
+        {
+          "id": "24_12",
+          "sentence": "Je moet ___ twee weekenden per maand werken.",
+          "options": { "A": "maximaal", "B": "minimaal", "C": "ten hoogste", "D": "hooguit" },
+          "correct": "A",
+          "hint": {
+            "translation": "You must work a maximum of two weekends per month.",
+            "explanation": "'Maximaal twee weekenden' = at most two weekends. This is the upper limit. 'Minimaal' = at least (lower limit — opposite), 'ten hoogste' = at most (formal synonym), 'hooguit' = at most (also synonym). Text uses 'maximaal'."
+          }
+        },
+        {
+          "id": "24_13",
+          "sentence": "Hotel Arena is goed ___.",
+          "options": { "A": "bereikbaar", "B": "toegankelijk", "C": "te vinden", "D": "gelegen" },
+          "correct": "A",
+          "hint": {
+            "translation": "Hotel Arena is easily accessible.",
+            "explanation": "'Bereikbaar' = accessible / easy to reach (by transport). The text uses 'bereikbaar'. 'Toegankelijk' = accessible (for people with disabilities or metaphorically), 'te vinden' = to be found, 'gelegen' = situated."
+          }
+        },
+        {
+          "id": "24_14",
+          "sentence": "Het ___ aan de snelweg en vlakbij een station.",
+          "options": { "A": "ligt", "B": "staat", "C": "zit", "D": "is" },
+          "correct": "A",
+          "hint": {
+            "translation": "It is located on the motorway and close to a station.",
+            "explanation": "'Liggen' = to be located/situated (buildings, cities use 'liggen'). 'Het hotel ligt aan de snelweg' is standard Dutch for location. 'Staan' = to stand (for tall/narrow structures), 'zitten' = to sit, 'is' = is (possible but 'ligt' is more precise for location)."
+          }
+        },
+        {
+          "id": "24_15",
+          "sentence": "Je ___ een salaris van €10,09 bruto per uur.",
+          "options": { "A": "krijgt", "B": "verdient", "C": "ontvangt", "D": "heeft" },
+          "correct": "A",
+          "hint": {
+            "translation": "You receive a salary of €10.09 gross per hour.",
+            "explanation": "The text uses 'krijgt' (you get/receive). 'Verdient' = earns (also natural), 'ontvangt' = receives (formal), 'heeft' = has. The text uses 'krijgt'."
+          }
+        },
+        {
+          "id": "24_16",
+          "sentence": "Je ___ je werkdagen in overleg met je collega's.",
+          "options": { "A": "bepaalt", "B": "kiest", "C": "maakt", "D": "regelt" },
+          "correct": "A",
+          "hint": {
+            "translation": "You determine your work days in consultation with your colleagues.",
+            "explanation": "'Bepalen' = to determine/decide. 'Je werkdagen bepalen' = to set your own working days. 'Kiezen' = to choose (from fixed options), 'maken' = to make, 'regelen' = to arrange — the text uses 'bepaalt'."
+          }
+        },
+        {
+          "id": "24_17",
+          "sentence": "Ben jij ___ voor deze baan?",
+          "options": { "A": "geschikt", "B": "klaar", "C": "bereid", "D": "goed" },
+          "correct": "A",
+          "hint": {
+            "translation": "Are you suitable for this job?",
+            "explanation": "'Geschikt zijn voor' = to be suitable for. Job application vocabulary. 'Klaar voor' = ready for, 'bereid voor' = willing (different preposition: 'bereid om'), 'goed voor' = good for."
+          }
+        },
+        {
+          "id": "24_18",
+          "sentence": "Solliciteer dan ___ op deze vacature!",
+          "options": { "A": "direct", "B": "nu", "C": "meteen", "D": "gelijk" },
+          "correct": "A",
+          "hint": {
+            "translation": "Then apply directly for this vacancy!",
+            "explanation": "The text uses 'direct' = directly/immediately. 'Nu' = now, 'meteen' = immediately, 'gelijk' = immediately (informal). All near-synonyms but the text uses 'direct'."
+          }
+        },
+        {
+          "id": "24_19",
+          "sentence": "Stuur je sollicitatiebrief en cv naar ___.",
+          "options": { "A": "work@hotelarena.nl", "B": "info@hotelarena.nl", "C": "hr@hotelarena.nl", "D": "receptie@hotelarena.nl" },
+          "correct": "A",
+          "hint": {
+            "translation": "Send your cover letter and CV to work@hotelarena.nl.",
+            "explanation": "The text specifies 'work@hotelarena.nl' as the application email address. This tests careful reading of specific details in formal documents — a key A2 reading skill."
+          }
+        },
+        {
+          "id": "24_20",
+          "sentence": "Voor meer informatie kun je ___ opnemen met de afdeling personeelszaken.",
+          "options": { "A": "contact", "B": "verbinding", "C": "communicatie", "D": "connectie" },
+          "correct": "A",
+          "hint": {
+            "translation": "For more information you can get in touch with the HR department.",
+            "explanation": "'Contact opnemen met' = to get in touch with / to contact. This is a fixed Dutch expression. 'Verbinding opnemen' = to pick up the connection (wrong), 'communicatie opnemen' and 'connectie opnemen' are not standard Dutch phrases."
+          }
+        }
+      ]
+    }
+  ]
+}
