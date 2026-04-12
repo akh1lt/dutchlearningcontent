@@ -120,6 +120,35 @@
     transform: scale(0.95);
   }
 
+  /* Home Button */
+  .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .home-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+  }
+
+  .home-button:active {
+    transform: scale(0.95);
+  }
+
   .tabs {
     display: flex;
     gap: 0.5rem;
@@ -302,6 +331,7 @@
     font-size: 0.9rem;
     color: var(--text-secondary);
     font-style: italic;
+    display: none;
   }
 
   .controls {
@@ -339,6 +369,24 @@
 
   .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.12);
+  }
+
+  .btn-check-single {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+
+  .btn-check-single:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
   }
 
   .progress-bar {
@@ -412,12 +460,42 @@
   }
 
   @media (max-width: 768px) {
+    header {
+      padding: 20px 15px;
+    }
+
     header h1 {
       font-size: 1.6rem;
+      padding: 0 70px;
+    }
+
+    header p {
+      font-size: 0.9rem;
+    }
+
+    .theme-toggle,
+    .home-button {
+      top: 15px;
+      padding: 6px 12px;
+      font-size: 1rem;
+    }
+
+    .theme-toggle {
+      right: 15px;
+    }
+
+    .home-button {
+      left: 15px;
+    }
+
+    .theme-toggle span:last-child,
+    .home-button span:last-child {
+      display: none;
     }
 
     .tabs {
       flex-direction: column;
+      padding: 0 10px;
     }
 
     .tab-button {
@@ -440,6 +518,10 @@
 <div class="container">
 
 <header>
+  <a href="index.html" class="home-button" aria-label="Back to home">
+    <span>🏠</span>
+    <span>Home</span>
+  </a>
   <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
     <span id="themeIcon">☀️</span>
     <span id="themeText">Light</span>
@@ -7158,7 +7240,9 @@ function renderMCQs(questions = MCQS, startIndex = 0, count = 20) {
       <div class="options">
         ${optionsHTML}
       </div>
+      <button class="btn btn-check-single" data-question="${mcq.num}">Check Answer</button>
       <div class="explanation">${mcq.explanation}</div>
+      <div class="translation">English: ${mcq.english || SENTENCES.find(s => s.num === mcq.num)?.english || ''}</div>
     `;
     
     mcqContainer.appendChild(questionDiv);
@@ -7176,7 +7260,50 @@ function renderMCQs(questions = MCQS, startIndex = 0, count = 20) {
         updateProgress();
       });
     });
+
+    // Add check button handler
+    const checkBtn = questionDiv.querySelector('.btn-check-single');
+    checkBtn.addEventListener('click', () => {
+      checkSingleAnswer(mcq.num, questionDiv);
+    });
   });
+}
+
+// Check single answer
+function checkSingleAnswer(questionNum, questionDiv) {
+  const options = questionDiv.querySelectorAll('.option');
+  const explanation = questionDiv.querySelector('.explanation');
+  const translation = questionDiv.querySelector('.translation');
+  const checkBtn = questionDiv.querySelector('.btn-check-single');
+
+  // Check if user selected an answer
+  if (!userAnswers[questionNum]) {
+    alert('Please select an answer first!');
+    return;
+  }
+
+  options.forEach(option => {
+    const isCorrect = option.dataset.correct === 'true';
+    const isSelected = userAnswers[questionNum] === option.dataset.letter;
+
+    option.classList.remove('selected');
+
+    if (isCorrect) {
+      option.classList.add('correct');
+    } else if (isSelected) {
+      option.classList.add('incorrect');
+    }
+
+    // Disable further clicks
+    option.style.pointerEvents = 'none';
+  });
+
+  // Show explanation and translation
+  explanation.classList.add('show');
+  translation.style.display = 'block';
+
+  // Hide check button
+  checkBtn.style.display = 'none';
 }
 
 // ═══════════════════════════════════════════════════════════════════════════

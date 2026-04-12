@@ -65,10 +65,7 @@
         .header {
             text-align: center;
             margin-bottom: 30px;
-            position: sticky;
-            top: 0;
             background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
-            z-index: 100;
             padding: 20px 0;
             border-bottom: 2px solid var(--card-border);
         }
@@ -114,6 +111,37 @@
         }
 
         .theme-toggle:active {
+            transform: scale(0.95);
+        }
+
+        /* Home Button */
+        .home-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 101;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .home-button:active {
             transform: scale(0.95);
         }
 
@@ -267,6 +295,20 @@
             gap: 20px;
         }
 
+        /* Mobile: Stack columns vertically */
+        @media (max-width: 768px) {
+            .game-board {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .column-title {
+                background: var(--card-hover-bg);
+                padding: 8px;
+                border-radius: 8px;
+            }
+        }
+
         .column {
             display: flex;
             flex-direction: column;
@@ -337,7 +379,26 @@
         /* Responsive */
         @media (max-width: 968px) {
             .header h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+
+            .header p {
+                font-size: 0.9rem;
+            }
+
+            .theme-toggle,
+            .home-button {
+                top: 10px;
+                padding: 6px 12px;
+                font-size: 1rem;
+            }
+
+            .theme-toggle {
+                right: 10px;
+            }
+
+            .home-button {
+                left: 10px;
             }
 
             .game-board {
@@ -356,12 +417,27 @@
         }
 
         @media (max-width: 640px) {
+            .header {
+                padding: 15px 10px;
+            }
+
             .header h1 {
-                font-size: 1.6rem;
+                font-size: 1.5rem;
+                padding: 0 50px;
+            }
+
+            .header p {
+                font-size: 0.85rem;
+            }
+
+            .theme-toggle span:last-child,
+            .home-button span:last-child {
+                display: none;
             }
 
             .mode-tabs {
                 flex-direction: column;
+                padding: 0 10px;
             }
 
             .mode-tab {
@@ -370,16 +446,35 @@
 
             .overall-stats {
                 gap: 15px;
+                padding: 0 10px;
             }
 
             .overall-stat-value {
                 font-size: 1.4rem;
+            }
+
+            .round-container {
+                padding: 10px;
+            }
+
+            .round-number {
+                font-size: 1.2rem;
+            }
+
+            .card {
+                font-size: 0.9rem;
+                padding: 10px;
+                min-height: 60px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <a href="index.html" class="home-button" aria-label="Back to home">
+            <span>🏠</span>
+            <span>Home</span>
+        </a>
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
             <span id="themeIcon">☀️</span>
             <span id="themeText">Light</span>
