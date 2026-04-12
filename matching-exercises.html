@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch Matching Exercises - A2 Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* CSS Variables for theming */
+        :root {
+            --bg-gradient-start: #1a1a2e;
+            --bg-gradient-end: #16213e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --accent-primary: #667eea;
+            --accent-secondary: #764ba2;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(102, 126, 234, 0.2);
+            --card-hover-bg: rgba(102, 126, 234, 0.1);
+            --shadow-color: rgba(0, 0, 0, 0.2);
+        }
+
+        /* Light mode overrides */
+        body.light-mode {
+            --bg-gradient-start: #f5f2eb;
+            --bg-gradient-end: #f5f2eb;
+            --text-primary: #000000;
+            --text-secondary: #1a1a18;
+            --accent-primary: #c84b1f;
+            --accent-secondary: #2563a8;
+            --card-bg: #fffef9;
+            --card-border: #d8d4ca;
+            --card-hover-bg: rgba(200, 75, 31, 0.05);
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+            min-height: 100vh;
+            color: var(--text-primary);
+            padding: 20px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        /* Light mode font override */
+        body.light-mode {
+            font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+            z-index: 100;
+            padding: 20px 0;
+            border-bottom: 2px solid var(--card-border);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* Theme Toggle Button */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 101;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .theme-toggle:active {
+            transform: scale(0.95);
+        }
+
+        /* Mode Tabs */
+        .mode-tabs {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .mode-tab {
+            padding: 10px 25px;
+            background: var(--card-bg);
+            border: 2px solid var(--card-border);
+            border-radius: 10px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .mode-tab:hover {
+            background: var(--card-hover-bg);
+            border-color: rgba(102, 126, 234, 0.5);
+        }
+
+        .mode-tab.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: #667eea;
+            color: white;
+        }
+
+        /* Overall Stats */
+        .overall-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .overall-stat {
+            text-align: center;
+        }
+
+        .overall-stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+        }
+
+        .overall-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 3px;
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--card-bg);
+            border: 2px solid var(--card-border);
+            color: var(--text-primary);
+        }
+
+        /* Exercise Container */
+        .exercises-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        /* Individual Round */
+        .round-container {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .round-container:hover {
+            border-color: rgba(102, 126, 234, 0.4);
+            background: var(--card-hover-bg);
+        }
+
+        .round-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .round-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent-primary);
+        }
+
+        .round-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9rem;
+        }
+
+        .round-stat {
+            color: var(--text-secondary);
+        }
+
+        .round-stat.complete {
+            color: #4ade80;
+            font-weight: 600;
+        }
+
+        /* Game Board */
+        .game-board {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .column-title {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-primary);
+            margin-bottom: 5px;
+        }
+
+        /* Cards */
+        .card {
+            padding: 15px;
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 2px solid var(--card-border);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-size: 1rem;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card:hover:not(.matched):not(.locked) {
+            background: rgba(102, 126, 234, 0.1);
+            border-color: rgba(102, 126, 234, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .card.selected {
+            background: rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+            border-width: 3px;
+        }
+
+        .card.matched {
+            background: rgba(74, 222, 128, 0.2);
+            border-color: #4ade80;
+            color: #4ade80;
+            cursor: default;
+        }
+
+        .card.wrong {
+            animation: shake 0.5s;
+            background: rgba(239, 68, 68, 0.2);
+            border-color: #ef4444;
+        }
+
+        .card.locked {
+            cursor: default;
+            opacity: 0.6;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            75% { transform: translateX(8px); }
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .game-board {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .round-container {
+                padding: 15px;
+            }
+
+            .card {
+                font-size: 0.95rem;
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header h1 {
+                font-size: 1.6rem;
+            }
+
+            .mode-tabs {
+                flex-direction: column;
+            }
+
+            .mode-tab {
+                width: 100%;
+            }
+
+            .overall-stats {
+                gap: 15px;
+            }
+
+            .overall-stat-value {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <span id="themeIcon">☀️</span>
+            <span id="themeText">Light</span>
+        </button>
+
+        <div class="header">
+            <h1>Dutch Matching Exercises</h1>
+            <p>All 335 exercises in scrollable format - work on any round you want</p>
+
+            <div class="mode-tabs">
+                <button class="mode-tab active" data-mode="vocab">Vocabulary (38 rounds)</button>
+                <button class="mode-tab" data-mode="conjugation">Conjugation (29 rounds)</button>
+            </div>
+
+            <div class="overall-stats">
+                <div class="overall-stat">
+                    <div class="overall-stat-value" id="total-rounds">0</div>
+                    <div class="overall-stat-label">Total Rounds</div>
+                </div>
+                <div class="overall-stat">
+                    <div class="overall-stat-value" id="completed-rounds">0</div>
+                    <div class="overall-stat-label">Completed</div>
+                </div>
+                <div class="overall-stat">
+                    <div class="overall-stat-value" id="total-score">0 / 0</div>
+                    <div class="overall-stat-label">Total Score</div>
+                </div>
+                <div class="overall-stat">
+                    <div class="overall-stat-value" id="overall-accuracy">100%</div>
+                    <div class="overall-stat-label">Accuracy</div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-secondary" id="reset-btn">Reset All Progress</button>
+            </div>
+        </div>
+
+        <div class="exercises-container" id="exercises-container">
+            <!-- Rounds will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script>
+        // Game state
+        let gameData = null;
+        let currentMode = 'vocab';
+        let roundStates = {}; // Track state for each round
+        let selectedCards = {}; // Track selected cards per round
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('content_v2/dutch_matching_exercises.json');
+                gameData = await response.json();
+                initAllRounds();
+            } catch (error) {
+                console.error('Failed to load exercise data:', error);
+                alert('Failed to load exercises. Please check the file path.');
+            }
+        }
+
+        // Shuffle array
+        function shuffle(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Initialize all rounds
+        function initAllRounds() {
+            const container = document.getElementById('exercises-container');
+            container.innerHTML = '';
+            roundStates = {};
+            selectedCards = {};
+
+            const rounds = currentMode === 'vocab' ? 38 : 29;
+
+            for (let i = 0; i < rounds; i++) {
+                const roundData = prepareRoundData(i);
+                const roundElement = createRoundElement(i, roundData);
+                container.appendChild(roundElement);
+
+                roundStates[i] = {
+                    matched: 0,
+                    attempts: 0,
+                    correct: 0
+                };
+            }
+
+            updateOverallStats();
+        }
+
+        // Prepare round data
+        function prepareRoundData(roundIndex) {
+            const startIdx = roundIndex * 5;
+            let roundItems;
+
+            if (currentMode === 'vocab') {
+                roundItems = gameData.vocab_exercises.slice(startIdx, startIdx + 5);
+                return {
+                    items: roundItems.map(item => ({
+                        id: item.id,
+                        left: item.dutch,
+                        right: item.english
+                    })),
+                    leftTitle: 'Dutch',
+                    rightTitle: 'English'
+                };
+            } else {
+                roundItems = gameData.conjugation_exercises.slice(startIdx, startIdx + 5);
+                const conjugationTypes = ['ik_present', 'hij_zij_present', 'past_ik', 'past_participle'];
+                const selectedType = conjugationTypes[roundIndex % 4];
+                const typeLabels = {
+                    'ik_present': 'ik form (present)',
+                    'hij_zij_present': 'hij/zij form (present)',
+                    'past_ik': 'past tense',
+                    'past_participle': 'past participle'
+                };
+
+                return {
+                    items: roundItems.map(item => ({
+                        id: item.id,
+                        left: item.infinitive,
+                        right: item.forms[selectedType]
+                    })),
+                    leftTitle: 'Infinitive',
+                    rightTitle: typeLabels[selectedType]
+                };
+            }
+        }
+
+        // Create round element
+        function createRoundElement(roundIndex, roundData) {
+            const roundDiv = document.createElement('div');
+            roundDiv.className = 'round-container';
+            roundDiv.id = `round-${roundIndex}`;
+
+            const header = document.createElement('div');
+            header.className = 'round-header';
+            header.innerHTML = `
+                <div class="round-title">Round ${roundIndex + 1}</div>
+                <div class="round-stats">
+                    <span class="round-stat" id="round-${roundIndex}-progress">0 / 5 matched</span>
+                    <span class="round-stat" id="round-${roundIndex}-score">0 / 0</span>
+                </div>
+            `;
+            roundDiv.appendChild(header);
+
+            const gameBoard = document.createElement('div');
+            gameBoard.className = 'game-board';
+
+            // Left column
+            const leftColumn = document.createElement('div');
+            leftColumn.className = 'column';
+            const leftTitle = document.createElement('div');
+            leftTitle.className = 'column-title';
+            leftTitle.textContent = roundData.leftTitle;
+            leftColumn.appendChild(leftTitle);
+
+            roundData.items.forEach((item, idx) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.textContent = item.left;
+                card.dataset.roundIndex = roundIndex;
+                card.dataset.id = item.id;
+                card.dataset.side = 'left';
+                card.dataset.idx = idx;
+                card.addEventListener('click', handleCardClick);
+                leftColumn.appendChild(card);
+            });
+
+            // Right column (shuffled)
+            const rightColumn = document.createElement('div');
+            rightColumn.className = 'column';
+            const rightTitle = document.createElement('div');
+            rightTitle.className = 'column-title';
+            rightTitle.textContent = roundData.rightTitle;
+            rightColumn.appendChild(rightTitle);
+
+            const shuffledItems = shuffle([...roundData.items]);
+            shuffledItems.forEach((item, idx) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.textContent = item.right;
+                card.dataset.roundIndex = roundIndex;
+                card.dataset.id = item.id;
+                card.dataset.side = 'right';
+                card.dataset.idx = idx;
+                card.addEventListener('click', handleCardClick);
+                rightColumn.appendChild(card);
+            });
+
+            gameBoard.appendChild(leftColumn);
+            gameBoard.appendChild(rightColumn);
+            roundDiv.appendChild(gameBoard);
+
+            return roundDiv;
+        }
+
+        // Handle card click
+        function handleCardClick(e) {
+            const card = e.currentTarget;
+            const roundIndex = parseInt(card.dataset.roundIndex);
+
+            if (card.classList.contains('matched') || card.classList.contains('locked')) {
+                return;
+            }
+
+            const side = card.dataset.side;
+
+            if (side === 'left') {
+                // Deselect previous selection in this round
+                const roundContainer = document.getElementById(`round-${roundIndex}`);
+                roundContainer.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+                selectedCards[roundIndex] = card;
+            } else if (side === 'right' && selectedCards[roundIndex]) {
+                roundStates[roundIndex].attempts++;
+                checkMatch(selectedCards[roundIndex], card, roundIndex);
+            }
+        }
+
+        // Check if cards match
+        function checkMatch(leftCard, rightCard, roundIndex) {
+            const leftId = leftCard.dataset.id;
+            const rightId = rightCard.dataset.id;
+
+            if (leftId === rightId) {
+                // Correct match
+                leftCard.classList.remove('selected');
+                leftCard.classList.add('matched', 'locked');
+                rightCard.classList.add('matched', 'locked');
+                roundStates[roundIndex].correct++;
+                roundStates[roundIndex].matched++;
+
+                updateRoundStats(roundIndex);
+                updateOverallStats();
+            } else {
+                // Wrong match
+                rightCard.classList.add('wrong');
+                leftCard.classList.add('wrong');
+
+                setTimeout(() => {
+                    rightCard.classList.remove('wrong');
+                    leftCard.classList.remove('wrong', 'selected');
+                }, 500);
+            }
+
+            selectedCards[roundIndex] = null;
+            updateRoundStats(roundIndex);
+        }
+
+        // Update round stats
+        function updateRoundStats(roundIndex) {
+            const state = roundStates[roundIndex];
+            const progressEl = document.getElementById(`round-${roundIndex}-progress`);
+            const scoreEl = document.getElementById(`round-${roundIndex}-score`);
+
+            progressEl.textContent = `${state.matched} / 5 matched`;
+            scoreEl.textContent = `${state.correct} / ${state.attempts}`;
+
+            if (state.matched === 5) {
+                progressEl.classList.add('complete');
+                progressEl.textContent = '✓ Complete';
+            }
+        }
+
+        // Update overall stats
+        function updateOverallStats() {
+            const rounds = currentMode === 'vocab' ? 38 : 29;
+            let completedRounds = 0;
+            let totalCorrect = 0;
+            let totalAttempts = 0;
+
+            for (let i = 0; i < rounds; i++) {
+                if (roundStates[i]) {
+                    if (roundStates[i].matched === 5) completedRounds++;
+                    totalCorrect += roundStates[i].correct;
+                    totalAttempts += roundStates[i].attempts;
+                }
+            }
+
+            document.getElementById('total-rounds').textContent = rounds;
+            document.getElementById('completed-rounds').textContent = completedRounds;
+            document.getElementById('total-score').textContent = `${totalCorrect} / ${totalAttempts}`;
+
+            const accuracy = totalAttempts === 0 ? 100 : Math.round((totalCorrect / totalAttempts) * 100);
+            document.getElementById('overall-accuracy').textContent = `${accuracy}%`;
+        }
+
+        // Switch mode
+        function switchMode(mode) {
+            if (mode === currentMode) return;
+
+            currentMode = mode;
+
+            document.querySelectorAll('.mode-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.mode === mode);
+            });
+
+            initAllRounds();
+        }
+
+        // Reset all progress
+        function resetProgress() {
+            if (confirm('Are you sure you want to reset all progress?')) {
+                initAllRounds();
+            }
+        }
+
+        // Event listeners
+        document.querySelectorAll('.mode-tab').forEach(tab => {
+            tab.addEventListener('click', () => switchMode(tab.dataset.mode));
+        });
+
+        document.getElementById('reset-btn').addEventListener('click', resetProgress);
+
+        // Load data on page load
+        loadData();
+    </script>
+
+    <!-- Theme Toggle Script -->
+    <script src="theme.js"></script>
+
+</body>
+</html>

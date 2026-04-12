@@ -1,0 +1,3300 @@
+{
+  "meta": {
+    "title": "Dutch A2 Exercises",
+    "total_exercises": 335,
+    "vocab_count": 190,
+    "conjugation_count": 145,
+    "exercise_types": [
+      {
+        "type": "vocab_match",
+        "description": "Match Dutch word to its English translation",
+        "fields": [
+          "id",
+          "type",
+          "dutch",
+          "english",
+          "pos",
+          "cluster"
+        ]
+      },
+      {
+        "type": "verb_conjugation_match",
+        "description": "Match verb forms: infinitive ↔ ik-present / hij-present / past / past participle",
+        "fields": [
+          "id",
+          "type",
+          "infinitive",
+          "english",
+          "forms.ik_present",
+          "forms.hij_zij_present",
+          "forms.past_ik",
+          "forms.past_participle"
+        ]
+      }
+    ]
+  },
+  "vocab_exercises": [
+    {
+      "id": "V001",
+      "type": "vocab_match",
+      "dutch": "kwam",
+      "english": "came (past of komen)",
+      "pos": "verb",
+      "cluster": "komen_irr"
+    },
+    {
+      "id": "V002",
+      "type": "vocab_match",
+      "dutch": "bestuur",
+      "english": "board / government",
+      "pos": "noun",
+      "cluster": "work_org"
+    },
+    {
+      "id": "V003",
+      "type": "vocab_match",
+      "dutch": "uitlaten",
+      "english": "to take out / let out",
+      "pos": "verb",
+      "cluster": "animal_care"
+    },
+    {
+      "id": "V004",
+      "type": "vocab_match",
+      "dutch": "spraken",
+      "english": "spoke (plural past)",
+      "pos": "verb",
+      "cluster": "spreken_irr"
+    },
+    {
+      "id": "V005",
+      "type": "vocab_match",
+      "dutch": "afgesproken",
+      "english": "agreed / it's a deal",
+      "pos": "adj",
+      "cluster": "agreement"
+    },
+    {
+      "id": "V006",
+      "type": "vocab_match",
+      "dutch": "afwas",
+      "english": "dishes (washing up)",
+      "pos": "noun",
+      "cluster": "home_kitchen"
+    },
+    {
+      "id": "V007",
+      "type": "vocab_match",
+      "dutch": "eis",
+      "english": "requirement / demand",
+      "pos": "noun",
+      "cluster": "work_employment"
+    },
+    {
+      "id": "V008",
+      "type": "vocab_match",
+      "dutch": "spier",
+      "english": "muscle",
+      "pos": "noun",
+      "cluster": "health_body"
+    },
+    {
+      "id": "V009",
+      "type": "vocab_match",
+      "dutch": "top",
+      "english": "great / top",
+      "pos": "adj",
+      "cluster": "feelings_pos"
+    },
+    {
+      "id": "V010",
+      "type": "vocab_match",
+      "dutch": "konden",
+      "english": "could (plural past)",
+      "pos": "verb",
+      "cluster": "kunnen_irr"
+    },
+    {
+      "id": "V011",
+      "type": "vocab_match",
+      "dutch": "hier",
+      "english": "here",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V012",
+      "type": "vocab_match",
+      "dutch": "cijfer",
+      "english": "digit / grade",
+      "pos": "noun",
+      "cluster": "education"
+    },
+    {
+      "id": "V013",
+      "type": "vocab_match",
+      "dutch": "solliciteren",
+      "english": "to apply for a job",
+      "pos": "verb",
+      "cluster": "work_employment"
+    },
+    {
+      "id": "V014",
+      "type": "vocab_match",
+      "dutch": "ontdekken",
+      "english": "to discover",
+      "pos": "verb",
+      "cluster": "mind"
+    },
+    {
+      "id": "V015",
+      "type": "vocab_match",
+      "dutch": "statiegeld",
+      "english": "deposit (bottle)",
+      "pos": "noun",
+      "cluster": "shopping"
+    },
+    {
+      "id": "V016",
+      "type": "vocab_match",
+      "dutch": "algemeen",
+      "english": "general",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V017",
+      "type": "vocab_match",
+      "dutch": "toilet",
+      "english": "toilet",
+      "pos": "noun",
+      "cluster": "home_rooms"
+    },
+    {
+      "id": "V018",
+      "type": "vocab_match",
+      "dutch": "daarnaast",
+      "english": "besides / next to that",
+      "pos": "adv",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V019",
+      "type": "vocab_match",
+      "dutch": "huismerk",
+      "english": "store brand / own brand",
+      "pos": "noun",
+      "cluster": "shopping"
+    },
+    {
+      "id": "V020",
+      "type": "vocab_match",
+      "dutch": "bijeenkomst",
+      "english": "meeting / gathering",
+      "pos": "noun",
+      "cluster": "social"
+    },
+    {
+      "id": "V021",
+      "type": "vocab_match",
+      "dutch": "hangen",
+      "english": "to hang",
+      "pos": "verb",
+      "cluster": "action_do"
+    },
+    {
+      "id": "V022",
+      "type": "vocab_match",
+      "dutch": "neem",
+      "english": "take (present)",
+      "pos": "verb",
+      "cluster": "nemen_irr"
+    },
+    {
+      "id": "V023",
+      "type": "vocab_match",
+      "dutch": "vanzelf",
+      "english": "by itself / naturally",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V024",
+      "type": "vocab_match",
+      "dutch": "nemen",
+      "english": "to take",
+      "pos": "verb",
+      "cluster": "nemen_irr"
+    },
+    {
+      "id": "V025",
+      "type": "vocab_match",
+      "dutch": "eigenlijk",
+      "english": "actually / in fact",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V026",
+      "type": "vocab_match",
+      "dutch": "wind",
+      "english": "wind",
+      "pos": "noun",
+      "cluster": "weather"
+    },
+    {
+      "id": "V027",
+      "type": "vocab_match",
+      "dutch": "jullie",
+      "english": "you (plural)",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V028",
+      "type": "vocab_match",
+      "dutch": "genieten",
+      "english": "to enjoy",
+      "pos": "verb",
+      "cluster": "genieten_irr"
+    },
+    {
+      "id": "V029",
+      "type": "vocab_match",
+      "dutch": "persoonlijk",
+      "english": "personal",
+      "pos": "adj",
+      "cluster": "identity"
+    },
+    {
+      "id": "V030",
+      "type": "vocab_match",
+      "dutch": "thuis",
+      "english": "at home",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V031",
+      "type": "vocab_match",
+      "dutch": "bibliotheek",
+      "english": "library",
+      "pos": "noun",
+      "cluster": "education"
+    },
+    {
+      "id": "V032",
+      "type": "vocab_match",
+      "dutch": "tekortkomen",
+      "english": "to be short of",
+      "pos": "verb",
+      "cluster": "finance"
+    },
+    {
+      "id": "V033",
+      "type": "vocab_match",
+      "dutch": "beschrijven",
+      "english": "to describe",
+      "pos": "verb",
+      "cluster": "communication"
+    },
+    {
+      "id": "V034",
+      "type": "vocab_match",
+      "dutch": "voor",
+      "english": "for / before",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V035",
+      "type": "vocab_match",
+      "dutch": "quiz",
+      "english": "quiz",
+      "pos": "noun",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V036",
+      "type": "vocab_match",
+      "dutch": "vreemd",
+      "english": "strange / foreign",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V037",
+      "type": "vocab_match",
+      "dutch": "vlakbij",
+      "english": "very nearby",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V038",
+      "type": "vocab_match",
+      "dutch": "leren",
+      "english": "to learn / to teach",
+      "pos": "verb",
+      "cluster": "education"
+    },
+    {
+      "id": "V039",
+      "type": "vocab_match",
+      "dutch": "bevallen",
+      "english": "to give birth / to like",
+      "pos": "verb",
+      "cluster": "family"
+    },
+    {
+      "id": "V040",
+      "type": "vocab_match",
+      "dutch": "klein",
+      "english": "small",
+      "pos": "adj",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V041",
+      "type": "vocab_match",
+      "dutch": "minuut",
+      "english": "minute",
+      "pos": "noun",
+      "cluster": "time"
+    },
+    {
+      "id": "V042",
+      "type": "vocab_match",
+      "dutch": "link",
+      "english": "link / dangerous (informal)",
+      "pos": "noun",
+      "cluster": "technology"
+    },
+    {
+      "id": "V043",
+      "type": "vocab_match",
+      "dutch": "begon",
+      "english": "began (past)",
+      "pos": "verb",
+      "cluster": "begin_irr"
+    },
+    {
+      "id": "V044",
+      "type": "vocab_match",
+      "dutch": "lengte",
+      "english": "length / height",
+      "pos": "noun",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V045",
+      "type": "vocab_match",
+      "dutch": "licht",
+      "english": "light / slight",
+      "pos": "adj",
+      "cluster": "weather"
+    },
+    {
+      "id": "V046",
+      "type": "vocab_match",
+      "dutch": "gesprek",
+      "english": "conversation",
+      "pos": "noun",
+      "cluster": "communication"
+    },
+    {
+      "id": "V047",
+      "type": "vocab_match",
+      "dutch": "onhandig",
+      "english": "clumsy / awkward",
+      "pos": "adj",
+      "cluster": "feelings_char"
+    },
+    {
+      "id": "V048",
+      "type": "vocab_match",
+      "dutch": "verliefd",
+      "english": "in love",
+      "pos": "adj",
+      "cluster": "feelings_pos"
+    },
+    {
+      "id": "V049",
+      "type": "vocab_match",
+      "dutch": "origineel",
+      "english": "original",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V050",
+      "type": "vocab_match",
+      "dutch": "televisie",
+      "english": "television",
+      "pos": "noun",
+      "cluster": "media_leisure"
+    },
+    {
+      "id": "V051",
+      "type": "vocab_match",
+      "dutch": "gebruiker",
+      "english": "user",
+      "pos": "noun",
+      "cluster": "technology"
+    },
+    {
+      "id": "V052",
+      "type": "vocab_match",
+      "dutch": "nadenken",
+      "english": "to think over / reflect",
+      "pos": "verb",
+      "cluster": "mind"
+    },
+    {
+      "id": "V053",
+      "type": "vocab_match",
+      "dutch": "gen",
+      "english": "gene",
+      "pos": "noun",
+      "cluster": "science"
+    },
+    {
+      "id": "V054",
+      "type": "vocab_match",
+      "dutch": "genomen",
+      "english": "taken (pp of nemen)",
+      "pos": "verb",
+      "cluster": "nemen_irr"
+    },
+    {
+      "id": "V055",
+      "type": "vocab_match",
+      "dutch": "volgen",
+      "english": "to follow",
+      "pos": "verb",
+      "cluster": "action_do"
+    },
+    {
+      "id": "V056",
+      "type": "vocab_match",
+      "dutch": "schil",
+      "english": "peel / skin (fruit)",
+      "pos": "noun",
+      "cluster": "food_veg"
+    },
+    {
+      "id": "V057",
+      "type": "vocab_match",
+      "dutch": "schoon",
+      "english": "clean",
+      "pos": "adj",
+      "cluster": "home_cleaning"
+    },
+    {
+      "id": "V058",
+      "type": "vocab_match",
+      "dutch": "sauna",
+      "english": "sauna",
+      "pos": "noun",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V059",
+      "type": "vocab_match",
+      "dutch": "huwelijk",
+      "english": "marriage",
+      "pos": "noun",
+      "cluster": "celebration"
+    },
+    {
+      "id": "V060",
+      "type": "vocab_match",
+      "dutch": "opletten",
+      "english": "to pay attention",
+      "pos": "verb",
+      "cluster": "mind"
+    },
+    {
+      "id": "V061",
+      "type": "vocab_match",
+      "dutch": "vol",
+      "english": "full",
+      "pos": "adj",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V062",
+      "type": "vocab_match",
+      "dutch": "niemand",
+      "english": "nobody",
+      "pos": "other",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V063",
+      "type": "vocab_match",
+      "dutch": "bracht",
+      "english": "brought (past of brengen)",
+      "pos": "verb",
+      "cluster": "brengen_irr"
+    },
+    {
+      "id": "V064",
+      "type": "vocab_match",
+      "dutch": "sta",
+      "english": "stand (present)",
+      "pos": "verb",
+      "cluster": "staan_irr"
+    },
+    {
+      "id": "V065",
+      "type": "vocab_match",
+      "dutch": "dorp",
+      "english": "village",
+      "pos": "noun",
+      "cluster": "geography"
+    },
+    {
+      "id": "V066",
+      "type": "vocab_match",
+      "dutch": "voorspellen",
+      "english": "to predict",
+      "pos": "verb",
+      "cluster": "weather"
+    },
+    {
+      "id": "V067",
+      "type": "vocab_match",
+      "dutch": "breken",
+      "english": "to break",
+      "pos": "verb",
+      "cluster": "action_do"
+    },
+    {
+      "id": "V068",
+      "type": "vocab_match",
+      "dutch": "onderdeel",
+      "english": "part / component",
+      "pos": "noun",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V069",
+      "type": "vocab_match",
+      "dutch": "idee",
+      "english": "idea",
+      "pos": "noun",
+      "cluster": "mind"
+    },
+    {
+      "id": "V070",
+      "type": "vocab_match",
+      "dutch": "duren",
+      "english": "to last / take (time)",
+      "pos": "verb",
+      "cluster": "time"
+    },
+    {
+      "id": "V071",
+      "type": "vocab_match",
+      "dutch": "iedereen",
+      "english": "everyone",
+      "pos": "other",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V072",
+      "type": "vocab_match",
+      "dutch": "erfenis",
+      "english": "inheritance",
+      "pos": "noun",
+      "cluster": "finance"
+    },
+    {
+      "id": "V073",
+      "type": "vocab_match",
+      "dutch": "binnenkort",
+      "english": "soon",
+      "pos": "adv",
+      "cluster": "time"
+    },
+    {
+      "id": "V074",
+      "type": "vocab_match",
+      "dutch": "uitgeven",
+      "english": "to spend / publish",
+      "pos": "verb",
+      "cluster": "finance"
+    },
+    {
+      "id": "V075",
+      "type": "vocab_match",
+      "dutch": "ernstig",
+      "english": "serious / severe",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V076",
+      "type": "vocab_match",
+      "dutch": "deed",
+      "english": "did (past of doen)",
+      "pos": "verb",
+      "cluster": "doen_irr"
+    },
+    {
+      "id": "V077",
+      "type": "vocab_match",
+      "dutch": "minder",
+      "english": "less / fewer",
+      "pos": "adv",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V078",
+      "type": "vocab_match",
+      "dutch": "populair",
+      "english": "popular",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V079",
+      "type": "vocab_match",
+      "dutch": "restje",
+      "english": "leftovers / small remainder",
+      "pos": "noun",
+      "cluster": "food_meal"
+    },
+    {
+      "id": "V080",
+      "type": "vocab_match",
+      "dutch": "belastingaanslag",
+      "english": "tax assessment",
+      "pos": "noun",
+      "cluster": "finance"
+    },
+    {
+      "id": "V081",
+      "type": "vocab_match",
+      "dutch": "namen",
+      "english": "took (plural past of nemen)",
+      "pos": "verb",
+      "cluster": "nemen_irr"
+    },
+    {
+      "id": "V082",
+      "type": "vocab_match",
+      "dutch": "emailadres",
+      "english": "email address",
+      "pos": "noun",
+      "cluster": "communication"
+    },
+    {
+      "id": "V083",
+      "type": "vocab_match",
+      "dutch": "grap",
+      "english": "joke",
+      "pos": "noun",
+      "cluster": "social"
+    },
+    {
+      "id": "V084",
+      "type": "vocab_match",
+      "dutch": "kantoor",
+      "english": "office",
+      "pos": "noun",
+      "cluster": "work_org"
+    },
+    {
+      "id": "V085",
+      "type": "vocab_match",
+      "dutch": "het",
+      "english": "the (het-word)",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V086",
+      "type": "vocab_match",
+      "dutch": "lees",
+      "english": "read (present)",
+      "pos": "verb",
+      "cluster": "lezen_irr"
+    },
+    {
+      "id": "V087",
+      "type": "vocab_match",
+      "dutch": "ex",
+      "english": "ex (former partner)",
+      "pos": "noun",
+      "cluster": "family"
+    },
+    {
+      "id": "V088",
+      "type": "vocab_match",
+      "dutch": "waar",
+      "english": "where / true",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V089",
+      "type": "vocab_match",
+      "dutch": "collega",
+      "english": "colleague",
+      "pos": "noun",
+      "cluster": "work_org"
+    },
+    {
+      "id": "V090",
+      "type": "vocab_match",
+      "dutch": "vriezen",
+      "english": "to freeze",
+      "pos": "verb",
+      "cluster": "weather"
+    },
+    {
+      "id": "V091",
+      "type": "vocab_match",
+      "dutch": "politiebureau",
+      "english": "police station",
+      "pos": "noun",
+      "cluster": "admin_law"
+    },
+    {
+      "id": "V092",
+      "type": "vocab_match",
+      "dutch": "lazen",
+      "english": "read (plural past of lezen)",
+      "pos": "verb",
+      "cluster": "lezen_irr"
+    },
+    {
+      "id": "V093",
+      "type": "vocab_match",
+      "dutch": "lelijk",
+      "english": "ugly",
+      "pos": "adj",
+      "cluster": "appearance"
+    },
+    {
+      "id": "V094",
+      "type": "vocab_match",
+      "dutch": "bewolkt",
+      "english": "cloudy",
+      "pos": "adj",
+      "cluster": "weather"
+    },
+    {
+      "id": "V095",
+      "type": "vocab_match",
+      "dutch": "aantal",
+      "english": "number / amount",
+      "pos": "noun",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V096",
+      "type": "vocab_match",
+      "dutch": "aantrekkelijk",
+      "english": "attractive",
+      "pos": "adj",
+      "cluster": "appearance"
+    },
+    {
+      "id": "V097",
+      "type": "vocab_match",
+      "dutch": "vuil",
+      "english": "dirty / rubbish",
+      "pos": "adj",
+      "cluster": "home_cleaning"
+    },
+    {
+      "id": "V098",
+      "type": "vocab_match",
+      "dutch": "chagrijnig",
+      "english": "grumpy",
+      "pos": "adj",
+      "cluster": "feelings_neg"
+    },
+    {
+      "id": "V099",
+      "type": "vocab_match",
+      "dutch": "hardlopen",
+      "english": "to run / jogging",
+      "pos": "verb",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V100",
+      "type": "vocab_match",
+      "dutch": "gewoon",
+      "english": "just / ordinary / normal",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V101",
+      "type": "vocab_match",
+      "dutch": "voordelig",
+      "english": "advantageous / affordable",
+      "pos": "adj",
+      "cluster": "finance"
+    },
+    {
+      "id": "V102",
+      "type": "vocab_match",
+      "dutch": "zijn",
+      "english": "to be / his",
+      "pos": "verb",
+      "cluster": "zijn_irr"
+    },
+    {
+      "id": "V103",
+      "type": "vocab_match",
+      "dutch": "tekenen",
+      "english": "to draw / sign",
+      "pos": "verb",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V104",
+      "type": "vocab_match",
+      "dutch": "herkennen",
+      "english": "to recognise",
+      "pos": "verb",
+      "cluster": "mind"
+    },
+    {
+      "id": "V105",
+      "type": "vocab_match",
+      "dutch": "toevallig",
+      "english": "by chance / coincidentally",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V106",
+      "type": "vocab_match",
+      "dutch": "verband",
+      "english": "connection / bandage",
+      "pos": "noun",
+      "cluster": "health_medical"
+    },
+    {
+      "id": "V107",
+      "type": "vocab_match",
+      "dutch": "zomaar",
+      "english": "just like that / for no reason",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V108",
+      "type": "vocab_match",
+      "dutch": "buiten",
+      "english": "outside",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V109",
+      "type": "vocab_match",
+      "dutch": "plakken",
+      "english": "to stick / paste",
+      "pos": "verb",
+      "cluster": "action_do"
+    },
+    {
+      "id": "V110",
+      "type": "vocab_match",
+      "dutch": "daarna",
+      "english": "after that",
+      "pos": "adv",
+      "cluster": "time"
+    },
+    {
+      "id": "V111",
+      "type": "vocab_match",
+      "dutch": "super",
+      "english": "super / great",
+      "pos": "adj",
+      "cluster": "feelings_pos"
+    },
+    {
+      "id": "V112",
+      "type": "vocab_match",
+      "dutch": "prestatie",
+      "english": "achievement",
+      "pos": "noun",
+      "cluster": "work_employment"
+    },
+    {
+      "id": "V113",
+      "type": "vocab_match",
+      "dutch": "tussen",
+      "english": "between",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V114",
+      "type": "vocab_match",
+      "dutch": "digitaal",
+      "english": "digital",
+      "pos": "adj",
+      "cluster": "technology"
+    },
+    {
+      "id": "V115",
+      "type": "vocab_match",
+      "dutch": "buik",
+      "english": "stomach / belly",
+      "pos": "noun",
+      "cluster": "health_body"
+    },
+    {
+      "id": "V116",
+      "type": "vocab_match",
+      "dutch": "verlaten",
+      "english": "to leave / deserted",
+      "pos": "verb",
+      "cluster": "movement"
+    },
+    {
+      "id": "V117",
+      "type": "vocab_match",
+      "dutch": "interviewster",
+      "english": "interviewer (f)",
+      "pos": "noun",
+      "cluster": "work_profession"
+    },
+    {
+      "id": "V118",
+      "type": "vocab_match",
+      "dutch": "voldoende",
+      "english": "sufficient / enough",
+      "pos": "adj",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V119",
+      "type": "vocab_match",
+      "dutch": "kapot",
+      "english": "broken",
+      "pos": "adj",
+      "cluster": "home_construction"
+    },
+    {
+      "id": "V120",
+      "type": "vocab_match",
+      "dutch": "bovenkant",
+      "english": "top / upper side",
+      "pos": "noun",
+      "cluster": "direction"
+    },
+    {
+      "id": "V121",
+      "type": "vocab_match",
+      "dutch": "nergens",
+      "english": "nowhere",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V122",
+      "type": "vocab_match",
+      "dutch": "uitkering",
+      "english": "benefit / allowance",
+      "pos": "noun",
+      "cluster": "finance"
+    },
+    {
+      "id": "V123",
+      "type": "vocab_match",
+      "dutch": "festival",
+      "english": "festival",
+      "pos": "noun",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V124",
+      "type": "vocab_match",
+      "dutch": "koorts",
+      "english": "fever",
+      "pos": "noun",
+      "cluster": "health_illness"
+    },
+    {
+      "id": "V125",
+      "type": "vocab_match",
+      "dutch": "snel",
+      "english": "fast / quick",
+      "pos": "adj",
+      "cluster": "time"
+    },
+    {
+      "id": "V126",
+      "type": "vocab_match",
+      "dutch": "rekenen",
+      "english": "to calculate",
+      "pos": "verb",
+      "cluster": "education"
+    },
+    {
+      "id": "V127",
+      "type": "vocab_match",
+      "dutch": "dom",
+      "english": "stupid",
+      "pos": "adj",
+      "cluster": "feelings_char"
+    },
+    {
+      "id": "V128",
+      "type": "vocab_match",
+      "dutch": "pasen",
+      "english": "Easter",
+      "pos": "noun",
+      "cluster": "time_calendar"
+    },
+    {
+      "id": "V129",
+      "type": "vocab_match",
+      "dutch": "spierpijn",
+      "english": "muscle pain",
+      "pos": "noun",
+      "cluster": "health_illness"
+    },
+    {
+      "id": "V130",
+      "type": "vocab_match",
+      "dutch": "verwijzing",
+      "english": "referral",
+      "pos": "noun",
+      "cluster": "health_medical"
+    },
+    {
+      "id": "V131",
+      "type": "vocab_match",
+      "dutch": "dankbaar",
+      "english": "grateful",
+      "pos": "adj",
+      "cluster": "feelings_pos"
+    },
+    {
+      "id": "V132",
+      "type": "vocab_match",
+      "dutch": "luisteren",
+      "english": "to listen",
+      "pos": "verb",
+      "cluster": "senses"
+    },
+    {
+      "id": "V133",
+      "type": "vocab_match",
+      "dutch": "bewijs",
+      "english": "proof / evidence",
+      "pos": "noun",
+      "cluster": "admin_law"
+    },
+    {
+      "id": "V134",
+      "type": "vocab_match",
+      "dutch": "aanvullend",
+      "english": "additional / supplementary",
+      "pos": "adj",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V135",
+      "type": "vocab_match",
+      "dutch": "zwemmen",
+      "english": "to swim",
+      "pos": "verb",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V136",
+      "type": "vocab_match",
+      "dutch": "veel",
+      "english": "much / many / a lot",
+      "pos": "adv",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V137",
+      "type": "vocab_match",
+      "dutch": "stoel",
+      "english": "chair",
+      "pos": "noun",
+      "cluster": "home_furniture"
+    },
+    {
+      "id": "V138",
+      "type": "vocab_match",
+      "dutch": "extra",
+      "english": "extra / additional",
+      "pos": "adj",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V139",
+      "type": "vocab_match",
+      "dutch": "tentoonstelling",
+      "english": "exhibition",
+      "pos": "noun",
+      "cluster": "leisure"
+    },
+    {
+      "id": "V140",
+      "type": "vocab_match",
+      "dutch": "moeten",
+      "english": "to have to / must",
+      "pos": "verb",
+      "cluster": "moeten_irr"
+    },
+    {
+      "id": "V141",
+      "type": "vocab_match",
+      "dutch": "nodig",
+      "english": "necessary",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V142",
+      "type": "vocab_match",
+      "dutch": "verantwoordelijk",
+      "english": "responsible",
+      "pos": "adj",
+      "cluster": "work_employment"
+    },
+    {
+      "id": "V143",
+      "type": "vocab_match",
+      "dutch": "karakter",
+      "english": "character / personality",
+      "pos": "noun",
+      "cluster": "feelings_char"
+    },
+    {
+      "id": "V144",
+      "type": "vocab_match",
+      "dutch": "dankzij",
+      "english": "thanks to",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V145",
+      "type": "vocab_match",
+      "dutch": "sigaret",
+      "english": "cigarette",
+      "pos": "noun",
+      "cluster": "health_body"
+    },
+    {
+      "id": "V146",
+      "type": "vocab_match",
+      "dutch": "jij",
+      "english": "you (stressed informal)",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V147",
+      "type": "vocab_match",
+      "dutch": "blijf",
+      "english": "stay (present)",
+      "pos": "verb",
+      "cluster": "blijven_irr"
+    },
+    {
+      "id": "V148",
+      "type": "vocab_match",
+      "dutch": "regelmatig",
+      "english": "regularly",
+      "pos": "adv",
+      "cluster": "time"
+    },
+    {
+      "id": "V149",
+      "type": "vocab_match",
+      "dutch": "ontwikkeling",
+      "english": "development",
+      "pos": "noun",
+      "cluster": "society"
+    },
+    {
+      "id": "V150",
+      "type": "vocab_match",
+      "dutch": "nul",
+      "english": "zero",
+      "pos": "noun",
+      "cluster": "numbers"
+    },
+    {
+      "id": "V151",
+      "type": "vocab_match",
+      "dutch": "zei",
+      "english": "said (past of zeggen, sing.)",
+      "pos": "verb",
+      "cluster": "zeggen_irr"
+    },
+    {
+      "id": "V152",
+      "type": "vocab_match",
+      "dutch": "plaatsen",
+      "english": "to place / post",
+      "pos": "verb",
+      "cluster": "action_do"
+    },
+    {
+      "id": "V153",
+      "type": "vocab_match",
+      "dutch": "uitbreiden",
+      "english": "to expand",
+      "pos": "verb",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V154",
+      "type": "vocab_match",
+      "dutch": "loop",
+      "english": "walk (present)",
+      "pos": "verb",
+      "cluster": "lopen_irr"
+    },
+    {
+      "id": "V155",
+      "type": "vocab_match",
+      "dutch": "geslapen",
+      "english": "slept (pp of slapen)",
+      "pos": "verb",
+      "cluster": "slapen_irr"
+    },
+    {
+      "id": "V156",
+      "type": "vocab_match",
+      "dutch": "mogelijk",
+      "english": "possible",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V157",
+      "type": "vocab_match",
+      "dutch": "agenda",
+      "english": "diary / agenda",
+      "pos": "noun",
+      "cluster": "time_admin"
+    },
+    {
+      "id": "V158",
+      "type": "vocab_match",
+      "dutch": "beweging",
+      "english": "movement / exercise",
+      "pos": "noun",
+      "cluster": "health_body"
+    },
+    {
+      "id": "V159",
+      "type": "vocab_match",
+      "dutch": "kon",
+      "english": "could (past of kunnen)",
+      "pos": "verb",
+      "cluster": "kunnen_irr"
+    },
+    {
+      "id": "V160",
+      "type": "vocab_match",
+      "dutch": "inderdaad",
+      "english": "indeed / that's right",
+      "pos": "adv",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V161",
+      "type": "vocab_match",
+      "dutch": "zaak",
+      "english": "matter / business / case",
+      "pos": "noun",
+      "cluster": "work_org"
+    },
+    {
+      "id": "V162",
+      "type": "vocab_match",
+      "dutch": "benieuwd",
+      "english": "curious / wondering",
+      "pos": "adj",
+      "cluster": "feelings_pos"
+    },
+    {
+      "id": "V163",
+      "type": "vocab_match",
+      "dutch": "verschillend",
+      "english": "different / various",
+      "pos": "adj",
+      "cluster": "opinion"
+    },
+    {
+      "id": "V164",
+      "type": "vocab_match",
+      "dutch": "gek",
+      "english": "crazy / weird",
+      "pos": "adj",
+      "cluster": "feelings_neg"
+    },
+    {
+      "id": "V165",
+      "type": "vocab_match",
+      "dutch": "paar",
+      "english": "pair / a few / couple",
+      "pos": "noun",
+      "cluster": "quantity"
+    },
+    {
+      "id": "V166",
+      "type": "vocab_match",
+      "dutch": "dik",
+      "english": "thick / fat",
+      "pos": "adj",
+      "cluster": "appearance"
+    },
+    {
+      "id": "V167",
+      "type": "vocab_match",
+      "dutch": "paspoort",
+      "english": "passport",
+      "pos": "noun",
+      "cluster": "admin_law"
+    },
+    {
+      "id": "V168",
+      "type": "vocab_match",
+      "dutch": "europese",
+      "english": "European (f/adj form)",
+      "pos": "adj",
+      "cluster": "nationality"
+    },
+    {
+      "id": "V169",
+      "type": "vocab_match",
+      "dutch": "kapotgaan",
+      "english": "to break down",
+      "pos": "verb",
+      "cluster": "home_construction"
+    },
+    {
+      "id": "V170",
+      "type": "vocab_match",
+      "dutch": "neusspray",
+      "english": "nasal spray",
+      "pos": "noun",
+      "cluster": "health_medical"
+    },
+    {
+      "id": "V171",
+      "type": "vocab_match",
+      "dutch": "irritant",
+      "english": "annoying",
+      "pos": "adj",
+      "cluster": "feelings_neg"
+    },
+    {
+      "id": "V172",
+      "type": "vocab_match",
+      "dutch": "verder",
+      "english": "further / to continue",
+      "pos": "adv",
+      "cluster": "direction"
+    },
+    {
+      "id": "V173",
+      "type": "vocab_match",
+      "dutch": "stinken",
+      "english": "to stink",
+      "pos": "verb",
+      "cluster": "senses"
+    },
+    {
+      "id": "V174",
+      "type": "vocab_match",
+      "dutch": "specialist",
+      "english": "specialist",
+      "pos": "noun",
+      "cluster": "work_profession"
+    },
+    {
+      "id": "V175",
+      "type": "vocab_match",
+      "dutch": "amsterdam",
+      "english": "Amsterdam",
+      "pos": "noun",
+      "cluster": "geography"
+    },
+    {
+      "id": "V176",
+      "type": "vocab_match",
+      "dutch": "in",
+      "english": "in",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V177",
+      "type": "vocab_match",
+      "dutch": "pad",
+      "english": "path / track",
+      "pos": "noun",
+      "cluster": "nature"
+    },
+    {
+      "id": "V178",
+      "type": "vocab_match",
+      "dutch": "maandelijks",
+      "english": "monthly",
+      "pos": "adv",
+      "cluster": "time_calendar"
+    },
+    {
+      "id": "V179",
+      "type": "vocab_match",
+      "dutch": "alcohol",
+      "english": "alcohol",
+      "pos": "noun",
+      "cluster": "food_drink"
+    },
+    {
+      "id": "V180",
+      "type": "vocab_match",
+      "dutch": "boeddhist",
+      "english": "Buddhist",
+      "pos": "noun",
+      "cluster": "religion"
+    },
+    {
+      "id": "V181",
+      "type": "vocab_match",
+      "dutch": "tempel",
+      "english": "temple",
+      "pos": "noun",
+      "cluster": "religion"
+    },
+    {
+      "id": "V182",
+      "type": "vocab_match",
+      "dutch": "tot",
+      "english": "until / to",
+      "pos": "other",
+      "cluster": "grammar"
+    },
+    {
+      "id": "V183",
+      "type": "vocab_match",
+      "dutch": "soapserie",
+      "english": "soap opera",
+      "pos": "noun",
+      "cluster": "media_leisure"
+    },
+    {
+      "id": "V184",
+      "type": "vocab_match",
+      "dutch": "europees",
+      "english": "European",
+      "pos": "adj",
+      "cluster": "nationality"
+    },
+    {
+      "id": "V185",
+      "type": "vocab_match",
+      "dutch": "getrouwd",
+      "english": "married",
+      "pos": "adj",
+      "cluster": "family"
+    },
+    {
+      "id": "V186",
+      "type": "vocab_match",
+      "dutch": "fornuis",
+      "english": "cooker / stove",
+      "pos": "noun",
+      "cluster": "home_appliance"
+    },
+    {
+      "id": "V187",
+      "type": "vocab_match",
+      "dutch": "kom",
+      "english": "come (present) / bowl",
+      "pos": "verb",
+      "cluster": "komen_irr"
+    },
+    {
+      "id": "V188",
+      "type": "vocab_match",
+      "dutch": "kou",
+      "english": "cold (chill)",
+      "pos": "noun",
+      "cluster": "weather"
+    },
+    {
+      "id": "V189",
+      "type": "vocab_match",
+      "dutch": "assistente",
+      "english": "assistant (f)",
+      "pos": "noun",
+      "cluster": "work_profession"
+    },
+    {
+      "id": "V190",
+      "type": "vocab_match",
+      "dutch": "vrijheid",
+      "english": "freedom",
+      "pos": "noun",
+      "cluster": "society"
+    }
+  ],
+  "conjugation_exercises": [
+    {
+      "id": "C001",
+      "type": "verb_conjugation_match",
+      "infinitive": "werken",
+      "english": "to work",
+      "forms": {
+        "ik_present": "werk",
+        "hij_zij_present": "werkt",
+        "past_ik": "werkte",
+        "past_participle": "gewerkt"
+      }
+    },
+    {
+      "id": "C002",
+      "type": "verb_conjugation_match",
+      "infinitive": "maken",
+      "english": "to make",
+      "forms": {
+        "ik_present": "maak",
+        "hij_zij_present": "maakt",
+        "past_ik": "maakte",
+        "past_participle": "gemaakt"
+      }
+    },
+    {
+      "id": "C003",
+      "type": "verb_conjugation_match",
+      "infinitive": "wonen",
+      "english": "to live",
+      "forms": {
+        "ik_present": "woon",
+        "hij_zij_present": "woont",
+        "past_ik": "woonde",
+        "past_participle": "gewoond"
+      }
+    },
+    {
+      "id": "C004",
+      "type": "verb_conjugation_match",
+      "infinitive": "luisteren",
+      "english": "to listen",
+      "forms": {
+        "ik_present": "luister",
+        "hij_zij_present": "luistert",
+        "past_ik": "luisterde",
+        "past_participle": "geluisterd"
+      }
+    },
+    {
+      "id": "C005",
+      "type": "verb_conjugation_match",
+      "infinitive": "stoppen",
+      "english": "to stop",
+      "forms": {
+        "ik_present": "stop",
+        "hij_zij_present": "stopt",
+        "past_ik": "stopte",
+        "past_participle": "gestopt"
+      }
+    },
+    {
+      "id": "C006",
+      "type": "verb_conjugation_match",
+      "infinitive": "pakken",
+      "english": "to grab / pack",
+      "forms": {
+        "ik_present": "pak",
+        "hij_zij_present": "pakt",
+        "past_ik": "pakte",
+        "past_participle": "gepakt"
+      }
+    },
+    {
+      "id": "C007",
+      "type": "verb_conjugation_match",
+      "infinitive": "parkeren",
+      "english": "to park",
+      "forms": {
+        "ik_present": "parkeer",
+        "hij_zij_present": "parkeert",
+        "past_ik": "parkeerde",
+        "past_participle": "geparkeerd"
+      }
+    },
+    {
+      "id": "C008",
+      "type": "verb_conjugation_match",
+      "infinitive": "betalen",
+      "english": "to pay",
+      "forms": {
+        "ik_present": "betaal",
+        "hij_zij_present": "betaalt",
+        "past_ik": "betaalde",
+        "past_participle": "betaald"
+      }
+    },
+    {
+      "id": "C009",
+      "type": "verb_conjugation_match",
+      "infinitive": "huren",
+      "english": "to rent",
+      "forms": {
+        "ik_present": "huur",
+        "hij_zij_present": "huurt",
+        "past_ik": "huurde",
+        "past_participle": "gehuurd"
+      }
+    },
+    {
+      "id": "C010",
+      "type": "verb_conjugation_match",
+      "infinitive": "spelen",
+      "english": "to play",
+      "forms": {
+        "ik_present": "speel",
+        "hij_zij_present": "speelt",
+        "past_ik": "speelde",
+        "past_participle": "gespeeld"
+      }
+    },
+    {
+      "id": "C011",
+      "type": "verb_conjugation_match",
+      "infinitive": "leren",
+      "english": "to learn",
+      "forms": {
+        "ik_present": "leer",
+        "hij_zij_present": "leert",
+        "past_ik": "leerde",
+        "past_participle": "geleerd"
+      }
+    },
+    {
+      "id": "C012",
+      "type": "verb_conjugation_match",
+      "infinitive": "praten",
+      "english": "to talk",
+      "forms": {
+        "ik_present": "praat",
+        "hij_zij_present": "praat",
+        "past_ik": "praatte",
+        "past_participle": "gepraat"
+      }
+    },
+    {
+      "id": "C013",
+      "type": "verb_conjugation_match",
+      "infinitive": "sturen",
+      "english": "to send",
+      "forms": {
+        "ik_present": "stuur",
+        "hij_zij_present": "stuurt",
+        "past_ik": "stuurde",
+        "past_participle": "gestuurd"
+      }
+    },
+    {
+      "id": "C014",
+      "type": "verb_conjugation_match",
+      "infinitive": "bellen",
+      "english": "to call",
+      "forms": {
+        "ik_present": "bel",
+        "hij_zij_present": "belt",
+        "past_ik": "belde",
+        "past_participle": "gebeld"
+      }
+    },
+    {
+      "id": "C015",
+      "type": "verb_conjugation_match",
+      "infinitive": "wachten",
+      "english": "to wait",
+      "forms": {
+        "ik_present": "wacht",
+        "hij_zij_present": "wacht",
+        "past_ik": "wachtte",
+        "past_participle": "gewacht"
+      }
+    },
+    {
+      "id": "C016",
+      "type": "verb_conjugation_match",
+      "infinitive": "koken",
+      "english": "to cook",
+      "forms": {
+        "ik_present": "kook",
+        "hij_zij_present": "kookt",
+        "past_ik": "kookte",
+        "past_participle": "gekookt"
+      }
+    },
+    {
+      "id": "C017",
+      "type": "verb_conjugation_match",
+      "infinitive": "douchen",
+      "english": "to shower",
+      "forms": {
+        "ik_present": "douche",
+        "hij_zij_present": "doucht",
+        "past_ik": "douchte",
+        "past_participle": "gedoucht"
+      }
+    },
+    {
+      "id": "C018",
+      "type": "verb_conjugation_match",
+      "infinitive": "fietsen",
+      "english": "to cycle",
+      "forms": {
+        "ik_present": "fiets",
+        "hij_zij_present": "fietst",
+        "past_ik": "fietste",
+        "past_participle": "gefietst"
+      }
+    },
+    {
+      "id": "C019",
+      "type": "verb_conjugation_match",
+      "infinitive": "wandelen",
+      "english": "to walk / hike",
+      "forms": {
+        "ik_present": "wandel",
+        "hij_zij_present": "wandelt",
+        "past_ik": "wandelde",
+        "past_participle": "gewandeld"
+      }
+    },
+    {
+      "id": "C020",
+      "type": "verb_conjugation_match",
+      "infinitive": "reizen",
+      "english": "to travel",
+      "forms": {
+        "ik_present": "reis",
+        "hij_zij_present": "reist",
+        "past_ik": "reisde",
+        "past_participle": "gereisd"
+      }
+    },
+    {
+      "id": "C021",
+      "type": "verb_conjugation_match",
+      "infinitive": "bestellen",
+      "english": "to order",
+      "forms": {
+        "ik_present": "bestel",
+        "hij_zij_present": "bestelt",
+        "past_ik": "bestelde",
+        "past_participle": "besteld"
+      }
+    },
+    {
+      "id": "C022",
+      "type": "verb_conjugation_match",
+      "infinitive": "plannen",
+      "english": "to plan",
+      "forms": {
+        "ik_present": "plan",
+        "hij_zij_present": "plant",
+        "past_ik": "plande",
+        "past_participle": "gepland"
+      }
+    },
+    {
+      "id": "C023",
+      "type": "verb_conjugation_match",
+      "infinitive": "regelen",
+      "english": "to arrange",
+      "forms": {
+        "ik_present": "regel",
+        "hij_zij_present": "regelt",
+        "past_ik": "regelde",
+        "past_participle": "geregeld"
+      }
+    },
+    {
+      "id": "C024",
+      "type": "verb_conjugation_match",
+      "infinitive": "horen",
+      "english": "to hear",
+      "forms": {
+        "ik_present": "hoor",
+        "hij_zij_present": "hoort",
+        "past_ik": "hoorde",
+        "past_participle": "gehoord"
+      }
+    },
+    {
+      "id": "C025",
+      "type": "verb_conjugation_match",
+      "infinitive": "kennen",
+      "english": "to know (person)",
+      "forms": {
+        "ik_present": "ken",
+        "hij_zij_present": "kent",
+        "past_ik": "kende",
+        "past_participle": "gekend"
+      }
+    },
+    {
+      "id": "C026",
+      "type": "verb_conjugation_match",
+      "infinitive": "verhuizen",
+      "english": "to move house",
+      "forms": {
+        "ik_present": "verhuis",
+        "hij_zij_present": "verhuist",
+        "past_ik": "verhuisde",
+        "past_participle": "verhuisd"
+      }
+    },
+    {
+      "id": "C027",
+      "type": "verb_conjugation_match",
+      "infinitive": "trouwen",
+      "english": "to get married",
+      "forms": {
+        "ik_present": "trouw",
+        "hij_zij_present": "trouwt",
+        "past_ik": "trouwde",
+        "past_participle": "getrouwd"
+      }
+    },
+    {
+      "id": "C028",
+      "type": "verb_conjugation_match",
+      "infinitive": "zorgen",
+      "english": "to take care",
+      "forms": {
+        "ik_present": "zorg",
+        "hij_zij_present": "zorgt",
+        "past_ik": "zorgde",
+        "past_participle": "gezorgd"
+      }
+    },
+    {
+      "id": "C029",
+      "type": "verb_conjugation_match",
+      "infinitive": "proberen",
+      "english": "to try",
+      "forms": {
+        "ik_present": "probeer",
+        "hij_zij_present": "probeert",
+        "past_ik": "probeerde",
+        "past_participle": "geprobeerd"
+      }
+    },
+    {
+      "id": "C030",
+      "type": "verb_conjugation_match",
+      "infinitive": "controleren",
+      "english": "to check",
+      "forms": {
+        "ik_present": "controleer",
+        "hij_zij_present": "controleert",
+        "past_ik": "controleerde",
+        "past_participle": "gecontroleerd"
+      }
+    },
+    {
+      "id": "C031",
+      "type": "verb_conjugation_match",
+      "infinitive": "veranderen",
+      "english": "to change",
+      "forms": {
+        "ik_present": "verander",
+        "hij_zij_present": "verandert",
+        "past_ik": "veranderde",
+        "past_participle": "veranderd"
+      }
+    },
+    {
+      "id": "C032",
+      "type": "verb_conjugation_match",
+      "infinitive": "eindigen",
+      "english": "to end",
+      "forms": {
+        "ik_present": "eindig",
+        "hij_zij_present": "eindigt",
+        "past_ik": "eindigde",
+        "past_participle": "geëindigd"
+      }
+    },
+    {
+      "id": "C033",
+      "type": "verb_conjugation_match",
+      "infinitive": "verdienen",
+      "english": "to earn",
+      "forms": {
+        "ik_present": "verdien",
+        "hij_zij_present": "verdient",
+        "past_ik": "verdiende",
+        "past_participle": "verdiend"
+      }
+    },
+    {
+      "id": "C034",
+      "type": "verb_conjugation_match",
+      "infinitive": "winkelen",
+      "english": "to shop",
+      "forms": {
+        "ik_present": "winkel",
+        "hij_zij_present": "winkelt",
+        "past_ik": "winkelde",
+        "past_participle": "gewinkeld"
+      }
+    },
+    {
+      "id": "C035",
+      "type": "verb_conjugation_match",
+      "infinitive": "lachen",
+      "english": "to laugh",
+      "forms": {
+        "ik_present": "lach",
+        "hij_zij_present": "lacht",
+        "past_ik": "lachte",
+        "past_participle": "gelachen"
+      }
+    },
+    {
+      "id": "C036",
+      "type": "verb_conjugation_match",
+      "infinitive": "huilen",
+      "english": "to cry",
+      "forms": {
+        "ik_present": "huil",
+        "hij_zij_present": "huilt",
+        "past_ik": "huilde",
+        "past_participle": "gehuild"
+      }
+    },
+    {
+      "id": "C037",
+      "type": "verb_conjugation_match",
+      "infinitive": "schreeuwen",
+      "english": "to shout",
+      "forms": {
+        "ik_present": "schreeuw",
+        "hij_zij_present": "schreeuwt",
+        "past_ik": "schreeuwde",
+        "past_participle": "geschreeuwd"
+      }
+    },
+    {
+      "id": "C038",
+      "type": "verb_conjugation_match",
+      "infinitive": "glimlachen",
+      "english": "to smile",
+      "forms": {
+        "ik_present": "glimlach",
+        "hij_zij_present": "glimlacht",
+        "past_ik": "glimlachte",
+        "past_participle": "geglimlacht"
+      }
+    },
+    {
+      "id": "C039",
+      "type": "verb_conjugation_match",
+      "infinitive": "sporten",
+      "english": "to exercise",
+      "forms": {
+        "ik_present": "sport",
+        "hij_zij_present": "sport",
+        "past_ik": "sportte",
+        "past_participle": "gesport"
+      }
+    },
+    {
+      "id": "C040",
+      "type": "verb_conjugation_match",
+      "infinitive": "voetballen",
+      "english": "to play football",
+      "forms": {
+        "ik_present": "voetbal",
+        "hij_zij_present": "voetbalt",
+        "past_ik": "voetbalde",
+        "past_participle": "gevoetbald"
+      }
+    },
+    {
+      "id": "C041",
+      "type": "verb_conjugation_match",
+      "infinitive": "branden",
+      "english": "to burn",
+      "forms": {
+        "ik_present": "brand",
+        "hij_zij_present": "brandt",
+        "past_ik": "brandde",
+        "past_participle": "gebrand"
+      }
+    },
+    {
+      "id": "C042",
+      "type": "verb_conjugation_match",
+      "infinitive": "wassen",
+      "english": "to wash",
+      "forms": {
+        "ik_present": "was",
+        "hij_zij_present": "wast",
+        "past_ik": "waste",
+        "past_participle": "gewassen"
+      }
+    },
+    {
+      "id": "C043",
+      "type": "verb_conjugation_match",
+      "infinitive": "drogen",
+      "english": "to dry",
+      "forms": {
+        "ik_present": "droog",
+        "hij_zij_present": "droogt",
+        "past_ik": "droogde",
+        "past_participle": "gedroogd"
+      }
+    },
+    {
+      "id": "C044",
+      "type": "verb_conjugation_match",
+      "infinitive": "poetsen",
+      "english": "to brush / clean",
+      "forms": {
+        "ik_present": "poets",
+        "hij_zij_present": "poetst",
+        "past_ik": "poetste",
+        "past_participle": "gepoetst"
+      }
+    },
+    {
+      "id": "C045",
+      "type": "verb_conjugation_match",
+      "infinitive": "bouwen",
+      "english": "to build",
+      "forms": {
+        "ik_present": "bouw",
+        "hij_zij_present": "bouwt",
+        "past_ik": "bouwde",
+        "past_participle": "gebouwd"
+      }
+    },
+    {
+      "id": "C046",
+      "type": "verb_conjugation_match",
+      "infinitive": "repareren",
+      "english": "to repair",
+      "forms": {
+        "ik_present": "repareer",
+        "hij_zij_present": "repareert",
+        "past_ik": "repareerde",
+        "past_participle": "gerepareerd"
+      }
+    },
+    {
+      "id": "C047",
+      "type": "verb_conjugation_match",
+      "infinitive": "schilderen",
+      "english": "to paint",
+      "forms": {
+        "ik_present": "schilder",
+        "hij_zij_present": "schildert",
+        "past_ik": "schilderde",
+        "past_participle": "geschilderd"
+      }
+    },
+    {
+      "id": "C048",
+      "type": "verb_conjugation_match",
+      "infinitive": "tekenen",
+      "english": "to draw",
+      "forms": {
+        "ik_present": "teken",
+        "hij_zij_present": "tekent",
+        "past_ik": "tekende",
+        "past_participle": "getekend"
+      }
+    },
+    {
+      "id": "C049",
+      "type": "verb_conjugation_match",
+      "infinitive": "dansen",
+      "english": "to dance",
+      "forms": {
+        "ik_present": "dans",
+        "hij_zij_present": "danst",
+        "past_ik": "danste",
+        "past_participle": "gedanst"
+      }
+    },
+    {
+      "id": "C050",
+      "type": "verb_conjugation_match",
+      "infinitive": "studeren",
+      "english": "to study",
+      "forms": {
+        "ik_present": "studeer",
+        "hij_zij_present": "studeert",
+        "past_ik": "studeerde",
+        "past_participle": "gestudeerd"
+      }
+    },
+    {
+      "id": "C051",
+      "type": "verb_conjugation_match",
+      "infinitive": "slagen",
+      "english": "to pass (exam)",
+      "forms": {
+        "ik_present": "slaag",
+        "hij_zij_present": "slaagt",
+        "past_ik": "slaagde",
+        "past_participle": "geslaagd"
+      }
+    },
+    {
+      "id": "C052",
+      "type": "verb_conjugation_match",
+      "infinitive": "zakken",
+      "english": "to fail (exam)",
+      "forms": {
+        "ik_present": "zak",
+        "hij_zij_present": "zakt",
+        "past_ik": "zakte",
+        "past_participle": "gezakt"
+      }
+    },
+    {
+      "id": "C053",
+      "type": "verb_conjugation_match",
+      "infinitive": "bedanken",
+      "english": "to thank",
+      "forms": {
+        "ik_present": "bedank",
+        "hij_zij_present": "bedankt",
+        "past_ik": "bedankte",
+        "past_participle": "bedankt"
+      }
+    },
+    {
+      "id": "C054",
+      "type": "verb_conjugation_match",
+      "infinitive": "herhalen",
+      "english": "to repeat",
+      "forms": {
+        "ik_present": "herhaal",
+        "hij_zij_present": "herhaalt",
+        "past_ik": "herhaalde",
+        "past_participle": "herhaald"
+      }
+    },
+    {
+      "id": "C055",
+      "type": "verb_conjugation_match",
+      "infinitive": "vertalen",
+      "english": "to translate",
+      "forms": {
+        "ik_present": "vertaal",
+        "hij_zij_present": "vertaalt",
+        "past_ik": "vertaalde",
+        "past_participle": "vertaald"
+      }
+    },
+    {
+      "id": "C056",
+      "type": "verb_conjugation_match",
+      "infinitive": "oefenen",
+      "english": "to practise",
+      "forms": {
+        "ik_present": "oefen",
+        "hij_zij_present": "oefent",
+        "past_ik": "oefende",
+        "past_participle": "geoefend"
+      }
+    },
+    {
+      "id": "C057",
+      "type": "verb_conjugation_match",
+      "infinitive": "hopen",
+      "english": "to hope",
+      "forms": {
+        "ik_present": "hoop",
+        "hij_zij_present": "hoopt",
+        "past_ik": "hoopte",
+        "past_participle": "gehoopt"
+      }
+    },
+    {
+      "id": "C058",
+      "type": "verb_conjugation_match",
+      "infinitive": "geloven",
+      "english": "to believe",
+      "forms": {
+        "ik_present": "geloof",
+        "hij_zij_present": "gelooft",
+        "past_ik": "geloofde",
+        "past_participle": "geloofd"
+      }
+    },
+    {
+      "id": "C059",
+      "type": "verb_conjugation_match",
+      "infinitive": "twijfelen",
+      "english": "to doubt",
+      "forms": {
+        "ik_present": "twijfel",
+        "hij_zij_present": "twijfelt",
+        "past_ik": "twijfelde",
+        "past_participle": "getwijfeld"
+      }
+    },
+    {
+      "id": "C060",
+      "type": "verb_conjugation_match",
+      "infinitive": "herinneren",
+      "english": "to remember",
+      "forms": {
+        "ik_present": "herinner",
+        "hij_zij_present": "herinnert",
+        "past_ik": "herinnerde",
+        "past_participle": "herinnerd"
+      }
+    },
+    {
+      "id": "C061",
+      "type": "verb_conjugation_match",
+      "infinitive": "snappen",
+      "english": "to understand (inf.)",
+      "forms": {
+        "ik_present": "snap",
+        "hij_zij_present": "snapt",
+        "past_ik": "snapte",
+        "past_participle": "gesnapt"
+      }
+    },
+    {
+      "id": "C062",
+      "type": "verb_conjugation_match",
+      "infinitive": "stemmen",
+      "english": "to vote",
+      "forms": {
+        "ik_present": "stem",
+        "hij_zij_present": "stemt",
+        "past_ik": "stemde",
+        "past_participle": "gestemd"
+      }
+    },
+    {
+      "id": "C063",
+      "type": "verb_conjugation_match",
+      "infinitive": "lenen",
+      "english": "to borrow / lend",
+      "forms": {
+        "ik_present": "leen",
+        "hij_zij_present": "leent",
+        "past_ik": "leende",
+        "past_participle": "geleend"
+      }
+    },
+    {
+      "id": "C064",
+      "type": "verb_conjugation_match",
+      "infinitive": "sparen",
+      "english": "to save money",
+      "forms": {
+        "ik_present": "spaar",
+        "hij_zij_present": "spaart",
+        "past_ik": "spaarde",
+        "past_participle": "gespaard"
+      }
+    },
+    {
+      "id": "C065",
+      "type": "verb_conjugation_match",
+      "infinitive": "weigeren",
+      "english": "to refuse",
+      "forms": {
+        "ik_present": "weiger",
+        "hij_zij_present": "weigert",
+        "past_ik": "weigerde",
+        "past_participle": "geweigerd"
+      }
+    },
+    {
+      "id": "C066",
+      "type": "verb_conjugation_match",
+      "infinitive": "accepteren",
+      "english": "to accept",
+      "forms": {
+        "ik_present": "accepteer",
+        "hij_zij_present": "accepteert",
+        "past_ik": "accepteerde",
+        "past_participle": "geaccepteerd"
+      }
+    },
+    {
+      "id": "C067",
+      "type": "verb_conjugation_match",
+      "infinitive": "verwachten",
+      "english": "to expect",
+      "forms": {
+        "ik_present": "verwacht",
+        "hij_zij_present": "verwacht",
+        "past_ik": "verwachtte",
+        "past_participle": "verwacht"
+      }
+    },
+    {
+      "id": "C068",
+      "type": "verb_conjugation_match",
+      "infinitive": "hoesten",
+      "english": "to cough",
+      "forms": {
+        "ik_present": "hoest",
+        "hij_zij_present": "hoest",
+        "past_ik": "hoestte",
+        "past_participle": "gehoest"
+      }
+    },
+    {
+      "id": "C069",
+      "type": "verb_conjugation_match",
+      "infinitive": "niezen",
+      "english": "to sneeze",
+      "forms": {
+        "ik_present": "nies",
+        "hij_zij_present": "niest",
+        "past_ik": "niesde",
+        "past_participle": "geniest"
+      }
+    },
+    {
+      "id": "C070",
+      "type": "verb_conjugation_match",
+      "infinitive": "bloeden",
+      "english": "to bleed",
+      "forms": {
+        "ik_present": "bloed",
+        "hij_zij_present": "bloedt",
+        "past_ik": "bloedde",
+        "past_participle": "gebloed"
+      }
+    },
+    {
+      "id": "C071",
+      "type": "verb_conjugation_match",
+      "infinitive": "printen",
+      "english": "to print",
+      "forms": {
+        "ik_present": "print",
+        "hij_zij_present": "print",
+        "past_ik": "printte",
+        "past_participle": "geprint"
+      }
+    },
+    {
+      "id": "C072",
+      "type": "verb_conjugation_match",
+      "infinitive": "reserveren",
+      "english": "to reserve",
+      "forms": {
+        "ik_present": "reserveer",
+        "hij_zij_present": "reserveert",
+        "past_ik": "reserveerde",
+        "past_participle": "gereserveerd"
+      }
+    },
+    {
+      "id": "C073",
+      "type": "verb_conjugation_match",
+      "infinitive": "klagen",
+      "english": "to complain",
+      "forms": {
+        "ik_present": "klaag",
+        "hij_zij_present": "klaagt",
+        "past_ik": "klaagde",
+        "past_participle": "geklaagd"
+      }
+    },
+    {
+      "id": "C074",
+      "type": "verb_conjugation_match",
+      "infinitive": "vertellen",
+      "english": "to tell",
+      "forms": {
+        "ik_present": "vertel",
+        "hij_zij_present": "vertelt",
+        "past_ik": "vertelde",
+        "past_participle": "verteld"
+      }
+    },
+    {
+      "id": "C075",
+      "type": "verb_conjugation_match",
+      "infinitive": "antwoorden",
+      "english": "to answer",
+      "forms": {
+        "ik_present": "antwoord",
+        "hij_zij_present": "antwoordt",
+        "past_ik": "antwoordde",
+        "past_participle": "geantwoord"
+      }
+    },
+    {
+      "id": "C076",
+      "type": "verb_conjugation_match",
+      "infinitive": "zijn",
+      "english": "to be",
+      "forms": {
+        "ik_present": "ben",
+        "hij_zij_present": "is",
+        "past_ik": "was",
+        "past_participle": "geweest"
+      }
+    },
+    {
+      "id": "C077",
+      "type": "verb_conjugation_match",
+      "infinitive": "hebben",
+      "english": "to have",
+      "forms": {
+        "ik_present": "heb",
+        "hij_zij_present": "heeft",
+        "past_ik": "had",
+        "past_participle": "gehad"
+      }
+    },
+    {
+      "id": "C078",
+      "type": "verb_conjugation_match",
+      "infinitive": "gaan",
+      "english": "to go",
+      "forms": {
+        "ik_present": "ga",
+        "hij_zij_present": "gaat",
+        "past_ik": "ging",
+        "past_participle": "gegaan"
+      }
+    },
+    {
+      "id": "C079",
+      "type": "verb_conjugation_match",
+      "infinitive": "komen",
+      "english": "to come",
+      "forms": {
+        "ik_present": "kom",
+        "hij_zij_present": "komt",
+        "past_ik": "kwam",
+        "past_participle": "gekomen"
+      }
+    },
+    {
+      "id": "C080",
+      "type": "verb_conjugation_match",
+      "infinitive": "zien",
+      "english": "to see",
+      "forms": {
+        "ik_present": "zie",
+        "hij_zij_present": "ziet",
+        "past_ik": "zag",
+        "past_participle": "gezien"
+      }
+    },
+    {
+      "id": "C081",
+      "type": "verb_conjugation_match",
+      "infinitive": "kijken",
+      "english": "to watch / look",
+      "forms": {
+        "ik_present": "kijk",
+        "hij_zij_present": "kijkt",
+        "past_ik": "keek",
+        "past_participle": "gekeken"
+      }
+    },
+    {
+      "id": "C082",
+      "type": "verb_conjugation_match",
+      "infinitive": "lopen",
+      "english": "to walk",
+      "forms": {
+        "ik_present": "loop",
+        "hij_zij_present": "loopt",
+        "past_ik": "liep",
+        "past_participle": "gelopen"
+      }
+    },
+    {
+      "id": "C083",
+      "type": "verb_conjugation_match",
+      "infinitive": "rijden",
+      "english": "to drive",
+      "forms": {
+        "ik_present": "rijd",
+        "hij_zij_present": "rijdt",
+        "past_ik": "reed",
+        "past_participle": "gereden"
+      }
+    },
+    {
+      "id": "C084",
+      "type": "verb_conjugation_match",
+      "infinitive": "lezen",
+      "english": "to read",
+      "forms": {
+        "ik_present": "lees",
+        "hij_zij_present": "leest",
+        "past_ik": "las",
+        "past_participle": "gelezen"
+      }
+    },
+    {
+      "id": "C085",
+      "type": "verb_conjugation_match",
+      "infinitive": "schrijven",
+      "english": "to write",
+      "forms": {
+        "ik_present": "schrijf",
+        "hij_zij_present": "schrijft",
+        "past_ik": "schreef",
+        "past_participle": "geschreven"
+      }
+    },
+    {
+      "id": "C086",
+      "type": "verb_conjugation_match",
+      "infinitive": "eten",
+      "english": "to eat",
+      "forms": {
+        "ik_present": "eet",
+        "hij_zij_present": "eet",
+        "past_ik": "at",
+        "past_participle": "gegeten"
+      }
+    },
+    {
+      "id": "C087",
+      "type": "verb_conjugation_match",
+      "infinitive": "drinken",
+      "english": "to drink",
+      "forms": {
+        "ik_present": "drink",
+        "hij_zij_present": "drinkt",
+        "past_ik": "dronk",
+        "past_participle": "gedronken"
+      }
+    },
+    {
+      "id": "C088",
+      "type": "verb_conjugation_match",
+      "infinitive": "slapen",
+      "english": "to sleep",
+      "forms": {
+        "ik_present": "slaap",
+        "hij_zij_present": "slaapt",
+        "past_ik": "sliep",
+        "past_participle": "geslapen"
+      }
+    },
+    {
+      "id": "C089",
+      "type": "verb_conjugation_match",
+      "infinitive": "willen",
+      "english": "to want",
+      "forms": {
+        "ik_present": "wil",
+        "hij_zij_present": "wil",
+        "past_ik": "wilde",
+        "past_participle": "gewild"
+      }
+    },
+    {
+      "id": "C090",
+      "type": "verb_conjugation_match",
+      "infinitive": "kunnen",
+      "english": "to be able to",
+      "forms": {
+        "ik_present": "kan",
+        "hij_zij_present": "kan",
+        "past_ik": "kon",
+        "past_participle": "gekund"
+      }
+    },
+    {
+      "id": "C091",
+      "type": "verb_conjugation_match",
+      "infinitive": "moeten",
+      "english": "to have to",
+      "forms": {
+        "ik_present": "moet",
+        "hij_zij_present": "moet",
+        "past_ik": "moest",
+        "past_participle": "gemoeten"
+      }
+    },
+    {
+      "id": "C092",
+      "type": "verb_conjugation_match",
+      "infinitive": "mogen",
+      "english": "to be allowed",
+      "forms": {
+        "ik_present": "mag",
+        "hij_zij_present": "mag",
+        "past_ik": "mocht",
+        "past_participle": "gemogen"
+      }
+    },
+    {
+      "id": "C093",
+      "type": "verb_conjugation_match",
+      "infinitive": "zeggen",
+      "english": "to say",
+      "forms": {
+        "ik_present": "zeg",
+        "hij_zij_present": "zegt",
+        "past_ik": "zei",
+        "past_participle": "gezegd"
+      }
+    },
+    {
+      "id": "C094",
+      "type": "verb_conjugation_match",
+      "infinitive": "vinden",
+      "english": "to find / think",
+      "forms": {
+        "ik_present": "vind",
+        "hij_zij_present": "vindt",
+        "past_ik": "vond",
+        "past_participle": "gevonden"
+      }
+    },
+    {
+      "id": "C095",
+      "type": "verb_conjugation_match",
+      "infinitive": "geven",
+      "english": "to give",
+      "forms": {
+        "ik_present": "geef",
+        "hij_zij_present": "geeft",
+        "past_ik": "gaf",
+        "past_participle": "gegeven"
+      }
+    },
+    {
+      "id": "C096",
+      "type": "verb_conjugation_match",
+      "infinitive": "nemen",
+      "english": "to take",
+      "forms": {
+        "ik_present": "neem",
+        "hij_zij_present": "neemt",
+        "past_ik": "nam",
+        "past_participle": "genomen"
+      }
+    },
+    {
+      "id": "C097",
+      "type": "verb_conjugation_match",
+      "infinitive": "weten",
+      "english": "to know (fact)",
+      "forms": {
+        "ik_present": "weet",
+        "hij_zij_present": "weet",
+        "past_ik": "wist",
+        "past_participle": "geweten"
+      }
+    },
+    {
+      "id": "C098",
+      "type": "verb_conjugation_match",
+      "infinitive": "staan",
+      "english": "to stand",
+      "forms": {
+        "ik_present": "sta",
+        "hij_zij_present": "staat",
+        "past_ik": "stond",
+        "past_participle": "gestaan"
+      }
+    },
+    {
+      "id": "C099",
+      "type": "verb_conjugation_match",
+      "infinitive": "liggen",
+      "english": "to lie / be lying",
+      "forms": {
+        "ik_present": "lig",
+        "hij_zij_present": "ligt",
+        "past_ik": "lag",
+        "past_participle": "gelegen"
+      }
+    },
+    {
+      "id": "C100",
+      "type": "verb_conjugation_match",
+      "infinitive": "zitten",
+      "english": "to sit",
+      "forms": {
+        "ik_present": "zit",
+        "hij_zij_present": "zit",
+        "past_ik": "zat",
+        "past_participle": "gezeten"
+      }
+    },
+    {
+      "id": "C101",
+      "type": "verb_conjugation_match",
+      "infinitive": "brengen",
+      "english": "to bring",
+      "forms": {
+        "ik_present": "breng",
+        "hij_zij_present": "brengt",
+        "past_ik": "bracht",
+        "past_participle": "gebracht"
+      }
+    },
+    {
+      "id": "C102",
+      "type": "verb_conjugation_match",
+      "infinitive": "kopen",
+      "english": "to buy",
+      "forms": {
+        "ik_present": "koop",
+        "hij_zij_present": "koopt",
+        "past_ik": "kocht",
+        "past_participle": "gekocht"
+      }
+    },
+    {
+      "id": "C103",
+      "type": "verb_conjugation_match",
+      "infinitive": "vergeten",
+      "english": "to forget",
+      "forms": {
+        "ik_present": "vergeet",
+        "hij_zij_present": "vergeet",
+        "past_ik": "vergat",
+        "past_participle": "vergeten"
+      }
+    },
+    {
+      "id": "C104",
+      "type": "verb_conjugation_match",
+      "infinitive": "begrijpen",
+      "english": "to understand",
+      "forms": {
+        "ik_present": "begrijp",
+        "hij_zij_present": "begrijpt",
+        "past_ik": "begreep",
+        "past_participle": "begrepen"
+      }
+    },
+    {
+      "id": "C105",
+      "type": "verb_conjugation_match",
+      "infinitive": "vragen",
+      "english": "to ask",
+      "forms": {
+        "ik_present": "vraag",
+        "hij_zij_present": "vraagt",
+        "past_ik": "vroeg",
+        "past_participle": "gevraagd"
+      }
+    },
+    {
+      "id": "C106",
+      "type": "verb_conjugation_match",
+      "infinitive": "helpen",
+      "english": "to help",
+      "forms": {
+        "ik_present": "help",
+        "hij_zij_present": "helpt",
+        "past_ik": "hielp",
+        "past_participle": "geholpen"
+      }
+    },
+    {
+      "id": "C107",
+      "type": "verb_conjugation_match",
+      "infinitive": "denken",
+      "english": "to think",
+      "forms": {
+        "ik_present": "denk",
+        "hij_zij_present": "denkt",
+        "past_ik": "dacht",
+        "past_participle": "gedacht"
+      }
+    },
+    {
+      "id": "C108",
+      "type": "verb_conjugation_match",
+      "infinitive": "zoeken",
+      "english": "to search",
+      "forms": {
+        "ik_present": "zoek",
+        "hij_zij_present": "zoekt",
+        "past_ik": "zocht",
+        "past_participle": "gezocht"
+      }
+    },
+    {
+      "id": "C109",
+      "type": "verb_conjugation_match",
+      "infinitive": "bezoeken",
+      "english": "to visit",
+      "forms": {
+        "ik_present": "bezoek",
+        "hij_zij_present": "bezoekt",
+        "past_ik": "bezocht",
+        "past_participle": "bezocht"
+      }
+    },
+    {
+      "id": "C110",
+      "type": "verb_conjugation_match",
+      "infinitive": "beginnen",
+      "english": "to begin",
+      "forms": {
+        "ik_present": "begin",
+        "hij_zij_present": "begint",
+        "past_ik": "begon",
+        "past_participle": "begonnen"
+      }
+    },
+    {
+      "id": "C111",
+      "type": "verb_conjugation_match",
+      "infinitive": "kiezen",
+      "english": "to choose",
+      "forms": {
+        "ik_present": "kies",
+        "hij_zij_present": "kiest",
+        "past_ik": "koos",
+        "past_participle": "gekozen"
+      }
+    },
+    {
+      "id": "C112",
+      "type": "verb_conjugation_match",
+      "infinitive": "winnen",
+      "english": "to win",
+      "forms": {
+        "ik_present": "win",
+        "hij_zij_present": "wint",
+        "past_ik": "won",
+        "past_participle": "gewonnen"
+      }
+    },
+    {
+      "id": "C113",
+      "type": "verb_conjugation_match",
+      "infinitive": "verliezen",
+      "english": "to lose",
+      "forms": {
+        "ik_present": "verlies",
+        "hij_zij_present": "verliest",
+        "past_ik": "verloor",
+        "past_participle": "verloren"
+      }
+    },
+    {
+      "id": "C114",
+      "type": "verb_conjugation_match",
+      "infinitive": "vallen",
+      "english": "to fall",
+      "forms": {
+        "ik_present": "val",
+        "hij_zij_present": "valt",
+        "past_ik": "viel",
+        "past_participle": "gevallen"
+      }
+    },
+    {
+      "id": "C115",
+      "type": "verb_conjugation_match",
+      "infinitive": "snijden",
+      "english": "to cut",
+      "forms": {
+        "ik_present": "snijd",
+        "hij_zij_present": "snijdt",
+        "past_ik": "sneed",
+        "past_participle": "gesneden"
+      }
+    },
+    {
+      "id": "C116",
+      "type": "verb_conjugation_match",
+      "infinitive": "sluiten",
+      "english": "to close",
+      "forms": {
+        "ik_present": "sluit",
+        "hij_zij_present": "sluit",
+        "past_ik": "sloot",
+        "past_participle": "gesloten"
+      }
+    },
+    {
+      "id": "C117",
+      "type": "verb_conjugation_match",
+      "infinitive": "zingen",
+      "english": "to sing",
+      "forms": {
+        "ik_present": "zing",
+        "hij_zij_present": "zingt",
+        "past_ik": "zong",
+        "past_participle": "gezongen"
+      }
+    },
+    {
+      "id": "C118",
+      "type": "verb_conjugation_match",
+      "infinitive": "zwemmen",
+      "english": "to swim",
+      "forms": {
+        "ik_present": "zwem",
+        "hij_zij_present": "zwemt",
+        "past_ik": "zwom",
+        "past_participle": "gezwommen"
+      }
+    },
+    {
+      "id": "C119",
+      "type": "verb_conjugation_match",
+      "infinitive": "strijken",
+      "english": "to iron",
+      "forms": {
+        "ik_present": "strijk",
+        "hij_zij_present": "strijkt",
+        "past_ik": "streek",
+        "past_participle": "gestreken"
+      }
+    },
+    {
+      "id": "C120",
+      "type": "verb_conjugation_match",
+      "infinitive": "vliegen",
+      "english": "to fly",
+      "forms": {
+        "ik_present": "vlieg",
+        "hij_zij_present": "vliegt",
+        "past_ik": "vloog",
+        "past_participle": "gevlogen"
+      }
+    },
+    {
+      "id": "C121",
+      "type": "verb_conjugation_match",
+      "infinitive": "verbieden",
+      "english": "to forbid",
+      "forms": {
+        "ik_present": "verbied",
+        "hij_zij_present": "verbiedt",
+        "past_ik": "verbood",
+        "past_participle": "verboden"
+      }
+    },
+    {
+      "id": "C122",
+      "type": "verb_conjugation_match",
+      "infinitive": "ontvangen",
+      "english": "to receive",
+      "forms": {
+        "ik_present": "ontvang",
+        "hij_zij_present": "ontvangt",
+        "past_ik": "ontving",
+        "past_participle": "ontvangen"
+      }
+    },
+    {
+      "id": "C123",
+      "type": "verb_conjugation_match",
+      "infinitive": "bespreken",
+      "english": "to discuss",
+      "forms": {
+        "ik_present": "bespreek",
+        "hij_zij_present": "bespreekt",
+        "past_ik": "besprak",
+        "past_participle": "besproken"
+      }
+    },
+    {
+      "id": "C124",
+      "type": "verb_conjugation_match",
+      "infinitive": "afspreken",
+      "english": "to arrange / meet",
+      "forms": {
+        "ik_present": "spreek af",
+        "hij_zij_present": "spreekt af",
+        "past_ik": "sprak af",
+        "past_participle": "afgesproken"
+      }
+    },
+    {
+      "id": "C125",
+      "type": "verb_conjugation_match",
+      "infinitive": "uitgeven",
+      "english": "to spend (money)",
+      "forms": {
+        "ik_present": "geef uit",
+        "hij_zij_present": "geeft uit",
+        "past_ik": "gaf uit",
+        "past_participle": "uitgegeven"
+      }
+    },
+    {
+      "id": "C126",
+      "type": "verb_conjugation_match",
+      "infinitive": "vertrekken",
+      "english": "to depart",
+      "forms": {
+        "ik_present": "vertrek",
+        "hij_zij_present": "vertrekt",
+        "past_ik": "vertrok",
+        "past_participle": "vertrokken"
+      }
+    },
+    {
+      "id": "C127",
+      "type": "verb_conjugation_match",
+      "infinitive": "vergelijken",
+      "english": "to compare",
+      "forms": {
+        "ik_present": "vergelijk",
+        "hij_zij_present": "vergelijkt",
+        "past_ik": "vergeleek",
+        "past_participle": "vergeleken"
+      }
+    },
+    {
+      "id": "C128",
+      "type": "verb_conjugation_match",
+      "infinitive": "invullen",
+      "english": "to fill in",
+      "forms": {
+        "ik_present": "vul in",
+        "hij_zij_present": "vult in",
+        "past_ik": "vulde in",
+        "past_participle": "ingevuld"
+      }
+    },
+    {
+      "id": "C129",
+      "type": "verb_conjugation_match",
+      "infinitive": "ophalen",
+      "english": "to pick up",
+      "forms": {
+        "ik_present": "haal op",
+        "hij_zij_present": "haalt op",
+        "past_ik": "haalde op",
+        "past_participle": "opgehaald"
+      }
+    },
+    {
+      "id": "C130",
+      "type": "verb_conjugation_match",
+      "infinitive": "opbellen",
+      "english": "to call (phone)",
+      "forms": {
+        "ik_present": "bel op",
+        "hij_zij_present": "belt op",
+        "past_ik": "belde op",
+        "past_participle": "opgebeld"
+      }
+    },
+    {
+      "id": "C131",
+      "type": "verb_conjugation_match",
+      "infinitive": "uitleggen",
+      "english": "to explain",
+      "forms": {
+        "ik_present": "leg uit",
+        "hij_zij_present": "legt uit",
+        "past_ik": "legde uit",
+        "past_participle": "uitgelegd"
+      }
+    },
+    {
+      "id": "C132",
+      "type": "verb_conjugation_match",
+      "infinitive": "meenemen",
+      "english": "to take along",
+      "forms": {
+        "ik_present": "neem mee",
+        "hij_zij_present": "neemt mee",
+        "past_ik": "nam mee",
+        "past_participle": "meegenomen"
+      }
+    },
+    {
+      "id": "C133",
+      "type": "verb_conjugation_match",
+      "infinitive": "opruimen",
+      "english": "to tidy up",
+      "forms": {
+        "ik_present": "ruim op",
+        "hij_zij_present": "ruimt op",
+        "past_ik": "ruimde op",
+        "past_participle": "opgeruimd"
+      }
+    },
+    {
+      "id": "C134",
+      "type": "verb_conjugation_match",
+      "infinitive": "aanzetten",
+      "english": "to turn on",
+      "forms": {
+        "ik_present": "zet aan",
+        "hij_zij_present": "zet aan",
+        "past_ik": "zette aan",
+        "past_participle": "aangezet"
+      }
+    },
+    {
+      "id": "C135",
+      "type": "verb_conjugation_match",
+      "infinitive": "uitzetten",
+      "english": "to turn off",
+      "forms": {
+        "ik_present": "zet uit",
+        "hij_zij_present": "zet uit",
+        "past_ik": "zette uit",
+        "past_participle": "uitgezet"
+      }
+    },
+    {
+      "id": "C136",
+      "type": "verb_conjugation_match",
+      "infinitive": "aankomen",
+      "english": "to arrive",
+      "forms": {
+        "ik_present": "kom aan",
+        "hij_zij_present": "komt aan",
+        "past_ik": "kwam aan",
+        "past_participle": "aangekomen"
+      }
+    },
+    {
+      "id": "C137",
+      "type": "verb_conjugation_match",
+      "infinitive": "uitnodigen",
+      "english": "to invite",
+      "forms": {
+        "ik_present": "nodig uit",
+        "hij_zij_present": "nodigt uit",
+        "past_ik": "nodigde uit",
+        "past_participle": "uitgenodigd"
+      }
+    },
+    {
+      "id": "C138",
+      "type": "verb_conjugation_match",
+      "infinitive": "aanmelden",
+      "english": "to register",
+      "forms": {
+        "ik_present": "meld aan",
+        "hij_zij_present": "meldt aan",
+        "past_ik": "meldde aan",
+        "past_participle": "aangemeld"
+      }
+    },
+    {
+      "id": "C139",
+      "type": "verb_conjugation_match",
+      "infinitive": "inloggen",
+      "english": "to log in",
+      "forms": {
+        "ik_present": "log in",
+        "hij_zij_present": "logt in",
+        "past_ik": "logde in",
+        "past_participle": "ingelogd"
+      }
+    },
+    {
+      "id": "C140",
+      "type": "verb_conjugation_match",
+      "infinitive": "opladen",
+      "english": "to charge (device)",
+      "forms": {
+        "ik_present": "laad op",
+        "hij_zij_present": "laadt op",
+        "past_ik": "laadde op",
+        "past_participle": "opgeladen"
+      }
+    },
+    {
+      "id": "C141",
+      "type": "verb_conjugation_match",
+      "infinitive": "overstappen",
+      "english": "to transfer",
+      "forms": {
+        "ik_present": "stap over",
+        "hij_zij_present": "stapt over",
+        "past_ik": "stapte over",
+        "past_participle": "overgestapt"
+      }
+    },
+    {
+      "id": "C142",
+      "type": "verb_conjugation_match",
+      "infinitive": "instappen",
+      "english": "to board / get in",
+      "forms": {
+        "ik_present": "stap in",
+        "hij_zij_present": "stapt in",
+        "past_ik": "stapte in",
+        "past_participle": "ingestapt"
+      }
+    },
+    {
+      "id": "C143",
+      "type": "verb_conjugation_match",
+      "infinitive": "uitstappen",
+      "english": "to get off / out",
+      "forms": {
+        "ik_present": "stap uit",
+        "hij_zij_present": "stapt uit",
+        "past_ik": "stapte uit",
+        "past_participle": "uitgestapt"
+      }
+    },
+    {
+      "id": "C144",
+      "type": "verb_conjugation_match",
+      "infinitive": "terugbellen",
+      "english": "to call back",
+      "forms": {
+        "ik_present": "bel terug",
+        "hij_zij_present": "belt terug",
+        "past_ik": "belde terug",
+        "past_participle": "teruggebeld"
+      }
+    },
+    {
+      "id": "C145",
+      "type": "verb_conjugation_match",
+      "infinitive": "aanraden",
+      "english": "to recommend",
+      "forms": {
+        "ik_present": "raad aan",
+        "hij_zij_present": "raadt aan",
+        "past_ik": "raadde aan",
+        "past_participle": "aangeraden"
+      }
+    }
+  ]
+}

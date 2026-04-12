@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dutch A2 Study Hub — Inburgering Exam Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   * {
     margin: 0;
@@ -11,13 +14,63 @@
     box-sizing: border-box;
   }
 
+  /* CSS Variables for theming */
+  :root {
+    --bg-gradient-start: #1a1a2e;
+    --bg-gradient-end: #16213e;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --accent-primary: #667eea;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --card-hover-shadow: rgba(0,0,0,0.4);
+    --card-shadow: rgba(0,0,0,0.2);
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Light mode overrides */
+  body.light-mode {
+    --bg-gradient-start: #f5f2eb;
+    --bg-gradient-end: #f5f2eb;
+    --text-primary: #000000;
+    --text-secondary: #1a1a18;
+    --accent-primary: #c84b1f;
+    --card-bg: #fffef9;
+    --card-border: #d8d4ca;
+    --card-hover-shadow: rgba(200, 75, 31, 0.15);
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Light mode badge colors */
+  body.light-mode .card-badge {
+    background: rgba(200, 75, 31, 0.1);
+    color: #c84b1f;
+  }
+
+  body.light-mode .badge-new {
+    background: rgba(22, 163, 74, 0.15);
+    color: #166534;
+  }
+
+  body.light-mode .badge-essential {
+    background: rgba(217, 119, 6, 0.15);
+    color: #92400e;
+  }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    color: #e0e0e0;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: var(--text-primary);
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
     padding: 20px;
     min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  /* Light mode font override */
+  body.light-mode {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
   .container {
@@ -32,7 +85,8 @@
     color: white;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px var(--shadow-color);
+    position: relative;
   }
 
   header h1 {
@@ -53,12 +107,40 @@
     font-style: italic;
   }
 
+  /* Theme Toggle Button */
+  .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+  }
+
+  .theme-toggle:active {
+    transform: scale(0.95);
+  }
+
   .section {
     margin-bottom: 3rem;
   }
 
   .section-title {
-    color: #667eea;
+    color: var(--accent-primary);
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
@@ -72,13 +154,13 @@
   }
 
   .card {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--card-border);
     border-radius: 12px;
     padding: 2rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px var(--card-shadow);
     cursor: pointer;
     text-decoration: none;
     display: block;
@@ -87,7 +169,7 @@
 
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+    box-shadow: 0 12px 35px var(--card-hover-shadow);
     border-color: rgba(102, 126, 234, 0.5);
   }
 
@@ -99,13 +181,13 @@
   .card-title {
     font-size: 1.4rem;
     font-weight: 600;
-    color: #e0e0e0;
+    color: var(--text-primary);
     margin-bottom: 0.75rem;
   }
 
   .card-description {
     font-size: 0.95rem;
-    color: #b0b0b0;
+    color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 1rem;
   }
@@ -135,13 +217,13 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--card-bg);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--card-border);
     border-radius: 12px;
     padding: 2rem;
     margin-bottom: 3rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px var(--shadow-color);
     justify-content: center;
   }
 
@@ -152,13 +234,13 @@
   .stat-value {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #667eea;
+    color: var(--accent-primary);
     font-family: 'Courier New', monospace;
   }
 
   .stat-label {
     font-size: 0.85rem;
-    color: #b0b0b0;
+    color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 0.25rem;
@@ -168,9 +250,9 @@
     margin-top: 4rem;
     padding: 2rem;
     text-align: center;
-    color: #888;
+    color: var(--text-secondary);
     font-size: 0.9rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--card-border);
   }
 
   @media (max-width: 768px) {
@@ -179,6 +261,13 @@
     }
 
     header p {
+      font-size: 1rem;
+    }
+
+    .theme-toggle {
+      top: 10px;
+      right: 10px;
+      padding: 6px 12px;
       font-size: 1rem;
     }
 
@@ -201,6 +290,10 @@
 <div class="container">
 
 <header>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span id="themeIcon">☀️</span>
+    <span id="themeText">Light</span>
+  </button>
   <h1>🇳🇱 Dutch A2 Study Hub</h1>
   <p>Complete Resource for Inburgering Exam Preparation</p>
   <div class="subtitle">Interactive exercises · Vocabulary · Grammar · Reference materials</div>
@@ -216,7 +309,7 @@
     <div class="stat-label">Grammar Exercises</div>
   </div>
   <div class="stat-item">
-    <div class="stat-value">400+</div>
+    <div class="stat-value">735+</div>
     <div class="stat-label">Practice Questions</div>
   </div>
   <div class="stat-item">
@@ -336,6 +429,17 @@
       <span class="card-badge">200 questions</span>
     </a>
 
+    <a href="matching-exercises.html" class="card">
+      <div class="card-icon">🔄</div>
+      <div class="card-title">Matching Exercises</div>
+      <div class="card-description">
+        5×5 card matching game for vocabulary and verb conjugations.
+        Click pairs to match Dutch words with English translations.
+      </div>
+      <span class="card-badge badge-new">NEW</span>
+      <span class="card-badge">335 exercises</span>
+    </a>
+
     <a href="exercises-150q-dark.html" class="card">
       <div class="card-icon">📄</div>
       <div class="card-title">150 Question Set</div>
@@ -388,6 +492,9 @@
 </footer>
 
 </div>
+
+<!-- Theme Toggle Script -->
+<script src="theme.js"></script>
 
 </body>
 </html>
