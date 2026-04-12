@@ -1,175 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dutch A2 Exam Study Materials</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #e0e0e0;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f2027 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-        .container {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-            max-width: 800px;
-            width: 100%;
-            padding: 40px;
-        }
-        h1 {
-            background: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #48dbfb 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 10px;
-            font-size: 2.5em;
-        }
-        .subtitle {
-            color: #b0b0b0;
-            margin-bottom: 30px;
-            font-size: 1.1em;
-        }
-        .materials {
-            display: grid;
-            gap: 15px;
-            margin-top: 30px;
-        }
-        .material-card {
-            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(254, 202, 87, 0.1) 50%, rgba(72, 219, 251, 0.1) 100%);
-            border: 1px solid rgba(255, 107, 107, 0.3);
-            color: white;
-            padding: 25px;
-            border-radius: 12px;
-            text-decoration: none;
-            display: block;
-            transition: all 0.3s ease;
-        }
-        .material-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
-            background: linear-gradient(135deg, rgba(255, 107, 107, 0.2) 0%, rgba(254, 202, 87, 0.2) 50%, rgba(72, 219, 251, 0.2) 100%);
-            border-color: rgba(255, 107, 107, 0.6);
-        }
-        .material-card h2 {
-            font-size: 1.4em;
-            margin-bottom: 8px;
-            color: #ffffff;
-        }
-        .material-card p {
-            opacity: 0.9;
-            font-size: 0.95em;
-            color: #e0e0e0;
-        }
-        .badge {
-            display: inline-block;
-            background: rgba(255, 107, 107, 0.3);
-            border: 1px solid rgba(255, 107, 107, 0.5);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            margin-top: 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #808080;
-            font-size: 0.9em;
-        }
-        @media (max-width: 600px) {
-            .container {
-                padding: 25px;
-            }
-            h1 {
-                font-size: 2em;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutch A2 Study Hub — Inburgering Exam Prep</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 20px 0 40px;
+    padding: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    font-style: italic;
+  }
+
+  .section {
+    margin-bottom: 3rem;
+  }
+
+  .section-title {
+    color: #667eea;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+    border-color: rgba(102, 126, 234, 0.5);
+  }
+
+  .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-description {
+    font-size: 0.95rem;
+    color: #b0b0b0;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .card-badge {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    background: rgba(102, 126, 234, 0.2);
+    color: #667eea;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+
+  .badge-new {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+  }
+
+  .badge-essential {
+    background: rgba(251, 191, 36, 0.2);
+    color: #fbbf24;
+  }
+
+  .stats-bar {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    justify-content: center;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #667eea;
+    font-family: 'Courier New', monospace;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+  }
+
+  footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+    }
+
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .stats-bar {
+      gap: 1.5rem;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+    }
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>🇳🇱 Dutch A2 Exam Prep</h1>
-        <p class="subtitle">Inburgering Study Materials - High-ROI Notes</p>
 
-        <div class="materials">
-            <a href="high_roi_notes.html" class="material-card">
-                <h2>📚 Must-Do High-ROI Notes</h2>
-                <p>Essential ~280 words and high-frequency patterns for maximum learning efficiency (80/20 principle)</p>
-                <span class="badge">⭐ START HERE</span>
-            </a>
+<div class="container">
 
-            <a href="gold-sentences.html" class="material-card">
-                <h2>📝 Gold Sentences Reference</h2>
-                <p>200 curated sentences + grammar patterns. Two views: organized by grammar categories or full list with tags.</p>
-                <span class="badge">MEMORIZE</span>
-            </a>
+<header>
+  <h1>🇳🇱 Dutch A2 Study Hub</h1>
+  <p>Complete Resource for Inburgering Exam Preparation</p>
+  <div class="subtitle">Interactive exercises · Vocabulary · Grammar · Reference materials</div>
+</header>
 
-            <a href="exercises-mcq-scrollable.html" class="material-card">
-                <h2>📋 MCQ Practice Exercises (200 Questions)</h2>
-                <p>All 200 multiple choice exercises in one scrollable page with theme filtering and search. Answer at your own pace.</p>
-                <span class="badge">PRACTICE</span>
-            </a>
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-value">2,115</div>
+    <div class="stat-label">Vocabulary Words</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-value">200</div>
+    <div class="stat-label">Grammar Exercises</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-value">400+</div>
+    <div class="stat-label">Practice Questions</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-value">52</div>
+    <div class="stat-label">Word Clusters</div>
+  </div>
+</div>
 
-            <a href="gap-fill-exercises.html" class="material-card">
-                <h2>🎯 Gap-Fill Exercises (175 Questions)</h2>
-                <p>All 175 exercises in one scrollable page. Each question has individual submit - answer at your own pace.</p>
-                <span class="badge">FULL PAGE</span>
-            </a>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION: NEW PAGES -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <h2 class="section-title">🎯 Essential Resources</h2>
+  <div class="card-grid">
 
-            <a href="exercises-v2-dark.html" class="material-card">
-                <h2>🌙 Advanced Exercises - Dark Mode (300 Questions)</h2>
-                <p>300 multiple-choice exercises with English translations and detailed explanations. Theme filtering and search included.</p>
-                <span class="badge">NEW</span>
-            </a>
+    <a href="vocabulary.html" class="card">
+      <div class="card-icon">📖</div>
+      <div class="card-title">Vocabulary Reference</div>
+      <div class="card-description">
+        Complete A2 vocabulary with 2,115 Dutch words organized into 52 semantic clusters.
+        Searchable table with translations and part-of-speech tags.
+      </div>
+      <span class="card-badge badge-new">NEW</span>
+      <span class="card-badge">2,115 words</span>
+    </a>
 
-            <a href="exercises-210-dark.html" class="material-card">
-                <h2>🌊 Individual Text Exercises - Set 1 (210 Questions)</h2>
-                <p>210 exercises generated by Claude using individual text context. Organized by text themes with translations and explanations.</p>
-                <span class="badge">AI-GENERATED</span>
-            </a>
+    <a href="grammar-exercises.html" class="card">
+      <div class="card-icon">✏️</div>
+      <div class="card-title">Grammar Exercises</div>
+      <div class="card-description">
+        200 interactive multiple-choice questions covering perfect tense, modal verbs,
+        word order, and subordinate clauses. Includes sentence reference.
+      </div>
+      <span class="card-badge badge-new">NEW</span>
+      <span class="card-badge">200 MCQs</span>
+    </a>
 
-            <a href="exercises-200q-dark.html" class="material-card">
-                <h2>🎯 Individual Text Exercises - Set 2 (200 Questions)</h2>
-                <p>200 exercises generated by Claude using individual text context. Includes translations and detailed explanations.</p>
-                <span class="badge">AI-GENERATED</span>
-            </a>
+    <a href="high_roi_cheatsheet.html" class="card">
+      <div class="card-icon">⚡</div>
+      <div class="card-title">High-ROI Cheatsheet</div>
+      <div class="card-description">
+        Condensed study guide focusing on the most frequently used vocabulary and
+        sentence patterns. Perfect for quick review before the exam.
+      </div>
+      <span class="card-badge badge-essential">ESSENTIAL</span>
+      <span class="card-badge">Quick ref</span>
+    </a>
 
-            <a href="exercises-150q-dark.html" class="material-card">
-                <h2>📚 Individual Text Exercises - Set 3 (150 Questions)</h2>
-                <p>150 exercises generated by Claude using individual text context. Text filtering and search included.</p>
-                <span class="badge">AI-GENERATED</span>
-            </a>
+    <a href="comprehensive_reference.html" class="card">
+      <div class="card-icon">📚</div>
+      <div class="card-title">Comprehensive Reference</div>
+      <div class="card-description">
+        Complete reference with all ~700 vocabulary words, 30 dialogues, and full
+        grammar coverage. Everything you need in one place.
+      </div>
+      <span class="card-badge badge-essential">ESSENTIAL</span>
+      <span class="card-badge">Complete</span>
+    </a>
 
-            <a href="high_roi_cheatsheet.html" class="material-card">
-                <h2>⚡ Quick Reference Cheatsheet</h2>
-                <p>Condensed quick-reference guide for last-minute review and daily practice</p>
-                <span class="badge">QUICK REVIEW</span>
-            </a>
+  </div>
+</div>
 
-            <a href="comprehensive_reference.html" class="material-card">
-                <h2>📖 Comprehensive Reference</h2>
-                <p>Complete reference with all ~700 vocabulary words, 30 dialogues, and full grammar coverage</p>
-                <span class="badge">FULL CONTENT</span>
-            </a>
-        </div>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION: PRACTICE EXERCISES -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <h2 class="section-title">💪 Practice Exercises</h2>
+  <div class="card-grid">
 
-        <footer>
-            <p>🎯 Optimized for A2 Exam Success | Grammar ~25-30% focus | Real-world application priority</p>
-        </footer>
-    </div>
+    <a href="exercises-v2-dark.html" class="card">
+      <div class="card-icon">🎯</div>
+      <div class="card-title">General Exercises</div>
+      <div class="card-description">
+        Mixed vocabulary and grammar exercises with multiple question formats.
+        Interactive practice with immediate feedback.
+      </div>
+      <span class="card-badge">Interactive</span>
+    </a>
+
+    <a href="gap-fill-exercises.html" class="card">
+      <div class="card-icon">✍️</div>
+      <div class="card-title">Gap Fill Exercises</div>
+      <div class="card-description">
+        Fill-in-the-blank exercises to practice word usage in context.
+        Great for testing vocabulary retention.
+      </div>
+      <span class="card-badge">Fill blanks</span>
+    </a>
+
+    <a href="gold-sentences.html" class="card">
+      <div class="card-icon">🏆</div>
+      <div class="card-title">Gold Sentences</div>
+      <div class="card-description">
+        High-value sentence patterns that appear frequently in daily conversation
+        and the A2 exam. Master these first!
+      </div>
+      <span class="card-badge">High value</span>
+    </a>
+
+    <a href="exercises-210-dark.html" class="card">
+      <div class="card-icon">📝</div>
+      <div class="card-title">210 Question Set</div>
+      <div class="card-description">
+        Large comprehensive exercise set with 210 questions covering all topics.
+        Perfect for thorough exam preparation.
+      </div>
+      <span class="card-badge">210 questions</span>
+    </a>
+
+    <a href="exercises-200q-dark.html" class="card">
+      <div class="card-icon">📋</div>
+      <div class="card-title">200 Question Set</div>
+      <div class="card-description">
+        Another extensive practice set with 200 varied questions.
+        Test your knowledge across vocabulary and grammar.
+      </div>
+      <span class="card-badge">200 questions</span>
+    </a>
+
+    <a href="exercises-150q-dark.html" class="card">
+      <div class="card-icon">📄</div>
+      <div class="card-title">150 Question Set</div>
+      <div class="card-description">
+        Focused practice set with 150 essential questions.
+        Good for mid-level preparation and review.
+      </div>
+      <span class="card-badge">150 questions</span>
+    </a>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTION: ADDITIONAL RESOURCES -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <h2 class="section-title">📖 Additional Resources</h2>
+  <div class="card-grid">
+
+    <a href="high_roi_notes.html" class="card">
+      <div class="card-icon">📌</div>
+      <div class="card-title">High-ROI Notes</div>
+      <div class="card-description">
+        Study notes focusing on the 80/20 principle - learn the 20% that gives
+        you 80% of the communication ability.
+      </div>
+      <span class="card-badge">Efficient</span>
+    </a>
+
+    <a href="exercises-mcq-scrollable.html" class="card">
+      <div class="card-icon">📱</div>
+      <div class="card-title">MCQ Scrollable</div>
+      <div class="card-description">
+        Mobile-optimized multiple choice questions with smooth scrolling.
+        Perfect for studying on your phone.
+      </div>
+      <span class="card-badge">Mobile-friendly</span>
+    </a>
+
+  </div>
+</div>
+
+<footer>
+  <p>🎓 Dutch A2 Study Hub — Inburgering Exam Preparation</p>
+  <p>All materials designed for A2 level proficiency · Good luck with your exam!</p>
+  <p style="margin-top: 1rem; font-size: 0.85rem;">
+    Generated: April 2026
+  </p>
+</footer>
+
+</div>
+
 </body>
 </html>

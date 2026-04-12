@@ -1,0 +1,7224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dutch Grammar Exercises — A2 Level</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 20px 0 30px;
+    padding: 30px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .tab-button {
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #b0b0b0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .tab-button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #e0e0e0;
+  }
+
+  .tab-button.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: transparent;
+  }
+
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .exercise-section {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .exercise-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .exercise-header h2 {
+    color: #667eea;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .exercise-header p {
+    color: #b0b0b0;
+    font-size: 0.95rem;
+  }
+
+  .question {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .question-number {
+    display: inline-block;
+    background: rgba(102, 126, 234, 0.2);
+    color: #667eea;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .question-text {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .dutch-sentence {
+    font-family: 'Courier New', monospace;
+    color: #764ba2;
+    font-size: 1.05rem;
+  }
+
+  .options {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .option {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .option:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(102, 126, 234, 0.3);
+  }
+
+  .option.selected {
+    background: rgba(102, 126, 234, 0.15);
+    border-color: #667eea;
+  }
+
+  .option.correct {
+    background: rgba(34, 197, 94, 0.15);
+    border-color: #4ade80;
+  }
+
+  .option.incorrect {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: #ef4444;
+  }
+
+  .option-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    flex-shrink: 0;
+  }
+
+  .option.correct .option-letter {
+    background: rgba(34, 197, 94, 0.3);
+    color: #4ade80;
+  }
+
+  .option.incorrect .option-letter {
+    background: rgba(239, 68, 68, 0.3);
+    color: #ef4444;
+  }
+
+  .option-text {
+    flex: 1;
+  }
+
+  .explanation {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(102, 126, 234, 0.1);
+    border-left: 3px solid #667eea;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #b0b0b0;
+    display: none;
+  }
+
+  .explanation.show {
+    display: block;
+  }
+
+  .translation {
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+  }
+
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+  }
+
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: #e0e0e0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .progress-bar {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    height: 8px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+
+  .score-display {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+
+  .score-display h3 {
+    font-size: 2rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+  }
+
+  .score-display p {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+  }
+
+  .sentence-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .sentence-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+
+  .sentence-card .num {
+    display: inline-block;
+    background: rgba(118, 75, 162, 0.2);
+    color: #764ba2;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .sentence-card .dutch {
+    font-family: 'Courier New', monospace;
+    font-size: 1.05rem;
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+  }
+
+  .sentence-card .english {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+
+    .tabs {
+      flex-direction: column;
+    }
+
+    .tab-button {
+      width: 100%;
+      text-align: center;
+    }
+
+    .exercise-section {
+      padding: 1.25rem;
+    }
+
+    .question {
+      padding: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+  <h1>📚 Dutch Grammar Exercises — A2 Level</h1>
+  <p>200 Sentences · Multiple Choice Questions · Interactive Practice</p>
+</header>
+
+<div class="tabs">
+  <button class="tab-button active" data-tab="mcq">Multiple Choice (200Q)</button>
+  <button class="tab-button" data-tab="sentences">Sentence Reference (200)</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- TAB 1: MCQ EXERCISES -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div id="mcq" class="tab-content active">
+  <div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+
+  <div class="exercise-section">
+    <div class="exercise-header">
+      <h2>Multiple Choice Grammar Exercise</h2>
+      <p>Select the correct answer for each question. Click "Check Answer" to see if you're right!</p>
+    </div>
+
+    <div id="mcqContainer"></div>
+
+    <div class="controls">
+      <button class="btn btn-primary" id="checkAllBtn">Check All Answers</button>
+      <button class="btn btn-secondary" id="resetBtn">Reset Quiz</button>
+    </div>
+
+    <div id="scoreDisplay" class="score-display" style="display:none;">
+      <h3 id="scoreText">0 / 200</h3>
+      <p>Correct Answers</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- TAB 2: SENTENCE REFERENCE -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div id="sentences" class="tab-content">
+  <div class="exercise-section">
+    <div class="exercise-header">
+      <h2>Grammar Sentence Reference</h2>
+      <p>200 key Dutch sentences with English translations for A2 exam preparation</p>
+    </div>
+
+    <div id="sentenceList" class="sentence-list"></div>
+  </div>
+</div>
+
+</div>
+
+<script>
+
+// ═══════════════════════════════════════════════════════════════════════════
+// DATA - Grammar Sentences and MCQs
+// ═══════════════════════════════════════════════════════════════════════════
+
+const SENTENCES = [
+  {
+    "num": 1,
+    "dutch": "Heeft de baby nog gehuild?",
+    "english": "Did the baby cry again?"
+  },
+  {
+    "num": 2,
+    "dutch": "Ik heb lekker gedoucht.",
+    "english": "I had a nice shower."
+  },
+  {
+    "num": 3,
+    "dutch": "Wat heb je tegen Layla gezegd?",
+    "english": "What did you say to Layla?"
+  },
+  {
+    "num": 4,
+    "dutch": "Ik heb mijn telefoon niet gehoord.",
+    "english": "I didn't hear my phone."
+  },
+  {
+    "num": 5,
+    "dutch": "Ik heb een uur op je gewacht.",
+    "english": "I waited for you for an hour."
+  },
+  {
+    "num": 6,
+    "dutch": "Mijn vader repareert mijn fiets straks.",
+    "english": "My father is going to fix my bike later."
+  },
+  {
+    "num": 7,
+    "dutch": "Ik heb vorig jaar 1000 euro gespaard.",
+    "english": "I saved 1000 euros last year."
+  },
+  {
+    "num": 8,
+    "dutch": "Ik heb de kaas uit de koelkast gepakt.",
+    "english": "I took the cheese out of the fridge."
+  },
+  {
+    "num": 9,
+    "dutch": "Anna heeft vijf jaar in Parijs gewoond.",
+    "english": "Anna lived in Paris for five years."
+  },
+  {
+    "num": 10,
+    "dutch": "Heb je de melk in de koelkast gezet?",
+    "english": "Did you put the milk in the fridge?"
+  },
+  {
+    "num": 11,
+    "dutch": "Mijn zus heeft een jaar voor mijn moeder gezorgd.",
+    "english": "My sister took care of my mother for a year."
+  },
+  {
+    "num": 12,
+    "dutch": "Ik heb alles goed gehoord.",
+    "english": "I heard everything clearly."
+  },
+  {
+    "num": 13,
+    "dutch": "Mijn moeder heeft in Utrecht gestudeerd.",
+    "english": "My mother studied in Utrecht."
+  },
+  {
+    "num": 14,
+    "dutch": "Ik heb je lang niet gesproken.",
+    "english": "I haven't spoken to you in a long time."
+  },
+  {
+    "num": 15,
+    "dutch": "Hebben jullie thee gedronken?",
+    "english": "Did you (pl.) drink tea?"
+  },
+  {
+    "num": 16,
+    "dutch": "Ik heb een pizza genomen.",
+    "english": "I took/ordered a pizza."
+  },
+  {
+    "num": 17,
+    "dutch": "We hebben een fijne dag gehad.",
+    "english": "We had a lovely day."
+  },
+  {
+    "num": 18,
+    "dutch": "We zijn om 22:00 uur naar bed gegaan.",
+    "english": "We went to bed at 10 PM."
+  },
+  {
+    "num": 19,
+    "dutch": "Ben jij in het gemeentehuis geweest?",
+    "english": "Have you been to the town hall?"
+  },
+  {
+    "num": 20,
+    "dutch": "David is vader geworden.",
+    "english": "David has become a father."
+  },
+  {
+    "num": 21,
+    "dutch": "Ali is bij de dokter geweest.",
+    "english": "Ali has been to the doctor."
+  },
+  {
+    "num": 22,
+    "dutch": "Ik heb de bus genomen.",
+    "english": "I took the bus."
+  },
+  {
+    "num": 23,
+    "dutch": "Ik heb je telefoon gevonden.",
+    "english": "I found your phone."
+  },
+  {
+    "num": 24,
+    "dutch": "Hij heeft een e-mail geschreven.",
+    "english": "He wrote an email."
+  },
+  {
+    "num": 25,
+    "dutch": "Julia heeft een ongeluk gehad.",
+    "english": "Julia had an accident."
+  },
+  {
+    "num": 26,
+    "dutch": "Ik heb het probleem niet goed begrepen.",
+    "english": "I didn't understand the problem well."
+  },
+  {
+    "num": 27,
+    "dutch": "Ik heb geen boodschappen gedaan.",
+    "english": "I didn't do any shopping."
+  },
+  {
+    "num": 28,
+    "dutch": "Mijn vader heeft een fiets voor me gekocht.",
+    "english": "My father bought a bike for me."
+  },
+  {
+    "num": 29,
+    "dutch": "Gisteren zijn we naar Amsterdam geweest.",
+    "english": "Yesterday we went to Amsterdam."
+  },
+  {
+    "num": 30,
+    "dutch": "Ik heb niet aan je gedacht.",
+    "english": "I didn't think of you."
+  },
+  {
+    "num": 31,
+    "dutch": "Wat hebben jullie gisteren gedaan?",
+    "english": "What did you (pl.) do yesterday?"
+  },
+  {
+    "num": 32,
+    "dutch": "Heb je gisteren de politie gebeld?",
+    "english": "Did you call the police yesterday?"
+  },
+  {
+    "num": 33,
+    "dutch": "We praten morgen met de gemeente.",
+    "english": "We are talking to the municipality tomorrow."
+  },
+  {
+    "num": 34,
+    "dutch": "We hebben een nieuwe bank besteld.",
+    "english": "We ordered a new sofa."
+  },
+  {
+    "num": 35,
+    "dutch": "Ik heb hem echt niks beloofd.",
+    "english": "I really didn't promise him anything."
+  },
+  {
+    "num": 36,
+    "dutch": "Je hebt het verkeerde mes gebruikt!",
+    "english": "You used the wrong knife!"
+  },
+  {
+    "num": 37,
+    "dutch": "Anna is in een paar jaar veel veranderd.",
+    "english": "Anna has changed a lot in a few years."
+  },
+  {
+    "num": 38,
+    "dutch": "We zijn een week geleden verhuisd.",
+    "english": "We moved a week ago."
+  },
+  {
+    "num": 39,
+    "dutch": "Hoeveel geld heb je verdiend?",
+    "english": "How much money did you earn?"
+  },
+  {
+    "num": 40,
+    "dutch": "We hebben een oude tante bezocht.",
+    "english": "We visited an old aunt."
+  },
+  {
+    "num": 41,
+    "dutch": "Heb je je tas vergeten?",
+    "english": "Did you forget your bag?"
+  },
+  {
+    "num": 42,
+    "dutch": "We hebben het pakketje ontvangen.",
+    "english": "We received the package."
+  },
+  {
+    "num": 43,
+    "dutch": "Onze buurman is gisteren overleden.",
+    "english": "Our neighbour passed away yesterday."
+  },
+  {
+    "num": 44,
+    "dutch": "Julia heeft haar huis verkocht.",
+    "english": "Julia sold her house."
+  },
+  {
+    "num": 45,
+    "dutch": "Ik heb je niet goed verstaan.",
+    "english": "I didn't hear you well."
+  },
+  {
+    "num": 46,
+    "dutch": "We hebben van het eten genoten.",
+    "english": "We enjoyed the food."
+  },
+  {
+    "num": 47,
+    "dutch": "Je hebt je sleutel vergeten.",
+    "english": "You forgot your key."
+  },
+  {
+    "num": 48,
+    "dutch": "We hebben een leuk plan bedacht.",
+    "english": "We came up with a nice plan."
+  },
+  {
+    "num": 49,
+    "dutch": "Sorry, ik heb je niet goed verstaan.",
+    "english": "Sorry, I didn't hear you well."
+  },
+  {
+    "num": 50,
+    "dutch": "Anna pakte het glas.",
+    "english": "Anna picked up the glass."
+  },
+  {
+    "num": 51,
+    "dutch": "De film duurt twee uur.",
+    "english": "The film lasts two hours."
+  },
+  {
+    "num": 52,
+    "dutch": "Sarah zorgde voor haar moeder.",
+    "english": "Sarah took care of her mother."
+  },
+  {
+    "num": 53,
+    "dutch": "Hoeveel kostte die spijkerbroek?",
+    "english": "How much did those jeans cost?"
+  },
+  {
+    "num": 54,
+    "dutch": "Ik maakte een afspraak bij de dokter.",
+    "english": "I made an appointment at the doctor's."
+  },
+  {
+    "num": 55,
+    "dutch": "Je luistert nooit naar me!",
+    "english": "You never listen to me!"
+  },
+  {
+    "num": 56,
+    "dutch": "Mijn moeder wilde geen groot gezin.",
+    "english": "My mother didn't want a large family."
+  },
+  {
+    "num": 57,
+    "dutch": "We horen het lawaai in de stad niet.",
+    "english": "We don't hear the noise in the city."
+  },
+  {
+    "num": 58,
+    "dutch": "Mijn vrienden bouwen zelf een huis.",
+    "english": "My friends are building a house themselves."
+  },
+  {
+    "num": 59,
+    "dutch": "David en Julia spaarden 10.000 euro.",
+    "english": "David and Julia saved 10,000 euros."
+  },
+  {
+    "num": 60,
+    "dutch": "John stuurde me een foto van zijn kinderen.",
+    "english": "John sent me a photo of his children."
+  },
+  {
+    "num": 61,
+    "dutch": "Sarah stopte na een paar maanden met de cursus.",
+    "english": "Sarah stopped the course after a few months."
+  },
+  {
+    "num": 62,
+    "dutch": "We legden de baby om zeven uur in bed.",
+    "english": "We put the baby to bed at seven o'clock."
+  },
+  {
+    "num": 63,
+    "dutch": "Woonde u vroeger ook al in deze straat?",
+    "english": "Did you also live in this street before?"
+  },
+  {
+    "num": 64,
+    "dutch": "John pakte zijn tas en zijn sleutels.",
+    "english": "John picked up his bag and his keys."
+  },
+  {
+    "num": 65,
+    "dutch": "Onze vakantie duurde vorig jaar zes weken.",
+    "english": "Our holiday lasted six weeks last year."
+  },
+  {
+    "num": 66,
+    "dutch": "We vierden feest, omdat mijn moeder 40 jaar werd.",
+    "english": "We had a party because my mother turned 40."
+  },
+  {
+    "num": 67,
+    "dutch": "Sarah belde haar vriendin, omdat ze een probleem had.",
+    "english": "Sarah called her friend because she had a problem."
+  },
+  {
+    "num": 68,
+    "dutch": "We haalden boodschappen bij Albert Heijn, omdat de Lidl niet open was.",
+    "english": "We got groceries at Albert Heijn because the Lidl was not open."
+  },
+  {
+    "num": 69,
+    "dutch": "De afspraak duurde een uur.",
+    "english": "The appointment lasted an hour."
+  },
+  {
+    "num": 70,
+    "dutch": "John en Adam spaarden voor een nieuwe auto.",
+    "english": "John and Adam saved up for a new car."
+  },
+  {
+    "num": 71,
+    "dutch": "In het weekend kookte ik voor familie.",
+    "english": "At the weekend I cooked for family."
+  },
+  {
+    "num": 72,
+    "dutch": "Ik wachtte een uur op hem.",
+    "english": "I waited for him for an hour."
+  },
+  {
+    "num": 73,
+    "dutch": "De buren waarschuwden ons voor die vrouw.",
+    "english": "The neighbours warned us about that woman."
+  },
+  {
+    "num": 74,
+    "dutch": "Ik haalde brood bij de bakker.",
+    "english": "I got bread from the bakery."
+  },
+  {
+    "num": 75,
+    "dutch": "Mijn moeder kookte altijd heerlijk eten.",
+    "english": "My mother always cooked delicious food."
+  },
+  {
+    "num": 76,
+    "dutch": "Ik bleef alleen thuis.",
+    "english": "I stayed home alone."
+  },
+  {
+    "num": 77,
+    "dutch": "David moest zijn kamer opruimen.",
+    "english": "David had to tidy his room."
+  },
+  {
+    "num": 78,
+    "dutch": "Dat wist ik niet.",
+    "english": "I didn't know that."
+  },
+  {
+    "num": 79,
+    "dutch": "Je mag hier niet parkeren.",
+    "english": "You are not allowed to park here."
+  },
+  {
+    "num": 80,
+    "dutch": "Julia krijgt een baby.",
+    "english": "Julia is having a baby."
+  },
+  {
+    "num": 81,
+    "dutch": "Anna liep naar buiten.",
+    "english": "Anna walked outside."
+  },
+  {
+    "num": 82,
+    "dutch": "Ik at een broodje in de kantine.",
+    "english": "I ate a sandwich in the canteen."
+  },
+  {
+    "num": 83,
+    "dutch": "Waar lag je sleutel?",
+    "english": "Where was your key (lying)?"
+  },
+  {
+    "num": 84,
+    "dutch": "De les begon om negen uur.",
+    "english": "The lesson started at nine o'clock."
+  },
+  {
+    "num": 85,
+    "dutch": "Waarom kwam je niet op tijd?",
+    "english": "Why didn't you come on time?"
+  },
+  {
+    "num": 86,
+    "dutch": "Adam koopt een scooter.",
+    "english": "Adam is buying a scooter."
+  },
+  {
+    "num": 87,
+    "dutch": "Anna gaf me een hand.",
+    "english": "Anna shook my hand."
+  },
+  {
+    "num": 88,
+    "dutch": "Wat deed je daar?",
+    "english": "What were you doing there?"
+  },
+  {
+    "num": 89,
+    "dutch": "David nam de trein naar Groningen.",
+    "english": "David took the train to Groningen."
+  },
+  {
+    "num": 90,
+    "dutch": "Ik was te laat op school.",
+    "english": "I was late for school."
+  },
+  {
+    "num": 91,
+    "dutch": "David werd heel boos.",
+    "english": "David got very angry."
+  },
+  {
+    "num": 92,
+    "dutch": "Mijn vader bracht ons naar huis.",
+    "english": "My father took us home."
+  },
+  {
+    "num": 93,
+    "dutch": "We aten elke zaterdag patat.",
+    "english": "We ate chips every Saturday."
+  },
+  {
+    "num": 94,
+    "dutch": "We gingen op donderdag naar de markt.",
+    "english": "We went to the market on Thursdays."
+  },
+  {
+    "num": 95,
+    "dutch": "David en Layla gaven me geld.",
+    "english": "David and Layla gave me money."
+  },
+  {
+    "num": 96,
+    "dutch": "Ze hadden ruzie met de buren.",
+    "english": "They had an argument with the neighbours."
+  },
+  {
+    "num": 97,
+    "dutch": "De kinderen spraken met hun ouders.",
+    "english": "The children spoke with their parents."
+  },
+  {
+    "num": 98,
+    "dutch": "Julia begreep je niet.",
+    "english": "Julia didn't understand you."
+  },
+  {
+    "num": 99,
+    "dutch": "De film begon precies om negen uur.",
+    "english": "The film started exactly at nine o'clock."
+  },
+  {
+    "num": 100,
+    "dutch": "We bleven vier dagen in Parijs.",
+    "english": "We stayed in Paris for four days."
+  },
+  {
+    "num": 101,
+    "dutch": "Moeten jullie morgen werken?",
+    "english": "Do you (pl.) have to work tomorrow?"
+  },
+  {
+    "num": 102,
+    "dutch": "Kunt u me helpen?",
+    "english": "Can you help me?"
+  },
+  {
+    "num": 103,
+    "dutch": "Ik durf niet te fietsen.",
+    "english": "I don't dare to cycle."
+  },
+  {
+    "num": 104,
+    "dutch": "De baby begint te huilen.",
+    "english": "The baby is starting to cry."
+  },
+  {
+    "num": 105,
+    "dutch": "Mag ik mijn auto hier parkeren?",
+    "english": "May I park my car here?"
+  },
+  {
+    "num": 106,
+    "dutch": "Je hoeft morgen niet te werken.",
+    "english": "You don't have to work tomorrow."
+  },
+  {
+    "num": 107,
+    "dutch": "Wil je mijn tas even halen?",
+    "english": "Can you get my bag for a moment?"
+  },
+  {
+    "num": 108,
+    "dutch": "De kinderen mogen buiten spelen.",
+    "english": "The children are allowed to play outside."
+  },
+  {
+    "num": 109,
+    "dutch": "Mag ik u een vraag stellen?",
+    "english": "May I ask you a question?"
+  },
+  {
+    "num": 110,
+    "dutch": "Morgen zal ik je helpen.",
+    "english": "Tomorrow I will help you."
+  },
+  {
+    "num": 111,
+    "dutch": "Kan je morgen op tijd komen?",
+    "english": "Can you come on time tomorrow?"
+  },
+  {
+    "num": 112,
+    "dutch": "Ik durf niet in de zee te zwemmen.",
+    "english": "I don't dare to swim in the sea."
+  },
+  {
+    "num": 113,
+    "dutch": "He wil 20 kilometer fietsen.",
+    "english": "He wants to cycle 20 kilometres."
+  },
+  {
+    "num": 114,
+    "dutch": "Ik durf niks te zeggen.",
+    "english": "I don't dare to say anything."
+  },
+  {
+    "num": 115,
+    "dutch": "Je hoeft niet zo vroeg te komen.",
+    "english": "You don't need to come so early."
+  },
+  {
+    "num": 116,
+    "dutch": "U moet de rekening goed controleren.",
+    "english": "You must check the bill carefully."
+  },
+  {
+    "num": 117,
+    "dutch": "Jullie moeten vaker gezond eten.",
+    "english": "You (pl.) should eat healthily more often."
+  },
+  {
+    "num": 118,
+    "dutch": "Ik kan helaas niet komen.",
+    "english": "Unfortunately I can't come."
+  },
+  {
+    "num": 119,
+    "dutch": "Anna durft geen Nederlands te spreken.",
+    "english": "Anna doesn't dare to speak Dutch."
+  },
+  {
+    "num": 120,
+    "dutch": "Mijn ouders kunnen vanavond niet komen.",
+    "english": "My parents can't come tonight."
+  },
+  {
+    "num": 121,
+    "dutch": "Ik ga nog niet slapen.",
+    "english": "I'm not going to sleep yet."
+  },
+  {
+    "num": 122,
+    "dutch": "Ik ga naar bed, als ik moe ben.",
+    "english": "I go to bed when I'm tired."
+  },
+  {
+    "num": 123,
+    "dutch": "We eten vis, omdat het gezond is.",
+    "english": "We eat fish because it is healthy."
+  },
+  {
+    "num": 124,
+    "dutch": "Ik bel mijn moeder, omdat ze ziek is.",
+    "english": "I am calling my mother because she is ill."
+  },
+  {
+    "num": 125,
+    "dutch": "Het kind huilt, omdat het pijn heeft.",
+    "english": "The child is crying because it is in pain."
+  },
+  {
+    "num": 126,
+    "dutch": "Ik ben moe, omdat ik hard heb gewerkt.",
+    "english": "I am tired because I have worked hard."
+  },
+  {
+    "num": 127,
+    "dutch": "Ik ga nu naar bed, omdat ik morgen moet werken.",
+    "english": "I'm going to bed now because I have to work tomorrow."
+  },
+  {
+    "num": 128,
+    "dutch": "Ik blijf thuis, als ik tv wil kijken.",
+    "english": "I stay at home when I want to watch TV."
+  },
+  {
+    "num": 129,
+    "dutch": "Ze willen trouwen, als ze een huis kunnen krijgen.",
+    "english": "They want to get married when they can get a house."
+  },
+  {
+    "num": 130,
+    "dutch": "Ik bel je, als ik klaar ben.",
+    "english": "I'll call you when I'm done."
+  },
+  {
+    "num": 131,
+    "dutch": "Ik maak mijn huis schoon, omdat het vies is geworden.",
+    "english": "I'm cleaning my house because it has become dirty."
+  },
+  {
+    "num": 132,
+    "dutch": "Je mag de kleren ruilen, als je de bon nog hebt.",
+    "english": "You can exchange the clothes if you still have the receipt."
+  },
+  {
+    "num": 133,
+    "dutch": "David gaat verhuizen, omdat hij een appartement heeft gevonden.",
+    "english": "David is going to move because he found an apartment."
+  },
+  {
+    "num": 134,
+    "dutch": "Anna kan de baan krijgen, als ze goed Nederlands spreekt.",
+    "english": "Anna can get the job if she speaks good Dutch."
+  },
+  {
+    "num": 135,
+    "dutch": "We waarschuwen de buren, als we een feestje hebben.",
+    "english": "We warn the neighbours when we have a party."
+  },
+  {
+    "num": 136,
+    "dutch": "Ik bel mijn vader, omdat hij ziek is.",
+    "english": "I'm calling my father because he is ill."
+  },
+  {
+    "num": 137,
+    "dutch": "Sarah ligt op de bank, want ze is erg moe.",
+    "english": "Sarah is lying on the sofa because she is very tired."
+  },
+  {
+    "num": 138,
+    "dutch": "Ik blijf thuis, omdat ik koorts heb gekregen.",
+    "english": "I'm staying home because I've got a fever."
+  },
+  {
+    "num": 139,
+    "dutch": "Ik haal je straks op, omdat je geen auto hebt.",
+    "english": "I'll pick you up later because you don't have a car."
+  },
+  {
+    "num": 140,
+    "dutch": "David houdt van Sarah, omdat ze een leuke vrouw is.",
+    "english": "David loves Sarah because she is a nice woman."
+  },
+  {
+    "num": 141,
+    "dutch": "Layla vertrekt, want ze moet om acht uur werken.",
+    "english": "Layla is leaving because she has to work at eight."
+  },
+  {
+    "num": 142,
+    "dutch": "De buurman komt zo langs, want hij wil iets vragen.",
+    "english": "The neighbour is coming by shortly because he wants to ask something."
+  },
+  {
+    "num": 143,
+    "dutch": "Ze hebben vandaag vrij, omdat het zondag is.",
+    "english": "They have a day off today because it is Sunday."
+  },
+  {
+    "num": 144,
+    "dutch": "We kennen Anna goed, omdat ze onze buurvrouw is.",
+    "english": "We know Anna well because she is our neighbour."
+  },
+  {
+    "num": 145,
+    "dutch": "Je moet een jas aantrekken, omdat het koud is geworden.",
+    "english": "You should put on a coat because it has become cold."
+  },
+  {
+    "num": 146,
+    "dutch": "Je moet opschieten, want je moet de volgende trein halen.",
+    "english": "You need to hurry because you have to catch the next train."
+  },
+  {
+    "num": 147,
+    "dutch": "Ik blijf thuis, omdat ik een beetje ziek ben.",
+    "english": "I'm staying home because I'm a little ill."
+  },
+  {
+    "num": 148,
+    "dutch": "Mijn vader loopt langzaam, omdat hij oud is.",
+    "english": "My father walks slowly because he is old."
+  },
+  {
+    "num": 149,
+    "dutch": "John viert feest, omdat hij een huis heeft gevonden.",
+    "english": "John is having a party because he found a house."
+  },
+  {
+    "num": 150,
+    "dutch": "Ik geloof dat de baby heel moe is.",
+    "english": "I believe the baby is very tired."
+  },
+  {
+    "num": 151,
+    "dutch": "Ik wil dat je nu naar huis komt!",
+    "english": "I want you to come home now!"
+  },
+  {
+    "num": 152,
+    "dutch": "We hebben gehoord dat Sofia een kindje krijgt.",
+    "english": "We have heard that Sofia is having a baby."
+  },
+  {
+    "num": 153,
+    "dutch": "Ik hoop dat jullie veel plezier hebben.",
+    "english": "I hope you (pl.) have a lot of fun."
+  },
+  {
+    "num": 154,
+    "dutch": "Ik denk dat ik vandaag niet naar school ga.",
+    "english": "I think I'm not going to school today."
+  },
+  {
+    "num": 155,
+    "dutch": "Mijn moeder weet nog niet dat ik een nieuwe baan heb.",
+    "english": "My mother doesn't know yet that I have a new job."
+  },
+  {
+    "num": 156,
+    "dutch": "Ik vind dat je hard hebt gewerkt.",
+    "english": "I think you've worked hard."
+  },
+  {
+    "num": 157,
+    "dutch": "Ik zie dat je nog niks hebt gegeten.",
+    "english": "I see that you haven't eaten anything yet."
+  },
+  {
+    "num": 158,
+    "dutch": "Layla weet dat ik ziek ben geweest.",
+    "english": "Layla knows that I have been ill."
+  },
+  {
+    "num": 159,
+    "dutch": "Mijn ouders hopen dat ik snel werk kan vinden.",
+    "english": "My parents hope that I can find work soon."
+  },
+  {
+    "num": 160,
+    "dutch": "Ik hoorde dat jullie een hondje hebben gekregen.",
+    "english": "I heard that you (pl.) got a puppy."
+  },
+  {
+    "num": 161,
+    "dutch": "Ik vind het fijn dat je weer thuis bent.",
+    "english": "I'm glad that you are home again."
+  },
+  {
+    "num": 162,
+    "dutch": "Ik heb gehoord dat je een nieuwe baan hebt.",
+    "english": "I've heard that you have a new job."
+  },
+  {
+    "num": 163,
+    "dutch": "Mijn moeder wil dat ik op tijd naar bed ga.",
+    "english": "My mother wants me to go to bed on time."
+  },
+  {
+    "num": 164,
+    "dutch": "Ik hoop dat jullie een fijne vakantie hebben.",
+    "english": "I hope you (pl.) have a nice holiday."
+  },
+  {
+    "num": 165,
+    "dutch": "De buren vinden dat we te veel lawaai maken.",
+    "english": "The neighbours think we make too much noise."
+  },
+  {
+    "num": 166,
+    "dutch": "Sarah zegt dat de huizen duurder zijn geworden.",
+    "english": "Sarah says the houses have become more expensive."
+  },
+  {
+    "num": 167,
+    "dutch": "Ik weet dat Layla graag naar Turkije wil reizen.",
+    "english": "I know that Layla likes to travel to Turkey."
+  },
+  {
+    "num": 168,
+    "dutch": "Ik zie dat je de keuken niet hebt schoongemaakt.",
+    "english": "I see that you haven't cleaned the kitchen."
+  },
+  {
+    "num": 169,
+    "dutch": "Ik begrijp dat u de dokter wilt spreken.",
+    "english": "I understand that you want to speak to the doctor."
+  },
+  {
+    "num": 170,
+    "dutch": "Ik geloof dat het morgen mooi weer wordt.",
+    "english": "I believe the weather will be nice tomorrow."
+  },
+  {
+    "num": 171,
+    "dutch": "Ik ga even kijken hoeveel die laptop kost.",
+    "english": "I'll just check how much that laptop costs."
+  },
+  {
+    "num": 172,
+    "dutch": "Weet je misschien hoe laat het is?",
+    "english": "Do you happen to know what time it is?"
+  },
+  {
+    "num": 173,
+    "dutch": "Ik weet niet wie de directeur van dit bedrijf is.",
+    "english": "I don't know who the director of this company is."
+  },
+  {
+    "num": 174,
+    "dutch": "Ik moet even noteren wat je nieuwe adres is.",
+    "english": "I need to write down what your new address is."
+  },
+  {
+    "num": 175,
+    "dutch": "Weten jullie wanneer het Pasen is?",
+    "english": "Do you (pl.) know when Easter is?"
+  },
+  {
+    "num": 176,
+    "dutch": "David vroeg me waarom ik gisteren zo boos was.",
+    "english": "David asked me why I was so angry yesterday."
+  },
+  {
+    "num": 177,
+    "dutch": "Weet u welke bus ik naar het station moet nemen?",
+    "english": "Do you know which bus I need to take to the station?"
+  },
+  {
+    "num": 178,
+    "dutch": "Weet je hoelang de aardappels moeten koken?",
+    "english": "Do you know how long the potatoes need to cook?"
+  },
+  {
+    "num": 179,
+    "dutch": "Weten jullie hoe laat Ali naar huis is gegaan?",
+    "english": "Do you (pl.) know what time Ali went home?"
+  },
+  {
+    "num": 180,
+    "dutch": "Vertel me even wat ik precies moet doen.",
+    "english": "Just tell me exactly what I need to do."
+  },
+  {
+    "num": 181,
+    "dutch": "Weet je wat haar achternaam is?",
+    "english": "Do you know what her last name is?"
+  },
+  {
+    "num": 182,
+    "dutch": "Kun je vragen hoe duur die mooie computer is?",
+    "english": "Can you ask how expensive that nice computer is?"
+  },
+  {
+    "num": 183,
+    "dutch": "Weet u misschien hoe laat de bus vertrekt?",
+    "english": "Do you perhaps know what time the bus leaves?"
+  },
+  {
+    "num": 184,
+    "dutch": "Weet je al wat we vandaag gaan eten?",
+    "english": "Do you know yet what we are going to eat today?"
+  },
+  {
+    "num": 185,
+    "dutch": "We gaan naar de markt om vis te halen.",
+    "english": "We are going to the market to get fish."
+  },
+  {
+    "num": 186,
+    "dutch": "Ik ben blij om je te zien.",
+    "english": "I'm happy to see you."
+  },
+  {
+    "num": 187,
+    "dutch": "Ik eet veel groente en fruit om gezond te blijven.",
+    "english": "I eat lots of vegetables and fruit to stay healthy."
+  },
+  {
+    "num": 188,
+    "dutch": "Je hebt het bonnetje nodig om te ruilen.",
+    "english": "You need the receipt to exchange (something)."
+  },
+  {
+    "num": 189,
+    "dutch": "We moeten rennen om de trein te kunnen halen.",
+    "english": "We have to run to be able to catch the train."
+  },
+  {
+    "num": 190,
+    "dutch": "Ik vind het fijn om mijn familie te zien.",
+    "english": "I love seeing my family."
+  },
+  {
+    "num": 191,
+    "dutch": "Heb je zin om vanavond naar de film te gaan?",
+    "english": "Do you feel like going to the cinema tonight?"
+  },
+  {
+    "num": 192,
+    "dutch": "Hebben jullie tijd om ons te helpen?",
+    "english": "Do you (pl.) have time to help us?"
+  },
+  {
+    "num": 193,
+    "dutch": "Anna loopt naar boven om de baby te halen.",
+    "english": "Anna goes upstairs to get the baby."
+  },
+  {
+    "num": 194,
+    "dutch": "Ik heb zin om een warme douche te nemen.",
+    "english": "I feel like having a warm shower."
+  },
+  {
+    "num": 195,
+    "dutch": "Het is niet warm hier.",
+    "english": "It is not warm here."
+  },
+  {
+    "num": 196,
+    "dutch": "Vandaag is het maandag.",
+    "english": "Today is Monday."
+  },
+  {
+    "num": 197,
+    "dutch": "Is het koud buiten?",
+    "english": "Is it cold outside?"
+  },
+  {
+    "num": 198,
+    "dutch": "Regelt het nog steeds?",
+    "english": "Is it still raining?"
+  },
+  {
+    "num": 199,
+    "dutch": "In de winter is het vroeg donker.",
+    "english": "In winter it gets dark early."
+  },
+  {
+    "num": 200,
+    "dutch": "Ik weet niet waar Sofia vroeger woonde.",
+    "english": "I don't know where Sofia used to live."
+  }
+];
+
+const MCQS = [
+  {
+    "num": 1,
+    "question": "Heeft de baby nog ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gelachen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gehuild",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gespeeld",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gegeten",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — gehuild (to cry). The sentence asks if the baby cried again."
+  },
+  {
+    "num": 2,
+    "question": "Ik heb lekker ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gesport",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gegeten",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gedoucht",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "geslapen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gedoucht (showered). The adverb *lekker* is common with daily routines like showering."
+  },
+  {
+    "num": 3,
+    "question": "Wat heb je tegen Layla ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "geschreven",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gestuurd",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gezegd",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gevraagd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gezegd (said). *Iets zeggen tegen iemand* = to say something to someone."
+  },
+  {
+    "num": 4,
+    "question": "Ik heb mijn ___ niet gehoord.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "buurman",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "telefoon",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "wekker",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "moeder",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — telefoon (phone). This is the most natural and frequent A2 expression."
+  },
+  {
+    "num": 5,
+    "question": "Ik heb een uur op je ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gelet",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gebleven",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gewacht",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gereageerd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gewacht (waited). *Wachten op* = to wait for."
+  },
+  {
+    "num": 6,
+    "question": "Mijn vader ___ mijn fiets straks.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "koopt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "repareert",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "verkoopt",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "zoekt",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — repareert (repairs/fixes). Context: the bike needs fixing."
+  },
+  {
+    "num": 7,
+    "question": "Ik heb vorig jaar 1000 euro ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "verdiend",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "betaald",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gespaard",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "uitgegeven",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gespaard (saved). *Sparen* = to save money."
+  },
+  {
+    "num": 8,
+    "question": "Ik heb de kaas uit de ___ gepakt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kast",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "koelkast",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "winkel",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "tas",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — koelkast (fridge). Cheese is typically taken from the fridge."
+  },
+  {
+    "num": 9,
+    "question": "Anna heeft vijf jaar in Parijs ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gestudeerd",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gewerkt",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gewoond",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "geleefd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gewoond (lived). *Wonen in* = to live in a place."
+  },
+  {
+    "num": 10,
+    "question": "Heb je de melk in de koelkast ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gedaan",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gepakt",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gezet",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gelegd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gezet (put/placed). *Zetten* is used for upright objects like bottles of milk."
+  },
+  {
+    "num": 11,
+    "question": "Mijn zus heeft een jaar voor mijn moeder ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gewerkt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gezorgd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "betaald",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gekookt",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — gezorgd (cared). *Zorgen voor* = to take care of."
+  },
+  {
+    "num": 12,
+    "question": "Ik heb alles goed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gezien",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "begrepen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gehoord",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "geleerd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gehoord (heard). *Alles goed horen* = to hear everything clearly."
+  },
+  {
+    "num": 13,
+    "question": "Mijn moeder heeft in Utrecht ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gewoond",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gewerkt",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gestudeerd",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "geshopped",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gestudeerd (studied). Universities are associated with studying in a city."
+  },
+  {
+    "num": 14,
+    "question": "Ik heb je ___ niet gesproken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gisteren",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vandaag",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "lang",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "snel",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — lang (long/a long time). *Lang niet gesproken* = haven't spoken in a long time."
+  },
+  {
+    "num": 15,
+    "question": "Hebben jullie ___ gedronken?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "koffie",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "thee",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "water",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "sap",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — thee (tea). All options work grammatically; \"thee drinken\" is very common in Dutch culture."
+  },
+  {
+    "num": 16,
+    "question": "Ik heb een ___ genomen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "taxi",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "pizza",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "beslissing",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "boek",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — pizza (pizza). *Een pizza nemen* = to order/take a pizza."
+  },
+  {
+    "num": 17,
+    "question": "We hebben een fijne ___ gehad.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "avond",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "week",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "dag",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vakantie",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — dag (day). *Een fijne dag hebben* is a very common daily expression."
+  },
+  {
+    "num": 18,
+    "question": "We zijn om 22:00 uur naar bed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gelopen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gegaan",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gekomen",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gevallen",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — gegaan (gone). *Naar bed gaan* = to go to bed."
+  },
+  {
+    "num": 19,
+    "question": "Ben jij in het ___ geweest?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ziekenhuis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "park",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gemeentehuis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "winkelcentrum",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gemeentehuis (town hall). The sentence specifically refers to this civic building."
+  },
+  {
+    "num": 20,
+    "question": "David is vader ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "geweest",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "geworden",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gegaan",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gebleven",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — geworden (become). *Worden* = to become (used for change of state)."
+  },
+  {
+    "num": 21,
+    "question": "Ali is bij de ___ geweest.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "tandarts",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "dokter",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "bakker",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "buren",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — dokter (doctor). *Bij de dokter zijn* is a very frequent A2 expression."
+  },
+  {
+    "num": 22,
+    "question": "Ik heb de ___ genomen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "trein",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tram",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bus",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "metro",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bus (bus). The original sentence specifies the bus."
+  },
+  {
+    "num": 23,
+    "question": "Ik heb je ___ gevonden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sleutel",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tas",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "telefoon",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "jas",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — telefoon (phone). From the original sentence; a phone is a very typical lost item."
+  },
+  {
+    "num": 24,
+    "question": "Hij heeft een ___ geschreven.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "boek",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "brief",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "e-mail",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bericht",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — e-mail (email). The original sentence specifies e-mail."
+  },
+  {
+    "num": 25,
+    "question": "Julia heeft een ___ gehad.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "baby",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "ongeluk",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "feest",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "vakantie",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — ongeluk (accident). *Een ongeluk hebben* = to have an accident."
+  },
+  {
+    "num": 26,
+    "question": "Ik heb het probleem niet goed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gezien",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gevonden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "begrepen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "opgelost",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — begrepen (understood). *Begrijpen* = to understand."
+  },
+  {
+    "num": 27,
+    "question": "Ik heb geen ___ gedaan.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sport",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "boodschappen",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "huiswerk",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "cursus",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — boodschappen (shopping/errands). *Boodschappen doen* = to do the shopping."
+  },
+  {
+    "num": 28,
+    "question": "Mijn vader heeft een ___ voor me gekocht.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "scooter",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "fiets",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "laptop",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "telefoon",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — fiets (bike). Original sentence specifies \"fiets.\""
+  },
+  {
+    "num": 29,
+    "question": "Gisteren zijn we naar ___ geweest.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Utrecht",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Den Haag",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Amsterdam",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Rotterdam",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — Amsterdam. Original sentence specifies Amsterdam."
+  },
+  {
+    "num": 30,
+    "question": "Ik heb ___ aan je gedacht.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "veel",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "altijd",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "niet",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vaak",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — niet (not). *Niet aan iemand denken* = not to think of someone."
+  },
+  {
+    "num": 31,
+    "question": "Wat hebben jullie ___ gedaan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vandaag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gisteren",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "morgen",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "vroeger",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — gisteren (yesterday). Original sentence specifies gisteren."
+  },
+  {
+    "num": 32,
+    "question": "Heb je gisteren de ___ gebeld?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "buren",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "dokter",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "politie",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gemeente",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — politie (police). Original sentence specifies politie."
+  },
+  {
+    "num": 33,
+    "question": "We praten morgen met de ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "dokter",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "school",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gemeente",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "buren",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gemeente (municipality). Original sentence specifies gemeente."
+  },
+  {
+    "num": 34,
+    "question": "We hebben een nieuwe ___ besteld.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "wasmachine",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "televisie",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bank",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "tafel",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bank (sofa). Original sentence; *een bank bestellen* = to order a sofa."
+  },
+  {
+    "num": 35,
+    "question": "Ik heb hem echt niks ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gegeven",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "beloofd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "verteld",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "geleerd",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — beloofd (promised). *Beloven* = to promise."
+  },
+  {
+    "num": 36,
+    "question": "Je hebt het ___ mes gebruikt!",
+    "options": [
+      {
+        "letter": "A",
+        "text": "goede",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verkeerde",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "grote",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "kleine",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — verkeerde (wrong). *Het verkeerde mes* = the wrong knife."
+  },
+  {
+    "num": 37,
+    "question": "Anna is in een paar jaar veel ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gegroeid",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "veranderd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "geleerd",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "verbeterd",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — veranderd (changed). *Veranderen* = to change."
+  },
+  {
+    "num": 38,
+    "question": "We zijn een week geleden ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vertrokken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verhuisd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "aangekomen",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "begonnen",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — verhuisd (moved house). *Verhuizen* = to move house."
+  },
+  {
+    "num": 39,
+    "question": "Hoeveel geld heb je ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gespaard",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "betaald",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "verdiend",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "uitgegeven",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — verdiend (earned). *Verdienen* = to earn money."
+  },
+  {
+    "num": 40,
+    "question": "We hebben een oude tante ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "geholpen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "bezocht",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gebeld",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gezien",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — bezocht (visited). *Bezoeken* = to visit."
+  },
+  {
+    "num": 41,
+    "question": "Heb je je ___ vergeten?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sleutel",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "jas",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "tas",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "telefoon",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — tas (bag). Original sentence specifies tas."
+  },
+  {
+    "num": 42,
+    "question": "We hebben het ___ ontvangen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bericht",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "pakketje",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "geld",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "formulier",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — pakketje (package). *Ontvangen* = to receive."
+  },
+  {
+    "num": 43,
+    "question": "Onze buurman is gisteren ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "verhuisd",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gekomen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "overleden",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "weggegaan",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — overleden (passed away). *Overlijden* = to pass away/die."
+  },
+  {
+    "num": 44,
+    "question": "Julia heeft haar huis ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gekocht",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verkocht",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gehuurd",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "schoongemaakt",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — verkocht (sold). *Verkopen* = to sell."
+  },
+  {
+    "num": 45,
+    "question": "Ik heb je niet goed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gezien",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "begrepen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gehoord",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "verstaan",
+        "correct": true
+      }
+    ],
+    "correct": "D",
+    "explanation": "D — verstaan (understood/heard). *Verstaan* = to hear/understand spoken words."
+  },
+  {
+    "num": 46,
+    "question": "We hebben van het eten ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gehouden",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "genoten",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "gegeten",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gedronken",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — genoten (enjoyed). *Genieten van* = to enjoy."
+  },
+  {
+    "num": 47,
+    "question": "Je hebt je ___ vergeten.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "tas",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "jas",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "sleutel",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "telefoon",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — sleutel (key). Original sentence specifies sleutel."
+  },
+  {
+    "num": 48,
+    "question": "We hebben een leuk plan ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gemaakt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gevonden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bedacht",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gekregen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bedacht (thought up/devised). *Bedenken* = to come up with an idea."
+  },
+  {
+    "num": 49,
+    "question": "Sorry, ik heb je niet goed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gezien",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "begrepen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gehoord",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "verstaan",
+        "correct": true
+      }
+    ],
+    "correct": "D",
+    "explanation": "D — verstaan. *Verstaan* is specifically about understanding spoken words."
+  },
+  {
+    "num": 50,
+    "question": "Anna ___ het glas.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zette",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "pakte",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "nam",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "vond",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — pakte (picked up/grabbed). *Pakken* = to pick up/grab."
+  },
+  {
+    "num": 51,
+    "question": "De film ___ twee uur.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kost",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "duurt",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "loopt",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "gaat",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — duurt (lasts). *Duren* = to last (for a period of time)."
+  },
+  {
+    "num": 52,
+    "question": "Sarah ___ voor haar moeder.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "werkte",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kookte",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "zorgde",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "betaalde",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — zorgde (took care of). *Zorgen voor* = to take care of."
+  },
+  {
+    "num": 53,
+    "question": "Hoeveel ___ die spijkerbroek?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kostte",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "deed",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "had",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — kostte (cost). *Kosten* = to cost."
+  },
+  {
+    "num": 54,
+    "question": "Ik maakte een ___ bij de dokter.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bezoek",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gesprek",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "afspraak",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vraag",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — afspraak (appointment). *Een afspraak maken bij de dokter* = to make a doctor's appointment."
+  },
+  {
+    "num": 55,
+    "question": "Je ___ nooit naar me!",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kijkt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "luistert",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "reageert",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "antwoordt",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — luistert (listen). *Luisteren naar iemand* = to listen to someone."
+  },
+  {
+    "num": 56,
+    "question": "Mijn moeder wilde geen groot ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "huis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gezin",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "feest",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "auto",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — gezin (family). *Een groot gezin* = a large family."
+  },
+  {
+    "num": 57,
+    "question": "We horen het ___ in de stad niet.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "verkeer",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "muziek",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "lawaai",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "nieuws",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — lawaai (noise). *Lawaai* = noise/racket."
+  },
+  {
+    "num": 58,
+    "question": "Mijn vrienden ___ zelf een huis.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kopen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "huren",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bouwen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "zoeken",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bouwen (build). *Zelf bouwen* = to build yourself."
+  },
+  {
+    "num": 59,
+    "question": "David en Julia ___ 10.000 euro.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "verdienden",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "uitgaven",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "spaarden",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "leenden",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — spaarden (saved). *Sparen* = to save money."
+  },
+  {
+    "num": 60,
+    "question": "John stuurde me een ___ van zijn kinderen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "brief",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "foto",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "bericht",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "kaart",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — foto (photo). *Een foto sturen* = to send a photo."
+  },
+  {
+    "num": 61,
+    "question": "Sarah ___ na een paar maanden met de cursus.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "begon",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "stopte",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "hielp",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "betaalde",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — stopte (stopped). *Stoppen met* = to stop doing something."
+  },
+  {
+    "num": 62,
+    "question": "We legden de baby om ___ uur in bed.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "acht",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "negen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "zeven",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "zes",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — zeven (seven). Original sentence specifies zeven."
+  },
+  {
+    "num": 63,
+    "question": "Woonde u ___ ook al in deze straat?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "altijd",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vroeger",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "graag",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "lang",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — vroeger (before/in the past). *Vroeger wonen* = used to live."
+  },
+  {
+    "num": 64,
+    "question": "John pakte zijn tas en zijn ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "jas",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sleutels",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "telefoon",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "fiets",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — sleutels (keys). Original sentence specifies sleutels."
+  },
+  {
+    "num": 65,
+    "question": "Onze vakantie ___ vorig jaar zes weken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "ging",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "duurde",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "kostte",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — duurde (lasted). *Duren* = to last."
+  },
+  {
+    "num": 66,
+    "question": "We vierden feest, omdat mijn moeder 40 jaar ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "had",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "feestte",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — werd (became/turned). *40 jaar worden* = to turn 40."
+  },
+  {
+    "num": 67,
+    "question": "Sarah belde haar vriendin, omdat ze een ___ had.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vraag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "afspraak",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "probleem",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "idee",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — probleem (problem). *Een probleem hebben* is the reason she called."
+  },
+  {
+    "num": 68,
+    "question": "We haalden boodschappen bij Albert Heijn, omdat de Lidl niet ___ was.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "groot",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "goedkoop",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "open",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "dichtbij",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — open (open). *Niet open zijn* = to be closed."
+  },
+  {
+    "num": 69,
+    "question": "De afspraak ___ een uur.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kostte",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "duurde",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "ging",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — duurde (lasted). *Duren* = to last."
+  },
+  {
+    "num": 70,
+    "question": "John en Adam spaarden voor een nieuwe ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "fiets",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "auto",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "woning",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "vakantie",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — auto (car). Original sentence specifies auto."
+  },
+  {
+    "num": 71,
+    "question": "In het weekend kookte ik voor ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mezelf",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vrienden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "familie",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "collega's",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — familie (family). Original sentence specifies familie."
+  },
+  {
+    "num": 72,
+    "question": "Ik wachtte een uur op ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "de bus",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "haar",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hem",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "het eten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hem (him). Original sentence specifies hem."
+  },
+  {
+    "num": 73,
+    "question": "De buren ___ ons voor die vrouw.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "hielpen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vertelden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "waarschuwden",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "belden",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — waarschuwden (warned). *Waarschuwen* = to warn."
+  },
+  {
+    "num": 74,
+    "question": "Ik haalde brood bij de ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "supermarkt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "winkel",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bakker",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "markt",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bakker (bakery). *Brood halen bij de bakker* = to get bread from the baker's."
+  },
+  {
+    "num": 75,
+    "question": "Mijn moeder kookte altijd ___ eten.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "veel",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gezond",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "heerlijk",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "goedkoop",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — heerlijk (delicious). *Heerlijk eten koken* = to cook delicious food."
+  },
+  {
+    "num": 76,
+    "question": "Ik bleef ___ thuis.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "graag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "altijd",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "alleen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "soms",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — alleen (alone). *Alleen thuisblijven* = to stay home alone."
+  },
+  {
+    "num": 77,
+    "question": "David moest zijn kamer ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "schoonmaken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verlaten",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "opruimen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "versieren",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — opruimen (tidy up). *Kamer opruimen* = to tidy up one's room."
+  },
+  {
+    "num": 78,
+    "question": "Dat ___ ik niet.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kende",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "wist",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "begreep",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — wist (knew). *Dat weten* = to know that (a fact)."
+  },
+  {
+    "num": 79,
+    "question": "Je mag hier niet ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "stoppen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "rijden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "parkeren",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "fietsen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — parkeren (park). *Niet parkeren* = no parking."
+  },
+  {
+    "num": 80,
+    "question": "Julia krijgt een ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "prijs",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "baby",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "baan",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "hond",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — baby (baby). *Een baby krijgen* = to have a baby."
+  },
+  {
+    "num": 81,
+    "question": "Anna liep naar ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "school",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "huis",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "buiten",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "binnen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — buiten (outside). Original sentence specifies buiten."
+  },
+  {
+    "num": 82,
+    "question": "Ik at een broodje in de ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "keuken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kantine",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "winkel",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "tuin",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — kantine (canteen). Original sentence specifies kantine."
+  },
+  {
+    "num": 83,
+    "question": "Waar lag je ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "jas",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sleutel",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "tas",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "boek",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — sleutel (key). Original sentence specifies sleutel."
+  },
+  {
+    "num": 84,
+    "question": "De les ___ om negen uur.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "eindigt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "stopt",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "begon",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "duurde",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — begon (started). *Beginnen* = to start/begin."
+  },
+  {
+    "num": 85,
+    "question": "Waarom ___ je niet op tijd?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "reed",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "liep",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "kwam",
+        "correct": true
+      }
+    ],
+    "correct": "D",
+    "explanation": "D — kwam (came). *Op tijd komen* = to come/arrive on time."
+  },
+  {
+    "num": 86,
+    "question": "Adam ___ een scooter.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rijdt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "repareert",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "koopt",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "verkoopt",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — koopt (buys). Original sentence specifies koopt."
+  },
+  {
+    "num": 87,
+    "question": "Anna gaf me een ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kus",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "cadeautje",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hand",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bericht",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hand (hand). *Een hand geven* = to shake someone's hand."
+  },
+  {
+    "num": 88,
+    "question": "Wat ___ je daar?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "zei",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "deed",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vond",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — deed (did). *Wat deed je?* = What were you doing?"
+  },
+  {
+    "num": 89,
+    "question": "David nam de ___ naar Groningen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bus",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tram",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "auto",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "trein",
+        "correct": true
+      }
+    ],
+    "correct": "D",
+    "explanation": "D — trein (train). Original sentence specifies trein."
+  },
+  {
+    "num": 90,
+    "question": "Ik was te ___ op school.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vroeg",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "moe",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "laat",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "druk",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — laat (late). *Te laat zijn* = to be late."
+  },
+  {
+    "num": 91,
+    "question": "David ___ heel boos.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "bleef",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "leek",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — werd (became). *Boos worden* = to become/get angry."
+  },
+  {
+    "num": 92,
+    "question": "Mijn vader bracht ons naar ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "school",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "huis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bed",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — huis (home). *Naar huis brengen* = to take/bring home."
+  },
+  {
+    "num": 93,
+    "question": "We aten elke zaterdag ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "pizza",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "patat",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "soep",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "rijst",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — patat (chips/fries). Original sentence specifies patat."
+  },
+  {
+    "num": 94,
+    "question": "We gingen op ___ naar de markt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "maandag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vrijdag",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "donderdag",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "zaterdag",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — donderdag (Thursday). Original sentence specifies donderdag."
+  },
+  {
+    "num": 95,
+    "question": "David en Layla gaven me ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "eten",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "cadeaus",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "geld",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "kleren",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — geld (money). Original sentence specifies geld."
+  },
+  {
+    "num": 96,
+    "question": "Ze hadden ___ met de buren.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "contact",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "problemen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ruzie",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "feest",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — ruzie (argument/fight). *Ruzie hebben met* = to have an argument with."
+  },
+  {
+    "num": 97,
+    "question": "De kinderen spraken met hun ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vrienden",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "leraar",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ouders",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "buren",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — ouders (parents). Original sentence specifies ouders."
+  },
+  {
+    "num": 98,
+    "question": "Julia ___ je niet.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kende",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "begreep",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "hoorde",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — begreep (understood). *Begrijpen* = to understand."
+  },
+  {
+    "num": 99,
+    "question": "De film begon ___ om negen uur.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bijna",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "al",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "precies",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "pas",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — precies (exactly). *Precies om negen uur* = exactly at nine o'clock."
+  },
+  {
+    "num": 100,
+    "question": "We bleven ___ dagen in Parijs.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "drie",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vijf",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "vier",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "twee",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — vier (four). Original sentence specifies vier."
+  },
+  {
+    "num": 101,
+    "question": "___ jullie morgen werken?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kunnen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Willen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Moeten",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Mogen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — Moeten (must/have to). *Moeten werken* = to have to work."
+  },
+  {
+    "num": 102,
+    "question": "Kunt u me ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zien",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "horen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "helpen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bellen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — helpen (help). *Iemand helpen* = to help someone."
+  },
+  {
+    "num": 103,
+    "question": "Ik durf niet te ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rijden",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "zwemmen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "fietsen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "rennen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — fietsen (cycle). Original sentence specifies fietsen."
+  },
+  {
+    "num": 104,
+    "question": "De baby begint te ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lachen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "praten",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "huilen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "lopen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — huilen (cry). Original sentence specifies huilen."
+  },
+  {
+    "num": 105,
+    "question": "Mag ik mijn ___ hier parkeren?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "fiets",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "scooter",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "auto",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "motor",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — auto (car). Original sentence specifies auto."
+  },
+  {
+    "num": 106,
+    "question": "Je hoeft morgen niet te ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "komen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "slapen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "werken",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "eten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — werken (work). *Niet hoeven te werken* = don't have to work."
+  },
+  {
+    "num": 107,
+    "question": "Wil je mijn ___ even halen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "jas",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sleutels",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "tas",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "telefoon",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — tas (bag). Original sentence specifies tas."
+  },
+  {
+    "num": 108,
+    "question": "De kinderen mogen buiten ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rennen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "zitten",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "spelen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "wachten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — spelen (play). *Buiten spelen* = to play outside."
+  },
+  {
+    "num": 109,
+    "question": "Mag ik u een ___ stellen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "idee",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vraag",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "voorstel",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "probleem",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — vraag (question). *Een vraag stellen* = to ask a question."
+  },
+  {
+    "num": 110,
+    "question": "Morgen ___ ik je helpen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kan",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "wil",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "zal",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "moet",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — zal (will). *Zullen* = will (future)."
+  },
+  {
+    "num": 111,
+    "question": "Kan je morgen op tijd ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vertrekken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "beginnen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "komen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "werken",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — komen (come). *Op tijd komen* = to arrive on time."
+  },
+  {
+    "num": 112,
+    "question": "Ik durf niet in de zee te ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "duiken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vissen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "zwemmen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "springen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — zwemmen (swim). *In de zee zwemmen* = to swim in the sea."
+  },
+  {
+    "num": 113,
+    "question": "Hij wil 20 kilometer ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lopen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "rijden",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "fietsen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "rennen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — fietsen (cycle). Original sentence specifies fietsen."
+  },
+  {
+    "num": 114,
+    "question": "Ik durf niks te ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vragen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "doen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "zeggen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "eten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — zeggen (say). *Niks durven zeggen* = to not dare to say anything."
+  },
+  {
+    "num": 115,
+    "question": "Je hoeft niet zo ___ te komen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "laat",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "snel",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "vroeg",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "ver",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — vroeg (early). *Zo vroeg komen* = to come so early."
+  },
+  {
+    "num": 116,
+    "question": "U moet de rekening goed ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "betalen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "lezen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "controleren",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bewaren",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — controleren (check). *De rekening controleren* = to check the bill."
+  },
+  {
+    "num": 117,
+    "question": "Jullie moeten vaker gezond ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "leven",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "slapen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "eten",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "bewegen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — eten (eat). *Gezond eten* = to eat healthily."
+  },
+  {
+    "num": 118,
+    "question": "Ik kan helaas niet ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "helpen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "betalen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "komen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "wachten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — komen (come). *Niet kunnen komen* = can't come."
+  },
+  {
+    "num": 119,
+    "question": "Anna durft geen ___ te spreken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Engels",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Frans",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Nederlands",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Arabisch",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — Nederlands (Dutch). Original sentence specifies Nederlands."
+  },
+  {
+    "num": 120,
+    "question": "Mijn ouders kunnen vanavond niet ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "werken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "bellen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "komen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "eten",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — komen (come). *Niet kunnen komen* = can't come."
+  },
+  {
+    "num": 121,
+    "question": "Ik ga ___ niet slapen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "nu",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "nooit",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "nog",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "snel",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — nog (yet). *Nog niet slapen* = not going to sleep yet."
+  },
+  {
+    "num": 122,
+    "question": "Ik ga naar bed, als ik ___ ben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "klaar",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "ziek",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "moe",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "thuis",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — moe (tired). *Moe zijn* = to be tired."
+  },
+  {
+    "num": 123,
+    "question": "We eten vis, omdat het ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lekker",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "goedkoop",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gezond",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vers",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gezond (healthy). Original sentence specifies gezond."
+  },
+  {
+    "num": 124,
+    "question": "Ik bel mijn moeder, omdat ze ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "oud",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verdrietig",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ziek",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "alleen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — ziek (ill). Original sentence specifies ziek."
+  },
+  {
+    "num": 125,
+    "question": "Het kind huilt, omdat het ___ heeft.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "honger",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "pijn",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "angst",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "koorts",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — pijn (pain). *Pijn hebben* = to be in pain."
+  },
+  {
+    "num": 126,
+    "question": "Ik ben moe, omdat ik ___ heb gewerkt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lang",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "veel",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hard",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "goed",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hard (hard). *Hard werken* = to work hard."
+  },
+  {
+    "num": 127,
+    "question": "Ik ga nu naar bed, omdat ik morgen moet ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "leren",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "opstaan",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "werken",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "komen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — werken (work). Original sentence specifies werken."
+  },
+  {
+    "num": 128,
+    "question": "Ik blijf thuis, als ik ___ wil kijken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "buiten",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sport",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "tv",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "films",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — tv (TV). *Tv kijken* = to watch TV."
+  },
+  {
+    "num": 129,
+    "question": "Ze willen trouwen, als ze een ___ kunnen krijgen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "baby",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "huis",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "baan",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "auto",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — huis (house). Original sentence specifies huis."
+  },
+  {
+    "num": 130,
+    "question": "Ik bel je, als ik ___ ben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "thuis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vrij",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "klaar",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "wakker",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — klaar (done/finished). *Klaar zijn* = to be done/finished."
+  },
+  {
+    "num": 131,
+    "question": "Ik maak mijn huis ___, omdat het vies is geworden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "op",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "leeg",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "schoon",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "mooi",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — schoon (clean). *Het huis schoonmaken* = to clean the house."
+  },
+  {
+    "num": 132,
+    "question": "Je mag de kleren ruilen, als je de ___ nog hebt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "prijs",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "bon",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "tas",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "rekening",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — bon (receipt). *De bon hebben* = to have the receipt."
+  },
+  {
+    "num": 133,
+    "question": "David gaat verhuizen, omdat hij een ___ heeft gevonden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "baan",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "huis",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "appartement",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "kamer",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — appartement (apartment). Original sentence specifies appartement."
+  },
+  {
+    "num": 134,
+    "question": "Anna kan de baan krijgen, als ze goed ___ spreekt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Engels",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Frans",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Nederlands",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Duits",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — Nederlands (Dutch). Original sentence specifies Nederlands."
+  },
+  {
+    "num": 135,
+    "question": "We ___ de buren, als we een feestje hebben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bellen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "uitnodigen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "waarschuwen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "helpen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — waarschuwen (warn). *Buren waarschuwen* = to warn the neighbours."
+  },
+  {
+    "num": 136,
+    "question": "Ik bel mijn vader, omdat hij ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "oud",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "alleen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ziek",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "druk",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — ziek (ill). Original sentence specifies ziek."
+  },
+  {
+    "num": 137,
+    "question": "Sarah ligt op de bank, want ze is erg ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ziek",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "verdrietig",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "moe",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "koud",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — moe (tired). *Erg moe zijn* = to be very tired."
+  },
+  {
+    "num": 138,
+    "question": "Ik blijf thuis, omdat ik ___ heb gekregen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "pijn",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "griep",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "koorts",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "hoofdpijn",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — koorts (fever). Original sentence specifies koorts."
+  },
+  {
+    "num": 139,
+    "question": "Ik haal je straks op, omdat je geen ___ hebt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "fiets",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "geld",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "auto",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "telefoon",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — auto (car). Original sentence specifies auto."
+  },
+  {
+    "num": 140,
+    "question": "David houdt van Sarah, omdat ze een ___ vrouw is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mooie",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "slimme",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "leuke",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "lieve",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — leuke (nice/fun). Original sentence specifies leuke."
+  },
+  {
+    "num": 141,
+    "question": "Layla vertrekt, want ze moet om ___ uur werken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zeven",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "negen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "acht",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "tien",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — acht (eight). Original sentence specifies acht."
+  },
+  {
+    "num": 142,
+    "question": "De buurman komt zo langs, want hij wil iets ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vertellen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kopen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "vragen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "brengen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — vragen (ask). *Iets willen vragen* = to want to ask something."
+  },
+  {
+    "num": 143,
+    "question": "Ze hebben vandaag vrij, omdat het ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zaterdag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "zondag",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "vakantie",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "feestdag",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — zondag (Sunday). Original sentence specifies zondag."
+  },
+  {
+    "num": 144,
+    "question": "We kennen Anna goed, omdat ze onze ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vriendin",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "collega",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "buurvrouw",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "familielid",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — buurvrouw (neighbour, female). Original sentence specifies buurvrouw."
+  },
+  {
+    "num": 145,
+    "question": "Je moet een ___ aantrekken, omdat het koud is geworden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "trui",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sjaal",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "jas",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "broek",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — jas (coat). *Een jas aantrekken* = to put on a coat."
+  },
+  {
+    "num": 146,
+    "question": "Je moet opschieten, want je moet de volgende ___ halen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bus",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "metro",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "trein",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "tram",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — trein (train). Original sentence specifies trein."
+  },
+  {
+    "num": 147,
+    "question": "Ik blijf thuis, omdat ik een beetje ___ ben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "moe",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "druk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "ziek",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "verdrietig",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — ziek (ill). Original sentence specifies ziek."
+  },
+  {
+    "num": 148,
+    "question": "Mijn vader loopt langzaam, omdat hij ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ziek",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "moe",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "oud",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "groot",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — oud (old). *Oud zijn* = to be old."
+  },
+  {
+    "num": 149,
+    "question": "John viert feest, omdat hij een ___ heeft gevonden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "baan",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "auto",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "huis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vriend",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — huis (house). Original sentence specifies huis."
+  },
+  {
+    "num": 150,
+    "question": "Ik geloof dat de baby heel ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ziek",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "blij",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "moe",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "hongerig",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — moe (tired). Original sentence specifies moe."
+  },
+  {
+    "num": 151,
+    "question": "Ik wil dat je nu naar ___ komt!",
+    "options": [
+      {
+        "letter": "A",
+        "text": "school",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "buiten",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "huis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "hier",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — huis (home). *Naar huis komen* = to come home."
+  },
+  {
+    "num": 152,
+    "question": "We hebben gehoord dat Sofia een ___ krijgt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "huis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "baan",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "kindje",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "hond",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — kindje (baby/little child). Original sentence specifies kindje."
+  },
+  {
+    "num": 153,
+    "question": "Ik ___ dat jullie veel plezier hebben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "denk",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "zie",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hoop",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "weet",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hoop (hope). *Hopen dat* = to hope that."
+  },
+  {
+    "num": 154,
+    "question": "Ik denk dat ik vandaag niet naar ___ ga.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "huis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "school",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "de markt",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — school (school). Original sentence specifies school."
+  },
+  {
+    "num": 155,
+    "question": "Mijn moeder weet nog niet dat ik een nieuwe ___ heb.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "auto",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vriend",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "baan",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "huis",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — baan (job). Original sentence specifies baan."
+  },
+  {
+    "num": 156,
+    "question": "Ik vind dat je ___ hebt gewerkt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "weinig",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "goed",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hard",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "lang",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hard (hard). *Hard werken* = to work hard."
+  },
+  {
+    "num": 157,
+    "question": "Ik zie dat je nog niks hebt ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "gedronken",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gezegd",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gegeten",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "gedaan",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gegeten (eaten). *Niks gegeten hebben* = to not have eaten anything."
+  },
+  {
+    "num": 158,
+    "question": "Layla ___ dat ik ziek ben geweest.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "hoopt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "denkt",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "weet",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "zegt",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — weet (knows). *Weten dat* = to know that."
+  },
+  {
+    "num": 159,
+    "question": "Mijn ouders hopen dat ik snel ___ kan vinden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "een huis",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "een vriend",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "werk",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "een cursus",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — werk (work). *Werk vinden* = to find work."
+  },
+  {
+    "num": 160,
+    "question": "Ik hoorde dat jullie een ___ hebben gekregen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "baby",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kat",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "hondje",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vogel",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — hondje (puppy/little dog). Original sentence specifies hondje."
+  },
+  {
+    "num": 161,
+    "question": "Ik vind het fijn dat je weer ___ bent.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "wakker",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "gezond",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "thuis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "blij",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — thuis (home). *Weer thuis zijn* = to be home again."
+  },
+  {
+    "num": 162,
+    "question": "Ik heb gehoord dat je een nieuwe ___ hebt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "auto",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vriend",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "baan",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "huis",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — baan (job). Original sentence specifies baan."
+  },
+  {
+    "num": 163,
+    "question": "Mijn moeder wil dat ik op tijd naar ___ ga.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "school",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bed",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "huis",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bed (bed). *Op tijd naar bed gaan* = to go to bed on time."
+  },
+  {
+    "num": 164,
+    "question": "Ik hoop dat jullie een fijne ___ hebben.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "dag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "avond",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "vakantie",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "week",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — vakantie (holiday). Original sentence specifies vakantie."
+  },
+  {
+    "num": 165,
+    "question": "De buren vinden dat we te veel ___ maken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rommel",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "problemen",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "lawaai",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "afval",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — lawaai (noise). *Lawaai maken* = to make noise."
+  },
+  {
+    "num": 166,
+    "question": "Sarah zegt dat de huizen ___ zijn geworden.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "groter",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "kleiner",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "duurder",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "mooier",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — duurder (more expensive). *Duurder worden* = to become more expensive."
+  },
+  {
+    "num": 167,
+    "question": "Ik weet dat Layla graag naar ___ wil reizen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Marokko",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "Spanje",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "Turkije",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "Egypte",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — Turkije (Turkey). Original sentence specifies Turkije."
+  },
+  {
+    "num": 168,
+    "question": "Ik zie dat je de ___ niet hebt schoongemaakt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "badkamer",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "woonkamer",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "keuken",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "slaapkamer",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — keuken (kitchen). Original sentence specifies keuken."
+  },
+  {
+    "num": 169,
+    "question": "Ik begrijp dat u de ___ wilt spreken.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "directeur",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "medewerker",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "dokter",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "buurman",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — dokter (doctor). Original sentence specifies dokter."
+  },
+  {
+    "num": 170,
+    "question": "Ik geloof dat het morgen mooi ___ wordt.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "dag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "weer",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "seizoen",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "moment",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — weer (weather). *Mooi weer worden* = for the weather to become nice."
+  },
+  {
+    "num": 171,
+    "question": "Ik ga even kijken hoeveel die ___ kost.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "telefoon",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tablet",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "laptop",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "computer",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — laptop. Original sentence specifies laptop."
+  },
+  {
+    "num": 172,
+    "question": "Weet je misschien hoe laat ___ is?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "hij",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "de film",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "het",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "de les",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — het (it). *Hoe laat het is* = what time it is."
+  },
+  {
+    "num": 173,
+    "question": "Ik weet niet wie de ___ van dit bedrijf is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "eigenaar",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "manager",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "directeur",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "baas",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — directeur (director). Original sentence specifies directeur."
+  },
+  {
+    "num": 174,
+    "question": "Ik moet even noteren wat je nieuwe ___ is.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "naam",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "telefoonnummer",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "adres",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "e-mailadres",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — adres (address). Original sentence specifies adres."
+  },
+  {
+    "num": 175,
+    "question": "Weten jullie ___ het Pasen is?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "hoe",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "waar",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "wanneer",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "waarom",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — wanneer (when). *Wanneer is Pasen?* = When is Easter?"
+  },
+  {
+    "num": 176,
+    "question": "David vroeg me waarom ik gisteren zo ___ was.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "laat",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "druk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "boos",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "moe",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — boos (angry). Original sentence specifies boos."
+  },
+  {
+    "num": 177,
+    "question": "Weet u welke ___ ik naar het station moet nemen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "tram",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "metro",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bus",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "trein",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bus (bus). Original sentence specifies bus."
+  },
+  {
+    "num": 178,
+    "question": "Weet je hoelang de ___ moeten koken?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "groenten",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "wortels",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "aardappels",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "uien",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — aardappels (potatoes). Original sentence specifies aardappels."
+  },
+  {
+    "num": 179,
+    "question": "Weten jullie hoe laat Ali naar ___ is gegaan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bed",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "werk",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "huis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "school",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — huis (home). Original sentence specifies huis."
+  },
+  {
+    "num": 180,
+    "question": "Vertel me even wat ik ___ moet doen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "nu",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "later",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "precies",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "snel",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — precies (exactly). *Precies weten wat te doen* = to know exactly what to do."
+  },
+  {
+    "num": 181,
+    "question": "Weet je wat haar ___ is?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "adres",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "telefoonnummer",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "achternaam",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "leeftijd",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — achternaam (last name). Original sentence specifies achternaam."
+  },
+  {
+    "num": 182,
+    "question": "Kun je vragen hoe ___ die mooie computer is?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "groot",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "oud",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "duur",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "goed",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — duur (expensive). *Hoe duur is het?* = How expensive is it?"
+  },
+  {
+    "num": 183,
+    "question": "Weet u misschien hoe laat de ___ vertrekt?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "trein",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tram",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "bus",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "metro",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — bus (bus). Original sentence specifies bus."
+  },
+  {
+    "num": 184,
+    "question": "Weet je al wat we vandaag gaan ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "doen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "drinken",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "eten",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "kopen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — eten (eat). Original sentence specifies eten."
+  },
+  {
+    "num": 185,
+    "question": "We gaan naar de markt om ___ te halen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "groenten",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "fruit",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "vis",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "brood",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — vis (fish). Original sentence specifies vis."
+  },
+  {
+    "num": 186,
+    "question": "Ik ben ___ om je te zien.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "verrast",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "blij",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "klaar",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "hier",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — blij (happy/glad). *Blij zijn om iemand te zien* = to be happy to see someone."
+  },
+  {
+    "num": 187,
+    "question": "Ik eet veel groente en fruit om ___ te blijven.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "fit",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "slank",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "gezond",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "sterk",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — gezond (healthy). *Gezond blijven* = to stay healthy."
+  },
+  {
+    "num": 188,
+    "question": "Je hebt het ___ nodig om te ruilen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "paspoort",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "bonnetje",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "formulier",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "adres",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — bonnetje (receipt). *Het bonnetje nodig hebben om te ruilen* = to need the receipt to exchange."
+  },
+  {
+    "num": 189,
+    "question": "We moeten ___ om de trein te kunnen halen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lopen",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vertrekken",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "rennen",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "fietsen",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — rennen (run). *Rennen om de trein te halen* = to run to catch the train."
+  },
+  {
+    "num": 190,
+    "question": "Ik vind het fijn om mijn ___ te zien.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "vrienden",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "buren",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "familie",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "collega's",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — familie (family). Original sentence specifies familie."
+  },
+  {
+    "num": 191,
+    "question": "Heb je zin om vanavond naar de ___ te gaan?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "markt",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "sportschool",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "film",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "dokter",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — film (cinema/film). *Naar de film gaan* = to go to the cinema."
+  },
+  {
+    "num": 192,
+    "question": "Hebben jullie ___ om ons te helpen?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zin",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "tijd",
+        "correct": true
+      },
+      {
+        "letter": "C",
+        "text": "geld",
+        "correct": false
+      },
+      {
+        "letter": "D",
+        "text": "energie",
+        "correct": false
+      }
+    ],
+    "correct": "B",
+    "explanation": "B — tijd (time). *Tijd hebben om te helpen* = to have time to help."
+  },
+  {
+    "num": 193,
+    "question": "Anna loopt naar boven om de ___ te halen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "kleren",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "telefoon",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "baby",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "tas",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — baby (baby). Original sentence specifies baby."
+  },
+  {
+    "num": 194,
+    "question": "Ik heb zin om een ___ douche te nemen.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "korte",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "koude",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "warme",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "snelle",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — warme (warm). Original sentence specifies warme."
+  },
+  {
+    "num": 195,
+    "question": "Het is niet ___ hier.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rustig",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "groot",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "warm",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "schoon",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — warm (warm). Original sentence specifies warm."
+  },
+  {
+    "num": 196,
+    "question": "Vandaag is het ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "zondag",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "woensdag",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "maandag",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "vrijdag",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — maandag (Monday). Original sentence specifies maandag."
+  },
+  {
+    "num": 197,
+    "question": "Is het ___ buiten?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "nat",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "droog",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "koud",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "warm",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — koud (cold). Original sentence specifies koud."
+  },
+  {
+    "num": 198,
+    "question": "Regelt het nog ___?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "altijd",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "vaak",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "steeds",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "soms",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — steeds (still). *Nog steeds* = still."
+  },
+  {
+    "num": 199,
+    "question": "In de ___ is het vroeg donker.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "herfst",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "lente",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "winter",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "zomer",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — winter (winter). Original sentence specifies winter."
+  },
+  {
+    "num": 200,
+    "question": "Ik weet niet waar Sofia vroeger ___.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "werkte",
+        "correct": false
+      },
+      {
+        "letter": "B",
+        "text": "studeerde",
+        "correct": false
+      },
+      {
+        "letter": "C",
+        "text": "woonde",
+        "correct": true
+      },
+      {
+        "letter": "D",
+        "text": "leefde",
+        "correct": false
+      }
+    ],
+    "correct": "C",
+    "explanation": "C — woonde (lived). *Vroeger wonen* = to have lived somewhere in the past."
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// TAB SWITCHING
+// ═══════════════════════════════════════════════════════════════════════════
+
+const tabButtons = document.querySelectorAll('.tab-button');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const tabName = button.dataset.tab;
+    
+    // Update active states
+    tabButtons.forEach(btn => btn.classList.remove('active'));
+    tabContents.forEach(content => content.classList.remove('active'));
+    
+    button.classList.add('active');
+    document.getElementById(tabName).classList.add('active');
+  });
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER MCQ QUESTIONS
+// ═══════════════════════════════════════════════════════════════════════════
+
+const mcqContainer = document.getElementById('mcqContainer');
+let userAnswers = {};
+
+function renderMCQs(questions = MCQS, startIndex = 0, count = 20) {
+  mcqContainer.innerHTML = '';
+  const questionsToShow = questions.slice(startIndex, startIndex + count);
+  
+  questionsToShow.forEach((mcq, index) => {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'question';
+    questionDiv.dataset.questionNum = mcq.num;
+    
+    const optionsHTML = mcq.options.map(opt => `
+      <div class="option" data-letter="${opt.letter}" data-correct="${opt.correct}">
+        <span class="option-letter">${opt.letter}</span>
+        <span class="option-text">${opt.text}</span>
+      </div>
+    `).join('');
+    
+    questionDiv.innerHTML = `
+      <div class="question-number">Question ${mcq.num}</div>
+      <div class="question-text dutch-sentence">${mcq.question}</div>
+      <div class="options">
+        ${optionsHTML}
+      </div>
+      <div class="explanation">${mcq.explanation}</div>
+    `;
+    
+    mcqContainer.appendChild(questionDiv);
+    
+    // Add click handlers to options
+    const options = questionDiv.querySelectorAll('.option');
+    options.forEach(option => {
+      option.addEventListener('click', () => {
+        // Clear previous selection
+        options.forEach(opt => opt.classList.remove('selected'));
+        // Mark new selection
+        option.classList.add('selected');
+        // Store user answer
+        userAnswers[mcq.num] = option.dataset.letter;
+        updateProgress();
+      });
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// CHECK ANSWERS
+// ═══════════════════════════════════════════════════════════════════════════
+
+function checkAnswers() {
+  let correctCount = 0;
+  const questions = mcqContainer.querySelectorAll('.question');
+  
+  questions.forEach(questionDiv => {
+    const questionNum = parseInt(questionDiv.dataset.questionNum);
+    const options = questionDiv.querySelectorAll('.option');
+    const explanation = questionDiv.querySelector('.explanation');
+    
+    options.forEach(option => {
+      const isCorrect = option.dataset.correct === 'true';
+      const isSelected = userAnswers[questionNum] === option.dataset.letter;
+      
+      option.classList.remove('selected');
+      
+      if (isCorrect) {
+        option.classList.add('correct');
+        if (isSelected) correctCount++;
+      } else if (isSelected) {
+        option.classList.add('incorrect');
+      }
+      
+      // Disable further clicks
+      option.style.pointerEvents = 'none';
+    });
+    
+    // Show explanation
+    explanation.classList.add('show');
+  });
+  
+  // Display score
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const scoreText = document.getElementById('scoreText');
+  scoreText.textContent = `${correctCount} / ${questions.length}`;
+  scoreDisplay.style.display = 'block';
+  
+  // Scroll to score
+  scoreDisplay.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RESET QUIZ
+// ═══════════════════════════════════════════════════════════════════════════
+
+function resetQuiz() {
+  userAnswers = {};
+  document.getElementById('scoreDisplay').style.display = 'none';
+  renderMCQs(MCQS, 0, 20);
+  updateProgress();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// PROGRESS BAR
+// ═══════════════════════════════════════════════════════════════════════════
+
+function updateProgress() {
+  const answered = Object.keys(userAnswers).length;
+  const totalShown = mcqContainer.querySelectorAll('.question').length;
+  const percentage = (answered / totalShown) * 100;
+  document.getElementById('progressFill').style.width = percentage + '%';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER SENTENCES
+// ═══════════════════════════════════════════════════════════════════════════
+
+function renderSentences() {
+  const sentenceList = document.getElementById('sentenceList');
+  
+  SENTENCES.forEach(sentence => {
+    const card = document.createElement('div');
+    card.className = 'sentence-card';
+    card.innerHTML = `
+      <div class="num">#${sentence.num}</div>
+      <div class="dutch">${sentence.dutch}</div>
+      <div class="english">${sentence.english}</div>
+    `;
+    sentenceList.appendChild(card);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// PAGINATION CONTROLS (Load More MCQs)
+// ═══════════════════════════════════════════════════════════════════════════
+
+let currentPage = 0;
+const questionsPerPage = 20;
+
+function loadMoreQuestions() {
+  currentPage++;
+  const startIndex = currentPage * questionsPerPage;
+  if (startIndex < MCQS.length) {
+    renderMCQs(MCQS, startIndex, questionsPerPage);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ═══════════════════════════════════════════════════════════════════════════
+
+document.getElementById('checkAllBtn').addEventListener('click', checkAnswers);
+document.getElementById('resetBtn').addEventListener('click', resetQuiz);
+
+// ═══════════════════════════════════════════════════════════════════════════
+// INITIALIZE
+// ═══════════════════════════════════════════════════════════════════════════
+
+// Render first 20 MCQs
+renderMCQs(MCQS, 0, 20);
+
+// Render all sentences
+renderSentences();
+
+</script>
+</body>
+</html>
