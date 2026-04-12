@@ -295,17 +295,18 @@
             gap: 20px;
         }
 
-        /* Mobile: Stack columns vertically */
+        /* Mobile: Force side by side with reduced width */
         @media (max-width: 768px) {
             .game-board {
-                grid-template-columns: 1fr;
-                gap: 25px;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
             }
 
             .column-title {
                 background: var(--card-hover-bg);
                 padding: 8px;
                 border-radius: 8px;
+                font-size: 0.9rem;
             }
         }
 
@@ -338,6 +339,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
         }
 
         .card:hover:not(.matched):not(.locked) {
@@ -402,8 +406,8 @@
             }
 
             .game-board {
-                grid-template-columns: 1fr;
-                gap: 15px;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
             }
 
             .round-container {
@@ -462,9 +466,9 @@
             }
 
             .card {
-                font-size: 0.9rem;
-                padding: 10px;
-                min-height: 60px;
+                font-size: 0.85rem;
+                padding: 8px 6px;
+                min-height: 50px;
             }
         }
     </style>

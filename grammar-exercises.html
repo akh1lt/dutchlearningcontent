@@ -7357,7 +7357,7 @@ function checkAnswers() {
 function resetQuiz() {
   userAnswers = {};
   document.getElementById('scoreDisplay').style.display = 'none';
-  renderMCQs(MCQS, 0, 20);
+  renderMCQs(MCQS, 0, MCQS.length);
   updateProgress();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -7418,8 +7418,8 @@ document.getElementById('resetBtn').addEventListener('click', resetQuiz);
 // INITIALIZE
 // ═══════════════════════════════════════════════════════════════════════════
 
-// Render first 20 MCQs
-renderMCQs(MCQS, 0, 20);
+// Render all MCQs
+renderMCQs(MCQS, 0, MCQS.length);
 
 // Render all sentences
 renderSentences();
