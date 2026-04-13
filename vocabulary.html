@@ -8,13 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  /* CSS Variables for theming */
   :root {
     --bg-gradient-start: #1a1a2e;
     --bg-gradient-end: #16213e;
@@ -28,12 +23,7 @@
     --card-hover-bg: rgba(102, 126, 234, 0.15);
     --input-bg: rgba(255, 255, 255, 0.08);
     --input-border: rgba(255, 255, 255, 0.2);
-    --table-header-bg: rgba(102, 126, 234, 0.2);
-    --table-row-even: rgba(255, 255, 255, 0.02);
-    --table-border: rgba(255, 255, 255, 0.05);
     --shadow-color: rgba(0, 0, 0, 0.3);
-
-    /* POS badge colors - dark mode */
     --tag-noun-bg: rgba(102, 126, 234, 0.2);
     --tag-noun-text: #667eea;
     --tag-verb-bg: rgba(74, 222, 128, 0.2);
@@ -44,9 +34,18 @@
     --tag-adv-text: #a855f7;
     --tag-other-bg: rgba(236, 72, 153, 0.2);
     --tag-other-text: #ec4899;
+    /* Cluster colors */
+    --cluster-red: #ef4444;
+    --cluster-red-bg: rgba(239, 68, 68, 0.08);
+    --cluster-red-border: rgba(239, 68, 68, 0.25);
+    --cluster-yellow: #eab308;
+    --cluster-yellow-bg: rgba(234, 179, 8, 0.08);
+    --cluster-yellow-border: rgba(234, 179, 8, 0.25);
+    --cluster-green: #22c55e;
+    --cluster-green-bg: rgba(34, 197, 94, 0.08);
+    --cluster-green-border: rgba(34, 197, 94, 0.25);
   }
 
-  /* Light mode overrides */
   body.light-mode {
     --bg-gradient-start: #f5f2eb;
     --bg-gradient-end: #f5f2eb;
@@ -60,12 +59,7 @@
     --card-hover-bg: rgba(200, 75, 31, 0.05);
     --input-bg: #ffffff;
     --input-border: #d8d4ca;
-    --table-header-bg: rgba(200, 75, 31, 0.08);
-    --table-row-even: rgba(107, 104, 96, 0.03);
-    --table-border: #d8d4ca;
     --shadow-color: rgba(0, 0, 0, 0.1);
-
-    /* POS badge colors - light mode (from reference) */
     --tag-noun-bg: #dbeafe;
     --tag-noun-text: #1e40af;
     --tag-verb-bg: #dcfce7;
@@ -76,6 +70,12 @@
     --tag-adv-text: #6b21a8;
     --tag-other-bg: #fce7f3;
     --tag-other-text: #9d174d;
+    --cluster-red-bg: rgba(239, 68, 68, 0.06);
+    --cluster-red-border: rgba(239, 68, 68, 0.3);
+    --cluster-yellow-bg: rgba(234, 179, 8, 0.06);
+    --cluster-yellow-border: rgba(234, 179, 8, 0.3);
+    --cluster-green-bg: rgba(34, 197, 94, 0.06);
+    --cluster-green-border: rgba(34, 197, 94, 0.3);
   }
 
   body {
@@ -88,15 +88,11 @@
     transition: background 0.3s ease, color 0.3s ease;
   }
 
-  /* Light mode font override */
   body.light-mode {
     font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  .container { max-width: 1200px; margin: 0 auto; }
 
   header {
     margin: 20px 0 30px;
@@ -108,51 +104,12 @@
     box-shadow: 0 10px 30px var(--shadow-color);
     position: relative;
   }
+  header h1 { font-size: 2.2rem; font-weight: 600; margin-bottom: 0.5rem; }
+  header p { font-size: 1rem; opacity: 0.9; }
 
-  header h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-
-  header p {
-    font-size: 1rem;
-    opacity: 0.9;
-  }
-
-  /* Theme Toggle Button */
-  .theme-toggle {
+  .theme-toggle, .home-button {
     position: absolute;
     top: 20px;
-    right: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 25px;
-    padding: 8px 16px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: white;
-    font-weight: 500;
-  }
-
-  .theme-toggle:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.05);
-  }
-
-  .theme-toggle:active {
-    transform: scale(0.95);
-  }
-
-  /* Home Button */
-  .home-button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
     background: rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 25px;
@@ -167,65 +124,56 @@
     font-weight: 500;
     text-decoration: none;
   }
+  .theme-toggle { right: 20px; }
+  .home-button { left: 20px; }
+  .theme-toggle:hover, .home-button:hover { background: rgba(255, 255, 255, 0.3); transform: scale(1.05); }
+  .theme-toggle:active, .home-button:active { transform: scale(0.95); }
 
-  .home-button:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: scale(1.05);
-  }
-
-  .home-button:active {
-    transform: scale(0.95);
-  }
-
-  .section {
-    margin-bottom: 3rem;
-  }
-
-  h2 {
-    color: var(--accent-primary);
-    font-size: 1.5rem;
-    margin: 30px 0 20px 0;
-    padding: 15px 20px;
-    background: var(--card-bg);
-    border-left: 5px solid var(--accent-primary);
-    border-radius: 5px;
-    backdrop-filter: blur(10px);
-  }
-
-  /* Stats Bar */
-  .stats-bar {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+  /* Progress bar */
+  .progress-bar-wrap {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
     border: 1px solid var(--card-border);
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 1.25rem 1.5rem;
     margin-bottom: 1.5rem;
     box-shadow: 0 10px 30px var(--shadow-color);
   }
-
-  .stat {
+  .progress-stats {
     display: flex;
-    flex-direction: column;
-    min-width: 120px;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
-
-  .stat .val {
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--accent-primary);
-    font-family: 'Courier New', monospace;
+  .progress-stat {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
   }
-
-  .stat .lbl {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 0.25rem;
+  .progress-stat .dot {
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
   }
+  .dot-red { background: var(--cluster-red); }
+  .dot-yellow { background: var(--cluster-yellow); }
+  .dot-green { background: var(--cluster-green); }
+  .progress-track {
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    background: rgba(128,128,128,0.15);
+  }
+  .progress-seg {
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+  .seg-red { background: var(--cluster-red); }
+  .seg-yellow { background: var(--cluster-yellow); }
+  .seg-green { background: var(--cluster-green); }
 
   /* Controls */
   .controls {
@@ -234,9 +182,7 @@
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
   }
-
-  .controls input,
-  .controls select {
+  .controls input, .controls select {
     font-family: inherit;
     font-size: 0.95rem;
     padding: 0.75rem 1rem;
@@ -246,324 +192,311 @@
     color: var(--text-primary);
     transition: all 0.3s ease;
   }
-
-  .controls input {
-    flex: 1;
-    min-width: 250px;
-  }
-
-  .controls input:focus,
-  .controls select:focus {
+  .controls input { flex: 1; min-width: 200px; }
+  .controls input:focus, .controls select:focus {
     outline: none;
     border-color: var(--accent-primary);
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
   }
+  .controls input::placeholder { color: var(--text-muted); }
+  .controls select { min-width: 150px; cursor: pointer; }
+  body.light-mode .controls select option { background: white; color: #1a1a2e; }
+  body:not(.light-mode) .controls select option { background: #1a1a2e; color: #e0e0e0; }
 
-  .controls input::placeholder {
-    color: var(--text-muted);
-  }
-
-  .controls select {
-    min-width: 180px;
+  .reset-btn {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--cluster-red);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
     cursor: pointer;
-  }
-
-  body.light-mode .controls select option {
-    background: white;
-    color: #1a1a2e;
-  }
-
-  body:not(.light-mode) .controls select option {
-    background: #1a1a2e;
-    color: #e0e0e0;
-  }
-
-  /* Table */
-  .table-wrap {
-    overflow-x: auto;
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--card-border);
-    border-radius: 10px;
-    box-shadow: 0 10px 30px var(--shadow-color);
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.95rem;
-  }
-
-  thead tr {
-    background: var(--table-header-bg);
-    border-bottom: 2px solid var(--accent-primary);
-  }
-
-  thead th {
-    padding: 1rem 1.25rem;
-    text-align: left;
-    font-weight: 600;
     font-size: 0.85rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--accent-primary);
+    font-weight: 600;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .reset-btn:hover { background: rgba(239, 68, 68, 0.25); }
+
+  /* Cluster sections */
+  .vote-cluster {
+    margin-bottom: 2rem;
+  }
+  .cluster-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+  }
+  .cluster-header:hover { filter: brightness(1.1); }
+  .cluster-header .cluster-icon { font-size: 1.1rem; }
+  .cluster-header .cluster-title { font-weight: 700; font-size: 1rem; }
+  .cluster-header .cluster-count {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-left: auto;
+  }
+  .cluster-header .collapse-arrow {
+    font-size: 0.7rem;
+    transition: transform 0.3s;
+    margin-left: 0.5rem;
+  }
+  .cluster-header.collapsed .collapse-arrow { transform: rotate(-90deg); }
+
+  .cluster-header-red {
+    background: var(--cluster-red-bg);
+    border: 1px solid var(--cluster-red-border);
+    color: var(--cluster-red);
+  }
+  .cluster-header-yellow {
+    background: var(--cluster-yellow-bg);
+    border: 1px solid var(--cluster-yellow-border);
+    color: var(--cluster-yellow);
+  }
+  .cluster-header-green {
+    background: var(--cluster-green-bg);
+    border: 1px solid var(--cluster-green-border);
+    color: var(--cluster-green);
   }
 
-  tbody tr {
-    border-bottom: 1px solid var(--table-border);
-    transition: background 0.2s ease;
+  /* Card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.25rem 0;
+    min-height: 30px;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    overflow: hidden;
+  }
+  .card-container.collapsed-content {
+    max-height: 0 !important;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
   }
 
-  tbody tr:nth-child(even) {
-    background: var(--table-row-even);
+  /* Vocab card - compact chip style */
+  .vocab-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 6px;
+    background: var(--card-bg);
+    border: 1.5px solid var(--card-border);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-size: 0.85rem;
+    position: relative;
+    max-width: 100%;
+    flex-shrink: 0;
   }
-
-  tbody tr:hover {
-    background: var(--card-hover-bg);
+  .vocab-card:hover, .vocab-card:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px var(--shadow-color);
+    z-index: 2;
   }
-
-  td {
-    padding: 0.85rem 1.25rem;
-    vertical-align: top;
-  }
-
-  td:first-child {
+  .vocab-card .dutch {
     font-weight: 600;
     color: var(--accent-secondary);
-    font-family: 'Courier New', monospace;
-    font-size: 1rem;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  .vocab-card .sep {
+    color: var(--text-muted);
+    font-size: 0.7rem;
+  }
+  .vocab-card .eng {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
   }
 
-  /* Badges */
+  /* Border color by cluster */
+  .vocab-card.vote-needs-review { border-color: var(--cluster-red-border); }
+  .vocab-card.vote-not-reviewed { border-color: var(--cluster-yellow-border); }
+  .vocab-card.vote-mastered { border-color: var(--cluster-green-border); }
+
+  /* Vote buttons on hover */
+  .vote-btns {
+    display: none;
+    gap: 0.15rem;
+    margin-left: 0.25rem;
+    flex-shrink: 0;
+  }
+  .vocab-card:hover .vote-btns,
+  .vocab-card.expanded .vote-btns {
+    display: inline-flex;
+  }
+  .vote-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.1rem 0.2rem;
+    border-radius: 4px;
+    transition: all 0.15s;
+    line-height: 1;
+    opacity: 0.6;
+  }
+  .vote-btn:hover { opacity: 1; transform: scale(1.2); }
+  .vote-btn-down:hover { background: rgba(239, 68, 68, 0.2); }
+  .vote-btn-up:hover { background: rgba(34, 197, 94, 0.2); }
+
+  /* Expanded card overlay */
+  .vocab-card.expanded {
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.6rem 0.8rem;
+    background: var(--card-bg);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 30px var(--shadow-color);
+    min-width: 240px;
+    max-width: 320px;
+    gap: 0.3rem;
+  }
+  .vocab-card.expanded .card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    width: 100%;
+  }
+  .vocab-card.expanded .eng {
+    max-width: none;
+    white-space: normal;
+  }
+  .card-details {
+    display: none;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    width: 100%;
+    padding-top: 0.3rem;
+    border-top: 1px solid var(--card-border);
+  }
+  .vocab-card.expanded .card-details { display: flex; }
+  .card-detail-row {
+    display: flex;
+    gap: 0.4rem;
+    align-items: baseline;
+  }
+  .card-detail-label {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    min-width: 55px;
+    flex-shrink: 0;
+  }
+
+  /* POS badges */
   .pos-badge {
     display: inline-block;
-    font-size: 0.75rem;
-    font-family: 'Courier New', monospace;
-    padding: 3px 8px;
-    border-radius: 4px;
+    font-size: 0.65rem;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    padding: 1px 5px;
+    border-radius: 3px;
     font-weight: 600;
     white-space: nowrap;
   }
+  .pos-noun { background: var(--tag-noun-bg); color: var(--tag-noun-text); border: 1px solid var(--tag-noun-text); }
+  .pos-verb { background: var(--tag-verb-bg); color: var(--tag-verb-text); border: 1px solid var(--tag-verb-text); }
+  .pos-adj { background: var(--tag-adj-bg); color: var(--tag-adj-text); border: 1px solid var(--tag-adj-text); }
+  .pos-adv { background: var(--tag-adv-bg); color: var(--tag-adv-text); border: 1px solid var(--tag-adv-text); }
+  .pos-other { background: var(--tag-other-bg); color: var(--tag-other-text); border: 1px solid var(--tag-other-text); }
 
-  .pos-noun {
-    background: var(--tag-noun-bg);
-    color: var(--tag-noun-text);
-    border: 1px solid var(--tag-noun-text);
+  .cluster-badge {
+    font-size: 0.7rem;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    color: var(--text-secondary);
+    background: var(--card-hover-bg);
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid var(--card-border);
   }
 
-  .pos-verb {
+  .hidden { display: none !important; }
+
+  /* Verb conjugation details */
+  .verb-detail-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.15rem 0.6rem;
+    font-size: 0.78rem;
+    width: 100%;
+  }
+  .verb-detail-grid .vd-label {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .verb-detail-grid .vd-value {
+    color: var(--text-secondary);
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.78rem;
+  }
+  .verb-note {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    font-style: italic;
+    border-top: 1px solid var(--card-border);
+    padding-top: 0.25rem;
+    margin-top: 0.15rem;
+    line-height: 1.4;
+  }
+  .vocab-card.expanded.verb-card {
+    min-width: 280px;
+    max-width: 380px;
+  }
+  .verb-pat-badge {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    white-space: nowrap;
     background: var(--tag-verb-bg);
     color: var(--tag-verb-text);
     border: 1px solid var(--tag-verb-text);
   }
 
-  .pos-adj {
-    background: var(--tag-adj-bg);
-    color: var(--tag-adj-text);
-    border: 1px solid var(--tag-adj-text);
+  /* Touch devices: always show vote buttons */
+  @media (hover: none) {
+    .vote-btns { display: inline-flex !important; }
   }
 
-  .pos-adv {
-    background: var(--tag-adv-bg);
-    color: var(--tag-adv-text);
-    border: 1px solid var(--tag-adv-text);
-  }
-
-  .pos-other {
-    background: var(--tag-other-bg);
-    color: var(--tag-other-text);
-    border: 1px solid var(--tag-other-text);
-  }
-
-  .cluster-badge {
-    font-size: 0.75rem;
-    font-family: 'Courier New', monospace;
-    color: var(--text-secondary);
-    background: var(--card-hover-bg);
-    padding: 3px 8px;
-    border-radius: 4px;
-    border: 1px solid var(--card-border);
-  }
-
-  /* Cluster Cards */
-  .cluster-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
-  }
-
-  .cluster-card {
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--card-border);
-    border-radius: 10px;
-    padding: 1.25rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px var(--shadow-color);
-  }
-
-  .cluster-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px var(--shadow-color);
-    border-color: rgba(102, 126, 234, 0.3);
-  }
-
-  .cluster-card .cluster-id {
-    font-family: 'Courier New', monospace;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--accent-secondary);
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .cluster-card .cluster-label {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 0.75rem;
-  }
-
-  .cluster-card .words {
-    font-family: 'Courier New', monospace;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    word-break: break-word;
-    line-height: 1.6;
-  }
-
-  /* Mobile Card Layout for Table */
   @media (max-width: 768px) {
-    header {
-      padding: 20px 15px;
-    }
-
-    header h1 {
-      font-size: 1.5rem;
-      padding: 0 70px;
-    }
-
-    header p {
-      font-size: 0.85rem;
-    }
-
-    .theme-toggle,
-    .home-button {
-      padding: 6px 10px;
-      font-size: 1rem;
-      top: 15px;
-    }
-
-    .theme-toggle {
-      right: 15px;
-    }
-
-    .home-button {
-      left: 15px;
-    }
-
-    .theme-toggle span:last-child,
-    .home-button span:last-child {
-      display: none;
-    }
-    }
-
-    .theme-toggle {
-      top: 10px;
-      right: 10px;
-      padding: 6px 12px;
-      font-size: 1rem;
-    }
-
-    .controls {
-      flex-direction: column;
-    }
-
-    .controls input,
-    .controls select {
-      width: 100%;
-      min-width: 100%;
-    }
-
-    .stats-bar {
-      gap: 1rem;
-    }
-
-    .stat {
-      min-width: 100px;
-    }
-
-    .stat .val {
-      font-size: 1.5rem;
-    }
-
-    .cluster-grid {
-      grid-template-columns: 1fr;
-    }
-
-    /* Convert table to cards on mobile */
-    .table-wrap {
-      overflow-x: visible;
-    }
-
-    table {
-      display: block;
-    }
-
-    thead {
-      display: none;
-    }
-
-    tbody {
-      display: block;
-    }
-
-    tbody tr {
-      display: block;
-      margin-bottom: 1rem;
-      padding: 1rem;
-      background: var(--card-bg) !important;
-      border: 1px solid var(--card-border);
-      border-radius: 10px;
-    }
-
-    tbody tr:hover {
-      background: var(--card-hover-bg) !important;
-    }
-
-    td {
-      display: block;
-      padding: 0.4rem 0;
-      text-align: left;
-    }
-
-    td:first-child {
-      font-size: 1.2rem;
-      padding-bottom: 0.6rem;
-      border-bottom: 1px solid var(--card-border);
-      margin-bottom: 0.6rem;
-    }
-
-    td:before {
-      content: attr(data-label);
-      font-weight: 600;
-      color: var(--accent-primary);
-      display: inline-block;
-      width: 90px;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    td:first-child:before {
-      display: none;
-    }
-  }
-  }
-
-  .hidden {
-    display: none !important;
+    header { padding: 20px 15px; }
+    header h1 { font-size: 1.5rem; padding: 0 70px; }
+    header p { font-size: 0.85rem; }
+    .theme-toggle, .home-button { padding: 6px 10px; font-size: 1rem; top: 15px; }
+    .theme-toggle { right: 15px; }
+    .home-button { left: 15px; }
+    .theme-toggle span:last-child, .home-button span:last-child { display: none; }
+    .controls { flex-direction: column; }
+    .controls input, .controls select { width: 100%; min-width: 100%; }
+    .vocab-card .eng { max-width: 120px; }
+    .vocab-card.expanded { min-width: 200px; max-width: calc(100vw - 60px); }
+    .progress-stats { gap: 0.3rem; }
+    .progress-stat { font-size: 0.75rem; }
   }
 </style>
 </head>
@@ -573,85 +506,100 @@
 
 <header>
   <a href="index.html" class="home-button" aria-label="Back to home">
-    <span>🏠</span>
+    <span>&#127968;</span>
     <span>Home</span>
   </a>
   <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-    <span id="themeIcon">☀️</span>
+    <span id="themeIcon">&#9728;&#65039;</span>
     <span id="themeText">Light</span>
   </button>
-  <h1>🇳🇱 Dutch Vocabulary — A2 Reference</h1>
-  <p>2,115 words · Translations · Part of Speech · Cluster Groups</p>
+  <h1>&#127475;&#127473; Dutch Vocabulary — A2 Reference</h1>
+  <p>2,115 words · Interactive Voting · Track Your Progress</p>
 </header>
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!-- SECTION 1: WORD TABLE -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<div class="section">
-  <h2>§1 · Word Table</h2>
-
-  <div class="stats-bar">
-    <div class="stat">
-      <span class="val" id="totalWords">2115</span>
-      <span class="lbl">Total Words</span>
-    </div>
-    <div class="stat">
-      <span class="val" id="visibleCount">2115</span>
-      <span class="lbl">Showing</span>
-    </div>
-    <div class="stat">
-      <span class="val">52</span>
-      <span class="lbl">Clusters</span>
-    </div>
+<!-- Progress indicator -->
+<div class="progress-bar-wrap">
+  <div class="progress-stats">
+    <div class="progress-stat"><span class="dot dot-red"></span> Needs Review: <span id="countRed">0</span></div>
+    <div class="progress-stat"><span class="dot dot-yellow"></span> Not Reviewed: <span id="countYellow">2115</span></div>
+    <div class="progress-stat"><span class="dot dot-green"></span> Mastered: <span id="countGreen">0</span></div>
   </div>
-
-  <div class="controls">
-    <input type="text" id="searchInput" placeholder="Search Dutch or English…">
-    <select id="posFilter">
-      <option value="">All parts of speech</option>
-      <option value="noun">Noun</option>
-      <option value="verb">Verb</option>
-      <option value="adj">Adjective</option>
-      <option value="adv">Adverb</option>
-      <option value="other">Other</option>
-    </select>
-    <select id="clusterFilter">
-      <option value="">All clusters</option>
-    </select>
-  </div>
-
-  <div class="table-wrap">
-    <table id="wordTable">
-      <thead>
-        <tr>
-          <th>Dutch</th>
-          <th>English (A2)</th>
-          <th>POS</th>
-          <th>Cluster</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody">
-      </tbody>
-    </table>
+  <div class="progress-track">
+    <div class="progress-seg seg-red" id="segRed" style="width:0%"></div>
+    <div class="progress-seg seg-yellow" id="segYellow" style="width:100%"></div>
+    <div class="progress-seg seg-green" id="segGreen" style="width:0%"></div>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!-- SECTION 2: CLUSTER GROUPS -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<div class="section">
-  <h2>§2 · Cluster Groups</h2>
-  <div class="cluster-grid" id="clusterGrid"></div>
+<!-- Controls -->
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="Search Dutch or English...">
+  <select id="posFilter">
+    <option value="">All parts of speech</option>
+    <option value="noun">Noun</option>
+    <option value="verb">Verb</option>
+    <option value="adj">Adjective</option>
+    <option value="adv">Adverb</option>
+    <option value="other">Other</option>
+  </select>
+  <select id="clusterFilter">
+    <option value="">All clusters</option>
+  </select>
+  <button class="reset-btn" id="resetBtn">Reset All Votes</button>
+</div>
+
+<!-- Vote clusters -->
+<div id="voteArea">
+  <div class="vote-cluster" id="cluster-needs-review">
+    <div class="cluster-header cluster-header-red" id="header-needs-review">
+      <span class="cluster-icon">&#10060;</span>
+      <span class="cluster-title">Needs Review</span>
+      <span class="cluster-count" id="count-needs-review">(0)</span>
+      <span class="collapse-arrow">&#9660;</span>
+    </div>
+    <div class="card-container" id="cards-needs-review"></div>
+  </div>
+
+  <div class="vote-cluster" id="cluster-not-reviewed">
+    <div class="cluster-header cluster-header-yellow" id="header-not-reviewed">
+      <span class="cluster-icon">&#9898;</span>
+      <span class="cluster-title">Not Yet Reviewed</span>
+      <span class="cluster-count" id="count-not-reviewed">(2115)</span>
+      <span class="collapse-arrow">&#9660;</span>
+    </div>
+    <div class="card-container" id="cards-not-reviewed"></div>
+  </div>
+
+  <div class="vote-cluster" id="cluster-mastered">
+    <div class="cluster-header cluster-header-green" id="header-mastered">
+      <span class="cluster-icon">&#9989;</span>
+      <span class="cluster-title">Mastered</span>
+      <span class="cluster-count" id="count-mastered">(0)</span>
+      <span class="collapse-arrow">&#9660;</span>
+    </div>
+    <div class="card-container" id="cards-mastered"></div>
+  </div>
+</div>
+
+<!-- Verb Conjugation Section -->
+<div style="margin-top: 3rem;">
+  <h2 style="color: var(--text-primary); font-size: 1.5rem; margin-bottom: 1rem; padding: 0 0.5rem;">
+    &#128260; Verb Conjugation Practice
+  </h2>
+  <div id="verb-clusters"></div>
+</div>
+
+<!-- Category Clusters Section -->
+<div style="margin-top: 3rem;">
+  <h2 style="color: var(--text-primary); font-size: 1.5rem; margin-bottom: 1rem; padding: 0 0.5rem;">
+    📚 Browse by Category
+  </h2>
+  <div id="category-clusters"></div>
 </div>
 
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════════════════════════
-// DATA - 2,115 Dutch Words
-// ══════════════════════════════════════════════════════════════════════════════
-// Format: [dutch, english, pos, cluster_id]
-// POS codes: noun, verb, adj, adv, other
 const WORDS = [
 ["aaien","to pet / stroke",  "verb","animal_care"],
 ["aanbieden","to offer","verb","offering"],
@@ -2900,96 +2848,1024 @@ const CLUSTER_META = {
 };
 
 // ══════════════════════════════════════════════════════════════════════════════
-// RENDER TABLE
+// VERB CONJUGATION DATA
 // ══════════════════════════════════════════════════════════════════════════════
-const POS_CLASS = {
-  noun: 'pos-noun',
-  verb: 'pos-verb',
-  adj: 'pos-adj',
-  adv: 'pos-adv',
-  other: 'pos-other'
+
+const VERBS = [
+// Auxiliaries
+{ inf:"zijn",       en:"to be",          pat:"aux", aux:"ben", pp:"geweest",
+  pres:{ik:"ben",jij:"bent",hij:"is",wij:"zijn"},
+  imp:{ik:"was",wij:"waren"}, impv:"wees",
+  note:"Auxiliary for intransitive motion/change verbs (perfectum with 'ben'). 'Jij bent' \u2192 'Ben jij?' (inversion drops -t)." },
+{ inf:"hebben",     en:"to have",        pat:"aux", aux:"heb", pp:"gehad",
+  pres:{ik:"heb",jij:"hebt",hij:"heeft",wij:"hebben"},
+  imp:{ik:"had",wij:"hadden"}, impv:"heb",
+  note:"Main auxiliary for perfectum. Most verbs take 'hebben'." },
+{ inf:"worden",     en:"to become",      pat:"aux", aux:"ben", pp:"geworden",
+  pres:{ik:"word",jij:"wordt",hij:"wordt",wij:"worden"},
+  imp:{ik:"werd",wij:"werden"}, impv:"word",
+  note:"Also used to form passive voice. Perfectum: 'ben geworden'." },
+// Modal Verbs
+{ inf:"kunnen",     en:"can / to be able to", pat:"modal", aux:"heb", pp:"__________",
+  pres:{ik:"kan",jij:"kan/kunt",hij:"kan",wij:"kunnen"},
+  imp:{ik:"kon",wij:"konden"}, impv:"\u2014",
+  note:"No perfectum participle in normal use. 'Ik heb kunnen werken' (double infinitive). No -t in ik/jij/hij presens." },
+{ inf:"mogen",      en:"may / to be allowed", pat:"modal", aux:"heb", pp:"__________",
+  pres:{ik:"mag",jij:"mag",hij:"mag",wij:"mogen"},
+  imp:{ik:"mocht",wij:"mochten"}, impv:"\u2014",
+  note:"No -t forms in presens. Imperfectum: vowel change o\u2192o + ch." },
+{ inf:"moeten",     en:"must / to have to",   pat:"modal", aux:"heb", pp:"gemoeten",
+  pres:{ik:"moet",jij:"moet",hij:"moet",wij:"moeten"},
+  imp:{ik:"moest",wij:"moesten"}, impv:"\u2014",
+  note:"No -t in 2nd/3rd person (ik/jij/hij all = 'moet'). Perfectum rare; double infinitive preferred." },
+{ inf:"willen",     en:"to want",        pat:"modal", aux:"heb", pp:"gewild",
+  pres:{ik:"wil",jij:"wilt",hij:"wil",wij:"willen"},
+  imp:{ik:"wilde/wou",wij:"wilden/wouden"}, impv:"\u2014",
+  note:"Two imperfectum forms both correct. 'Wou' is more colloquial." },
+{ inf:"zullen",     en:"will / shall (future)", pat:"modal", aux:"heb", pp:"__________",
+  pres:{ik:"zal",jij:"zal/zult",hij:"zal",wij:"zullen"},
+  imp:{ik:"zou",wij:"zouden"}, impv:"\u2014",
+  note:"Used for future tense and conditional. 'Zou/zouden' = would." },
+{ inf:"hoeven",     en:"to need to (neg.)", pat:"modal", aux:"heb", pp:"geholpen",
+  pres:{ik:"hoef",jij:"hoeft",hij:"hoeft",wij:"hoeven"},
+  imp:{ik:"hoefde",wij:"hoefden"}, impv:"\u2014",
+  note:"Almost always used with negation: 'Ik hoef niet te\u2026' = I don't need to\u2026" },
+// Irregular Verbs
+{ inf:"beginnen",   en:"to begin",       pat:"irr", aux:"ben", pp:"begonnen",
+  pres:{ik:"begin",jij:"begint",hij:"begint",wij:"beginnen"},
+  imp:{ik:"begon",wij:"begonnen"}, impv:"begin",
+  note:"Strong verb: e\u2192o vowel change. Perfectum with 'zijn' (change of state)." },
+{ inf:"begrijpen",  en:"to understand",  pat:"irr", aux:"heb", pp:"begrepen",
+  pres:{ik:"begrijp",jij:"begrijpt",hij:"begrijpt",wij:"begrijpen"},
+  imp:{ik:"begreep",wij:"begrepen"}, impv:"begrijp",
+  note:"Strong verb: ij\u2192ee vowel change." },
+{ inf:"blijven",    en:"to stay / remain", pat:"irr", aux:"ben", pp:"gebleven",
+  pres:{ik:"blijf",jij:"blijft",hij:"blijft",wij:"blijven"},
+  imp:{ik:"bleef",wij:"bleven"}, impv:"blijf",
+  note:"Strong verb: ij\u2192ee. Perfectum with 'zijn'." },
+{ inf:"brengen",    en:"to bring",       pat:"irr", aux:"heb", pp:"gebracht",
+  pres:{ik:"breng",jij:"brengt",hij:"brengt",wij:"brengen"},
+  imp:{ik:"bracht",wij:"brachten"}, impv:"breng",
+  note:"Mixed/irregular: completely different imperfectum stem (brengen\u2192bracht)." },
+{ inf:"denken",     en:"to think",       pat:"irr", aux:"heb", pp:"gedacht",
+  pres:{ik:"denk",jij:"denkt",hij:"denkt",wij:"denken"},
+  imp:{ik:"dacht",wij:"dachten"}, impv:"denk",
+  note:"Irregular: denken\u2192dacht (consonant change + umlaut)." },
+{ inf:"doen",       en:"to do",          pat:"irr", aux:"heb", pp:"gedaan",
+  pres:{ik:"doe",jij:"doet",hij:"doet",wij:"doen"},
+  imp:{ik:"deed",wij:"deden"}, impv:"doe",
+  note:"Irregular: short stem 'doe' \u2192 'deed' (doubled). Common irregular." },
+{ inf:"dragen",     en:"to carry / wear",pat:"irr", aux:"heb", pp:"gedragen",
+  pres:{ik:"draag",jij:"draagt",hij:"draagt",wij:"dragen"},
+  imp:{ik:"droeg",wij:"droegen"}, impv:"draag",
+  note:"Strong verb: aa\u2192oe vowel change." },
+{ inf:"drinken",    en:"to drink",       pat:"irr", aux:"heb", pp:"gedronken",
+  pres:{ik:"drink",jij:"drinkt",hij:"drinkt",wij:"drinken"},
+  imp:{ik:"dronk",wij:"dronken"}, impv:"drink",
+  note:"Strong verb: i\u2192o vowel change." },
+{ inf:"eten",       en:"to eat",         pat:"irr", aux:"heb", pp:"gegeten",
+  pres:{ik:"eet",jij:"eet",hij:"eet",wij:"eten"},
+  imp:{ik:"at",wij:"aten"}, impv:"eet",
+  note:"Strong verb: eet\u2192at. Note: 'jij eet' not 'eet jij eet'; inversion: 'eet jij'." },
+{ inf:"gaan",       en:"to go",          pat:"irr", aux:"ben", pp:"gegaan",
+  pres:{ik:"ga",jij:"gaat",hij:"gaat",wij:"gaan"},
+  imp:{ik:"ging",wij:"gingen"}, impv:"ga",
+  note:"Perfectum with 'zijn'. Very irregular presens: ga/gaat." },
+{ inf:"genieten",   en:"to enjoy",       pat:"irr", aux:"heb", pp:"genoten",
+  pres:{ik:"geniet",jij:"geniet",hij:"geniet",wij:"genieten"},
+  imp:{ik:"genoot",wij:"genoten"}, impv:"geniet",
+  note:"Strong verb: ie\u2192oo vowel change." },
+{ inf:"geven",      en:"to give",        pat:"irr", aux:"heb", pp:"gegeven",
+  pres:{ik:"geef",jij:"geeft",hij:"geeft",wij:"geven"},
+  imp:{ik:"gaf",wij:"gaven"}, impv:"geef",
+  note:"Strong verb: ee\u2192a vowel change." },
+{ inf:"helpen",     en:"to help",        pat:"irr", aux:"heb", pp:"geholpen",
+  pres:{ik:"help",jij:"helpt",hij:"helpt",wij:"helpen"},
+  imp:{ik:"hielp",wij:"hielpen"}, impv:"help",
+  note:"Strong verb: e\u2192ie vowel change." },
+{ inf:"houden",     en:"to hold / keep / love", pat:"irr", aux:"heb", pp:"gehouden",
+  pres:{ik:"hou",jij:"houdt",hij:"houdt",wij:"houden"},
+  imp:{ik:"hield",wij:"hielden"}, impv:"hou",
+  note:"Strong verb: ou\u2192ie. 'Houden van' = to love." },
+{ inf:"kiezen",     en:"to choose",      pat:"irr", aux:"heb", pp:"gekozen",
+  pres:{ik:"kies",jij:"kiest",hij:"kiest",wij:"kiezen"},
+  imp:{ik:"koos",wij:"kozen"}, impv:"kies",
+  note:"Strong verb: ie\u2192oo vowel change." },
+{ inf:"kijken",     en:"to look / watch",pat:"irr", aux:"heb", pp:"gekeken",
+  pres:{ik:"kijk",jij:"kijkt",hij:"kijkt",wij:"kijken"},
+  imp:{ik:"keek",wij:"keken"}, impv:"kijk",
+  note:"Strong verb: ij\u2192ee vowel change." },
+{ inf:"komen",      en:"to come",        pat:"irr", aux:"ben", pp:"gekomen",
+  pres:{ik:"kom",jij:"komt",hij:"komt",wij:"komen"},
+  imp:{ik:"kwam",wij:"kwamen"}, impv:"kom",
+  note:"Perfectum with 'zijn'. Strong: o\u2192wa." },
+{ inf:"kopen",      en:"to buy",         pat:"irr", aux:"heb", pp:"gekocht",
+  pres:{ik:"koop",jij:"koopt",hij:"koopt",wij:"kopen"},
+  imp:{ik:"kocht",wij:"kochten"}, impv:"koop",
+  note:"Mixed irregular: kopen\u2192kocht (ch insertion)." },
+{ inf:"krijgen",    en:"to get / receive",pat:"irr", aux:"heb", pp:"gekregen",
+  pres:{ik:"krijg",jij:"krijgt",hij:"krijgt",wij:"krijgen"},
+  imp:{ik:"kreeg",wij:"kregen"}, impv:"krijg",
+  note:"Strong verb: ij\u2192ee vowel change." },
+{ inf:"lezen",      en:"to read",        pat:"irr", aux:"heb", pp:"gelezen",
+  pres:{ik:"lees",jij:"leest",hij:"leest",wij:"lezen"},
+  imp:{ik:"las",wij:"lazen"}, impv:"lees",
+  note:"Strong verb: ee\u2192a vowel change." },
+{ inf:"liggen",     en:"to lie (down)",  pat:"irr", aux:"heb", pp:"gelegen",
+  pres:{ik:"lig",jij:"ligt",hij:"ligt",wij:"liggen"},
+  imp:{ik:"lag",wij:"lagen"}, impv:"lig",
+  note:"Strong verb: i\u2192a vowel change." },
+{ inf:"lopen",      en:"to walk",        pat:"irr", aux:"heb", pp:"gelopen",
+  pres:{ik:"loop",jij:"loopt",hij:"loopt",wij:"lopen"},
+  imp:{ik:"liep",wij:"liepen"}, impv:"loop",
+  note:"Strong verb: oo\u2192ie vowel change." },
+{ inf:"nemen",      en:"to take",        pat:"irr", aux:"heb", pp:"genomen",
+  pres:{ik:"neem",jij:"neemt",hij:"neemt",wij:"nemen"},
+  imp:{ik:"nam",wij:"namen"}, impv:"neem",
+  note:"Strong verb: ee\u2192a vowel change." },
+{ inf:"rijden",     en:"to drive / ride",pat:"irr", aux:"heb", pp:"gereden",
+  pres:{ik:"rijd",jij:"rijdt",hij:"rijdt",wij:"rijden"},
+  imp:{ik:"reed",wij:"reden"}, impv:"rijd",
+  note:"Strong verb: ij\u2192ee vowel change." },
+{ inf:"schrijven",  en:"to write",       pat:"irr", aux:"heb", pp:"geschreven",
+  pres:{ik:"schrijf",jij:"schrijft",hij:"schrijft",wij:"schrijven"},
+  imp:{ik:"schreef",wij:"schreven"}, impv:"schrijf",
+  note:"Strong verb: ij\u2192ee vowel change." },
+{ inf:"slapen",     en:"to sleep",       pat:"irr", aux:"heb", pp:"geslapen",
+  pres:{ik:"slaap",jij:"slaapt",hij:"slaapt",wij:"slapen"},
+  imp:{ik:"sliep",wij:"sliepen"}, impv:"slaap",
+  note:"Strong verb: aa\u2192ie vowel change." },
+{ inf:"spreken",    en:"to speak",       pat:"irr", aux:"heb", pp:"gesproken",
+  pres:{ik:"spreek",jij:"spreekt",hij:"spreekt",wij:"spreken"},
+  imp:{ik:"sprak",wij:"spraken"}, impv:"spreek",
+  note:"Strong verb: ee\u2192a vowel change." },
+{ inf:"staan",      en:"to stand",       pat:"irr", aux:"heb", pp:"gestaan",
+  pres:{ik:"sta",jij:"staat",hij:"staat",wij:"staan"},
+  imp:{ik:"stond",wij:"stonden"}, impv:"sta",
+  note:"Strong verb: aa\u2192on. Often takes 'hebben' in perfectum." },
+{ inf:"vallen",     en:"to fall",        pat:"irr", aux:"ben", pp:"gevallen",
+  pres:{ik:"val",jij:"valt",hij:"valt",wij:"vallen"},
+  imp:{ik:"viel",wij:"vielen"}, impv:"val",
+  note:"Strong verb: a\u2192ie. Perfectum with 'zijn'." },
+{ inf:"vergeten",   en:"to forget",      pat:"irr", aux:"heb", pp:"vergeten",
+  pres:{ik:"vergeet",jij:"vergeet",hij:"vergeet",wij:"vergeten"},
+  imp:{ik:"vergat",wij:"vergaten"}, impv:"vergeet",
+  note:"Strong verb: ee\u2192a. Note: pp = vergeten (same as infinitief, no ge-)." },
+{ inf:"verkopen",   en:"to sell",        pat:"irr", aux:"heb", pp:"verkocht",
+  pres:{ik:"verkoop",jij:"verkoopt",hij:"verkoopt",wij:"verkopen"},
+  imp:{ik:"verkocht",wij:"verkochten"}, impv:"verkoop",
+  note:"Like 'kopen': mixed irregular \u2192 verkocht." },
+{ inf:"vertrekken", en:"to depart / leave", pat:"irr", aux:"ben", pp:"vertrokken",
+  pres:{ik:"vertrek",jij:"vertrekt",hij:"vertrekt",wij:"vertrekken"},
+  imp:{ik:"vertrok",wij:"vertrokken"}, impv:"vertrek",
+  note:"Strong verb: e\u2192o. Perfectum with 'zijn'." },
+{ inf:"vinden",     en:"to find / think", pat:"irr", aux:"heb", pp:"gevonden",
+  pres:{ik:"vind",jij:"vindt",hij:"vindt",wij:"vinden"},
+  imp:{ik:"vond",wij:"vonden"}, impv:"vind",
+  note:"Strong verb: i\u2192o vowel change. Also means 'to think/find (opinion)'." },
+{ inf:"vliegen",    en:"to fly",         pat:"irr", aux:"heb", pp:"gevlogen",
+  pres:{ik:"vlieg",jij:"vliegt",hij:"vliegt",wij:"vliegen"},
+  imp:{ik:"vloog",wij:"vlogen"}, impv:"vlieg",
+  note:"Strong verb: ie\u2192oo vowel change." },
+{ inf:"vragen",     en:"to ask",         pat:"irr", aux:"heb", pp:"gevraagd",
+  pres:{ik:"vraag",jij:"vraagt",hij:"vraagt",wij:"vragen"},
+  imp:{ik:"vroeg",wij:"vroegen"}, impv:"vraag",
+  note:"Mixed: imperfectum vroeg is irregular, but pp is regular -d (gevraagd)." },
+{ inf:"weten",      en:"to know (a fact)", pat:"irr", aux:"heb", pp:"geweten",
+  pres:{ik:"weet",jij:"weet",hij:"weet",wij:"weten"},
+  imp:{ik:"wist",wij:"wisten"}, impv:"weet",
+  note:"Presens: ik/jij/hij all = 'weet' (no -t change). Strong: ee\u2192i." },
+{ inf:"zeggen",     en:"to say",         pat:"irr", aux:"heb", pp:"gezegd",
+  pres:{ik:"zeg",jij:"zegt",hij:"zegt",wij:"zeggen"},
+  imp:{ik:"zei",wij:"zeiden"}, impv:"zeg",
+  note:"Irregular: zeg\u2192zei. PP is regular: gezegd." },
+{ inf:"zien",       en:"to see",         pat:"irr", aux:"heb", pp:"gezien",
+  pres:{ik:"zie",jij:"ziet",hij:"ziet",wij:"zien"},
+  imp:{ik:"zag",wij:"zagen"}, impv:"zie",
+  note:"Strong verb: ie\u2192a vowel change." },
+{ inf:"zitten",     en:"to sit",         pat:"irr", aux:"heb", pp:"gezeten",
+  pres:{ik:"zit",jij:"zit",hij:"zit",wij:"zitten"},
+  imp:{ik:"zat",wij:"zaten"}, impv:"zit",
+  note:"Strong verb: i\u2192a. Note: no -t in 2nd pers presens (zit, not zitt)." },
+{ inf:"zoeken",     en:"to search",      pat:"irr", aux:"heb", pp:"gezocht",
+  pres:{ik:"zoek",jij:"zoekt",hij:"zoekt",wij:"zoeken"},
+  imp:{ik:"zocht",wij:"zochten"}, impv:"zoek",
+  note:"Mixed irregular: zoeken\u2192zocht (ch insertion, like kopen)." },
+// Regular -te Verbs
+{ inf:"werken",     en:"to work",        pat:"te", aux:"heb", pp:"gewerkt",
+  pres:{ik:"werk",jij:"werkt",hij:"werkt",wij:"werken"},
+  imp:{ik:"werkte",wij:"werkten"}, impv:"werk",
+  note:"Stem = werk (ends in k \u2192 't kofschip \u2192 -te)." },
+{ inf:"praten",     en:"to talk",        pat:"te", aux:"heb", pp:"gepraat",
+  pres:{ik:"praat",jij:"praat",hij:"praat",wij:"praten"},
+  imp:{ik:"praatte",wij:"praatten"}, impv:"praat",
+  note:"Stem = praat (ends in t \u2192 't kofschip). Note: praat + te = praatte." },
+{ inf:"koken",      en:"to cook / boil", pat:"te", aux:"heb", pp:"gekookt",
+  pres:{ik:"kook",jij:"kookt",hij:"kookt",wij:"koken"},
+  imp:{ik:"kookte",wij:"kookten"}, impv:"kook",
+  note:"Stem = kook (ends in k \u2192 't kofschip \u2192 -te)." },
+{ inf:"fietsen",    en:"to cycle",       pat:"te", aux:"heb", pp:"gefietst",
+  pres:{ik:"fiets",jij:"fietst",hij:"fietst",wij:"fietsen"},
+  imp:{ik:"fietste",wij:"fietsten"}, impv:"fiets",
+  note:"Stem = fiets (ends in ts/s \u2192 't kofschip \u2192 -te)." },
+{ inf:"maken",      en:"to make",        pat:"te", aux:"heb", pp:"gemaakt",
+  pres:{ik:"maak",jij:"maakt",hij:"maakt",wij:"maken"},
+  imp:{ik:"maakte",wij:"maakten"}, impv:"maak",
+  note:"Stem = maak (ends in k \u2192 -te). Very common." },
+{ inf:"pakken",     en:"to grab / pack", pat:"te", aux:"heb", pp:"gepakt",
+  pres:{ik:"pak",jij:"pakt",hij:"pakt",wij:"pakken"},
+  imp:{ik:"pakte",wij:"pakten"}, impv:"pak",
+  note:"Stem = pak (ends in k \u2192 -te)." },
+{ inf:"stoppen",    en:"to stop",        pat:"te", aux:"heb", pp:"gestopt",
+  pres:{ik:"stop",jij:"stopt",hij:"stopt",wij:"stoppen"},
+  imp:{ik:"stopte",wij:"stopten"}, impv:"stop",
+  note:"Stem = stop (ends in p \u2192 't kofschip \u2192 -te)." },
+{ inf:"typen",      en:"to type",        pat:"te", aux:"heb", pp:"getypt",
+  pres:{ik:"typ",jij:"typt",hij:"typt",wij:"typen"},
+  imp:{ik:"typte",wij:"typten"}, impv:"typ",
+  note:"Stem = typ (ends in p \u2192 -te)." },
+{ inf:"verwachten", en:"to expect",      pat:"te", aux:"heb", pp:"verwacht",
+  pres:{ik:"verwacht",jij:"verwacht",hij:"verwacht",wij:"verwachten"},
+  imp:{ik:"verwachtte",wij:"verwachtten"}, impv:"verwacht",
+  note:"Stem = verwacht (ends in t \u2192 -te). No ge- prefix (ver-). Note ik/jij/hij all = verwacht." },
+{ inf:"gebruiken",  en:"to use",         pat:"te", aux:"heb", pp:"gebruikt",
+  pres:{ik:"gebruik",jij:"gebruikt",hij:"gebruikt",wij:"gebruiken"},
+  imp:{ik:"gebruikte",wij:"gebruikten"}, impv:"gebruik",
+  note:"Stem = gebruik (ends in k \u2192 -te). Very common." },
+// Regular -de Verbs
+{ inf:"leren",      en:"to learn / teach", pat:"de", aux:"heb", pp:"geleerd",
+  pres:{ik:"leer",jij:"leert",hij:"leert",wij:"leren"},
+  imp:{ik:"leerde",wij:"leerden"}, impv:"leer",
+  note:"Stem = leer (ends in r, voiced \u2192 -de). Common for both 'learn' and 'teach'." },
+{ inf:"betalen",    en:"to pay",         pat:"de", aux:"heb", pp:"betaald",
+  pres:{ik:"betaal",jij:"betaalt",hij:"betaalt",wij:"betalen"},
+  imp:{ik:"betaalde",wij:"betaalden"}, impv:"betaal",
+  note:"Stem = betaal (ends in l, voiced \u2192 -de)." },
+{ inf:"luisteren",  en:"to listen",      pat:"de", aux:"heb", pp:"geluisterd",
+  pres:{ik:"luister",jij:"luistert",hij:"luistert",wij:"luisteren"},
+  imp:{ik:"luisterde",wij:"luisterden"}, impv:"luister",
+  note:"Stem = luister (ends in r, voiced \u2192 -de)." },
+{ inf:"wonen",      en:"to live (reside)", pat:"de", aux:"heb", pp:"gewoond",
+  pres:{ik:"woon",jij:"woont",hij:"woont",wij:"wonen"},
+  imp:{ik:"woonde",wij:"woonden"}, impv:"woon",
+  note:"Stem = woon (ends in n, voiced \u2192 -de). Very common verb." },
+{ inf:"spelen",     en:"to play",        pat:"de", aux:"heb", pp:"gespeeld",
+  pres:{ik:"speel",jij:"speelt",hij:"speelt",wij:"spelen"},
+  imp:{ik:"speelde",wij:"speelden"}, impv:"speel",
+  note:"Stem = speel (ends in l \u2192 -de)." },
+{ inf:"bellen",     en:"to call (phone)", pat:"de", aux:"heb", pp:"gebeld",
+  pres:{ik:"bel",jij:"belt",hij:"belt",wij:"bellen"},
+  imp:{ik:"belde",wij:"belden"}, impv:"bel",
+  note:"Stem = bel (ends in l \u2192 -de). Pp: gebeld (not -ld)." },
+{ inf:"leven",      en:"to live (be alive)", pat:"de", aux:"heb", pp:"geleefd",
+  pres:{ik:"leef",jij:"leeft",hij:"leeft",wij:"leven"},
+  imp:{ik:"leefde",wij:"leefden"}, impv:"leef",
+  note:"Stem = leef (spelling: leven but stem ends f)." },
+{ inf:"huren",      en:"to rent",        pat:"de", aux:"heb", pp:"gehuurd",
+  pres:{ik:"huur",jij:"huurt",hij:"huurt",wij:"huren"},
+  imp:{ik:"huurde",wij:"huurden"}, impv:"huur",
+  note:"Stem = huur (ends in r \u2192 -de)." },
+{ inf:"reizen",     en:"to travel",      pat:"de", aux:"heb", pp:"gereisd",
+  pres:{ik:"reis",jij:"reist",hij:"reist",wij:"reizen"},
+  imp:{ik:"reisde",wij:"reisden"}, impv:"reis",
+  note:"Stem ends in voiced consonant (z in reizen \u2192 stem: reis + de). Pp: gereisd." },
+{ inf:"oefenen",    en:"to practise",    pat:"de", aux:"heb", pp:"geoefend",
+  pres:{ik:"oefen",jij:"oefent",hij:"oefent",wij:"oefenen"},
+  imp:{ik:"oefende",wij:"oefenden"}, impv:"oefen",
+  note:"Stem = oefen (ends in n \u2192 -de)." },
+{ inf:"proberen",   en:"to try",         pat:"de", aux:"heb", pp:"geprobeerd",
+  pres:{ik:"probeer",jij:"probeert",hij:"probeert",wij:"proberen"},
+  imp:{ik:"probeerde",wij:"probeerden"}, impv:"probeer",
+  note:"Stem = probeer (ends in r \u2192 -de)." },
+{ inf:"verdienen",  en:"to earn",        pat:"de", aux:"heb", pp:"verdiend",
+  pres:{ik:"verdien",jij:"verdient",hij:"verdient",wij:"verdienen"},
+  imp:{ik:"verdiende",wij:"verdienden"}, impv:"verdien",
+  note:"Stem = verdien (ends in n \u2192 -de). Prefix ver- \u2192 no ge- in pp." },
+{ inf:"verhuizen",  en:"to move house",  pat:"de", aux:"heb", pp:"verhuisd",
+  pres:{ik:"verhuis",jij:"verhuist",hij:"verhuist",wij:"verhuizen"},
+  imp:{ik:"verhuisde",wij:"verhuisden"}, impv:"verhuis",
+  note:"Stem = verhuis (z\u2192s in stem, voiced \u2192 -de). Common verb." },
+{ inf:"bestellen",  en:"to order",       pat:"de", aux:"heb", pp:"besteld",
+  pres:{ik:"bestel",jij:"bestelt",hij:"bestelt",wij:"bestellen"},
+  imp:{ik:"bestelde",wij:"bestellden"}, impv:"bestel",
+  note:"Stem = bestel (ends in l \u2192 -de). Prefix be- \u2192 no ge-." },
+{ inf:"beantwoorden",en:"to answer",     pat:"de", aux:"heb", pp:"beantwoord",
+  pres:{ik:"beantwoord",jij:"beantwoordt",hij:"beantwoordt",wij:"beantwoorden"},
+  imp:{ik:"beantwoordde",wij:"beantwoordden"}, impv:"beantwoord",
+  note:"Stem = beantwoord (ends in d \u2192 -de). Prefix be- \u2192 no ge-." },
+{ inf:"communiceren",en:"to communicate",pat:"de", aux:"heb", pp:"gecommuniceerd",
+  pres:{ik:"communiceer",jij:"communiceert",hij:"communiceert",wij:"communiceren"},
+  imp:{ik:"communiceerde",wij:"communiceerden"}, impv:"communiceer",
+  note:"Stem = communiceer (ends in r \u2192 -de). Foreign-origin verbs usually -de/-eerde." },
+{ inf:"organiseren", en:"to organise",   pat:"de", aux:"heb", pp:"georganiseerd",
+  pres:{ik:"organiseer",jij:"organiseert",hij:"organiseert",wij:"organiseren"},
+  imp:{ik:"organiseerde",wij:"organiseerden"}, impv:"organiseer",
+  note:"Foreign-origin verb: -eer stem \u2192 -de imperfectum." },
+{ inf:"reserveren",  en:"to reserve",    pat:"de", aux:"heb", pp:"gereserveerd",
+  pres:{ik:"reserveer",jij:"reserveert",hij:"reserveert",wij:"reserveren"},
+  imp:{ik:"reserveerde",wij:"reserveerden"}, impv:"reserveer",
+  note:"Foreign-origin verb: -eer stem \u2192 -de." },
+{ inf:"solliciteren",en:"to apply (job)", pat:"de", aux:"heb", pp:"gesolliciteerd",
+  pres:{ik:"solliciteer",jij:"solliciteert",hij:"solliciteert",wij:"solliciteren"},
+  imp:{ik:"solliciteerde",wij:"solliciteerden"}, impv:"solliciteer",
+  note:"Foreign-origin: -eer stem \u2192 -eerde. Very useful for job applications." },
+{ inf:"studeren",   en:"to study",       pat:"de", aux:"heb", pp:"gestudeerd",
+  pres:{ik:"studeer",jij:"studeert",hij:"studeert",wij:"studeren"},
+  imp:{ik:"studeerde",wij:"studeerden"}, impv:"studeer",
+  note:"Foreign-origin: -eer stem \u2192 -de." },
+// Separable Verbs
+{ inf:"aankomen",   en:"to arrive",      pat:"sep", aux:"ben", pp:"aangekomen",
+  pres:{ik:"kom aan",jij:"komt aan",hij:"komt aan",wij:"komen aan"},
+  imp:{ik:"kwam aan",wij:"kwamen aan"}, impv:"kom aan",
+  note:"Separable: prefix 'aan-' splits: 'Ik kom morgen aan.' Perfectum: 'Ik ben aangekomen.' Ge- goes between prefix and stem." },
+{ inf:"aandoen",    en:"to put on / switch on", pat:"sep", aux:"heb", pp:"aangedaan",
+  pres:{ik:"doe aan",jij:"doet aan",hij:"doet aan",wij:"doen aan"},
+  imp:{ik:"deed aan",wij:"deden aan"}, impv:"doe aan",
+  note:"Irregular base (doen). Separable prefix 'aan-'." },
+{ inf:"afspreken",  en:"to make an appointment", pat:"sep", aux:"heb", pp:"afgesproken",
+  pres:{ik:"spreek af",jij:"spreekt af",hij:"spreekt af",wij:"spreken af"},
+  imp:{ik:"sprak af",wij:"spraken af"}, impv:"spreek af",
+  note:"Irregular base (spreken). Separable 'af-'. Pp: afgesproken." },
+{ inf:"afwassen",   en:"to do the dishes", pat:"sep", aux:"heb", pp:"afgewassen",
+  pres:{ik:"was af",jij:"wast af",hij:"wast af",wij:"wassen af"},
+  imp:{ik:"waste af / wies af",wij:"wasten af"}, impv:"was af",
+  note:"Separable 'af-'. Base wassen is regular -te." },
+{ inf:"binnenkomen",en:"to come in",     pat:"sep", aux:"ben", pp:"binnengekomen",
+  pres:{ik:"kom binnen",jij:"komt binnen",hij:"komt binnen",wij:"komen binnen"},
+  imp:{ik:"kwam binnen",wij:"kwamen binnen"}, impv:"kom binnen",
+  note:"Separable 'binnen-'. Perfectum with 'zijn' (motion into space)." },
+{ inf:"meegaan",    en:"to come along",  pat:"sep", aux:"ben", pp:"meegegaan",
+  pres:{ik:"ga mee",jij:"gaat mee",hij:"gaat mee",wij:"gaan mee"},
+  imp:{ik:"ging mee",wij:"gingen mee"}, impv:"ga mee",
+  note:"Separable 'mee-'. Irregular base (gaan). Perfectum with 'zijn'." },
+{ inf:"meenemen",   en:"to take along",  pat:"sep", aux:"heb", pp:"meegenomen",
+  pres:{ik:"neem mee",jij:"neemt mee",hij:"neemt mee",wij:"nemen mee"},
+  imp:{ik:"nam mee",wij:"namen mee"}, impv:"neem mee",
+  note:"Separable 'mee-'. Irregular base (nemen)." },
+{ inf:"opbellen",   en:"to call up (phone)", pat:"sep", aux:"heb", pp:"opgebeld",
+  pres:{ik:"bel op",jij:"belt op",hij:"belt op",wij:"bellen op"},
+  imp:{ik:"belde op",wij:"belden op"}, impv:"bel op",
+  note:"Separable 'op-'. Regular base (bellen \u2192 -de)." },
+{ inf:"opnemen",    en:"to pick up / record", pat:"sep", aux:"heb", pp:"opgenomen",
+  pres:{ik:"neem op",jij:"neemt op",hij:"neemt op",wij:"nemen op"},
+  imp:{ik:"nam op",wij:"namen op"}, impv:"neem op",
+  note:"Separable 'op-'. Irregular base (nemen)." },
+{ inf:"opruimen",   en:"to tidy up",     pat:"sep", aux:"heb", pp:"opgeruimd",
+  pres:{ik:"ruim op",jij:"ruimt op",hij:"ruimt op",wij:"ruimen op"},
+  imp:{ik:"ruimde op",wij:"ruimden op"}, impv:"ruim op",
+  note:"Separable 'op-'. Regular base (ruimen \u2192 -de)." },
+{ inf:"terugkomen", en:"to come back",   pat:"sep", aux:"ben", pp:"teruggekomen",
+  pres:{ik:"kom terug",jij:"komt terug",hij:"komt terug",wij:"komen terug"},
+  imp:{ik:"kwam terug",wij:"kwamen terug"}, impv:"kom terug",
+  note:"Separable 'terug-'. Irregular base (komen). Perfectum with 'zijn'." },
+{ inf:"thuiskomen", en:"to come home",   pat:"sep", aux:"ben", pp:"thuisgekomen",
+  pres:{ik:"kom thuis",jij:"komt thuis",hij:"komt thuis",wij:"komen thuis"},
+  imp:{ik:"kwam thuis",wij:"kwamen thuis"}, impv:"kom thuis",
+  note:"Separable 'thuis-'. Perfectum with 'zijn'. 'Ik ben thuisgekomen'." },
+{ inf:"uitleggen",  en:"to explain",     pat:"sep", aux:"heb", pp:"uitgelegd",
+  pres:{ik:"leg uit",jij:"legt uit",hij:"legt uit",wij:"leggen uit"},
+  imp:{ik:"legde uit",wij:"legden uit"}, impv:"leg uit",
+  note:"Separable 'uit-'. Regular base (leggen \u2192 -de)." },
+{ inf:"uitnodigen", en:"to invite",      pat:"sep", aux:"heb", pp:"uitgenodigd",
+  pres:{ik:"nodig uit",jij:"nodigt uit",hij:"nodigt uit",wij:"nodigen uit"},
+  imp:{ik:"nodigde uit",wij:"nodigden uit"}, impv:"nodig uit",
+  note:"Separable 'uit-'. Regular base (nodigen \u2192 -de)." },
+{ inf:"weggaan",    en:"to go away",     pat:"sep", aux:"ben", pp:"weggegaan",
+  pres:{ik:"ga weg",jij:"gaat weg",hij:"gaat weg",wij:"gaan weg"},
+  imp:{ik:"ging weg",wij:"gingen weg"}, impv:"ga weg",
+  note:"Separable 'weg-'. Irregular base (gaan). Perfectum with 'zijn'." },
+];
+
+const VERB_PAT_NAMES = {
+  aux: "Auxiliaries",
+  modal: "Modal Verbs",
+  irr: "Irregular",
+  te: "Regular -te",
+  de: "Regular -de",
+  sep: "Separable"
 };
 
-const tbody = document.getElementById('tableBody');
-const clusterSelect = document.getElementById('clusterFilter');
+const VERB_PAT_ORDER = ["aux", "modal", "irr", "te", "de", "sep"];
 
-// Populate cluster filter dropdown
+// ══════════════════════════════════════════════════════════════════════════════
+// VOTING SYSTEM
+// ══════════════════════════════════════════════════════════════════════════════
+
+const STORAGE_KEY = 'dutchvocab-votes';
+const POS_CLASS = { noun:'pos-noun', verb:'pos-verb', adj:'pos-adj', adv:'pos-adv', other:'pos-other' };
+
+// Vote states: 'needs-review', 'not-reviewed', 'mastered'
+let votes = {};
+try {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) votes = JSON.parse(saved);
+} catch(e) { votes = {}; }
+
+function saveVotes() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(votes)); } catch(e) {}
+}
+
+// ── Verb Votes (separate storage) ──
+const VERB_VOTE_KEY = 'dutchverb-votes';
+let verbVotes = {};
+try {
+  const saved = localStorage.getItem(VERB_VOTE_KEY);
+  if (saved) verbVotes = JSON.parse(saved);
+} catch(e) { verbVotes = {}; }
+
+function saveVerbVotes() {
+  try { localStorage.setItem(VERB_VOTE_KEY, JSON.stringify(verbVotes)); } catch(e) {}
+}
+
+function getVerbVote(inf) {
+  return verbVotes[inf] || 'not-reviewed';
+}
+
+function setVerbVote(inf, state) {
+  if (state === 'not-reviewed') {
+    delete verbVotes[inf];
+  } else {
+    verbVotes[inf] = state;
+  }
+  saveVerbVotes();
+}
+
+function getVote(dutch) {
+  return votes[dutch] || 'not-reviewed';
+}
+
+function setVote(dutch, state) {
+  if (state === 'not-reviewed') {
+    delete votes[dutch];
+  } else {
+    votes[dutch] = state;
+  }
+  saveVotes();
+}
+
+// Populate cluster filter
+const clusterSelect = document.getElementById('clusterFilter');
 const clusterSet = [...new Set(WORDS.map(w => w[3]))].sort();
 clusterSet.forEach(c => {
   const opt = document.createElement('option');
   opt.value = c;
-  opt.textContent = (CLUSTER_META[c] || c);
+  opt.textContent = CLUSTER_META[c] || c;
   clusterSelect.appendChild(opt);
 });
 
-function renderTable(filtered) {
-  tbody.innerHTML = '';
-  filtered.forEach(([dutch, eng, pos, cluster]) => {
-    const tr = document.createElement('tr');
-    tr.dataset.cluster = cluster;
-    tr.dataset.pos = pos;
-    const clusterLabel = CLUSTER_META[cluster] || cluster;
-    tr.innerHTML = `
-      <td>${dutch}</td>
-      <td data-label="English:">${eng}</td>
-      <td data-label="POS:"><span class="pos-badge ${POS_CLASS[pos] || 'pos-other'}">${pos}</span></td>
-      <td data-label="Cluster:"><span class="cluster-badge">${clusterLabel}</span></td>
-    `;
-    tbody.appendChild(tr);
+// Card creation
+function createCard(word) {
+  const [dutch, eng, pos, cluster] = word;
+  const vote = getVote(dutch);
+  const card = document.createElement('div');
+  card.className = `vocab-card vote-${vote}`;
+  card.tabIndex = 0;
+  card.dataset.dutch = dutch;
+  card.dataset.pos = pos;
+  card.dataset.cluster = cluster;
+
+  const clusterLabel = CLUSTER_META[cluster] || cluster;
+
+  card.innerHTML = `
+    <div class="card-top">
+      <span class="dutch">${dutch}</span>
+      <span class="vote-btns">
+        <button class="vote-btn vote-btn-down" title="Needs review" aria-label="Mark needs review">&#128078;</button>
+        <button class="vote-btn vote-btn-up" title="Mastered" aria-label="Mark mastered">&#128077;</button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-detail-row">
+        <span class="card-detail-label">English</span>
+        <span>${eng}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">POS</span>
+        <span class="pos-badge ${POS_CLASS[pos] || 'pos-other'}">${pos}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">Cluster</span>
+        <span class="cluster-badge">${clusterLabel}</span>
+      </div>
+    </div>
+  `;
+
+  // Expand/collapse on click
+  card.addEventListener('click', (e) => {
+    if (e.target.closest('.vote-btn')) return;
+    // Collapse any other expanded card
+    const prev = document.querySelector('.vocab-card.expanded');
+    if (prev && prev !== card) prev.classList.remove('expanded');
+    card.classList.toggle('expanded');
   });
-  document.getElementById('visibleCount').textContent = filtered.length;
+
+  // Vote buttons
+  card.querySelector('.vote-btn-down').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const current = getVote(dutch);
+    if (current === 'needs-review') {
+      // Toggle back to not-reviewed
+      setVote(dutch, 'not-reviewed');
+    } else {
+      setVote(dutch, 'needs-review');
+    }
+    card.classList.remove('expanded');
+    renderCards();
+  });
+
+  card.querySelector('.vote-btn-up').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const current = getVote(dutch);
+    if (current === 'mastered') {
+      // Toggle back to not-reviewed
+      setVote(dutch, 'not-reviewed');
+    } else {
+      setVote(dutch, 'mastered');
+    }
+    card.classList.remove('expanded');
+    renderCards();
+  });
+
+  return card;
 }
 
-// Initial render
-renderTable(WORDS);
-
-// ══════════════════════════════════════════════════════════════════════════════
-// SEARCH & FILTER
-// ══════════════════════════════════════════════════════════════════════════════
-function applyFilters() {
+// Get current filter state
+function getFilteredWords() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   const pos = document.getElementById('posFilter').value;
   const cluster = document.getElementById('clusterFilter').value;
-  
-  const filtered = WORDS.filter(([dutch, eng, p, c]) => {
+  return WORDS.filter(([dutch, eng, p, c]) => {
     const matchQ = !q || dutch.toLowerCase().includes(q) || eng.toLowerCase().includes(q);
     const matchPos = !pos || p === pos;
     const matchCluster = !cluster || c === cluster;
     return matchQ && matchPos && matchCluster;
   });
-  
-  renderTable(filtered);
 }
 
-document.getElementById('searchInput').addEventListener('input', applyFilters);
-document.getElementById('posFilter').addEventListener('change', applyFilters);
-document.getElementById('clusterFilter').addEventListener('change', applyFilters);
+// Render all cards into clusters
+function renderCards() {
+  const filtered = getFilteredWords();
+  const containers = {
+    'needs-review': document.getElementById('cards-needs-review'),
+    'not-reviewed': document.getElementById('cards-not-reviewed'),
+    'mastered': document.getElementById('cards-mastered')
+  };
+
+  // Clear
+  Object.values(containers).forEach(c => c.innerHTML = '');
+
+  const counts = { 'needs-review': 0, 'not-reviewed': 0, 'mastered': 0 };
+
+  filtered.forEach(word => {
+    const vote = getVote(word[0]);
+    const card = createCard(word);
+    containers[vote].appendChild(card);
+    counts[vote]++;
+  });
+
+  // Update counts in headers
+  document.getElementById('count-needs-review').textContent = `(${counts['needs-review']})`;
+  document.getElementById('count-not-reviewed').textContent = `(${counts['not-reviewed']})`;
+  document.getElementById('count-mastered').textContent = `(${counts['mastered']})`;
+
+  // Update progress bar (always use full WORDS count for progress)
+  updateProgress();
+
+  // Update category clusters to remove voted words
+  renderCategoryClusters();
+
+  // Update verb conjugation clusters
+  renderVerbClusters();
+}
+
+function updateProgress() {
+  const total = WORDS.length;
+  let r = 0, y = 0, g = 0;
+  WORDS.forEach(([dutch]) => {
+    const v = getVote(dutch);
+    if (v === 'needs-review') r++;
+    else if (v === 'mastered') g++;
+    else y++;
+  });
+
+  document.getElementById('countRed').textContent = r;
+  document.getElementById('countYellow').textContent = y;
+  document.getElementById('countGreen').textContent = g;
+
+  const pR = total ? (r / total * 100) : 0;
+  const pY = total ? (y / total * 100) : 0;
+  const pG = total ? (g / total * 100) : 0;
+
+  document.getElementById('segRed').style.width = pR + '%';
+  document.getElementById('segYellow').style.width = pY + '%';
+  document.getElementById('segGreen').style.width = pG + '%';
+}
+
+// Track which category clusters are expanded
+const expandedCategories = new Set();
+
+// Render category-based clusters
+function renderCategoryClusters() {
+  const categoryContainer = document.getElementById('category-clusters');
+  categoryContainer.innerHTML = ''; // Clear existing
+
+  // Group words by category (only show not-reviewed words, exclude verb conjugation clusters)
+  const byCategory = {};
+  WORDS.forEach(word => {
+    const vote = getVote(word[0]);
+    if (vote !== 'not-reviewed') return; // Skip voted words
+
+    const category = word[3];
+    // Skip verb conjugation clusters (ending with _irr)
+    if (category.endsWith('_irr')) return;
+
+    if (!byCategory[category]) byCategory[category] = [];
+    byCategory[category].push(word);
+  });
+
+  // Sort categories alphabetically
+  const sortedCategories = Object.keys(byCategory).sort((a, b) => {
+    const nameA = CLUSTER_META[a] || a;
+    const nameB = CLUSTER_META[b] || b;
+    return nameA.localeCompare(nameB);
+  });
+
+  // Create cluster for each category (skip if empty)
+  sortedCategories.forEach(category => {
+    const words = byCategory[category];
+    if (words.length === 0) return; // Skip empty categories
+
+    const categoryName = CLUSTER_META[category] || category;
+
+    const clusterDiv = document.createElement('div');
+    clusterDiv.className = 'vote-cluster';
+    clusterDiv.style.marginBottom = '1.5rem';
+
+    const header = document.createElement('div');
+    header.className = 'cluster-header';
+    header.style.background = 'var(--card-bg)';
+    header.style.border = '1px solid var(--card-border)';
+    header.style.color = 'var(--accent-primary)';
+    header.dataset.category = category; // Store category for tracking
+    header.innerHTML = `
+      <span class="cluster-icon">📁</span>
+      <span class="cluster-title">${categoryName}</span>
+      <span class="cluster-count">(${words.length})</span>
+      <span class="collapse-arrow">&#9660;</span>
+    `;
+
+    const cardContainer = document.createElement('div');
+    cardContainer.className = 'card-container';
+    cardContainer.dataset.category = category;
+
+    words.forEach(word => {
+      const card = createCard(word);
+      cardContainer.appendChild(card);
+    });
+
+    // Toggle collapse/expand
+    header.addEventListener('click', () => {
+      header.classList.toggle('collapsed');
+      cardContainer.classList.toggle('collapsed-content');
+
+      // Track expanded state
+      if (header.classList.contains('collapsed')) {
+        expandedCategories.delete(category);
+      } else {
+        expandedCategories.add(category);
+      }
+    });
+
+    // Restore previous expanded state or start collapsed
+    if (expandedCategories.has(category)) {
+      // Keep it expanded
+      header.classList.remove('collapsed');
+      cardContainer.classList.remove('collapsed-content');
+    } else {
+      // Start collapsed
+      header.classList.add('collapsed');
+      cardContainer.classList.add('collapsed-content');
+    }
+
+    clusterDiv.appendChild(header);
+    clusterDiv.appendChild(cardContainer);
+    categoryContainer.appendChild(clusterDiv);
+  });
+}
 
 // ══════════════════════════════════════════════════════════════════════════════
-// RENDER CLUSTER CARDS
+// VERB CONJUGATION CLUSTERS — Expanded Individual Forms
 // ══════════════════════════════════════════════════════════════════════════════
-const clusterMap = {};
-WORDS.forEach(([dutch, , , cluster]) => {
-  if (!clusterMap[cluster]) clusterMap[cluster] = [];
-  clusterMap[cluster].push(dutch);
+
+const expandedVerbClusters = new Set();
+
+const FORM_TYPE_LABELS = {
+  'infinitive': 'Infinitive',
+  'present-ik': 'Present (ik)',
+  'present-jij': 'Present (jij)',
+  'present-hij': 'Present (hij)',
+  'present-wij': 'Present (wij)',
+  'imperfect-ik': 'Imperfect (ik)',
+  'imperfect-wij': 'Imperfect (wij)',
+  'participle': 'Past Participle',
+  'imperative': 'Imperative'
+};
+
+function isPlaceholder(val) {
+  return !val || val === '\u2014' || val === '—' || val === '__________';
+}
+
+function expandVerbsToForms() {
+  const forms = [];
+
+  VERBS.forEach(verb => {
+    const base = {
+      infinitive: verb.inf,
+      pattern: verb.pat,
+      auxiliaryNeeded: verb.aux,
+      note: verb.note || ''
+    };
+
+    // Infinitive card
+    forms.push({
+      dutch: verb.inf,
+      english: `${verb.en} (infinitive)`,
+      formType: 'infinitive',
+      ...base
+    });
+
+    // Present tense forms
+    const presPronouns = { ik: 'ik', jij: 'jij', hij: 'hij', wij: 'wij' };
+    Object.entries(presPronouns).forEach(([key, pronoun]) => {
+      const val = verb.pres[key];
+      if (isPlaceholder(val)) return;
+      // Handle slash variants like "kan/kunt"
+      const variants = val.split('/').map(v => v.trim());
+      variants.forEach(variant => {
+        forms.push({
+          dutch: variant,
+          english: `${verb.en} (${pronoun}, present)`,
+          formType: `present-${key}`,
+          ...base
+        });
+      });
+    });
+
+    // Imperfect forms
+    const impPronouns = { ik: 'ik', wij: 'wij' };
+    Object.entries(impPronouns).forEach(([key, pronoun]) => {
+      const val = verb.imp[key];
+      if (isPlaceholder(val)) return;
+      const variants = val.split('/').map(v => v.trim());
+      variants.forEach(variant => {
+        forms.push({
+          dutch: variant,
+          english: `${verb.en} (${pronoun}, imperfectum)`,
+          formType: `imperfect-${key}`,
+          ...base
+        });
+      });
+    });
+
+    // Past participle
+    if (!isPlaceholder(verb.pp)) {
+      forms.push({
+        dutch: verb.pp,
+        english: `${verb.en.replace(/^to /, '')} (past participle)`,
+        formType: 'participle',
+        ...base
+      });
+    }
+
+    // Imperative
+    if (!isPlaceholder(verb.impv)) {
+      forms.push({
+        dutch: verb.impv,
+        english: `${verb.en.replace(/^to /, '')}! (imperative)`,
+        formType: 'imperative',
+        ...base
+      });
+    }
+  });
+
+  return forms;
+}
+
+const EXPANDED_VERB_FORMS = expandVerbsToForms();
+
+function createVerbFormCard(form) {
+  // Use a composite key: dutch form + infinitive + formType for unique voting
+  const voteKey = `${form.dutch}__${form.infinitive}__${form.formType}`;
+  const vote = getVerbVote(voteKey);
+  const card = document.createElement('div');
+  card.className = `vocab-card verb-card vote-${vote}`;
+  card.tabIndex = 0;
+  card.dataset.dutch = form.dutch;
+  card.dataset.infinitive = form.infinitive;
+  card.dataset.formtype = form.formType;
+
+  const patLabel = VERB_PAT_NAMES[form.pattern] || form.pattern;
+  const formLabel = FORM_TYPE_LABELS[form.formType] || form.formType;
+
+  card.innerHTML = `
+    <div class="card-top">
+      <span class="dutch">${form.dutch}</span>
+      <span class="vote-btns">
+        <button class="vote-btn vote-btn-down" title="Needs review" aria-label="Mark needs review">&#128078;</button>
+        <button class="vote-btn vote-btn-up" title="Mastered" aria-label="Mark mastered">&#128077;</button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-detail-row">
+        <span class="card-detail-label">English</span>
+        <span>${form.english}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">Infinitive</span>
+        <span style="font-weight:600">${form.infinitive}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">Form</span>
+        <span>${formLabel}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">Auxiliary</span>
+        <span>${form.auxiliaryNeeded}</span>
+      </div>
+      <div class="card-detail-row">
+        <span class="card-detail-label">Pattern</span>
+        <span class="verb-pat-badge">${patLabel}</span>
+      </div>
+      ${form.note ? `<div class="verb-note">${form.note}</div>` : ''}
+    </div>
+  `;
+
+  // Expand/collapse
+  card.addEventListener('click', (e) => {
+    if (e.target.closest('.vote-btn')) return;
+    const prev = document.querySelector('.vocab-card.expanded');
+    if (prev && prev !== card) prev.classList.remove('expanded');
+    card.classList.toggle('expanded');
+  });
+
+  // Vote buttons
+  card.querySelector('.vote-btn-down').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const current = getVerbVote(voteKey);
+    setVerbVote(voteKey, current === 'needs-review' ? 'not-reviewed' : 'needs-review');
+    card.classList.remove('expanded');
+    renderVerbClusters();
+  });
+
+  card.querySelector('.vote-btn-up').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const current = getVerbVote(voteKey);
+    setVerbVote(voteKey, current === 'mastered' ? 'not-reviewed' : 'mastered');
+    card.classList.remove('expanded');
+    renderVerbClusters();
+  });
+
+  return card;
+}
+
+function getVerbFormVoteKey(form) {
+  return `${form.dutch}__${form.infinitive}__${form.formType}`;
+}
+
+function renderVerbClusters() {
+  const container = document.getElementById('verb-clusters');
+  container.innerHTML = '';
+
+  const q = document.getElementById('searchInput').value.toLowerCase();
+
+  // Filter forms by search query and vote status
+  const filtered = EXPANDED_VERB_FORMS.filter(f => {
+    const vote = getVerbVote(getVerbFormVoteKey(f));
+    if (vote !== 'not-reviewed') return false; // Skip voted forms
+
+    if (!q) return true; // No search query, include all not-reviewed
+
+    return f.dutch.toLowerCase().includes(q) ||
+           f.english.toLowerCase().includes(q) ||
+           f.infinitive.toLowerCase().includes(q);
+  });
+
+  // Group by pattern
+  const byPat = {};
+  filtered.forEach(form => {
+    if (!byPat[form.pattern]) byPat[form.pattern] = [];
+    byPat[form.pattern].push(form);
+  });
+
+  // Render in defined order
+  VERB_PAT_ORDER.forEach(pat => {
+    const forms = byPat[pat];
+    if (!forms || forms.length === 0) return;
+
+    const patName = VERB_PAT_NAMES[pat] || pat;
+    const clusterKey = 'verb-' + pat;
+
+    const clusterDiv = document.createElement('div');
+    clusterDiv.className = 'vote-cluster';
+    clusterDiv.style.marginBottom = '1.5rem';
+
+    const header = document.createElement('div');
+    header.className = 'cluster-header';
+    header.style.background = 'var(--card-bg)';
+    header.style.border = '1px solid var(--card-border)';
+    header.style.color = 'var(--accent-primary)';
+    header.dataset.category = clusterKey;
+
+    // Count votes within this pattern
+    let nr = 0, ny = 0, ng = 0;
+    forms.forEach(f => {
+      const vote = getVerbVote(getVerbFormVoteKey(f));
+      if (vote === 'needs-review') nr++;
+      else if (vote === 'mastered') ng++;
+      else ny++;
+    });
+
+    const countParts = [];
+    if (nr > 0) countParts.push(`<span style="color:var(--cluster-red)">${nr}&#10060;</span>`);
+    if (ny > 0) countParts.push(`<span style="color:var(--cluster-yellow)">${ny}&#9898;</span>`);
+    if (ng > 0) countParts.push(`<span style="color:var(--cluster-green)">${ng}&#9989;</span>`);
+
+    header.innerHTML = `
+      <span class="cluster-icon">&#128260;</span>
+      <span class="cluster-title">${patName}</span>
+      <span class="cluster-count">(${forms.length}) ${countParts.join(' ')}</span>
+      <span class="collapse-arrow">&#9660;</span>
+    `;
+
+    const cardContainer = document.createElement('div');
+    cardContainer.className = 'card-container';
+
+    forms.forEach(form => {
+      cardContainer.appendChild(createVerbFormCard(form));
+    });
+
+    header.addEventListener('click', () => {
+      header.classList.toggle('collapsed');
+      cardContainer.classList.toggle('collapsed-content');
+      if (header.classList.contains('collapsed')) {
+        expandedVerbClusters.delete(clusterKey);
+      } else {
+        expandedVerbClusters.add(clusterKey);
+      }
+    });
+
+    // Restore state or default to collapsed
+    if (expandedVerbClusters.has(clusterKey)) {
+      header.classList.remove('collapsed');
+      cardContainer.classList.remove('collapsed-content');
+    } else {
+      header.classList.add('collapsed');
+      cardContainer.classList.add('collapsed-content');
+    }
+
+    clusterDiv.appendChild(header);
+    clusterDiv.appendChild(cardContainer);
+    container.appendChild(clusterDiv);
+  });
+}
+
+// Collapse/expand cluster sections
+document.querySelectorAll('.cluster-header').forEach(header => {
+  header.addEventListener('click', () => {
+    header.classList.toggle('collapsed');
+    const container = header.nextElementSibling;
+    container.classList.toggle('collapsed-content');
+  });
 });
 
-const clusterGrid = document.getElementById('clusterGrid');
-Object.entries(clusterMap)
-  .sort((a, b) => (CLUSTER_META[a[0]] || a[0]).localeCompare(CLUSTER_META[b[0]] || b[0]))
-  .forEach(([id, words]) => {
-    const card = document.createElement('div');
-    card.className = 'cluster-card';
-    card.innerHTML = `
-      <div class="cluster-id">${id}</div>
-      <div class="cluster-label">
-        ${CLUSTER_META[id] || id}
-        <span style="color:#888;font-weight:400">(${words.length})</span>
-      </div>
-      <div class="words">${words.join(' · ')}</div>
-    `;
-    clusterGrid.appendChild(card);
-  });
+// Filters
+document.getElementById('searchInput').addEventListener('input', renderCards);
+document.getElementById('posFilter').addEventListener('change', renderCards);
+document.getElementById('clusterFilter').addEventListener('change', renderCards);
+
+// Reset button
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if (confirm('Reset all votes? This cannot be undone.')) {
+    votes = {};
+    saveVotes();
+    verbVotes = {};
+    saveVerbVotes();
+    renderCards();
+  }
+});
+
+// Close expanded card when clicking outside
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.vocab-card')) {
+    const expanded = document.querySelector('.vocab-card.expanded');
+    if (expanded) expanded.classList.remove('expanded');
+  }
+});
+
+// Initial render
+renderCards();
+renderCategoryClusters();
+renderVerbClusters();
 
 </script>
 
